@@ -1,0 +1,1333 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            the Crystal Caves~
+Author          Unknown~
+Vnums           18000 18400
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       30
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        18000
+Keywords   blue gel crystal~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Blue Gel~
+Long       A small blue gel is here absorbing crystals.
+~
+Desc       The blue gel is slithering over the crystals on the floor.  Strange..
+there seems to be something glittering inside the gel.
+~
+Nattacks   1.000000
+Stats1     100 0 60 100 150 250
+Stats2     0 20 10 4 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18010
+Keywords   green blob crystal~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Green Blob~
+Long       A green blob is just sitting here.
+~
+Desc       The green blob doesn't seem to be moving.
+~
+Nattacks   1.000000
+Stats1     100 0 60 100 150 250
+Stats2     0 20 10 5 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18020
+Keywords   red slime crystal~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Red Slime~
+Long       A large red slime is dissolving crystals.
+~
+Desc       The red slime is corroding the crystals for food.  Something shiny can
+be seen inside it.
+~
+Nattacks   1.000000
+Stats1     200 0 60 100 150 250
+Stats2     1 20 9 12 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18030
+Keywords   spider gemspider gem-spider crystal~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Gem Spider~
+Long       A gem spider is crawling over the walls of the cave.
+~
+Desc       You are looking at a spider that seems to be made of living crystal.
+It is crawling towards you.
+~
+Nattacks   1.000000
+Stats1     200 0 60 100 150 250
+Stats2     1 20 9 18 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18040
+Keywords   wardog dog crystal~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Crystal War Dog~
+Long       A dog of slightly luminous crystal is prowling around here.
+~
+Desc       The dog appears strong and alert.  And those teeth look VERY sharp.
+~
+Nattacks   1.000000
+Stats1     250 0 60 100 150 250
+Stats2     2 19 8 22 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18050
+Keywords   Gemwarrior warrior crystal~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The GemWarrior~
+Long       A GemWarrior is here, searching the caverns.
+~
+Desc       A warrior of living crystal stands before you.  His expression is as
+cold as the stone he is made of.
+~
+Nattacks   1.000000
+Stats1     400 0 60 100 150 250
+Stats2     3 18 7 34 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18060
+Keywords   Gemguard guard crystal~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The GemGuard~
+Long       A GemGuard is here, looking anxiously at you.
+~
+Desc       A guard of animate crystal is readying to fight.  He looks very strong
+and tough
+~
+Nattacks   1.000000
+Stats1     500 0 60 100 150 250
+Stats2     4 17 6 48 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18070
+Keywords   Gemsentry sentry crystal~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The GemSentry~
+Long       A GemSentry is here. 
+~
+Desc       A sentry of magnificent prismatic gemstone is here.  He looks ready for
+battle and tough as diamond.
+~
+Nattacks   1.000000
+Stats1     700 0 60 100 150 250
+Stats2     5 16 5 60 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        18080
+Keywords   Gemlord lord crystal~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The GemLord~
+Long       A GemLord is here, ready for combat.
+~
+Desc       The mighty lord of the Gem Warriors stands before you.  His body and weapons
+are of extremely strong and sharp crystal.  He is obviously a formidable
+foe.
+~
+Nattacks   1.000000
+Stats1     800 0 60 100 150 250
+Stats2     6 15 4 75 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        18000
+Keywords   sign crystal~
+Type       paper~
+Short      A large sign~
+Long       A large sign is posted here.  It looks important.
+~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  sign writing~
+ExDesc                               The Crystal Caves
+                        (Written by Prospero)
+     There are three levels of chambers in the Crystal Caves filled with
+strange and unusual creatures.  This area is designed for newbies only, 
+providing good experience and gold.  Only levels 5 and below are allowed
+to enter.
+     WARNING:  Some of the creatures inhabiting the deepest caverns are
+VERY dangerous.  Do not visit them alone.
+ 
+-------------------------------------------------------------------------
+     This area was written by Prospero.  Since it is new, please mail any
+comments, typos or bugs to "Prospero".
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        18010
+Keywords   green crystal shard gem~
+Type       light~
+Short      a green crystal~
+Long       An oblong shard of green crystal lies here.~
+Flags      glow~
+WFlags     take hold~
+Values     0 0 24 0 0 0 0 0 0 0 0
+Stats      0 60 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        18020
+Keywords   pink crystal~
+Type       treasure~
+Short      a pink crystal~
+Long       A perfect crystal of clear pink lies here~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      0 200 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        18030
+Keywords   crystal sword~
+Type       weapon~
+Short      the crystal sword~
+Long       A sword made of transluscent crystal lies here~
+WFlags     take wield~
+Values     0 2 4 1 0 0 0 0 0 0 0
+Stats      0 900 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        18040
+Keywords   crystal sword~
+Type       weapon~
+Short      the crystal sword~
+Long       A sword made of transluscent crystal lies here.~
+Flags      glow antievil~
+WFlags     take wield~
+Values     0 2 5 1 0 0 0 0 0 0 0
+Stats      0 2700 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        18050
+Keywords   crystal sword~
+Type       weapon~
+Short      the crystal sword~
+Long       A sword made of transluscent crystal lies here.~
+Flags      glow hum antievil~
+WFlags     take wield~
+Values     0 2 5 1 0 0 0 0 0 0 0
+Stats      0 3025 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        18060
+Keywords   crystal shield~
+Type       armor~
+Short      a crystal shield~
+Long       A shield of rose-colored crystal lies here.~
+Flags      antievil~
+WFlags     take shield~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      0 625 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        18070
+Keywords   amethyst shard crystal~
+Type       weapon~
+Short      A shard of amethyst~
+Long       A sharp edged shard of amethyst crystal lies here.~
+Flags      antievil~
+WFlags     take wield~
+Values     0 3 3 6 0 0 0 0 0 0 0
+Stats      0 2200 0 9999 0 None None None
+AffData    Constitution -1 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        18000
+Name       Entrance to the Crystal Caves~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You are standing at the entrance to a cave to the west.  On the path which
+continues back east you see a few very small crystals.  There is a small
+sign carved in the crystal, near the entrance.
+~
+#EXIT
+Direction  East~
+ToRoom     3550
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18010
+Desc       A strange green-pink light glows from within.
+~
+#ENDEXIT
+Reset O    18000 1 18000 -1 -1 -1 100
+#EXDESC
+ExDescKey  crystal crystals~
+ExDesc     They are quite pretty, but unfortunately also quite worthless
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        18010
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing within a large cavern which is made entirely of crystals.  The
+room is lit by a few glowing crystals whose light is reflected by the crystal
+walls.  Be careful around those walls though, the crystals look awfully sharp.
+To the east, you see a tunnel opening out into the wilderness.
+~
+#EXIT
+Direction  North~
+ToRoom     18020
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18000
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18030
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18040
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     18060
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     18050
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18020
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.
+~
+#EXIT
+Direction  South~
+ToRoom     18010
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18050
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     18040
+#ENDEXIT
+Reset M    18000 15 18020 -1 -1 -1 100
+Reset M    18000 15 18020 -1 -1 -1 25
+#ENDROOM
+
+#ROOM
+Vnum        18030
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.
+~
+#EXIT
+Direction  North~
+ToRoom     18010
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18060
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     18040
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18040
+Name       Center of Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the middle of a huge cavern which looks like it is made of solid
+crystal.  The cave opens around you in all directions.
+~
+#EXIT
+Direction  North~
+ToRoom     18050
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18010
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18060
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18070
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     18020
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     18030
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     18090
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     18080
+#ENDEXIT
+Reset M    18010 12 18040 -1 -1 -1 25
+Reset M    18000 15 18040 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18050
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.
+~
+#EXIT
+Direction  East~
+ToRoom     18020
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18040
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18080
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     18010
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     18070
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18060
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.
+~
+#EXIT
+Direction  North~
+ToRoom     18040
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18030
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18090
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     18010
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     18070
+#ENDEXIT
+Reset M    18030 10 18060 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18070
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.  To the west there is a small crevice you think
+you could just squeeze through.
+~
+#EXIT
+Direction  North~
+ToRoom     18080
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18040
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18090
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18100
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     18050
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     18060
+#ENDEXIT
+Reset M    18010 12 18070 -1 -1 -1 100
+Reset M    18000 15 18070 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18080
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.
+~
+#EXIT
+Direction  East~
+ToRoom     18050
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18070
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     18040
+#ENDEXIT
+Reset M    18020 10 18080 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18090
+Name       Crystal Cave~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a cavern of crystal.  The walls glow with a soft light
+illuminating the chamber.
+~
+#EXIT
+Direction  North~
+ToRoom     18070
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18060
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     18040
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18100
+Name       Small Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a smaller chamber of crystal.  The light is brighter in here and has a
+greenish tint to it.  The walls look almost alive as the light changes along
+the crystalline shards.  You could squeeze through the small crack to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     18110
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18070
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18120
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     18130
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18110
+Name       Small Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a smaller chamber of crystal.  The light is brighter in here and has a
+greenish tint to it.  The walls look almost alive as the light changes along
+the crystalline shards.
+~
+#EXIT
+Direction  South~
+ToRoom     18100
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18130
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     18120
+#ENDEXIT
+Reset M    18020 10 18110 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18120
+Name       Small Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a smaller chamber of crystal.  The light is brighter in here and has a
+greenish tint to it.  The walls look almost alive as the light changes along
+the crystalline shards.
+~
+#EXIT
+Direction  North~
+ToRoom     18130
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18100
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     18110
+#ENDEXIT
+Reset M    18030 10 18120 -1 -1 -1 100
+Reset M    18010 12 18120 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18130
+Name       Small Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a smaller chamber of crystal.  The light is brighter in here and has a
+greenish tint to it.  The walls look almost alive as the light changes along
+the crystalline shards.  In the corner there is a small tunnel which leads 
+downwards at quite a steep angle.
+~
+#EXIT
+Direction  East~
+ToRoom     18110
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18120
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     18140
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     18100
+#ENDEXIT
+Reset M    18040 8 18130 -1 -1 -1 20
+  Reset G  18020 500 25
+#ENDROOM
+
+#ROOM
+Vnum        18140
+Name       End of the tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the west end of a long tunnel leading as far as you can see.  There is
+a small steep passage leading up from here.
+~
+#EXIT
+Direction  East~
+ToRoom     18150
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     18130
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18150
+Name       T-Junction~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A long east-west tunnel continues as far as you can see in both directions.
+A smaller branch of the tunnel leads south from here.
+~
+#EXIT
+Direction  East~
+ToRoom     18250
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18160
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18140
+#ENDEXIT
+Reset M    18030 10 18150 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18160
+Name       Another Branch~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the middle of a small north-south passage.  All around you are walls
+of glowing crystal.  To the east a small hole opens up into a chamber.
+~
+#EXIT
+Direction  North~
+ToRoom     18150
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18200
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18170
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18170
+Name       A turn in the tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the southern end of a north-south tunnel of solid crystal.  It turns
+here to lead to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     18160
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18180
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18180
+Name       U-Turn~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This branch of the crystal tunnel turns north here, completing the small u-turn
+of the caves.  To the north the tunnel widens out a little.
+~
+#EXIT
+Direction  North~
+ToRoom     18190
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18170
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18190
+Name       Circular Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The tunnel opens up into a very small room that is almost a perfect circle.
+The light here is almost blinding from the glowing green crystals that make
+up the walls.
+~
+#EXIT
+Direction  South~
+ToRoom     18180
+#ENDEXIT
+Reset M    18020 10 18190 -1 -1 -1 100
+Reset M    18020 10 18190 -1 -1 -1 100
+  Reset G  18010 999 65
+#ENDROOM
+
+#ROOM
+Vnum        18200
+Name       Rainbow Cavern~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The small chamber here is almost stunning in its beauty.  Crystals of pink,
+red, green, yellow, blue and violet all glinting in the brilliance of
+the room.  The walls look almost alive with the movement of the colors.
+A tunnel leads west from here.
+~
+#EXIT
+Direction  East~
+ToRoom     18230
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18210
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18160
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     18220
+#ENDEXIT
+Reset M    18040 8 18200 -1 -1 -1 100
+Reset M    18040 8 18200 -1 -1 -1 100
+  Reset G  18020 500 50
+#ENDROOM
+
+#ROOM
+Vnum        18210
+Name       Rainbow Cavern~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The small chamber is brilliant with the many-colored lights coming from the
+walls.
+~
+#EXIT
+Direction  North~
+ToRoom     18200
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18220
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     18230
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18220
+Name       Rainbow Cavern~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The small chamber is brilliant with the many-colored lights coming from the
+walls.
+~
+#EXIT
+Direction  North~
+ToRoom     18230
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18210
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     18200
+#ENDEXIT
+Reset M    18050 6 18220 -1 -1 -1 100
+Reset M    18050 6 18220 -1 -1 -1 40
+#ENDROOM
+
+#ROOM
+Vnum        18230
+Name       Rainbow Cavern~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The small chamber is brilliant with the many-colored lights coming from the
+walls.
+Barely visible through the light is a small crack leading eastwards.
+~
+#EXIT
+Direction  East~
+ToRoom     18240
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18220
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18200
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     18210
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18240
+Name       Three-way Intersection~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The tunnel continues to the north and south from here.  There is a light that
+keeps changing colors coming from the west.
+~
+#EXIT
+Direction  North~
+ToRoom     18320
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18330
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18230
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18250
+Name       Middle Of A Long Tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the middle of a long east-west tunnel of glowing crystal.  It extends
+beyond sight in both directions.
+~
+#EXIT
+Direction  East~
+ToRoom     18260
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18150
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18260
+Name       East Along The Long Tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The long tunnel of crystal turns north from here.  A smaller passage
+leads to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     18280
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18270
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18250
+#ENDEXIT
+Reset M    18040 8 18260 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18270
+Name       Dead End~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The tunnel ends here in a small little alcove.  The light is much dimmer
+here, and the walls are almost absent of crystal entirely.
+~
+#EXIT
+Direction  West~
+ToRoom     18260
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18280
+Name       A Bend In The Tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The tunnel of crystal continues east from here.  It bends to the south
+leading to another area of the caverns.
+~
+#EXIT
+Direction  East~
+ToRoom     18290
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18260
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18290
+Name       A Short Tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The tunnel narrows as it continues east from here.
+~
+#EXIT
+Direction  East~
+ToRoom     18300
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18280
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18300
+Name       Another Turn~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The crystal walls fill this area with a soft light as the tunnel leads
+both west and south from here.
+~
+#EXIT
+Direction  South~
+ToRoom     18310
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18290
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18310
+Name       Twisting Tunnel~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The tunnel turns again here.  It leads both to the north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     18300
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18320
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18320
+Name       Yet Another Turn~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Doesn't this tunnel ever end??  The green light from the crystals illuminate
+the way to the south as well as the smaller tunnel leading east.
+~
+#EXIT
+Direction  East~
+ToRoom     18310
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18240
+#ENDEXIT
+Reset M    18030 10 18320 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18330
+Name       Carved Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This chamber is obviously not natural, but carefully carved out of the
+luminous crystal.  It has perfectly square corners and has a carefully
+carved staircase leading down.
+~
+#EXIT
+Direction  North~
+ToRoom     18240
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     18340
+#ENDEXIT
+Reset M    18050 6 18330 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        18340
+Name       Jeweled Antechamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The crystal walls here are carefully carved in great detail which is
+reminiscent of a great hall in a wealthy castle.  A marble staircase
+leads up from here as the hall leads to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     18350
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     18330
+#ENDEXIT
+Reset M    18060 6 18340 -1 -1 -1 100
+Reset M    18060 6 18340 -1 -1 -1 100
+  Reset E  18030 999 16 35
+#ENDROOM
+
+#ROOM
+Vnum        18350
+Name       Four-Way Corridor~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The great east-west corridor continues here and intersects with a smaller
+passage leading north and south through a number of chambers.
+~
+#EXIT
+Direction  North~
+ToRoom     18380
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     18340
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18390
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18360
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18360
+Name       Guard Room~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a small chamber where guards could be placed to protect entrance to
+the great chamber to the west.  The hall continues back to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     18350
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     18370
+#ENDEXIT
+Reset M    18070 4 18360 -1 -1 -1 100
+  Reset E  18030 999 16 100
+  Reset E  18060 999 11 5
+Reset M    18070 4 18360 -1 -1 -1 80
+  Reset E  18030 999 16 100
+#ENDROOM
+
+#ROOM
+Vnum        18370
+Name       Great Crystal Hall~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This chamber is elegantly carved out of the glowing crystals.  All of the
+furnishings are part of this crystal including the brilliant glowing
+throne that is raised at the end of the chamber.
+~
+#EXIT
+Direction  East~
+ToRoom     18360
+#ENDEXIT
+Reset M    18080 1 18370 -1 -1 -1 20
+  Reset E  18050 10 16 100
+Reset M    18080 1 18370 -1 -1 -1 100
+  Reset E  18040 999 16 100
+  Reset E  18060 999 11 15
+Reset M    18070 4 18370 -1 -1 -1 65
+  Reset E  18030 999 16 100
+  Reset E  18060 999 11 15
+Reset M    18070 4 18370 -1 -1 -1 180
+  Reset E  18070 100 16 100
+#ENDROOM
+
+#ROOM
+Vnum        18380
+Name       North Side Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a small side chamber leading off of the main great hall.  Strewn
+across the floor are tiny worthless shards of crystal.
+~
+#EXIT
+Direction  South~
+ToRoom     18350
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18390
+Name       South Side Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is another small side chamber diverging from the main hall.  The
+floor is perfectly smooth and clear of any debris.  There is another passage
+to the south leading to another chamber.
+~
+#EXIT
+Direction  North~
+ToRoom     18350
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     18400
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        18400
+Name       Armory Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This chamber is cluttered with tools and tables.  There are various
+broken artifacts of crystal that make it obvious that it was here that
+the crystal weapons were made.
+~
+#EXIT
+Direction  North~
+ToRoom     18390
+#ENDEXIT
+Reset M    18060 6 18400 -1 -1 -1 60
+  Reset E  18030 999 16 100
+  Reset E  18060 999 11 45
+#ENDROOM
+
+#ENDAREA

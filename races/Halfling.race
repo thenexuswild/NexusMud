@@ -1,0 +1,32 @@
+Version     1
+Name        Halfling~
+Race        3
+Classes     Cleric Rogue Warrior Bard~
+Str_Plus    -2
+Dex_Plus    2
+Wis_Plus    -1
+Int_Plus    0
+Con_Plus    1
+Cha_Plus    0
+Lck_Plus    3
+Hit         -3
+Mana        10
+Affected    infrared~
+Resist      poison charm~
+Language    halfling~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   104
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     48
+Weight     80
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'curiosity' 7 90
+Skill 'nimbleness' 40 85
+Skill 'trip' 65 80
+End

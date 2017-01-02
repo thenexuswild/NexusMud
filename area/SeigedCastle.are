@@ -1,0 +1,2964 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            the Seiged Castle~
+Author          Unknown~
+Vnums           14600 14698
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       60
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        14600
+Keywords   squire m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a young squire~
+Long       A young squire in search of his master is here.
+~
+Desc       He is a boy of 15 or 16 and appears to be well on his way to becoming a 
+knight.
+~
+Nattacks   2.000000
+Stats1     0 100 60 100 150 250
+Stats2     15 5 6 190 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea wimpy~
+Affected   sanctuary hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14601
+Keywords   archer m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the archer~
+Long       A royal archer stands here.
+~
+Desc       The archer is dressed in grey and has strong arms and seem to stare 1000 
+meters
+into the distance.
+~
+Nattacks   2.000000
+Stats1     -100 100 60 100 150 250
+Stats2     17 4 5 215 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14602
+Keywords   black knight m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the black knight~
+Long       The Black Knight, the king's bodyguard stands solemnly.
+~
+Desc       The knight is clad in the darkest black armor you have ever seen.  His 
+mastery
+of art of fighting fills you with awe.
+~
+Nattacks   3.000000
+Stats1     -200 5000 60 100 150 250
+Stats2     30 -4 -4 900 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14603
+Keywords   nurse m146~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the nurse~
+Long       A nurse dressed in white sits here. 
+~
+Desc       The nurse appears worn out from tending to ill and injured patients.  She is
+quite large and a sponge bath from her might not be as pleasant as you would
+wish it to be.
+~
+Nattacks   2.000000
+Stats1     500 1200 60 100 150 250
+Stats2     17 4 5 215 3 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14604
+Keywords   king degrance m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      King deGrance~
+Long       King deGrance sits here with a worried look on his brow.
+~
+Desc       The king appears very worried, and wouldn't you if your castle was under
+attack.  He is lost in his thoughts of how he can not only retain his kingdom
+but how to keep his life.
+~
+Nattacks   4.000000
+Stats1     100 100000 60 100 150 250
+Stats2     39 -10 -10 5900 8 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14605
+Keywords   queen wife julia Julia m146~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Queen deGrance~
+Long       The wife of King deGrance, Julia admires herself in the mirror.
+~
+Desc       Julia is a very gorgeous woman of about 24.  Her hair is long and silky, and
+her clothes are very ornate.  The look of adoration is upon her face, 
+whether it is adoration of the king or herself you can't tell.
+~
+Nattacks   3.000000
+Stats1     1000 25000 60 100 150 250
+Stats2     30 -4 -4 1260 4 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14606
+Keywords   cook chef henri m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the king's chef~
+Long       The king's master chef, Henri, is clearing the table.
+~
+Desc       The chef is big and burly from sampling his work and carrying barrels of 
+ingredients.  He is not the man to complain to about a fly in your soup.
+~
+Nattacks   2.000000
+Stats1     100 2000 60 100 150 250
+Stats2     21 0 3 349 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14607
+Keywords   smith royal black m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the royal blacksmith~
+Long       The royal blacksmith is pounding out a piece of metal.
+~
+Desc       The smith is strong from years of creating armor for the king and his manly
+muscles bulge as he raises and lowers his arm.
+~
+Nattacks   3.000000
+Stats1     150 10000 60 100 150 250
+Stats2     30 -7 -4 2490 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   sanctuary fireshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14608
+Keywords   stableman man m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the stableman~
+Long       The stableman is busy cleaning out the horse stalls.
+~
+Desc       The stableman is a plain looking man and appears to be a hard worker.
+~
+Nattacks   2.000000
+Stats1     250 100 60 100 150 250
+Stats2     16 5 5 200 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14609
+Keywords   elite guard guardsman m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the elite guardsman~
+Long       An elite guardsman stands here protecting.
+~
+Desc       The member of the elite guard has a sworn duty to protect the castle from
+all intuders.  It appears that he is well suited for the job
+~
+Nattacks   4.000000
+Stats1     500 1000 60 100 150 250
+Stats2     31 -6 -5 2100 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14610
+Keywords   protector vault m146~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the vault protector~
+Long       The vault protector see you and prepares to attack. 
+~
+Desc       The vault protector is a fighting machine.  It will not stop attacking until
+either you or it is dead.
+~
+Nattacks   4.000000
+Stats1     1000 50000 60 100 150 250
+Stats2     32 -8 -6 2700 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14611
+Keywords   basher m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the basher~
+Long       A basher is attempting to knock down the castle door.
+~
+Desc       The basher is a bulky man who seems to be intent on busting the door down.
+~
+Nattacks   2.000000
+Stats1     -300 1 60 100 150 250
+Stats2     16 5 5 210 2 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14612
+Keywords   crock crocodile m146~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the crocodile~
+Long       A long, green and brown crocodile lunges at you!
+~
+Desc       These ferocious creatures are one of the main dangers of swimming in a moat.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     12 9 7 160 2 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14613
+Keywords   mud beast m146~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the mud beast~
+Long       A huge, humanoid like mound of mud stands here on the bottom of the moat.
+~
+Desc       The mud beast resents your intrusion into its home and prepares to make you
+pay dearly.  This evil creature is a massive mound of mud containing 
+decaying 
+plant and animal matter. 
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     18 3 5 230 3 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14614
+Keywords   armored fighter m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the armored fighter~
+Long       An armor-clad fighter stands here.
+~
+Desc       The fighter seems to be proficient in the art of war and looks as if he has
+seen his share of battles.
+~
+Nattacks   3.000000
+Stats1     150 2000 60 100 150 250
+Stats2     30 -1 -4 540 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis sanctuary iceshield sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14615
+Keywords   knight m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the knight~
+Long       An brave knight stands here ready to serve his king.
+~
+Desc       The knight is a handsome man with a full beard.  His armor fits him well and
+he probably owns a great deal of land in the kingdom.
+~
+Nattacks   3.000000
+Stats1     450 6000 60 100 150 250
+Stats2     28 -3 1 650 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14616
+Keywords   hermes trismegistus tris m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Hermes Trismegistus~
+Long       The great alchemist Hermes Trismegistus is busy at work on his treatises.
+~
+Desc       Hermes Trismegistus - Hermes the Thrice Greatest, is a very hard working man
+who is writting down one of his 36,000 treatises.
+~
+Nattacks   3.000000
+Stats1     800 0 60 100 150 250
+Stats2     30 -4 -4 1200 4 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14617
+Keywords   count cagliostro m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Count~
+Long       Count Cagliostro is occupied trying to turn base metals to gold.
+~
+Desc       The Count appears to be a shifty fellow and you don't trust him.
+~
+Nattacks   4.000000
+Stats1     -400 0 60 100 150 250
+Stats2     38 -10 -10 3500 8 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14618
+Keywords   altotus m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Altotus~
+Long       Altotus is sitting here pondering his thoughts.
+~
+Desc       Altotus is one of the wisest alchemists and has, in fact, taught 
+Giuseppe Balsamo, also know as Count Cagliostro, in the mystical 
+arts.  This mysterious Greek is dressed like an oriental, caftan 
+and all. 
+~
+Nattacks   4.000000
+Stats1     800 0 60 100 150 250
+Stats2     34 -6 -8 2000 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14619
+Keywords   dog greyhound m146~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   resting~
+DefPos     resting~
+Short      the greyhound~
+Long       The Albanian greyhound of Altotus is lying here.
+~
+Desc       The dog is a fine example of a pure-bred Albanian greyhound.  He looks 
+friendly as long as you don't disturb him.
+~
+Nattacks   3.000000
+Stats1     100 0 60 100 150 250
+Stats2     25 -1 0 600 4 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14620
+Keywords   geber m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Geber~
+Long       Geber, a strange Arabian, is praying to Meca for divine guidance.
+~
+Desc       Geber pays you no attention as he praises Allah.  He appears to be a
+devout man and one possessing a great deal of knowledge.
+~
+Nattacks   4.000000
+Stats1     800 0 60 100 150 250
+Stats2     33 -5 -7 1700 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14621
+Keywords   paracelsus m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Paracelsus~
+Long       Paracelsus is intensely working on a wonderous medicine.
+~
+Desc       Phillipus Theophrastus Bombastus von Hohenheim, or Paracelsus is an 
+enthusiastic searcher for the truth.  His research is in the field of
+medicine instead of the pursuit of a Philosopher's Stone that will 
+turn base metal to gold.
+~
+Nattacks   4.000000
+Stats1     800 0 60 100 150 250
+Stats2     33 -5 -7 1700 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14622
+Keywords   wei po-yang m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Wei Po-Yang~
+Long       The Chinese alchemist Wei Po-Yang is preparing Elixir Vitae.
+~
+Desc       Po-Yang is a man learned in medicine and doesn't fool around with
+searching for things to bring material wealth.  He is almost done making 
+the elixir of life.
+~
+Nattacks   4.000000
+Stats1     800 0 60 100 150 250
+Stats2     37 -9 -10 2800 8 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        14623
+Keywords   elite guard guardsman m146~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the elite guardsman~
+Long       An elite guardsman stands here protecting.
+~
+Desc       The member of the elite guard has a sworn duty to protect the castle from
+all intuders.  It appears that he is well suited for the job
+~
+Nattacks   4.000000
+Stats1     500 1000 60 100 150 250
+Stats2     31 -6 -5 2100 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        14600
+Keywords   sword runed o146~
+Type       weapon~
+Short      a runed sword~
+Long       An extremely clean sword lies on the floor.~
+Flags      magic~
+WFlags     take wield~
+Values     0 10 2 1 0 0 0 0 0 0 0
+Stats      6 1750 0 9999 0 None None None
+AffData    hitroll 5 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#EXDESC
+ExDescKey  sword runes~
+ExDesc     The runed sword is very shiny and the runes say 'Germ Killer'
+on one side and 'Plaque Slayer' on the other side.
+Your mouth feels clean and fresh.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14601
+Keywords   stone philosopher philo o146~
+Type       light~
+Short      a philosopher's stone~
+Long       A piece of the Philosopher's Stone lies here.~
+Flags      magic~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 25000 0 9999 0 None None None
+AffData    mana 50 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  philosopher's stone
+This is a mere shard of the fabled Philosopher's Stone.  Because is it 
+not whole it probably won't work as it was intended.~
+ExDesc     
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14602
+Keywords   vial vitality o146~
+Type       potion~
+Short      a vial of vitality~
+Long       A small vial containing a reddish liquid lies here.~
+Flags      magic~
+WFlags     take hold~
+Values     0 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  vial liquid~
+ExDesc     This reddish liquid seems to hold great power, even for its small size.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14603
+Keywords   girth iron o146~
+Type       armor~
+Short      an iron girth~
+Long       An dull iron girth has been left here.~
+Flags      magic~
+WFlags     take waist~
+Values     32 32 0 0 0 0 0 0 0 0 0
+Stats      10 4000 0 9999 0 None None None
+AffData    Strength 3 -1 -1 0
+#EXDESC
+ExDescKey  dull iron girth~
+ExDesc     This is a rather large girth made of iron.  It is rusting in several
+places and there is a hinge in back.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14604
+Keywords   ring diamond thick o146~
+Type       treasure~
+Short      a man's diamond ring~
+Long       A thick banded, half carat diamond ring lies on the ground.~
+Flags      antineutral~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      20 7000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Constitution 2 -1 -1 0
+#EXDESC
+ExDescKey  diamond ring thick~
+ExDesc     This ring appears to be a wedding ring, most likely that of a man.
+It is sturdily made of fine gold and a diamond you estimate to be
+a half carat.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14605
+Keywords   ring diamond thin o146~
+Type       treasure~
+Short      a woman's diamond ring~
+Long       A thin banded, one carat diamond ring lies on the ground.~
+Flags      antineutral~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      20 6000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Intelligence 2 -1 -1 0
+#EXDESC
+ExDescKey  diamond ring thin~
+ExDesc     This ring appears to be a wedding ring, most likely that of a woman.
+It is elequently made of fine gold and a diamond you estimate to be
+a full carat.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14606
+Keywords   plate shiny breast o146~
+Type       armor~
+Short      a shiny breast plate~
+Long       An untarnished, shiny breast plate lies here on the ground.~
+Flags      glow~
+WFlags     take body~
+Values     27 27 0 0 0 0 0 0 0 0 0
+Stats      50 12000 0 9999 0 None None None
+AffData    hitroll 4 -1 -1 0
+#EXDESC
+ExDescKey  shiny breast plate~
+ExDesc     This breast plate seems to be made out of highly polished silver and
+it is possible to see your reflection in it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14607
+Keywords   collar jeweled o146~
+Type       treasure~
+Short      a jeweled collar~
+Long       An jewel-encrusted collar has been left here.~
+Flags      magic~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 7000 0 9999 0 None None None
+AffData    hit 10 -1 -1 0
+#EXDESC
+ExDescKey  jeweled jewel collar~
+ExDesc     Various precious gems are set in this collar of gold and leather.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14608
+Keywords   hammer o146~
+Type       weapon~
+Short      a smith's hammer~
+Long       A very heavy smith's hammer lies here.~
+WFlags     take wield~
+Values     0 3 5 4 0 0 0 0 0 0 0
+Stats      15 5000 0 9999 0 None None None
+#EXDESC
+ExDescKey  hammer~
+ExDesc     This hammer appears to be used for pounding out metal into armor.  The
+humm that it emits leads you to believe that it is used for magic armor.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        14609
+Keywords   quiver o146~
+Type       container~
+Short      a quiver~
+Long       A quiver intended to hold arrows lies here.~
+WFlags     take about~
+Values     25 0 0 10 0 0 0 0 0 0 0
+Stats      3 50 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        14610
+Keywords   longbow long bow o146~
+Type       weapon~
+Short      a longbow~
+Long       A Welsh longbow is lying here.~
+WFlags     take wield~
+Values     0 3 9 4 0 0 0 0 0 0 0
+Stats      13 10000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        14611
+Keywords   kau-sin-ke chain o146~
+Type       weapon~
+Short      a kau-sin-ke~
+Long       There is an odd pile of metal rods and chain here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 6 4 4 0 0 0 0 0 0 0
+Stats      2 20000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    hit 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        14612
+Keywords   elixir life o146~
+Type       potion~
+Short      Elixir of Life~
+Long       A powerful looking potion has been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     30 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        14613
+Keywords   caftan altotus o146~
+Type       treasure~
+Short      Altotus' Caftan~
+Long       A nice looking caftan has been left here.~
+Flags      magic~
+WFlags     take about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 5000 0 9999 0 None None None
+AffData    mana 25 -1 -1 0
+AffData    Wisdom 1 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        14614
+Keywords   elixer health o146~
+Type       potion~
+Short      Elixer of Health~
+Long       A wonderous medicine has been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     30 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        14615
+Keywords   tablet emerald o146~
+Type       light~
+Short      The Emerald Tablet~
+Long       The veiled instructions to the Philosopher's Stone are written on this tablet.~
+Flags      glow magic~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    Intelligence 3 -1 -1 0
+AffData    Wisdom 3 -1 -1 0
+#EXDESC
+ExDescKey  tablet emerald~
+ExDesc     1) ADST QA ADFGLA DGADHF
+2) TWRYI DHGSF JRYJLK G HMSF H YJR LE
+3) KDO GH JKJSW TKKTUI TUKF JMXCV ZERYW YIU
+
+That's it. It's easy. Have fun.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#ROOM
+Vnum        14600
+Name       Solid Oak Door~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This is the main enterance to the castle.  The heavy oak door appears sturdy
+enough that many men with a battering ram could not bash it down.  There must
+be a better way to get inside the castle.
+~
+#EXIT
+Direction  East~
+ToRoom     14601
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14624
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14623
+#ENDEXIT
+Reset M    14611 3 14600 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14601
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take its height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14602
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14600
+#ENDEXIT
+Reset M    14600 13 14601 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14602
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take its height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14603
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14601
+#ENDEXIT
+Reset M    14600 15 14602 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14603
+Name       Below Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the southeast corner of the castle wall.  Looming above you 
+is a guard tower with arrow slits for archers and a trough for rolling rocks 
+on top of you.  Same as it ever was.
+~
+#EXIT
+Direction  North~
+ToRoom     14604
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14602
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14604
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take it for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14605
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14603
+#ENDEXIT
+Reset M    14600 17 14604 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14605
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take it for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14606
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14604
+#ENDEXIT
+Reset M    14600 20 14605 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14606
+Name       Scaffolding~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         The invading army has erected a scaffolding to enable them to scale the wall
+of the castle.  It does not seem to be constructed very well and is currently
+being attacked by the castle inhabitants.
+~
+#EXIT
+Direction  North~
+ToRoom     14607
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14605
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14691
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14607
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take its height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14608
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14606
+#ENDEXIT
+Reset M    14600 20 14607 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14608
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing beside a 30 foot wall of stone, and you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14609
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14607
+#ENDEXIT
+Reset M    14600 20 14608 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14609
+Name       Below Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are at the northeast corner of the castle wall.  Looming above you is a
+guard tower with arrow slits for archers and a trough for rolling rocks on top
+of you.  Same as it ever was.
+~
+#EXIT
+Direction  South~
+ToRoom     14608
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14610
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14610
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone and you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14609
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14611
+#ENDEXIT
+Reset M    14600 20 14610 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14611
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing beside a 30 foot wall of stone, and you shouldn't take it
+for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14610
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14612
+#ENDEXIT
+Reset M    14600 20 14611 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14612
+Name       Back Door of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Isn't there always a back door to one of these things?  It is made of
+iron and is slightly ajar.  Someone is going to be fired for sure....out of
+a cannon most likely.
+~
+#EXIT
+Direction  East~
+ToRoom     14611
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14629
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14613
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14613
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take its height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14612
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14614
+#ENDEXIT
+Reset M    14600 20 14613 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14614
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't 
+take its height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14613
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14615
+#ENDEXIT
+Reset M    14600 20 14614 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14615
+Name       Below Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand at the northwest corner of the catle wall.  Looming above you 
+is a guard tower with arrow slits for archers and a trough for rolling rocks 
+on top of you.  Same as it ever was.
+~
+#EXIT
+Direction  East~
+ToRoom     14614
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14616
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14616
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing beside a 30 foot wall of stone, and you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14615
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14617
+#ENDEXIT
+Reset M    14600 20 14616 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14617
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing beside a 30 foot wall of stone, but you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14616
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14618
+#ENDEXIT
+Reset M    14600 20 14617 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14618
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This section of wall appears to be slightly different than the other sections
+of the wall.  There are stones juting out at regular intervals and climbing
+seems like a possiblity.  The wall is also covered with climbing ivy and 
+thick vines to aid your assent.
+~
+#EXIT
+Direction  North~
+ToRoom     14617
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14619
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14695
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14619
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14618
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14620
+#ENDEXIT
+Reset M    14600 20 14619 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14620
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, but you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  North~
+ToRoom     14619
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14621
+#ENDEXIT
+Reset M    14600 20 14620 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14621
+Name       Below Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are at the southwest corner of the castle wall.  Looming above you is a
+guard tower with arrow slits for archers and a trough for rolling rocks 
+on top of you.  Same as it ever was.
+~
+#EXIT
+Direction  North~
+ToRoom     14620
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14622
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14622
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing beside a 30 foot wall of stone, and you shouldn't take its
+height for granite, because climbing it is out of the question.  It looks 
+like you could enter the moat here, but the murky waters hold many dangers.
+~
+#EXIT
+Direction  East~
+ToRoom     14623
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14627
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14621
+#ENDEXIT
+Reset M    14600 20 14622 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14623
+Name       Stone Wall of Castle~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing beside a 30 foot wall of stone, and you shouldn't take its
+height for granite, because climbing it is out of the question.
+~
+#EXIT
+Direction  East~
+ToRoom     14600
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14622
+#ENDEXIT
+Reset M    14600 20 14623 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14624
+Name       On Drawbridge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand on the wooden drawbridge that crosses the dark moat surrounding
+the castle.  The main door of the castle is to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     14600
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14625
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14625
+Name       Foot of Drawbridge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The drawbridge is constructed of a solid oak wood and is lifted by heavy
+iron chains.  The bridge is down and leads north to the main door of the
+castle.
+~
+#EXIT
+Direction  North~
+ToRoom     14624
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14626
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14626
+Name       Standing Beside the Moat~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The moat is intended to keep the likes of you away from the castle.  You
+are able to determine that to the north, the moat is shallow enough to stand
+up in, but it appears quite nasty.  You can see a catapult to the north and
+a drawbridge to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     14627
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14625
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14628
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14627
+Name       In the Moat~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand among tall reeds in the dark and murky moat.  The moat becomes
+much deeper to the west.  It is possible to get out of the moat to the north
+or south.
+~
+#EXIT
+Direction  North~
+ToRoom     14622
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14626
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14674
+#ENDEXIT
+Reset M    14612 2 14627 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14628
+Name       At the Catapult~
+Sector     indoors~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          A large catapult is here as well as a huge pile of very heavy boulders.
+The catapult appears to be quite capable of hurling one of the boulders a
+great distance.  The specific target appears to be a very formidable castle
+off to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     14626
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14629
+Name       Path Intersection~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are just south of an ajar door, standing at an intersection of two 
+paths.  To the south the castle keep rises to the sky, but unfortunately
+there is a large battle between you and the keep and you will not be able
+to cross safely.
+~
+#EXIT
+Direction  North~
+ToRoom     14612
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14630
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14644
+#ENDEXIT
+Reset M    14615 10 14629 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14630
+Name       Along Northern Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You walk on a well worn east-west path.  The sound of metal hitting metal
+can be heard coming from the south.  A guard tower with smoke billowing from
+it can be seen to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     14672
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14631
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14629
+#ENDEXIT
+Reset M    14614 2 14630 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14631
+Name       Armory~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This is the armory where the king's knights are outfitted with weapons and
+armor.  In the center of the room is a huge anvil and a forge fills the west
+wall.  The heat generated by the forge makes the temperature of the room
+almost unbearable.
+~
+#EXIT
+Direction  North~
+ToRoom     14630
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14632
+#ENDEXIT
+Reset M    14607 1 14631 -1 -1 -1 100
+  Reset E  14608 5 16 33
+#ENDROOM
+
+#ROOM
+Vnum        14632
+Name       Along the Eastern Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You walk on a well worn path which runs north-south.  The sound of metal
+banging on metal can be heard to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     14672
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14633
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14631
+#ENDEXIT
+Reset M    14614 4 14632 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14633
+Name       Bottom of Stairs~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand at the base of a case of stairs which go up the castle wall.  You
+see what appears to be a stable to the southwest and you can hear the pounding
+of metal from the armorery to the northwest.  The keep rises high into the 
+sky, but due to a large fight to the west, it is not possible to get 
+there from here.
+~
+#EXIT
+Direction  North~
+ToRoom     14632
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14634
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14694
+#ENDEXIT
+Reset M    14614 2 14633 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14634
+Name       Along the Eastern Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You walk along the eastern wall of the castle on a small path worn by years
+of foot traffic.  The king's stable is to the west and a guard tower is to the
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     14633
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14635
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14658
+#ENDEXIT
+Reset M    14614 2 14634 -1 -1 -1 100
+  Reset E  14603 10 13 70
+#ENDROOM
+
+#ROOM
+Vnum        14635
+Name       Base of Southeast Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is the base of one of the four guard towers.  Stairs lead upward into
+the tower.  A stable can be seen to the northwest.
+~
+#EXIT
+Direction  North~
+ToRoom     14634
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14636
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14652
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14636
+Name       Along Southern Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         A path leds to the west and east.  The main castle door is to the west and
+a guard tower lies to the east.  To the north it is possible to see the 
+stable which house the king's and his knights' stallions.
+~
+#EXIT
+Direction  North~
+ToRoom     14658
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14635
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14637
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14637
+Name       Inside Main Door~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand by the large wooden door which serves as the main entrance for
+the castle during times of peace.  You can hear the rhythmic pounding of a
+battering ram slamming into the door.
+~
+#EXIT
+Direction  North~
+ToRoom     14646
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14636
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14638
+#ENDEXIT
+Reset M    14615 2 14637 -1 -1 -1 100
+  Reset E  14606 5 5 25
+#ENDROOM
+
+#ROOM
+Vnum        14638
+Name       Along Southern Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         As you walk on the east-west path, you notice a metal hatch lying open here.
+It seems that you could fit down the hatch and procede into the darkness.  
+The stinch from the infirmary to the north attacks your olfactories. ~
+#EXIT
+Direction  East~
+ToRoom     14637
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14639
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14675
+#ENDEXIT
+Reset M    14614 6 14638 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14639
+Name       Base of Southwest Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This is the base of one of the four guard towers.  Stairs lead upward into
+the tower.  To the northeast is the infirmary.
+~
+#EXIT
+Direction  North~
+ToRoom     14640
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14638
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14654
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14640
+Name       Along Western Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You walk along a well worn path next to the castle wall.  A guard tower
+is to the south of here and the path continues north from here.
+~
+#EXIT
+Direction  North~
+ToRoom     14641
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14639
+#ENDEXIT
+Reset M    14614 8 14640 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14641
+Name       Courtyard Intersection~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The north-south path intersects the path to the east here.  The castle
+wall to the west is covered with climbing ivy.  There is a small garden
+here, and you ponder the irony.
+~
+#EXIT
+Direction  North~
+ToRoom     14642
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14645
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14640
+#ENDEXIT
+Reset M    14614 10 14641 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14642
+Name       Along Western Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         The north-south path continues here and you can smell the aroma of food
+coming from the building to the east.  The sounds of battle are all around
+you and you can see smoke rising to the northeast.
+~
+#EXIT
+Direction  North~
+ToRoom     14643
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14656
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14641
+#ENDEXIT
+Reset M    14614 12 14642 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14643
+Name       Base of Northwest Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand at the base of one of the four guard towers of the castle.  A set
+of stairs leads up from here.  The smell of food comes from the southeast.
+~
+#EXIT
+Direction  East~
+ToRoom     14644
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14642
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14648
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14644
+Name       Along the Northern Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You walk along the northern wall of the castle on a west-east path.  To the
+south you can see a long building.  The path intersects another path to 
+the east.
+~
+#EXIT
+Direction  East~
+ToRoom     14629
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14643
+#ENDEXIT
+Reset M    14614 14 14644 -1 -1 -1 100
+  Reset E  14603 10 13 70
+#ENDROOM
+
+#ROOM
+Vnum        14645
+Name       Rubble Pile~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand on a large pile of rubble, most likely parts from the battered
+keep.  You are not able to climb over the pile to the east.  The infirmary
+is to the south, as determined by the odor.  A path leads west to the castle
+wall.
+~
+#EXIT
+Direction  South~
+ToRoom     14659
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14641
+#ENDEXIT
+Reset M    14615 8 14645 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14646
+Name       North-South Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You walk along the north-south path in the castle courtyard.  The smell of
+decaying flesh from the infirmary to the west is quite pungent.  The path
+continues towards the main door of the castle to the south and the keep 
+to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     14647
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14637
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14659
+#ENDEXIT
+Reset M    14615 4 14646 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14647
+Name       Beside the Keep~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are between a huge pile of rubble to the west and the castle keep.  All
+around you, you hear the sounds of battle.  The infirmary can be seen to the
+southwest of here.
+~
+#EXIT
+Direction  East~
+ToRoom     14660
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14646
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14645
+#ENDEXIT
+Reset M    14615 6 14647 -1 -1 -1 100
+  Reset E  14606 5 5 25
+#ENDROOM
+
+#ROOM
+Vnum        14648
+Name       Stairway of Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         The stairs carved out of rock continue up and down from here.  The sounds of
+rocks rumbling down troughs and the twanging of bow strings can be heard 
+coming from above you.
+~
+#EXIT
+Direction  Up~
+ToRoom     14649
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14643
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14649
+Name       In Northwest Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         You are inside the guard tower.  Through the arrow slits you can see the
+surrounding countryside.
+~
+#EXIT
+Direction  Down~
+ToRoom     14648
+#ENDEXIT
+Reset M    14601 2 14649 -1 -1 -1 100
+  Reset E  14610 6 16 35
+#ENDROOM
+
+#ROOM
+Vnum        14652
+Name       Stairway of Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The stairway carved from stone continues up and down from here.  The sounds
+of rocks rumbling down troughs and the twanging of bow strings can be heard
+coming from above you.
+~
+#EXIT
+Direction  Up~
+ToRoom     14653
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14635
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14653
+Name       In Southeast Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are inside the guard tower.  Through the arrow slits you can see the
+seigeing armies attacking the castle.
+~
+#EXIT
+Direction  Down~
+ToRoom     14652
+#ENDEXIT
+Reset M    14602 2 14653 -1 -1 -1 100
+  Reset E  14610 6 16 35
+#ENDROOM
+
+#ROOM
+Vnum        14654
+Name       Stairway of Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The stairs carved out of rock continue up and down from here.  The sounds
+of rocks rumbling down planks and the twanging of bow strings can be heard
+coming from above you.
+~
+#EXIT
+Direction  Up~
+ToRoom     14655
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14639
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14655
+Name       In Southwest Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are inside the guard tower.  Through the arrow slits you can see a 
+large catapult hurtling rocks towards the castle.
+~
+#EXIT
+Direction  Down~
+ToRoom     14654
+#ENDEXIT
+Reset M    14602 2 14655 -1 -1 -1 100
+  Reset E  14610 6 16 35
+#ENDROOM
+
+#ROOM
+Vnum        14656
+Name       Dining Hall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This long hall has a long table in the center.  The hall is an utter mess
+and it appears that the seige began at meal time.  The only exit is to the
+west.
+~
+#EXIT
+Direction  West~
+ToRoom     14642
+#ENDEXIT
+Reset M    14606 1 14656 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14658
+Name       King's Stables~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This stable is much like any other stable.  The floor is littered with straw,
+and the pens are made of sturdy wood.  The stable has two exits: east and
+south.
+~
+#EXIT
+Direction  East~
+ToRoom     14634
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14636
+#ENDEXIT
+Reset M    14608 1 14658 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14659
+Name       The Infirmary~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The stench of death lingers here.  Rows of beds with bloody sheets line the
+walls of this room.  The floor is covered with human waste and it is no 
+wonder that most people die of infection than of their wounds.
+~
+#EXIT
+Direction  North~
+ToRoom     14645
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14646
+#ENDEXIT
+Reset M    14603 1 14659 -1 -1 -1 100
+  Reset E  14600 7 16 80
+#ENDROOM
+
+#ROOM
+Vnum        14660
+Name       Entrance to Keep~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand in the entrance to the castle keep.  The entryway is to the north
+of here.  The floor is made of black marble, polished to a glossy sheen.  The
+walls are covered with tapestries of fine fabric with scenes of battle.
+~
+#EXIT
+Direction  North~
+ToRoom     14661
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14647
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14661
+Name       Entryway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This is the center of the keep.  The black marble floor shines.  Several
+rooms are adjacent to the entryway.  A staircase is seen to the east of here.
+~
+#EXIT
+Direction  North~
+ToRoom     14663
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14662
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14660
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14664
+#ENDEXIT
+Reset M    14609 1 14661 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14662
+Name       Ground Floor Stairs~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          A beautiful polished stone staircase goes up and down from here.  The 
+handrail is made of well oiled dark mahagony.
+~
+#EXIT
+Direction  West~
+ToRoom     14661
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14665
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14681
+#ENDEXIT
+Reset M    14623 1 14662 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14663
+Name       Antichamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room appears to be a sitting room for those seeking an audiance with
+the king.  The walls are decorated with frescos of the history of the 
+kingdom.
+~
+#EXIT
+Direction  South~
+ToRoom     14661
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14664
+Name       Sanctuary~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc         This room is used for meditation and has a serene feeling.  The walls are 
+adorned with tapestries and several candles are burning, providing the only
+source of light.  The altar is decorated with ornate carvings.
+~
+#EXIT
+Direction  East~
+ToRoom     14661
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14665
+Name       Second Floor Stairs~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The black marble stairs with mahagony railing goes up and down from here.
+A hall leads down to the west towards various rooms.
+~
+#EXIT
+Direction  West~
+ToRoom     14666
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14676
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14662
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14666
+Name       Second Floor Corridor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in a corridor in the center of the keep.  A bedroom is to the 
+south and the corridor continues west and east.
+~
+#EXIT
+Direction  East~
+ToRoom     14665
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14671
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14667
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14667
+Name       Turn in Corridor~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The corridor takes a turn to the north and east from here.  Several 
+paintings adorn the wall here.  One is of his majesty King Leon de Grance
+of Camelot and one of his queen.
+~
+#EXIT
+Direction  North~
+ToRoom     14668
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14666
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14668
+Name       End of Corridor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The corridor from the south ends here.  To the east you can see a set of
+large doors which obviously protect something valuable.  There are more
+frescos painted on the wall here.
+~
+#EXIT
+Direction  East~
+ToRoom     14669
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14667
+#ENDEXIT
+#EXDESC
+ExDescKey  fresco painting~
+ExDesc       A fresco of a great battle is painted on the wall.  It is chipped and 
+peeling from age.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        14669
+Name       Entrance to Vault~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         The doors to the vault are wide open but, you aren't able to see into the 
+darkened vault.  The doors themselves are beautifully carved with ornate
+scrolling woodwork.  The corridor goes west from here.
+~
+#EXIT
+Direction  East~
+ToRoom     14670
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14668
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14670
+Name       King's Vault~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          The room is probably worth more than all it contains.  Several coffers
+are scattered about the room.  It looks as if the contents have been looted
+already.  Possibly the king has moved the treasure elsewhere.
+~
+#EXIT
+Direction  West~
+ToRoom     14669
+#ENDEXIT
+Reset M    14610 1 14670 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14671
+Name       King's Bedroom~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The walls here are covered with flocked wallpaper.  A four-poster bed is in
+the middle of the room and is draped with red velvet bed curtains.  The floor
+is covered with plush carpeting.  A small window overlooks the courtyard 
+of the
+castle.
+~
+#EXIT
+Direction  North~
+ToRoom     14666
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14673
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14672
+Name       Base of Northeast Guard Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the base of one of the four castle guard towers.  This tower
+is no longer in service, due in part because it is a smoldering pile of
+rubble.  The clanging of metal can be heard coming from the southwest.
+~
+#EXIT
+Direction  South~
+ToRoom     14632
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14630
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14673
+Name       Queen's Dressing Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room is used by the queen for preparing for society functions.  There
+are several large chests here, which are locked tight.  A silver mirror hangs
+on the wall.  A ladder leads up from here and the bedroom is to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     14671
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14678
+#ENDEXIT
+#EXDESC
+ExDescKey  mirror~
+ExDesc     You admire yourself in the polished silver mirror.  You conceited person, 
+you.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        14674
+Name       Deep Moat~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are treading water in a deeper area of the moat.  The water is thick
+and black.  You would be foolish to submerge yourself underneath the stagnant
+and mosquito larvae infested water.
+~
+#EXIT
+Direction  East~
+ToRoom     14627
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14675
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14675
+Name       Under the Moat~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          You are standing on the bottom of the moat and you seem to be sinking 
+into the soft clay.  The water is very murky here, and you can see light
+only from the north and above you.
+~
+#EXIT
+Direction  North~
+ToRoom     14638
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14674
+#ENDEXIT
+Reset M    14613 1 14675 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14676
+Name       Top of Stairs~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The stairs go up no furthur.  A hallway goes west to an intersection.
+Torches light the way down the hall and the ceiling is arched overhead and
+is decorated with colorful patterns.
+~
+#EXIT
+Direction  West~
+ToRoom     14677
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14665
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14677
+Name       Hall Intersection~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are at an intersection of two halls.  A room to the north is dark and
+ominous.  Rooms to the west and south seem a little less frightening.  The
+stairs are to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     14679
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14676
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14678
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14680
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14678
+Name       Queen's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the queen's sitting room.  It is filled with the queen's possessions
+and looks very comfortable.  The room is cheerfully decorated with bright
+colors.  A ladder leads down and there is a small crawl space to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     14677
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14680
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14673
+#ENDEXIT
+Reset M    14605 1 14678 -1 -1 -1 100
+  Reset E  14604 6 2 40
+#ENDROOM
+
+#ROOM
+Vnum        14679
+Name       Black Knight's Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          This is the room of the king's best knight.  The walls are painted black,
+black as night.  Light seems to be almost absorbed by the room.  The only
+exit is to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     14677
+#ENDEXIT
+Reset M    14602 1 14679 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        14680
+Name       King's Sanctuary~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This room is used by the king when he needs to get away to think about 
+affairs of state.  The room contains a desk with official documents on it. A
+fireplace warms the room.  In the northwest corner is a small shrine where
+the king prays for guidance in running the kingdom.  To the south is a small
+opening.
+~
+#EXIT
+Direction  East~
+ToRoom     14677
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14678
+#ENDEXIT
+Reset M    14604 1 14680 -1 -1 -1 100
+  Reset E  14605 6 2 40
+#ENDROOM
+
+#ROOM
+Vnum        14681
+Name       Stairway to Alchemy Labs~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         This stairway continues down to the alchemy labs and up to the ground floor
+of the keep.  The air is cool here as a slight breeze from below hits you.
+~
+#EXIT
+Direction  Up~
+ToRoom     14662
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14682
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14682
+Name       East Entrance to Labs~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          This is the entrance to the laboratories of the greatest alchemists through-
+out history.  Each is involved in his own individual alchemical pursuit: the 
+Philosopher's Stone, the Elixer of Life, and the universal solvent, the Alkeist.
+~
+#EXIT
+Direction  East~
+ToRoom     14683
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     14681
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14683
+Name       Lab Corridor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This corridor has many labs leading off of it.  The smell of chemicals 
+fills the air.  A torch illuminates the stone walls of the corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     14685
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14689
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14686
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14682
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14684
+Name       Lab of Paracelsus~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Paracelsus, whose full name is Philipus Aureolus Theophrastus Bombastus
+von Hohenheim, was taught by Altotus.  The lab is filled with flasks 
+containing extracts from various herbs.  The lab seems to be set up as more
+of a place for discovery of medicine than for the transmutation of base
+metals to gold.
+~
+#EXIT
+Direction  East~
+ToRoom     14686
+#ENDEXIT
+Reset M    14621 1 14684 -1 -1 -1 100
+  Reset G  14614 6 70
+  Reset G  14614 6 70
+  Reset G  14614 6 70
+#ENDROOM
+
+#ROOM
+Vnum        14685
+Name       Geber's Laboratory~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the lab of the Arabic alchemist Abu Musa Jabir ibn Hayyan, or
+Geber.  The desk is covered with unclear directions of his alchemical 
+experiments.  You are able to determine that the work relates to his search
+for the Elixer of Life, which would give a man immortality.
+~
+#EXIT
+Direction  East~
+ToRoom     14688
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14683
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14687
+#ENDEXIT
+Reset M    14620 1 14685 -1 -1 -1 100
+  Reset G  14612 6 70
+  Reset G  14612 6 70
+  Reset G  14612 6 70
+#ENDROOM
+
+#ROOM
+Vnum        14686
+Name       Lab of Altotus~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the lab of Altotus, a mysterious Greek.  He has taught many men
+the mystical science of Alchemy.  The walls are covered with sheets of vellum
+on which alchemical symbols are scribbled.  There are several distillation
+apparatuses set up in the center of the room.
+~
+#EXIT
+Direction  North~
+ToRoom     14683
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14690
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14684
+#ENDEXIT
+Reset M    14618 1 14686 -1 -1 -1 100
+  Reset E  14613 1 12 30
+Reset M    14619 1 14686 -1 -1 -1 100
+  Reset E  14607 10 3 75
+#ENDROOM
+
+#ROOM
+Vnum        14687
+Name       Lab of Wei Po-Yang~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The floor of this lab is made of yellow dirt and a platform stands in the
+middle of the room.  Several earthen jars containing six-one mud, mercury,
+and Chin I sit on the platform.  Instructions for the preparation of the
+Elixir Vitae, or Elixir of Life.
+~
+#EXIT
+Direction  East~
+ToRoom     14685
+#ENDEXIT
+Reset M    14622 1 14687 -1 -1 -1 100
+  Reset E  14611 3 16 35
+#ENDROOM
+
+#ROOM
+Vnum        14688
+Name       Lab of Count Cagliostro~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This is the lab of Giuseppe Balsamo, also known as Count Cagliostro.  You
+get the feeling he is less than honorable.  It appears that the main research
+taking place here is the search for the secret of turning base metal to gold.
+~
+#EXIT
+Direction  South~
+ToRoom     14689
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14685
+#ENDEXIT
+Reset M    14617 1 14688 -1 -1 -1 100
+  Reset E  14601 5 17 50
+  Reset G  24296 5 20
+#ENDROOM
+
+#ROOM
+Vnum        14689
+Name       West End of Alchemy Lab~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         Shelves of various chemicals line the western wall of the room.  There are
+persons scattered about working hard on their individual pursuits.  The room
+is poorly lit and has a acrid odor that stings your nose.
+~
+#EXIT
+Direction  North~
+ToRoom     14688
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     14690
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14683
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14690
+Name       Lab of Hermes Trismegistus~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The room is filled with the life work of Hermes the Trice Greatest.  His 
+36,000 original treatises fill the shelves of the room.  On a sturdy wooden
+bench is The Emerald Tablet, which carries the veiled instructions for
+preparing the Philosopher's Stone.
+~
+#EXIT
+Direction  North~
+ToRoom     14689
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     14686
+#ENDEXIT
+Reset M    14616 1 14690 -1 -1 -1 100
+  Reset E  14615 1 0 20
+#ENDROOM
+
+#ROOM
+Vnum        14691
+Name       On Scaffold~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are half way up the wall of the castle.  The scaffold sways under your
+weight and the pushes of the men at the top, who are attempting to shove it
+down.  The rotting planks are about to give way below your feet.
+~
+#EXIT
+Direction  Up~
+ToRoom     14692
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14606
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14692
+Name       Top of Scaffold~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand proudly on top of the scaffold.  A small leap to the west and you
+will be on the top of the castle wall.  You are able to survey the surrounding
+area, and you see smoke and battle everywhere.
+~
+#EXIT
+Direction  West~
+ToRoom     14693
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14691
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14693
+Name       Top of Castle Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You won't be able to go down the scaffold because the jump to the scaffold
+would certainly lead to a nasty fall.  You can see the absolute chaos inside
+the castle courtyard, where the bashing of metal against metal is almost
+deafening.  There is a small set of stone stairs leading down.
+~
+#EXIT
+Direction  Down~
+ToRoom     14694
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14694
+Name       On Stone Stairs~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The stairs seem to be damaged, most likely from the battle, and you are
+forced to hug the wall.  The din of battle can be heard quite well.
+~
+#EXIT
+Direction  Up~
+ToRoom     14693
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14633
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14695
+Name       Halfway Up the Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are now at the midpoint of the castle wall.  You can go up or down
+from here with no great difficulty.
+~
+#EXIT
+Direction  Up~
+ToRoom     14696
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14618
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14696
+Name       Hanging on Top of Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have reached the top of the wall, but are still hanging on to the 
+outside of the wall.  You can go east to a small platform or down to the
+outside of the castle.
+~
+#EXIT
+Direction  East~
+ToRoom     14697
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14695
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14697
+Name       Small Platform on Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This small platform is on the top of the castle wall.  It is possible to
+go halfway down the inner wall of the castle or go west to the outer wall.
+~
+#EXIT
+Direction  West~
+ToRoom     14696
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14698
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        14698
+Name       Climbing Inside Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are halfway up the inner wall of the castle.  If you intend to go down
+you will have to jump 15 feet to the courtyard below.
+~
+#EXIT
+Direction  Up~
+ToRoom     14697
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     14641
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

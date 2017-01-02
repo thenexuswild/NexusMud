@@ -1,0 +1,1655 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            TriTeq Factory Outlet~
+Author          Unknown~
+Vnums           65000 65058
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       60
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        65000
+Keywords   TriTeq SalesPerson m650~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a TriTeq SalesPerson~
+Long       A TriTeq SalesPerson is here.
+~
+Nattacks   4.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     36 1 -10 550 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   65000 65001 65002 65003 65004 50 200 1 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        65001
+Keywords   TriTeq SalesPerson m650~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a TriTeq SalesPerson~
+Long       A TriTeq SalesPerson is here.
+~
+Nattacks   4.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     36 1 -10 550 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   65005 65006 65007 65008 65009 50 200 1 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        65002
+Keywords   TriTeq SalesPerson m650~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a TriTeq SalesPerson~
+Long       A TriTeq SalesPerson is here.
+~
+Nattacks   4.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     36 1 -10 550 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   65010 65011 65012 65013 65014 50 200 1 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        65003
+Keywords   TriTeq SalesPerson m650~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a TriTeq SalesPerson~
+Long       A TriTeq SalesPerson is here.
+~
+Nattacks   4.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     36 1 -10 550 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   65015 65016 0 0 0 50 200 1 23
+#ENDMOBILE
+
+#OBJECT
+Vnum        65000
+Keywords   shotgun gun terminator quest o650~
+Type       weapon~
+Short      the Terminator's shotgun~
+Long       The Terminator's shotgun is here, better hope he isn't looking for it.~
+Flags      magic~
+WFlags     take wield~
+Values     0 8 6 6 0 0 0 0 0 0 0
+Stats      5 10 0 9999 0 None None None
+AffData    damroll 6 -1 -1 0
+AffData    hit 25 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product by TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65001
+Keywords   shades terminator quest o650~
+Type       armor~
+Short      the Terminator's shades~
+Long       The Terminator has left his shades here. Better hope he's not looking for em.~
+WFlags     take head~
+Values     25 25 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 2 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65002
+Keywords   shield terminator quest o650~
+Type       armor~
+Short      a Poly-amemetic Alloy Shield~
+Long       A quicksilver looking object has been left here.~
+WFlags     take shield~
+Values     51 51 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData affected  'sanctuary' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65003
+Keywords   eye tarrasque quest o650~
+Type       light~
+Short      the Eye of the Tarrasque~
+Long       A evilly glowing eye has been left here.~
+Flags      magic nodrop~
+WFlags     take hold~
+Values     10 0 -1 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65004
+Keywords   scar kurgen quest o650~
+Type       armor~
+Short      the scar of the Kurgen~
+Long       You don't even want to know what it is that's laying here.~
+WFlags     take neck~
+Values     34 34 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    move 30 -1 -1 0
+AffData    hit 30 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65005
+Keywords   field phased stealth light predator quest o650~
+Type       armor~
+Short      the Predator's Phased-Light Stealth Field~
+Long       You can't quite make out whatever it is that's on the ground here.~
+Flags      invis~
+WFlags     take body~
+Values     34 34 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 20 -1 -1 0
+AffData    hit 20 -1 -1 0
+AffData affected  'invisible' -1 -1 0 
+AffData affected  'fireshield' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65006
+Keywords   tooth jaws quest o650~
+Type       weapon~
+Short      Jaws' Tooth~
+Long       You almost trip over a large tooth embedded in the floor here.~
+WFlags     take wield~
+Values     10 1 33 6 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    Strength 1 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65007
+Keywords   lightsabre light sabre quest o650~
+Type       weapon~
+Short      a lightsabre~
+Long       A small metal cylindar lies here. It looks dangerous.~
+Flags      glow hum~
+WFlags     take wield~
+Values     0 8 5 1 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    hitroll 5 -1 -1 0
+AffData    damroll 5 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData affected  'iceshield' -1 -1 0
+#EXDESC
+ExDescKey  label tag light sabre~
+ExDesc     Another fine product from TriTeq Industries.
+It's a small metal cylindar with a small depression just big enough for
+your thumb. You notice a small tag on one side.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65008
+Keywords   interface cybernetic borg quest o650~
+Type       armor~
+Short      a Borg CyberNetic Interface~
+Long       A high-tech computer interface has been left here.~
+WFlags     take hands~
+Values     25 25 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Wisdom -3 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    move 20 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65009
+Keywords   bambi corpse flattened quest o650~
+Type       container~
+Short      The flattened corpse of Bambi~
+Long       You see the flattened remains of poor little Bambi crushed into the ground here.~
+WFlags     take hold~
+Values     1 0 -1 10 0 -1 0 0 0 0 0
+Stats      20 10 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData    mana 25 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65010
+Keywords   suit king kong monkey quest o650~
+Type       armor~
+Short      King Kong's Monkey Suit~
+Long       A pile of fur has been left here.~
+WFlags     take about~
+Values     34 34 0 0 0 0 0 0 0 0 0
+Stats      30 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    Strength 2 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65011
+Keywords   belt utility batman quest o650~
+Type       armor~
+Short      Batman's Utility Belt~
+Long       A bright yellow belt has been left here.~
+Flags      invis magic~
+WFlags     take waist~
+Values     59 59 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData    Strength 3 -1 -1 0
+AffData    hit 15 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65012
+Keywords   webslinger web spiderman quest o650~
+Type       armor~
+Short      Spiderman's Webslinger~
+Long       A strange metal bracelet has been left here.~
+WFlags     take wrist~
+Values     25 25 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData    mana 20 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65013
+Keywords   shorts tattered hulk quest o650~
+Type       armor~
+Short      Hulk's Tattered Shorts~
+Long       HULK SMASH!!!~
+WFlags     take legs~
+Values     68 68 0 0 0 0 0 0 0 0 0
+Stats      3 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 5 -1 -1 0
+AffData    hit 40 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65014
+Keywords   boots flash quest o650~
+Type       armor~
+Short      Flash's Boots~
+Long       You see a pair of bright red boots with yellow lightning bolts on them here.~
+WFlags     take feet~
+Values     42 42 0 0 0 0 0 0 0 0 0
+Stats      0 10 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    move 75 -1 -1 0
+AffData affected  'flying' -1 -1 0 
+AffData affected  'haste' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65015
+Keywords   ring cats-eye chrysoberyl quest o650~
+Type       armor~
+Short      a cats-eye chrysoberyl ring~
+Long       A cats-eye chrysoberyl ring has been left here.~
+Flags      invis~
+WFlags     take finger~
+Values     17 17 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Dexterity 5 -1 -1 0
+AffData    move 30 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    mana 30 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65016
+Keywords   armlets lightning quest o650~
+Type       armor~
+Short      armlets of pure lightning~
+Long       A small ball of electricty floats thru the air.~
+Flags      glow invis~
+WFlags     take arms~
+Values     59 59 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 5 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        65017
+Keywords   badge builder quest o650~
+Type       armor~
+Short      the Builders Badge of Honor~
+Long       A large silver badge is laying here.~
+Flags      glow magic~
+WFlags     take face~
+Values     17 17 0 0 0 0 0 0 0 0 0
+Stats      5 75000 0 9999 0 None None None
+AffData    hit 25 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData    armor 25 -1 -1 0
+AffData    hitroll 4 -1 -1 0
+AffData    damroll 4 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        65000
+Name       Following the Road~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       This Roman highway has almost been reclaimed by tall grass from lack of 
+travel.  The highway winds south through the inhospitable, barren 
+countryside until it reaches a small bay, while the little used western 
+gate of Rome can be seen to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     12005
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65001
+#ENDEXIT
+Reset M    65000 1 65000 -1 -1 -1 100
+  Reset G  65000 1 100
+  Reset G  65001 1 100
+  Reset G  65002 1 100
+  Reset G  65003 1 100
+  Reset G  65004 1 100
+#ENDROOM
+
+#ROOM
+Vnum        65001
+Name       A Port in Disrepair~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This port was once heavily used, but as new roads were opened up to 
+Rome, ships chose to frequent another larger port to the north instead.  
+Over time, this port fell into disrepair, and now is hardly ever used 
+except by poorer travellers and ships who cannot afford to pay the exorbitant
+fares and docking rates charged at the northern port.
+~
+#EXIT
+Direction  North~
+ToRoom     65000
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65002
+Desc       A narrow gangplank leads the way to a battered ship.
+~
+#ENDEXIT
+Reset M    65001 1 65001 -1 -1 -1 100
+  Reset G  65005 1 100
+  Reset G  65006 1 100
+  Reset G  65007 1 100
+  Reset G  65008 1 100
+  Reset G  65009 1 100
+#ENDROOM
+
+#ROOM
+Vnum        65002
+Name       Boarding a Ship of Adventurers~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65003 0 0 100000
+Desc       While this ship looks like it is more than a little worse for wear, the 
+atmosphere onboard is jovial and anticipation fills the air as your 
+fellow adventurers discuss the riches and adventures that lie ahead.
+~
+Reset M    65002 1 65002 -1 -1 -1 100
+  Reset G  65010 1 100
+  Reset G  65011 1 100
+  Reset G  65012 1 100
+  Reset G  65013 1 100
+  Reset G  65014 1 100
+#ENDROOM
+
+#ROOM
+Vnum        65003
+Name       On the High Seas~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65004 0 0 100000
+Desc       Unfortunately, the voyage thus far has yielded no new lands to explore 
+and your fellow shipmates have resorted to telling raunchy stories and 
+engaging in mock duels on board to pass the time.  While some of the 
+others are starting to become frustrated, the majority remain optimistic that
+they shall find hidden lands and great treasures.
+~
+Reset M    65003 1 65003 -1 -1 -1 100
+  Reset G  65015 1 100
+  Reset G  65016 1 100
+#ENDROOM
+
+#ROOM
+Vnum        65004
+Name       The Calm Before the Storm~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65005 0 0 100000
+Desc       From the crow's nest comes a shout: "Captain! Storm clouds approaching! 
+It looks like a bad one sire!"  You and some others rush to out onto the 
+maindeck to look at the sky and inwardly quiver at the sight of the 
+rolling clouds approaching.  In contrast to the rapidly moving clouds, 
+the sea is eeriely still, and your trepidation mounts as the captain 
+informs you that the sea is always this way just before the worst of storms.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65005
+Name       Tossed in Rough Waters~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       8  65006 0 0 100000
+Desc       The waves and wind batter furiously against your ship, tossing it around 
+as though it were no more than a feather.  The crew work furiously to 
+leash down the riggings and unfurl the sail, while the captain bravely 
+mans the helm.  As the storm's intensity increases, huge waves sweep
+over on the deck, and you hear a cry of "Man overboard!!"  As you hang 
+on tightly to the ship's railings, you wonder if any of you will ever see 
+shore again.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65006
+Name       Carried Off-Course~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65007 0 0 100000
+Desc       While you have moved out of the eye of the storm, the waves and winds 
+are still strong, and the exhausted captain tells you that the storm has 
+carried the ship many leagues off its set course.  He also says that it 
+isn't possible to reset the course of the ship with the current 
+conditions and that the ship's supplies are running low.  And then he 
+retires belowdeck for some much needed rest, leaving you and your 
+remaining travellers praying that you will find a place to land and search for
+new supplies soon.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65007
+Name       Land in Sight~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  6300 0 0 100000
+Desc       As the sky clears a huge cheer springs forth from the crew and 
+passengers.  The gods were kind indeed to have seen your vessel through 
+such a storm.  However, there is still the problem of finding supplies 
+and a crew member is sent to the crow's nest to look out for land.  The ship
+travels slowly through the unchartered waters, but thankfully on the 
+next day a shout of "Land ahoy!" comes from the crow's nest.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65008
+Name       Going Home!~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       12  65001 0 0 100000
+Desc       Having found the adventures you sought on Circe's Isle, you hurry back 
+onboard the ship to return to Rome.  While you were enthralled by what 
+you found on the isle, you were also disconcerted by your meeting with an 
+immortal creature, and cannot wait to return to more familiar lands.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65010
+Name       On a Merchant's Ship~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65011 0 0 100000
+Desc       The ship's decks are so loaded down with cargo that there is barely room 
+for you to move around.  The crew and the merchant are decidedly 
+unfriendly and the few passengers who are on this vessel only seem to 
+want to talk about the prices of spices in various countries.  In all, this
+promises to be an unpleasant voyage, and you aren't sure if the price of 
+the fare was worth it.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65011
+Name       Heading West on the Ocean~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65012 0 0 100000
+Desc       The voyage has barely begun and already you're beginning to feel 
+restless and discontented.  The unending monotony of the waves grates on 
+your nerves and you find little respite from this boredom as your 
+"companions" on the vessel continue to be horribly unresponsive to your
+attempts at conversation.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65012
+Name       Entering the Indian Ocean~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65013 0 0 100000
+Desc       You've now been travelling for almost three weeks and instead of getting 
+friendlier with the passage of time as you had hoped, the people around 
+you have become increasingly surly.  You summon up your courage to ask 
+the merchant where you are now and how much longer the journey will 
+take.  "We're in the Indian Ocean, now shut up and leave me alone!" he  
+snarls so fiercely that you back away.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65013
+Name       Sea, Sea, Nothing but Sea~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       12  65014 0 0 100000
+Desc       Cabin fever is REALLY hitting you now.  You are SOOO bored and sick of 
+the stupid sea that you feel like screaming at someone, anyone, but 
+suspect that even if you did you wouldn't get a response from the people 
+around you.  Fighting the urge to tear out your hair, you take yet  
+another walk around the ship's decks but this time, as you look down 
+into the waves, you notice a strange shimmering glow coming from the 
+ocean.  Here's the question though: are you just imagining things because 
+you're so bored, or is there really something worth seeing down there?  
+You try to decide between jumping off this stupid ship and continuing on 
+your journey to the western lands. . .but then you realize that you had 
+better make up your mind soon because the ship is moving and soon you'll 
+be too far away to get to that glowing place.
+~
+#EXIT
+Direction  Down~
+ToRoom     8100
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65014
+Name       Shore in Sight~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       4  65015 0 0 100000
+Desc       Finally!  You're close to shore!  The merchant seems to be in good 
+spirits as he walks around the decks informing all the passengers that 
+you'll be landing soon.  Supposedly, you've made good time on the journey 
+and the cargo of the ship will bring in high prices in the markets of Arabia.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65015
+Name       Preparing for Docking~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       8  65016 0 0 100000
+Desc       The ship slowly moves into through into the harbour and you eagerly pack 
+up your belongings and wait for a glimpse of the people and cities of 
+this new land.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65016
+Name       Landing at a Small Port~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       The bustling port is small but seems to be well frequented.  There are 
+all kinds of people, carrying all kinds of wares, hurrying around the 
+ports, and ships keep on arriving or leaving the area.
+~
+#EXIT
+Direction  North~
+ToRoom     65017
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65018
+Desc       If you're done trading here and wish to return to Japan, you may board 
+another vessel that is docked in this direction which will take you back.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65017
+Name       Heading Out to Trade~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       It seems that the port is actually quite far from the closest large 
+city.  After some investigation, you realize that you will have to trek 
+through the desert that lies to the north in order to get to a city.
+~
+#EXIT
+Direction  North~
+ToRoom     5001
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65016
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65018
+Name       Returning to Japan~
+Sector     indoors~
+Flags      nomob teleport teleshowdesc~
+Stats       12  10900 0 0 100000
+Desc       With new goods in your pack and excitement in your eyes you wait to 
+return to Japan.
+~
+#ENDROOM
+
+#ROOM
+Vnum        65020
+Name       The Mountain Pass Continues~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       This mountain pass is terrible!  You decide that you really need to find 
+someplace where you can get a decent mug of ale and a good night's rest 
+in an inn.  Thankfully, just as your eyesight starts to blur from the 
+repeated stinging of the frost and winds, you find you spot a small path 
+leading down the other side of the mountain.  This kind of landscape 
+reminds you again of home much you yearn for some sign of civilization.
+~
+#EXIT
+Direction  North~
+ToRoom     4559
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     65021
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65021
+Name       A Small Path Down the Mountains~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       The path you walk on is narrow but has been well-trampled.  You may 
+follow the path up to the highest point of the mountain, but if you 
+follow the path as winds it way down the mountainside, you begin to see 
+more greenery and the landscape becomes increasingly hospitable.
+~
+#EXIT
+Direction  Up~
+ToRoom     65020
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     65022
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65022
+Name       Following the Path~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       The mountains are far behind you now, and the path widens out here as it 
+winds its way through farmland and small villages.  Unfortunately, none 
+of the villages you have passed is what you are looking for, as they are 
+too small to have inns or other resting places for travellers.  
+Therefore, you decide to follow the path to the east where it joins
+up with a busy road.
+~
+#EXIT
+Direction  East~
+ToRoom     65023
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     65021
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65023
+Name       On a Busy Road~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       This road is filled with the wagons of farmers taking their goods to 
+sell in the city.  Unfortunately, the farmers are not very considerate of 
+travellers such as yourself who have to walk and you are almost run over 
+more than once by the horses pulling the wagons.  Winding your way 
+through all this traffic takes you quite a while and by the time you see 
+the outlines of the city walls in the distance it is almost dark.
+~
+#EXIT
+Direction  East~
+ToRoom     65024
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65022
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65024
+Name       Civilization at Last!~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       Finally you stand outside the city!  You first check yourself to make 
+sure you didn't lose any body parts to those rude farmers and then feel 
+like dancing a little jig of joy in celebration of your return to 
+civilization.  You eagerly rush to the gates, anticipating a soft bed 
+and some warm food.
+~
+#EXIT
+Direction  North~
+ToRoom     65025
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65023
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65025
+Name       Turned Away at the Gates~
+Sector     field~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       Arrrgh!!!  There is an officious man at the city gates who tells you 
+that the city is closed for the night.  And you just missed it by 
+minutes!  You feel like screaming at the man in frustration but he glares 
+at you with steely eyes until you cower away.  But you are desperate to 
+be inside, and you decide to search for another way into the city.
+~
+#EXIT
+Direction  North~
+ToRoom     65026
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65024
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65026
+Name       Wandering Around the City Wall~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You forlornly wander around the city walls, desperately searching for a 
+way inside.  Just as you are about to give up hope, you hear a voice 
+behind you.  "Pssst!  Hey, do you wanna get into the city?"  You turn 
+around abruptly and see a figure in the shadows.
+~
+#EXIT
+Direction  South~
+ToRoom     65025
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12500
+Key        65001
+Desc       A small slab of stone juts out from the city walls.
+~
+Keywords   slab stone~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65027
+Name       Following an Overgrown Path~
+Sector     field~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       Although this path leads out from the playground, huge trees have grown 
+up all around it, making the area so dark and spooky that even the 
+bravest of the children do not dare venture down it.
+~
+#EXIT
+Direction  North~
+ToRoom     65028
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     5969
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65028
+Name       Stumbling Through the Forest~
+Sector     field~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       The path you are on has been used so little that at points it completely 
+disappears under thick pads of moss and fallen leaves, only to reappear 
+again in areas where there is less undergrowth. The path winds its way 
+around the gloomy forest, and for a while you think that it may have been 
+a woodcutter's path that leads nowhere.  However, after a bit more 
+stumbling around, you see that the forest begins to thin out and that 
+the outlines of the path become more defined.
+~
+#EXIT
+Direction  North~
+ToRoom     65029
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65027
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65029
+Name       The Road Opens Up~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       While this road is in better condition than the path you came from, it 
+definitely appears that very few travellers come through this way.  The 
+road curves following the edge of the forest before it reaches open 
+plains to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     65030
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65028
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65030
+Name       A Winding Country Road~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       The land around you appears suitable for farming and grazing, but the 
+few farmhouses and livestock you see are few and far apart.  The road 
+runs straight and true through the fields until it abruptly ends at a 
+gate of wire that has been put up by some protective farmer.  However, if you
+do wish to explore further, there is a smaller country lane that 
+branches off to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     3489
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65029
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65031
+Name       A Small Path in the Forest~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       Behind the dense thicket, you are amazed to find another branch of the 
+path through the forest, which leads directly into an open grove with a 
+small home in its southermost section.
+~
+#EXIT
+Direction  East~
+ToRoom     10008
+Keywords   thicket~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65032
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65032
+Name       A Secluded Home~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       As you enter the house, you are struck by the vast number of scientific 
+instruments which are scattered messily on tables, shelves and even the 
+floor.  Obviously, the owner of the house has very few housekeeping 
+skills or perhaps he is so caught up in his experiments and studies that he
+just doesn't care.  Speaking of the owner, where is he anyway?  You 
+listen carefully but detect no signs of life or movement in the home.
+~
+#EXIT
+Direction  North~
+ToRoom     65031
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65033
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65034
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65033
+Name       A Scholar's Library~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The bookshelves here reach from floor to ceiling, but even so, there are 
+stacks of books piled up on the floor and on the worn armchair that sits 
+in the corner.  One of the books has been opened up to a page, and you 
+pick that book up to see if there are any stories of interest in it.  However,
+the information on the page is highly sophisticated and your scientific 
+knowledge is limited so that all you can make out is that it is about 
+combining gems and metals to form new materials.
+~
+#EXIT
+Direction  West~
+ToRoom     65032
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     65036
+Key        24978
+Desc       A sturdy wooden door lies up from a small flight of stairs.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65034
+Name       In a Cluttered Laboratory~
+Sector     field~
+Flags      indoors ~
+Stats      0 0 0 0 0
+Desc       Glass jars on tripods bubble above flickering flames and the smell of 
+sulphur and other chemicals lies heavily in the air here.  There seem to 
+be at least ten complicated experiments being worked on here and you 
+marvel at the knowledge that the owner of this house must possess.
+~
+#EXIT
+Direction  North~
+ToRoom     65035
+Key        65000
+Desc       There seems to be an extension off this room in that direction but it 
+lies behind thick metal bars.
+~
+Keywords   bars metal~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65032
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65035
+Name       Walking into the Magical Portal~
+Sector     field~
+Flags      indoors ~
+Stats      0 0 0 0 0
+Desc       This is the most sophisticated of Carlyle's experiments -- his portal to 
+the mythical land of the dragons.  It required all his knowledge and 
+power to open this portal, and very few have ever been privileged enough 
+to be allowed passage through to the wondrous land beyond.
+~
+#EXIT
+Direction  North~
+ToRoom     24900
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65034
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65036
+Name       Carlyle's Study~
+Sector     indoors~
+Flags      nomob ~
+Stats      0 0 0 0 0
+Desc       Carlyle has discovered that if you combine all three gems into one, with a
+special catalyst, you will end up with a diamond. He further discovered that
+if you were to combine several diamonds with a rarer more magical catalyst
+that you would achieve the secret of the diamond dragons. So far all his
+experiments to find this secret have failed, maybe you can figure it out?
+~
+#EXIT
+Direction  Down~
+ToRoom     65033
+Key        24978
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65037
+Name       The Blood Sea Continues~
+Sector     field~
+Flags      nomob ~
+Stats      0 0 0 0 0
+Desc       Although you tell yourself that the waters of this sea are tinged red by 
+some kind of sea algae, you find yourself disconcerted by the resemblance 
+of the waters to flowing blood.  Just when you think you are about to be 
+driven mad by the apparent goryness of your surroundings you thankfully 
+see a dark shore to your north.
+~
+#EXIT
+Direction  North~
+ToRoom     65038
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2323
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65038
+Name       Arriving on a Deserted Shore~
+Sector     field~
+Flags      dark nomob indoors ~
+Stats      0 0 0 0 0
+Desc       The skies are completely dark as you arrive on this deserted shore, with 
+not even the faintest glimmer of the stars or moon to guide your way.  
+You stumble around lost for a while but then you see a large outline to 
+the east, which you hope is a building of some sort.
+~
+#EXIT
+Direction  East~
+ToRoom     65039
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65037
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65039
+Name       A Castle in the Distance~
+Sector     field~
+Flags      dark nomob indoors ~
+Stats      0 0 0 0 0
+Desc       You continue to stumble as you hurry across the dark plain towards the 
+building in the distance, which you can now tell is a castle of some 
+sort.  The tall grass scratches your legs as you walk, and you stub your 
+feet on rocks more than once.
+~
+#EXIT
+Direction  North~
+ToRoom     65040
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65038
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65040
+Name       The Gates to the Castle~
+Sector     field~
+Flags      dark nomob indoors ~
+Stats      0 0 0 0 0
+Desc       You stand before a set of old gates, which are thankfully open.  Beyond 
+the gates, you see a small courtyard and then the looming outline of the 
+castle.  Unfortunately, from this distance you cannot tell if the castle 
+is inhabited as it is completely unlit.
+~
+#EXIT
+Direction  North~
+ToRoom     16000
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65039
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65041
+Name       A Gathering Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The mighty heroes gather here to recuperate from their adventures, and
+to regale and impress each other with stories of their bravery and cunning.
+For those of you who are new to adventuring in this world, this is a good
+place to learn the trade, so to speak, as this place has been set up by
+the Adventurers' Guild and the leaders of the guild are always conscious
+about the many needs and worries of their members.
+~
+#EXIT
+Direction  North~
+ToRoom     65042
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65043
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65044
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65045
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65042
+Name       Looking for a Vacation~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       After all your travels, you really feel that it's time you had some 
+fun!   One of your fellow adventurers informs you that there is an 
+amusement and recreation park nearby and you happily decide that that is 
+the place for you.
+~
+#EXIT
+Direction  North~
+ToRoom     2500
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65041
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65043
+Name       I Need Some Rest from this Adventuring!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Being a hero can be tiring!  You're so worn out from all the fighting and
+exploring that you are about to fall flat on your face!  Luckily, the 
+adventurers' guild has prepared free beds here for its members, and you 
+can get some much needed rest.  You gaze at the fluffy pillows and soft 
+down quilts on the beds and decide that nothing ever looked so heavenly.
+~
+#EXIT
+Direction  East~
+ToRoom     2000
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65041
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65044
+Name       In the Adventurers' Library~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The adventurers' guild has put together collected books and stories from
+all the ages to provide entertainment and instruction for its members.  
+At random, you decide to pick up a book labeled "Fairy Tales and Other 
+Stories of Wonder" and although you find some of the stories too stupid 
+to be believed, you quickly sink into the make-believe world you find there.
+~
+#EXIT
+Direction  North~
+ToRoom     65041
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2900
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65045
+Name       Heading Back Home for Halloween~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       It's Halloween but you don't have a costume!  You decide to hurry home and
+pick up something to wear. . .after all, you wouldn't want to be the only one
+who isn't dressed for the occasion.  As you hurry along the path back to your
+house, you find yourself fervently hoping that your mom has made a costume
+for you.
+~
+#EXIT
+Direction  East~
+ToRoom     65041
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7000
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65046
+Name       Searching for Some Instruction~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The older adventurers have kindly informed you that you should head this way
+to learn some more about this land.  Beyond this room you will find teachers
+who will instruct you in the rules of conducting yourself in this strange and 
+new world.
+~
+#EXIT
+Direction  Up~
+ToRoom     65041
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65050
+Name       Carried Off by an Unseen Spirit~
+Sector     indoors~
+Flags      nomob  teleport teleshowdesc~
+Stats       12  65051 0 0 100000
+Desc       You are walking through the unearthly forest when suddenly you feel 
+yourself swept off your feet by a force which carries with it an aura of 
+terrible evilness.  Where is it taking you?
+~
+#EXIT
+Direction  South~
+ToRoom     8006
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65051
+Name       Thrown into a Darker Dimension~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The spirit, evil beyond comprehension, has been drawn back to the place 
+of its creation.  Unfortunately, it managed to carry you along with it!  
+You look around you but neither the forest to the west nor the path to 
+the east look like places you want to be.
+~
+#EXIT
+Direction  East~
+ToRoom     5800
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6100
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65052
+Name       Exploring the Oceans Further~
+Sector     water_noswim~
+Flags      indoors ~
+Stats      0 0 0 0 0
+Desc       Having gathered your crewmates and more supplies for your explorations, you
+head out further into the great ocean.  You look around you in wonder, 
+for somehow the skies here seem bluer, the sea clearer.  It is as though you
+were crossing some mystical plane. . .
+~
+#EXIT
+Direction  South~
+ToRoom     6325
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65053
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65053
+Name       Exploring the Oceans~
+Sector     water_noswim~
+Flags      indoors ~
+Stats      0 0 0 0 0
+Desc       As your ship continues navigating its way through these previously
+unexplored waters, your belief that you are indeed in a mystical place
+grows stronger instead of waning.  Never before have you seen water so
+calm and clear, and it seems as though your ship is gliding across a
+sheet of glass for the water is completely still even in the wake of your
+passage.
+~
+#EXIT
+Direction  North~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65052
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     65054
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     65053
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65054
+Name       Exploring the Oceans~
+Sector     water_noswim~
+Flags      indoors ~
+Stats      0 0 0 0 0
+Desc       As your ship continues navigating its way through these previously
+unexplored waters, your belief that you are indeed in a mystical place
+grows stronger instead of waning.  Never before have you seen water so
+calm and clear, and it seems as though your ship is gliding across a
+sheet of glass for the water is completely still even in the wake of your
+passage.
+~
+#EXIT
+Direction  North~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65054
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     65054
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     65053
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     65054
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     65055
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65055
+Name       Exploring the Oceans~
+Sector     water_noswim~
+Flags      indoors ~
+Stats      0 0 0 0 0
+Desc       Your entire ship is filled with an awed silence as your ship approaches
+a gigantic set of stairs, made from something resembling glass, leading
+up into the heavens.  Where these stairs spring from is unknowable, for
+its base appears to be in the depths of the sea.  And as for where they
+lead . . .where else  can they lead but to Olympia itself?  For it has
+long been said that one day man would find a way to reach the gods
+themselves.
+~
+#EXIT
+Direction  South~
+ToRoom     65054
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     4000
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65056
+Name       A Path Through the Forest~
+Sector     field~
+Flags      nomob ~
+Stats      0 0 0 0 0
+Desc       The swamp seems far far away as you enjoy the bright sunshine and
+joyous singing of birds in this part of the forest.  A riotous bloom of
+color draws your attention to the east, where you flowerbeds lining the
+path to a large cottage. 
+~
+#EXIT
+Direction  North~
+ToRoom     2339
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     65057
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65057
+Name       In Front of the Cottage~
+Sector     field~
+Flags      nomob ~
+Stats      0 0 0 0 0
+Desc       The cottage, and everything around it, have been meticulously 
+maintained.  The roof is neatly thatched, the windows are so
+clean that they seem to sparkle, and even the flowers appear to
+grow in absolutely straight lines.  The door of the cottage is open
+to let in the sunlight and on the front steps are a broom and a
+dustpan.
+~
+#EXIT
+Direction  East~
+ToRoom     65058
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65056
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        65058
+Name       In a Cozy Living Room~
+Sector     field~
+Flags      nomob ~
+Stats      0 0 0 0 0
+Desc       The interior of the house is as well-kept as the exterior; 
+brightly-colored cushions sit neatly on the chairs,  and the 
+scent of wood polish lingers in the air.  There are four doors
+leading off this room, but alas, only one of those doors is 
+open.
+~
+#EXIT
+Direction  South~
+ToRoom     1500
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     65057
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,32 @@
+Version     1
+Name        Gnome~
+Race        14
+Classes     Warrior Mage Cleric Rogue~
+Str_Plus    -2
+Dex_Plus    1
+Wis_Plus    2
+Int_Plus    2
+Con_Plus    -2
+Cha_Plus    -1
+Lck_Plus    1
+Hit         -3
+Mana        18
+Affected    infrared~
+Resist      charm~
+Language    gnomish~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   104
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     44
+Weight     110
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'detonate' 45 85
+Skill 'elemental synergy' 75 80
+Skill 'tinker' 10 90
+End

@@ -1,0 +1,2310 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Sewer~
+Author          Unknown~
+Vnums           7000 7099
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       15
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        7000
+Keywords   mud monster mudmonster~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   sitting~
+DefPos     standing~
+Short      the horrifying Mudmonster~
+Long       A horrifying Mudmonster is slowly evolving from the mud...
+~
+Desc       It sure looks like something out of a horror movie.  It strongly resembles
+a huge figure made up from mud alone, and it sure looks like it had human 
+flesh for breakfast and is strongly intent on having the same for dinner
+- Perhaps you?
+~
+Nattacks   2.000000
+Stats1     -250 100 60 100 150 250
+Stats2     12 9 2 140 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7001
+Keywords   bat~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   sleeping~
+DefPos     standing~
+Short      the small bat~
+Long       The small fierce-looking bat is hanging from the ceiling, obviously sleeping.
+~
+Desc       You have never in your entire life seen such a mean looking small creature,
+though it looks rather peaceful, hanging there, sleeping.  The thought of 
+arousing this cruel creature doesn't sit well in your bones.
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     1 20 5 6 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7002
+Keywords   rat~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the sewer rat~
+Long       The huge hungry-looking sewer rat sits here.
+~
+Nattacks   1.000000
+Stats1     -1000 30 60 100 150 250
+Stats2     5 16 5 48 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7003
+Keywords   spider~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the small Spider~
+Long       The small hairy Spider is here, busy with its web.
+~
+Nattacks   1.000000
+Stats1     -700 1 60 100 150 250
+Stats2     1 20 3 8 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7004
+Keywords   beetle~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     standing~
+Short      the giant earth beetle~
+Long       The giant, mean-looking earth beetle is here.
+~
+Nattacks   1.000000
+Stats1     -300 1000 60 100 150 250
+Stats2     8 13 3 98 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7005
+Keywords   maggot~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the maggot~
+Long       The giant maggot is here, simply existing.
+~
+Nattacks   1.000000
+Stats1     300 2 60 100 150 250
+Stats2     3 17 9 35 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7006
+Keywords   snake~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the snake~
+Long       The snake slithers towards you. It looks very mean.
+~
+Nattacks   1.000000
+Stats1     -500 1 60 100 150 250
+Stats2     4 16 7 40 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7007
+Keywords   wanderer~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the evil wanderer~
+Long       The evil wanderer stares at you with a piercing gaze.
+~
+Desc       The evil wanderer is very thin.  He is dressed in a grey cloak.  He doesn't
+look like he'd be your first choice as a travelling companion.
+~
+Nattacks   2.000000
+Stats1     -1000 300 60 100 150 250
+Stats2     10 11 2 100 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7008
+Keywords   homunculus homo~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the creature homunculus~
+Long       The creature homunculus is here, looking at you with an evil look.
+~
+Desc       The Homunculus appears in a man-like form, about 18" tall, has a greenish,
+reptilian skin, leathery wings, and a batlike mouth, with teeth passing on
+a venom.
+~
+Nattacks   2.000000
+Stats1     -780 500 60 100 150 250
+Stats2     11 10 1 130 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7009
+Keywords   grand knight paladin~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Grand Knight of Paladins~
+Long       The Grand Knight is standing here, waiting for someone to help.
+~
+Desc       The Knight is standing here, smiling at you.  He is dressed all in white, blue
+and silver.  He looks VERY strong, as he stands here, ready to help the
+innocent.
+~
+Nattacks   3.000000
+Stats1     1000 31570 60 100 150 250
+Stats2     26 0 -2 550 2 0 16
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7010
+Keywords   chr-eff'n chr~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the evil chr-eff'n~
+Long       The chr-eff'n are crawling here, looking around with its yellow eyes.
+~
+Desc       The head and torso of a chr-eff'n is copper-covered, with yellow,
+glowing eyes.  The lower body is in an orange shading.
+~
+Nattacks   2.000000
+Stats1     -830 1500 60 100 150 250
+Stats2     12 9 2 148 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger wimpy~
+Affected   detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7011
+Keywords   morkoth~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the shadowy morkoth~
+Long       The morkoth are standing here, waiting for someone to KILL!
+~
+Desc       It's a five feet tall, shadow monster. This has the shape between
+a human and a rat.  It breaths very heavily while it stares at you.
+~
+Nattacks   2.000000
+Stats1     -900 1 60 100 150 250
+Stats2     10 12 3 120 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7040
+Keywords   red dragon~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the red dragon~
+Long       The Red fierce-looking dragon stares at you angrily.
+~
+Desc       The red dragon stares at you, angrily, as it wakes when you arrive.  It says
+'Oh, human YOU woke me up...Hsssss', while it moves closer, 'Can one NEVER
+sleep in peace...Hssss'.
+~
+Nattacks   2.000000
+Stats1     -1000 16842 60 100 150 250
+Stats2     19 2 0 230 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7041
+Keywords   sea hag~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the sea hag~
+Long       The Sea Hag is here, swimming around.
+~
+Desc       The sea hag is so ghastly looking that you feel the deepest fear: Big yellow
+eyes and sharp teeth.  Its ears are very big, and it has small sharp horns.
+This type of monster is one of the greatest haters of beauty (next after
+Medusa).
+~
+Nattacks   2.000000
+Stats1     -800 0 60 100 150 250
+Stats2     14 7 1 172 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7042
+Keywords   guardian naga~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the guardian naga~
+Long       The Guardian Naga looks kindly at you.
+~
+Desc       The naga are a snake-liked creature.  She is covered in green-gold scales with
+silvery triangles along her back.  Her eyes are golden.  She notices that you
+are staring at her, and she says: 'Watch out.  This way leads to some evil
+creatures'.
+~
+Nattacks   2.000000
+Stats1     700 100 60 100 150 250
+Stats2     12 9 2 148 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7043
+Keywords   scaled basilisk~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the scaled basilisk~
+Long       The scaled Basilisk crawls towards you slowly.
+~
+Desc       The basilisk is a reptilian monster.  It has eight legs, and a strong, toothy
+jaws.  It is dull brown with yellowish underbelly.  Its eyes are glowing pale
+green.
+~
+Nattacks   2.000000
+Stats1     -250 350 60 100 150 250
+Stats2     13 11 0 160 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7044
+Keywords   lemure blob~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the lemure~
+Long       The lemure blob slithers towards you for an attack!
+~
+Desc       This looks like a vaguely human blob.  Big black yellow eyes, and a mouth going
+a little bit out from the face.  The lemure does not look interested in you at
+all, but it attacks anyway.  It looks like its mind has been burned out.
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     5 16 6 57 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7045
+Keywords   jones cruncher ettin~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   resting~
+DefPos     resting~
+Short      Jones 'cruncher' the ettin~
+Long       Jones is standing here glaring at you.
+~
+Desc       At the first sight you thought Jones was an Orc, but when it came closer you
+saw his second head.  He wears an animal skin dress, filthy and moth eaten. 
+Jones really stinks...
+~
+Nattacks   2.000000
+Stats1     -480 60 60 100 150 250
+Stats2     10 11 2 130 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        7046
+Keywords   herald mouse killer ettin~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   resting~
+DefPos     resting~
+Short      Herald 'the mouse-killer' ettin~
+Long       Herald is standing here looking confused at you.
+~
+Desc       When you look at Herald, you feel petty.  His clothes are really poor, and one
+of his heads hangs down.  At the rope around his stomach hangs dead mice and
+rats.  He does not smell good.
+~
+Nattacks   1.000000
+Stats1     200 40 60 100 150 250
+Stats2     6 14 4 70 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        7090
+Keywords   waybread food~
+Type       food~
+Short      a waybread~
+Long       Some waybread has been put here.~
+WFlags     take~
+Values     24 0 0 0 0 0 0 0 0 0 0
+Stats      1 50 0 9999 0 None None None
+#EXDESC
+ExDescKey  waybread~
+ExDesc     The waybread is the traditional feed of elves when travelling, they call it
+lembas.  It is said to refresh the weary traveler greatly.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#ROOM
+Vnum        7001
+Name       The muddy sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in mud to your knees.  This is not the kind of place
+for a picnic.  The muddy sewer stretches further into the south.
+~
+#EXIT
+Direction  South~
+ToRoom     7002
+Desc       You see the muddy sewer continuing into the darkness to the south.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7002
+Name       The muddy sewer junction~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       The muddy sewer stretches into the dark to the south.  It looks as if 
+no person has ever sat his foot here before.  It's too muddy for that
+anyway.  The sewer leads north, south and east from here.
+~
+#EXIT
+Direction  North~
+ToRoom     7001
+Desc       The muddy sewer stretches into the dark to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7003
+Desc       South.  The muddy sewer ends in a mudhole that way.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7007
+Desc       East.  The muddy sewer leads into a bend that goes south.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7003
+Name       The mudhole~
+Sector     mountain~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       You stand in mud all the way up to your thighs and it's not too 
+comfortable since you are used to a somewhat different environment.
+The sewer leads to the north of here.  In the middle you can just make
+out an enormous drainpipe leading down.
+~
+#EXIT
+Direction  North~
+ToRoom     7002
+Desc       North.  The muddy junction lies in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       The muddy drainpipe leads down through the mud, otherwise it is utterly dark.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7004
+Name       The Dark Pit~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing by the edge of a dark pit that leads down into even
+deeper darkness.  >BWWAAADDRR< - The smell from down there is unbearable.
+The sewer stretches into the darkness to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     7009
+Desc       East.  The sewer leads into the sewer junction.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       The Dark Pit leads down an down and down ...  well you can't see the 
+bottom anyway.  There are bars that function as a ladder on the side.
+~
+#ENDEXIT
+Reset M    7001 9 7004 -1 -1 -1 100
+Reset M    7001 9 7004 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7005
+Name       The muddy sewer~
+Sector     hills~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the middle of a bend of the sewer pipe.  It is very
+dark around here and the mud is sticking to your legs, not very pleasant.
+The pipe leads east and south from here.
+~
+#EXIT
+Direction  East~
+ToRoom     7011
+Desc       East.  The mud stretches on into the darkness.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7006
+Desc       South.  There is even more mud in that direction than where you are now.  
+Incredible.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7006
+Name       The muddy sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in something that reminds you very much of porridge, this
+has the advantage that it's not hot, it's rather cold actually.  The pipe 
+bends to the north and east.
+~
+#EXIT
+Direction  East~
+ToRoom     7012
+Desc       The pipe leads into a bend that goes south.  Interesting, there's mud on the
+floor there.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7005
+Desc       The muddy sewer pipe leads into a bend that goes east.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7007
+Name       The muddy sewer bend~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       This isn't your idea of a place to stay too long.  You're in up to your
+knees in something that resembles mud, but you're not quite sure.  The
+bend in which you stand leads west and south.
+~
+#EXIT
+Direction  West~
+ToRoom     7002
+Desc       The pipe (still filled with mud) leads into a intersection that goes north 
+and south.  Interesting.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7008
+Desc       The pipe leads into a intersection that goes south and east.  The floor here 
+is still covered in mud.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7008
+Name       A muddy intersection~
+Sector     hills~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You have both your feet safely stuck in mud.  It isn't the mud that's wrong
+it's the smell, the sounds, the total darkness that surrounds you.  Everything
+here is so depressing.  The pipe leads on with a trail of thick mud to the
+north, east and south.
+~
+#EXIT
+Direction  North~
+ToRoom     7007
+Desc       North.  The pipe goes into a bend with a load of mud all the way up the walls.
+The bend leads west.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7014
+Desc       East.  This way like a place for the annual mud festival, although the stench
+wouldn't allow any happiness at all.  The pipe leads into a bend that leads 
+north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7009
+Desc       South.  There's less mud in that direction.  *smile*.  Your light doesn't 
+cover enough space for you to see much more than that it leads into some
+sort of junction.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7009
+Name       The Sewer Junction~
+Sector     forest~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in the middle of a huge junction of sewer pipes right under
+what you'd think was an air shaft.  The sewer pipes lead to the north,
+south, east and west.  It look quite impossible to force your way up.
+~
+#EXIT
+Direction  North~
+ToRoom     7008
+Desc       North.  Mud is the floor basis in that direction.  Yummy.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7017
+Desc       YYEEUUCH!  BOOH!  THAT looks like a nice place for creepy crawlies.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7010
+Desc       North.  This direction looks quite nice actually.  The pipe leads into 
+a bend that goes east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7004
+Desc       A few yards ahead - away from this junction - there is a pit leading down,
+but the smell from there...>PHEWW<.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7010
+Name       A bend in sewer pipe~
+Sector     field~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a bend in the sewer pipe.  A strong smell seeps in from the north.
+The sewer goes north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7009
+Desc       North.  You are staring into a huge junction with exits in all directions.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7018
+Desc       East.  The Pipe leads into utter darkness that way.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7011
+Name       The muddy sewer pipe~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a kind of tube intersection that leads south, west and east.
+Your legs are covered in mud up to the knees.  REAL yucky!  
+~
+#EXIT
+Direction  West~
+ToRoom     7005
+Desc       West.  The mud reaches that way too, all the way up the walls.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7024
+Desc       East.  There's less mud in that direction, or that's your impression.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7021
+Desc       That way is lost in darkness, though you sense less mud in that direction,
+perhaps even a complete end to this sludge that surrounds you.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7012
+Name       The bend in the Muddy sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       This is not your idea of a holiday.  You stand in mud up to your knees.
+It's absolutely inconceivable how all this mud could have been placed
+here.  The pipe leads to the west and south.
+~
+#EXIT
+Direction  West~
+ToRoom     7006
+Desc       West.  All you can see, is that the pipe leads into a bend that goes
+north.  But there's less mud in that direction, however odd that sounds.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7013
+Desc       South.  There's even more mud that way, incredible!  Although it looks
+like an intersection in the sewer system that leads east and south.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7013
+Name       A MUDDY intersection~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You wouldn't want to know the true feeling of standing in this mud up to 
+your hips.  >BWAADR<.  All that fills your mind right now is the dream of 
+a hot bath.  This is NOT very clean mud you know, remember you're in the
+sewer!  The pipes leads north, south and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7012
+Desc       North.  Sludge and sediment fills this corridor of the sewer that leads
+into a bend going west.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7026
+Desc       East.  You can see absolutely nothing of interest in that direction (Maybe
+that's why it's so damn interesting.??) There's no mud in that direction
+either, GREAT!
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7014
+Desc       South.  All you can see is more mud!  Although the pipe goes into a bend
+leading west.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  sediment~
+ExDesc     It's NOT the kind of matter that would concern you too much, normally, but
+as you are in the middle of it, it just might become your main concern.
+REAL YUCKY!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7014
+Name       Muddy sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a bend of the pipe system of the sewer with mud up to your
+thighs.  Contemplating a higher level of existence here would be utterly
+inappropriate, as the smell would keep any intelligent creature from even
+thinking of anything but getting away from this foul end of the WORLD.
+The bend goes from north to west.
+~
+#EXIT
+Direction  North~
+ToRoom     7013
+Desc       North.  Filled with mud, that place looks like an impassable intersection
+with pipes leading north and east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7008
+Desc       West.  There's less mud that way, maybe you're on your way out of this foul
+place.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7015
+Name       The old well~
+Sector     forest~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing by an old and worn well from before this century.  The sewer
+leads to the east from here and the well leads down into darkness.  Metal
+bars implanted in the side of the well lead down as a ladder.
+~
+#EXIT
+Direction  East~
+ToRoom     7028
+Desc       East.  You see, because of the utter darkness that surround you, absolutely
+nothing.  Your light isn't of much use for that kind of distance.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       Down the well there's even less light than up here, so ...  sorry, you can't
+see a thing.  There are metal bars in the side leading down into the darkness.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  bars~
+ExDesc     These look like they're pretty slippery, and not very safe, but perhaps safe
+enough for you to climb down, WITH both hands on them.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7016
+Name       The ordinary bend~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in the middle of a bend in the pipe system of the sewer system, 
+WHAT a place!!!  The pipe leads to the south and the east.
+~
+#EXIT
+Direction  South~
+ToRoom     7017
+Desc       South.  You see nothing at all in that direction it's too dark anyway.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7021
+Desc       East.  What a quiet place you've found there.  It's an intersection that has
+pipeways going north and east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7017
+Name       The sewer junction~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a junction that leads north, west and south.
+~
+#EXIT
+Direction  North~
+ToRoom     7016
+Desc       North.  You see a bend.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7009
+Desc       West.  There's a junction with four pipelines in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7018
+Desc       South.  It looks like a pipe junction just like this one.  Only that one
+leads east and west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7018
+Name       The ordinary junction~
+Sector     city~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       This looks like an ordinary junction, actually it seems very quiet
+here.  The pipelines lead west, east and north.
+~
+#EXIT
+Direction  West~
+ToRoom     7010
+Desc       There's a bend to the west leading north.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7017
+Desc       To the north you can see a junction like this one, leading north and west.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7031
+Desc       To the east there's nothing of particular interest, though there's a 
+junction with pipelines leading north and east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7021
+Name       A quiet pipe junction~
+Sector     city~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       This is the kind of place to rest, though the smell could be a LOT better
+than this.  The sewer goes east, north and west from here.
+~
+#EXIT
+Direction  North~
+ToRoom     7011
+Desc       In that direction, you can't see anything.  It's just too dark.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7029
+Desc       There's an ordinary junction in the pipe system to the east
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7016
+Desc       West.  There's an ordinary bend leading south into the sewer system in
+that direction.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7022
+Name       The odd room with smooth walls~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       As you enter you hear a loud click from one of the walls ...  and you fall
+and fall and fall ...
+.
+.
+.
+.
+ ...  And come to an abrupt end.  THIS is strange indeed.  There's an arched
+entryway leading down.
+~
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       Down.  It's utterly dark that way, though you can make out an intersection
+of sewer pipes leading west, north and east.
+~
+Keywords   entryway~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7024
+Name       The sewer~
+Sector     city~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in mud up to your ankles.  This is an intersection with 
+sewer pipes leading east, south and west.
+~
+#EXIT
+Direction  South~
+ToRoom     7025
+Desc       To the south there's another intersection with pipes going south and east.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7037
+Desc       To the east there's a peculiar looking round room.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7011
+Desc       To the west there's another intersection like this one, with sewer pipes
+leading south and west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7025
+Name       Another intersection~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You have never seen anything so BORING...This is an intersection with pipes
+leading north, south and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7024
+Desc       To the north there's an intersection, where the pipes are leading west and
+east.  You notice that the floor to the west is covered in mud.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7026
+Desc       Another intersection lies to the south.  It leads west and south.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7038
+Desc       East.  You see nothing of interest in that direction, just another 
+intersection.  This one leads east and south.
+~
+#ENDEXIT
+Reset M    7001 9 7025 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7026
+Name       A junction~
+Sector     indoors~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       This one seems interesting, a big difference from all the other junctions.
+It seems cleaner than the rest of them.  Weird.  Something that looks like 
+an air shaft leads upwards, but it looks far too slippery to climb.
+The pipes lead to the south, west and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7025
+Desc       North.  You see an intersection there, leading north and east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7013
+Desc       To the west you see a load of mud and sediment in the sewer.  That should
+be an intersection there but you're not quite sure.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7028
+Desc       To the south there's ANOTHER junction leading west and east.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  mud~
+ExDesc     It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7028
+Name       The sewer junction~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a junction of sewer pipes leading north, east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     7026
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7015
+Desc       To the west you can just make out an old well.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7034
+Desc       To the east you can see a bend in the pipe going south.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7029
+Name       The Triple Junction~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in the middle of a huge junction of concrete sewer pipes.  The 
+pipes lead into three different directions : east, south and west.
+~
+#EXIT
+Direction  West~
+ToRoom     7021
+Desc       To the west you can just make out another junction similar to the one 
+you are standing in.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7030
+Desc       To the south there's a ENORMOUS quadruple sewer junction, all lit up by
+an odd light.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7035
+Desc       East.  You can see a bend in the sewer pipe leading north.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7030
+Name       The Quadruple Junction Under the Dump~
+Sector     city~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in something that reminds you of an entry to an ant hive.
+There are enormous concrete pipes leading north, south, east and west.  
+There's also a metal ladder built into the concrete wall leading up through
+a layer of garbage.  
+~
+#EXIT
+Direction  North~
+ToRoom     7029
+Desc       To the north you can see a huge triple junction with sewer pipes leading
+west and east.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7036
+Desc       East.  You can see a pit in the floor.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7031
+Desc       To the south there's a huge junction with pipes leading east and west.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7022
+Desc       To the west there's an odd looking room with totally smooth walls.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     3030
+Desc       Up through the garbage you can just make out what looks like the Dump in
+Midgaard.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  ladder~
+ExDesc     It looks as if it's made of stainless steel, and it would very well function
+as a club of considerable power, but alas ...  You can't take at all since
+it's firmly set into the concrete wall.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7031
+Name       A triple junction~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a junction with pipes leading west, north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7030
+Desc       To the north there's a ENORMOUS quadruple sewer junction, all lit up by
+an odd light.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7044
+Desc       East.  You can just make out a triple junction leading north and east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7018
+Desc       West.  You can just make out a triple junction leading north and west.
+~
+#ENDEXIT
+Reset M    7002 3 7031 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7034
+Name       A bend in the sewer pipe~
+Sector     field~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can look in two directions where the pipe leads : south and west.
+~
+#EXIT
+Direction  West~
+ToRoom     7028
+Desc       West.  You can just make out a triple junction leading north and west.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7035
+Desc       To the south you can see another bend leading west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7035
+Name       The sewer pipe bend~
+Sector     field~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can look in two different directions where the pipe goes : west and 
+north.
+~
+#EXIT
+Direction  North~
+ToRoom     7034
+Desc       North.  You see another bend leading west.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7029
+Desc       You can see another junction although this one is a triple one with pipes
+going south and west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7036
+Name       The pit~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a section of a pipe that leads to a dead end.  In the floor
+there's a pit leading down.  There are bars set in the side of the pit wall
+functioning as a ladder.
+~
+#EXIT
+Direction  West~
+ToRoom     7030
+Desc       West.  You can see a dimly lit quadruple junction with an exit up.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       Down the pit it's utterly dark you can't see a thing.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7037
+Name       The round room~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       As you enter the room it starts rotating - at first slowly, later faster
+and faster - You get totally confused as to where up and down is, but you are
+certain that the doorway is in the opposite direction of what it was when
+you entered.  It now leads east.  There was only this one exit.
+~
+#EXIT
+Direction  East~
+ToRoom     7050
+Desc       You can just make out a smaller room with a chair.
+~
+#ENDEXIT
+Reset M    7003 8 7037 -1 -1 -1 100
+Reset M    7003 8 7037 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7038
+Name       The three way junction~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a junction of pipes that lead west, east and south.
+~
+#EXIT
+Direction  West~
+ToRoom     7025
+Desc       West.  You see another junction similar to this one leading north and south.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7045
+Desc       East.  You can make out a dimly lit Guard Room.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7039
+Desc       To the south you can see what looks like a store room.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7039
+Name       The Sewer Store Room~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a small room lit by a single torch set in the wall.  The only 
+way out of here is to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     7038
+Desc       To the north you see a pipe junction.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    7003 8 7039 -1 -1 -1 100
+Reset M    7003 8 7039 -1 -1 -1 100
+Reset M    7003 8 7039 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7041
+Name       The Shaft~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are standing by the edge of a deep, dark shaft leading down.  A single
+ladder is your tool to work your way down if you so wish.  The sewer pipe
+leads south from here.
+~
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       Down and utter darkness.  There's absolutely nothing to be seen in that 
+direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7043
+Desc       To the south you can see the pipe leading further south into darkness.
+~
+#ENDEXIT
+Reset M    7001 9 7041 -1 -1 -1 100
+#EXDESC
+ExDescKey  ladder~
+ExDesc     Firmly set into the wall of the shaft it's impossible to even rock, is your
+estimate.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7043
+Name       The Sewer Entrance~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in the middle of a pipe that leads from north to south.  Above you
+an air shaft leads up into sunlight.  It seems totally impossible to go up
+that way.
+~
+#EXIT
+Direction  North~
+ToRoom     7041
+Desc       To the north you can just make out a huge shaft leading down.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7044
+Desc       To the south you can see a triple junction leading west and east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7044
+Name       The junction going three ways~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a passageway in the pipes of the sewer system leading north, east
+and west.
+~
+#EXIT
+Direction  East~
+ToRoom     7049
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7043
+Desc       You see a sewer pipe leading north.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7031
+Desc       West.  You see another junction very similar to this one that leads north
+and west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7045
+Name       The Sewer Room~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a large room with chairs set in the walls.  You have the
+feeling of being watched.  To the south there's an entry to a larger room.
+The room is lit by five torches, also set in the walls.  To the west there
+is a doorway leading out to the sewers.
+~
+#EXIT
+Direction  South~
+ToRoom     7046
+Desc       You can see an even larger room than this one, filled with light.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7038
+Desc       To the west you can see the sewers.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7046
+Name       The Sewer room~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a Room with walls that glitters like gold though not quite like it.
+This is strange as it looks as if the glitter lights the whole room.  It
+looks very bright.  To the south the floor is covered with yucky water.  The
+North leads to sort of a Guard Room.
+~
+#EXIT
+Direction  North~
+ToRoom     7045
+Desc       To the north you can see the guard room.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7047
+Desc       To the south there is nothing but water and an exit leads east from there.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7047
+Name       The Pool in the sewer~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand in water to your waste.  To the north is the entrance to this room.
+A single door leads east.
+~
+#EXIT
+Direction  North~
+ToRoom     7046
+Desc       To the north you see the entrance to this room.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7053
+Desc       You can see an enormous hall through the doorway.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7048
+Name       The Sewers~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a dead end of the sewer.  The only way out is south.
+You can see a shaft leading up but it looks too difficult to go up
+that way.
+~
+#EXIT
+Direction  South~
+ToRoom     7049
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7049
+Name       The junction~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a junction leading north, west and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7048
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7060
+Desc       Darkness has closed in on that part of the sewer system, you can't see
+a thing in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7044
+Desc       West.  You see another junction very similar to this one that leads north
+and west.
+~
+#ENDEXIT
+Reset M    7002 3 7049 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7050
+Name       The small room~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       The only thing in this room of interest is a chair, and that's tight to the 
+rock floor.  A doorway leads south and another leads east into darkness.
+~
+#EXIT
+Direction  South~
+ToRoom     7051
+Desc       You can see a room with a lot of light in it.  You can't make out any details.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7055
+Desc       Utter darkness...!
+~
+#ENDEXIT
+Reset M    7003 8 7050 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        7051
+Name       The Sewer pipe~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in what reminds you of a foul sewer, as if you liked being here!  
+You can see two exits leading either north or south.
+~
+#EXIT
+Direction  North~
+ToRoom     7050
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7052
+Desc       To the south you can see a strange light flowing from there.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7052
+Name       The Grand Sewer~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a Grand Sewer Pipe.  This stretches toward the south.  It's large 
+indeed!  A doorway leads to the east from here.
+~
+#EXIT
+Direction  South~
+ToRoom     7053
+Desc       In the south end of the pipe the "floor" is completely covered with water.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7051
+Desc       To the north you can see a doorway.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7056
+Desc       You can't see anything in that darkness.
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7053
+Name       The South end of the Grand Pipe~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand in water to your knees.  A doorway leads west from here.  The Pipe
+stretches north.
+~
+#EXIT
+Direction  West~
+ToRoom     7047
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7052
+Desc       You see a lot of pictures decorating the walls.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7055
+Name       The Edge of The Water Sewer~
+Sector     forest~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a room where half of the floor is covered in water.  The water
+leads east and a doorway leads west.
+~
+#EXIT
+Direction  West~
+ToRoom     7050
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7061
+Desc       You can hardly make out much more than that the next place is in a pipe 
+with more water.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7056
+Name       The Dark hallway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see much of this, even with a light.  The hallway goes into a
+passageway to the south.  A doorway leads west.
+~
+#EXIT
+Direction  West~
+ToRoom     7052
+Desc       You see a lot of light, bright as daylight, but nothing of interest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7057
+Desc       You can see nothing at all because it's completely dark in that direction.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7057
+Name       The dark passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the ground where you put your feet.  The 
+passageway seems to continue south and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7056
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7058
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7058
+Name       The dark passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the ground where you put your feet.  The
+passageway seems to continue south and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7057
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7059
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7059
+Name       The dark passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the ground where you put your feet.  The
+passageway seems to continue south and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7058
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7060
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        7060
+Name       The dark passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the ground where you put your feet.  The
+passageway seems to continue west and north.  To the east there's water
+covering the floor and that leads through an arched entry to a watery
+sewer.
+~
+#EXIT
+Direction  East~
+ToRoom     7068
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7049
+Desc       You can just make out a triple junction leading north and west.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7059
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7061
+Name       The Watery Sewer Bend~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to bend and lead south and west.
+~
+#EXIT
+Direction  South~
+ToRoom     7062
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7055
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7062
+Name       The Watery sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+~
+#EXIT
+Direction  South~
+ToRoom     7063
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7061
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7063
+Name       The Watery sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+~
+#EXIT
+Direction  South~
+ToRoom     7064
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7062
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7064
+Name       The Watery Sewer Junction~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead into a junction going south,north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7063
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7065
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7069
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7065
+Name       The Watery sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7064
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7066
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7066
+Name       The Watery sewer junction~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead into a junction that goes north,south and east.
+~
+#EXIT
+Direction  North~
+ToRoom     7065
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7067
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     7070
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7067
+Name       The Watery sewer~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to lead south and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7066
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7068
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7068
+Name       The Watery sewer bend~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see anything but the water you're in up to your hips.  The sewer
+seems to bend and lead west and north.
+~
+#EXIT
+Direction  North~
+ToRoom     7067
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     7060
+Desc       You can't see anything in that direction and your light isn't enough to light
+that far.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7069
+Name       A ledge by the dark pool~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see much here but the echo tells you that there's quite a drop
+down.  You can just make out a huge dark pool out there in the darkness, 
+mostly because of the trickling of water.  The water from the sewer actually
+washes over this ledge and makes it quite slippery.  From here it drops, 
+like a waterfall, into the pool far down.
+~
+#EXIT
+Direction  West~
+ToRoom     7064
+Desc       You can't see a thing.  It's too dark.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     7070
+Desc       You can't see a thing.  It's too dark.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7070
+Name       A ledge by the dark pool~
+Sector     mountain~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You can't see much here but the echo tells you that there's quite a drop
+down.  You can just make out a huge dark pool out there in the darkness,
+mostly because of the trickling of water.  The water from the sewer actually
+washes over this ledge and makes it quite slippery.  From here it drops,
+like a waterfall, into the pool far down.  Under you there is a small fissure
+in the rock.  It seems big enough to contain a few people.
+~
+#EXIT
+Direction  West~
+ToRoom     7066
+Desc       You can't see a thing.  It's too dark.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     7069
+Desc       You can't see a thing.  It's too dark.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     7099
+#ENDEXIT
+#EXDESC
+ExDescKey  water~
+ExDesc     It looks dark and murky, and emanates a foul stench.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        7099
+Name       The fissure under the ledge~
+Sector     mountain~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       This is a small fissure in the solid rock.  Under you lies the deep dark pool.
+The water trickles quietly down from the ledge above you.  The water smells 
+like the water in a sewer.
+~
+#EXIT
+Direction  Up~
+ToRoom     7070
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       The water edge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

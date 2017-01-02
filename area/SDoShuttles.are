@@ -1,0 +1,399 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            SDO Shuttles~
+Author          Unknown~
+Vnums           25100 25125
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        ~
+ResetFreq       5
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#ROOM
+Vnum        25100
+Name       Inside the Shuttle Craft~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25101 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport to the planet Sky.
+Please fasten your seatbelt and keep your seat back and tray
+tables in a full upright and locked position.  Now sit back,
+relax, and enjoy the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        25101
+Name       Backing Away from the Station~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25102 0 0 100000
+Desc       With a sudden jerk, the shuttle leaves the station and begins to rotate
+to face into the blackness of space.  The roar of the engines is steady
+as you begin your journey to the hyperspace jump point.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25102
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25103 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace.  Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25103
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25104 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you.  You have no idea
+just how much time has passed since you left the station. You just want
+to drift off to sleeeeeeepppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25104
+Name       Flying through the Atmosphere of Planet Sky~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25105 0 0 100000
+Desc       Just as you drift off to sleep you find yourself on a roller coaster ride
+through a planet's atmosphere.  Your shuttle pilot expertly guides you 
+through the turbulent air currents. As you get closer to the planets 
+surface, you notice a landing platform.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25105
+Name       Landing Platform~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       Your craft lands with a resounding THUD and the door opens out into a 
+small room.  From what you can see through the window, the sky outside
+is just absolutely beautiful. 
+~
+#EXIT
+Direction  North~
+ToRoom     25106
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        25106
+Name       Airlock~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       The low hum of a pump can be heard as the doors to the airlock close behind
+you.  Two buttons can be seen on the side wall of the chamber.  The
+green one is marked 'Corridor', and the red one is marked 'Ship'.
+~
+#EXIT
+Direction  North~
+ToRoom     25107
+Keywords   green~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     25108
+Keywords   red~
+Flags      isdoor~
+#ENDEXIT
+Reset D    25106 0 2 100 -2
+Reset D    25106 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        25107
+Name       On the platform~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk out on the landing platform and observe the planet you just
+landed on. You see a stairway down to the surface. You also see a
+large button on the east wall.
+~
+#EXIT
+Direction  East~
+ToRoom     25106
+Desc       You see a button on the wall that says push to open
+~
+Keywords   button~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     20000
+#ENDEXIT
+Reset D    25107 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        25108
+Name       Inside the Shuttle Craft~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25109 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport back to SDO from the Planet Sky.
+Please fasten your seatbelt and keep your seat back and tray
+tables in a full upright and locked position.  Now sit back,
+relax, and enjoy the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        25109
+Name       Flying through the atmosphere.~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25110 0 0 100000
+Desc       Your shuttle pilot expertly guides you through the maze of air currents, out 
+into space.  Once again, you find yourself on a roller coaster ride through 
+the atmosphere.  
+~
+#ENDROOM
+
+#ROOM
+Vnum        25110
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25111 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace.  Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25111
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25112 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you.  You have no idea
+just how much time has passed since you left the station. You just want
+to drift off to sleeeeeeepppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25112
+Name       Returning to the Station~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  1064 0 0 100000
+Desc       With a sudden jerk, the shuttle docks at the station.  The engine roar
+quiets and an announcement comes over the speak system telling you that
+you can now unfasten your seatbelt.  Thank you for riding the SDO
+Shuttle.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25113
+Name       Inside the Shuttle Craft~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25114 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport to the planet Ward.
+Please fasten your seatbelt and keep your seat back and tray
+tables in a full upright and locked position.  Now sit back,
+relax, and enjoy the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        25114
+Name       Backing Away from the Station~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25115 0 0 100000
+Desc       With a sudden jerk, the shuttle leaves the station and begins to rotate
+to face into the blackness of space.  The roar of the engines is steady
+as you begin your journey to the hyperspace jump point.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25115
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25116 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace.  Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25116
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25117 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you.  You have no idea
+just how much time has passed since you left the station. You just want
+to drift off to sleeeeeeepppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25117
+Name       Flying through the Atmosphere of Planet Ward~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25118 0 0 100000
+Desc       Just as you drift off to sleep you find yourself on a roller coaster ride
+through a planet's atmosphere.  Your shuttle pilot expertly guides you 
+through the turbulent air currents. As you get closer to the planets 
+surface, you notice a landing platform.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25118
+Name       Landing Platform~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       Your craft lands with a resounding THUD and the door opens out into a 
+small room.  From what you can see through the window, the Ward outside
+is just absolutely beautiful. 
+~
+#EXIT
+Direction  North~
+ToRoom     25119
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        25119
+Name       Airlock~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       The low hum of a pump can be heard as the doors to the airlock close behind
+you.  Two buttons can be seen on the side wall of the chamber.  The
+green one is marked 'Corridor', and the red one is marked 'Ship'.
+~
+#EXIT
+Direction  North~
+ToRoom     25120
+Keywords   green~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     25121
+Keywords   red~
+Flags      isdoor~
+#ENDEXIT
+Reset D    25119 0 2 100 -2
+Reset D    25119 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        25120
+Name       On the platform~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk out on the landing platform and observe the planet you just
+landed on. You see a stairway down to the surface. You also see a
+large button on the east wall.
+~
+#EXIT
+Direction  East~
+ToRoom     25119
+Desc       You see a button on the wall that says push to open
+~
+Keywords   button~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10800
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        25121
+Name       Inside the Shuttle Craft~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25122 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport back to SDO from the Planet Ward.
+Please fasten your seatbelt and keep your seat back and tray
+tables in a full upright and locked position.  Now sit back,
+relax, and enjoy the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        25122
+Name       Flying through the atmosphere.~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25123 0 0 100000
+Desc       Your shuttle pilot expertly guides you through the maze of air currents, out 
+into space.  Once again, you find yourself on a roller coaster ride through 
+the atmosphere.  
+~
+#ENDROOM
+
+#ROOM
+Vnum        25123
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25124 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace.  Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25124
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  25125 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you.  You have no idea
+just how much time has passed since you left the station. You just want
+to drift off to sleeeeeeepppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        25125
+Name       Returning to the Station~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  1065 0 0 100000
+Desc       With a sudden jerk, the shuttle docks at the station.  The engine roar
+quiets and an announcement comes over the speak system telling you that
+you can now unfasten your seatbelt.  Thank you for riding the SDO
+Shuttle.
+~
+#ENDROOM
+
+#ENDAREA

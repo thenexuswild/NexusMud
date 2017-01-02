@@ -1,0 +1,2969 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Emerald Waterfall~
+Author          Unknown~
+Vnums           10000 10099
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       45
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        10000
+Keywords   emerald snake m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Snake~
+Long       An Emerald Snake slithers on the ground here waiting to strike.
+~
+Desc       The emerald snake is about four feet long and is covered with emerald colored
+scales. It looks quiet poisonous.
+~
+Nattacks   2.000000
+Stats1     -500 100000 60 100 150 250
+Stats2     20 1 0 1100 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10001
+Keywords   emerald scorpion m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Scorpion~
+Long       A curious looking Emerald Scorpion scuttles about your feet.
+~
+Desc       The Emerald Scorpion looks very beuatiful. It looks like any other scorpion
+except that instead of being black or red it's a dark emerald color. It also
+has a nasty looking stinger that is dripping with poison.
+~
+Nattacks   2.000000
+Stats1     -500 100000 60 100 150 250
+Stats2     20 1 0 1100 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10002
+Keywords   emerald bat m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Bat~
+Long       An ugly little Emerald Bat hangs from the ceiling of the cave here.
+~
+Desc       The Emerald Bat is indeed ugly. It looks like a rat with emerald colored
+wings. It has a nasty looking bite though.
+~
+Nattacks   2.000000
+Stats1     -250 100000 60 100 150 250
+Stats2     20 1 0 1100 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10003
+Keywords   emerald warrior m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Warrior~
+Long       An Emerald Warrior is here glaring at you with stone cold eyes.
+~
+Desc       The Emerald Warrior is a tall man about six foot or more. He has painted
+his skin with a dark emerald colored paint. He lives somewhere in the caves
+and is probably lurking about trying to find food. He doesn't seem to be
+exactly joyious to see you.
+~
+Nattacks   3.000000
+Stats1     -500 150000 60 100 150 250
+Stats2     25 -1 -5 1775 4 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10004
+Keywords   emerald draconian dragon m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Draconian~
+Long       An Emerald Draconian lurks in the shadows here glaring at you with hatred.
+~
+Desc       The Emerald Draconian is a hideous beast. It towers over you at somewhere
+close to seven feet. It has a mouth gaped with long curved teeth and small
+wings on it's back enable it to fly. It's skin is tainted an emerald color.
+~
+Nattacks   3.000000
+Stats1     -500 1500000 60 100 150 250
+Stats2     25 -1 -5 1775 4 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10005
+Keywords   emerald sea serpent m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Emerald Sea Serpent~
+Long       The Emerald Sea Serpent swims here with poison leaking out it's fangs.
+~
+Desc       The Emerald Sea Serpent is a gigantic beast. It must be fifty feet long it has
+a huge mouth with large fangs that drip green poison. It's skin is actually
+made of emeralds instead of just being emerald colored scales. It looks mean.
+~
+Nattacks   4.000000
+Stats1     -1000 500000 60 100 150 250
+Stats2     31 -7 -10 9900 6 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis flying sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10006
+Keywords   emerald shark m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Emerald Shark~
+Long       The Emerald Shark lurks dangerously in the dark emerald water here.
+~
+Desc       The Emerald Shark is about thirty feet long. It's skin is a deep emerald
+color and it's jaw must be five foot across and has dark emerald teeth.
+~
+Nattacks   4.000000
+Stats1     -1000 500000 60 100 150 250
+Stats2     31 -7 -10 9900 6 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis flying sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10007
+Keywords   emerald dragon turtle dragon-turtle m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Emerald Dragon-Turtle~
+Long       The Emerald Dragon-Turtle swims through the dark emerald water.
+~
+Desc       The Emerald Dragon-Turtle is a huge turtle with a dark emerald shell. It's
+shell is spiked with four inch dagger-like spikes. It's huge jaw has a sharp
+edge for cutting and tearing meat.
+~
+Nattacks   4.000000
+Stats1     -1000 500000 60 100 150 250
+Stats2     31 -7 -10 9900 6 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis flying sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10008
+Keywords   emerald dragon ancient m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Ancient Emerald Dragon~
+Long       The Ancient Emerald Dragon glares at you with wise aged eyes.
+~
+Desc       The Ancient Emerald Dragon is a huge emerald dragon about one-hundred feet
+from head to tail. It's eyes denote it's old age and the wisdom it contains.
+This dragon has existed for hundreds perhaps even thousands of years it has
+seen many wars and has had a lot of battle practice. The likes of you probably
+don't impress him much.
+~
+Nattacks   4.000000
+Stats1     -1000 750000 60 100 150 250
+Stats2     36 -10 -10 12860 8 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis flying sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10009
+Keywords   emerald baby dragon m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A Baby Emerald Dragon~
+Long       A Baby Emerald Dragon lurks here looking at you with curious eyes.
+~
+Desc       The baby Emerald Dragon is a small dragon possibly less then ten feet long.
+It's scales are a light emerald color and it looks quiet cute. Although he
+probably has a nasty bite.
+~
+Nattacks   2.000000
+Stats1     -500 100000 60 100 150 250
+Stats2     20 1 -10 1100 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10010
+Keywords   emeraldspikethatyoucantseeyoufool m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Spike~
+Long       An Emerald Spike is here pointing right at your midsection.
+~
+Desc       Blah there's no keywords you can't see me!
+~
+Nattacks   4.000000
+Stats1     -1000 5000000 60 100 150 250
+Stats2     36 -10 -10 12860 50 0 500
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis flying sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10011
+Keywords   emerald dragon trap m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Trap Dragon~
+Long       An Emerald Trap Dragon is here awaiting your decision.
+~
+Desc       The Emerald Trap Dragon doesn't really even exist. He's merely here for your
+amusement or death whichever the case may be.
+~
+Nattacks   2.000000
+Stats1     -500 100000 60 100 150 250
+Stats2     20 1 0 1100 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10012
+Keywords   emerald dragon trap m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Trap Dragon~
+Long       An Emerald Trap Dragon is here awaiting your decision.
+~
+Desc       The Emerald Trap Dragon doesn't really even exist. He's merely here for your
+amusement or death whichever the case may be.
+~
+Nattacks   4.000000
+Stats1     -500 100000 60 100 150 250
+Stats2     36 1 0 1100 50 0 500
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger~
+Affected   detect_invis flying sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10013
+Keywords   halfling half child kid m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A Halfling Child~
+Long       A Halfling Child is here enjoying his picnic.
+~
+Desc       The Halfling Child is about two feet tall and wears the garb of common
+folk. He's merely here enjoying his picnic.
+~
+Nattacks   1.000000
+Stats1     250 10000 60 100 150 250
+Stats2     5 16 5 74 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_evil~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10014
+Keywords   halfling half man father m100~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Halfling Father~
+Long       A Halfling Father is here watching his children enjoy the picnic.
+~
+Desc       The Halfling Father is rather tall for a halfling he stand almost four and
+a half feet tall, and he has strong arms that look like they could bash
+the likes out of your head.
+~
+Nattacks   3.000000
+Stats1     500 100000 60 100 150 250
+Stats2     25 0 0 1775 4 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10015
+Keywords   halfling mother woman half m100~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A Halfling Mother~
+Long       A Halfling Mother is here preparing the food for the picnic.
+~
+Desc       The Halfling mother is a four foot tall halfling that looks at you with
+kind and loving eyes. She is here having a nice picnic beside the river with
+her family. Although if you were to mess with her or her family she could 
+probably bash your skull in with a spatula.
+~
+Nattacks   3.000000
+Stats1     500 100000 60 100 150 250
+Stats2     25 0 0 1775 4 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10016
+Keywords   emerald guardian guard m100~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      An Emerald Guardian~
+Long       An Emerald Guardian stands here silently guarding the path.
+~
+Desc       The Emerald Guardian is a humanoid made of solid emerald. He has four arms
+and four legs and has nine inch claws and four inch teeth. He looks awful
+mean and I doubt he really likes you.
+~
+Nattacks   4.000000
+Stats1     -1000 400000 60 100 150 250
+Stats2     31 -5 -6 900 6 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   detect_invis sanctuary fireshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        10000
+Keywords   emerald shield o100~
+Type       armor~
+Short      An Emerald Shield~
+Long       A beautiful emerald shield lies here on the ground.~
+Flags      glow hum magic antineutral~
+WFlags     take shield hold~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    mana 10 -1 -1 0
+AffData    save_all 3 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  shield emerald~
+ExDesc     The Emerald Shield is a beautiful giant emerald shaped into a shield.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10001
+Keywords   emerald dragon turtle dragon-turtle shell armor o100~
+Type       armor~
+Short      An Emerald Dragon-Turtle Shell~
+Long       An emerald dragon-turtle shell lies here on the ground.~
+Flags      glow hum magic antineutral~
+WFlags     take body hold~
+Values     35 35 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    Strength -2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#EXDESC
+ExDescKey  emerald dragon turtle dragon-turtle shell armor~
+ExDesc     The emerald dragon-turtle shell is a shell from the fabled Emerald Dragon-Turtle. 
+It’s a brilliant emerald color and has a diamond shaped pattern across the top with
+a vertical pattern along the bottom. It looks as if it’s just the right size to fit
+over your torso.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10002
+Keywords   emerald dragon turtle dragon-turtle eye o100~
+Type       light~
+Short      An Emerald Dragon-Turtle Eye~
+Long       The eye from some sort of turtle lies on the ground here.~
+Flags      glow hum magic antineutral~
+WFlags     take~
+Values     0 -1 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData affected  'detect_evil'  -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'detect_magic' -1 -1 0
+#EXDESC
+ExDescKey  emerald dragon turtle dragon-turtle eye~
+ExDesc     The emerald dragon-turtle eye is an eyeball that has been ripped from the corpse
+of a dead dragon-turtle. It’s about the size of a softball and has a brilliant
+emerald color. It appears to almost be glowing with a pale emerald light. It 
+would probably be quite beautiful if not for the fact that part of the eyestalk
+still hangs from it. 
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10003
+Keywords   emerald bracelet sea serpent scale scales o100~
+Type       container~
+Short      A Bracelet made of Emerald Sea Serpent Scales~
+Long       A bracelet made of emerald scales lies here at your feet.~
+Flags      glow hum magic antineutral~
+WFlags     take wrist~
+Values     12 1 -1 10 0 -1 0 0 0 0 0
+Stats      2 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Constitution -1 -1 -1 0
+#EXDESC
+ExDescKey  bracelet made sea serpent scale scales~
+ExDesc     The bracelet is made of pretty emerald scales and has a pouch on it for
+carrying objects.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10004
+Keywords   emerald sea serpent fangs o100~
+Type       weapon~
+Short      Emerald Sea Serpent Fangs~
+Long       A pair of long sharp emerald sea serpent fangs lie here.~
+Flags      glow hum magic antineutral~
+WFlags     take wield hold~
+Values     0 8 3 6 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana -5 -1 -1 0
+#EXDESC
+ExDescKey  emerald sea serpent fangs o100~
+ExDesc     The emerald sea serpent fangs are about nine inches long and gently curved. 
+Venom still drips from the end of the fangs and sea serpent venom is 
+supposedly some of the most potent poison ever.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10005
+Keywords   emerald shark skin o100~
+Type       armor~
+Short      Emerald Shark Skin~
+Long       The hide of an emerald shark lies here on the ground sparkling.~
+Flags      glow hum magic antineutral~
+WFlags     take about hold~
+Values     18 18 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    damroll 3 -1 -1 0
+AffData    Intelligence -2 -1 -1 0
+AffData    Wisdom -2 -1 -1 0
+AffData    Strength 1 -1 -1 0
+AffData affected  'invisible' -1 -1 0
+#EXDESC
+ExDescKey  emerald shark skin o100~
+ExDesc     The emerald shark skin is what used to be the skin of the fabled emerald shark. 
+It has been cleaved from the body and trimmed up to about the size of a cloak. 
+It is quiet beautiful with a dark emerald shade to it that gleams just right 
+in the light.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10006
+Keywords   emerald shark shark's tooth o100~
+Type       treasure~
+Short      Emerald Shark's Tooth~
+Long       A large tooth from a emerald shark is here.~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    Strength -2 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+#EXDESC
+ExDescKey  emerald shark tooth o100~
+ExDesc     The emerald shark tooth is about the size of your palm and appears to be solid 
+emerald. It’s razor sharp tip has a glinting effect when the light hits it just 
+so. It’s quiet mesmerizing to stare into the deep emerald.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10007
+Keywords   scale arm plates armplates o100~
+Type       armor~
+Short      Emerald Scale Armplates~
+Long       A set of nice looking emerald scale armplates lie on the ground here.~
+Flags      glow hum antineutral~
+WFlags     take arms hold~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    Strength 1 -1 -1 0
+AffData    Dexterity -2 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  emerald scale armplates arm plates o100~
+ExDesc     The emerald scale armplates are quiet beautiful. They are made from the scales 
+of the ancient Emerald Dragon. The scales are fabled to have magical properties. 
+The armplates appear to be of the absolute finest quality.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10008
+Keywords   scale leg plates legplates o100~
+Type       armor~
+Short      Emerald Scale Legplates~
+Long       A set of nice looking emerald scale legplates lie on the ground here.~
+Flags      glow magic antineutral~
+WFlags     take legs hold~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    Strength -2 -1 -1 0
+#EXDESC
+ExDescKey  emerald scale legplates leg plates o100~
+ExDesc     The emerald scale legplates are quiet beautiful. They are made from the scales 
+of the ancient Emerald Dragon. The scales are fabled to have magical properties.
+The legplates appear to be of the absolute finest quality.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10009
+Keywords   emerald draconian wings o100~
+Type       armor~
+Short      Emerald Draconian Wings~
+Long       A pair of emerald wings covered in scales is here.~
+Flags      glow antineutral~
+WFlags     take about~
+Values     15 15 0 0 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Strength -3 -1 -1 0
+AffData    hit -5 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10010
+Keywords   emerald scorpion stinger o100~
+Type       weapon~
+Short      Emerald Scorpion Stinger~
+Long       A stinger from an emerald scorpion is on the ground dripping poison.~
+Flags      glow antineutral~
+WFlags     take wield hold~
+Values     0 4 4 6 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10011
+Keywords   emerald left piece key waterfall k100~
+Type       key~
+Short      the left piece of the waterfall key~
+Long       Half of a key in the shape of a waterfall lies on the ground here.~
+Flags      glow~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  emerald right piece key waterfall~
+ExDesc     It looks as if you could assemble it with another piece to make a whole
+key, if you only knew where the other piece was.....
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10012
+Keywords   emerald right piece key waterfall k100~
+Type       key~
+Short      the right piece of the waterfall key~
+Long       Half of a key in the shape of a waterfall lies on the ground here.~
+Flags      glow~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  emerald right piece key waterfall~
+ExDesc     It looks as if you could assemble it with another piece to make a whole
+key, if you only knew where the other piece was.....
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10013
+Keywords   emerald waterfall key k100~
+Type       key~
+Short      The Emerald Waterfall Key~
+Long       The emerald waterfall key lies on the ground here.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10014
+Keywords   emerald key k100~
+Type       key~
+Short      An Emerald Key~
+Long       An emerald key lies on the ground here at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10015
+Keywords   emerald key k100~
+Type       key~
+Short      An Emerald Key~
+Long       An emerald key lies on the ground here at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10016
+Keywords   emerald key k100~
+Type       key~
+Short      An Emerald Key~
+Long       An emerald key lies on the ground here at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10017
+Keywords   left piece dragon key k100~
+Type       treasure~
+Short      the left piece of the dragon key~
+Long       The left piece of a key in the shape of a dragon lies at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10018
+Keywords   center piece dragon key k100~
+Type       treasure~
+Short      the center piece of the dragon key~
+Long       The center piece of a key in the shape of a dragon lies here at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10019
+Keywords   right piece dragon key k100~
+Type       treasure~
+Short      the right piece of the dragon key~
+Long       The right piece of a key in the shape of a dragon lies here at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10020
+Keywords   dragon key emerald k100~
+Type       key~
+Short      The Emerald Dragon Key~
+Long       A pure solid emerald key in the shape of a dragon lies here at your feet.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10021
+Keywords   trap key emerald dragon k100~
+Type       key~
+Short      Key of the Emerald Trap~
+Long       A small stubby brass key lies on the ground.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        10000
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are walking on a pleasant path through the forest. The birds are chirping
+and small squirrels are foraging food for the upcoming winter. The small dirt 
+path you are on leads east, further into the forest.
+~
+#EXIT
+Direction  East~
+ToRoom     10001
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10001
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The narrow dirt path continues to wind through the forest. A large bird with 
+a long yellow beak and colored feathers is in a tree making a low whooping 
+sound. Yellow and red autumn leaves cover the path. The small path continues 
+east into the forest.
+~
+#EXIT
+Direction  East~
+ToRoom     10002
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10000
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10002
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The small dirt path is covered in red and yellow leaves from the autumn trees
+giving warning of the approaching winter. The path you are on leads east
+further into the forest, and west out of the forest.
+~
+#EXIT
+Direction  East~
+ToRoom     10003
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10001
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10003
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The small path continues in a generaly eastern direction further into the
+forest, and pretty red and yellow colored autumn leaves dot the trail. A 
+small brook running alongside the trail babbles quietly on the northern 
+side of the trail and large fish splash about in it as they make their 
+journey towards their spawning grounds.
+~
+#EXIT
+Direction  East~
+ToRoom     10004
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10002
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10004
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The forest that was full of red and yellow autumn leaves now seems to have
+a more healthy looking green color. Small stones of shale and granite are
+strewn across the path, and make your feet a bit uncomfortable.
+~
+#EXIT
+Direction  East~
+ToRoom     10005
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10003
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10005
+Name       A Bend in the Path~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The small dirt path starts to become more and more cumbersome as the dirt
+becomes made up of more shale and granite, and a few fist size rocks make 
+your journey rather unpleasent, but the forest which is now a luscious, 
+healthy looking green more than makes up for the pain of your feet. The 
+path also takes a turn towards the north here instead of it's usual 
+eastern direction.
+~
+#EXIT
+Direction  North~
+ToRoom     10006
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10004
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10006
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The small path here widens as it winds its way north. A few feet ahead of you
+the shale and granite path is about six or seven feet across. In the very
+center of the path ahead of you grows a large green oak tree. The tree seems
+to be alive with all the birds chirping and the squirrels that are frolicking
+about in it.
+~
+#EXIT
+Direction  North~
+ToRoom     10007
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10005
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10007
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The shale and granite stone path gradually thins back to it's orignal size,
+which is about three feet across. The healthy, green trees here seem to 
+positively glow with life. A few feet north of the path is small pond which
+teems with fish and the water fowl which feed upon them.
+~
+#EXIT
+Direction  North~
+ToRoom     10008
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10006
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10008
+Name       A Bend in the Path~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The rocky path turns again back towards the east. The trees here are simply 
+beautiful and are filled to the brink with all kinds of life. All types of 
+imaginable birds chirp here and there, but one spectacular emerald colored 
+bird with a long, yellow, scythe shaped beak catches your eye and you spend 
+a moment admiring its lovely high-pitched song.
+~
+#EXIT
+Direction  East~
+ToRoom     10009
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10007
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10009
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       After getting your attention back from the pretty emerald bird you continue
+along the path. A ways to the east you hear the rushing of water that would
+indicate there is some kind of river or stream ahead of you. The forest 
+graduly changes from it's normal dark healthy looking green to an extremely
+bright and vivid emerald color.
+~
+#EXIT
+Direction  East~
+ToRoom     10010
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10008
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10010
+Name       The Path in the Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The rocky, shale and granite path gradually changes to a soft dirt, then to
+a yellow colored sand, and finally to a bright white sand. To the east you can
+hear the defening sound of a strong currented river, and you think you can
+even make out a small beach to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     10011
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10009
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10011
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The path to the west spills out onto a blazing white sand beach. Shells of 
+various river life dot the edge closest to the river. The river is the real 
+eye-getter though. It is not like most rivers -- instead of being a dark 
+blue or muddy color it is a bright emerald color. This probably is the 
+mysterious Emerald River that you have heard about from halfling travellers. 
+The white sand beach continues to the north and south, and you can enter 
+the water to the east, while to the west lies the path from which you got 
+here.
+~
+#EXIT
+Direction  North~
+ToRoom     10012
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10034
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10018
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10010
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10012
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       A deep, think forest on the west side of the bank prevents any movement in
+that direction but you could exit out onto the river to the east although
+the bank looks like it might be a bit hard to get back onto. The sandy white
+beach continues north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10013
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10033
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10011
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10013
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The sun hits the emerald river just right to reflect the green-tinted light
+directly into your eyes, mesmerizing you. The thick vegatation to the west 
+prevents any movement that way, but the beach continues north and south and
+the river is accessible to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10014
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10032
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10012
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10014
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       A deep, thick forest on the west side of the bank prevents any movement in
+that direction but you could exit out onto the river to the east, although
+the bank looks like it might be a bit hard to get back onto. The sandy
+beach continues north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10015
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10031
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10013
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10015
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The river to the east is absolutly gorgeous. Its cool emerald waters invite
+you to take a dip or go for a ride in your boat. The forest on the west side
+of the white beach stops you from going that way but the beach continues to 
+the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10016
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10030
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10014
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10016
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The sandy beach here is dotted with the shells of various animals and a large,
+smelly, rotting corpse of a fish defies the beauty of the emerald river to 
+the east. The white sand beach continues north and south and the river is 
+accessible to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10017
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10029
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10015
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10017
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The beautiful waters of the river to the east invite the viewer to take a dip
+or go for a boat ride. A dense forest covers the bank to the north and west 
+side stopping any travelling in those directions, but you can go back south 
+along the beach or east into the cool emerald waters of the river.
+~
+#EXIT
+Direction  East~
+ToRoom     10028
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10016
+#ENDEXIT
+Reset M    10013 2 10017 -1 -1 -1 100
+Reset M    10013 2 10017 -1 -1 -1 100
+Reset M    10014 1 10017 -1 -1 -1 100
+  Reset E  10012 99 17 100
+Reset M    10015 1 10017 -1 -1 -1 100
+  Reset E  10011 99 17 100
+#ENDROOM
+
+#ROOM
+Vnum        10018
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand on the west bank of the emerald river. Its bright emerald waters
+look positively inviting. The sandy beach here is covered in shells of clams
+and various other sea-life.
+~
+#EXIT
+Direction  North~
+ToRoom     10011
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10035
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10019
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10019
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The sandy west bank of the river is dotted with little shells. The beach
+continues north and south, to the west is a dense forest that prevents you
+from travelling in that direction, but the river is accessible to the east,
+though the bank looks a little to steep to get back up once entering the 
+river.
+~
+#EXIT
+Direction  North~
+ToRoom     10018
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10036
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10020
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10020
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The light from the golden sun hovering over you reflects its light from the
+emerald tinted waters of the Emerald River directly into your eyes, 
+mesmerizing you with it's absolute beauty. A thick, vibrant green wall of
+vegetation to the west prevents you from moving that way, but the sandy white
+beach continues north and south, and you can go for a swim or a ride in a boat
+to the beautiful green waters of the Emerald River to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10019
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10037
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10021
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10021
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The river to the east is absolutly gorgeous. Its cool emerald waters invite
+the viewer of it to take a dip or go for a ride in your boat. The dark 
+vibrant green forest to the west side of the sandy white beach stops any
+travelling in that direction, but the white beach continues to the north and
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     10020
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10038
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10022
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10022
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The river to the east is absolutly gorgeous. Its cool emerald waters invite
+you to take a dip or go for a ride in your boat. The forest on the west side
+of the bank stops you from going that way but the bank continues to the north
+and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10021
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10039
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10023
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10023
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The vibrant green colored waters of the Emerald River run merrily pass
+you to the east of the white sand beach. To the west a wall of thick
+vegetation prohibits movement that way. The white sand of the beach is dotted
+with small seashells that wreak havoc on your feet. The sandy white beach
+continues north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10022
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10040
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10024
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10024
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The white sand of the beach is laden with the shells of various sea creatures,
+and a lone hermit crab trudges its way towards the cool inviting waters of
+the Emerald River towards the east. To the west lies a dense forest that 
+stops you from moving in that direction. The pretty white sand beach continues
+north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10023
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10041
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10025
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10025
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The emearld green waters to the east churn about in small eddies as they pick
+up speed moving southwards. To the west is a large, and very dense forest that
+stops any type of movement in that direction. The white-sand beach continues
+north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10024
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10042
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10026
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10026
+Name       On the West Bank of the River~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The Emerald River that lies to the east of you starts to move at a deftly
+fast speed. It zooms along and breakneck speed southwards. Above the noise
+of the chirping birds is a loud continual crashing sound like that of water
+falling from a great height. The white-sands of the beach continues north and
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     10025
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10043
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10027
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10027
+Name       At the Cliff's Edge~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The sandy beach ends abrubtly to a large sheer-faced black granite cliff. It 
+seems to go a looooonnnnnngggggggg ways down, and you decide that it 
+is probably not a good idea to try and go any further southwards as that 
+might result in some serious pain. To the east you see what was making that 
+crashing sound -- it seems that there is a waterfall and the beauty of it 
+takes your breath away. The emerald waters of the river fall hundreds of feet 
+downwards. The beach goes back north and the speeding waters of the 
+Emerald River are accessible to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10026
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10044
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10028
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10029 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10029
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10030 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10030
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10031 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10031
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10032 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10032
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10033 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10033
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10034 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10034
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10035 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10035
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10036 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10036
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc~
+Stats       80  10037 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10037
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10038 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10038
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10039 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10039
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10040 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10040
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10041 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10041
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10042 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10042
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10043 0 0 100000
+Desc       The river's current is moving faster than it looks from the bank. The water
+sweeps you away southwards and it doesn't look like you'll be able to pull
+your boat out of the water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10043
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10044 0 0 100000
+Desc       The river here moves at a breakneck speed and sweeps your boat southwards.
+A ways to the south you here the sound of crashing water that reminds you
+of the sound of a waterfall.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10044
+Name       The Emerald River~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10045 0 0 100000
+Desc       Uh-oh. The breakneck speed of the water is taking you directly southwards and
+it looks as if you're going to go over what appears to be a waterfall. If you
+really try you might be able to get your boat to rest on the bank to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     10027
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10045
+Name       Going Over the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10046 0 0 100000
+Desc       AIIIYYYYYEEEEEE!!!!!! You're swept over the waterfall and start your breakneck
+course to the river far below you. There is no way to move in any direction 
+although it looks like you're going to have a little while to contemplate 
+your destiny as the waterfall is really really big and goes down for 
+hundreds of feet.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10046
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10047 0 0 100000
+Desc       Wow you're really moving now. You've fallen perhaps a hundred feet and are 
+still gaining speed, just like a falling stone. You can hear the water of the
+waterfall rushing down just as you are.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10047
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10048 0 0 100000
+Desc       You're are heading straight down the waterfall at a tremendous speed. The 
+world seems to blur about you as you fall hundereds of feet. Far below 
+you, you can hear the water crashing into the rocks below the waterfall.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10048
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10049 0 0 100000
+Desc       The world about you suddenly blacks out as you fall and fall and fall towards
+the bottom of the waterfall.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10049
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10050 0 0 100000
+Desc       Falling and falling and falling and falling and falling and falling and 
+falling and falling and falling and falling and falling and falling and...
+Jeez this is one big friggin' waterfall, although you can hear the waters
+crashing against the rocks far far below you.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10050
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10051 0 0 100000
+Desc       You continue your fast journey down the waterfall at breakneck speed. Through
+the emerald green water of the waterfall to the north is a rather concave
+part of the cliff. It looks large enough to hold someone if you could get
+into it.
+~
+#EXIT
+Direction  North~
+ToRoom     10054
+Key        10013
+Keywords   waterfall water fall emerald emerald_waterfall~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    10050 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10051
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10052 0 0 100000
+Desc       You are going straight down the waterfall at an incredible speed. The bottom 
+is getting just that much closer by the second and it doesn't look like there
+is any way out.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10052
+Name       Going Down the Emerald Waterfall~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       80  10053 0 0 100000
+Desc       The bottom of the waterfall is almost upon you. It doesn't look too pretty
+down there. The water crashes at a huge speed and it probably would be
+a VERY BAD idea to stay here much longer.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10053
+Name       Smashed to a Bloody Pulp on the Rocks Below the Waterfall~
+Sector     field~
+Flags      death nomob~
+Stats      0 0 0 0 0
+Desc       Your trip down the waterfalls ends rather...violently. It seems that below
+the beauty of the Emerald Waterfall were same rather nasty and sharp rocks.
+Your head hits one of the pointy ones and explodes turning the emerald colored
+water to a dark blood red color, your equipment is also strewn about the 
+the rocks and it doesn't look like your going to be able to recover it being
+headless and all.
+
+
+Sorry.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10054
+Name       Behind the Waterfall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The concave walls inside the waterfall make a perfect place to stop and get
+your breath. It looks like there is some sort of cave towards the north. 
+You notice around that around the edge of the cave are some rather large raw 
+emeralds.
+~
+#EXIT
+Direction  North~
+ToRoom     10055
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10050
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10055
+Name       Entrance to the Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The entrance to the emerald cave opens up wider the further you go into the
+cave. It makes a sharp turn to the east here. The walls of the cave here seem
+to be made of almost pure emeralds.
+~
+#EXIT
+Direction  East~
+ToRoom     10056
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10054
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10056
+Name       In The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing just inside the entrance to the emerald cave. The walls which
+were once black granite have now turned into pure emerald. Green light 
+sprarkles beautifully off the walls. The cave leads further into the cliff
+to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     10057
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10055
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10057
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. You can go further into the cave to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     10058
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10056
+#ENDEXIT
+Reset M    10000 4 10057 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10058
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads east and south.
+~
+#EXIT
+Direction  East~
+ToRoom     10059
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10057
+#ENDEXIT
+Reset M    10001 4 10058 -1 -1 -1 100
+  Reset E  10010 5 16 8
+#ENDROOM
+
+#ROOM
+Vnum        10059
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     10060
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10058
+#ENDEXIT
+Reset M    10002 6 10059 -1 -1 -1 100
+Reset M    10002 6 10059 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10060
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     10061
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10059
+#ENDEXIT
+Reset M    10004 4 10060 -1 -1 -1 100
+  Reset E  10000 5 11 8
+  Reset E  10009 10 12 5
+#ENDROOM
+
+#ROOM
+Vnum        10061
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north, east, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10097
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10062
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10060
+#ENDEXIT
+Reset M    10003 5 10061 -1 -1 -1 100
+  Reset E  10000 5 11 8
+#ENDROOM
+
+#ROOM
+Vnum        10062
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave is a four-way junction here leading north, east, 
+south, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10099
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10083
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10063
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10061
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10063
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10062
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10064
+#ENDEXIT
+Reset M    10002 6 10063 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10064
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads north, south, and east.
+~
+#EXIT
+Direction  North~
+ToRoom     10063
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10097
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10065
+#ENDEXIT
+Reset M    10003 5 10064 -1 -1 -1 100
+  Reset E  10000 5 11 8
+#ENDROOM
+
+#ROOM
+Vnum        10065
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits are north, east, and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10064
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10066
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10097
+#ENDEXIT
+Reset M    10001 4 10065 -1 -1 -1 100
+  Reset E  10010 5 16 8
+#ENDROOM
+
+#ROOM
+Vnum        10066
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     10067
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10065
+#ENDEXIT
+Reset M    10000 4 10066 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10067
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave splits here in four directions, north, south, east,
+and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10068
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10099
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10097
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10066
+#ENDEXIT
+Reset M    10003 5 10067 -1 -1 -1 100
+  Reset E  10000 5 11 8
+#ENDROOM
+
+#ROOM
+Vnum        10068
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads north, east, and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10069
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10098
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10067
+#ENDEXIT
+Reset M    10004 4 10068 -1 -1 -1 100
+  Reset E  10000 5 11 5
+  Reset E  10009 10 12 5
+#ENDROOM
+
+#ROOM
+Vnum        10069
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. The cave leads east and south.
+~
+#EXIT
+Direction  East~
+ToRoom     10070
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10068
+#ENDEXIT
+Reset M    10009 3 10069 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10070
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits are north, east, south, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10071
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10097
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10098
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10069
+#ENDEXIT
+Reset M    10003 5 10070 -1 -1 -1 100
+  Reset E  10000 5 11 8
+#ENDROOM
+
+#ROOM
+Vnum        10071
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10072
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10070
+#ENDEXIT
+Reset M    10002 6 10071 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10072
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10073
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10071
+#ENDEXIT
+Reset M    10009 3 10072 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10073
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10074
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10072
+#ENDEXIT
+Reset M    10002 6 10073 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10074
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10075
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10099
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10074
+#ENDEXIT
+Reset M    10000 4 10074 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10075
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10076
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10074
+#ENDEXIT
+Reset M    10001 4 10075 -1 -1 -1 100
+  Reset E  10010 5 16 8
+#ENDROOM
+
+#ROOM
+Vnum        10076
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10097
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10077
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10075
+#ENDEXIT
+Reset M    10003 5 10076 -1 -1 -1 100
+  Reset E  10000 5 11 8
+#ENDROOM
+
+#ROOM
+Vnum        10077
+Name       The Emerald Path~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       You stand on the emerald path. The walls are alight with a magical emerald
+glow that washes over you. The path below you has many cracks though and
+standing here could result in one of the cracks forming under you. That
+could lead to death or something worse so you had better move quick!
+~
+#EXIT
+Direction  North~
+ToRoom     10098
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10078
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10076
+#ENDEXIT
+Reset M    10004 4 10077 -1 -1 -1 100
+  Reset E  10000 5 11 5
+  Reset E  10009 10 12 5
+#ENDROOM
+
+#ROOM
+Vnum        10078
+Name       The Emerald Gates~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand before two fifty-foot gates made of solid emerald. The gates are 
+thick enough not to allow you to see anything in that direction, although 
+you can here a loud breathing noise coming from there.
+~
+#EXIT
+Direction  South~
+ToRoom     10079
+Key        10020
+Keywords   emerald door doors gates gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10099
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10077
+#ENDEXIT
+Reset M    10009 3 10078 -1 -1 -1 100
+Reset D    10078 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10079
+Name       The Lair of the Ancient Emerald Dragon~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand inside a huge cavern. The walls are made of solid emerald. To the
+far east of the cavern though you can see the twinkle of gold and other 
+metals. To the east of the cavern is a giant pile of emerald dust. This must
+be the lair of the emerald dragon. It would be wise to be cautious.
+~
+Reset M    10008 1 10079 -1 -1 -1 100
+  Reset E  10007 5 10 4
+  Reset E  10008 5 7 4
+#ENDROOM
+
+#ROOM
+Vnum        10080
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     10081
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10062
+#ENDEXIT
+Reset M    10004 4 10080 -1 -1 -1 100
+  Reset E  10000 5 11 5
+  Reset E  10009 10 12 5
+#ENDROOM
+
+#ROOM
+Vnum        10081
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north, east, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10082
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10098
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10080
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10082
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10083
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10081
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10083
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north, south, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10084
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10082
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10099
+#ENDEXIT
+Reset M    10001 4 10083 -1 -1 -1 100
+  Reset E  10010 5 16 8
+#ENDROOM
+
+#ROOM
+Vnum        10084
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north, east, and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10085
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10097
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10083
+#ENDEXIT
+Reset M    10000 4 10084 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10085
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10086
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10084
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10086
+Name       The Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing inside the emerald cave. The walls are made of pure emerald
+and they glow with a dim magical light that makes the cave come alive with
+emerald light. Exits lead north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10087
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10085
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10087
+Name       The Emerald Intersection~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing at an intersection of four tunnels. The walls are made of
+solid emerald and a bright emerald glow eminates from them to light your
+path. To the south is the cave where you came from. To the north, east, 
+and west are small narrow tunnels.
+~
+#EXIT
+Direction  North~
+ToRoom     10090
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10088
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10086
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10092
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10088
+Name       The Emerald Tunnel~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking along a long emerald tunnel that leads east. From the east 
+you hear the slosh of water and a loud snorting sound. At the very end of the
+tunnel is a large one-foot thick emerald door that stops progress in that
+direction.
+~
+#EXIT
+Direction  East~
+ToRoom     10089
+Key        10014
+Keywords   door emerald gate gates~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10087
+#ENDEXIT
+Reset M    10016 3 10088 -1 -1 -1 100
+  Reset E  10014 99 17 100
+Reset D    10088 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10089
+Name       The Emerald Lake~
+Sector     underwater~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are swimming in a huge underground lake. The walls and ceiling are made
+from solid emerald that glows brightly with a magical glow. To the north end
+of the lake you hear the loud sounds of a animal entering or perhaps leaving
+the water.
+~
+#EXIT
+Direction  West~
+ToRoom     10088
+#ENDEXIT
+Reset M    10007 1 10089 -1 -1 -1 100
+  Reset E  10001 5 5 5
+  Reset E  10002 5 0 15
+  Reset E  10019 99 17 100
+#ENDROOM
+
+#ROOM
+Vnum        10090
+Name       The Emerald Tunnel~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking along a long emerald tunnel that leads north. From the north
+you hear the slosh of water and a loud ripping sound. At the very end of the
+tunnel is a large one-foot thick emerald door that stops progress in that
+direction.
+~
+#EXIT
+Direction  North~
+ToRoom     10091
+Key        10015
+Keywords   emerald door gate gates~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10087
+#ENDEXIT
+Reset M    10016 3 10090 -1 -1 -1 100
+  Reset E  10015 99 17 100
+Reset D    10090 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10091
+Name       The Emerald Ocean~
+Sector     underwater~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a huge underground ocean. The walls and ceiling of the cavern
+are made from solid emerald and emanate a bright emerald colored light. The
+water that you are swimming in is also emerald colored. Far to the north end
+of the cavern you hear the sounds of flesh ripping like that of an animal 
+feeding.
+~
+#EXIT
+Direction  South~
+ToRoom     10090
+#ENDEXIT
+Reset M    10006 1 10091 -1 -1 -1 100
+  Reset E  10005 5 12 4
+  Reset E  10006 5 16 15
+  Reset E  10018 99 17 100
+#ENDROOM
+
+#ROOM
+Vnum        10092
+Name       The Emerald Tunnel~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking along a long emerald tunnel that leads west. From the west
+you hear the slosh of water and a loud slithering sound. At the very end of 
+the tunnel is a large one-foot thick emerald door that stops progress in that
+direction.
+~
+#EXIT
+Direction  East~
+ToRoom     10087
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10093
+Key        10016
+Keywords   emerald gate door doors gates~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10016 3 10092 -1 -1 -1 100
+  Reset E  10016 99 17 100
+Reset D    10092 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10093
+Name       The Emerald Sea~
+Sector     underwater~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a huge underground sea. The walls and ceiling of the cavern are 
+made from solid emerald and emanate a bright emerald colored light. The 
+water that you are swimming in is also emerald colored. Far to the north end 
+of the  cavern you hear a loud slithering sound like a snake coiling 
+iteself up.
+~
+#EXIT
+Direction  East~
+ToRoom     10092
+#ENDEXIT
+Reset M    10005 1 10093 -1 -1 -1 100
+  Reset E  10003 5 14 2
+  Reset E  10003 5 15 2
+  Reset E  10004 5 16 15
+  Reset E  10017 99 17 100
+#ENDROOM
+
+#ROOM
+Vnum        10094
+Name       Hoplessly Lost in the Emerald Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Wrong turn. Go back. Wait, too late. You're lost.
+~
+#EXIT
+Direction  North~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     10094
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     10094
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10095
+Name       Light~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc nomob~
+Stats       80  10097 0 0 100000
+Desc       Your are suddenly surrounded by a blinding green light. You feel as if you
+are...........someplace different.
+~
+#ENDROOM
+
+#ROOM
+Vnum        10096
+Name       The Emerald Trap~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The ground splits open and you find yourself someplace different. You stand
+inside a large emerald room. To the north end of the room is a large emerald
+door that requires a key. Then to the east, west, and south of the room you
+spot large emerald dragons, then in unison they say
+
+            We are the emerald trap dragons. We all hold keys to open the
+            door you seek. We are three and two are immortal one is not.
+            Choose the one that is not immortal and slay him to get the key.
+            Choose one of us that is immortal and death shall surely follow.
+
+Yikes. Good luck.
+~
+#EXIT
+Direction  North~
+ToRoom     10054
+Key        10021
+Keywords   door emerald~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10011 1 10096 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset M    10012 1 10096 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset M    10012 2 10096 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset D    10096 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10097
+Name       The Emerald Trap~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The ground splits open and you find yourself someplace different. You stand
+inside a large emerald room. To the north end of the room is a large emerald
+door that requires a key. Then to the east, west, and south of the room you
+spot large emerald dragons, then in unison they say
+
+            We are the emerald trap dragons. We all hold keys to open the
+            door you seek. We are three and two are immortal one is not.
+            Choose the one that is not immortal and slay him to get the key.
+            Choose one of us that is immortal and death shall surely follow.
+
+Yikes. Good luck.
+~
+#EXIT
+Direction  North~
+ToRoom     10054
+Key        10021
+Keywords   door emerald~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10012 3 10097 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset M    10012 4 10097 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset M    10011 2 10097 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset D    10097 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10098
+Name       The Emerald Trap~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The ground splits open and you find yourself someplace differnt. You stand
+inside a large emerald room. To the north end of the room is a large emerald
+door that requires a key. Then to the east, west, and south of the room you
+spot large emerald dragons, then in unison they say
+
+            We are the emerald trap dragons. We all hold keys to open the
+            door you seek. We are three and two are immortal one is not.
+            Choose the one that is not immortal and slay him to get the key.
+            Choose one of us that is immortal and death shall surely follow.
+
+Yikes. Good luck.
+~
+#EXIT
+Direction  North~
+ToRoom     10054
+Key        10021
+Keywords   door emerald~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10012 5 10098 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset M    10011 3 10098 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset M    10012 6 10098 -1 -1 -1 100
+  Reset E  10021 99 17 100
+Reset D    10098 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10099
+Name       Impaled on the Emerald Spikes~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You fall and fall and suddenly the ground comes into site. It is covered
+with huge emerald spikes that will surely kill you. There is no escape.
+~
+Reset M    10010 5 10099 -1 -1 -1 100
+Reset M    10010 5 10099 -1 -1 -1 100
+Reset M    10010 5 10099 -1 -1 -1 100
+Reset M    10010 5 10099 -1 -1 -1 100
+Reset M    10010 5 10099 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

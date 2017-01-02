@@ -1,0 +1,30 @@
+Version     1
+Name        Aldurian~
+Race        21
+Classes     Mage Cleric Rogue Warrior Necromancer Druid Ranger Monk Antipaladin Paladin Bard~
+Str_Plus    -1
+Dex_Plus    2
+Wis_Plus    0
+Int_Plus    0
+Con_Plus    0
+Cha_Plus    0
+Lck_Plus    0
+Hit         5
+Mana        0
+Language    common~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   100
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     69
+Weight     150
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'bargain' 35 85
+Skill 'swim' 5 90
+Skill 'versatility' 70 80
+End

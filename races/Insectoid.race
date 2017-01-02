@@ -1,0 +1,33 @@
+Version     1
+Name        Insectoid~
+Race        17
+Classes     Warrior Ranger Cleric Druid Monk~
+Str_Plus    0
+Dex_Plus    1
+Wis_Plus    1
+Int_Plus    -1
+Con_Plus    0
+Cha_Plus    -2
+Lck_Plus    -1
+Hit         5
+Mana        -30
+Resist      fire~
+Suscept     cold~
+Language    insectoid~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    -50
+Exp_Mult   100
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers eye forelegs shell~
+Attacks    bite~
+Height     84
+Weight     145
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'ambidexterity' 45 85
+Skill 'carapace' 65 80
+Skill 'mandible' 7 90
+End

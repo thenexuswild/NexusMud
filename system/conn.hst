@@ -1,0 +1,270 @@
+#CONN
+User   Creidi
+Host   192.168.0.5
+When   12/31 17:30
+Level  3
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   12/31 17:43
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Creidi
+Host   192.168.0.5
+When   12/31 17:50
+Level  3
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   12/31 17:51
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   12/31 18:28
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 13:29
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 15:42
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 15:43
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 16:09
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 16:10
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 16:27
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 16:27
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 16:33
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 16:34
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 16:34
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 16:38
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 17:14
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 17:34
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 17:41
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 18:32
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 18:32
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 18:34
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 18:34
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 18:41
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 18:41
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 18:57
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/01 19:36
+Level  0
+Type   4
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 19:57
+Level  99
+Type   2
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 20:09
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/01 20:37
+Level  99
+Type   2
+Invis  0
+End
+

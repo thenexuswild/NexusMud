@@ -1,0 +1,5669 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            The Shogun's Summer Palace~
+Author          Unknown~
+Vnums           10300 10399
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       30
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        10300
+Keywords   master samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Master Samurai~
+Long       A Master Samurai stands here, daring you to attack him.
+~
+Desc       This samurai is a fierce warrior, one of the Shogun's best.  It would not
+be wise to anger him!  He wears a grey court kimono, with his wakizashi and
+katana stashed in his sash.  Be careful, though, because with the ancient art
+of Iajitsu, he can draw them lightning quick!
+~
+Nattacks   2.000000
+Stats1     1000 6000 60 100 150 250
+Stats2     20 2 4 747 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10301
+Keywords   samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Samurai~
+Long       A fierce-looking Samurai stands here, watching you carefully.
+~
+Desc       The samurai is the loyal servant of the Shogun, to whom death means nothing
+and honor everything.  He is wearing a grey court kimono, with his two swords
+stashed between a white sash.  His black hair is tied up into a topknot.
+~
+Nattacks   2.000000
+Stats1     1000 3500 60 100 150 250
+Stats2     16 6 5 698 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10302
+Keywords   samurai initiate m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Initiate Samurai~
+Long       An Initiate Samurai faithfully watches his post here.
+~
+Desc       This fierce looking samurai looks as if he has just been initiated into the
+circles of bushido.  Still, he is not one to  be messed with!  He wears a grey
+court kimono, with his two swords tucked into his sash.  He would rather die 
+than dishonor himself.
+~
+Nattacks   2.000000
+Stats1     1000 2500 60 100 150 250
+Stats2     12 7 7 448 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10303
+Keywords   elite samurai guard m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Elite Samurai Guard~
+Long       An Elite Samurai Guard protects his lord here.
+~
+Desc       This incredibly powerful looking warrior is the best of the best, the creme
+of the crop.  He is one of the Shogun's personal bodyguards, who has dedicated
+his life to the Shogun's service.  He wears a grey kimono and a fine white sash
+of silk.
+~
+Nattacks   2.000000
+Stats1     1000 8000 60 100 150 250
+Stats2     24 0 1 1450 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10304
+Keywords   shogun m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Shogun~
+Long       The Shogun sits on the dias here, commanding your respect.
+~
+Desc       Before sits a the Shogun, the man who reunified the Land of the Rising Sun.
+He is middle-aged, and his eyes show a wisdom that few can match.  His black 
+hair is streaked with greys, and tied up into a topnot.  He wears a golden 
+court kimono, and a white sash.
+~
+Nattacks   4.000000
+Stats1     1000 50000 60 100 150 250
+Stats2     33 -4 -7 2900 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10305
+Keywords   spirit dragon m103~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Dragon-Spirit~
+Long       A Dragon-Spirit floats around the glade.
+~
+Desc       This willowy, cloudy figure is the spirit of a dragon, resembling the large
+fountain which serves as its soul-object.  It is very large, about 50 feet long!
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     30 -5 -4 30 6 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   invisible detect_invis sanctuary paralysis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10306
+Keywords   footman m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The footman~
+Long       A footman stands here, watching his post.
+~
+Desc       This servant of the Shogun is not samurai, yet, he can be just as dangerous.
+He is wearing a court kimono, but, unlike the samurai, is not allowed to wear
+two swords or wear his hair in a topknot.
+~
+Nattacks   1.000000
+Stats1     350 750 60 100 150 250
+Stats2     8 12 8 397 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10307
+Keywords   captain guard m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Captain of the Guard~
+Long       The Captain of the Guard stands here, barking orders.
+~
+Desc       This famous warrior served the Shogun faithfully during the campaigns to
+reunify the Land of the Rising Sun;  he was thus awarded this position in the
+Shogun's household.  The captain is quite fierce looking.  He wears a black
+court kimono and white sash, which go well with his height and build.  His
+dark eyes show a deadly wisdom, which you think abtwice about challenging.
+~
+Nattacks   3.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     27 -2 -1 1200 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10308
+Keywords   steward palace m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Palace Steward~
+Long       The Palace Steward is reviewing his schedule here.
+~
+Desc       The Palace Steward is a busy and worried man, as he must keep track of
+almost everything that happens in this large palace.  He is a handsome man
+with a deadly aura about him.  He does not seem very pleased that you have
+interupted the flow of work here!
+~
+Nattacks   3.000000
+Stats1     1000 12000 60 100 150 250
+Stats2     28 -3 -3 1150 4 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10309
+Keywords   gate keeper m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     standing~
+Short      The Gate Keeper~
+Long       The Gate Keeper is taking a nap here.
+~
+Desc       The gate keeper looks very lazy; you wonder how he got a job here!  His
+kimono is almost as disheveled as his hair.
+~
+Nattacks   2.000000
+Stats1     500 0 60 100 150 250
+Stats2     12 9 7 147 3 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10310
+Keywords   translator m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Shogun's translator~
+Long       The Shogun's translator stands here, ready to defend her lord.
+~
+Desc       This attractive maid serves the shogun and his guests faithfully.  She has
+long black hair, which is tied into a bun on the top of her head.  She wears
+a pink kimono and a white sash, which ascentuate her delicate beauty.
+~
+Nattacks   2.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     18 3 5 625 4 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10311
+Keywords   consort yoshiko lady m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Shogun's Consort, the Lady Yoshiko~
+Long       Lady Yoshiko, the Shogun's Consort is here, gazing at you with extreme intensity.
+~
+Desc       The Shogun's consort is a beautiful young lady, whose wisdom surpasses her
+years.  She has long black hair which falls down to her waist, and deep brown
+eyes which seem to read your soul.  She is wearing a white kimono with pink
+and green flowers and birds, and a pink sash.
+~
+Nattacks   2.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     24 0 -1 1000 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10312
+Keywords   gardener m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the gardener~
+Long       A gardener is here, triming the hedges.
+~
+Desc       The gardener is a plain man, wearing commoner's cloths and working hard to
+keep the beautiful gardens straight.  He is middle-aged, with short grey hair
+and eyes which show the experience of many years
+~
+Nattacks   1.000000
+Stats1     350 700 60 100 150 250
+Stats2     7 14 8 85 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10313
+Keywords   gardener master m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Master Gardener~
+Long       The Master Gardener is here, taming a banzai tree.
+~
+Desc       This old man's eyes show a wisdom which only comes with age.  He is here,
+fastidiously cutting a banzai tree's branches so that they are just right. 
+He is wearing grey commoner's clothes and a straw hat.
+~
+Nattacks   2.000000
+Stats1     350 8000 60 100 150 250
+Stats2     15 5 6 385 4 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10314
+Keywords   maid head m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Head Maid~
+Long       The Head Maid is here, cleaning up behind you.
+~
+Desc          This lady is in charge of all of the serving ladies in the court.  She
+is quite beautiful, having long black hair and dark brown eyes.  She wears
+a light blue kimono and white sash.
+~
+Nattacks   2.000000
+Stats1     1000 8000 60 100 150 250
+Stats2     17 6 5 185 4 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10315
+Keywords   cook m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a cook~
+Long       A cook toils over a large iron wok here.
+~
+Desc          This young man was commissioned to cook for the Shogun, a great honor to his
+family.  He is quite handsome, though he looks worn out from slaving over that
+wok all day, trying to prepare a meal for the Shogun and his guests.
+~
+Nattacks   1.000000
+Stats1     0 72 60 100 150 250
+Stats2     5 16 9 60 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10317
+Keywords   cook head m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the head cook~
+Long       The head cook reviews a list of foods here.
+~
+Desc          This middle-aged man started being the Shogun's cook at a young age, and
+moved up in rank due to his exceptional skill.  He has thinning grey hair
+and wears a nice, but greasy kimono.
+~
+Nattacks   2.000000
+Stats1     0 8000 60 100 150 250
+Stats2     15 6 6 185 4 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10318
+Keywords   scribe m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Shogun's Scribe~
+Long       The Shogun's personal Scribe paces here, conteplating a new spell.
+~
+Desc          This bizzare and not-so-sane looking Japanese fellow is quite old.  He
+has long, dishevelled white hair, and sparkling black eyes which look out
+at you from under a pair of bushy eyebrows.  He is wearing a blue kimono
+with strange characters and symbols stitched onto it in assorted colors.
+You vaguelly make out 'remember Hiroshima' spelled out on his cuff.
+~
+Nattacks   3.000000
+Stats1     750 0 60 100 150 250
+Stats2     30 -4 -4 1400 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+ShopData   3050 3052 0 0 0 50 150 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        10319
+Keywords   smith weaponsmith m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Shogun's Weaponsmith~
+Long       The Shogun's personal smith stands over an anvil here, hammering at a katana.
+~
+Desc          This large Japanese man pounds away at a piece of steel, which will one
+day become a katana.  He is wearing a leather apron, which is soiled with soot
+and dirt.  He has short black hair and brown eyes.
+~
+Nattacks   3.000000
+Stats1     750 15000 60 100 150 250
+Stats2     30 -4 -4 900 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+ShopData   10300 10306 10302 10305 0 50 150 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        10320
+Keywords   commander samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Samurai Commander~
+Long       A Samurai commander makes sure his men are working here.
+~
+Desc          This lieutennant can command many samurai in war, though in everday life,
+his job is less strenous.  He is a handsome man, with long black hair tied
+in a topknot, and dark brown eyes.  He wears a grey kimono and white sash.
+~
+Nattacks   2.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     24 0 1 900 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10321
+Keywords   footman m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a footman~
+Long       A footman stands here, keeping an eye on things.
+~
+Desc         This servant of the Shogun is not samurai, yet he can be just as dangerous.
+He is wearing a court kimono, but, unlike the samurai, is not allowed to wear
+two swords or wear his hair in a topknot.
+~
+Nattacks   1.000000
+Stats1     350 750 60 100 150 250
+Stats2     8 13 8 397 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10322
+Keywords   samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Samurai~
+Long       A samurai is on patrol here. 
+~
+Desc          This samurai looks quite ferocious.  He has black hair tied into a topknot,
+and dark brown eyes which glint with a dangerous sparkle.  He wear a grey court
+kimono and a white sash, wherin his swords are sheathed.
+~
+Nattacks   2.000000
+Stats1     1000 2000 60 100 150 250
+Stats2     14 7 6 585 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10323
+Keywords   officer samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Samurai officer~
+Long       A Samurai Officer stands here, hoping his men fight bravely.
+~
+Desc          This officer of the Shogun can command units of 10 or so in battle, though
+this number is much less when he functions in the daily upkeep of the castle.
+The officer is quite able, and it is not wise to mess with him!  He has long
+black hair tied into a topknot, and dark eyes which seem to be looking for an
+advantage in every fight.  He wears a grey kimono and white sash.
+~
+Nattacks   2.000000
+Stats1     1000 7000 60 100 150 250
+Stats2     20 1 4 747 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10324
+Keywords   michiko lady m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Lady Michiko~
+Long       The Lady Michiko is perfecting the art of 'flowing water' here.
+~
+Desc          The lady Michiko is the Shogun's most beautiful and graceful daughter.  She
+walks with a cat-like grace, and here flashing eyes glint with a very dangerous
+flare.  Her long black hair is tied in a pony-tail.  She wears a green kimono 
+and a white sash.
+~
+Nattacks   3.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     26 -1 -1 1150 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10325
+Keywords   hiro lord m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Lord Hiro~
+Long       Lord Hiro meditates here.
+~
+Desc          This handsome young man is the youngest son of the Shogun.  He is quite
+powerful-looking.  He has long black hair, which he wears in a pony tail, and
+dark brown eyes which show a wisdom that goes beyond his age.  He wears a grey
+kimono and white sash.
+~
+Nattacks   4.000000
+Stats1     750 10000 60 100 150 250
+Stats2     33 1 -7 547 6 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10326
+Keywords   assassin amida m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      an Amida Assassin~
+Long       An assassin from an Amida tong stalks his prey here.
+~
+Desc          This dark and sinister figure wears all black cloths and a black mask.  He
+resembles a ninja, but he is much more dangerous! 
+~
+Nattacks   2.000000
+Stats1     -500 2000 60 100 150 250
+Stats2     24 0 1 950 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10327
+Keywords   messenger m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Messenger~
+Long       One of the Shogun's many messengers is running an errand here.
+~
+Desc          This young man has been conscripted by the Shogun to run errands.  He looks
+very tired and busy, so don't bother him!
+~
+Nattacks   1.000000
+Stats1     350 800 60 100 150 250
+Stats2     8 13 8 1 4 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10328
+Keywords   yoshinaka daimyo lord m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Daimyo Yoshinaka~
+Long       The Lord Yoshinaka, one of the Shogun's vassals, is drafting a letter here.
+~
+Desc          Yoshinaka served the Shogun so well during the Unification wars, the Shogun
+awarded him with his own fief.  At this time, the daimyo is here on business.
+He is a large Japanese man, with greying, thining hair, and eyes which show
+that he has seen many years.  He wears a brown court kimono and a white sash.
+~
+Nattacks   3.000000
+Stats1     349 15000 60 100 150 250
+Stats2     27 -3 -1 1500 4 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10329
+Keywords   ashida lord m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Lord Ashida~
+Long       Lord Ashida stands here, commanding your respect.
+~
+Desc          Lord Ashida comes from a northern province of the Empire of the Rising Sun.
+He is quite handsome, having shoulder-length black hair which le lets hang.
+He is wearing a beige court kimono and a white sash.
+~
+Nattacks   2.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     24 0 1 1250 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10330
+Keywords   maid m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a maid~
+Long       A maid stands here, cleaning up behind you.
+~
+Desc          This attractive maid works for the Shogun, serving tea, closing doors, and
+the like.   She is wearing a white kimono with red and green birds and flowers.
+~
+Nattacks   1.000000
+Stats1     350 800 60 100 150 250
+Stats2     7 14 8 85 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10331
+Keywords   archer master m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Master Archer~
+Long       A Master Archer takes aim at you with his daikyu!
+~
+Desc          This samurai has mastered the use of the bow.  He stands here in his grey 
+court kimono, bow in hand, looking for targets other than the immobile ones on
+the field.  His long black hair is tied into a topknot.
+~
+Nattacks   2.000000
+Stats1     700 7500 60 100 150 250
+Stats2     20 1 4 845 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10332
+Keywords   maid m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a maid~
+Long       A maid works here, cleaning up behind you.
+~
+Desc          This young lady works in the Shogun's palace, cleaning up behind adventurers,
+er, guests, that is, who come through.  She is attractive, wearing a fine white
+kimono with pink and green flowers and birds.  She has long black hair tied 
+into a bun, and brown eyes which invite you to kiss her!
+~
+Nattacks   1.000000
+Stats1     250 125 60 100 150 250
+Stats2     7 14 8 85 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10333
+Keywords   brash m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Brash Samurai~
+Long       A Brash Samurai is sizing you up!
+~
+Desc          This handsome young man looks as if he has not learned to control his temper
+yet.  He has black hair, tied into a topknot, and is wearing a fine grey court
+kimono.
+He looks really P-O'd!
+~
+Nattacks   2.000000
+Stats1     -350 5750 60 100 150 250
+Stats2     20 5 4 1000 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10334
+Keywords   boy m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     standing~
+Short      A stableboy~
+Long       A stableboy is sleeping on the job here.
+~
+Desc          This young stableboy will soon find out the punishment for sleeping on the
+job.  He wears commoner's clothes, and is perhaps, 13 at most.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     5 16 9 60 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10335
+Keywords   boy m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Stableboy~
+Long       A stableboy dilligently tends the horses here.
+~
+Desc          This young boy works hard, grooming and watering the horses.  He is wearing
+commoner's clothes, and must be no older than 14.
+~
+Nattacks   1.000000
+Stats1     0 72 60 100 150 250
+Stats2     5 16 9 60 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10336
+Keywords   ambassador cathay m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      an Ambassador from Cathay~
+Long       An Ambassador from Cathay is reviewing treaty terms here.
+~
+Desc          The Ambassador from the great nation of Cathay is visiting the Shogun now,
+perhaps arranging for some trade treaty or concession.  He is wearing red silk
+court robes of Cathay, and has a long queu of black hair which hangs out from
+under his Manchurian-style hat.
+~
+Nattacks   3.000000
+Stats1     0 12000 60 100 150 250
+Stats2     25 -1 0 500 4 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10337
+Keywords   saito lord m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Lord Saito~
+Long       The Lord Saito is looking at himself in a mirror here.
+~
+Desc          The Lord Saito is a very handsome, exceptionally talented young swordsman,
+in the service of the Shogun.  Knowing this, he has become quite vain. He wears
+a grey kimono and white sash, which go well with the long black hair that he
+wears loose.  He has beautiful dark brown eyes.  Too bad he is busy looking at
+himself and not at you.
+~
+Nattacks   2.000000
+Stats1     200 3000 60 100 150 250
+Stats2     12 7 7 150 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10338
+Keywords   noble koryo m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Noble from Koryo~
+Long       A Noble from Koryo is here, seeking audience with the Shogun.
+~
+Desc          The land of Koryo has long switched hands between The Empire of the Rising
+Sun and the Land of the Son of Heaven.  This handsome noble is here, perhaps
+negotiating with the Shogun... but that is not important.  He is taller than
+most of the people you have seen here, having short black hair and brown eyes.
+He wears a purple manchurian court robe.
+~
+Nattacks   2.000000
+Stats1     200 2000 60 100 150 250
+Stats2     14 7 6 172 3 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10339
+Keywords   priestess shinto m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a Shinto Priestess~
+Long       A gorgeous Shinto Priestess stands here, watching over the Shrine.
+~
+Desc          This incredibly beautiful young lady is the caretaker to the small Shinto
+shrine here.  She has long black hair which falls down to her waist and stunning
+brown eyes.  She wears a white kimono and a white sash.
+~
+Nattacks   3.000000
+Stats1     1000 3000 60 100 150 250
+Stats2     30 5 -4 197 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10340
+Keywords   horse m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Shogun's Horse~
+Long       The Shogun's horse is standing here, looking at you with little interest.
+~
+Desc          This fine Charger is a beautiful beast, nearly 6 feet tall at the shoulder.
+He is brown with a few white splotches, and seems to gaze at you with a strange,
+unnatural intelligence.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     20 1 4 247 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10341
+Keywords   gardener m103~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a gardener~
+Long       A gardener wanders here, looking for plants to tame.
+~
+Desc          The gardener is a simple man, content with his life working for the Shogun.
+Watching him makes you realize how much he loves his work.
+~
+Nattacks   1.000000
+Stats1     0 700 60 100 150 250
+Stats2     7 14 8 185 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10342
+Keywords   footman m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     standing~
+Short      A footman~
+Long       A footman sleeps here.
+~
+Desc          This young soldier has finished a long days work, and is sleeping here,
+peacefully.
+~
+Nattacks   1.000000
+Stats1     0 750 60 100 150 250
+Stats2     8 13 8 97 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10343
+Keywords   samurai initiate m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     standing~
+Short      An Initiate Samurai~
+Long       A Samurai sleeps here.
+~
+Desc          This young samurai has just finished a long days work, and is taking some
+time now to sleep.
+~
+Nattacks   2.000000
+Stats1     750 2000 60 100 150 250
+Stats2     12 9 7 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10344
+Keywords   fusako lady m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Lady Fusako~
+Long       The Lady Fusako gracefully bows to you.
+~
+Desc          The lady Fusako is known throughout the land for her beauty and grace.  She
+is perfect in every respect, and it is rumored that she has mastered a secret
+martial art style.  She has long black hair, set in a french braid, and liquid
+brown eyes which enchant you.  She is wearing a pale-blue kimono and a white
+sash.
+~
+Nattacks   2.000000
+Stats1     1000 1200 60 100 150 250
+Stats2     14 7 6 172 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10345
+Keywords   yuriko lady m103~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Lady Yuriko~
+Long       Daimyo Yoshinaka's consort, the Lady Yuriko is painting here.
+~
+Desc          The Lady Yuriko, the consort of Daimyo Yoshinaka, is beautiful, friendly,
+and intelligent.  She has long black hair which is tied into a bun, and dark
+brown eyes.  She wears a pink kimono and a white sash.
+~
+Nattacks   1.000000
+Stats1     1000 1000 60 100 150 250
+Stats2     8 13 8 97 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10346
+Keywords   hiroshi general m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      General Hiroshi~
+Long       The General Hiroshi reviews a plan to invade Koryo.
+~
+Desc          General Hiroshi is a famed tactician and strategist, the right hand man who
+helped the Shogun defeat his major enemies.  He is now here visiting the Shogun
+while making plans to invade Koryo.  He is almost 6 feet tall, well muscled, 
+and very handsome.  He wears a full suit of laced armor.
+~
+Nattacks   3.000000
+Stats1     1000 25000 60 100 150 250
+Stats2     30 -4 -4 1600 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10347
+Keywords   samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Samurai~
+Long       One of General Hiroshi's Samurai eyes you suspiciously.
+~
+Desc         General Hiroshi travels with his own samurai, who can be distinguished from
+other samurai by their black kimonos.  They are famous for being ferocious and
+incredibly faithful to their lord.
+~
+Nattacks   2.000000
+Stats1     1000 2000 60 100 150 250
+Stats2     16 5 5 597 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10348
+Keywords   samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Samurai~
+Long       One of Daimyo Yoshinaka's Samurai stands guard here.
+~
+Desc          Yoshinaka's Samurai can be distinguished from the rest by their rust-brown
+kimonos.  They are famous for being both loyal and dangerous.
+~
+Nattacks   2.000000
+Stats1     1000 2000 60 100 150 250
+Stats2     14 7 6 572 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10350
+Keywords   armored samurai m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Samurai~
+Long       An armored samurai stands guard here.
+~
+Desc          There are always some samurai on the palace grouds who are prepared for a
+surprise attack, and are thus armed to the teeth.  They wear haidate, kote,
+and do-maru pieces of laced armor, as well as kabuto.  This armor makes them
+look exceptionally dangerous!
+~
+Nattacks   2.000000
+Stats1     1000 1500 60 100 150 250
+Stats2     14 7 6 572 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10351
+Keywords   spirit guardian m103~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Guardian spirit~
+Long       A Guardian Spirit watches over the Shogun's valuables.
+~
+Desc          This fiersome spirit has been summoned by the consort to protect the
+Shogun's most prized possessions.  It looks to be a humanoid, but even
+penetrating its field of invisibility, it is hard to tell what it looks
+like.
+~
+Nattacks   3.000000
+Stats1     0 100000 60 100 150 250
+Stats2     30 0 -4 30 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   invisible detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10352
+Keywords   servant m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a servant~
+Long       A Servant of the Shogun works here.
+~
+Desc          This fellow is one of the many servants who works for the Shogun.  He wears
+commoner's clothes which are grey in color.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     5 16 9 60 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10353
+Keywords   guest m103~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Guest~
+Long       A guest of the Shogun is here.
+~
+Desc          This person is a guest of the Shogun.  He is dressed in fine court clothes.
+~
+Nattacks   1.000000
+Stats1     0 100 60 100 150 250
+Stats2     5 16 9 60 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10354
+Keywords   horse m103~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a horse~
+Long       A horse becomes frightened at your presence.
+~
+Desc           The horse looks at you and turns away.  You can tell that it is afraid of
+you.
+~
+Nattacks   1.000000
+Stats1     0 50 60 100 150 250
+Stats2     4 17 9 47 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10355
+Keywords   horse m103~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a horse~
+Long       A horse is doing horsey things here.
+~
+Desc         The horse doesn't seem to care that you are there, looking at it... it just
+goes on with its daily routine of eating... and sleeping... and eating... and
+sleeping... and....
+~
+Nattacks   1.000000
+Stats1     0 72 60 100 150 250
+Stats2     5 16 9 60 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10356
+Keywords   shinto priest m103~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a shinto priest~
+Long       A shinto priest watches over the shrine here.
+~
+Desc          This man has dedicated his life to the national religion.  He is dressed in
+monk's clothing and has shaven his head.
+~
+Nattacks   2.000000
+Stats1     1000 1000 60 100 150 250
+Stats2     12 9 7 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        10300
+Keywords   katana blade curved o103~
+Type       weapon~
+Short      a Katana~
+Long       A fine, slightly curved blade lies here.~
+WFlags     take wield~
+Values     0 3 4 1 0 0 0 0 0 0 0
+Stats      8 1000 0 9999 0 None None None
+#EXDESC
+ExDescKey  katana blade curved~
+ExDesc     The katana is the heart and sould of the samurai.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10301
+Keywords   katana fine curved blade o103~
+Type       weapon~
+Short      a Fine Katana~
+Long       A curved blade of extraordinary workmanship lies on the floor~
+WFlags     take wield~
+Values     0 3 5 1 0 0 0 0 0 0 0
+Stats      11 1500 0 9999 0 None None None
+#EXDESC
+ExDescKey  katana fine curved blade~
+ExDesc     This masterly crafted blade is probably the heirloom of some samurai's family.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10302
+Keywords   naginata glaive o103~
+Type       weapon~
+Short      Naginata~
+Long       a Japanese-style glaive is lying on the floor.~
+WFlags     take wield~
+Values     0 2 6 1 0 0 0 0 0 0 0
+Stats      8 500 0 9999 0 None None None
+#EXDESC
+ExDescKey  naginata glaive~
+ExDesc     This weapon resembles a European glaive, but is much stronger and elegant.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10303
+Keywords   kosode pure white robe o103~
+Type       armor~
+Short      a Pure White Kosode~
+Long       A bundle of pure white cloth lies here.~
+Flags      antievil antineutral~
+WFlags     take about~
+Values     13 13 0 0 0 0 0 0 0 0 0
+Stats      10 4000 0 9999 0 None None None
+AffData    mana 30 -1 -1 0
+AffData    Constitution -1 -1 -1 0
+#EXDESC
+ExDescKey  Kosode pure white robe~
+ExDesc     This is a woman's kosode, made of the purest white silk and radiating magic.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10304
+Keywords   sash pure white o103~
+Type       armor~
+Short      a Pure White Sash~
+Long       A sash of the purest white color has been left here.~
+Flags      antievil antineutral~
+WFlags     take waist~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      3 2000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    damroll -1 -1 -1 0
+#EXDESC
+ExDescKey  Sash pure white~
+ExDesc     This sash is made of the finest silk, and is whiter than anything you have seen
+before.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10305
+Keywords   tanto slim blade fine o103~
+Type       weapon~
+Short      a Tanto~
+Long       A fine slim blade, suitable for suicide, gathers dust here.~
+WFlags     take wield~
+Values     0 3 2 1 0 0 0 0 0 0 0
+Stats      2 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  tanto slim blade fine~
+ExDesc     This small knife is convenient for slitting one's throat.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10306
+Keywords   wakizashi short curved blade o103~
+Type       weapon~
+Short      a Wakizashi~
+Long       A short curved blade, suitable for hari-kari, lies here.~
+WFlags     take wield hold~
+Values     0 3 3 1 0 0 0 0 0 0 0
+Stats      5 300 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#EXDESC
+ExDescKey  wakizashi short curved blade~
+ExDesc     This short blade, the match to the katana, is used for parrying or for suicide.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10307
+Keywords   boken wooden practice sword o103~
+Type       weapon~
+Short      a Boken~
+Long       A wooden practice sword, long unused, gathers dust here.~
+WFlags     take wield hold~
+Values     0 1 2 1 0 0 0 0 0 0 0
+Stats      3 10 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#EXDESC
+ExDescKey  boken wooden practice sword~
+ExDesc     This bamboo rod is used by samurai for practice, so they don't maim or kill 
+each other!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10308
+Keywords   fan sandalwood folding o103~
+Type       armor~
+Short      a Folding Fan~
+Long       Someone has left a valuable sandalwood fan here!~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 3000 0 9999 0 None None None
+AffData    mana 30 -1 -1 0
+AffData    hit -10 -1 -1 0
+#EXDESC
+ExDescKey  fan sandalwood folding~
+ExDesc       This attractive and sweet smelling fan has a Japanese poem written on it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10309
+Keywords   kimono silk o103~
+Type       armor~
+Short      Silk Kimono~
+Long       A lady has left her kimono here.~
+Flags      antievil~
+WFlags     take body~
+Values     14 14 0 0 0 0 0 0 0 0 0
+Stats      2 5000 0 9999 0 None None None
+AffData    mana 30 -1 -1 0
+AffData    Dexterity 2 -1 -1 0
+#EXDESC
+ExDescKey  silk kimono~
+ExDesc       This is a fine silken undergarmet, typically worn only by Japanese women at
+court.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10310
+Keywords   kabuto helm o103~
+Type       armor~
+Short      Kabuto~
+Long       A samurai has left his war helm here.~
+WFlags     take head~
+Values     18 18 0 0 0 0 0 0 0 0 0
+Stats      10 4000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10311
+Keywords   sash white fine o103~
+Type       armor~
+Short      fine white sash~
+Long       A fine white sash is lying here.~
+WFlags     take waist~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      1 500 0 9999 0 None None None
+AffData    hit 15 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+#EXDESC
+ExDescKey  sash white fine~
+ExDesc       This is a fine white sash, worn by the elite guards of the Shogun.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10312
+Keywords   bracelet dragon teeth black o103~
+Type       armor~
+Short      a bracelet of dragon teeth~
+Long       A bracelet made from the incisors of a large lizard lies here.~
+WFlags     take wrist~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      2 2000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    Strength 2 -1 -1 0
+#EXDESC
+ExDescKey  bracelet dragon teeth black~
+ExDesc        This bracelet is made from the teeth of a large dragon.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10313
+Keywords   dagger black dragon bone o103~
+Type       weapon~
+Short      a dagger made of dragon bone~
+Long       Someone has left a dagger made of black bone here.~
+Flags      antigood~
+WFlags     take wield~
+Values     0 5 3 6 0 0 0 0 0 0 0
+Stats      3 3000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+#EXDESC
+ExDescKey  dagger black dragon bone~
+ExDesc        This fine dagger was made from the rib bone of a dragon.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10314
+Keywords   helm dragon skull o103~
+Type       armor~
+Short      a dragon-skull helm~
+Long       A helm made of a dragon's skull lies here, grinning evily at you.~
+Flags      antigood~
+WFlags     take head~
+Values     28 28 0 0 0 0 0 0 0 0 0
+Stats      20 10000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    Strength 1 -1 -1 0
+#EXDESC
+ExDescKey  helm dragon skull~
+ExDesc        This helm has been made from the skull of a dragon.  It looks quite menacing
+and disgusting.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10315
+Keywords   scale dragon breast o103~
+Type       armor~
+Short      a dragon's breast scale~
+Long       The large scale from a dragon's breast floats here.~
+WFlags     take shield~
+Values     27 27 0 0 0 0 0 0 0 0 0
+Stats      15 2000 0 9999 0 None None None
+AffData    Wisdom -1 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  scale dragon breast~
+ExDesc        This is the large scale which covers the dragon's underside.  It is just the
+right size for a shielld!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10316
+Keywords   ring dragon bone o103~
+Type       armor~
+Short      a dragon bone ring~
+Long       A black ring made from the bone of a dragon lies here.~
+Flags      antineutral~
+WFlags     take finger~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      1 1500 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+AffData    hit 5 -1 -1 0
+#EXDESC
+ExDescKey  ring dragon~
+ExDesc        This fine ring is shaped like a dragon which has coiled itself into a loop.
+It has eyes made of black onyx.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10317
+Keywords   fan folding black o103~
+Type       light~
+Short      a black folding fan~
+Long       A black folding fan, with a red sun on it, floats here.~
+Flags      antigood~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 6000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  fan folding black~
+ExDesc        This fine fand is made of black paper, and bears the symbol of the empire: A
+rising, red sun.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10318
+Keywords   dagger assassin o103~
+Type       weapon~
+Short      an Assassin's dagger~
+Long       A wicked looking blade has been left here.~
+WFlags     take wield~
+Values     0 6 4 6 0 0 0 0 0 0 0
+Stats      16 25000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#EXDESC
+ExDescKey  assassin dagger~
+ExDesc        This exceptionally fine blade is made of an unknown, light-weight metal.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10319
+Keywords   blade masamura ancient o103~
+Type       weapon~
+Short      an ancient Masamura blade~
+Long       An ancient curved blade lies half-burried here.~
+Flags      antievil~
+WFlags     take wield~
+Values     0 5 5 1 0 0 0 0 0 0 0
+Stats      10 8000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  blade masamura ancient~
+ExDesc        This incredibly fine blade is made of a strange material which you have
+never seen before.  It is remarkable light, making parrying much easier.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10320
+Keywords   necklace dragon teeth o103~
+Type       armor~
+Short      a necklace of dragon teeth~
+Long       A fine necklace made of long black teeth is hanging from a tree here.~
+WFlags     take neck~
+Values     15 15 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10321
+Keywords   sword long sharp o103~
+Type       weapon~
+Short      a long sword~
+Long       A long sword has been left here.~
+WFlags     take wield~
+Values     0 4 6 1 0 0 0 0 0 0 0
+Stats      10 600 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10322
+Keywords   ring silver o103~
+Type       armor~
+Short      a silver ring~
+Long       A plain silver ring of little value lies here.~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 300 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+#EXDESC
+ExDescKey  ring silver~
+ExDesc        This is a plain, boring, silver ring.  Don't look again.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10323
+Keywords   do-maru do maru breast plate o103~
+Type       armor~
+Short      do-maru~
+Long       A samurai has left his breast plate here.~
+WFlags     take body~
+Values     32 32 0 0 0 0 0 0 0 0 0
+Stats      20 2000 0 9999 0 None None None
+#EXDESC
+ExDescKey  do maru do-maru breast plate~
+ExDesc        This is a laced corselet which covers the stomack, shoulders, chest, and
+back
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10324
+Keywords   o-yoroi laced armor o yoroi o103~
+Type       armor~
+Short      A suit of O-yoroi armor~
+Long       A full suit of laced armor hangs on a stand here.~
+WFlags     take body~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      40 10000 0 9999 0 None None None
+AffData    move -20 -1 -1 0
+AffData    Dexterity -1 -1 -1 0
+#EXDESC
+ExDescKey  laced armor o yoroi~
+ExDesc        This is a complete suit of laced armor, which is very ornate and colorful.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10325
+Keywords   haidate apron laced o103~
+Type       armor~
+Short      a Haidate~
+Long       A samurai has left an apron of laced armor here.~
+WFlags     take legs~
+Values     27 27 0 0 0 0 0 0 0 0 0
+Stats      10 3000 0 9999 0 None None None
+#EXDESC
+ExDescKey  haidate skirt short~
+ExDesc        This leg armor is an ornate apron of laced armor.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10326
+Keywords   kote arm plates o103~
+Type       armor~
+Short      a pair of kote~
+Long       A samurai has left his arm guards here.~
+WFlags     take arms~
+Values     17 17 0 0 0 0 0 0 0 0 0
+Stats      0 3000 0 9999 0 None None None
+#EXDESC
+ExDescKey  kote arm plates~
+ExDesc        This ornate pair of laced arm plates completely covers each arm, and part
+of the hand.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10327
+Keywords   hanburi leather helm o103~
+Type       armor~
+Short      a hanburi~
+Long       A tight-fitting leather helm lies here.~
+WFlags     take head~
+Values     24 24 0 2 0 0 0 0 0 0 0
+Stats      4 20 0 9999 0 None None None
+#EXDESC
+ExDescKey   hanburi leather helm~
+ExDesc        This simply constructed helm fits tightly around the head.  It is small,
+lightweight, and collapsable.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10328
+Keywords   wakizashi short fine blade o103~
+Type       weapon~
+Short      a fine wakizashi~
+Long       A wakizashi of exceptional quality has been left here.~
+WFlags     take wield hold~
+Values     0 3 4 1 0 0 0 0 0 0 0
+Stats      2 5000 0 9999 0 None None None
+AffData    hitroll 3 -1 -1 0
+#EXDESC
+ExDescKey   wakizashi short fine blade~
+ExDesc        This short curved blade is exceptionally fine, making parries, feints, and
+suicides more effective.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10329
+Keywords   jinsinga iron peasant hat o103~
+Type       armor~
+Short      a Jinsinga~
+Long       An iron hat which resembles a peasants straw farming hat lies here.~
+WFlags     take head~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      7 500 0 9999 0 None None None
+#EXDESC
+ExDescKey   jinsinga iron peasant hat~
+ExDesc        This hat is just a peasants straw hat made of iron.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10330
+Keywords   gloves samurai o103~
+Type       armor~
+Short      Samurai gloves~
+Long       A samurai has left a nice pair of gloves here.~
+WFlags     take hands~
+Values     15 15 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Dexterity -1 -1 -1 0
+#EXDESC
+ExDescKey  gloves samurai~
+ExDesc        These fine gloves are made of thin leather, and fit nicely under kote.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10331
+Keywords   daikyu bow o103~
+Type       weapon~
+Short      a daikyu~
+Long       A peculiar looking bow, designed for use from horseback, rests up against the wall here.~
+WFlags     take wield~
+Values     0 3 5 6 0 0 0 0 0 0 0
+Stats      10 3000 0 9999 0 None None None
+#EXDESC
+ExDescKey  daikyu bow~
+ExDesc        This bow is very peculiar looking, since the handle is not in the middle of
+the staff.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10332
+Keywords   hankyu bow short o103~
+Type       weapon~
+Short      a hankyu~
+Long       A fine Asian short bow lies here.~
+WFlags     take wield~
+Values     0 2 6 6 0 0 0 0 0 0 0
+Stats      4 500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10333
+Keywords   lantern paper o103~
+Type       light~
+Short      a paper lantern~
+Long       A small paper lantern.~
+WFlags     take hold~
+Values     0 0 96 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  label  lantern paper~
+ExDesc       Hold lantern to use.
+   This plain white paper lantern is supported by a wooden frame.  It has a 
+label on it's underside.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10334
+Keywords   daikyu bow humming o103~
+Type       weapon~
+Short      a daikyu~
+Long       A peculiar looking longbow, designed for use from horseback, lies on the ground here.~
+Flags      hum~
+WFlags     take wield~
+Values     0 4 5 6 0 0 0 0 0 0 0
+Stats      12 5000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10335
+Keywords   seal o103~
+Type       treasure~
+Short      the Shogun's personal seal~
+Long       A seal for making ink prints lies partially hidden here.~
+Flags      antievil~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 2000 0 9999 0 None None None
+AffData    Intelligence 2 -1 -1 0
+AffData    Wisdom 2 -1 -1 0
+#EXDESC
+ExDescKey   seal~
+ExDesc        This large wooden block has an imprint on the bottom, which the Shogun
+uses to mark official documents.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10336
+Keywords   dictionary book small paperback o103~
+Type       treasure~
+Short      a Japanese-English dictionary~
+Long       Some failing student has misplaced a small paperback book.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 2000 0 9999 0 None None None
+AffData    Intelligence 3 -1 -1 0
+#EXDESC
+ExDescKey   dictionary book small paperback~
+ExDesc        This fine paperback book can help the novice student to translate Kanji
+to English, and vice-versa!  It looks as if its former owner did not use it
+much, though.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10337
+Keywords   chopsticks laquered pair o103~
+Type       weapon~
+Short      a pair of laquered chopsticks~
+Long       A pair of laquered chopsticks lie in a bowl here.~
+WFlags     take wield~
+Values     0 3 4 6 0 0 0 0 0 0 0
+Stats      1 500 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10338
+Keywords   kimono grey court o103~
+Type       armor~
+Short      a grey court kimono~
+Long       A grey court kimono is neatly folded here.~
+WFlags     take about~
+Values     14 14 0 0 0 0 0 0 0 0 0
+Stats      2 200 0 9999 0 None None None
+#EXDESC
+ExDescKey  kimono grey court~
+ExDesc        This fine kimono is made of silk, it's grey color denoting that those people
+who have the honor to wear it serve directly under the Shogun.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10339
+Keywords   kimono brown court o103~
+Type       armor~
+Short      a brown court kimono~
+Long       A brown court kimono is neatly folded here.~
+WFlags     take about~
+Values     14 14 0 0 0 0 0 0 0 0 0
+Stats      2 200 0 9999 0 None None None
+#EXDESC
+ExDescKey  kimono brown court~
+ExDesc        This fine silk kimono is a rusty-brown color, denoting that the wearer 
+serves the lord Yoshinaka.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10340
+Keywords   pearl white o103~
+Type       treasure~
+Short      a fine white pearl~
+Long       Someone has left a giant, fine white pearl here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 2000 0 9999 0 None None None
+AffData    hit 20 -1 -1 0
+AffData    mana -30 -1 -1 0
+#EXDESC
+ExDescKey  pearl white~
+ExDesc        This fine white pearl is very large;  they oyster must have been at least
+3 feet in diameter!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10341
+Keywords   sash white o103~
+Type       armor~
+Short      a white sash~
+Long       A white sash lies in a pile here.~
+WFlags     take waist~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      1 20 0 9999 0 None None None
+#EXDESC
+ExDescKey   sash white~
+ExDesc        This white sash goes well with any color kimono.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10342
+Keywords   kosode pink o103~
+Type       armor~
+Short      a pink kosode~
+Long       A beautiful pink kimono has been left here.~
+WFlags     take about~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      3 1500 0 9999 0 None None None
+AffData    Dexterity 2 -1 -1 0
+AffData    mana 15 -1 -1 0
+#EXDESC
+ExDescKey  kosode pink~
+ExDesc        This fine ladies' kosode is pink.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10344
+Keywords   brush bamboo o103~
+Type       wand~
+Short      A bamboo brush~
+Long       A bamboo brush lies on an ink griner here.~
+WFlags     take hold~
+Values     11 6 6  0 0 0 0 0 0 0
+Stats      0 30 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10345
+Keywords   lantern red paper o103~
+Type       light~
+Short      a red paper lantern~
+Long       An ornate red paper lantern with black characters hangs here.~
+Flags      magic~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      2 5000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    hit 10 -1 -1 0
+#EXDESC
+ExDescKey  lantern red paper characters~
+ExDesc        This red lantern, made of fine red paper supported by wooden sticks, has
+large black characters written on it.
+   The characters read "through the ebbing of the flame, one feels more life
+and power."
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10346
+Keywords   lantern white paper o103~
+Type       light~
+Short      a white paper lantern~
+Long       A white paper lantern with black characters hangs here.~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      0 4000 0 9999 0 None None None
+AffData    Wisdom 1 -1 -1 0
+#EXDESC
+ExDescKey  poem lantern white paper~
+ExDesc       "The purest white shows eternal wisdom.
+   This fine white paper lantern is supported by wooden sticks.  The large
+black characters on it seem to spell out a poem.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10347
+Keywords   shoe horse o103~
+Type       trash~
+Short      a horse shoe~
+Long       A fine iron horse shoe hangs on the wall here.~
+WFlags     take neck hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 5 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#EXDESC
+ExDescKey   shoe horse~
+ExDesc       This is just a plain old horseshoe.  But then again, they are lucky, aren't they?
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10348
+Keywords   blanket saddle o103~
+Type       armor~
+Short      a saddle blanket~
+Long       A colorful saddle blanket lies in the dirt here.~
+WFlags     take neck~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      3 1000 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey   blanket saddle~
+ExDesc       It's very colorful, meant to be set on a horse's back.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10349
+Keywords   hoe o103~
+Type       weapon~
+Short      a hoe~
+Long       A gardening hoe lies hidden beneath the bushes here.~
+WFlags     take wield~
+Values     0 2 5 4 0 0 0 0 0 0 0
+Stats      3 5 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10350
+Keywords   bucket water o103~
+Type       drinkcon~
+Short      A water bucket~
+Long       A bucket has been left here.~
+WFlags     take hold~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      2 10 0 9999 0 None None None
+#EXDESC
+ExDescKey   bucket water~
+ExDesc        This plain bucket has a handle so that you can carry two on a pole.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10351
+Keywords   shears pair o103~
+Type       weapon~
+Short      a pair of banzai shears~
+Long       A pair of precision banzai shears has been left out to rust!~
+WFlags     take wield hold~
+Values     0 5 3 6 0 0 0 0 0 0 0
+Stats      2 1000 0 9999 0 None None None
+AffData    Dexterity 2 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  shears pair~
+ExDesc        This pair of fine shears are used in the delicate work of taming a banzai 
+tree.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10352
+Keywords   gloves pair o103~
+Type       armor~
+Short      a pair of gardener's gloves~
+Long       A pair of work gloves has been left here.~
+WFlags     take hands~
+Values     7 7 0 0 0 0 0 0 0 0 0
+Stats      1 20 0 9999 0 None None None
+#EXDESC
+ExDescKey  gloves pair~
+ExDesc       You know. The kind mom wears when she is working in the garden.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10353
+Keywords   standard banner o103~
+Type       armor~
+Short      The Shogun's Standard~
+Long       The Shogun's standard is mounted on a pole here.~
+Flags      antievil~
+WFlags     take hold~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 2000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#EXDESC
+ExDescKey   standard banner~
+ExDesc        This silk standard is grey-colored, with the Shogun's personal sigil
+tediously embroidered in the middle:  a red sun over a white sword.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10354
+Keywords   hairpin silver o103~
+Type       armor~
+Short      a silver hairpin~
+Long       A silver hairpin lies here.~
+Flags      antievil~
+WFlags     take head~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      1 3000 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  hairpin silver~
+ExDesc        This fine hairpin is used by ladies to keep their hair out of their face.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10355
+Keywords   charm stone o103~
+Type       armor~
+Short      a traveller's charm~
+Long       A charm worn by travellers for good luck lies here.~
+WFlags     take neck~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      1 50 0 9999 0 None None None
+AffData    move 20 -1 -1 0
+#EXDESC
+ExDescKey   charm stone~
+ExDesc        This stone charm is attached to a chain, so as to be worn around the neck.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10356
+Keywords   kimono black o103~
+Type       armor~
+Short      a black court kimono~
+Long       A black court kimono has been left here.~
+WFlags     take about~
+Values     14 14 0 0 0 0 0 0 0 0 0
+Stats      2 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10357
+Keywords   kimono beige o103~
+Type       armor~
+Short      a beige court kimono~
+Long       A fine beige court kimono is folded here.~
+Flags      antineutral~
+WFlags     take about~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      2 2000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10358
+Keywords   key metal k103~
+Type       key~
+Short      a metal key~
+Long       A metal key has been left here to rust.~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#EXDESC
+ExDescKey  key metal~
+ExDesc        This key is made of iron, and looks like it goes to the main gate.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10359
+Keywords   key brass k103~
+Type       key~
+Short      a brass key~
+Long       A shiny brass key lies in the dirt here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#EXDESC
+ExDescKey  key brass~
+ExDesc        It is made of brass.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10360
+Keywords   key steel k103~
+Type       key~
+Short      a steel key~
+Long       A steel key has been left here to rust.~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10361
+Keywords   key silver k103~
+Type       key~
+Short      a silver key~
+Long       A silver key is tarnishing here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10362
+Keywords   ring brass o103~
+Type       armor~
+Short      a brass ring~
+Long       A plain brass ring has been left here to corrode.~
+Flags      magic~
+WFlags     take finger~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      1 500 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10363
+Keywords   key gold k103~
+Type       key~
+Short      a gold key~
+Long       Someone has left a gold key here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10364
+Keywords   kettle tea o103~
+Type       drinkcon~
+Short      a porcelein tea kettle~
+Long       A fine porcelein tea kettle lies here.~
+WFlags     take~
+Values     5 5 11 0 0 0 0 0 0 0 0
+Stats      2 25 0 9999 0 None None None
+#EXDESC
+ExDescKey   kettle tea~
+ExDesc        This fine porcelein tea kettle is white with blue flowery designs.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10365
+Keywords   apron white o103~
+Type       armor~
+Short      a white apron~
+Long       A plain white apron hangs on the wall here.~
+WFlags     take about~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10366
+Keywords   cake rice o103~
+Type       food~
+Short      a rice cake~
+Long       A tasty rice cake lies on a plate here.~
+WFlags     take~
+Values     12 0 0 0 0 0 0 0 0 0 0
+Stats      0 1 0 9999 0 None None None
+#EXDESC
+ExDescKey   cake rice~
+ExDesc       Mmmmmm!  It is boiled rice which has been packed into a little compact cake!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10367
+Keywords   wicker o103~
+Type       container~
+Short      a wicker basket~
+Long       A nice wicker basket has been left here.~
+WFlags     take hold~
+Values     70 0 -1 10 0 -1 0 0 0 0 0
+Stats      5 25 0 9999 0 None None None
+#EXDESC
+ExDescKey   basket wicker~
+ExDesc        This wicker basket looks like it could hold a lot!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10368
+Keywords   bowl rice o103~
+Type       container~
+Short      a rice bowl~
+Long       A fine porcelein rice bowl has been dropped here.~
+WFlags     take~
+Values     3 0 0 10 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey   bowl rice~
+ExDesc       It is made of fine white porcelein.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10369
+Keywords   rice o103~
+Type       food~
+Short      some cooked rice~
+Long       Some cooked rice lies scattered about here.~
+WFlags     take~
+Values     6 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10370
+Keywords   bag grain large o103~
+Type       container~
+Short      a large grain bag~
+Long       A large bag used for storing grain is resting up against the wall here.~
+WFlags     take hold~
+Values     70 0 0 10 0 0 0 0 0 0 0
+Stats      7 50 0 9999 0 None None None
+#EXDESC
+ExDescKey  bag grain large~
+ExDesc        This burlap bag looks like it could hold a lot of rice!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10371
+Keywords   millet o103~
+Type       food~
+Short      some millet~
+Long       Some millet grains have been scattered around here.~
+WFlags     take~
+Values     6 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey   millet~
+ExDesc       Yeach!   Millet is the staple of those who can't grow rice due to terrain,
+though it can be used to make descent things.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10372
+Keywords   wheat o103~
+Type       food~
+Short      some wheat~
+Long       Some wheat is scattered about the floor here.~
+WFlags     take~
+Values     6 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey   wheat~
+ExDesc        Wheat is the staple of people in the north, where the land can support it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10373
+Keywords   chest iron bound o103~
+Type       container~
+Short      an iron-bound chest~
+Long       ~
+WFlags     take~
+Values     200 15 10376 10 0 10376 0 0 0 0 0
+Stats      5000 200 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10374
+Keywords   key tiny k103~
+Type       key~
+Short      a tiny key~
+Long       A tiny key lies here... you are lucky you saw it!~
+WFlags     take~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#EXDESC
+ExDescKey  key tiny~
+ExDesc        This little key looks as if it goes to something important.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10375
+Keywords   box laquer fine o103~
+Type       container~
+Short      A long laquer box~
+Long       A long, black laquer box rests on the floor here.~
+WFlags     take~
+Values     30 2 10374 10 0 10374 0 0 0 0 0
+Stats      5 50 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10376
+Keywords   key captain k103~
+Type       key~
+Short      the Captain's key~
+Long       A key on a fine silver chain hangs here.~
+WFlags     take neck~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10377
+Keywords   horn dragon o103~
+Type       weapon~
+Short      A dragon horn~
+Long       A dragon horn is floating in mid-air here.~
+WFlags     take wield~
+Values     0 4 6 6 0 0 0 0 0 0 0
+Stats      3 10000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  horn dragon~
+ExDesc        Made from a horn of a Dragon, this item makes a formidable weapon!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10378
+Keywords   box rosewood o103~
+Type       container~
+Short      a rosewood box~
+Long       A fine rosewood box has been left on a table here.~
+WFlags     take~
+Values     30 2 10380 10 0 10380 0 0 0 0 0
+Stats      3 300 0 9999 0 None None None
+#EXDESC
+ExDescKey   box rosewood~
+ExDesc        This fine rosewood box was made to store jewelry.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10379
+Keywords   bracelet shell o103~
+Type       armor~
+Short      a seashell bracelet~
+Long       A bracelet made of fine shells has been left here.~
+WFlags     take wrist~
+Values     11 11 0 0 0 0 0 0 0 0 0
+Stats      0 500 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  bracelet shell~
+ExDesc        This bracelet is not very expensive, but attractive enough that the Shogun's
+consort wears it from time to time!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10380
+Keywords   key gold white k103~
+Type       key~
+Short      a white-gold key~
+Long       A key made of white gold has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      1 500000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10381
+Keywords   guard neck laced o103~
+Type       armor~
+Short      a laced neck guard~
+Long       A neck guard made of laced armor has been left here.~
+WFlags     take neck~
+Values     13 13 0 0 0 0 0 0 0 0 0
+Stats      0 500 0 9999 0 None None None
+#EXDESC
+ExDescKey  guard neck laced~
+ExDesc        This piece of armor is actually part of the Kabuto, but for some reason,
+it has been detached.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10382
+Keywords   slippers pair silk o103~
+Type       armor~
+Short      a pair of silk slippers~
+Long       A pair of silk slippers has been left here.~
+WFlags     take feet~
+Values     14 14 0 0 0 0 0 0 0 0 0
+Stats      1 2000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    move 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10383
+Keywords   o-yoroi o yoroi exquisite laced armor suit o103~
+Type       armor~
+Short      an exquisite O-yoroi~
+Long       An exquisite full suit of laced armor hangs on a rack here.~
+WFlags     take body~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      25 20000 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        10300
+Name       The First Bridge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a stone bridge which rises 15 feet above the moat.  This
+bridge is the only link between the cluster of little islands which make up the
+Shogun's summer palace, and the city of Ishikawa.  There is a large gate house
+to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     10303
+Key        10358
+Keywords   gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10400
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10331
+Keywords   foliage~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10306 12 10300 -1 -1 -1 100
+Reset M    10306 12 10300 -1 -1 -1 100
+  Reset E  10302 20 16 100
+Reset M    10306 12 10300 -1 -1 -1 100
+  Reset E  10329 1 6 100
+Reset M    10306 12 10300 -1 -1 -1 100
+Reset D    10300 0 2 100 -2
+Reset D    10300 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10301
+Name       The Main Road on the Shogun's Estate~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking on a hard-packed dirt road which links the various buildings
+on the Shogun's estate.  The road continues north, while to the west, a small
+path leads into a beautiful glade in a bamboo thicket.
+~
+#EXIT
+Direction  North~
+ToRoom     10304
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10303
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10302
+#ENDEXIT
+Reset M    10321 4 10301 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10302
+Name       An Aesthetically Pleasing Glade~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This glade off the main road is surrounded by a bamboo thicket.  There is a
+large rock set in the middle of the glade, covered by a thin layer of moss. The
+scenery is very pleasing to the eye.  That is probably why a handsome samurai 
+is meditating here.
+~
+#EXIT
+Direction  East~
+ToRoom     10301
+#ENDEXIT
+Reset M    10325 1 10302 -1 -1 -1 100
+  Reset E  10306 10 16 50
+#ENDROOM
+
+#ROOM
+Vnum        10303
+Name       The First Gate House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The only way to get off of the bridge and onto the Shogun's estate is by
+passing through this imposing structure.  In order to pass, you must first
+convince the samurai here that you are worthy of the Shogun's attention.
+~
+#EXIT
+Direction  North~
+ToRoom     10301
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10300
+Key        10358
+Keywords   gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10306 12 10303 -1 -1 -1 100
+Reset M    10306 12 10303 -1 -1 -1 100
+Reset M    10306 12 10303 -1 -1 -1 100
+  Reset E  10327 10 6 100
+Reset M    10302 10 10303 -1 -1 -1 100
+  Reset G  10358 8 100
+Reset D    10303 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10304
+Name       The Main Road on the Shogun's Estate~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The dirt road continues north and south, the whole way surrounded by a
+bamboo thicket.
+~
+#EXIT
+Direction  North~
+ToRoom     10305
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10301
+#ENDEXIT
+Reset M    10322 6 10304 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10305
+Name       A Bend in the Road~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The dirt road turns eastward here, onto another bridge which leads to the
+second island on the Shogun's estate.  A narrow path continues northward, going
+into the bamboo woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10306
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10307
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10304
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10306
+Name       A Clearing in the Bamboo Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This glade, while not as pleasing to the eye as the one further to the
+south, is still quite beautiful.  There is a mean-looking samurai practicing
+here, hacking wooden stakes in half with his deadly katana.  He doesn't seem
+very pleased that you have interrupted his practice.  He is eyeing you as if
+you were one of those wooden stakes!  A shortcut to the main palace lies to
+the north, through the bamboo thicket.
+~
+#EXIT
+Direction  North~
+ToRoom     10351
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10305
+#ENDEXIT
+Reset M    10333 1 10306 -1 -1 -1 100
+  Reset E  10330 1 9 100
+Reset M    10327 6 10306 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10307
+Name       The Second Bridge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          In the interest of personal security, the Shogun has designed his estate so
+that intruders have only a limited number of paths to follow in order to reach
+his castle.  Thus, you must cross over another bridge to get onto yet another
+island.  A large and imposing gate house lies in front of you.
+~
+#EXIT
+Direction  East~
+ToRoom     10308
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10305
+#ENDEXIT
+Reset M    10306 12 10307 -1 -1 -1 100
+Reset M    10306 12 10307 -1 -1 -1 100
+  Reset E  10302 20 16 100
+Reset M    10302 10 10307 -1 -1 -1 100
+  Reset E  10300 30 16 100
+Reset M    10302 1 10307 -1 -1 -1 100
+Reset D    10307 1 0 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10308
+Name       The Second Gate House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large and imposing building is an almost exact replica of the first 
+gate house, at the end of the first bridge.  Japanese architects are very
+pragmatic, and not so creative when creating defenses.  Only people of great
+importance are allowed past this point - this does not include you.
+~
+#EXIT
+Direction  East~
+ToRoom     10309
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10307
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10307 1 10308 -1 -1 -1 100
+  Reset E  10376 1 7 100
+  Reset E  10353 1 17 70
+Reset M    10306 12 10308 -1 -1 -1 100
+Reset M    10306 12 10308 -1 -1 -1 100
+Reset M    10302 10 10308 -1 -1 -1 100
+Reset M    10302 10 10308 -1 -1 -1 100
+  Reset E  10300 30 16 100
+Reset M    10323 4 10308 -1 -1 -1 100
+  Reset E  10328 5 16 100
+Reset D    10308 1 1 100 -2
+Reset D    10308 3 0 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10309
+Name       On the Main Road on the Shogun's Estate~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The dirt road picks up where it left off.  From this small island, you can
+see the Shogun's summer palace, set in the middle of the main island, rising
+high above any other structure in Ishikawa.  The road continues east, while
+the second gate house lies to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10310
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10308
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10321 4 10309 -1 -1 -1 100
+Reset D    10309 3 0 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10310
+Name       The Main Road on the Shogun's Estate~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          As the path continues east, the magnificence of the palace becomes more and
+more apparent.  The structure must be at least seven stories high, with pale
+blue, downward-sloping grilled rooves, set upon the purest of white stone. It
+is both beautiful and defensible.  Toward the south, a path leads into another
+glade.
+~
+#EXIT
+Direction  East~
+ToRoom     10312
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10311
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10309
+#ENDEXIT
+Reset M    10322 6 10310 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10311
+Name       At the Dragon Fountain~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at the edge of another beautiful glade surrounded by
+bamboo.  In the middle of the glade, there is a large white marble fountain,
+carved to ressemble a coiled dragon.
+~
+#EXIT
+Direction  North~
+ToRoom     10310
+#ENDEXIT
+Reset M    10305 1 10311 -1 -1 -1 100
+  Reset E  10315 1 5 70
+#ENDROOM
+
+#ROOM
+Vnum        10312
+Name       The Main Road on the Shogun's Estate~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The dirt road continues east-to-west from here.  The personal blacksmith of
+the Shogun works in a shop to the south, while there a path to the south leads
+into another scenic glade.
+~
+#EXIT
+Direction  North~
+ToRoom     10315
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10313
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10388
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10310
+#ENDEXIT
+Reset M    10327 6 10312 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10313
+Name       The Main Road on the Shogun's Estate~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The main road comes to an end here, with a final bridge to the north which
+leads to the Shogun's palace.  A large, open field lies to the west, while a
+dirt path to the south leads to some stables.
+~
+#EXIT
+Direction  North~
+ToRoom     10317
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10314
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10389
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10312
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10314
+Name       The Archery Field~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          As you artfully dodge an arrow, you realize that this large, open field was
+probably not originally intended to be used for archery... especially not with
+the target being placed at the entrance to the field.  Several samurai are here
+mastering the fine art of turning their master's enemies into pin-cushions.
+~
+#EXIT
+Direction  West~
+ToRoom     10313
+#ENDEXIT
+Reset M    10331 1 10314 -1 -1 -1 100
+  Reset E  10334 2 16 100
+Reset M    10302 10 10314 -1 -1 -1 100
+  Reset E  10332 1 16 100
+Reset M    10301 14 10314 -1 -1 -1 100
+  Reset E  10331 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum        10315
+Name       The Entrance to a Shinto Shrine~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          A large gate-way rises above you, capped by downward-sloping red grilled
+rooves, supported by two pillars of white marble, each carved into the shape
+of dragons.  A few people walk by, leaving rocks at the base of the roof.
+Supposedly, such an action will bring you good luck... perhaps you should 
+leave a rock here, too!
+~
+#EXIT
+Direction  North~
+ToRoom     10316
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10312
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10316
+Name       The Shinto Shrine~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Perhaps the most peaceful, mind-soothing place in the world is a Shinto
+shrine.  Here, the spirits of nature seem alive, soothing your soul as they
+brush across your face.  You have never seen grass so green, nor willow so
+graceful, then in this serene glade.  A large greyish rock rests in the
+middle of the glade.
+~
+#EXIT
+Direction  South~
+ToRoom     10315
+#ENDEXIT
+Reset M    10339 1 10316 -1 -1 -1 100
+  Reset E  10308 3 17 50
+  Reset E  10303 10 12 5
+  Reset E  10304 10 13 5
+Reset M    10356 5 10316 -1 -1 -1 100
+Reset M    10356 5 10316 -1 -1 -1 100
+Reset M    10356 5 10316 -1 -1 -1 100
+Reset M    10356 5 10316 -1 -1 -1 100
+Reset M    10356 5 10316 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10317
+Name       The Final Bridge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This large bridge leads to the last guard station before the actual palace
+of the Shogun begins.  Samurai in grey court kimonos are lined up on each side
+of the bridge, ready to prevent any unwelcome visitors, such as yourself, to
+pass.
+~
+#EXIT
+Direction  North~
+ToRoom     10318
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10313
+#ENDEXIT
+Reset M    10301 10 10317 -1 -1 -1 100
+Reset M    10302 10 10317 -1 -1 -1 100
+  Reset E  10300 30 16 100
+Reset M    10301 14 10317 -1 -1 -1 100
+  Reset E  10341 10 13 100
+Reset M    10301 14 10317 -1 -1 -1 100
+  Reset E  10338 10 5 100
+Reset M    10301 14 10317 -1 -1 -1 100
+Reset D    10317 0 0 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10318
+Name       The Last Gate House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This imposing building ressembles the others which you have already passed.
+However, there are more and meaner looking samurai guarding it.  Only people
+with special permission to visit the Shogun are allowed past this point, into
+the actual palace.  A sturdy oak door blocks the northern access to the main
+courtyard, while an oaken door to the east leads into the palace barracks.
+~
+#EXIT
+Direction  North~
+ToRoom     10319
+Key        10359
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10322
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10317
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10397
+#ENDEXIT
+Reset M    10301 14 10318 -1 -1 -1 100
+  Reset E  10338 10 5 100
+Reset M    10301 14 10318 -1 -1 -1 100
+Reset M    10301 14 10318 -1 -1 -1 100
+Reset M    10323 4 10318 -1 -1 -1 100
+  Reset G  10359 8 100
+Reset D    10318 0 2 100 -2
+Reset D    10318 1 1 100 -2
+Reset D    10318 2 0 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10319
+Name       The Southern End of the Main Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          As you leave the gate house, you step out onto an immense courtyard, unlike
+any western courtyard you have ever seen.  It is more like a garden, with many
+willows and peach trees, as well as rocks, flowers and bushes, all arranged in
+an aesthetically pleasing manner.  The courtyard continues north, while to the
+east, the east wing of the palace begins.  A garden path leads off to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     10320
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10329
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10318
+Key        10359
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10330
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     10375
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     10321
+#ENDEXIT
+Reset M    10350 5 10319 -1 -1 -1 100
+  Reset E  10310 1 6 100
+Reset D    10319 1 1 100 -2
+Reset D    10319 2 2 100 -2
+Reset D    10319 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10320
+Name       the Northern End of the Main Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          At the northern end of the courtyard, you are surrounded by the eastern
+and western wings of the palace.  The northern end is just as picturesque
+as the southern end.  Looking north, you see a young lady in a white kimono,
+who seems quite surprised to see you.  She has just dropped the tea tray she
+was holding with a load CRASH!  To the east, double doors are open, leading
+into a large hall of sorts.  To the west, an oak door leads to the servant's
+wing of the palace.  To the north, an oaken door bars entry into the palace.
+~
+#EXIT
+Direction  North~
+ToRoom     10326
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10329
+Keywords   double door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10319
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10369
+Keywords   oak~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10330 6 10320 -1 -1 -1 100
+Reset O    10364 1 10320 -1 -1 -1 100
+Reset D    10320 1 1 100 -2
+Reset D    10320 0 1 100 -2
+Reset D    10320 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10321
+Name       A Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a small dirt path, lined with bushes and trees, which leads from
+the main courtyard to what looks to be a guest wing of the palace.
+~
+#EXIT
+Direction  East~
+ToRoom     10319
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10345
+#ENDEXIT
+Reset M    10312 12 10321 -1 -1 -1 100
+  Reset E  10350 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum        10322
+Name       The Gate House Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Most of the common soldiers of the palace are quartered in this large room.
+Several bunks (some occupied) line the walls, and weapons are scattered about
+the room.  A sliding door to the east leads into a hallway.
+~
+#EXIT
+Direction  East~
+ToRoom     10324
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10318
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10342 4 10322 -1 -1 -1 100
+Reset M    10342 4 10322 -1 -1 -1 100
+Reset M    10342 4 10322 -1 -1 -1 100
+Reset M    10342 4 10322 -1 -1 -1 100
+Reset M    10343 2 10322 -1 -1 -1 100
+Reset M    10343 2 10322 -1 -1 -1 100
+Reset M    10302 10 10322 -1 -1 -1 100
+  Reset E  10300 30 16 100
+Reset D    10322 1 1 100 -2
+Reset D    10322 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10323
+Name       the Steward's Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The most important of the palace guards is the steward.  He is also in
+charge of the daily upkeep and provisioning of the castle.  This room is
+separated from the hallway by a sliding paper door to the west. It is quite
+obvious from the lack of decoration that the steward leads a very austere
+lifestyle.
+~
+#EXIT
+Direction  West~
+ToRoom     10374
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10323 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10324
+Name       Southern End of the Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This hallway leads north.  Sliding paper doors line the east and west sides
+of the hall.
+~
+#EXIT
+Direction  North~
+ToRoom     10373
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10322
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10324 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10325
+Name       The Grand Banquet Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room has a huge, rectangular table in the center, carved from
+a giant rosewood tree.  The hanging paintings on the wall depict scenes from
+nature, many haveing stories written along one side in a flowing cursive style.
+One describes the ancient legend of the trout climbing a waterfall, and then
+transforming into a golden dragon.  The Shogun uses this magnificent room only
+for the most important of state dinners.  It can seat over 200 people!  Three
+exit lie to the east, the northerly one leading into the Shogun's waiting room,
+the middle one leading to the north end of the grand hall, and the southerly
+one to the south end of the grand hall.  The sliding doors to the north lead
+into the kitchens, while a set of sliding doors to the west lead into a large
+garden.
+~
+#EXIT
+Direction  North~
+ToRoom     10334
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10327
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10333
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     10328
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     10326
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10332 5 10325 -1 -1 -1 100
+Reset M    10322 6 10325 -1 -1 -1 100
+  Reset E  10306 3 16 100
+Reset O    10368 10 10325 -1 -1 -1 100
+Reset O    10368 10 10325 -1 -1 -1 100
+Reset O    10368 10 10325 -1 -1 -1 100
+Reset O    10368 10 10325 -1 -1 -1 100
+  Reset P  0 10369 10 10368 100
+Reset O    10369 10 10325 -1 -1 -1 100
+Reset D    10325 0 0 100 -2
+Reset D    10325 1 1 100 -2
+Reset D    10325 3 1 100 -2
+Reset D    10325 6 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10326
+Name       South End of the Grand Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing at the southern end of a large hall.  The columns are
+carved to resemble various heroes from Japanese mythology and legend. One
+hero depicted, Musashi Miyamoto, still lives somewhere in the realms. The
+walls are made of glistening rosewood up to chest level, where it changes
+to a white wood with golden and green dragons racing up the sides.  The 
+hall continues north, while the sliding doors to the west lead into the
+banquet hall, and sliding door to the east lead to the great council room.
+~
+#EXIT
+Direction  North~
+ToRoom     10327
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10329
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10320
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10325
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10308 1 10326 -1 -1 -1 100
+  Reset E  10322 1 2 100
+  Reset E  10363 1 17 100
+Reset M    10314 1 10326 -1 -1 -1 100
+  Reset E  10345 1 0 100
+Reset M    10350 5 10326 -1 -1 -1 100
+  Reset E  10323 1 5 100
+Reset M    10301 14 10326 -1 -1 -1 100
+Reset M    10327 6 10326 -1 -1 -1 100
+Reset M    10352 5 10326 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10327
+Name       North End of the Grand Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The murals which began in the southern end of the grand hall continue into
+this end.  The columns also continue, though the last few have not yet been
+carved.  Perhaps the Shogun is saving one to be made in his own image? People
+who seek audience with the Shogun must pass through the sliding paper doors to
+the north.  To the west, one finds the grand banquet hall, while to the east,
+a stairwell to the upper levels begins.
+~
+#EXIT
+Direction  North~
+ToRoom     10328
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10327
+Desc       Due to an earthquake, the steps have collapsed, thus hindering progress upward.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10326
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10325
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10301 14 10327 -1 -1 -1 100
+Reset M    10301 14 10327 -1 -1 -1 100
+  Reset E  10306 3 17 100
+Reset D    10327 0 1 100 -2
+Reset D    10327 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10328
+Name       Waiting Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room is decorated with several wall hangings depicting famous battles,
+especially the ones which the Shogun participated in.  Several of the Shogun's
+best samurai guard the entrance to the receiving room.  A young woman is also
+here, saying 'the Shogun will not be seeing anymore visitors today.'
+~
+#EXIT
+Direction  North~
+ToRoom     10332
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10399
+Key        10380
+Keywords   oak door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10327
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10325
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10310 1 10328 -1 -1 -1 100
+  Reset E  10342 1 12 100
+  Reset E  10341 10 13 100
+Reset M    10303 6 10328 -1 -1 -1 100
+  Reset E  10311 3 13 100
+Reset M    10303 6 10328 -1 -1 -1 100
+  Reset E  10311 3 13 100
+Reset M    10303 6 10328 -1 -1 -1 100
+  Reset E  10312 2 14 100
+Reset M    10303 6 10328 -1 -1 -1 100
+  Reset E  10312 4 14 35
+Reset D    10328 3 1 100 -2
+Reset D    10328 2 1 100 -2
+Reset D    10328 1 2 100 -2
+Reset D    10328 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10329
+Name       Grand Council Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room can accomodate over 200 people.  A raised dias occupies the
+northern end of this room, presumably where the Shogun sits when he is holding
+councils of great importance.  Otherwise, he probably uses his receiving room.
+The walls are decorated with paintings which depict man as being very minute
+compared to nature.  There are three exits to the west, with the northerly one
+leading into the southern end of the grand hall, the middle one leading into
+the north end of the courtyard, and the southerly one leading to the south end
+of the courtyard.  A door to the west leads into the western courtyard.
+~
+#EXIT
+Direction  East~
+ToRoom     10377
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10320
+Keywords   double door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     10319
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     10326
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10350 5 10329 -1 -1 -1 100
+  Reset E  10326 20 10 100
+Reset D    10329 1 0 100 -2
+Reset D    10329 3 1 100 -2
+Reset D    10329 9 1 100 -2
+#EXDESC
+ExDescKey  dias~
+ExDesc        While only a foot above the rest of the grand council hall, it is obvious
+that the man who sits here is far above the rest of the people who live in the
+lands of Nippon.  There is a small table here, with an ink stick, a grinding
+stone, and a fine-haired brush set upon it.  the tatami which covers the floor
+of the dias is a colorful map, showing the extent of the Empire.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10330
+Name       Scribe's Chamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small room serves as a workshop and library for the Shogun's personal
+scribe/magician.  Here, he keeps records of important events, the position of
+the stars and the heavens, but more importantly, magice tomes and scrolls.
+Bookshelves line the walls, while a desk near the front of the room blocks
+entry into the chamber.
+   A note on the desk catches your attention.
+~
+#EXIT
+Direction  East~
+ToRoom     10319
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10318 1 10330 -1 -1 -1 100
+  Reset G  3050 10 100
+  Reset E  10336 1 17 100
+Reset D    10330 1 0 100 -2
+#EXDESC
+ExDescKey  bookshelf~
+ExDesc        There are so many books here, you are lost in a sea of characters.  Not like
+you could read them anyway!
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  desk~
+ExDesc        The desk is made of oak, and is littered with scrolls and books and similar
+objects.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  note~
+ExDesc        I sell scrolls, but it may get me in trouble!
+         LIST, BUY, SELL, OFFER, you know the routine.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10331
+Name       Under a Bridge~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This secluded and rather well hidden place provides a nice place to take a
+nap!  It is peaceful and quiet, provides a nice view of the palace moat, and
+shades you from the glaring summer sun.  Clover grows abundantly here, offering
+a nice place to rest!
+~
+#EXIT
+Direction  Up~
+ToRoom     10300
+Keywords   foliage~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10309 1 10331 -1 -1 -1 100
+  Reset E  10358 8 17 100
+Reset D    10331 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10332
+Name       Shogun's Receiving Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The Shogun receives very few people each day, and these are ussually his
+most trusted councelors and generals.  Anyone who has been allowed into this
+large, well decorated room must be of some importance.  At the north end of
+the room, there is a dias where the Shogun sits when receiving people. Behind
+it, there is a large wall hanging, with a poem, written in cursive script,
+which describes virtue, honor, and valor.
+~
+#EXIT
+Direction  South~
+ToRoom     10328
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10335
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10304 1 10332 -1 -1 -1 100
+  Reset E  10317 1 0 20
+  Reset G  10335 1 100
+Reset M    10303 6 10332 -1 -1 -1 100
+  Reset E  10320 2 3 100
+Reset M    10303 6 10332 -1 -1 -1 100
+  Reset E  10311 3 13 100
+Reset M    10303 6 10332 -1 -1 -1 100
+Reset D    10332 2 1 100 -2
+Reset D    10332 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10333
+Name       Western Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This garden is a smaller version of the main courtyard.  A veranda surrounds
+the courtyard, with sliding doors leading to various guest rooms.  This seems
+like the perfect place to take a walk after dinner, or just to meditate.
+~
+#EXIT
+Direction  North~
+ToRoom     10339
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10325
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10345
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10341
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     10334
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     10344
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     10343
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     10340
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10350 5 10333 -1 -1 -1 100
+  Reset E  10325 20 7 100
+Reset M    10312 12 10333 -1 -1 -1 100
+  Reset G  10350 10 100
+Reset M    10312 12 10333 -1 -1 -1 100
+Reset D    10333 0 1 100 -2
+Reset D    10333 1 1 100 -2
+Reset D    10333 3 1 100 -2
+Reset D    10333 8 1 100 -2
+Reset D    10333 9 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10334
+Name       Palace Kitchens~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Most of the foodstuffs for the castle are prepared here.  This large kitchen
+has several primitive ovens, along with pots, pans, woks, and other utensils
+used to prepare food, tea, and other eatables.  Several cooks rush about, in
+an attempt to keep everyone satisfied - their lives depend on it!
+There are two exits to the south;  the westerly one leads out onto the western
+courtyard, while the one directly to the south leads into the grand banquet
+hall.  An exit to the west leads into the main store room, while an exit to
+the north goes to the Shogun's receiving room.
+~
+#EXIT
+Direction  North~
+ToRoom     10336
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10325
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10338
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     10334
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10317 1 10334 -1 -1 -1 100
+  Reset E  10337 1 16 100
+Reset M    10315 5 10334 -1 -1 -1 100
+  Reset E  10365 30 5 100
+Reset M    10315 5 10334 -1 -1 -1 100
+Reset M    10315 5 10334 -1 -1 -1 100
+  Reset G  10366 100 100
+Reset D    10334 2 0 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10335
+Name       Antechambre~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          People such as translators and other servants and aids to the Shogun enter
+the receiving room from here.  This small room is sparsely furnished, since
+it serves such a minor function, and nobody of great importance (you,included)
+ever sees this room.  Besides the sliding door to the east which accesses the
+receiving room, the only other exit to this room is an oak door to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10332
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10347
+Key        10361
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10332 5 10335 -1 -1 -1 100
+  Reset E  10305 30 16 100
+Reset D    10335 3 2 100 -2
+Reset D    10335 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10336
+Name       Servant's Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This rather non-descript hallway leads from the kitchens to the receiving
+room.  There is also a side passage to the west which leads into a rather
+large store room.
+~
+#EXIT
+Direction  North~
+ToRoom     10347
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10334
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10337
+#ENDEXIT
+Reset D    10336 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10337
+Name       Porcelein Store Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room is used to store dinnerware and other eating instruments.
+They are tidely stacked away in what seems to be a planned order.  There are
+laquerware, silverware, porcelein, tea sets, an other similar items of both
+beauty and utility.  You are tempted to 'liberate' some of the beautiful goods
+here, but since that would disrupt the unique artistic balance of the room,
+you decide not to.
+~
+#EXIT
+Direction  East~
+ToRoom     10336
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10338
+Name       Store Room~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This medium-sized room is used to store non-perishable foods.  Flour,
+rice, wheat, and other grains are neatly stacked and labeled in kanji. A
+set of steps lead down into a cellar where perishable goods are stored.
+~
+#EXIT
+Direction  East~
+ToRoom     10334
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10346
+#ENDEXIT
+Reset M    10332 5 10338 -1 -1 -1 100
+  Reset E  10305 30 16 100
+Reset O    10370 10 10338 -1 -1 -1 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+Reset O    10370 10 10338 -1 -1 -1 100
+  Reset P  0 10371 10 10370 100
+  Reset P  0 10371 10 10370 100
+  Reset P  0 10371 10 10370 100
+  Reset P  0 10371 10 10370 100
+  Reset P  0 10371 10 10370 100
+Reset O    10370 10 10338 -1 -1 -1 100
+  Reset P  0 10372 10 10370 100
+  Reset P  0 10372 10 10370 100
+  Reset P  0 10372 10 10370 100
+  Reset P  0 10372 10 10370 100
+  Reset P  0 10372 10 10370 100
+Reset O    10370 10 10338 -1 -1 -1 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+  Reset P  0 10369 10 10370 100
+#ENDROOM
+
+#ROOM
+Vnum        10339
+Name       Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Many important people come to the Shogun's palace, including important
+samurai, visiting daimyo, and foreign dignitaries.  Many are given these
+rooms to stay in.  The sliding door open up onto a dias which overlooks 
+the picturesque western courtyard.  The rooms themselves are incredibly
+decorated, with paintings, fine tatami, and other ornaments.   One can
+expect the best hospitality from the Shogun, if one comes invited!
+~
+#EXIT
+Direction  South~
+ToRoom     10333
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10338 1 10339 -1 -1 -1 100
+  Reset E  10382 1 8 100
+Reset D    10339 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10340
+Name       Guest Room Overlooking the Western Garden~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          May important people come to she Shogun's palace, including visiting daimyo,
+important samurai, and foreign dignitaries.  Many of them are given these rooms
+to stay in.  The sliding paper door leads out onto a dias which overlooks the
+beautiful western garden.  One may expect a wonderful stay, if the Shogun has
+invited him to come and visit!  The room itself is well furnished with wall
+paintings and other decorations.
+~
+#EXIT
+Direction  South~
+ToRoom     10333
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10337 1 10340 -1 -1 -1 100
+  Reset E  10340 3 17 100
+Reset D    10340 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10341
+Name       Large Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The most important guests of the Shogun may expect royal treatment.  This
+huge room could quarter a few dozen soldiers.  It is beautifully decorated
+with wall paintings, rosewood furniture, and fine porcelein.  A sliding paper
+door to the east leads out onto a dias which overlooks the western courtyard,
+while a similar door to the west divides to room for more privacy.
+~
+#EXIT
+Direction  East~
+ToRoom     10333
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10342
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10336 1 10341 -1 -1 -1 100
+  Reset E  10321 1 16 100
+Reset D    10341 1 1 100 -2
+Reset D    10341 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10342
+Name       Large Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This decorations of this part of the guest room are similar to that of the
+other.  There are several tatami and rectangular pillows here, all folded in
+a corner.
+~
+#EXIT
+Direction  East~
+ToRoom     10341
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10342 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10343
+Name       Guest Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Important guests of the Shogun are given these well decorated and furnished
+rooms overlooking the picturesque western courtyard.  A sliding door to the
+east opens up onto a veranda on the courtyard.
+~
+#EXIT
+Direction  East~
+ToRoom     10333
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10353 4 10343 -1 -1 -1 100
+Reset D    10343 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10344
+Name       Guest Chamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Important guests of the Shogun are given these well decorated and furnished
+rooms overlooking the picturesque western courtyard.  A sliding door to the
+west opens up onto a verando on the western courtyard.
+~
+#EXIT
+Direction  West~
+ToRoom     10333
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10353 4 10344 -1 -1 -1 100
+Reset D    10344 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10345
+Name       A Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The garden path continues here, leading north into the western courtyard.
+~
+#EXIT
+Direction  North~
+ToRoom     10333
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10321
+#ENDEXIT
+Reset M    10312 12 10345 -1 -1 -1 100
+  Reset G  10360 10 100
+Reset M    10327 6 10345 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10346
+Name       Cellar~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          The cellar is used to store wines and other items which need to be held
+below room temperature.  It is pretty chilly here, for reasons unknown.
+~
+#EXIT
+Direction  North~
+ToRoom     10756
+Keywords   secret~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10338
+#ENDEXIT
+Reset M    10326 1 10346 -1 -1 -1 100
+  Reset E  10318 3 16 2
+  Reset E  10313 5 16 100
+Reset D    10346 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10347
+Name       Small Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small and non-descript courtyard lies in the shadows of the palace
+which surrounds it.  It serves as a guardpoint, so that only people with 
+authorized access to the antechamber may pass.  You would hate to be the one
+left guarding this lonely and boring spot.
+~
+#EXIT
+Direction  East~
+ToRoom     10335
+Key        10361
+Keywords   oak door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10336
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10348
+#ENDEXIT
+Reset M    10300 5 10347 -1 -1 -1 100
+  Reset E  10301 4 16 100
+  Reset G  10361 1 100
+Reset D    10347 1 2 100 -2
+Reset D    10347 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10348
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small and somewhat secret garden path leads out of the main palace
+grounds to the western-most island of the palace grounds.
+~
+#EXIT
+Direction  East~
+ToRoom     10347
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10349
+#ENDEXIT
+Reset M    10312 12 10348 -1 -1 -1 100
+  Reset E  10352 10 9 100
+Reset M    10322 6 10348 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10349
+Name       Small Garden~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This little garden is much smaller than the courtyards, but certainly no
+less beautiful.  There is a fountain here, which drains out into a stream,
+which, in turn, feeds into the moat.  A minature pagoda overlooks the garden,
+which you may enter by going up.
+~
+#EXIT
+Direction  East~
+ToRoom     10348
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10356
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10350
+#ENDEXIT
+Reset M    10312 12 10349 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10350
+Name       Small Pagoda~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This little pagoda overlooks the small but beautiful garden on the main
+palace grounds.  It is made of wood, painted white, and has a pale blue roof
+which is characteristic of Japanese architecture.  Benches line the edges of
+this little room.
+~
+#EXIT
+Direction  Down~
+ToRoom     10349
+#ENDEXIT
+Reset M    10324 1 10350 -1 -1 -1 100
+  Reset E  10316 1 2 70
+Reset M    10321 4 10350 -1 -1 -1 100
+#EXDESC
+ExDescKey  scratches~
+ExDesc        Kang Zhaung ai Chen Qingyun.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  benches~
+ExDesc        The benches are made of a fine wood, which has been painted white.  One has
+a few markings carved into it, the mark of some vandal.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  markings~
+ExDesc        Kang Zhuang ai Chen Qingyun
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10351
+Name       Small Path through the Bamboo Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small dirt path winds through the bamboo woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10357
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10351
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10306
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10352
+Name       At the Edge of the Bamboo Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing at the edge of think bamboo woods.  A path to the south 
+leads into the woods, while a small garden lies to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     10353
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10351
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10353
+Name       Small Garden~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          A small stream passes through this garden and flows into the moat.  A 
+garden path leads off to the east, while another path to the west leads to
+guest quarters which are separated from the main palace.
+~
+#EXIT
+Direction  East~
+ToRoom     10354
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10352
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10360
+#ENDEXIT
+Reset M    10312 12 10353 -1 -1 -1 100
+Reset M    10312 12 10353 -1 -1 -1 100
+  Reset G  10350 10 100
+#ENDROOM
+
+#ROOM
+Vnum        10354
+Name       Small Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This little path leads from the western island of the palace grounds to
+the main island.  There is a small footbridge to the east, while a small
+garden lies to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10355
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10353
+#ENDEXIT
+Reset M    10341 4 10354 -1 -1 -1 100
+Reset M    10322 6 10354 -1 -1 -1 100
+  Reset E  10341 10 13 100
+#ENDROOM
+
+#ROOM
+Vnum        10355
+Name       Wooden Footbridge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This old and not-so-sturdy looking footbridge crosses over a narrow point
+of the moat between the western and main islands.  A garden path lies to the
+west, and continues eastward on the other side.
+~
+#EXIT
+Direction  East~
+ToRoom     10356
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10354
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10356
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The garden path continues here.  An old footbridge lies to the west, while
+the path continues east.
+~
+#EXIT
+Direction  East~
+ToRoom     10349
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10355
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10357
+Name       Small Path Through the Bamboo Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small path winds through the bamboo woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10359
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10357
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10358
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10359
+#ENDEXIT
+Reset M    10322 6 10357 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10358
+Name       Small Path through the Bamboo Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small path winds through the bamboo woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10352
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10357
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10358
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10359
+Name       Small Path through the Bamboo Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small path winds through the bamboo woods.
+~
+#EXIT
+Direction  East~
+ToRoom     10358
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10359
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10360
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This willow-lined garden path comes to an end to the west, where an iron
+gate blocks the entry into the private residence of one of the Shogun's many
+hatamoto.
+~
+#EXIT
+Direction  East~
+ToRoom     10353
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10361
+Key        10360
+Keywords   iron~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10327 6 10360 -1 -1 -1 100
+Reset M    10348 7 10360 -1 -1 -1 100
+  Reset G  10360 1 100
+Reset M    10321 4 10360 -1 -1 -1 100
+Reset D    10360 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10361
+Name       Small Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is the summer home of one of the Shogun's hatamoto.  The courtyard
+has sliding doors to the north, south, and west, all leading to various
+rooms, while a gate to the east leads out onto a garden path.
+~
+#EXIT
+Direction  North~
+ToRoom     10366
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10360
+Key        10360
+Keywords   iron gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10367
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10362
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     10368
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     10364
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10348 7 10361 -1 -1 -1 100
+  Reset E  10339 4 12 100
+Reset M    10348 7 10361 -1 -1 -1 100
+  Reset E  10301 3 16 100
+Reset M    10332 5 10361 -1 -1 -1 100
+Reset M    10352 5 10361 -1 -1 -1 100
+Reset D    10361 1 2 100 -2
+Reset D    10361 0 1 100 -2
+Reset D    10361 2 1 100 -2
+Reset D    10361 3 1 100 -2
+Reset D    10361 7 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10362
+Name       Waiting Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Those who seek audience with the hatamoto must wait here, until someone
+bids them to enter.  At least, that is what the lord wants them to do. This
+room is decorated with ink paintings on silk.  Several mats are laid out for
+people to kneel on.
+~
+#EXIT
+Direction  East~
+ToRoom     10361
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10363
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10348 7 10362 -1 -1 -1 100
+Reset M    10348 7 10362 -1 -1 -1 100
+  Reset E  10339 4 12 100
+Reset D    10362 1 1 100 -2
+Reset D    10362 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10363
+Name       Councelor's Receiving Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room has a small dias on the west wall, where the hatamoto sits.
+There are several mats laid out so visitors may honor him.  There are alos two
+sets of columns running the length of the room on the north and south ends of
+the room.
+~
+#EXIT
+Direction  North~
+ToRoom     10365
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10362
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10328 1 10363 -1 -1 -1 100
+  Reset E  10314 1 6 70
+Reset D    10363 0 1 100 -2
+Reset D    10363 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10364
+Name       Antechambre~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small room has guards posted in it.  It is undecorated, save for a
+few trophies from battles.  The hatamoto's room is to the west, on the other
+side of a sliding door.
+~
+#EXIT
+Direction  South~
+ToRoom     10361
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10365
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10364 2 1 100 -2
+Reset D    10364 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10365
+Name       Hatamoto's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room is the hatamoto's personal sleeping chambers.  There is a
+sword stand near the north wall, and several ink-on-silk paintings.  Several
+tatami and pillows are neatly stacked away along the west wall.  A sliding
+door to the east leads into an antechambre, while a similar door to the south
+leads onto the receiving room.
+~
+#EXIT
+Direction  East~
+ToRoom     10364
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10363
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10345 1 10365 -1 -1 -1 100
+  Reset E  10344 1 17 100
+Reset M    10348 7 10365 -1 -1 -1 100
+Reset M    10348 7 10365 -1 -1 -1 100
+  Reset E  10339 4 12 100
+Reset M    10330 6 10365 -1 -1 -1 100
+Reset M    10353 4 10365 -1 -1 -1 100
+Reset D    10365 1 1 100 -2
+Reset D    10365 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10366
+Name       Guest's Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         While the guests of the hatamoto are not treated as well as those of the
+Shogun, they do not, by any means, live in discomfort!  This room is well
+decorated with woodblack prints on sild, as well as a few pieces of fine
+porcelein.  A sliding door to the south opens out onto the courtyard.
+~
+#EXIT
+Direction  South~
+ToRoom     10361
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10366 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10367
+Name       Servant's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The servants of the hatamoto are quartered in this medium-sized room.  It
+is sparsely decorated, and houses between six and eight people, depending upon
+who has been executed and how quickly they have been replaced.  Some tatami and
+pillows are neatly stacked away along the south wall.
+~
+#EXIT
+Direction  North~
+ToRoom     10361
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10330 6 10367 -1 -1 -1 100
+Reset M    10315 5 10367 -1 -1 -1 100
+Reset D    10367 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10368
+Name       Guest's Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This spacious room serves as quarters for th hatamoto's favored visitors.
+It is furnished with fine porcelein pieces and ink-on-silk nature paintings.
+~
+#EXIT
+Direction  North~
+ToRoom     10361
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10368 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10369
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the servant's wing of the palace.  To the north, west, and south,
+there are large rooms for housing palace staff.
+~
+#EXIT
+Direction  North~
+ToRoom     10370
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10320
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10371
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10372
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10369 0 1 100 -2
+Reset D    10369 1 1 100 -2
+Reset D    10369 2 1 100 -2
+Reset D    10369 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10370
+Name       Servants Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This plain, medium-sized room houses most of the kitchen staff of the palace.
+It is sparsely decorated, though certainly not uncomfortable.  Several tatami
+and pillows are stashed away in a corner.  Large silk screens with rosewood
+frames are used as dividers for more privacy.
+~
+#EXIT
+Direction  South~
+ToRoom     10369
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10315 5 10370 -1 -1 -1 100
+Reset D    10370 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10371
+Name       Servants' Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This medium-sized room is used to house the female servants of the palace.
+It is sparsely decorated, but comfortable enough.  There are several tatami
+and pillows spread out, and silk screens with rosewood frames are used to
+improve privacy.  There is a sliding door to the north which leads out into
+the hallway.
+~
+#EXIT
+Direction  North~
+ToRoom     10369
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10332 5 10371 -1 -1 -1 100
+Reset M    10330 6 10371 -1 -1 -1 100
+Reset D    10371 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10372
+Name       Servants' Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The male servants of the palace are housed in this medium-sized room. Though
+sparsely decorated, the room is far from uncomfortable, and spacious enough for
+the number of people living here.  There are several tatami and pillows spread
+out on the floor, though it is obvious that the men here fight for as much space
+as possible when they have to go to sleep.  There is a sliding paper door to
+the east which opens out into the hallway.
+~
+#EXIT
+Direction  East~
+ToRoom     10369
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10341 4 10372 -1 -1 -1 100
+Reset M    10327 6 10372 -1 -1 -1 100
+Reset M    10312 12 10372 -1 -1 -1 100
+Reset M    10352 5 10372 -1 -1 -1 100
+Reset M    10352 5 10372 -1 -1 -1 100
+Reset D    10372 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10373
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The hallway continues here, with sliding doors on the east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10374
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10379
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10324
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10380
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10373 1 1 100 -2
+Reset D    10373 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10374
+Name       Northern End of the Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Here, the hallway ends at an oak door.  Sliding paper doors are to the east
+and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10377
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10323
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10373
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10378
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10374 0 1 100 -2
+Reset D    10374 1 1 100 -2
+Reset D    10374 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10375
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Here, the garden path leads out toward the eastern wing of the palace.
+~
+#EXIT
+Direction  East~
+ToRoom     10376
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10319
+#ENDEXIT
+Reset M    10341 4 10375 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10376
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         To the east, the garden path opens into the eastern courtyard.
+~
+#EXIT
+Direction  East~
+ToRoom     10377
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10375
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10377
+Name       Eastern Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The eastern courtyard resembles the other two courtyards in most repects.
+It has willow and peach trees, rocks, flowers, and other simple and natural
+things which the Japanese appreciate.  A veranda overlooks the picturesque
+courtyard.  A sliding paper door to the west open up into the grand council
+room, while three similar door to the north lead into guest chambers.  The
+garden trail continues through the courtyard at its southern edge.  One of
+the palace barracks lies to the south as well.
+~
+#EXIT
+Direction  North~
+ToRoom     10382
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10385
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10374
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10329
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     10381
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     10387
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     10376
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     10384
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10311 1 10377 -1 -1 -1 100
+  Reset E  10309 1 5 100
+  Reset G  10380 1 100
+Reset M    10313 1 10377 -1 -1 -1 100
+  Reset E  10351 1 16 100
+Reset M    10352 5 10377 -1 -1 -1 100
+Reset D    10377 0 1 100 -2
+Reset D    10377 1 1 100 -2
+Reset D    10377 2 1 100 -2
+Reset D    10377 3 0 100 -2
+Reset D    10377 6 1 100 -2
+Reset D    10377 7 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10378
+Name       Lieutennants' Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room houses three samurai, all trusted veterans of the unification
+wars.  There are three tatami, all equally spread along the floor. The room
+has little decoration, save for the various war trophies on the walls.
+~
+#EXIT
+Direction  East~
+ToRoom     10374
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10320 2 10378 -1 -1 -1 100
+  Reset E  10338 10 12 100
+  Reset E  10301 3 16 100
+Reset D    10378 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10379
+Name       Captain of the Guard's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Besides the steward, the only other samurai meriting a room to himself is
+the feared captain of the guard.  Various trophies such as broken weapons,
+armor, and the like hang on the walls, showing that he has seen much combat
+in his lifetime.  There is a single tatami here.  Not being a man with refined
+taste in art, the only painting is that of a famous battle  By the tatami lies
+a large, iron bound chest.
+~
+#EXIT
+Direction  West~
+ToRoom     10373
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset O    10373 1 10379 -1 -1 -1 100
+  Reset P  0 10383 1 10373 100
+Reset D    10379 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10380
+Name       Seargants' Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room is shared by 12 men, all who have distinguished themselves
+in someway.  Several screens partition the room, and each section has a flavor
+of its own.  One is apparently obsessed with a Shinto priestess from the way
+he decorates his room, while another seems to enjoy writing poetry.
+~
+#EXIT
+Direction  East~
+ToRoom     10373
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10323 3 10380 -1 -1 -1 100
+Reset M    10323 3 10380 -1 -1 -1 100
+Reset D    10380 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10381
+Name       Guest Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As one can tell from the furnishings here, the guests of the Shogun may
+expect royal treatmen.  This large guest's room is well decorated with wall
+paintings of nature scenes, fine porcelein, and rosewood furniture. A sliding
+paper door to the south leads to the veranda overlooking the eastern courtyard.
+~
+#EXIT
+Direction  South~
+ToRoom     10377
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10353 4 10381 -1 -1 -1 100
+Reset D    10381 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10382
+Name       Guest Quarter's Antechambre~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This suite is reserved for the most important guests of the Shogun.  This
+room, the antechambre to the sleeping room, has floor mats for people to sit
+on, as well as beautiful paintings on silk.  A sliding paper door to the north
+leads into the sleeping quarters, while a similar door to the south leads out
+onto the veranda overlooking the eastern courtyard.
+~
+#EXIT
+Direction  North~
+ToRoom     10383
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10377
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10300 5 10382 -1 -1 -1 100
+  Reset E  10338 10 12 100
+Reset M    10300 5 10382 -1 -1 -1 100
+  Reset E  10341 10 13 100
+Reset D    10382 0 1 100 -2
+Reset D    10382 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10383
+Name       Sleeping Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This spacious room is large enough to quarter a small military unit, yet it
+is reserved for the Shogun's most important visitors and that VIP's consort
+and concubines.  It is lavishly decorated with rosewood furniture, ink-on-silk
+paintings, and fine porcelein.  There is a sliding paper door to the south 
+which leads into the antechambre.
+~
+#EXIT
+Direction  South~
+ToRoom     10382
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10344 1 10383 -1 -1 -1 100
+  Reset E  10354 2 6 30
+Reset D    10383 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10384
+Name       Guest Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The guests of the Shogun are treated quite well, as can be seen by the
+quality of this minor guest room.  It is well decorated and quite spacious.
+A sliding door lies to the south, which leads into the eastern courtyard.
+~
+#EXIT
+Direction  South~
+ToRoom     10377
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10329 1 10384 -1 -1 -1 100
+  Reset E  10357 10 5 100
+Reset D    10384 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10385
+Name       Antechambre~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large and spectacularly decorated suite is reserved for the Shogun's
+most favored guests.  There are ink paintings on silk, rosewood furnishings,
+and fine porcelein pieces.  A sliding door to the west leads out onto the
+courtyard, while a similar door to the north leads into the sleeping chamber.
+~
+#EXIT
+Direction  North~
+ToRoom     10386
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10377
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10347 3 10385 -1 -1 -1 100
+  Reset E  10356 10 12 100
+Reset M    10347 3 10385 -1 -1 -1 100
+Reset D    10385 0 1 100 -2
+Reset D    10385 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10386
+Name       Sleeping Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This finely decorated sleeping chamber is quite large and very comfortable.
+The Shogun reserves this suite for his most favored guests.  There are tatami
+mats lying on the floor, suggesting that the person who occupies this room at
+the moment isn't very neat.
+~
+#EXIT
+Direction  South~
+ToRoom     10385
+Keywords   sliding door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10346 1 10386 -1 -1 -1 100
+  Reset E  10324 1 5 100
+Reset M    10347 3 10386 -1 -1 -1 100
+Reset D    10386 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10387
+Name       Bath House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand in a twelve by twelve foot square room, with sweet smelling oaken
+walls which hold in the heat.  In the far southeastern corner, you see a round
+wooden bathtub, whose steaming hot water seems refreshing and inviting.  There
+is a bench next to the bath, where you might leave your clothes.  The rooms is
+dimly lit by a glowing crystal mounted on the oak door to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     10377
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10327 6 10387 -1 -1 -1 100
+Reset D    10387 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10388
+Name       The Shogun's Personal Smithy~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As you enter into the sweltering heat of the smith, you notice a very large
+Japanse man:  the Shogun's personal weaponsmith.  He is standing at an anvil,
+pounding away at a piece of metal which will one day be a katana.  He does not
+seem very happy that you have disturbed his work, though he will probably talk
+to you, if you provide a few yen.
+~
+#EXIT
+Direction  North~
+ToRoom     10312
+#ENDEXIT
+Reset M    10319 1 10388 -1 -1 -1 100
+  Reset G  10300 10 100
+  Reset G  10306 10 80
+  Reset G  10305 20 100
+  Reset G  10302 3 100
+  Reset G  10325 10 20
+  Reset G  10326 10 20
+  Reset G  10310 5 20
+#ENDROOM
+
+#ROOM
+Vnum        10389
+Name       Path to the Stables~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This dirt path, made with the passage of hooves, feet, and time, leads to
+the Shogun's stables.
+~
+#EXIT
+Direction  North~
+ToRoom     10313
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10390
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10390
+Name       Path to Stables~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The dirt path ends here, at a gate into a courtyard.  Since horses are more
+valuable than most humans, this are is well guarded.
+~
+#EXIT
+Direction  North~
+ToRoom     10389
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10396
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10391
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset D    10390 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10391
+Name       Small Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          After passing through the gate, you step out onto a small courtyard with
+stables surrounding it.  The courtyard is unpaved, and the tracks in the dirt
+suggest that horses frequently pass through.
+~
+#EXIT
+Direction  North~
+ToRoom     10390
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10393
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10394
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10392
+#ENDEXIT
+Reset M    10301 14 10391 -1 -1 -1 100
+Reset D    10391 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10392
+Name       Stables~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As you enter the stable from the courtyard, you are bombarded by the scsmell
+of horses.  This stable is used to house the horses of courriers and lesser
+samurai, and therefore, is not as well kept.  There are no individual stalls
+for each horse, and the floor is littered with hay, mud, and worse.  The horses
+nervously mill about, apparently disturbed by your presence.
+~
+#EXIT
+Direction  East~
+ToRoom     10391
+#ENDEXIT
+Reset M    10334 1 10392 -1 -1 -1 100
+Reset M    10354 15 10392 -1 -1 -1 100
+Reset M    10354 15 10392 -1 -1 -1 100
+Reset M    10354 15 10392 -1 -1 -1 100
+Reset M    10354 15 10392 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10393
+Name       Stables~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The horses of samurai and lesser officials are kept in this large stable.
+While it does not have individual stalls for each horse, it is well kept; a
+stable-boy's life depends on it!  The horses shift uneasily about, apparently
+disturbed at your presence.
+~
+#EXIT
+Direction  West~
+ToRoom     10391
+#ENDEXIT
+Reset M    10335 3 10393 -1 -1 -1 100
+Reset M    10354 15 10393 -1 -1 -1 100
+Reset M    10354 15 10393 -1 -1 -1 100
+Reset M    10354 15 10393 -1 -1 -1 100
+Reset M    10355 7 10393 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10394
+Name       Large Stable~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The horses of the most important samurai and officials are stabled here.
+The horses which you see in each individual stall are all fine beasts, bred
+and trained so that they can take the beating sustained in a cavalry battle.
+The horses don't seem pleased that you have come, and it is not advisable to
+aggravate such powerful animals.
+~
+#EXIT
+Direction  North~
+ToRoom     10391
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10395
+#ENDEXIT
+Reset M    10300 5 10394 -1 -1 -1 100
+Reset M    10335 3 10394 -1 -1 -1 100
+  Reset E  10362 1 2 100
+Reset M    10355 7 10394 -1 -1 -1 100
+Reset M    10355 7 10394 -1 -1 -1 100
+Reset M    10355 7 10394 -1 -1 -1 100
+Reset M    10355 7 10394 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10395
+Name       Stable of the Shogun's Horse~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This huge stable is larger than the homes of most peasant families, yet the
+only one who lives here is the Shogun's own personal mount.  The stable is kept
+meticulously clean, and a groom is stays here almost half the day!  Only the 
+best for the most important horse in the country!
+~
+#EXIT
+Direction  North~
+ToRoom     10394
+#ENDEXIT
+Reset M    10340 1 10395 -1 -1 -1 100
+  Reset E  10342 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum        10396
+Name       Pasture~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This large field off the stable path looks like the perfect place to take a
+nice long roll in the grass!  Well, it does if you are a horse.  The horses are
+allowed to graze here daily, so as to give them an opportunity to stretch and
+exercise.
+~
+#EXIT
+Direction  West~
+ToRoom     10390
+#ENDEXIT
+Reset M    10354 15 10396 -1 -1 -1 100
+Reset M    10354 15 10396 -1 -1 -1 100
+Reset M    10355 7 10396 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10397
+Name       On the Palace Wall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This room is the main access to the tall walls of pure white stone which
+defend the palace.  From these walls, the Shogun's soldiers may rain arrows
+and other unpleasant objects down upon hapless invaders, with little fear of a
+return voley.  Steps lead down into the gate house, and up to the watch tower.
+~
+#EXIT
+Direction  Up~
+ToRoom     10398
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10318
+#ENDEXIT
+Reset M    10301 14 10397 -1 -1 -1 100
+Reset M    10350 5 10397 -1 -1 -1 100
+  Reset E  10381 10 4 100
+Reset M    10301 14 10397 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10398
+Name       At the Top of the Watch Tower~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The top of the tower is about 40 feet above the ground.  From here, one can
+view the main road on the palace grounds, and most of the south side of Showa.
+There is a large horn here, used to warn castle inhabitants of invaders.
+~
+#EXIT
+Direction  Down~
+ToRoom     10397
+#ENDEXIT
+Reset M    10301 14 10398 -1 -1 -1 100
+Reset M    10300 5 10398 -1 -1 -1 100
+  Reset E  10346 1 17 100
+#EXDESC
+ExDescKey  horn~
+ExDesc     It is quiet large, pointing toward the palace.  Examining it closely though, 
+you see that the reed is missing; thus, it probably won't work!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10399
+Name       Consort's Dressing room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Due to the earthquake which caused the destruction of the steps, the Shogun
+has set this large closet aside as his Consort's dressing room.  There is a
+beatiful rosewood table against the north wall, and a mirror on the south wall.
+~
+#EXIT
+Direction  West~
+ToRoom     10328
+Key        10380
+Keywords   oak door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10351 1 10399 -1 -1 -1 100
+  Reset E  10375 1 17 100
+  Reset P  0 10319 1 10375 100
+Reset O    10378 1 10399 -1 -1 -1 100
+  Reset P  0 10379 1 10378 100
+  Reset P  0 10374 1 10378 100
+Reset D    10399 3 2 100 -2
+#EXDESC
+ExDescKey  mirror~
+ExDesc        You see someone ugly peering back at you.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  table~
+ExDesc        This dressing table is made from rosewood imported from Cathay.  It is quite
+beautiful.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ENDAREA

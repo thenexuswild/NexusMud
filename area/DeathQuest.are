@@ -1,0 +1,3495 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Death Quest~
+Author          Unknown~
+Vnums           8000 8093
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       30
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        8000
+Keywords   m080 undead friend~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Undead Friend~
+Long       Your Undead Friend is standing here.
+~
+Desc       What once was your friend is now possessed by an evil spirit. Fortunately he 
+has the key that you need to continue.  Now you have the chance to do to 
+him what you've always had the urge to do, kill him.
+~
+Nattacks   2.000000
+Stats1     -500 15 60 100 150 250
+Stats2     15 6 1 150 2 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8001
+Keywords   m080 undead spirit~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Undead Spirit~
+Long       A creature attempts to possess you.
+~
+Desc       You see an undead spirit tracking you down so it can possess you, to take 
+over the world.  He is relentless in his pursuits, be cautious of his 
+actions. 
+~
+Nattacks   3.000000
+Stats1     -750 15 60 100 150 250
+Stats2     27 -2 -4 100 4 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   sanctuary sneak hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8002
+Keywords   m080 undead girlfriend gf~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Undead Girlfriend~
+Long       Your girlfriend stands here, now part of the undead.
+~
+Desc       This girl once loved you, but now she wants to eat out your heart. 
+Be careful, she's like a tiger with PMS. 
+~
+Nattacks   3.000000
+Stats1     -700 15 60 100 150 250
+Stats2     30 -4 -5 500 4 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8003
+Keywords   m080 undead grandma ester~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Undead Grandma Ester~
+Long       Undead Grandma Ester wants to eat you.
+~
+Desc       You see a mean old lady trying to rip your heart out.  Obviously this is 
+not the sweet grandmother you once knew.  Something has taken over her. 
+~
+Nattacks   4.000000
+Stats1     -800 15 60 100 150 250
+Stats2     31 -5 -6 100 6 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8004
+Keywords   m080 undead hand~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Lash's Hand~
+Long       You see a hand here, and its trying to kill you!
+~
+Desc       You see someone's severed hand moving around and throwing stuff around 
+the room.  You hope the rest of this person isn't as mean as the hand. 
+The hand senses your presence and attacks. 
+~
+Nattacks   3.000000
+Stats1     -750 15 60 100 150 250
+Stats2     25 -1 -3 525 4 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8005
+Keywords   m080 undead sheep~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Undead Sheep~
+Long       An insane sheep is here mauling grass.
+~
+Desc       You see a once happy sheep that is now pissed at someone.  Maybe it's one 
+of the creators that made him undead.  Who knows, but this sheep is really 
+pissed. 
+~
+Nattacks   2.000000
+Stats1     -500 15 60 100 150 250
+Stats2     20 1 0 100 6 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8006
+Keywords   m080 undead general~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Undead General~
+Long       The Undead General is here, commanding his troops.
+~
+Desc       The undead general stands about 6'2", and is wearing a full set of combat 
+plate armor.  He appears to be from the Roman era, and his age is apparent by 
+the condition of his skin (or lack thereof.)  As you enter the room, he 
+stares straight into your eyes, and shouts 'GET HIM!!!!'
+~
+Nattacks   4.000000
+Stats1     -800 15 60 100 150 250
+Stats2     32 -3 -5 400 8 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis sanctuary paralysis iceshield sneak hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8007
+Keywords   m080 undead skeleton~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Undead Skeleton~
+Long       An Undead Skeleton is here, attacking the castle.
+~
+Desc       They're skeletons, what do you THINK they look like?
+The sheer hate for your mortal flesh radiates from its glowing red eyes.
+I don't think it likes you much.
+~
+Nattacks   3.000000
+Stats1     -500 15 60 100 150 250
+Stats2     28 -4 -2 300 4 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8008
+Keywords   m080 undead ghoul~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Undead Flying Ghoul~
+Long       An undead ghoul swoops down and picks up one of the King's men!
+~
+Desc       This creature looks like a deformed bat. It stands approximately 8 feet 
+tall, with a wingspan of about 30 feet. Its eyes radiate an unnatural 
+yellow glow. It looks hungry.
+~
+Nattacks   3.000000
+Stats1     -500 15 60 100 150 250
+Stats2     26 0 -8 200 2 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   invisible detect_invis detect_hidden flying iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8009
+Keywords   m080 pit monster~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Pit Monster~
+Long       The Pit Monster is ready to swallow your soul.
+~
+Desc       This deformed creature is just bulging with muscles and teeth. It has many claws
+to rip apart its prey. The eyes look like pure fire and he has an aura of
+hatred radiating from his body.  He is really pissed.
+~
+Nattacks   4.000000
+Stats1     -1000 15 60 100 150 250
+Stats2     35 -9 -9 0 5 0 80
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   invisible detect_invis detect_hidden flying iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8010
+Keywords   m080 miniature lash~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Miniature Lash~
+Long       A small replica of the original Lash is standing here.
+~
+Desc       This little man looks exactly like Lash, with the exception that he is 5 
+inches tall. Even at his small height he can still put up a good fight, 
+in fact he has grabbed a fork and is ready to go. 
+~
+Nattacks   2.000000
+Stats1     -500 15 60 100 150 250
+Stats2     20 1 0 1 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   iceshield sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8011
+Keywords   m080 bad lash~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Bad Lash~
+Long       Bad Lash is ready to kill you.
+~
+Desc       You see a creature that almost looks human, except the half of his face
+that has been blown away. He looks really angry and ready to kick someone's 
+ass, and big time.
+~
+Nattacks   4.000000
+Stats1     -1000 15 60 100 150 250
+Stats2     34 -8 -8 1 8 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis sanctuary fireshield iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8012
+Keywords   m080 undead wench~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Undead Wench~
+Long       The Undead Wench is standing here.
+~
+Desc       This woman is no longer the beautiful creature you once knew. She has been 
+corrupted by the evil Lash to serve the forces of the dead, and her first 
+business is killing you.  You are amazed at how ugly she has become. 
+~
+Nattacks   4.000000
+Stats1     -750 15 60 100 150 250
+Stats2     32 -6 -6 0 8 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8013
+Keywords   m080 book necronomicon~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Necronomicon~
+Long       You see a book bound in human skin.
+~
+Desc       This creature looks just like the book you are questing to obtain, just a little
+bigger. This is one of three creatures that all look the same. Which one to
+kill, that is the question.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     34 -8 -8 0 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8014
+Keywords   m080 book necronomicon~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Necronomicon~
+Long       You see a book bound in human skin.
+~
+Desc       This creature looks just like the book you are questing to obtain, just a little
+bigger. This is one of three creatures that all look the same. Which one to
+kill, that is the question.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     34 -8 -8 0 8 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8015
+Keywords   m080 king arthur~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      King Arthur~
+Long       King Arthur is standing here.
+~
+Desc       You see a noble king, who has been through a lot of fighting.  The lines 
+around his eyes show his wisdom, and he looks ready to defend his cause no 
+matter the odds.
+~
+Nattacks   4.000000
+Stats1     1000 15 60 100 150 250
+Stats2     35 -9 -9 0 8 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8016
+Keywords   m080 wizard~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Wizard~
+Long       The Castle Wizard is ready to defend the castle.
+~
+Desc       You see a wise old wizard who seems to know many things.  He is ready to 
+defend this castle with his life.  He is not one to be underestimated, his 
+magic is very strong. He utters the words, 'KlatuVerataNikto' but you 
+have no idea what that means. 
+~
+Nattacks   4.000000
+Stats1     400 15 60 100 150 250
+Stats2     35 -9 -9 0 8 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   invisible detect_invis sanctuary iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8017
+Keywords   m080 lash~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Lash~
+Long       Lash is waiting to kill anything that enters the room.
+~
+Desc       Here is a average man who has been through a lot. With scars on his face and
+darkness in his eyes you can tell this is a mighty warrior.  He has been 
+chosen as the last defense for a reason. He is poised and ready to stike. 
+With a metal hand and a chainsaw in the other he is ready to do battle 
+with the toughest of opponents. 
+~
+Nattacks   4.000000
+Stats1     349 15 60 100 150 250
+Stats2     36 -10 -10 0 9 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   invisible detect_invis sanctuary iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8018
+Keywords   m080 skeleton skeletal hand~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Skeletal hand~
+Long       a skeletal hand reaches out and tries to pull you under the ground!!!
+~
+Desc       An arm made of pale gleaming white bone reaches up from its earthy
+grave, and longs for you to know fully the meaning of pain... 
+~
+Nattacks   2.000000
+Stats1     -800 15 60 100 150 250
+Stats2     20 1 0 1 4 0 45
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis detect_magic hide infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        8000
+Keywords   gatekey k080~
+Type       key~
+Short      Gatekey~
+Long       The gatekey is lying here~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8001
+Keywords   key k080~
+Type       key~
+Short      Cabin Key~
+Long       Cabin Key~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8002
+Keywords   key k080~
+Type       key~
+Short      Cellar Key~
+Long       Cellar Key~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8003
+Keywords   book o080~
+Type       key~
+Short      Necrenomicon~
+Long       Necrenomicon~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8004
+Keywords   pendant o080~
+Type       light~
+Short      Girlfriend's Pendant~
+Long       A nice pendant is lying here.~
+Flags      invis antievil~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      5 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    Intelligence -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8005
+Keywords   key k080~
+Type       key~
+Short      Windmill Key~
+Long       A key lies on the ground here.~
+Flags      glow antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8006
+Keywords   shotgun o080~
+Type       weapon~
+Short      S-Mart Shotgun~
+Long       S-mart Shotgun is lying here.~
+Flags      glow~
+WFlags     take wield hold~
+Values     0 5 5 4 0 0 0 0 0 0 0
+Stats      10 1 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Intelligence -2 -1 -1 0
+AffData affected  'fireshield' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8007
+Keywords   dagger death o080~
+Type       weapon~
+Short      Dagger of Death~
+Long       A deadly dagger lies here.~
+WFlags     take wield hold~
+Values     0 4 5 6 0 0 0 0 0 0 0
+Stats      5 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8008
+Keywords   nail o080~
+Type       treasure~
+Short      Nail~
+Long       A funny looking nail lies on the ground~
+Flags      glow~
+WFlags     take feet~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 1 0 9999 0 None None None
+AffData    move -15 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8009
+Keywords   key k080~
+Type       key~
+Short      Cemetary Key~
+Long       A key is lying on the ground here.~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8010
+Keywords   key k080~
+Type       key~
+Short      Castle Key~
+Long       A large key lies here.~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8011
+Keywords   key k080~
+Type       key~
+Short      King's Key~
+Long       A key is lying here.~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8012
+Keywords   grieves o080~
+Type       armor~
+Short      King's Grieves~
+Long       Some nice leggings are lying here.~
+Flags      glow~
+WFlags     take legs hold~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+AffData    damroll 2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8013
+Keywords   key k080~
+Type       key~
+Short      Wizard's Key~
+Long       A magical key is lying here.~
+Flags      glow invis antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8014
+Keywords   book o080~
+Type       treasure~
+Short      Wizard's Spell Book~
+Long       An old spell book lies here.~
+Flags      glow~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      4 1 0 9999 0 None None None
+AffData    Wisdom 2 -1 -1 0
+AffData    damroll 4 -1 -1 0
+AffData    Constitution -2 -1 -1 0
+AffData affected  'detect_evil' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8015
+Keywords   key k080~
+Type       key~
+Short      Lash's Key~
+Long       A key is lying here.~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8016
+Keywords   gauntlet o080~
+Type       container~
+Short      Steel Gauntlet~
+Long       A steel gauntlet lies here.~
+Flags      glow antigood~
+WFlags     take hands hold~
+Values     300 1 0 10 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    damroll 2 -1 -1 0
+AffData    Dexterity -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8017
+Keywords   chainsaw undead o080~
+Type       weapon~
+Short      Lash's Great Chainsaw~
+Long       A large chainsaw lies here.~
+Flags      glow invis~
+WFlags     take wield hold~
+Values     0 7 6 4 0 0 0 0 0 0 0
+Stats      12 1 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    damroll 4 -1 -1 0
+AffData    Wisdom -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8019
+Keywords   statue ordeith o080~
+Type       container~
+Short      A Statue of Ordeith~
+Long       A Statue Of Ordeith is resurrected here.~
+Flags      glow~
+Values     500 15 8003 10 0 8003 0 0 0 0 0
+Stats      210 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  statue ordeith~
+ExDesc     This 5'11" 210 lb man that you've gotten to know and respect has a 
+statue resurrected of himself here, pointing towards the forest that lies to 
+the east. There is an inscription on the base of this statue that states:
+                Welcome to Death Quest. Many Good and Bad
+                Things can happen in here. Be careful of
+                All creatures, and stay away from the Sheep,
+                I really pissed them off.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8020
+Keywords   corpse o080~
+Type       container~
+Short      Corpse of a ram~
+Long       A corpse of a ram is lying here.~
+Flags      glow~
+Values     500 1 -1 10 0 -1 0 0 0 0 0
+Stats      1000 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  corpse ram~
+ExDesc     Maybe this explains the sheep's attitude.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8021
+Keywords   Key k080~
+Type       key~
+Short      furry key~
+Long       A furry key is lying here.~
+Flags      glow invis antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  key furry~
+ExDesc     This key is furry?
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8022
+Keywords   statue wolfie o080~
+Type       container~
+Short      A Statue of Wolfie.~
+Long       A statue of Wolfie is here, cast out of white marble.  You shiver and pull your collar a bit closer to your neck when you notice his gleaming fangs.  ~
+Flags      glow~
+Values     500 15 8021 10 0 8021 0 0 0 0 0
+Stats      210 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8023
+Keywords   guts o080~
+Type       armor~
+Short      Ram Guts~
+Long       Some bloody guts are sitting here.~
+Flags      glow~
+WFlags     take about hold~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll -1 -1 -1 0
+AffData    mana 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8024
+Keywords   fangs o080~
+Type       armor~
+Short      Fangs~
+Long       Some fangs are lying here.~
+Flags      glow~
+WFlags     take face~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      6 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8025
+Keywords   portal room key k080~
+Type       key~
+Short      Portal Room Key~
+Long       A key is lying here.~
+Flags      antineutral~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8050
+Keywords   bass guitar o080~
+Type       treasure~
+Short      A Bass Guitar~
+Long       A Bass Guitar shakes the room~
+Flags      glow invis~
+WFlags     take shield hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 15 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        8000
+Name       Gateway to Death Quest~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand at the Gateway to Death Quest. Life had been pretty easy for you
+so far, with your beautiful girlfriend and your plush job at S-Mart. Now it
+is time for you to leave this behind and show what you are made of.
+~
+#EXIT
+Direction  East~
+ToRoom     8001
+Key        8000
+Desc       Entrance to Death Quest.
+~
+Keywords   gateway~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6121
+Desc       Your escape back to the forest.
+~
+#ENDEXIT
+Reset M    8000 1 8000 -1 -1 -1 100
+  Reset E  8000 3 17 100
+Reset D    8000 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8001
+Name       Entrance to Death Quest~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You feel at peace knowing you have not yet entered this quest. The east exit
+emanates a feeling of pure Evil and you wonder if it's really worth it. 
+If you don't want to die, recall now, but if you are one of the few 
+courageous enough, go for it. 
+~
+#EXIT
+Direction  East~
+ToRoom     8002
+Desc       Evil comes from this way.
+~
+#ENDEXIT
+Reset O    8019 1 8001 -1 -1 -1 100
+  Reset P  0 8050 5 8019 5
+#ENDROOM
+
+#ROOM
+Vnum        8002
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if 
+it is watching you. You seem to catch movement in the corners of 
+your eyes, giving you an uneasy feeling. 
+~
+#EXIT
+Direction  North~
+ToRoom     8003
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8004
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8005
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8001
+Desc       Entrance To Death Quest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8003
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if
+it is watching you. You seem to catch movement in the corners of
+your eyes, giving you an uneasy feeling. 
+~
+#EXIT
+Direction  East~
+ToRoom     8006
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8002
+Desc       Forest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8004
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if
+it is watching you. You seem to catch movement in the corners of
+your eyes, giving you an uneasy feeling. 
+~
+#EXIT
+Direction  North~
+ToRoom     8006
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8013
+Desc       Forest Outside the Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8007
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8002
+Desc       Forest.
+~
+#ENDEXIT
+Reset M    8001 1 8004 -1 -1 -1 100
+  Reset E  8001 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8005
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if
+it is watching you. You seem to catch movement in the corners of your eyes,
+giving you an uneasy feeling.  To the west there seems to be a clearing. 
+~
+#EXIT
+Direction  North~
+ToRoom     8002
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8007
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8008
+Desc       At the Broken Bridge.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8006
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if
+it is watching you. You seem to catch movement in the corners of
+your eyes, giving you an uneasy feeling. 
+~
+#EXIT
+Direction  East~
+ToRoom     8010
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8004
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8003
+Desc       Forest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8007
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if
+it is watching you. You seem to catch movement in the corners of
+your eyes, giving you an uneasy feeling. 
+~
+#EXIT
+Direction  North~
+ToRoom     8004
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8014
+Desc       Entrance to Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8005
+Desc       Forest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8008
+Name       At the Broken Bridge~
+Sector     mountain~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       It seems you have come to an important decision of your life, to jump off 
+this broken bridge or not. The ultimate question that mankind has pondered  
+for all of eternity, to Be or not to Be. Make your choice wisely.
+~
+#EXIT
+Direction  East~
+ToRoom     8005
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8009
+Desc       Don't be stupid!
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8009
+Name       Falling of a Cliff~
+Sector     indoors~
+Flags      death~
+Stats      0 0 0 0 0
+Desc       You just fell off a cliff. And to think I had such faith in your decisions.
+Well, looks like you lose your equiptment.
+~
+#EXIT
+Direction  East~
+ToRoom     8008
+Desc       You chose unwisely.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8010
+Name       Forest~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You walk through this forest, which for some reason makes you feel as if
+it is watching you. You seem to catch movement in the corners of
+your eyes, giving you an uneasy feeling. 
+~
+#EXIT
+Direction  East~
+ToRoom     8011
+Desc       Forest Outside The Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8013
+Desc       Forest Outside the Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8006
+Desc       Forest.
+~
+#ENDEXIT
+Reset M    8005 6 8010 -1 -1 -1 100
+Reset M    8005 6 8010 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8011
+Name       Forest Outside the Cabin~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       The forest thins out here, revealing a cabin. This cabin doesn't seem much 
+safer than the forest you just came from, but who knows. You still feel 
+that something is watching you, but what? 
+~
+#EXIT
+Direction  East~
+ToRoom     8012
+Desc       Forest Outside the Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8010
+Desc       Forest.
+~
+#ENDEXIT
+Reset M    8005 6 8011 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8012
+Name       Forest Outside the Cabin~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       The forest thins out here, revealing a cabin. This cabin doesn't seem much
+safer than the forest you just came from, but who knows. You still feel
+that something is watching you, but what? 
+~
+#EXIT
+Direction  West~
+ToRoom     8011
+Desc       Forest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8013
+Name       Forest Outside the Cabin~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       The forest thins out here, revealing a cabin. This cabin doesn't seem much
+safer than the forest you just came from, but who knows. You still feel
+that something is watching you, but what? 
+~
+#EXIT
+Direction  North~
+ToRoom     8010
+Desc       Forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8014
+Desc       Entrance to the Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8004
+Desc       Forest.
+~
+#ENDEXIT
+Reset M    8005 6 8013 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8014
+Name       Entrance to the Cabin~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You stand looking at the entrance to this old run down cabin, and feel  
+that you might have made the wrong decision on where to go. You thought 
+the forest felt of evil, but this cabin seems to be the essence of what 
+you fear most. A swinging chair on the porch bangs repeatedly against the  
+side of the house, in spite of the calm weather.  Enter At Your Own Risk!
+~
+#EXIT
+Direction  North~
+ToRoom     8013
+Desc       Forest Outside the Cabin.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8015
+Key        8001
+Desc       Door into Cabin.
+~
+Keywords   cabin~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8007
+Desc       Forest.
+~
+#ENDEXIT
+Reset D    8014 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8015
+Name       Main Room in the Cabin~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       As you enter the cabin, the banging from the porch halts abruptly.  You
+stand in the main room of this rickety old cabin, and wonder if it will
+collapse on your head. The Evil swarms around you with tremendous force,
+making you wish you had stayed home. Noises come from the cellar that 
+make your skin crawl. Be Careful! 
+~
+#EXIT
+Direction  North~
+ToRoom     8018
+Desc       Bedroom.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8016
+Desc       Study.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8021
+Key        8003
+Desc       Portal.
+~
+Keywords   portal~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8014
+Key        8001
+Desc       Entrance to the Cabin.
+~
+Keywords   Cabin
+~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8019
+Key        8002
+Desc       Cellar.
+~
+Keywords   cellar~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    8015 5 2 100 -2
+Reset D    8015 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8016
+Name       Cabin Study~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in a room that once was used to study the infamous 
+Necronomicon; The Book of the Dead. Unfortunately, no one is left to warn 
+you of what the book may do. Proceed with caution, or you will certainly 
+die. 
+~
+#EXIT
+Direction  North~
+ToRoom     8017
+Desc       Bedroom.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8015
+Desc       Main Room.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8017
+Name       Cabin Bedroom~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing inside one of the bedrooms in the cabin. Things seem to 
+be moving in the shadows of this room, but you can't tell what. You realize
+this isn't your Mama's nice little fun time quest, and you want to run home.
+~
+#EXIT
+Direction  South~
+ToRoom     8016
+Desc       Cabin Study.
+~
+#ENDEXIT
+Reset M    8002 1 8017 -1 -1 -1 100
+  Reset E  8004 5 0 4
+  Reset E  8002 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8018
+Name       Cabin Bedroom~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing inside one of the bedrooms in the cabin. Things seem to
+be moving in the shadows of this room, but you can't tell what. You realize
+this isn't your Mama's nice little fun time quest, and you want to run home.
+~
+#EXIT
+Direction  South~
+ToRoom     8015
+Desc       Main Room of the Cabin.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8019
+Name       Cellar~
+Sector     indoors~
+Flags      dark indoors nosummon~
+Stats      0 0 0 0 0
+Desc       Now this is a place you don't like too much. It's dark, damp, and cold, 
+not to mention the cobwebs and the stench of something rotting. You notice 
+a large hole in the ground.  It seems that someone was buried here at 
+one time.  Too bad they didn't stay that way. 
+~
+#EXIT
+Direction  East~
+ToRoom     8020
+Desc       Storage Room.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8015
+Key        8002
+Desc       Main Room of the Cabin.
+~
+Keywords   trapdoor~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8003 1 8019 -1 -1 -1 100
+  Reset E  8003 5 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8020
+Name       Storage Room~
+Sector     indoors~
+Flags      dark indoors nosummon~
+Stats      0 0 0 0 0
+Desc       This room is filled with a ton of old junk. Not unlike the other part of 
+the cellar, this room is dark and damp. For some reason this room makes 
+you feel trapped. 
+~
+#EXIT
+Direction  West~
+ToRoom     8019
+Desc       Cellar.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8021
+Name       Back in time!~
+Sector     indoors~
+Flags      nosummon teleport teleshowdesc~
+Stats       32  8027 0 0 100000
+Desc       The world swirls about you, and cloudy tendrils from a myriad of alternate
+realities reach out for you, pulling you in. You begin to wonder where 
+you are going to end up..... 
+~
+#EXDESC
+ExDescKey  tendril mist~
+ExDesc     Glancing into the mist, you catch a glimpse of a point in what appears 
+to be the future.  You can make out something that resembles a statue of a 
+cyborg, and you can barely make out a sign that reads "Chig's Smithy" 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        8022
+Name       Falling to the ground~
+Sector     indoors~
+Flags      nosummon teleport teleshowdesc~
+Stats       32  8023 0 0 100000
+Desc       You land on your back with a pronounced THUD!  As you lay there, staring
+up at the sky, you notice a large car hurtling down towards you!  You barely
+scramble out of the way in the nick of time to avoid being squashed into a 
+pancake, and discover that you are not alone... 
+~
+#ENDROOM
+
+#ROOM
+Vnum        8023
+Name       Path in a Field~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You stand on a path that goes through a large open field. You realize  
+immediately that this is not the time period you started in.  There is a 
+castle to the east, and there appears to be some sort of commotion to the 
+south.  Upon closer inspection, you see an army of undead gathering. 
+~
+#EXIT
+Direction  East~
+ToRoom     8025
+Desc       Path to the Castle.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8026
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8059
+Desc       Path in the Woods.
+~
+#ENDEXIT
+Reset O    8022 1 8023 -1 -1 -1 100
+  Reset P  0 8024 5 8022 5
+#ENDROOM
+
+#ROOM
+Vnum        8024
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a 
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the 
+days when pissed off sheep were the worst of your worries. 
+~
+#EXIT
+Direction  North~
+ToRoom     8032
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8028
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8023
+Desc       Path Through the Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8060
+Desc       Woods.
+~
+#ENDEXIT
+Reset M    8007 12 8024 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8025
+Name       Path to the Castle~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You stand on a path that goes through a large open field. You realize
+immediately that this is not the time period you started in.  There is a
+castle to the east, and there appears to be some sort of commotion to the
+south.  Upon closer inspection, you see an army of undead gathering. 
+~
+#EXIT
+Direction  North~
+ToRoom     8028
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8049
+Desc       Path in Front of Castle.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8031
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8023
+Desc       Path through the field.
+~
+#ENDEXIT
+Reset O    8020 1 8025 -1 -1 -1 100
+  Reset P  0 8023 5 8020 5
+#ENDROOM
+
+#ROOM
+Vnum        8026
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries.
+~
+#EXIT
+Direction  North~
+ToRoom     8023
+Desc       Path in the Field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8031
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8038
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8062
+Desc       Woods.
+~
+#ENDEXIT
+Reset M    8007 12 8026 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8027
+Name       Falling through the mist...~
+Sector     indoors~
+Flags      nosummon teleport teleshowdesc~
+Stats       32  8029 0 0 100000
+Desc       The world swirls about you, and cloudy tendrils from a myriad of alternate
+realities reach out for you, pulling you in. You begin to wonder where
+you are going to end up..... 
+~
+#EXDESC
+ExDescKey  tendril mist~
+ExDesc     Looking into the mist, you can make out an isolated 
+room, where a man in a polyester leisure suit reclines at his desk.  He is 
+wearing a large gaudy hourglass necklace around his neck.  You begin to
+groove to the beat of a popular disco song. 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        8028
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries.
+~
+#EXIT
+Direction  North~
+ToRoom     8034
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8051
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8025
+Desc       Path to the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8024
+Desc       Open field.
+~
+#ENDEXIT
+Reset M    8007 12 8028 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8029
+Name       Falling through the mist...~
+Sector     indoors~
+Flags      nosummon teleport teleshowdesc~
+Stats       32  8022 0 0 100000
+Desc       The world swirls about you, and cloudy tendrils from a myriad of alternate
+realities reach out for you, pulling you in. You begin to wonder where
+you are going to end up..... 
+~
+#EXDESC
+ExDescKey  tendril mist~
+ExDesc     Looking into the mist, you catch a glimpse of the ruler of the abyss.  His 
+skin is harder than tempered steel, and his talons are longer than a man's 
+hand.  He bears a strange resemblance to a gargoyle, only his skin is black
+and his fangs drip with ichor when he opens his mouth.  You shiver as he 
+turns towards you and reaches out, as if to pluck you from the mist... 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        8030
+Name       S-Mart~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand in the middle of a large department store. Blue lights are flashing
+everywhere and people are hustling all around you. After a few seconds you
+realize that you are back in your own time. This becomes the most apparent when
+you hear someone say, "Shop Smart....Shop S-Mart."
+~
+#ENDROOM
+
+#ROOM
+Vnum        8031
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries.
+~
+#EXIT
+Direction  North~
+ToRoom     8025
+Desc       Path to the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8053
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8035
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8026
+Desc       Open field.
+~
+#ENDEXIT
+Reset M    8007 12 8031 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8032
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries.
+~
+#EXIT
+Direction  East~
+ToRoom     8034
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8024
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8063
+Desc       Woods.
+~
+#ENDEXIT
+Reset M    8006 1 8032 -1 -1 -1 100
+  Reset E  8010 3 17 100
+Reset M    8007 12 8032 -1 -1 -1 100
+Reset M    8007 12 8032 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8033
+Name       The Pit~
+Sector     indoors~
+Flags      dark tunnel nosummon~
+Stats      0 0 0 0 0
+Desc       You stand in the Pit and there is nothing nice about this place at all.  Body 
+parts lie all around you, and smell of decaying flesh sting your nostrils. 
+This place is evil incarnate, and your presence shines like a beacon, 
+drawing the inhabitants closer. 
+~
+#EXIT
+Direction  South~
+ToRoom     8050
+Desc       Pit of Death.
+~
+#ENDEXIT
+Reset M    8004 1 8033 -1 -1 -1 100
+  Reset E  8007 10 16 15
+#ENDROOM
+
+#ROOM
+Vnum        8034
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries. 
+~
+#EXIT
+Direction  East~
+ToRoom     8052
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8028
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8032
+Desc       Open field.
+~
+#ENDEXIT
+Reset M    8007 12 8034 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8035
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries. 
+~
+#EXIT
+Direction  North~
+ToRoom     8031
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8054
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8038
+Desc       Open field.
+~
+#ENDEXIT
+Reset M    8007 12 8035 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8036
+Name       The Pit~
+Sector     indoors~
+Flags      dark tunnel nosummon~
+Stats      0 0 0 0 0
+Desc       You stand in the Pit and there is nothing nice about this place at all.  Body
+parts lie all around you, and smell of decaying flesh sting your nostrils.
+This place is evil incarnate, and your presence shines like a beacon,
+drawing the inhabitants closer. 
+~
+#EXIT
+Direction  North~
+ToRoom     8050
+Desc       Pit of Death.
+~
+#ENDEXIT
+Reset M    8009 1 8036 -1 -1 -1 100
+  Reset E  8021 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8037
+Name       The Pit~
+Sector     indoors~
+Flags      dark tunnel nosummon~
+Stats      0 0 0 0 0
+Desc       You stand in the Pit and there is nothing nice about this place at all.  Body
+parts lie all around you, and smell of decaying flesh sting your nostrils.
+This place is evil incarnate, and your presence shines like a beacon,
+drawing the inhabitants closer. 
+~
+#EXIT
+Direction  East~
+ToRoom     8050
+Desc       Pit of Death.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8038
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in an open field, and you don't feel secure with a
+skeleton army forming around you. Maybe you should find another place
+to go, like that nice little cabin you started out in.  You yearn for the
+days when pissed off sheep were the worst of your worries. 
+~
+#EXIT
+Direction  North~
+ToRoom     8026
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8035
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8066
+Desc       Woods.
+~
+#ENDEXIT
+Reset M    8007 12 8038 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8039
+Name       Castle Gates~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You arrive at the gate of a castle that is under seige by legions of undead 
+skeletons.  The walls appear to be battered by catapult fire, and the gate 
+itself is partially shattered, probably from the attempts of the skeletons to 
+access the inner courtyard.  You step carefully to avoid the volleys of 
+arrows that fly constantly from the top of the castle wall.
+~
+#EXIT
+Direction  East~
+ToRoom     8040
+Key        8010
+Desc       You see people running back and forth attempting to keep the gates closed.
+~
+Keywords   castle gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8049
+Desc       Path in front of castle.
+~
+#ENDEXIT
+Reset D    8039 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8040
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You now stand within the walls of the castle, where only a few remain to 
+help fortify the walls.  The men are struggling to keep the gate intact
+against the onslaught of skeletons. 
+~
+#EXIT
+Direction  North~
+ToRoom     8046
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8044
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8041
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8039
+Desc       Castle Gates.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8041
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  North~
+ToRoom     8040
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8042
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8042
+Name       Castle Courtyard ~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army.  
+~
+#EXIT
+Direction  North~
+ToRoom     8044
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8043
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8041
+#ENDEXIT
+Reset M    8008 1 8042 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8043
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  North~
+ToRoom     8045
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8042
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8050
+Desc       An open pit is giving off foul smells and wierd sounds that make weaklings
+tremble, but not mighty warriors such as yourself.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8044
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  North~
+ToRoom     8047
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8045
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8042
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8040
+#ENDEXIT
+Reset M    8007 12 8044 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8045
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  North~
+ToRoom     8048
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8043
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8044
+#ENDEXIT
+Reset M    8012 1 8045 -1 -1 -1 100
+  Reset E  8011 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8046
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  East~
+ToRoom     8047
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8040
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8047
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  East~
+ToRoom     8048
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8044
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8046
+#ENDEXIT
+Reset M    8007 12 8047 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8048
+Name       Castle Courtyard~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       This small courtyard is filled with scruffy looking men who are very 
+busy running from one wall to another, fending off the attacks of the 
+skeletal army. 
+~
+#EXIT
+Direction  East~
+ToRoom     8055
+Key        8011
+Desc       First room of the parapet.
+~
+Keywords   parapet~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8045
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8047
+#ENDEXIT
+Reset D    8048 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8049
+Name       Path in Front of Castle~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You stand on a path right in front of a large castle that is under siege. 
+Skeleton warriors are all around you and this doesn't seem to be the best place
+to be at this time. To the east are the castle gates that the skeletal warriors
+are trying to break down.
+~
+#EXIT
+Direction  East~
+ToRoom     8039
+Desc       Castle Gate.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8025
+Desc       Path to the castle.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8050
+Name       Pit Of Death~
+Sector     mountain~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Corpses litter the ground, and unholy noises seem to come from all 
+directions. The walls appear to me made of a combination of mud and some 
+sort of organic substance, and just looking at them makes you queasy.  The
+muck and slime that covers your boots seems to move of its own accord.  
+You think you can make out some vaguely humanoid parts protruding from 
+the walls... is that an finger you see? 
+~
+#EXIT
+Direction  North~
+ToRoom     8033
+Desc       The Pit.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8036
+Desc       The Pit.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8037
+Desc       The Pit.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8043
+Desc       Castle Courtyard.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8051
+Name       Path Around the Castle~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are at a path that goes around the castle. To the east you can 
+clearly see the moat, and it doesn't look like a welcoming place. The 
+castle looms above you, and you can see skeletons trying to climb the walls.
+~
+#EXIT
+Direction  North~
+ToRoom     8052
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8028
+Desc       Open field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8052
+Name       Path Around the Castle~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are at a path that goes around the castle. To the east you can
+clearly see the moat, and it doesn't look like a welcoming place. The
+castle looms above you, and you can see skeletons trying to climb the walls.
+~
+#EXIT
+Direction  South~
+ToRoom     8051
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8034
+Desc       Open field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8053
+Name       Path Around the Castle~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are at a path that goes around the castle. To the east you can
+clearly see the moat, and it doesn't look like a welcoming place. The
+castle looms above you, and you can see skeletons trying to climb the walls.
+~
+#EXIT
+Direction  South~
+ToRoom     8054
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8031
+Desc       Open field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8054
+Name       Path Around the Castle~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are at a path that goes around the castle. To the east you can
+clearly see the moat, and it doesn't look like a welcoming place. The
+castle looms above you, and you can see skeletons trying to climb the walls.
+~
+#EXIT
+Direction  North~
+ToRoom     8053
+Desc       Path around the castle.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8035
+Desc       Open field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8055
+Name       First Room of the Parapet~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in the first room to the parapet of the castle. Fighting is
+going on here between skeletons and humans for control of the castle. There is
+a locked door to the south that seems to be the focus of the battle. 
+~
+#EXIT
+Direction  South~
+ToRoom     8056
+Key        8013
+Desc       Second Room of the Parapet.
+~
+Keywords   large door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8048
+Desc       Castle Courtyard.
+~
+#ENDEXIT
+Reset M    8015 91 8055 -1 -1 -1 100
+  Reset E  8012 3 7 3
+  Reset E  8013 3 17 100
+Reset D    8055 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8056
+Name       Second Room of the Parapet~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in the second room inside the parapet.  When you opened the 
+door you let in the skeleton warriors, who charge the soldiers in this room.
+There is yet another room to the south that is the last line of defense.
+Maybe you didn't screw up too much.
+~
+#EXIT
+Direction  North~
+ToRoom     8055
+Desc       First Room of the Parapet
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8057
+Key        8015
+Desc       Inner Sanctum.
+~
+Keywords   wooden door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8016 1 8056 -1 -1 -1 100
+  Reset E  8015 3 17 100
+  Reset E  8014 4 11 5
+Reset D    8056 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8057
+Name       Inner Sanctum~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing at the last defense of the castle, the room the skeletons 
+were fighting so hard to approach. Good job!  You led them right where 
+they wanted to go. Now it is time to pay the price of your actions. 
+~
+#EXIT
+Direction  North~
+ToRoom     8056
+Desc       Second Room of the Parapet.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8058
+Key        8025
+Desc       Portal to home.
+~
+Keywords   portal~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8017 1 8057 -1 -1 -1 100
+  Reset E  8016 7 9 7
+  Reset E  8017 1 16 3
+  Reset E  8025 3 17 100
+Reset D    8057 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8058
+Name       Portal Room~
+Sector     indoors~
+Flags      dark nomob indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in a room that seems to have no exit.  Now what did that 
+Wizard say the magic words were to get home?  And remember to say every 
+single syllable, or you might not get back to where you really want to go. 
+Think hard. 
+~
+#EXIT
+Direction  East~
+ToRoom     8030
+Desc       You see a microphone here.
+~
+Keywords   klatuveratanikto~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8058 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8059
+Name       Path in the Woods~
+Sector     forest~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are walking on a path through a dark woods. Noises come from the trees
+that don't seem natural. You seem to catch a glimps of something in the corner
+of your eye that looks familiar, but you can't be sure.
+~
+#EXIT
+Direction  North~
+ToRoom     8060
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8023
+Desc       Path through the field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8062
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8061
+Desc       Fork in the road.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8060
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but 
+the vague shapes of the trees around you moving in unnatural ways, as if 
+they are trying to reach out and grab you. This doesn't seem like the best 
+place to be. 
+~
+#EXIT
+Direction  North~
+ToRoom     8063
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8024
+Desc       Open field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8059
+Desc       Path in the woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8064
+Desc       Woods.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8061
+Name       Fork in the Road~
+Sector     forest~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand at a fork in the road. To the south you sense an evil aura, and 
+from the west comes a cold breeze. Neither direction seems very inviting.
+Life seemed to be much easier before coming in here... maybe you should 
+just give up. 
+~
+#EXIT
+Direction  North~
+ToRoom     8064
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8059
+Desc       Path in the Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8083
+Desc       Path to the Cemetary.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8068
+Desc       Path to the Windmill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8062
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  North~
+ToRoom     8059
+Desc       Path through the Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8026
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8066
+Desc       Woods.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8063
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  East~
+ToRoom     8032
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8060
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8065
+Desc       Woods.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8064
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  North~
+ToRoom     8065
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8060
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8061
+Desc       Fork in the Road.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8067
+Desc       Woods.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8065
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  East~
+ToRoom     8063
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8064
+Desc       Woods.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8066
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  North~
+ToRoom     8062
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8038
+Desc       Open Field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8067
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  East~
+ToRoom     8064
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8068
+Desc       Path to the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8072
+Desc       Open Field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8068
+Name       Path to the Windmill~
+Sector     forest~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are on a path to the windmill, which you can see to the east. Things are 
+starting to get quieter and it just doesn't seem right. There is a cold breeze
+blowing from the west which carries a strange smell that you can't identify. 
+~
+#EXIT
+Direction  North~
+ToRoom     8067
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8061
+Desc       Fork in the Road.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8069
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8071
+Desc       Path in front of the Windmill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8069
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  North~
+ToRoom     8068
+Desc       Path to the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8083
+Desc       Path to the Cemetary.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8070
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8073
+Desc       Open Field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8070
+Name       Woods~
+Sector     forest~
+Flags      dark nosummon~
+Stats      0 0 0 0 0
+Desc       You find yourself in a very dark wooded area. You can hardly see anything but
+the vague shapes of the trees around you moving in unnatural ways, as if
+they are trying to reach out and grab you. This doesn't seem like the best
+place to be. 
+~
+#EXIT
+Direction  North~
+ToRoom     8069
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8075
+Desc       Open Field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8071
+Name       Path in front of the Windmill~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand in front of this old windmill that has not been used in ages. 
+You can tell this by the many holes in the side. This doesn't seem like a
+very inviting place. Maybe you should go to that cemetary, that might be 
+tamer. 
+~
+#EXIT
+Direction  North~
+ToRoom     8072
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8068
+Desc       Path to the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8075
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8079
+Key        8005
+Desc       In the Windmill.
+~
+Keywords   windmill~
+Flags      ~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8072
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand at a homemade tomb where someone has recently been buried.  The
+occupant of the tomb seems to have unburied himself.  There is a cross
+made of wood stuck in the ground and a shovel nearby.  Bloodstains spatter
+the ground here.
+~
+#EXIT
+Direction  East~
+ToRoom     8067
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8071
+Desc       Path in front of Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8074
+Desc       Tomb.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8073
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand at a homemade tomb where someone has recently been buried.  The
+occupant of the tomb seems to have unburied himself.  There is a cross
+made of wood stuck in the ground and a shovel nearby.  Bloodstains spatter
+the ground here. 
+~
+#EXIT
+Direction  East~
+ToRoom     8069
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8075
+Desc       Open Field.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8074
+Name       Tomb~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand at a homemade tomb where someone has recently been buried.  The
+occupant of the tomb seems to have unburied himself.  There is a cross 
+made of wood stuck in the ground and a shovel nearby.  Bloodstains spatter 
+the ground here.
+~
+#EXIT
+Direction  East~
+ToRoom     8072
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8078
+Desc       Behind the Windmill.
+~
+#ENDEXIT
+Reset M    8011 1 8074 -1 -1 -1 100
+  Reset E  8006 1 16 2
+  Reset E  8005 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8075
+Name       Open Field~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand in a field bordered by woods.  You can see a windmill nearby.
+It has suddenly become very quiet, which doesn't seem quite right. A cold 
+breeze blows through the tall grass, giving your spine a shiver. 
+~
+#EXIT
+Direction  North~
+ToRoom     8073
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8070
+Desc       Woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8076
+Desc       Beside the Windmill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8076
+Name       Beside the Windmill~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing near the side of the windmill. Like everywhere else, this 
+windmill is very quiet. Sometimes you just wish there was some noise so 
+that it wasn't so eerie. 
+~
+#EXIT
+Direction  East~
+ToRoom     8075
+Desc       Open Field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8077
+Desc       Beside the Windmill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8077
+Name       Beside the Windmill~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing near the side of the windmill. Like everywhere else, this
+windmill is very quiet. Sometimes you just wish there was some noise so
+that it wasn't so eerie. 
+~
+#EXIT
+Direction  East~
+ToRoom     8076
+Desc       Beside the Windmill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8078
+Name       Behind the Windmill~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You stand behind the windmill.  You can see the entire back of the building.
+This is a really neat building, with lots of holes in it (obviously
+for ventilation).
+~
+#EXIT
+Direction  East~
+ToRoom     8074
+Desc       Tomb.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8079
+Name       In the Windmill~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You stand inside the old windmill, with pots and pans scattered on the floor. 
+To the side you see stove with a kettle on top of it. Dust gathers on 
+everything. You feel like there is another presence here, but you can't
+figure out what it is.
+~
+#EXIT
+Direction  East~
+ToRoom     8071
+Desc       Path in front of the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8080
+Desc       In the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8081
+Desc       In the Windmill.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8080
+Name       In the Windmill~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are standing in another part of the windmill. On one wall is a 
+fireplace. A broom is propped in one corner and a spittoon stands next to the
+fire. Dust covers everything and as you move, it billows everywhere.
+~
+#EXIT
+Direction  North~
+ToRoom     8079
+Desc       In the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8082
+Desc       In the Windmill.
+~
+#ENDEXIT
+Reset M    8010 1 8080 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8081
+Name       In the Windmill~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You stand in another part of the windmill. There is a large mirror in the corner
+that has been shattered. Shards of the mirror are scattered on the floor.   
+Dust covers everything, including the mirror fragments. 
+~
+#EXIT
+Direction  East~
+ToRoom     8079
+Desc       In the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8082
+Desc       In the Windmill.
+~
+#ENDEXIT
+Reset M    8010 2 8081 -1 -1 -1 100
+Reset M    8010 2 8081 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8082
+Name       In the Windmill~
+Sector     indoors~
+Flags      indoors nosummon~
+Stats      0 0 0 0 0
+Desc       You are in the back part of the windmill. There is a table in the corner and 
+above your head are the gears that used to run the windmill. Dust and hay 
+cover the floor, along with many scattered utensils.
+~
+#EXIT
+Direction  North~
+ToRoom     8081
+Desc       In the Windmill.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8080
+Desc       In the Windmill.
+~
+#ENDEXIT
+Reset M    8010 1 8082 -1 -1 -1 100
+  Reset E  8010 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8083
+Name       Path to the Cemetary~
+Sector     forest~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       The skin on the back of your neck begins to crawl as you approach what 
+appears to be a large abandoned cemetary.  The gates are ancient, and  
+covered with rust, weeds, and vines.  You begin to wonder why you wanted 
+to come here in the first place.  You dont need to go home THAT badly....  
+sure, you could just settle down here!  It's nice, and they worship you!  
+Great deal! 
+~
+#EXIT
+Direction  North~
+ToRoom     8061
+Desc       Fork in the Road.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8084
+Desc       Cemetary
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8084
+Name       The Cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       A shiver runs down your spine as you enter this ancient place, and you feel
+that your mortal soul should not be in the prescence of such raw supernatural 
+power.  Your most basic instincts tell you to run from this place, but 
+you are compelled by the goals of your quest... your sense of adventure...
+and the fact that the gate just swung shut behind you and now you can't 
+get the damn thing open! 
+~
+#EXIT
+Direction  North~
+ToRoom     8083
+Key        8009
+Desc       A rusty iron gate lies at the entrance to the cemetary.
+~
+Keywords   gate~
+Flags      ~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8085
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8085
+Name       In the cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Ancient tombstones and crypts line your path here, many of which are
+crumbling. Some barely remain standing.  You try to orient yourself, but
+it almost seems that the graveyard changes constantly, and you have
+trouble getting your bearings amongst the rows of graves.
+~
+#EXIT
+Direction  North~
+ToRoom     8084
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8086
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8085
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8086
+Name       In the cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Ancient tombstones and crypts line your path here, many of which are
+crumbling. Some barely remain standing.  You try to orient yourself, but
+it almost seems that the graveyard changes constantly, and you have
+trouble getting your bearings amongst the rows of graves. 
+~
+#EXIT
+Direction  North~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8087
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8087
+Name       In the cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Ancient tombstones and crypts line your path here, many of which are 
+crumbling. Some barely remain standing.  You try to orient yourself, but 
+it almost seems that the graveyard changes constantly, and you have 
+trouble getting your bearings amongst the rows of graves. 
+~
+#EXIT
+Direction  East~
+ToRoom     8086
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8088
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8088
+Name       In the cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Ancient tombstones and crypts line your path here, many of which are
+crumbling. Some barely remain standing.  You try to orient yourself, but
+it almost seems that the graveyard changes constantly, and you have
+trouble getting your bearings amongst the rows of graves.
+~
+#EXIT
+Direction  North~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8089
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8085
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8089
+Name       In the cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Ancient tombstones and crypts line your path here, many of which are
+crumbling. Some barely remain standing.  You try to orient yourself, but
+it almost seems that the graveyard changes constantly, and you have
+trouble getting your bearings amongst the rows of graves.
+~
+#EXIT
+Direction  North~
+ToRoom     8087
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8090
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8086
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8090
+Name       In the cemetary~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Ancient tombstones and crypts line your path here, many of which are
+crumbling. Some barely remain standing.  You try to orient yourself, but
+it almost seems that the graveyard changes constantly, and you have
+trouble getting your bearings amongst the rows of graves.
+~
+#EXIT
+Direction  North~
+ToRoom     8087
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8085
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8091
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8086
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8091
+Name       Between the graves~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Finally, after wandering through the graveyard for what seems like an eternity,
+you discover a small deserted area where neither grave nor crumbling stonework
+lie.  You almost get an opportunity to relax for a moment, when skeletal 
+hands burst forth from the earth, and grab onto your ankle!  Suddenly the 
+ground erupts as skeletal arms reach for you from below the surface... 
+~
+#EXIT
+Direction  North~
+ToRoom     8090
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     8093
+#ENDEXIT
+Reset M    8018 8 8091 -1 -1 -1 100
+Reset M    8018 8 8091 -1 -1 -1 100
+Reset M    8018 8 8091 -1 -1 -1 100
+Reset M    8018 8 8091 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8092
+Name       The Unholy Altar~
+Sector     indoors~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       You approach a strange black altar covered with arcane symbols and 
+intricate patterns, and suddenly you are confronted with a decision!  
+That crazy old wizard said nothing about more than one Necronomicon to 
+choose from, yet here rest three identical copies of the Book of the Dead!  
+Which one should you pick?  Choose wisely... 
+~
+#EXIT
+Direction  South~
+ToRoom     8084
+#ENDEXIT
+Reset M    8013 2 8092 -1 -1 -1 100
+  Reset E  8003 5 17 100
+Reset M    8013 2 8092 -1 -1 -1 100
+  Reset E  8003 5 17 100
+Reset M    8014 1 8092 -1 -1 -1 100
+  Reset E  8003 5 17 100
+#ENDROOM
+
+#ROOM
+Vnum        8093
+Name       Between the graves~
+Sector     field~
+Flags      nosummon~
+Stats      0 0 0 0 0
+Desc       Finally, after wandering through the graveyard for what seems like an eternity,
+you discover a small deserted area where neither grave nor crumbling stonework
+lie.  You almost get an opportunity to relax for a moment, when skeletal
+hands burst forth from the earth, and grab onto your ankle!  Suddenly the
+ground erupts as skeletal arms reach for you from below the surface... 
+~
+#EXIT
+Direction  North~
+ToRoom     8091
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8092
+#ENDEXIT
+Reset M    8018 8 8093 -1 -1 -1 100
+Reset M    8018 8 8093 -1 -1 -1 100
+Reset M    8018 8 8093 -1 -1 -1 100
+Reset M    8018 8 8093 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,1707 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            The Dwarven Kingdom~
+Author          Unknown~
+Vnums           6500 6553
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       40
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        6500
+Keywords   dwarf dwarven guard~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dwarf guard~
+Long       A dwarven guard is here.
+~
+Desc       The guard looks very tough and mean. He wears his beard long, and he smells
+like he hasn't bathed in over a month.
+~
+Nattacks   2.000000
+Stats1     1000 10000 60 100 150 250
+Stats2     21 0 -1 336 2 0 9
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6501
+Keywords   dwarf dwarven worker~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dwarf worker~
+Long       A dwarven mining worker is here.
+~
+Desc       He is very dirty, and looks extremely over-worked.
+~
+Nattacks   2.000000
+Stats1     900 3500 60 100 150 250
+Stats2     13 7 2 170 2 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6502
+Keywords   wraith~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the wraith~
+Long       A wraith is awaiting your first move here.
+~
+Desc       A black, almost transparent wraith.
+~
+Nattacks   3.000000
+Stats1     -900 45708 60 100 150 250
+Stats2     25 4 -6 500 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6503
+Keywords   storekeeper~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Hide & Tooth storekeeper~
+Long       The Hide & Tooth storekeeper is standing here, waiting patiently.
+~
+Desc       The storekeeper is very rotund, but looks in excellent condition.
+~
+Nattacks   4.000000
+Stats1     1000 33500 60 100 150 250
+Stats2     33 0 -10 30000 2 0 32
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6504
+Keywords   baker~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Granite Head the baker~
+Long       Granite Head, the baker, is waiting for a customer here.
+~
+Desc       Granite Head is covered with flour and grains.
+~
+Nattacks   4.000000
+Stats1     900 55000 60 100 150 250
+Stats2     33 0 -10 30000 2 0 22
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6505
+Keywords   lizard~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the giant lizard~
+Long       A giant lizard is foraging for food along the cavern floor here.
+~
+Desc       This scaly creature looks like it is well adapted to it's underground
+habitat.  He looks very powerful.
+~
+Nattacks   2.000000
+Stats1     100 200 60 100 150 250
+Stats2     21 0 1 340 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6506
+Keywords   giant~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the giant~
+Long       A giant is wandering around the mountainside here.
+~
+Desc       The giant is about 18 feet tall, with arms of steel, and looks in
+excellent physical condition.
+~
+Nattacks   2.000000
+Stats1     600 2000 60 100 150 250
+Stats2     19 2 0 300 3 0 8
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6507
+Keywords   dwarven dwarf miner mineworker worker~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dwarven mineworker~
+Long       A dwarven mineworker is here.
+~
+Desc       The mineworker is very tired, and very dirty, and he has bulging muscles.
+~
+Nattacks   1.000000
+Stats1     500 600 60 100 150 250
+Stats2     4 16 7 40 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6508
+Keywords   dwarven mineleader dwarf mine leader~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the mine leader~
+Long       A dwarven mine leader is here, supervising the work.
+~
+Desc       The mine leader is very big and very strong, though he must be fairly bright
+also, to have gotten this job.
+~
+Nattacks   2.000000
+Stats1     700 18000 60 100 150 250
+Stats2     19 1 0 270 3 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6509
+Keywords   dwarven healer~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dwarven healer~
+Long       The dwarven healer is here, aiding the sick of his people.
+~
+Desc       He is a very skilled healer, and extremely faithful to his god.
+~
+Nattacks   2.000000
+Stats1     999 20000 60 100 150 250
+Stats2     22 0 -1 375 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6510
+Keywords   dwarven peon~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dwarven peon~
+Long       A dwarven peon is awaiting help here.
+~
+Nattacks   1.000000
+Stats1     500 75 60 100 150 250
+Stats2     3 18 7 35 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6511
+Keywords   dwarf~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Dwarf~
+Long       A dwarf is here.
+~
+Nattacks   1.000000
+Stats1     500 625 60 100 150 250
+Stats2     6 15 4 70 3 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6514
+Keywords   barrack guard~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the barrack's guard~
+Long       A barrack guard is here, lounging around while off duty.
+~
+Nattacks   2.000000
+Stats1     100 1300 60 100 150 250
+Stats2     14 6 1 170 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6516
+Keywords   mazekeeper~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the mazekeeper~
+Long       A mazekeeper is here.
+~
+Desc       He looks VERY tough.
+~
+Nattacks   3.000000
+Stats1     -1000 2000 60 100 150 250
+Stats2     29 0 -7 2000 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6517
+Keywords   giant snake~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the giant snake~
+Long       There is a giant snake here.
+~
+Nattacks   4.000000
+Stats1     -1000 3000 60 100 150 250
+Stats2     33 0 -10 600 4 0 22
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        6502
+Keywords   key mine~
+Type       key~
+Short      a mine key~
+Long       There is a key to the mines lying here.~
+WFlags     take~
+Values     0 0 0 0 -1 6502 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6503
+Keywords   key bright gold~
+Type       key~
+Short      a bright golden key~
+Long       There is a bright golden key lying here.~
+WFlags     take~
+Values     0 0 0 0 -1 6503 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6504
+Keywords   hammer dwarven~
+Type       weapon~
+Short      a hammer~
+Long       There is a dwarven hammer lying here.~
+Action     pummel~
+WFlags     take wield~
+Values     0 2 6 4 0 0 0 0 0 0 0
+Stats      13 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6505
+Keywords   plate dwarven mail~
+Type       armor~
+Short      dwarven plate mail~
+Long       There is dwarven plate mail lying here.~
+WFlags     take body~
+Values     6 6 0 0 0 0 0 0 0 0 0
+Stats      80 300 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6506
+Keywords   stick~
+Type       staff~
+Short      a long, black stick~
+Long       There is a long, black stick lying here.~
+WFlags     take hold~
+Values     4 2 2  0 0 0 0 0 0 0
+Stats      1 6000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6507
+Keywords   stick~
+Type       light~
+Short      a long, black stick~
+Long       There is a long, black stick here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6508
+Keywords   club~
+Type       weapon~
+Short      a dwarven club~
+Long       There is a dwarven club lying here.~
+WFlags     take wield~
+Values     0 2 3 1 0 0 0 0 0 0 0
+Stats      12 300 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6509
+Keywords   two-handed dwarven axe~
+Type       weapon~
+Short      a two-handed dwarven axe~
+Long       A two-handed dwarven axe is here.~
+Action     slices~
+WFlags     take wield~
+Values     0 2 7 1 0 0 0 0 0 0 0
+Stats      14 3000 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    Strength 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        6510
+Keywords   helmet~
+Type       armor~
+Short      a dwarven helmet~
+Long       A dwarven helmet is here.~
+WFlags     take head~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      4 500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6511
+Keywords   gold ring~
+Type       treasure~
+Short      a golden dwarven ring~
+Long       A golden dwarven ring is lying here.~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+AffData    hitroll 3 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        6512
+Keywords   gloves~
+Type       armor~
+Short      a pair of dwarven gloves~
+Long       A pair of thick dwarven gloves lay here.~
+WFlags     take hands~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      2 200 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        6517
+Keywords   coal~
+Type       trash~
+Short      a chunk of coal~
+Long       There is a chunk of coal here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      100 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        6518
+Keywords   pick~
+Type       weapon~
+Short      a mining pick~
+Long       There is a mining pick here.~
+Action     picks~
+WFlags     take wield~
+Values     0 2 3 6 0 0 0 0 0 0 0
+Stats      9 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  pick~
+ExDesc     It looks almost blessed!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        6550
+Keywords   key deep green~
+Type       key~
+Short      a deep green key~
+Long       There is a deep green key lying here.~
+WFlags     take~
+Values     0 0 0 0 -1 6550 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        6500
+Name       Path to Dwarven Village~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are walking down a path that leads to the dwarven village.  Above you
+you see the Turning Point, and to the north the path continues toward
+the mountains.
+~
+#EXIT
+Direction  Up~
+ToRoom     3502
+Desc       You see the Temple of Midgaard.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6501
+Desc       The path continues.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6501
+Name       Path, base of mountain~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Now you are at the bottom of a rugged mountain.  The forest around you is
+very dense, and it seems very dark to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     6502
+Desc       The path coninues up the mountain.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6500
+Desc       The path heads toward the main city.
+~
+#ENDEXIT
+Reset M    6501 9 6501 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6502
+Name       Path, middle of mountain~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Standing on the middle of the mountain, you can easily see the city to
+the south, and the top of the mountain is very near to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     6503
+Desc       The top of the mountain is easilly seen from here.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6501
+Desc       The base of the mountain is near.
+~
+#ENDEXIT
+Reset M    6501 9 6502 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6503
+Name       Top of mountain~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are now on the top of the mountain.  To the south you see a path
+leading down the mountain.  To the east and west you see entrances to
+what seems like mines.
+~
+#EXIT
+Direction  South~
+ToRoom     6502
+Desc       The path leads down the mountain to the main city.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6540
+Desc       An entrance to the mountain which seems to lead underground.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6505
+Desc       There is an entrance to the mountain.
+~
+#ENDEXIT
+Reset O    6507 2 6503 -1 -1 -1 100
+Reset M    6501 9 6503 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6504
+Name       Narrow Path~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a narrow path leading to the Dwarven Kingdom.  It looks less
+travelled than the others, and it is very creepy.  The path opens up
+to the south, and continues to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     6506
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6540
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6505
+Name       Entrance to Mountain~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Here is an entrance to the mountain.  The door looks very well built,
+and you can hear noise coming from within.
+~
+#EXIT
+Direction  West~
+ToRoom     6513
+Key        6550
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6503
+#ENDEXIT
+Reset M    6500 4 6505 -1 -1 -1 100
+  Reset E  6504 100 16 100
+  Reset E  6505 100 5 100
+  Reset E  6550 3 17 100
+Reset M    6500 4 6505 -1 -1 -1 100
+  Reset E  6504 100 16 100
+  Reset E  6505 100 5 100
+Reset O    6507 2 6505 -1 -1 -1 100
+Reset D    6505 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6506
+Name       Bend in Narrow Path~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is a narrow path that bends to the east here.  The trees hang over
+the path, and it is very overgrown.  The narrow path continues to the
+south and to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     6507
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6504
+#ENDEXIT
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     They hang over the road in the most ominous of ways.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6507
+Name       Narrow path~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This path is very narrow, and it continues to the north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6508
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6506
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6508
+Name       Narrow north-south path~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This path leads to the north and south.  To the north you can see a
+door, and to the south the path continues.
+~
+#EXIT
+Direction  North~
+ToRoom     6509
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6507
+#ENDEXIT
+Reset M    6506 2 6508 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6509
+Name       Door to Kingdom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here the path turns to the west.  You can see a door in front of you,
+and the path continues to the west and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6510
+Key        6503
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6522
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6508
+#ENDEXIT
+Reset M    6500 6 6509 -1 -1 -1 100
+  Reset E  6509 100 16 100
+  Reset E  6510 100 6 100
+  Reset E  6511 100 1 100
+Reset M    6500 6 6509 -1 -1 -1 100
+  Reset E  6512 100 9 100
+  Reset E  6509 100 16 100
+  Reset E  6505 100 5 100
+Reset D    6509 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6510
+Name       Path to the Castle~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are on a path that will eventually lead to the castle.  It
+continues north to the castle, and there is a door on the southern
+wall.
+~
+#EXIT
+Direction  South~
+ToRoom     6509
+Key        6503
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6511
+#ENDEXIT
+Reset D    6510 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6511
+Name       Still on the path to the Castle~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are still on the path to the castle, or back to the
+Dwarven village, whichever way you wish to go.  The path
+continues to the north and south.
+~
+#EXIT
+Direction  South~
+ToRoom     6510
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6512
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6512
+Name       Door to Castle~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here there is a door to the castle to the east.  The castle
+is elegantly designed, and looks much like a roll of toilet paper
+standing on it's end.  There is a sign which says:
+
+              ******************************************
+              *  WELCOME TO THE CASTLE OF STRANGELOVE  *
+              *      Here, celibacy is uninvited       *
+              ******************************************
+~
+#EXIT
+Direction  East~
+ToRoom     6525
+Key        6514
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6511
+#ENDEXIT
+Reset M    6500 2 6512 -1 -1 -1 100
+  Reset E  6508 100 16 100
+Reset M    6500 2 6512 -1 -1 -1 100
+  Reset E  6508 100 16 100
+Reset D    6512 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6513
+Name       Inside the entrance~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Everything here is covered in soot and very grimy.  The path continues
+to the east and north, and there is a door to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     6526
+Desc       This looks like an entrance to some type of store room.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6514
+Desc       The little underground path continues to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6505
+Key        6550
+Desc       The path leads outside the entrance.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    6507 2 6513 -1 -1 -1 100
+Reset D    6513 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6514
+Name       Path~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are on a path in the dwarven village which leads north to the shops
+and south to the corner of the area.
+~
+#EXIT
+Direction  South~
+ToRoom     6513
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6515
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6515
+Name       Turn in road~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are on a path that leads to a Hide & Tooth shop to the west, and the
+path continues to the south.
+~
+#EXIT
+Direction  West~
+ToRoom     6516
+Desc       The Hide & Tooth shop is seen to the west.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6514
+#ENDEXIT
+Reset M    6505 1 6515 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6516
+Name       Hide & Tooth Shop~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
+weapons and armors. The path continues to the north and east.
+~
+#EXIT
+Direction  East~
+ToRoom     6515
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6517
+#ENDEXIT
+Reset M    6503 1 6516 -1 -1 -1 100
+  Reset G  6510 100 100
+  Reset G  6511 100 100
+  Reset G  6512 100 100
+  Reset G  6504 100 100
+  Reset G  6505 100 100
+  Reset E  6504 100 16 100
+#ENDROOM
+
+#ROOM
+Vnum        6517
+Name       Path to the north of shop~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are on a path to the north of the Hide & Tooth shop.  The path continues
+to the north, and there is Granite Head's bakery to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     6518
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6516
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6535
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6518
+Name       North of Shops~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here the path bends to the east towards the barracks. To the
+south you can see the shops.
+~
+#EXIT
+Direction  East~
+ToRoom     6519
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6517
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6519
+Name       Path by Hospital~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here the path passes by the Hospital to the north.  It continues
+to the east to the barracks, and to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     6534
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6520
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6518
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6520
+Name       Path next to barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here the path continues west, and east to the barracks.
+~
+#EXIT
+Direction  East~
+ToRoom     6521
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6519
+#ENDEXIT
+Reset M    6505 1 6520 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6521
+Name       Entrance to barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here there is an entrance to the barracks to the south, and
+the path continues to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     6520
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6523
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    6514 4 6521 -1 -1 -1 100
+  Reset E  6509 100 16 100
+Reset M    6514 4 6521 -1 -1 -1 100
+  Reset E  6509 100 16 100
+Reset M    6500 4 6521 -1 -1 -1 100
+Reset M    6500 4 6521 -1 -1 -1 100
+Reset M    6500 4 6521 -1 -1 -1 100
+Reset D    6521 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6522
+Name       Guard House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the guard house to the west of the entrance
+to the castle.  There are nudie posters covering the walls.
+~
+#EXIT
+Direction  East~
+ToRoom     6509
+#ENDEXIT
+#EXDESC
+ExDescKey  poster~
+ExDesc     There is a wall poster of a nude Minne Pearl.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6523
+Name       First Barrack room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here is the first of two main rooms of barracks.  The
+barracks continue to the south, and you can leave the room
+to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     6521
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6524
+#ENDEXIT
+Reset M    6511 8 6523 -1 -1 -1 100
+Reset M    6511 8 6523 -1 -1 -1 100
+Reset M    6511 8 6523 -1 -1 -1 100
+Reset D    6523 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6524
+Name       Back of Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here is the back of the dwarven barracks.  There are rows
+of beds here, and there is a stench that is unbearable.
+~
+#EXIT
+Direction  North~
+ToRoom     6523
+#ENDEXIT
+Reset M    6511 8 6524 -1 -1 -1 100
+  Reset E  6504 100 16 100
+Reset M    6511 8 6524 -1 -1 -1 100
+Reset M    6511 8 6524 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6525
+Name       Inside of Castle Strangelove~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are just inside the castle.  It is very tubular in shape,
+and it is very featureless.  There is a set of stairs that lead
+up, and the door leads out of the castle to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     6512
+Key        6514
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6528
+#ENDEXIT
+Reset D    6525 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6526
+Name       A store room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       There is a layer of dust on the floor at least 3 inches thick!  It is
+probable that not many people have been in here for many months.
+~
+#EXIT
+Direction  East~
+ToRoom     6513
+Desc       A lighted area that looks like a well worn path.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6527
+Keywords   trapdoor~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    6526 5 1 100 -2
+#EXDESC
+ExDescKey  floor dust~
+ExDesc     After blowing all the dust off the floor, you notice a trapdoor!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6527
+Name       Wine cellar~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       This room smells like wine, and you can only assume it used to be
+a wine cellar at one time.
+~
+#EXIT
+Direction  Up~
+ToRoom     6526
+#ENDEXIT
+Reset M    6502 1 6527 -1 -1 -1 100
+  Reset E  6503 100 17 100
+#ENDROOM
+
+#ROOM
+Vnum        6528
+Name       Stairs in castle~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The stairs continue to circle up and down here.
+~
+#EXIT
+Direction  Down~
+ToRoom     6525
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6529
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6529
+Name       Stairs~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are still circling around on the stairs.  You are starting to
+get dizzy from going around and around and around and around and
+around.  The stairs continue up and down.
+~
+#EXIT
+Direction  Down~
+ToRoom     6528
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6530
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6530
+Name       Top of stairs~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are at the top of the stairs in the castle.  There is an exit
+to the east, and the stairs lead down.
+~
+#EXIT
+Direction  Down~
+ToRoom     6529
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6531
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6531
+Name       Queen's waiting room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the Queen's waiting room.  Here the men literally
+"wait" for the queen.  You've heard that the queen really likes
+to get to 'know' her people, in the biblical sense.  The queen's
+bedroom is to the north, and you can see stairs to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     6530
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6532
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    6531 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6532
+Name       Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the Queen's bedroom.  The bed is all ruffled, and there
+is a stack of dirty sheets piled in the corner.  There is a ladder
+that leads down, out of the castle, and you can leave the room
+to the south.
+There is a sign that says:
+      -------------------------
+      |  I'm busy right now,  |
+      |  and don't know when  |
+      |  Ill be back, but if  |
+      |  there is a key here  |
+      |  take it and PLEASE,  |
+      |  try to get my birth  |
+      |  control pills back!  |
+      |  I've heard they can  |
+      |  be found somewhere,  |
+      |  deep in the mines..  |
+      -------------------------
+~
+#EXIT
+Direction  South~
+ToRoom     6531
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6533
+#ENDEXIT
+Reset D    6532 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6533
+Name       North side of Castle Strangelove~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing on the north side of Castle Strangelove.  You
+notice that you are no longer inside the mountain anymore either.
+Along the southern horizon you see towering mountains.
+THIS AREA IS NOT OPEN SO GO BACK UP!
+~
+#EXIT
+Direction  Up~
+ToRoom     6532
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6534
+Name       Hospital~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are inside the Dwarven Hospital.  It smells like rubbing
+alcohol, and there is blood all over the walls.
+~
+#EXIT
+Direction  South~
+ToRoom     6519
+#ENDEXIT
+Reset M    6510 4 6534 -1 -1 -1 100
+Reset M    6510 4 6534 -1 -1 -1 100
+Reset M    6509 1 6534 -1 -1 -1 100
+  Reset E  6506 100 17 100
+#ENDROOM
+
+#ROOM
+Vnum        6535
+Name       Granite Head's Bakery~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The aroma coming from this room is astonishing.  You can almost taste
+the pastry's dissolving in your mouth.
+~
+#EXIT
+Direction  East~
+ToRoom     6517
+#ENDEXIT
+Reset M    6504 1 6535 -1 -1 -1 100
+  Reset G  3000 100 100
+  Reset G  3031 100 100
+  Reset G  3010 100 100
+  Reset G  3011 100 100
+  Reset E  6504 100 16 100
+#ENDROOM
+
+#ROOM
+Vnum        6540
+Name       Dark path~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This path is very well worn, and there is an entrance to the mines to the
+east, while the path continues to the north and west.
+~
+#EXIT
+Direction  East~
+ToRoom     6541
+Key        6502
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6504
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6503
+#ENDEXIT
+Reset M    6500 4 6540 -1 -1 -1 100
+  Reset E  6504 100 16 100
+  Reset E  6505 100 5 100
+  Reset E  6502 100 17 100
+Reset M    6500 4 6540 -1 -1 -1 100
+  Reset E  6504 100 16 100
+  Reset E  6505 100 5 100
+Reset O    6507 1 6540 -1 -1 -1 100
+Reset D    6540 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6541
+Name       Mine entrance~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The little path here leads down toward the mines, while the worn path
+continues to the west.
+~
+#EXIT
+Direction  Down~
+ToRoom     6542
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6540
+Key        6502
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    6541 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6542
+Name       Bottom of mineshaft~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are at the bottom of the mineshaft.  The air here is very sooty, and
+it is very hard to breath.  The mineshaft leads up and east.
+~
+#EXIT
+Direction  Up~
+ToRoom     6541
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6543
+#ENDEXIT
+Reset M    6507 4 6542 -1 -1 -1 100
+  Reset E  6508 100 16 100
+#ENDROOM
+
+#ROOM
+Vnum        6543
+Name       Path in the mine~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are deep inside the mine, and you feel very uncomfortable.  The
+path continues to the east, and leads to the mineshaft to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     6542
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6544
+#ENDEXIT
+Reset M    6507 4 6543 -1 -1 -1 100
+  Reset E  6508 100 16 100
+Reset M    6507 4 6543 -1 -1 -1 100
+  Reset E  6508 100 16 100
+Reset M    6508 4 6543 -1 -1 -1 100
+  Reset E  6512 100 9 100
+  Reset E  6508 100 16 100
+#ENDROOM
+
+#ROOM
+Vnum        6544
+Name       Mine crossroad~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are at a crossroad in the mine.  There is a door to the north,
+and the path continues to the south, east, and west.
+~
+#EXIT
+Direction  East~
+ToRoom     6545
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6543
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6546
+Key        6516
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6551
+#ENDEXIT
+Reset D    6544 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6545
+Name       Coal Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are inside the storage area for the raw materials
+that are found down here.  The room is very unsturdy as the
+supports are very rickety.
+~
+#EXIT
+Direction  West~
+ToRoom     6544
+#ENDEXIT
+Reset O    6517 6 6545 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6546
+Name       Mine Maze~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the maze of the mines.  To the east you
+can see some inscriptions, and you can exit to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     6544
+Key        6516
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6547
+#ENDEXIT
+Reset D    6546 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6547
+Name       Maze inscription~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are inside the maze, but not far enough in that you could
+get lost.  There is an enscription on the wall which says:
+
+          1    3    2    4
+          N    W    N    S
+
+This isn't too tough, so don't take it so rough.
+~
+#EXIT
+Direction  North~
+ToRoom     6548
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6546
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6544
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6548
+Name       Maze~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a maze.
+~
+#EXIT
+Direction  North~
+ToRoom     6549
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6548
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6547
+#ENDEXIT
+Reset M    6517 2 6548 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6549
+Name       Maze~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a maze.
+~
+#EXIT
+Direction  West~
+ToRoom     6550
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6548
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6548
+#ENDEXIT
+Reset M    6517 2 6549 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6550
+Name       Maze~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a maze.
+~
+#EXIT
+Direction  South~
+ToRoom     6552
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6549
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     6549
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6548
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6551
+Name       Mining equipment room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       This is the storage room for equipment used by the
+Dwarven miners.  It is very small, and you can tell that
+not many miners actually use any equipment.
+~
+#EXIT
+Direction  North~
+ToRoom     6544
+#ENDEXIT
+Reset O    6518 3 6551 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6552
+Name       Solved the Maze.~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You have solved the maze.  You can tell by the last few moves
+that there is no way that a dumb worker could have figured that
+out.  It seems pretty desolate here.  To the south is a bleak room.
+To the north, you see the maze.  There is a sign above the south exit:
+
+THOSE WHO ENTER, PLAN ON A TIMELY DEATH.
+(ESPECIALLY IF YOU'RE LOYAL TO THE QUEEN)
+~
+#EXIT
+Direction  North~
+ToRoom     6550
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6553
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6553
+Name       The Mazekeeper's Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the Mazekeeper's room.  There are pictures of
+the Queen with darts thrown in it.  Spraypainted on the wall are
+things like 'the queen shall suffer' and 'Catholics Rule'.
+~
+#EXIT
+Direction  North~
+ToRoom     6552
+#ENDEXIT
+Reset M    6516 1 6553 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

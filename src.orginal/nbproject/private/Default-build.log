@@ -1,0 +1,15 @@
+Building AFKMud....
+/usr/bin/gmake -j2 -s afkmud
+  Compiling o/act_comm.o....
+  Compiling o/imc.o....
+Assembler messages:
+Fatal error: can't create o/act_comm.o: Permission denied
+Assembler messages:
+Fatal error: can't create o/imc.o: Permission denied
+Makefile:172: recipe for target 'o/act_comm.o' failed
+gmake[1]: *** [o/act_comm.o] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+Makefile:172: recipe for target 'o/imc.o' failed
+gmake[1]: *** [o/imc.o] Error 2
+Makefile:109: recipe for target 'all' failed
+gmake: *** [all] Error 2

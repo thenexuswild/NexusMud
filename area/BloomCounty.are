@@ -1,0 +1,1164 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Bloom County~
+Author          Unknown~
+Vnums           1700 1739
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       15
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        1700
+Keywords   opus bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Opus~
+Long       Opus is here, eating large amounts of herring guts.
+~
+Desc       You see a small, fat , flightless waterfowl.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     4 10 4 57 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1701
+Keywords   bill cat bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Bill~
+Long       Bill the Cat is here, hacking up hairballs.
+~
+Desc       You see what looks like Garfield on acid.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     4 10 4 57 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   curse~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1702
+Keywords   milo bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Milo Bloom~
+Long       Milo Bloom is here, smelling the politics in the air.
+~
+Desc       You see a small, blonde lad of about 10 years old.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     4 12 6 45 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1703
+Keywords   mike bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Mike Binkley~
+Long       Mike Binkley is here, looking nervous.
+~
+Desc       You see a small, incredibly tense young boy. He holds a dandelion.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     4 12 6 45 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1704
+Keywords   portnoy rabbit bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Portnoy the Rabbit is standing here.~
+Long       Portnoy the Rabbit is here, humming a Judas Priest song.
+~
+Desc       You see a fluffy bunny.....with a cigarette.
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     4 10 4 57 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1705
+Keywords   baby infant purple spotted snorklewacker snorkie bloom~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Infant Purple Spotted Snorklewacker~
+Long       The Infant Snorklewacker is waiting for lunch.
+~
+Desc       You see a smaller version of that purple Behemoth we all know and love.
+Even though it's only a baby it looks like it will be a nasty opponent.
+~
+Nattacks   3.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     30 -10 -7 2000 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_hidden sanctuary curse~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1706
+Keywords   hodge podge hodge-podge hedgehog bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Hodge-Podge is standing here.~
+Long       Hodge-Podge is here, doing nothing in particular.
+~
+Desc       You see a hedgehog dressed as McCoy from Star Trek.
+~
+Nattacks   1.000000
+Stats1     350 0 60 100 150 250
+Stats2     4 10 4 57 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1707
+Keywords   steve dallas man bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Steve Dallas~
+Long       Steve Dallas is here, feeling manly.
+~
+Desc       You see a thirtyish man in front of you. He is wearing a HIDEOUS gold medallion upon his sunken, hairless chest.
+~
+Nattacks   1.000000
+Stats1     -350 0 60 100 150 250
+Stats2     5 5 1 190 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1708
+Keywords   oliver wendall jones boy hacker bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Oliver Wendall Jones~
+Long       Oliver Wendall Jones is here musing about the universe.
+~
+Desc       Oliver Wendall Jones, boy genius. Currently he is considering if he should
+take over the world or just simply blow it up.
+~
+Nattacks   1.000000
+Stats1     500 0 60 100 150 250
+Stats2     4 7 2 76 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1709
+Keywords   duck communist pinko red bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Communist Duck~
+Long       The Communist Duck is here, spouting propaganda.
+~
+Desc       You see a small duck here. Funny though.....he's red.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     3 14 7 35 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1710
+Keywords   clerk teenage cashier man bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Teenaged Clerk~
+Long       The Boo-Boo Burger clerk flips a slab of charred cow and says " So whaddya want?"
+~
+Desc       You see a pimply-faced teenaged boy.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     4 14 7 35 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1711
+Keywords   cutter john man bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Cutter John~
+Long       Cutter John is wheeling about merrily.
+~
+Desc       You see a man in a wheelchair , cruising about and mumbling about Warp Speed.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     4 5 1 190 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1712
+Keywords   tom binkley man father dad bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Tom Binkley~
+Long       Tom Binkley is here, wondering if he'll get a full night's sleep.
+~
+Desc       You see a tired man, worn out fron his son's endless celebrity gossip.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     5 0 -1 98 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   curse~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1713
+Keywords   limekiller bum man bloom~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Limekiller~
+Long       Limekiller is here in the bathroom, where he has been for a month now.
+~
+Desc       You see a typical street person. Why is he in the bathroom?
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     5 0 -1 98 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        1701
+Keywords   purple splinter bloom~
+Type       treasure~
+Short      A Purple Splinter~
+Long       A splinter of some purple crystal is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 15000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    hit 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1703
+Keywords   ugly gold medallion medal necklace amulet bloom~
+Type       treasure~
+Short      An ugly gold medallion~
+Long       Yuck! What a HIDEOUS gold medallion is here!~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 5000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    move 5 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        1700
+Name       On The Path to Bloom County~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        You have entered a land of trees and sun and dandelions. Where penguins talk,
+and young boys discuss politics with rabbits. The air is fresh and clean,
+and you know that this is a place you belong.
+ 
+~
+#EXIT
+Direction  East~
+ToRoom     1701
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1701
+Name       Off The Beaten Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        As you walk further along the road, you can see a large house in the nearby
+area. There are birds fluttering in the air, and small furry things frolicking
+at your feet. It is quite sunny, but not hot at all.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1702
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1700
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1702
+Name       Milo's Meadow~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        You walk into a sunny meadow, with rolling waves of grass around you. The
+house in front of you is becoming clearer, as you get closer...you think that
+you can make out a billboard
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1703
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1701
+#ENDEXIT
+Reset M    1711 1 1702 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1703
+Name       Milo's Meadow~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        The meadow only seems to get more mellow, as you wind your way lazily to the
+front porch of the house... You can almost read the Billboard now.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1704
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1713
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1702
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1714
+#ENDEXIT
+Reset M    1709 10 1703 -1 -1 -1 100
+Reset M    1709 10 1703 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1704
+Name       Milo's Meadow~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        As you come even closer to the house, you can finally read the (HUGE) sign that
+loo overhead. It reads simply :
+                   " Bloom Boarding House"
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1705
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1719
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1703
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1716
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1705
+Name       Milo's Meadow~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are on the last stretch of meadow before you reach the Boarding house.
+~
+#EXIT
+Direction  North~
+ToRoom     1706
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1704
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1706
+Name       On The Front Porch~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        This is a typical Mid-Midgaardian Middle (nice alliteration =)) front porch.
+There is a rocking chair, a porch swing, and a table with a pitcher of lemonade
+on it. There is also a fat bird eating herring guts here.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1707
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1705
+#ENDEXIT
+Reset M    1700 1 1706 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1707
+Name       In The Foyer~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the entryway to the Bloom Boarding House. There is a coatrack here, 
+as well as a bookshelf and an umbrella stand. There is also a flight of stairs
+heading up.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1708
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1736
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1706
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1720
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1708
+Name       In The Kitchen~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Funny, there is lots of food in here, but it all seems untouched....except for
+the COCKROACHES streaming everywhere!!!!
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1709
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1707
+#ENDEXIT
+Reset M    1707 1 1708 -1 -1 -1 100
+  Reset E  1703 1 3 100
+#ENDROOM
+
+#ROOM
+Vnum        1709
+Name       On The Back Porch~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        The soft glow of the back yard beckons to you as you stare out over it. It is
+warm here, and the birds chirp sweetly in the trees.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1710
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1708
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1710
+Name       In The Back Yard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        You begin to take on the radiant glow of the backyard here. You feel at ease,
+and comfortable, although it is getting slightly warmer.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1711
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1709
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1711
+Name       More Of The Back Yard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc        The bright glow of the purple grass overwhelms you, as do the two headed birds
+chirping in sweet harmony. You feel slightly ill....
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1712
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1710
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1712
+Name       In The Toxic Waste Dump.~
+Sector     indoors~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc       The blue grass, the orange sky, the barrels labeled DOW chemical.... they all
+instill a perfect sense of peace into you.
+ That is......until you start MELTING!
+~
+#EXIT
+Direction  South~
+ToRoom     1711
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1713
+Name       In The Dandelion Patch~
+Sector     field~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc       This is the single most pleasant area you have ever seen. Dandelions of all
+shapes and sizes fill the field, perfect for stomping when angry, or just
+sitting and blowing upon. You feel safe here.
+ 
+~
+#EXIT
+Direction  West~
+ToRoom     1703
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1714
+Name       Milo's Meadow~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Empty
+~
+#EXIT
+Direction  East~
+ToRoom     1703
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1715
+#ENDEXIT
+Reset M    1709 10 1714 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1715
+Name       By The Duck Pond~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Empty
+~
+#EXIT
+Direction  East~
+ToRoom     1714
+#ENDEXIT
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1709 10 1715 -1 -1 -1 100
+Reset M    1701 1 1715 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1716
+Name       Milo's Meadow~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The peaceful feeling stays with you, as you wander west....
+ 
+~
+#EXIT
+Direction  East~
+ToRoom     1704
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1717
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1717
+Name       A Gravel Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The ground abruptly changes from grass to rough gravel here. You can hear some
+sort of commotion to the west.
+ 
+~
+#EXIT
+Direction  East~
+ToRoom     1716
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1718
+#ENDEXIT
+Reset M    1710 1 1717 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1718
+Name       Boo-Boo Burger~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         AAAAUUUUUUUGGGGGHHHHH! The urge to have a (Delicious) Boo-Boo (SLURP!) Burger
+( MMMMM-MMMMMMM!) is almost overwhelming as the (MUNCH!) advertisements
+blast you from (MOAN!) all sides!!!!
+~
+#EXIT
+Direction  East~
+ToRoom     1717
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1719
+Name       Otis Oracle's Abode~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        This is the home of Otis Oracle, Bloom county's president (and only member, of
+) The Moral Majority. There are charred books and albums scattered about the
+floor, and a stack of bibles in the corner.
+ 
+~
+#EXIT
+Direction  West~
+ToRoom     1704
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1720
+Name       The Top Of The Stairs~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        You have reached the second floor of the Bloom household. There are bedrooms 
+all about you, and a bathroom to your east. A strange smell eminates from the
+south bedroom.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1724
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1723
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1721
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1722
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1707
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1721
+Name       Oliver Wendall Jones' Lab~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        Midgaard's latest technical advances are all on display here, as the house's
+resident boy-genius works on the latest way of scientifically imitating spell
+effects. The walls are charred here, and the floor is coated with a strange, 
+sticky substance.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1720
+#ENDEXIT
+Reset M    1708 1 1721 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1722
+Name       Tom Binkley's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        This is an ordinary middle class divorcee's bedroom, for an ordinary middle
+class divorcee. Of course, this ordinary man has a son that keeps him up all
+night with the latest celebrity gossip, but that's another story...
+ 
+~
+#EXIT
+Direction  East~
+ToRoom     1720
+#ENDEXIT
+Reset M    1712 1 1722 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1723
+Name       The Bathroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        This is a typical suburban bathroom. There is a toilet, a sink, a shower, and
+what might politely be called a "Transient" here.
+ 
+~
+#EXIT
+Direction  West~
+ToRoom     1720
+#ENDEXIT
+Reset M    1713 1 1723 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1724
+Name       The Upstairs Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        There are more rooms off of the hall here. You think you can see stairs off to the north...
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1727
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1725
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1720
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1726
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1725
+Name       Opus's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        Jeez....whoever decorated this room has no taste whatsoever... The colors 
+seem designed to clash, and the plaid/striped/polkadotted curtains do NOT help.
+You can smell the scent of stale herring guts.
+ 
+~
+#EXIT
+Direction  West~
+ToRoom     1724
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1726
+Name       The Bachelor Pad of Steve Dallas.~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         Wow.....the home of Bloom County's one confirmed bachelor is well...a mess,
+to be polite....there are clothes and porno magazines everywhere.
+ 
+~
+#EXIT
+Direction  East~
+ToRoom     1724
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1727
+Name       More Of The Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        There are more rooms off of this hallway, and stairs going up.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1731
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1728
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1724
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1730
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1732
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1728
+Name       Mike Binkley's Room~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc        This would be a normal small boy's room, if it weren't for the VAST amount of
+tabloids in here...there are posters of nearly every trashy hollywood star here.
+~
+#EXIT
+Direction  East~
+ToRoom     1729
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1727
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1729
+Name       THE ANXIETY CLOSET!!!~
+Sector     indoors~
+Flags      dark indoors private~
+Stats      0 0 0 0 0
+Desc       NO!!!!!!!! IT CAN'T......IT'S NOT!!!!!!!! NO! NO! NO!! AAAAAUUUUUGGGGGGHHHHH!!
+well.....it's not THE snorklewacker....but close enough...
+ 
+~
+#EXIT
+Direction  West~
+ToRoom     1728
+#ENDEXIT
+Reset M    1703 1 1729 -1 -1 -1 100
+Reset M    1705 1 1729 -1 -1 -1 100
+  Reset E  1701 2 17 100
+#ENDROOM
+
+#ROOM
+Vnum        1730
+Name       Milo Bloom's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        This room is filled from floor to ceiling with political materials for...er..
+the "Bloom County Meadow Party"......strange
+~
+#EXIT
+Direction  East~
+ToRoom     1727
+#ENDEXIT
+Reset M    1702 1 1730 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1731
+Name       Major Bloom's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        This room is decorated in a nice shade of....camouflage.... There are pictures
+of weapons everywhere, and a duck dartboard.....
+ 
+~
+#EXIT
+Direction  South~
+ToRoom     1727
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1732
+Name       In The Attic~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Empty
+~
+#EXIT
+Direction  East~
+ToRoom     1735
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1733
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1727
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1733
+Name       In the Attic~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Empty
+~
+#EXIT
+Direction  North~
+ToRoom     1732
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1734
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1734
+Name       In the Attic~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     1735
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1733
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1735
+Name       In The Attic~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     1734
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1733
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1736
+Name       In The living Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        This room is filled with comfortable furniture. There is a big squishy couch,
+a Love seat, and several end tables. You smell a rather foul odor coming from
+the north...
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     1737
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1707
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1737
+Name       In The Dining Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc        Well, you have found both sources of the foul odor. There is about a week's
+worth of uneaten food here that the cockroaches have gotten their grubby little
+appendages on, and a thin man in sunglasses, wearing FAR too much "Brut" in here.
+~
+#EXIT
+Direction  South~
+ToRoom     1736
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1738
+Name       On the Stairs To the Basement~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Up~
+ToRoom     1708
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1739
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1739
+Name       The Basement~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Up~
+ToRoom     1738
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

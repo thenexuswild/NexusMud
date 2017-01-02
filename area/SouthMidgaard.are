@@ -1,0 +1,1802 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Southern part of Midgaard~
+Author          Unknown~
+Vnums           3100 3301
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       40
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        3100
+Keywords   maid~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Maid~
+Long       The Maid is waiting for your order.
+~
+Desc       She is very beautiful with golden hair, and deep blue eyes.  A good reason
+for coming here more often, you think to yourself.
+~
+Nattacks   4.000000
+Stats1     1000 2000 60 100 150 250
+Stats2     33 0 -10 30000 1 0 22
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3120
+Keywords   sexton~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      the Sexton~
+Long       A Sexton is sitting here, drinking hot tea.
+~
+Desc       The Sexton looks like he is relaxing after another gravedigging job.
+~
+Nattacks   1.000000
+Stats1     800 13 60 100 150 250
+Stats2     3 18 7 35 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3121
+Keywords   swan~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the swan~
+Long       A swan is swimming around in the pond.
+~
+Desc       The white swan is very elegant.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     1 20 9 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3122
+Keywords   duckling~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the duckling~
+Long       A duckling is swimming around in the pond.
+~
+Desc       The duckling is adorable, it looks most of all like a tiny furball.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     0 20 10 0 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3123
+Keywords   sparrow~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the sparrow~
+Long       A sparrow is flapping around on the ground.
+~
+Desc       The sparrow looks like it is enjoying life.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     0 20 10 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3124
+Keywords   duck~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the duck~
+Long       A duck is here, quacking happily.
+~
+Desc       The duck is quite fat.  It looks like it is enjoying life.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     1 20 10 5 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3140
+Keywords   chief~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Chief Guard~
+Long       The Chief Guard is looking very upset.
+~
+Desc       A very angry chief.
+~
+Nattacks   2.000000
+Stats1     800 0 60 100 150 250
+Stats2     17 3 1 210 1 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3141
+Keywords   cityguard guard~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the upset cityguard~
+Long       A cityguard stands here, looking very upset.
+~
+Desc       A big, strong, angry guard.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     10 10 2 123 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3142
+Keywords   secretary~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Secretary~
+Long       A secretary is sitting at the desk, typing away on the typewriter.
+~
+Desc       She looks very busy.
+
+>
+The Secretary says 'Sorry, but the Mayor is extremely busy today.'
+The Secretary says 'Please sit down and have a seat in the meantime.'
+~
+Nattacks   2.000000
+Stats1     900 100 60 100 150 250
+Stats2     12 9 2 148 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3143
+Keywords   mayor~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     sleeping~
+Short      the Mayor~
+Long       The Mayor is sitting in his huge chair, snoring loudly.
+~
+Desc       He is a stocky, middle-aged man with thin, grey hair.
+~
+Nattacks   2.000000
+Stats1     1000 1000 60 100 150 250
+Stats2     24 0 -4 790 1 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3144
+Keywords   crier~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Town Crier~
+Long       The Town Crier is here, weeping quietly.
+~
+Desc       He is very good at his job - completely dissolved in tears.
+~
+Nattacks   1.000000
+Stats1     900 34 60 100 150 250
+Stats2     1 20 9 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        3100
+Keywords   tea cup~
+Type       drinkcon~
+Short      a cup~
+Long       A cup has been set here.~
+WFlags     take~
+Values     8 8 11 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  cup~
+ExDesc     It is a small simple cup.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3101
+Keywords   coffee cup~
+Type       drinkcon~
+Short      a cup~
+Long       A cup has been set here.~
+WFlags     take~
+Values     8 8 12 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  cup~
+ExDesc     It is a small simple cup.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3102
+Keywords   water cup~
+Type       drinkcon~
+Short      a cup~
+Long       A cup has been set here.~
+WFlags     take~
+Values     12 12 15 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  cup~
+ExDesc     It is a large simple cup.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3103
+Keywords   water bottle~
+Type       drinkcon~
+Short      a bottle~
+Long       A bottle of Evian natural spring water is here.~
+WFlags     take~
+Values     24 24 15 0 0 0 0 0 0 0 0
+Stats      1 6 0 9999 0 None None None
+#EXDESC
+ExDescKey  label bottle~
+ExDesc     You've been ripped off!  It says here at the bottom of the label, in really
+really small letters, "Bottled in the Midgaard branch of Evian Inc.  This
+water is from the natural, mostly clean River of Midgaard."
+It is a large, clean bottle.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3104
+Keywords   water canteen~
+Type       drinkcon~
+Short      a canteen~
+Long       A canteen has been set on the ground here.~
+WFlags     take~
+Values     80 80 15 0 0 0 0 0 0 0 0
+Stats      20 15 0 9999 0 None None None
+#EXDESC
+ExDescKey  canteen~
+ExDesc     It's a fairly big canteen.  Looks like it can hold a lot of liquid.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3120
+Keywords   key iron~
+Type       key~
+Short      a key~
+Long       An iron key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  key iron~
+ExDesc     The iron key is not special.  In fact, it's quite boring.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3121
+Keywords   key rusty~
+Type       key~
+Short      a key~
+Long       A rusty key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  key rusty~
+ExDesc     The key is a fairly large rusty key.  You notice a lot of dirt it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3122
+Keywords   key wooden~
+Type       key~
+Short      a key~
+Long       A wooden key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  key wooden~
+ExDesc     The wooden key is not special.  In fact it's just about the most boring key
+you've ever seen in your life.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3123
+Keywords   key brass~
+Type       key~
+Short      a key~
+Long       A brass key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  key brass~
+ExDesc     The brass key is small and looks like it fits a very complicated lock.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3130
+Keywords   desk drawer~
+Type       container~
+Short      the desk~
+Long       A desk is set against the western wall.~
+Action     The desk looks very sparse, there is a drawer in the left side.
+~
+Values     34 15 3122 10 0 3122 0 0 0 0 0
+Stats      100 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  drawer~
+ExDesc     You notice a keyhole in the drawer.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3131
+Keywords   safe~
+Type       container~
+Short      the safe~
+Long       A safe is placed in a dark corner of the room.~
+Action     The safe has a keyhole.
+~
+Values     34 15 3123 10 0 3123 0 0 0 0 0
+Stats      999 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  safe~
+ExDesc     The safe is very heavy.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3132
+Keywords   gold coins~
+Type       money~
+Short      the gold~
+Long       A lot of gold is here.~
+Action     Looks like at least 10,000 coins.
+~
+WFlags     take~
+Values     32385 0 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        3133
+Keywords   city key~
+Type       key~
+Short      the City Key~
+Long       The very big City Key is lying here.~
+Action     It is probably the biggest key you have seen in your life.  It is made from
+polished gold and has various patterns on it along with the Midgaard Coat of
+Arms.
+~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      30 500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        3134
+Keywords   bench~
+Type       treasure~
+Short      the Bench~
+Long       A white-painted wooden bench is standing here.~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      100 200 0 9999 0 None None None
+#EXDESC
+ExDescKey  bench~
+ExDesc     It is a quite heavy but very comfortable bench.  It is placed with its front
+towards the river so you can sit and watch the river and the houses on the
+other side.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3135
+Keywords   fountain~
+Type       fountain~
+Short      a fountain~
+Long       A small white fountain is standing here, gurgling happily.~
+Values     99999 99999 0 0 0 0 0 0 0 0 0
+Stats      500 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  fountain~
+ExDesc     It is very nice.  Made from fine white marble.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3136
+Keywords   coins gold~
+Type       money~
+Short      a small pile of gold coins~
+Long       A small pile of gold coins lies here.~
+WFlags     take~
+Values     37 0 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        3300
+Keywords   key metal~
+Type       key~
+Short      a metal key~
+Long       A small metal key has been dropped here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  key metal~
+ExDesc     You notice 'My Cottage' has been inscribed on the key.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3301
+Keywords   key brass~
+Type       key~
+Short      a brass key~
+Long       An old brass key has been dropped here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  key brass~
+ExDesc     It looks as if it is very old.  There are some small marks on it as if
+somebody with tiny (but strong!) teeth has been biting a lot in it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#ROOM
+Vnum        3100
+Name       Northwest end of Concourse~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the concourse, the city wall is just west.  A small promenade
+goes east, and the bridge is just north of here.  The concourse continues
+south along the city wall.
+~
+#EXIT
+Direction  North~
+ToRoom     3051
+Desc       You see the Bridge.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3101
+Desc       You see the promenade.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3127
+Desc       The promenade continues far south.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3101
+Name       Promenade~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The river gently flows west just north of here.  The promenade continues
+further east and to the west you see the city wall.  Park Road leads south
+from here.
+~
+#EXIT
+Direction  East~
+ToRoom     3102
+Desc       The promenade.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3131
+Desc       Park Road leads south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3100
+Desc       You see the Concourse.
+~
+#ENDEXIT
+Reset O    3134 3 3101 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3102
+Name       Promenade~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The river gently flows west just north of here.  The promenade continues
+both east and west.  South of here you see the entrance to the park, and a
+small building seems to be just west of the entrance.
+~
+#EXIT
+Direction  East~
+ToRoom     3103
+Desc       You see the promenade.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3105
+Desc       You see the park entrance.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3101
+Desc       You see the promenade.
+~
+#ENDEXIT
+Reset O    3134 3 3102 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3103
+Name       Promenade~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The river gently flows west just north of here.  The promenade continues
+both east and west.  A small path leads south.  Looking across the river you
+see the levee.
+~
+#EXIT
+Direction  East~
+ToRoom     3104
+Desc       You see the Concourse.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3132
+Desc       The small path leads south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3102
+Desc       You see the promenade.
+~
+#ENDEXIT
+Reset O    3134 3 3103 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3104
+Name       Northeast end of Concourse~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the Concourse.  The city wall is just east and a small
+promenade goes west.  Looking across the river you see a building that
+resembles a warehouse.  The Concourse continues south along the city wall.
+~
+#EXIT
+Direction  South~
+ToRoom     3130
+Desc       The Concourse continues south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3103
+Desc       You see the promenade.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  wall~
+ExDesc     It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3105
+Name       Park Entrance~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are standing just inside the small park of Midgaard.  To the north is
+the promenade and a small path leads south into the park.  To your east is
+the famous Park Cafe.
+~
+#EXIT
+Direction  North~
+ToRoom     3102
+Desc       You see the promenade.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3106
+Desc       You see Park Cafe.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3108
+Desc       You see the park.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3106
+Name       Park Cafe~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are inside Park Cafe, a very cozy place with many tables and seats
+where you can relax and enjoy the view.  To the east you can see the 
+entrance to the park.
+~
+#EXIT
+Direction  West~
+ToRoom     3105
+Desc       You see the park entrance.
+~
+#ENDEXIT
+Reset M    3100 1 3106 -1 -1 -1 100
+  Reset G  3100 500 100
+  Reset G  3101 500 100
+  Reset G  3102 500 100
+Reset M    3068 4 3106 -1 -1 -1 100
+Reset M    3120 1 3106 -1 -1 -1 100
+  Reset G  3121 2 100
+#ENDROOM
+
+#ROOM
+Vnum        3107
+Name       Small path through the park~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking along a small path through the park.  The path continues
+south and east.
+~
+#EXIT
+Direction  East~
+ToRoom     3108
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3113
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3108
+Name       Small path in the park~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a small path inside the park.  The park entrance is
+just north of here, and Park Cafe is just east of the entrance.  The path
+leads further east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     3105
+Desc       You see the northern park entrance.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3109
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3107
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3109
+Name       Small path in the park~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path running through the park.  It continues west and
+south and just north of here you see the southern wall of Park Cafe.
+~
+#EXIT
+Direction  South~
+ToRoom     3115
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3108
+#ENDEXIT
+Reset M    3123 1 3109 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3110
+Name       Cityguard Headquarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are inside a tidy office.
+~
+#EXIT
+Direction  East~
+ToRoom     3111
+Key        3120
+Desc       You see the park road.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    3140 1 3110 -1 -1 -1 100
+  Reset G  3122 2 100
+Reset M    3141 4 3110 -1 -1 -1 100
+Reset M    3141 4 3110 -1 -1 -1 100
+Reset M    3141 4 3110 -1 -1 -1 100
+Reset M    3141 4 3110 -1 -1 -1 100
+Reset O    3130 1 3110 -1 -1 -1 100
+  Reset P  0 3123 1 3130 100
+Reset O    3131 1 3110 -1 -1 -1 100
+  Reset P  0 3132 1 3131 100
+Reset D    3110 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3111
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The road continues north and south.  A building is just west of here, you
+notice a sign on the door.  The park entrance is to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     3131
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3112
+Desc       You see the park entrance.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3118
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3110
+Key        3120
+Desc       You see the cityguard head quarters.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    3060 20 3111 -1 -1 -1 100
+  Reset E  3022 100 16 100
+  Reset G  3120 2 100
+Reset M    3060 20 3111 -1 -1 -1 100
+  Reset E  3022 100 16 100
+Reset M    3060 20 3111 -1 -1 -1 100
+  Reset E  3022 100 16 100
+Reset M    3060 20 3111 -1 -1 -1 100
+  Reset E  3022 100 16 100
+Reset D    3111 3 2 100 -2
+#EXDESC
+ExDescKey  building door sign~
+ExDesc     The sign on the door says:-
+
+                 Cityguard Head Quarters
+
+           WARNING: Authorized Personnel Only!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3112
+Name       Western Park Entrance~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are standing at the western end of the park.  A small path leads east
+into the park and going west through the entrance you will reach Park Road.
+~
+#EXIT
+Direction  East~
+ToRoom     3113
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3111
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3113
+Name       A path in the park~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in the park.  The paths lead north and west.  Westward is the
+park entrance and to the east you see a small pond.
+~
+#EXIT
+Direction  North~
+ToRoom     3107
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3114
+Desc       You see the pond.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3112
+Desc       You see the western park entrance.
+~
+#ENDEXIT
+Reset M    3124 2 3113 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3114
+Name       The Pond~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are swimming around in the pond, feeling rather stupid.  You can get
+back on the path from the eastern and western end of the pond.
+~
+#EXIT
+Direction  East~
+ToRoom     3115
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3113
+#ENDEXIT
+Reset M    3121 1 3114 -1 -1 -1 100
+Reset M    3122 1 3114 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3115
+Name       A path in the park~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in the park.  The paths lead north and east.  Eastward is the
+park entrance and to the west you see a small pond.
+~
+#EXIT
+Direction  North~
+ToRoom     3109
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3116
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3114
+#ENDEXIT
+Reset M    3124 2 3115 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3116
+Name       Eastern Park Entrance~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are standing at the eastern end of the park.  A small path leads west
+into the park.  Going east through the entrance you will reach Emerald
+Avenue.
+~
+#EXIT
+Direction  East~
+ToRoom     3117
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3115
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3117
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on the north end of Emerald Avenue.  To the north is the
+promenade and to the west is the park entrance.  To the east is the not very
+big Town Hall of Midgaard.
+~
+#EXIT
+Direction  North~
+ToRoom     3132
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3137
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3119
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3116
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3118
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Park Road which leads north and south.
+A cottage is just east of here.
+~
+#EXIT
+Direction  North~
+ToRoom     3111
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3300
+Key        3300
+Desc       You see a small cottage with an oaken door.  A name plate has been set on it.~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3135
+#ENDEXIT
+#EXDESC
+ExDescKey  plate name~
+ExDesc     The name 'Papi Llon' has been carved into the name plate.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3119
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at a bend on Emerald Avenue.  The road leads north and
+west.
+~
+#EXIT
+Direction  North~
+ToRoom     3117
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3133
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3120
+Name       Road Crossing~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in the middle of the road cross.  Roads lead in all directions.
+A huge black iron chain as thick as a tree trunk is fastened into the ground
+at the center of the road cross.  Its other end leads directly upwards towards
+the sky.
+A road sign is here.
+~
+#EXIT
+Direction  North~
+ToRoom     3133
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3136
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3134
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3135
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1000
+Desc       The chain disappears in the clouds.~
+#ENDEXIT
+Reset M    3144 1 3120 -1 -1 -1 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     The sign points in all directions:
+
+   North - Emerald Avenue.
+   East  - Park Road.
+   South - Emerald Avenue.
+   West  - Park Road.
+
+Someone has added the following with red paint:
+
+   Up    - Redferne's Flying Citadel.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  chain~
+ExDesc     The chain reaches the clouds high above you.  It must take some really
+powerful magic to hold such a chain in place.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3121
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at a bend on Emerald Avenue.  The road leads south and
+east.
+~
+#EXIT
+Direction  East~
+ToRoom     3134
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3125
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3122
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Park Road which leads south and north.  Elm Street is east of
+here.
+~
+#EXIT
+Direction  North~
+ToRoom     3136
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3123
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3126
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3123
+Name       Elm Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Elm street.  Park Road is to the west and Elm Street continues
+in eastward direction.
+~
+#EXIT
+Direction  East~
+ToRoom     3124
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3122
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3124
+Name       End of Elm Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the end of Elm Street.
+An old elm tree grows here.
+~
+#EXIT
+Direction  West~
+ToRoom     3123
+#ENDEXIT
+#EXDESC
+ExDescKey  elm tree~
+ExDesc     The fresh young leaves of the elm tree wave gently in the wind.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3125
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Emerald Avenue which continues north.  The Concourse is south
+of here.
+~
+#EXIT
+Direction  North~
+ToRoom     3121
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3128
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3126
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Park Road which continues north.  The Concourse is south of
+here.
+An old two-story house is to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     3122
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1000
+Key        3301
+Desc       A heavy oaken door is to the east.~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3129
+#ENDEXIT
+#EXDESC
+ExDescKey  house~
+ExDesc     The house is obviously very old and needs painting.  The heavy oaken door is
+equipped with a brass door knocker shaped as a goblin's head.  No name plate
+is to be seen anywhere.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  door knocker~
+ExDesc     As you look at it, the goblin door knocker comes alive!
+
+The head splutters 'Tiz iz da houze uff Kwiff...  Kuiffe...  Qwiff...  Erhm...'
+The head splutters 'Quiff...  Quiffil...  Ne'er mind!  Quiffy livez ere!'
+
+It opens its mouth wide and gobbles 'Unlokk me!'
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3127
+Name       On the Concourse~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the southwest corner of the city wall.  The Concourse leads
+both north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     3100
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3128
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3128
+Name       On the Concourse~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Concourse continues both east and west.  Emerald Avenue is north of
+here.
+~
+#EXIT
+Direction  North~
+ToRoom     3125
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3129
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3127
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3129
+Name       On the Concourse~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Concourse continues both east and west.  Park Road is north of here
+and an iron grate leads south to the graveyard.
+~
+#EXIT
+Direction  North~
+ToRoom     3126
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3130
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3400
+Key        3121
+Desc       Through the solid iron bars you see the graveyard.
+~
+Keywords   grate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3128
+#ENDEXIT
+Reset D    3129 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3130
+Name       On the Concourse~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the southeast corner of the city wall.  The Concourse leads
+both north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     3104
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3129
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3131
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at Park Road which continues north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     3101
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3111
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3132
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at Emerald Avenue which continues north and south.  Penny Lane leads
+east from here.
+~
+#EXIT
+Direction  North~
+ToRoom     3103
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3139
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3117
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3133
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at a bend on Emerald Avenue.  To the east the road goes on
+and to the south is the Road Crossing.
+~
+#EXIT
+Direction  East~
+ToRoom     3119
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3134
+Name       Emerald Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at a bend on Emerald Avenue.  To the west the road goes on
+and to the north is the Road Crossing.
+~
+#EXIT
+Direction  North~
+ToRoom     3120
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3121
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3135
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at a bend on Park Road.  To the north the road goes on and to the
+east is the Road Crossing.
+~
+#EXIT
+Direction  North~
+ToRoom     3118
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3136
+Name       Park Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at a bend on Park Road.  To the south the road goes on and to the
+west is the Road Crossing.
+~
+#EXIT
+Direction  South~
+ToRoom     3122
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3137
+Name       The Waiting Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in the waiting room at the town hall.  Wooden chairs stand
+along the walls and a long desk with a typewriter is placed in the middle of
+the room.
+~
+#EXIT
+Direction  East~
+ToRoom     3138
+Desc       It looks like some kind of office.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3117
+Desc       The exit west leads to Emerald Avenue.
+~
+#ENDEXIT
+Reset M    3142 1 3137 -1 -1 -1 100
+#EXDESC
+ExDescKey  chair chairs~
+ExDesc     Not the very least comfortable.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  desk~
+ExDesc     An extremely heavy desk.  It is so large that it doesn't even need drawers.
+Everything can be stored on its top.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  typewriter~
+ExDesc     It is an ancient Quifatronic T-1000 mk I.  These machines are known for their
+incredible durability, and for their even more incredible weight.  They make
+a Cray II look like a laptop.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3138
+Name       The Mayor's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in the not very big office of the Mayor of Midgaard.  A large and
+polished but completely empty desk is standing in front of an armchair that
+looks so comfortable that it most of all resembles a bed with the head end
+raised slightly.
+~
+#EXIT
+Direction  West~
+ToRoom     3137
+Desc       The waiting room is to the west.
+~
+#ENDEXIT
+Reset M    3143 1 3138 -1 -1 -1 100
+  Reset E  3133 1 17 100
+#EXDESC
+ExDescKey  desk~
+ExDesc     This desk is obviously very old.  Nevertheless it looks as if has never been
+used.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  chair armchair~
+ExDesc     This chair is really a masterpiece.  A chair where one can sit as comfortably
+as in a bed.  All auditoriums should be equipped with these things.  A shame
+that there wouldn't be room for the students too, though.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3139
+Name       Penny Lane~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane
+continues in eastward direction.
+~
+#EXIT
+Direction  East~
+ToRoom     3140
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3132
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3140
+Name       Penny Lane~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Penny Lane.  The narrow road continues north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     3141
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3139
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3141
+Name       End of Penny Lane~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the end of Penny Lane.  The only exit appears to be south.
+~
+#EXIT
+Direction  South~
+ToRoom     3140
+#ENDEXIT
+Reset O    3135 1 3141 -1 -1 -1 100
+Reset O    3136 1 3141 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3200
+Name       Under the Bridge~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The arch under the bridge is covered by seaweed for one foot above the
+surface of the river.  The water gently flows through an opening in the lower
+part of the city wall.
+~
+#EXIT
+Direction  East~
+ToRoom     3201
+#ENDEXIT
+#EXDESC
+ExDescKey  wall~
+ExDesc     It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  Looks pretty solid.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3201
+Name       On the River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          North of here you see the miserable buildings of the poor alley.  The
+river flows west towards the bridge.  The riverbanks are too steep to climb.
+~
+#EXIT
+Direction  East~
+ToRoom     3202
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3200
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3202
+Name       On the River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          North of here you see the dump.  The river flows from east to west.  The
+riverbanks are too steep to climb.
+~
+#EXIT
+Direction  East~
+ToRoom     3203
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3201
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3203
+Name       On the River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The levee is directly north of here.  The river flows in an east west
+direction.
+~
+#EXIT
+Direction  North~
+ToRoom     3049
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3204
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3202
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3204
+Name       On the River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You see the warehouse on the northern riverbank.  East of here you see the
+city wall.  The river flows west towards the levee.
+~
+#EXIT
+Direction  East~
+ToRoom     3205
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3203
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3205
+Name       On the River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The river enters from a hole in the eastern city wall.  The hole has been
+blocked by several vertically positioned iron bars set into the wall.
+~
+#EXIT
+Direction  East~
+ToRoom     5001
+Desc       The iron bars make it impossible to pass through the hole in the wall.
+Beyond the bars you see the great plains.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3204
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3300
+Name       Papi's Cozy Cottage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are inside Papi's living room, a light room at around three by four
+t(meters in size.  The nicely carved oaken front door is set in the middle of
+the western wall, just between two windows.  A small fire crackles in the
+fireplace which is set against the northern wall.
+~
+#EXIT
+Direction  West~
+ToRoom     3118
+Key        3300
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,3495 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Sea Elf Kingdom~
+Author          Unknown~
+Vnums           8100 8206
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        The water stirs.~
+ResetFreq       55
+Flags           noscry~
+Treasure        20 74 85 93 20 50 60 75
+Climate         2 2 2
+#ENDAREADATA
+
+#MOBILE
+Vnum        8100
+Keywords   elf guard m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Sea Elf Guard~
+Long       A fierce Sea Elf blocks your way!
+~
+Desc       Dressed in sharkhide and seashell armor, this Sea Elf stands ready to
+protect the Sea Elf Palace from all trespassers.  Gripped in his
+fiercely determined hands is an adamantite tipped trident.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     61 -11 -5 2900 9 3 15
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   detect_invis iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8101
+Keywords   selkie princess m081~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Visiting Selkie Princess~
+Long       The visiting Selkie Princess is here.
+~
+Desc       Webbed feet and hands do not detract from this creature's beauty. Long
+silky hair and lithe athletic figure make this woman both an incredible
+woman and an incredible fighter.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     61 -15 -5 4750 5 5 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8102
+Keywords   selkie bodyguard m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Selkie Bodyguard~
+Long       The Selkie Bodyguard is here.
+~
+Desc       The muscular selkie stands beside his princess protecting both
+her life and her luscious limb. A strange looking knife is sheathed
+on his seaweed belt.
+~
+Nattacks   4.000000
+Stats1     1000 8 60 100 150 250
+Stats2     61 -10 -5 5250 8 4 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8103
+Keywords   drow spy m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Drow Spy~
+Long       An odd-acting Sea Elf is here.
+~
+Desc       This strange Sea Elf acts very oddly. As if.......Wait a minute...
+The illusion wavers and in your midst is a DROW SPY!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -13 -5 4250 6 5 16
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis iceshield sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8104
+Keywords   magister mage elf m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Great Sea Elf Mage~
+Long       In amber-coloured robes the Great Sea Elf Mage begins to cast a spell.
+~
+Desc       Dressed in rich amber robes this venerable sea elf mage shows
+great wisdom and has vertible aura of power about him.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     32 -15 -6 6750 8 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8105
+Keywords   elf priestess m081~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Sea Elf Priestess~
+Long       The Sea Elf Priestess blesses you.
+~
+Desc       Clothed in snow-white robes of office, this most holy sea elf
+worships her goddess Umbrlee with all the fervor and passion of
+a truly devoted cleric.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     62 -10 -6 4500 7 5 12
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8106
+Keywords   queen sea elf m081~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Sea Elf Queen~
+Long       The regal Sea Elf Queen is sitting here.
+~
+Desc       The Sea Elf Queen is one of the most beautiful creatures in the world.
+Long black tresses combined with sparkling green eyes is enough to drive
+most men (of any race) to giddiness.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     65 -15 92 6500 8 4 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8107
+Keywords   king sea elf m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Sea Elf King~
+Long       The Sea Elf King is sitting on an Opal Throne.
+~
+Desc       Warrior, scholar, adventurer, and finally King. The elf has seen
+and done more than you will ever do no matter how long your lifespan
+is. Even though the King is a warrior no more he has kept in good
+shape and looks like he would be more than a match for you.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     35 -15 92 7500 8 5 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8108
+Keywords   maiden sea elf m081~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Sea Elf Maiden~
+Long       A beautiful sea elf maiden is cleaning this chamber.
+~
+Desc       Long of limb, soft silky skin with those adorable almond shape eyes makes
+this wisp of a woman quite ravishing.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     60 0 4 4400 5 4 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8109
+Keywords   guard dolphin were m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Were-Dolphin Guard~
+Long       A Were-Dolphin is guarding this room.
+~
+Desc       You see a man with webbed feet and hands, however this does not stop
+him from being very imposing. Especially since he has a very large
+and very deadly spiked net in his hands.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     61 -15 -5 4000 9 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   detect_invis iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8110
+Keywords   shark tiger m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Tiger Shark~
+Long       A Tiger Shark is circling you.
+~
+Desc       This long and powerful creature is quite capable of rending the
+flesh from your body in a quick snap of its great jaws.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 5250 8 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8111
+Keywords   shark white great m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Great White Shark~
+Long       A gigantic shark rises up before you.
+~
+Desc       Its extra thick hide is covered with sharp ridges which makes it
+almost impervious to all physical attacks. Let's not forget the twin
+sets of razor sharp teeth!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 5250 8 4 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8112
+Keywords   shark hammerhead m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Hammerhead Shark~
+Long       The shark glides across the ocean floor.
+~
+Desc       You face yet another predator of the depths!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 4850 8 4 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8113
+Keywords   shark mako m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Mako Shark~
+Long       You encounter the Mako Shark!
+~
+Desc       One of the deadliest sharks in the world. It is reknown for its great
+jaws which can penetrate almost any armor with those great piercing teeth.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 5250 8 5 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8114
+Keywords   shark lemon m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Lemon Shark~
+Long       A shark swims toward you.
+~
+Desc       Perhaps not the most deadly of the sharks but this great beast
+still can wreck havoc upon your body.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 4650 8 4 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8115
+Keywords   cleric saughin m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Saughin Cleric~
+Long       The Saughin Cleric begins a death chant.
+~
+Desc       One of the most vile races of the undersea kingdom this vicious
+humonid worships the God Talos and would just love to dedicate
+your blood to his altar.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 4500 9 4 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8116
+Keywords   warrior saughin m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Saughin Warrior~
+Long       The Saughin Warrior bares his poisoned spear at you!
+~
+Desc       This fierce warrior enjoys the taste of blood more than the sweet
+satisfaction of knowing he has killed another air-breather!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 5500 9 4 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8117
+Keywords   sailor undead m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The undead sailor~
+Long       One of the cursed crew is here.
+~
+Desc       This poor soul has been cursed to a life of undeath and evil.
+As the flesh slowly rots off its sodden carcass he reaches out to
+you in an effort to tear your heart from your body!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -15 -5 4750 7 5 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8118
+Keywords   spectre cursed captain m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Cursed Captain~
+Long       A very undead monster ready to kill you is here!
+~
+Desc       Cursed by the Gods for his incompetence and cruelty the Captain
+of this ship is forced to spend eternity guarding this ship
+now filled with salty brine and undead cargo!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     65 -15 -8 6250 5 8 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary curse iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8119
+Keywords   sea snake m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Sea Snake~
+Long       The Sea Snake is slithering on the ocean floor.
+~
+Desc       It is quite similar to it's land/air breathing cousins.... Long
+with mottled scales and very sharp poisonious fangs.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     61 -15 -5 3500 5 6 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8120
+Keywords   crab giant m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Giant Crab~
+Long       The Giant Crab scuttles across the ocean floor.
+~
+Desc       Huge pincers are ready to tear you limb from limb.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     61 -15 -5 4500 4 5 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8121
+Keywords   anenome sea m081~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Sea Anenome~
+Long       The Sea Anenome's tetacles wave back and forth.
+~
+Desc       This creature has many tentacles with which to poison you!
+Beautiful colours swirl within its body.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     61 -15 -5 4500 4 7 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   detect_invis iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8122
+Keywords   silverbow m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Silverbow the Arms Smith~
+Long       Silverbow the Arms Smith is waiting for damaged weapons.
+~
+Desc       This ancient (by human standard ---) only 200 years) elf
+is one of the most skilled and talented smiths in all the world.
+Right now he is working on a Holy Avenger sword but I'm sure he
+would be more than willing to help you.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     34 -20 -8 6250 8 5 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8123
+Keywords   general elf sea m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Sea Elf General~
+Long       A powerful looking sea elf is looking over some maps here.
+~
+Desc       This Sea Elf is in charge of the great sea elf army and palace guard
+units. he will stop at nothing to destroy the Saughin from the face
+of the earth!
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     34 -15 -8 6750 8 5 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8124
+Keywords   elfeater m081~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Elfeater~
+Long       Elfeater the Sea Demon is here!
+~
+Desc       This is a disgusting creature created by the God Talos to destroy
+and wreck havoc upon the Elven Race. This towering demon is poly-
+pedal and has dozens of tentacles. The great gaping maw lies ready
+to consume anything that crosses its path!
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     61 -11 -5 3900 5 9 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8125
+Keywords   mermaid m081~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a mermaid~
+Long       A lovely Mermaid is singing here.
+~
+Desc       This beautiful woman has the body of a fish.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     61 1 -5 3400 4 5 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        8100
+Keywords   knife strange o081~
+Type       weapon~
+Short      the Strange Knife~
+Long       A glowing knife is lying on the floor.~
+Flags      glow antievil~
+WFlags     take wield~
+Values     5 5 4 6 0 0 0 0 0 0 0
+Stats      10 19999 0 9999 0 None None None
+AffData    Dexterity 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8101
+Keywords   spear talos o081~
+Type       weapon~
+Short      the Spear of Talos~
+Long       A large spear with an unearthly green sheen is lying here.~
+Flags      magic antigood antineutral~
+WFlags     take wield~
+Values     5 4 4 6 0 0 0 0 0 0 0
+Stats      10 15700 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit -30 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8102
+Keywords   net spiked o081~
+Type       weapon~
+Short      the Spiked Net~
+Long       A net with sharp coral tips is lying on the floor.~
+Flags      antievil antineutral~
+WFlags     take wield hold~
+Values     4 4 4 6 0 0 0 0 0 0 0
+Stats      24 10000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Strength -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8103
+Keywords   bracers glowing o081~
+Type       armor~
+Short      a pair of glowing bracers~
+Long       A pair of bracers that seem to always be in flux is on the ground.~
+Flags      magic antievil antineutral~
+WFlags     take arms~
+Values     28 28 0 0 0 0 0 0 0 0 0
+Stats      5 70000 0 9999 0 None None None
+AffData    move 25 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8104
+Keywords   sceptre jewelled o081~
+Type       light~
+Short      a Jewelled Sceptre~
+Long       A gem encrusted sceptre lies here.~
+Flags      glow antievil antineutral~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      10 100000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8105
+Keywords   mace talos o081~
+Type       weapon~
+Short      the Mace of Talos~
+Long       A blood-encrusted mace with strange black markings lies here.~
+Flags      glow magic antigood antineutral~
+WFlags     take wield~
+Values     5 4 6 6 0 0 0 0 0 0 0
+Stats      24 50000 0 9999 0 None None None
+AffData    hit -30 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8106
+Keywords   pearl black o081~
+Type       light~
+Short      a black pearl~
+Long       A shimmering black pearl lies here unoticed.~
+Flags      glow antineutral~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 19000 0 9999 0 None None None
+AffData    save_spell -2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8107
+Keywords   plate breast glowing o081~
+Type       armor~
+Short      a glowing breast plate~
+Long       A glowing breast plate is lying here.~
+Flags      glow antievil antineutral~
+WFlags     take body~
+Values     32 32 0 0 0 0 0 0 0 0 0
+Stats      25 80000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8108
+Keywords   gauntlets glowing o081~
+Type       armor~
+Short      a pair of glowing gauntlets~
+Long       A pair of glowing gauntlets are left carelessly on the ground.~
+Flags      glow hum antievil antineutral~
+WFlags     take hands~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      10 10000 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8109
+Keywords   armplates arm plates glowing~
+Type       armor~
+Short      some arm plates~
+Long       Some glowing arm plates~
+Flags      glow antievil antineutral~
+WFlags     take arms~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      10 15000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    hit 5 -1 -1 0
+AffData    mana 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8110
+Keywords   legplates leg plates glowing o081~
+Type       armor~
+Short      some glowing leg plates~
+Long       There are some glowing leg plates lying on the ground.~
+Flags      glow antievil antineutral~
+WFlags     take legs~
+Values     35 35 0 0 0 0 0 0 0 0 0
+Stats      10 19000 0 9999 0 None None None
+AffData    move 25 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8111
+Keywords   visor glowing o081~
+Type       armor~
+Short      A Glowing Visor~
+Long       A shimmering visor blinks in and out of reality here.~
+Flags      glow antievil antineutral~
+WFlags     take head~
+Values     34 34 0 0 0 0 0 0 0 0 0
+Stats      15 50000 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8112
+Keywords   comb coral key k081~
+Type       key~
+Short      a coral comb~
+Long       A beautiful coral comb is lying on the ground.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8113
+Keywords   trident glowing o081~
+Type       weapon~
+Short      a glowing trident~
+Long       A glowing trident lies on the floor.~
+Flags      glow magic antievil antineutral~
+WFlags     take wield~
+Values     5 5 6 6 0 0 0 0 0 0 0
+Stats      22 175000 0 5 0 None None None
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8114
+Keywords   ring coral o081~
+Type       treasure~
+Short      a coral ring~
+Long       A coral ring is under a some debris here.~
+Flags      glow antievil~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 45000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8115
+Keywords   tooth shark o081~
+Type       weapon~
+Short      a shark's tooth~
+Long       A large shark's tooth lies here.~
+Flags      antigood antineutral~
+WFlags     take wield~
+Values     5 8 4 6 0 0 0 0 0 0 0
+Stats      15 100000 0 5 0 None None None
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8116
+Keywords   hide shark o081~
+Type       armor~
+Short      shark hide~
+Long       Some shark hide lies on the ground.~
+Flags      antigood antineutral~
+WFlags     take waist~
+Values     35 35 0 3 0 0 0 0 0 0 0
+Stats      10 55000 0 5 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Dexterity 2 -1 -1 0
+AffData    hit 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8117
+Keywords   stone flash o081~
+Type       light~
+Short      the Flash Stone~
+Long       A glowing stone lies on the ground.~
+Flags      glow antievil antineutral~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 10000 0 10 0 None None None
+AffData    Intelligence 2 -1 -1 0
+AffData    save_all -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8118
+Keywords   crown opal o081~
+Type       armor~
+Short      the Opal Crown~
+Long       A beautiful Opal Crown lies on the ground.~
+Flags      glow hum magic antievil antineutral~
+WFlags     take head~
+Values     35 35 0 0 0 0 0 0 0 0 0
+Stats      2 25000 0 10 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    Wisdom 2 -1 -1 0
+AffData    hitroll -1 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8119
+Keywords   sabre night o081~
+Type       weapon~
+Short      the Night Sabre~
+Long       A huge jet-black sabre is lying on the floor.~
+Flags      magic antigood antineutral~
+WFlags     take wield~
+Values     5 4 8 1 0 0 0 0 0 0 0
+Stats      23 80000 0 5 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Intelligence -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8120
+Keywords   belt snakeskin o081~
+Type       treasure~
+Short      a snakeskin belt~
+Long       A long wrap of snakeskin lies on the ground.~
+WFlags     take waist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 8500 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+AffData    hit 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8121
+Keywords   sandals seaweed o081~
+Type       armor~
+Short      a pair of seaweed sandals~
+Long       A pair of seaweed sandals are abandoned here.~
+WFlags     take feet~
+Values     22 22 0 0 0 0 0 0 0 0 0
+Stats      1 5000 0 10 0 None None None
+AffData    move 50 -1 -1 0
+AffData    mana 15 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8122
+Keywords   armlet gods o081~
+Type       treasure~
+Short      the Armlet of the Gods~
+Long       A blinding white armlet hangs in mid-air!~
+Flags      magic~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 1000000 0 8 0 None None None
+AffData    Strength -2 -1 -1 0
+AffData    damroll -3 -1 -1 0
+AffData affected  'sanctuary' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8123
+Keywords   amulet pearl key k081~
+Type       key~
+Short      A pearl amulet~
+Long       A pearl amulet lies on the ground.~
+WFlags     take neck hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      30 0 0 9999 0 None None None
+AffData affected  'blind' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8124
+Keywords   key green k081~
+Type       key~
+Short      a key~
+Long       A rusty green key lies forgotten on the ground.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8125
+Keywords   key ruby k081~
+Type       key~
+Short      a ruby key~
+Long       A ruby key lies on the ground.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8126
+Keywords   shield seashell o081~
+Type       armor~
+Short      a Seashell Shield~
+Long       A shield composed of shells lies on the floor.~
+Flags      antievil antineutral~
+WFlags     take shield~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      18 15000 0 10 0 None None None
+AffData    hitroll 1 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8127
+Keywords   gem ruby o081~
+Type       treasure~
+Short      A large ruby~
+Long       A large ruby lies on the ground collecting dust.~
+Flags      magic nodrop~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData affected  'paralysis' -1 -1 0
+#EXDESC
+ExDescKey  ruby~
+ExDesc     It's a large ruby covered with slime, you probably don't want to hold it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8128
+Keywords   gem diamond o081~
+Type       treasure~
+Short      A glittering diamond~
+Long       A glittering diamond lies at your feet.~
+Flags      magic~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData affected  'sleep' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8129
+Keywords   staff diamond o081~
+Type       weapon~
+Short      A Diamond Staff~
+Long       A diamond staff lies here.~
+Flags      magic antineutral~
+WFlags     take wield~
+Values     0 3 5 4 0 0 0 0 0 0 0
+Stats      5 15000 0 10 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    mana 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8130
+Keywords   shield diamond o081~
+Type       armor~
+Short      a Diamond Shield~
+Long       A diamond covered shield rests here.~
+Flags      glow magic antineutral~
+WFlags     take shield~
+Values     13 13 0 0 0 0 0 0 0 0 0
+Stats      3 12000 0 10 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    Constitution -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8131
+Keywords   kris ebony o081~
+Type       weapon~
+Short      the ebony kris~
+Long       A wavy bladed knife made of ebony is here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 3 4 6 0 0 0 0 0 0 0
+Stats      9 1600 0 10 0 None None None
+AffData    hitroll 1 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8132
+Keywords   bracelet minotaur o081~
+Type       armor~
+Short      a minotaur bracelet~
+Long       A worn bracelet has been left here.~
+WFlags     take wrist~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 2500 0 10 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    Strength 2 -1 -1 0
+AffData    Dexterity -2 -1 -1 0
+AffData    hit 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8133
+Keywords   scroll small sanct o081~
+Type       scroll~
+Short      a small scroll~
+Long       A small scroll has been tossed here.~
+Flags      glow magic~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8134
+Keywords   gold pile money o081~
+Type       money~
+Short      a small pile of gold coins~
+Long       A small pile of gold coins has been left here.~
+WFlags     take~
+Values     40000 0 0 0 0 0 0 0 0 0 0
+Stats      25 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8135
+Keywords   sword holy avenger o081~
+Type       weapon~
+Short      the Holy Avenger~
+Long       Silverbow's ultimate achivement lies here.~
+Flags      glow hum magic antievil antineutral~
+WFlags     take wield~
+Values     8 8 4 1 0 0 0 0 0 0 0
+Stats      15 50000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData affected  'detect_evil' -1 -1 0
+AffData weaponspell 'dispel evil' -1 -1 0
+#EXDESC
+ExDescKey  holy avenger~
+ExDesc     After 100 years of hard work and dedication, Silverbow, the best
+weaponsmith in all the land has finally achieved his goal. Beware
+evil beings for the Holy Avenger is out for your blood.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8136
+Keywords   trident adamantite o081~
+Type       treasure~
+Short      a adamantite trident~
+Long       A large trident has been left here on the floor.~
+Flags      glow antievil~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      15 5000 0 9999 0 None None None
+AffData    damroll -1 -1 -1 0
+AffData    hit 15 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        8100
+Name       Mermaid Grotto~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Beautiful crystal and algae grow here.
+~
+#EXIT
+Direction  Down~
+ToRoom     8101
+Key        8112
+Keywords   reef~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8125 1 8100 -1 -1 -1 100
+  Reset E  8112 99 17 100
+Reset D    8100 5 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8101
+Name       Under the Surface~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Splaaasssssshhhhh. All sound becomes muted as you look up from beneath
+the waters a kaleidoscope of colors explodes in your eyes as you view this
+almost surreal perspective of the air-breather's world. As your gaze turns
+downward you see opaque watery depths.
+~
+#EXIT
+Direction  Up~
+ToRoom     8100
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8102
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8102
+Name       The Murky Unknown~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Your field of vision is harried by myriad schools of fish and aquatic
+plant life. Your body is almost lulled by the caressing pull of gentle
+currents. As you become acclimated to the icy water you feel quite
+comfortable to this mode of travel your only worry at this moment is
+that the high density of the waters may hamper you in fighting.
+~
+#EXIT
+Direction  Up~
+ToRoom     8101
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8103
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8103
+Name       UNDERWATER PRESSURE!!!!~
+Sector     indoors~
+Flags      dark nomob indoors teleport teleshowdesc~
+Stats       45  8104 0 0 100000
+Desc          Your eardrums throb as you pass this final barrier to the ocean's floor.
+The pain is both exquisite and agonizing It may not be a good idea to stay
+here *much longer* because prolonged exposure to this type of pressure
+will break you!!!!
+~
+#EXIT
+Direction  Up~
+ToRoom     8102
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8105
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8104
+Name       This is how a CRUSHED egg feels!~
+Sector     indoors~
+Flags      death nomob indoors nomagic~
+Stats      0 0 0 0 0
+Desc                                       It's not too pleasant is it?
+~
+#ENDROOM
+
+#ROOM
+Vnum        8105
+Name       An Intersection in the Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          You find yourself in a lush forest completely made of seaweed! Paths
+branch out in all directions. Never before have you encountered such a
+an unusual creation of Nature. Strong growths of seaweed take upon an almost
+tree-like appearance. The ocean floor is not what you expected to be like!
+Your danger-sense is running rampant though as if perhaps there is a snake
+in this veritable oceanic Eden.
+~
+#EXIT
+Direction  North~
+ToRoom     8106
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8107
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8108
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8109
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8103
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8106
+Name       Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          As you turn around you see the passage you came from has been suddenly
+closed off! As if the forest were somehow alive? Warding or rather HERDING
+you somewhere! Mayhap you should beg for Lady Luck's favor in deciding your
+next move. You may chose to head off to the east, west or north.
+~
+#EXIT
+Direction  North~
+ToRoom     8110
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8111
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8112
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8107
+Name       Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          As you turn around you see the passage you came from has been suddenly
+closed off! As if the forest were somehow alive? Warding or rather HERDING
+you somewhere! Mayhap you should beg for Lady Luck's favor in deciding your
+next move. You may chose to head off to the east, south, or north.
+~
+#EXIT
+Direction  North~
+ToRoom     8113
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8114
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8115
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8108
+Name       Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          In your excitement to search this new area you trip and fall and turn
+in yet another pathway in the underwater forest.
+~
+#EXIT
+Direction  East~
+ToRoom     8116
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8117
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8109
+Name       Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          As you turn around you see the passage you came from has suddenly been
+closed off! As if the forest were somehow alive? Warding or rather HERDING
+you somewhere! Mayhap you should beg for Lady Luck's favor in deciding your
+next move. You may chose to head off in the west, south, or north.
+~
+#EXIT
+Direction  North~
+ToRoom     8112
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8118
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8119
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8110
+Name       Seaweed Forest Bend~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          The seaweed "trees" appears to have been molded into a cathedral
+path. Either some mighty powerful currents forced the "trees" to grow like
+this or something's walk through this area made the "path".
+~
+#EXIT
+Direction  South~
+ToRoom     8106
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8111
+Name       Seaweed Forest Fork~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          The tines of this path branch sharply to the north and to the east. A
+strange multi-colored vine appears from the northern path, while no clue
+or track can be found to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     8121
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8116
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8106
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8112
+Name       Blighted Path~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          There is not much in the way of seaweed growth or for that matter any
+life in this direction. This area seems pretty devastated. Slimy tendrils of
+thick goo beckon to the west. The wise adventurer would be better off going
+back from where he came from!
+~
+#EXIT
+Direction  North~
+ToRoom     8115
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8106
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8109
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8122
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8113
+Name       Quiet Interlude~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Here the small seaweed saplings weave in out of the currents emitted
+a reed like melody of tranquillity. One may stop here on this perilous
+journey and just sway to the heartbeat of this exotic oceanic setting.
+~
+#EXIT
+Direction  South~
+ToRoom     8107
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8114
+Name       Littered Path~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          While you can see no end to this forest you do find yourself stumbling
+over many half-gnawed skeletons. On closer examination, you find that
+most of the skeletons have appeared to been "snapped" by some great vise.
+The awful debris becomes more rampant to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     8123
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8107
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8115
+Name       Blinding Light~
+Sector     indoors~
+Flags      dark indoors teleport teleshowdesc~
+Stats       30  8125 0 0 100000
+Desc          Blithely unaware of the creatures of this habitat you blunder directly
+into the path of a large school of starfish. After getting your eyeballs
+toasted by 40 of these fish as they turn their highly radiated scales at you,
+you notice that your location has changed!
+~
+#ENDROOM
+
+#ROOM
+Vnum        8116
+Name       Carried by the Current~
+Sector     indoors~
+Flags      dark indoors teleport teleshowdesc~
+Stats       30  8125 0 0 100000
+Desc          As you move to the east a strong current knocks you over!
+~
+#ENDROOM
+
+#ROOM
+Vnum        8117
+Name       Blocked Pathway~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          You can not go any further! Seaweed "trees" have been broken like
+child toys here! something very big and very angry tried to pass here
+but was too large to get through!
+~
+#EXIT
+Direction  North~
+ToRoom     8108
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8118
+Name       Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          In your excitement to search this new area you trip and fall and turn
+in yet another pathway in the underwater forest.
+~
+#EXIT
+Direction  East~
+ToRoom     8114
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8116
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8119
+Name       Dense Seaweed Wall~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          There appears to way to circumnavigate this apparent seaweed wall.
+~
+#EXIT
+Direction  East~
+ToRoom     8109
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8120
+Name       Eaten Path~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          It would appear that something has been munching on the "trees".
+Whatever it is you hope that it's a vegetarian for something large enough
+to eat 12ft trees must have some appetite! You may travel to the west or
+return from where you came from.
+~
+#EXIT
+Direction  East~
+ToRoom     8110
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8124
+#ENDEXIT
+Reset M    8119 1 8120 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8121
+Name       Flailing Flowers~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          You enter an underwater garden....Or at least that what it appears to
+be! Glorious hues of carnelians,ruby,azure,and amber invigorate your senses.
+One large flower with great fronds? or maybe tentacles catches your eye!
+~
+#EXIT
+Direction  North~
+ToRoom     8128
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8111
+#ENDEXIT
+Reset M    8121 1 8121 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8122
+Name       At the Foot of a Yawning Abyss~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Below you is a great BOTTOMLESS abyss leading to the horrors of the most
+wicked and chaotic ----) Not a nice place to visit!
+~
+#EXIT
+Direction  East~
+ToRoom     8112
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8129
+Desc       That way looks like it ends in nothing but death.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8123
+Name       Battered Trees~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It looks like something tried to repeatedly bang into the trees here!
+The forest appears to be receding to the east. It is strange though that
+while the trees are heavily damaged there is no sign or evidence of what
+could have done such wreckage!
+~
+#EXIT
+Direction  North~
+ToRoom     8114
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8199
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8124
+Name       Edge of the Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          At last! you have found a way out of the twisting forest! As you scan
+the area you notice a sunken ship to the distant west.
+~
+#EXIT
+Direction  East~
+ToRoom     8120
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8126
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8125
+Name       Disorientated~
+Sector     indoors~
+Flags      dark indoors teleport teleshowdesc~
+Stats       30  8127 0 0 100000
+Desc          You find yourself elsewhere!
+~
+#ENDROOM
+
+#ROOM
+Vnum        8126
+Name       20,000 Leagues Undersea~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Born on the wings of energy your water-breathing spell gives you
+life-giving oxygen and makes it possible for you to walk the floor of the
+ocean! The aquatic fauna and flora is so vast and so diverse one would
+think one was on another planet rather than just under water! The sunken
+ship to the west is a bit closer now.
+~
+#EXIT
+Direction  East~
+ToRoom     8124
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8130
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8127
+Name       The Lair of the Giant Crab~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            As you come too you find yourself in a disgusting cave filled with
+skeletons and other let's say unmentionables. As you shake the cobwebs out
+of your head a skittering sound is heard.
+~
+#EXIT
+Direction  Up~
+ToRoom     8105
+#ENDEXIT
+Reset M    8120 4 8127 -1 -1 -1 100
+  Reset G  8133 99 100
+Reset M    8120 4 8127 -1 -1 -1 100
+  Reset G  8133 99 100
+Reset M    8120 4 8127 -1 -1 -1 100
+  Reset G  8133 99 100
+Reset M    8120 4 8127 -1 -1 -1 100
+  Reset G  8133 99 100
+Reset M    8120 4 8127 -1 -1 -1 100
+  Reset G  8133 99 100
+#ENDROOM
+
+#ROOM
+Vnum        8128
+Name       Edge of the Seaweed Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            At least you have almost cleared this bizarre forest of horror and
+beauty! A glimmering golden path draws your eyes to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     8141
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8121
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8129
+Name       666 Horrific Deaths of the Most Sublime and Tortured~
+Sector     underwater~
+Flags      death nomob indoors nomagic~
+Stats      0 0 0 0 0
+Desc                                                       I told you so!
+~
+#EXIT
+Direction  East~
+ToRoom     8122
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8130
+Name       At a Hole in the Hold~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          This once-majestic ship is not at the bottom of the sea rotting itself
+into oblivion. There is a large enough hole here for you to squeeze. Be warned
+the vile smell of decay and rancid flesh fill your nostrils!
+~
+#EXIT
+Direction  East~
+ToRoom     8126
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8131
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8131
+Name       In the Hold~
+Sector     underwater~
+Flags      dark indoors private~
+Stats      0 0 0 0 0
+Desc             Creatures of the deep have long since plundered the hold of this all
+that remains are the half-eaten corpses of the sailors who went down with the
+ship. Strange? you sense movement all around you but you see nothing?
+Nothing except those corpses here! !!!! The corpses begin to animate!
+~
+#EXIT
+Direction  East~
+ToRoom     8130
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8132
+Key        8124
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8133
+#ENDEXIT
+Reset M    8117 6 8131 -1 -1 -1 100
+Reset M    8117 6 8131 -1 -1 -1 100
+Reset M    8117 6 8131 -1 -1 -1 100
+Reset M    8117 6 8131 -1 -1 -1 100
+Reset D    8131 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8132
+Name       Secret Room~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc                             Congratulations!
+The crafty adventurer always searches for secret chambers!
+~
+#EXIT
+Direction  East~
+ToRoom     8131
+Key        8124
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    8127 1 8132 -1 -1 -1 100
+Reset O    8132 10 8132 -1 -1 -1 75
+Reset O    8134 1 8132 -1 -1 -1 100
+Reset O    8134 1 8132 -1 -1 -1 100
+Reset D    8132 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8133
+Name       Ruined Hallway~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc           The darkness that surrounds you is not only a physical but spiritual
+as well. Great evil seeps from the very pores of the decaying wood. The
+hallway continues to the north and the south.
+~
+#EXIT
+Direction  North~
+ToRoom     8134
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8135
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8131
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8134
+Name       Northern End of the Hallway~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            There is a stairway leading to the main deck here but there is also
+one door here which is in surprisingly good condition. As you investigate
+more thoroughly you notice the warding glyphs of a clerical nature.
+~
+#EXIT
+Direction  North~
+ToRoom     8136
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8133
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8137
+#ENDEXIT
+Reset D    8134 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8135
+Name       Crumbling Hallway~
+Sector     indoors~
+Flags      dark nomob indoors teleport teleshowdesc~
+Stats       45  8140 0 0 100000
+Desc            This part of the hallway did not last as long as the rest of the ship
+the weakened floor will give way at any moment! It would be best to leave
+soon!
+~
+#EXIT
+Direction  North~
+ToRoom     8133
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8136
+Name       Converted Guard Room~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This may have once been the ante-chamber to the Captain's room now
+however it has been taken over by the fierce and monstrously evil Saughin
+warriors! These monsters (there is no other word) dedicate their lives
+to shedding blood and wrecking chaos in the name of their God Talos. Most
+likely, adventurer you had the ill-fortune to stumble upon a secret
+base of Saughin, in the midst of preying on their their hated foes,
+the sea elves! They appear to be guarding a glowing portal of some sort.
+~
+#EXIT
+Direction  South~
+ToRoom     8134
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8138
+Keywords   portal~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8116 2 8136 -1 -1 -1 100
+  Reset E  8101 5 16 60
+Reset M    8116 2 8136 -1 -1 -1 100
+Reset M    8116 2 8136 -1 -1 -1 100
+Reset M    8116 2 8136 -1 -1 -1 100
+Reset D    8136 2 1 100 -2
+Reset D    8136 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8137
+Name       Main Deck~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc           Of the upper deck only this portion of the ship remains. To your utter
+horror you see the spectre form of the ship's captain materialize before
+you! He commands his undead sailors to attack and brandishes his own
+dread weapon.
+~
+#EXIT
+Direction  Down~
+ToRoom     8134
+#ENDEXIT
+Reset M    8117 6 8137 -1 -1 -1 100
+Reset M    8117 6 8137 -1 -1 -1 100
+Reset M    8118 1 8137 -1 -1 -1 100
+  Reset E  8124 99 17 80
+  Reset E  8119 5 16 10
+#ENDROOM
+
+#ROOM
+Vnum        8138
+Name       Scrying Chamber~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You have entered the Saughin Cleric's Scrying Chamber! He is not very
+happy with you being here! A large bloody altar stands ready to receive your
+blood and soul!
+~
+#EXIT
+Direction  East~
+ToRoom     8136
+#ENDEXIT
+Reset M    8115 1 8138 -1 -1 -1 100
+  Reset E  8105 5 16 60
+Reset M    8115 1 8138 -1 -1 -1 100
+Reset M    8115 1 8138 -1 -1 -1 100
+Reset M    8115 1 8138 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8140
+Name       Crashing To Your Death~
+Sector     underwater~
+Flags      death nomob indoors nomagic~
+Stats      0 0 0 0 0
+Desc            You didn't move fast enough :)
+~
+#ENDROOM
+
+#ROOM
+Vnum        8141
+Name       On The Golden Path~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            To be an adventurer is to see what some people can only dream of. To
+the north you see the legendary Palace of the Sea Elves! But be warned the
+elves guard their territory fiercely and will kill in order to ensure
+their privacy and protection!
+~
+#EXIT
+Direction  North~
+ToRoom     8142
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8128
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8142
+Name       The Golden Path~
+Sector     underwater~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc            As you get closer to the Palace you wonder if it might have been
+a good idea to write before dropping in. your keen vision notices armed
+guards at the Palace's Entry Gate.
+~
+#EXIT
+Direction  North~
+ToRoom     8143
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8141
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8143
+Name       Sea Elves' Palace Entry Gate~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are disappointed to find when you reach the entry gates of the
+Palace that the guards turn you away! Do you press on anyway? The
+Sea Elf Palace awaits you!
+~
+#EXIT
+Direction  North~
+ToRoom     8144
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8142
+#ENDEXIT
+Reset M    8100 26 8143 -1 -1 -1 100
+Reset M    8100 26 8143 -1 -1 -1 100
+Reset D    8143 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8144
+Name       Fresco Hall~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       This is the famed Fresco Hall the greatest elven artists have will this
+room with he most precious and beautiful painting from all facets of elven
+antiquity. there is a great Pearl door to the east and huge Coral door to
+the west.
+~
+#EXIT
+Direction  North~
+ToRoom     8145
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8146
+Keywords   east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8143
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8147
+Keywords   west~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8144 1 1 100 -2
+Reset D    8144 2 1 100 -2
+Reset D    8144 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8145
+Name       Inner Gates~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The gates here are heavily armored and look like they could stand
+against almost any type of siege. As you look out onto the courtyard you
+can see a shrine of some sorts.
+~
+#EXIT
+Direction  North~
+ToRoom     8151
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8144
+#ENDEXIT
+Reset D    8145 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8146
+Name       The Black Marble Corridor~
+Sector     indoors~
+Flags      dark indoors teleport teleshowdesc~
+Stats       30  8148 0 0 100000
+Desc            This entire corridor is done in all black marble chased with quicksilver.
+The quicksilver is streaked though the marble like living veins! The longer
+you stare at the dazzling display the more you feel as if the quicksilver is
+actually moving!
+~
+#EXIT
+Direction  East~
+ToRoom     8149
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8144
+Keywords   door west pearl~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8146 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8147
+Name       The Black Marble Corridor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This entire corridor is done in all black marble chased with quicksilver.
+The quicksilver is streaked though the marble like living veins! The longer
+you stare at the dazzling display the more you feel as if the quicksilver is
+actually moving!
+~
+#EXIT
+Direction  East~
+ToRoom     8144
+Keywords   door east pearl~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8150
+#ENDEXIT
+Reset M    8100 26 8147 -1 -1 -1 100
+Reset M    8100 26 8147 -1 -1 -1 100
+Reset D    8147 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8148
+Name       The Staircase~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This staircase leads up to the guest tower. The few personages that
+honored to be invited to the Sea Elf Palace stay in this beautiful
+tower.
+~
+#EXIT
+Direction  North~
+ToRoom     8154
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8153
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8155
+#ENDEXIT
+Reset M    8109 23 8148 -1 -1 -1 100
+Reset M    8109 23 8148 -1 -1 -1 100
+Reset M    8109 23 8148 -1 -1 -1 100
+Reset M    8109 23 8148 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8149
+Name       The Black Marble Corridor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This corridor continues to the east and to the west. At the far east you
+can make out some sort of staircase.
+~
+#EXIT
+Direction  East~
+ToRoom     8152
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8146
+#ENDEXIT
+Reset M    8100 26 8149 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8150
+Name       The Black Marble Corridor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Strange? but here the Black Marble appears to be fading out and the
+quicksilver seems to be "replacing" it? The floor beneath emits aa low
+pulse that makes your feet throb.
+~
+#EXIT
+Direction  East~
+ToRoom     8147
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8159
+#ENDEXIT
+Reset M    8100 26 8150 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8151
+Name       Southern Courtyard~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The floor is paved with rich opal inlays and gold fringing. To the
+north you can see the Shrine of Umbrelee. You can make out a glowing
+figure from here.
+~
+#EXIT
+Direction  North~
+ToRoom     8183
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8184
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8145
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8191
+#ENDEXIT
+Reset M    8100 26 8151 -1 -1 -1 100
+Reset D    8151 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8152
+Name       The Black Marble Corridor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are almost at the staircase.
+~
+#EXIT
+Direction  East~
+ToRoom     8153
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8149
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8153
+Name       The Black Marble Corridor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The stairway gets closer step by step.
+~
+#EXIT
+Direction  East~
+ToRoom     8152
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8149
+#ENDEXIT
+Reset M    8100 26 8153 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8154
+Name       Pale Hallway~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8173
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8148
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8174
+Keywords   door west~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8154 -1 -1 -1 100
+Reset D    8154 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8155
+Name       Middle of The Staircase~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are almost at the top of the tower. From here you can glimpse into
+a large spacious room.
+~
+#EXIT
+Direction  Up~
+ToRoom     8158
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8148
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8156
+Name       Warrior's Hall~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hall leads to the personal barracks of the Sea Elf Warrior's
+~
+#EXIT
+Direction  South~
+ToRoom     8148
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8158
+Name       Guest Tower Proper~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       Alabaster and gold in a mosaic design form the walls and floor. The
+furniture appears to be entirely out of teak and rosewood. However,
+the huge bed catches your attention --- Poor adventurer like could
+use a little nap! A huge picture window looks out onto the courtyard.
+You can see an open-air (rather open-water) shrine dedicated to the
+Goddess Umbrelee.
+~
+#EXIT
+Direction  Down~
+ToRoom     8155
+#ENDEXIT
+Reset M    8102 1 8158 -1 -1 -1 100
+  Reset E  8100 5 16 60
+Reset M    8101 1 8158 -1 -1 -1 100
+  Reset E  8121 5 8 60
+  Reset E  8103 5 10 40
+  Reset E  8120 5 13 60
+#ENDROOM
+
+#ROOM
+Vnum        8159
+Name       The Black Marble Corridor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Almost all of the Black Marble is gone! The inner light coming from the
+quicksilver is becoming almost blinding. You start to become frantic as the
+light becomes more intense!
+~
+#EXIT
+Direction  East~
+ToRoom     8150
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8160
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8160
+Name       Blinding Light~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The light here is blinding! you hear thunder coming up from above
+you......THUNDER?.....Underwater?....This most disconcerting!!!! The
+staircase here leads up to whatever is making the lightning.
+~
+#EXIT
+Direction  North~
+ToRoom     8161
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8159
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8162
+#ENDEXIT
+Reset M    8109 23 8160 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8161
+Name       Pale Hallway ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8164
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8165
+Keywords   door east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8160
+#ENDEXIT
+Reset D    8161 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8162
+Name       Blasted and Burned Staircase~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This staircase has really taken a beating! Scorch marks mar the
+otherwise elven perfection carving. The thunder is almost deafening
+in this room!
+~
+#EXIT
+Direction  Up~
+ToRoom     8163
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8160
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8163
+Name       The Magister's Tower~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would seem that the Sea Elf Magister has a penchant for lightning
+spells! This rooms is an obvious understatement to that fact! Various
+arcane books and devices are cluttered on the shelves, desk, and any
+free space in the room. Through the lightning scarred window you can spot
+A beautiful glowing figure in the courtyard.
+~
+#EXIT
+Direction  Down~
+ToRoom     8162
+#ENDEXIT
+Reset M    8104 1 8163 -1 -1 -1 100
+  Reset E  8129 5 16 50
+  Reset E  8117 5 17 50
+#ENDROOM
+
+#ROOM
+Vnum        8164
+Name       Pale Hallway ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8166
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8167
+Keywords   door east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8161
+#ENDEXIT
+Reset M    8100 26 8164 -1 -1 -1 100
+Reset D    8164 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8165
+Name       Sleeping Chamber ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or
+servants of this great palace.
+~
+#EXIT
+Direction  West~
+ToRoom     8161
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8165 -1 -1 -1 100
+Reset D    8165 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8166
+Name       Pale Hallway ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8168
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8169
+Keywords   door east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8164
+#ENDEXIT
+Reset M    8100 26 8166 -1 -1 -1 100
+Reset D    8166 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8167
+Name       Sleeping Chamber ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or
+servants of this great palace.
+~
+#EXIT
+Direction  West~
+ToRoom     8164
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8167 -1 -1 -1 100
+Reset M    8108 2 8167 -1 -1 -1 100
+Reset D    8167 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8168
+Name       Pale Hallway ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8170
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8171
+Keywords   door east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8166
+#ENDEXIT
+Reset D    8168 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8169
+Name       Sleeping Chamber ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or
+servants of this great palace.
+~
+#EXIT
+Direction  West~
+ToRoom     8166
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8169 -1 -1 -1 100
+Reset D    8169 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8170
+Name       Entrance to the Ready Room~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The door in front of you leads to one of the most important rooms in
+the Palace. ----> The Ready Room <---- can be considered to be the "sword"
+and "shield" of the Sea Elf Palace!
+~
+#EXIT
+Direction  North~
+ToRoom     8172
+Keywords   door north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8168
+#ENDEXIT
+Reset M    8100 26 8170 -1 -1 -1 100
+Reset M    8100 26 8170 -1 -1 -1 100
+Reset D    8170 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8171
+Name       Sleeping Chamber ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or
+servants of this great palace.
+~
+#EXIT
+Direction  West~
+ToRoom     8168
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8171 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8172
+Name       The Ready Room~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This is where the Sea Elves come to plan strategies against their
+vaunted foe the Saughin! The Saughins' unbounded hatred and eternal
+vow to exterminate all Sea Elves makes this room not only necessary
+but also vital to their continued survival. Maps, treatises, and other
+relevant information are kept here to keep the Sea Elf Warrior's up to
+date on the latest whereabouts of the Saughin and possible engagements
+in the future.
+~
+#EXIT
+Direction  South~
+ToRoom     8170
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8109 23 8172 -1 -1 -1 100
+Reset M    8109 23 8172 -1 -1 -1 100
+  Reset E  8102 99 16 100
+Reset M    8100 26 8172 -1 -1 -1 100
+Reset M    8100 26 8172 -1 -1 -1 100
+Reset M    8123 1 8172 -1 -1 -1 100
+  Reset E  8107 5 5 30
+  Reset E  8111 5 6 30
+  Reset E  8108 5 9 30
+  Reset E  8109 5 10 30
+  Reset E  8126 5 11 30
+  Reset E  8113 5 16 30
+Reset D    8172 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8173
+Name       Pale Hallway ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8175
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8154
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8176
+Keywords   door west~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8173 -1 -1 -1 100
+Reset D    8173 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8174
+Name       Sleeping Chamber~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or 
+servants of this great palace.
+~
+#EXIT
+Direction  East~
+ToRoom     8154
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8108 2 8174 -1 -1 -1 100
+Reset D    8174 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8175
+Name       Pale Hallway ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This hallway is much more for utility than for display. The muted amber
+color which is painted thinly on the walls glows a nice soft light to see
+by.
+~
+#EXIT
+Direction  North~
+ToRoom     8177
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8173
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8178
+Keywords   door west~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8175 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8176
+Name       Sleeping Chamber~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or
+servants of this great palace.
+~
+#EXIT
+Direction  East~
+ToRoom     8173
+Keywords   door west~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8103 1 8176 -1 -1 -1 100
+  Reset E  8131 20 16 100
+Reset D    8176 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8177
+Name       Entrance To The Armory~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Massive Doors of Silver and Adamantine block your way to the Sea Elves'
+Armory. From rumors you are lead to believe that not only does this
+armory have stockpiled some of the finest weapons and armor in the world
+but that it is also is ran by the Famed Elven Smith Silverbow, who can
+repair almost any piece of armor or weapon known in creation.
+~
+#EXIT
+Direction  South~
+ToRoom     8175
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8179
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8177 -1 -1 -1 100
+Reset M    8100 26 8177 -1 -1 -1 100
+Reset D    8177 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8178
+Name       Sleeping Chamber ~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This Spartan but tidy room must belong to one of the guards or
+servants of this great palace.
+~
+#EXIT
+Direction  East~
+ToRoom     8175
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8100 26 8178 -1 -1 -1 100
+Reset D    8178 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8179
+Name       The Sea Elves' Armory~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Gleaming weapons and armor surround you from all directions! The
+craftsmanship puts anything you seen or heard of to shame! Bows, missiles,
+breast plates, gauntlets, swords, any countless others line the walls
+around you.
+~
+#EXIT
+Direction  North~
+ToRoom     8180
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8177
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8181
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8182
+#ENDEXIT
+Reset D    8179 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8180
+Name       The Sea Elves Armory~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Gleaming weapons and armor surround you from all directions! The
+craftsmanship puts anything you seen or heard of to shame! Bows, missiles,
+breast plates, gauntlets, swords, any countless others line the walls
+around you.
+~
+#EXIT
+Direction  South~
+ToRoom     8179
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8181
+Name       The Sea Elves' Armory~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Gleaming weapons and armor surround you from all directions! The
+craftsmanship puts anything you seen or heard of to shame! Bows, missiles,
+breast plates, gauntlets, swords, any countless others line the walls
+around you.
+~
+#EXIT
+Direction  North~
+ToRoom     8179
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8182
+Name       SilverBow's Workshop~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The skilled SilverBow is here to serve all your repair needs! Dozens
+of anvils, hammers, and other instruments of repair lie on the table.
+ready to work on your damaged equipment.
+~
+#EXIT
+Direction  East~
+ToRoom     8179
+#ENDEXIT
+Reset M    8122 1 8182 -1 -1 -1 100
+  Reset E  8135 1 16 10
+#ENDROOM
+
+#ROOM
+Vnum        8183
+Name       Umbrelee's Shrine~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You have reached the center of the courtyard and also the great
+Shrine of Umbreelee, Goddess of the Sea Elves and Storms. There is a
+great pearl arch here. While the arch is a beautiful artifact what
+really catches your attention is what appears to be an illusion of
+a terrible storm with the arch. One of the Goddess' most powerful
+and most terrible creations! Aaaaaahhhhh the Clouds of destruction
+glow with anticipation as the thunder and lightning clash for
+supremacy!
+~
+#EXIT
+Direction  North~
+ToRoom     8185
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8186
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8151
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8187
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8188
+Key        8123
+Desc       You get a terrible sense of foreboding as you gaze upon the storm.~
+Keywords   storm illusion~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8105 1 8183 -1 -1 -1 100
+  Reset E  8123 99 17 35
+Reset D    8183 4 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8184
+Name       Southeastern Corner~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would appear that all parts of the Courtyard are guarded heavily!
+The seafolk keep a tight vigil here to guard their sacred shrine from
+violation and desecration!
+~
+#EXIT
+Direction  North~
+ToRoom     8186
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8151
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8185
+Name       Northern Courtyard~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            As you leave the Shrine of Umbrelee behind you a feeling that you are
+being watched or rather tested passes over you for a second. Up ahead
+you see another set of gates blocking your way!
+~
+#EXIT
+Direction  North~
+ToRoom     8192
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8189
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8183
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8190
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8186
+Name       Eastern Courtyard~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would appear that all parts of the Courtyard are guarded heavily!
+The seafolk keep a tight vigil here to guard their sacred shrine from
+violation and desecration!
+~
+#EXIT
+Direction  North~
+ToRoom     8189
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8184
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8183
+#ENDEXIT
+Reset M    8100 26 8186 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8187
+Name       Western Courtyard~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would appear that all parts of the Courtyard are guarded heavily!
+The seafolk keep a tight vigil here to guard their sacred shrine from
+violation and desecration!
+~
+#EXIT
+Direction  North~
+ToRoom     8190
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8183
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8191
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8188
+Name       Inside the Storm~
+Sector     indoors~
+Flags      dark indoors teleport teleshowdesc~
+Stats       10  8198 0 0 100000
+Desc            As you touch the illusion of the Storm the Pearl Amulet bursts into
+golden light and you find yourself in an actual storm! A glowing object
+hangs in mid-air next to you. As you touch the glowing object the
+storm begins to worsen to almost disastrous levels of fury!
+~
+Reset O    8122 1 8188 -1 -1 -1 1
+#ENDROOM
+
+#ROOM
+Vnum        8189
+Name       Northeastern Corner~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would appear that all parts of the Courtyard are guarded heavily!
+The seafolk keep a tight vigil here to guard their sacred shrine from
+violation and desecration!
+~
+#EXIT
+Direction  South~
+ToRoom     8186
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8185
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8190
+Name       Northwestern Corner~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would appear that all parts of the Courtyard are guarded heavily!
+The seafolk keep a tight vigil here to guard their sacred shrine from
+violation and desecration!
+~
+#EXIT
+Direction  East~
+ToRoom     8185
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8187
+#ENDEXIT
+Reset M    8100 26 8190 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8191
+Name       Southwestern Corner~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            It would appear that all parts of the Courtyard are guarded heavily!
+The seafolk keep a tight vigil here to guard their sacred shrine from
+violation and desecration!
+~
+#EXIT
+Direction  North~
+ToRoom     8187
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8151
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8192
+Name       Entrance to the Inner Palace~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            A final set of gates block your way to the Inner Palace! As you
+set forth to attempt to open the gates guards from both sides of the
+gates rush you!
+~
+#EXIT
+Direction  North~
+ToRoom     8193
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8185
+#ENDEXIT
+Reset D    8192 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8193
+Name       Pearly White Hallway~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This narrow hallway has the texture of fine pearl and soft leather.
+The gleaming walls give off a soothing aura of peace and tranquility.
+~
+#EXIT
+Direction  North~
+ToRoom     8194
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8192
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8109 23 8193 -1 -1 -1 100
+Reset M    8109 23 8193 -1 -1 -1 100
+Reset M    8109 23 8193 -1 -1 -1 100
+Reset M    8109 23 8193 -1 -1 -1 100
+Reset D    8193 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8194
+Name       Pearly White Hallway~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This narrow hallway has the texture of fine pearl and soft leather.
+The gleaming walls give off a soothing aura of peace and tranquility.
+~
+#EXIT
+Direction  North~
+ToRoom     8195
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8193
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8195
+Name       Entrance to the Throne Room~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Your heart beats faster as you come closer to the Throne Room. Will
+the fabled rulers of the Sea Elves be here? A simple silver door is all
+that stands in your way ---- oh and a few Palace Guards of course!
+~
+#EXIT
+Direction  North~
+ToRoom     8196
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8194
+#ENDEXIT
+Reset M    8100 26 8195 -1 -1 -1 100
+  Reset E  8136 15 17 45
+Reset M    8100 26 8195 -1 -1 -1 100
+Reset D    8195 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8196
+Name       Throne Room~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Two great thrones made completely out of opal stand before you. But
+your mouth drops open not at the thrones but at the pair that sits in them.
+The King and Queen of the Sea Elves are the pinnacles of nobility and weal.
+Equal Rulers of this Realm, they seek to destroy the evil Saughin and
+make the undersea kingdom one of peace!
+~
+#EXIT
+Direction  South~
+ToRoom     8195
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8197
+Key        8125
+Keywords   throne~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8107 1 8196 -1 -1 -1 100
+  Reset G  8125 99 100
+  Reset E  8114 5 9 30
+  Reset E  8104 2 17 25
+Reset M    8106 1 8196 -1 -1 -1 100
+  Reset E  8110 5 7 30
+  Reset E  8118 2 6 25
+  Reset E  8114 5 9 30
+Reset D    8196 2 1 100 -2
+Reset D    8196 5 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8197
+Name       Treasury~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Words can not describe the vast wealth lying in this room!
+~
+#EXIT
+Direction  Up~
+ToRoom     8196
+Key        8125
+Keywords   throne~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    8130 1 8197 -1 -1 -1 100
+Reset O    8128 1 8197 -1 -1 -1 100
+Reset O    8134 1 8197 -1 -1 -1 100
+Reset O    8134 1 8197 -1 -1 -1 100
+Reset O    8134 1 8197 -1 -1 -1 100
+Reset D    8197 4 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8198
+Name       Fried to Death!~
+Sector     underwater~
+Flags      death nomob indoors nomagic~
+Stats      0 0 0 0 0
+Desc            A bolt of lightning toasts you to ash!
+~
+#ENDROOM
+
+#ROOM
+Vnum        8199
+Name       Receding Forest~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            As the forest recedes more and more displays damage done by teeth
+is becoming apparent. To the south you see a great mountain rise out
+of the ocean floor!
+~
+#EXIT
+Direction  South~
+ToRoom     8200
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8123
+#ENDEXIT
+Reset M    8124 1 8199 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8200
+Name       Barren Floor~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Nothing alive is here! The floor is scarred by great beasts of the
+deep battling and slaying all that trespasses here!
+~
+#EXIT
+Direction  North~
+ToRoom     8199
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8201
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8201
+Name       Rocky Horror Slope~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This path descends into an undersea cavern of some sorts!
+~
+#EXIT
+Direction  North~
+ToRoom     8200
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8202
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8202
+Name       Shark's Den~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You find yourself in the resting place of the greatest predators of the
+deep! Sharks of every kind inhabit this area!
+~
+#EXIT
+Direction  North~
+ToRoom     8203
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8204
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8205
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8206
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8201
+#ENDEXIT
+Reset M    8112 5 8202 -1 -1 -1 100
+Reset M    8112 5 8202 -1 -1 -1 100
+Reset M    8112 5 8202 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8203
+Name       Shark's Den~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You find yourself in the resting place of the greatest predators of the
+deep! Sharks of every kind inhabit this area!
+~
+#EXIT
+Direction  South~
+ToRoom     8202
+#ENDEXIT
+Reset M    8113 1 8203 -1 -1 -1 100
+  Reset G  8115 5 70
+#ENDROOM
+
+#ROOM
+Vnum        8204
+Name       Shark's Den~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You find yourself in the resting place of the greatest predators of the
+deep! Sharks of every kind inhabit this area!
+~
+#EXIT
+Direction  West~
+ToRoom     8202
+#ENDEXIT
+Reset M    8110 1 8204 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8205
+Name       Shark's Den~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You find yourself in the resting place of the greatest predators of the
+deep! Sharks of every kind inhabit this area!
+~
+#EXIT
+Direction  North~
+ToRoom     8202
+#ENDEXIT
+Reset M    8111 1 8205 -1 -1 -1 100
+  Reset E  8116 5 5 100
+#ENDROOM
+
+#ROOM
+Vnum        8206
+Name       Shark's Den~
+Sector     underwater~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You find yourself in the resting place of the greatest predators of the
+deep! Sharks of every kind inhabit this area!
+~
+#EXIT
+Direction  East~
+ToRoom     8202
+#ENDEXIT
+Reset M    8114 8 8206 -1 -1 -1 100
+Reset M    8114 8 8206 -1 -1 -1 100
+Reset M    8114 8 8206 -1 -1 -1 100
+Reset M    8114 8 8206 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

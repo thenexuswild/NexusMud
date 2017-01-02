@@ -1,0 +1,32 @@
+Version     1
+Name        Cyborg~
+Race        22
+Classes     Mage Cleric Rogue Warrior Necromancer Druid Ranger Monk Antipaladin Paladin Bard~
+Str_Plus    2
+Dex_Plus    0
+Wis_Plus    -1
+Int_Plus    -1
+Con_Plus    2
+Cha_Plus    0
+Lck_Plus    0
+Hit         10
+Mana        -5
+Affected    infrared~
+Resist      poison charm~
+Language    common dwarven~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   104
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     52
+Weight     100
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'metallurgy' 35 80
+Skill 'mining' 17 85
+Skill 'tenacity' 5 90
+End

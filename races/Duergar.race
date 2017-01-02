@@ -1,0 +1,32 @@
+Version     1
+Name        Duergar~
+Race        11
+Classes     Warrior Cleric Rogue~
+Str_Plus    1
+Dex_Plus    0
+Wis_Plus    -1
+Int_Plus    -1
+Con_Plus    2
+Cha_Plus    -2
+Lck_Plus    0
+Hit         6
+Mana        -6
+Affected    detect_hidden~
+Resist      drain~
+Language    dwarven~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   106
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     52
+Weight     100
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'enlarge' 12 90
+Skill 'steel will' 70 80
+Skill 'toxin resistance' 35 85
+End

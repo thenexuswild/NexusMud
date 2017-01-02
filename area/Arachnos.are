@@ -1,0 +1,1629 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Arachnos~
+Author          Unknown~
+Vnums           6300 6399
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       34
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        6301
+Keywords   spider young~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the young spider~
+Long       The young spider is ballooning by you.
+~
+Desc       He looks freshly hatched and sprightly.  His young fangs are just
+growing in as of late.
+~
+Nattacks   1.000000
+Stats1     0 80 60 100 150 250
+Stats2     3 18 7 40 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6302
+Keywords   dragon Yevaud~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Yevaud~
+Long       Yevaud the Usurper of Midgaard is here, grinning evilly at you.
+~
+Desc       Old, scaly, but still with a lot of bite in him left.
+~
+Nattacks   2.000000
+Stats1     -1000 20000 60 100 150 250
+Stats2     24 0 -3 450 4 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6303
+Keywords   spider wolf~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Wolf Spider~
+Long       The Wolf Spider is here, licking its bloody fangs.
+~
+Desc       The Wolf Spider is hairy, very hairy.
+~
+Nattacks   1.000000
+Stats1     -300 1250 60 100 150 250
+Stats2     6 12 6 70 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6304
+Keywords   orc~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      the orc~
+Long       The orc is stuck in the web and he can't get out.
+~
+Desc       You notice an evil look in his eyes, but he seems quite drained of life, and
+all he can do is glare at you while he's stuck in this web.
+~
+Nattacks   1.000000
+Stats1     -400 10 60 100 150 250
+Stats2     2 19 8 10 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6305
+Keywords   wasp queen~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Queen Wasp~
+Long       The Queen Wasp is here, thinking how tasty you look.
+~
+Desc       You notice a glazed look in her eyes.
+~
+Nattacks   2.000000
+Stats1     -800 2000 60 100 150 250
+Stats2     14 7 1 172 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6306
+Keywords   spider drone~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the drone spider~
+Long       A drone spider walks around doing its master's bidding.
+~
+Desc       An ordinary drone spider.
+~
+Nattacks   1.000000
+Stats1     -200 200 60 100 150 250
+Stats2     6 14 4 70 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6307
+Keywords   spider ethereal~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the ethereal spider~
+Long       An ethereal spider strides here, traveling to different worlds.
+~
+Desc       She winks in and out of reality.  It looks like it'd be difficult to hit her
+without a magickal weapon.
+~
+Nattacks   2.000000
+Stats1     300 1250 60 100 150 250
+Stats2     13 9 -2 163 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   invisible detect_invis detect_hidden hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6308
+Keywords   slave human~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the slave~
+Long       A human slave of Arachnos works here relentlessly.
+~
+Desc       The slave does not mind you, but will fight like a warrior if attacked.  He
+serves the spider Empress, Arachnos, though whether it is by choice or because
+he was beguiled you are not fully certain.
+~
+Nattacks   2.000000
+Stats1     -50 1000 60 100 150 250
+Stats2     11 8 4 130 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6309
+Keywords   quasit~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the quasit~
+Long       A quasit blinks in and out, grinning at you.
+~
+Desc       Demoniac in nature, but more mischievous.  He twiddles his thumbs
+and creates a magickal treasure!
+~
+Nattacks   2.000000
+Stats1     -300 1500 60 100 150 250
+Stats2     10 1 -10 47 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger wimpy~
+Affected   invisible detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6310
+Keywords   spider bird~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Bird Spider~
+Long       The Bird Spider snaps its powerful jaws.
+~
+Desc       The Bird Spider has very powerful jaws.
+~
+Nattacks   2.000000
+Stats1     -800 1750 60 100 150 250
+Stats2     14 7 1 100 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6311
+Keywords   hermit~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Hermit~
+Long       The Hermit sits here and warns, "Go back before it's too late!"
+~
+Desc       A dishevelled veteran warrior in disguise is what he is, but he
+means well.
+~
+Nattacks   1.000000
+Stats1     750 750 60 100 150 250
+Stats2     7 13 4 90 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6312
+Keywords   donjonkeeper~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Donjonkeeper~
+Long       The Donjonkeeper eyes you and wonders how pure your soul is.
+~
+Desc       He delves deeper into you as you stare at him.  Only those free of taint will
+be allowed to remain here safely.
+~
+Nattacks   3.000000
+Stats1     1000 16000 60 100 150 250
+Stats2     25 0 -1 600 2 0 8
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6313
+Keywords   guardian~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     sleeping~
+Short      The guardian~
+Long       The guardian is obviously not doing his job.
+~
+Desc       He looks like a lazy bum who sleeps half the time.
+~
+Nattacks   2.000000
+Stats1     250 1000 60 100 150 250
+Stats2     17 4 1 200 2 0 8
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6314
+Keywords   spider empress arachnos~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Arachnos~
+Long       Arachnos the Empress of Spiders welcomes you with an evil smile.
+~
+Desc       She is a very attractive spider with an ornate gown.  She tempts you
+into being one of her many slaves.  She does not possess the venomous
+fangs of normal spiders, but then, as you realize, she does not need
+them.
+~
+Nattacks   3.000000
+Stats1     -1000 30000 60 100 150 250
+Stats2     26 0 -2 650 1 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6315
+Keywords   ki-rin~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Ki-Rin~
+Long       The Ki-Rin smiles good-naturedly to you.
+~
+Desc       She is the last bastion of good in this realm.  Her mission is to
+someday free the slaves of the Empress.  She has been trapped here for
+time eternal, and now the evil power of Arachnos feeds upon her intense
+magickal energies.  She will never give up here fight against evil, though,
+and will continue her work in whatever manner presents itself.
+~
+Nattacks   3.000000
+Stats1     1000 15000 60 100 150 250
+Stats2     26 0 -4 2500 4 0 22
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6316
+Keywords   dragon wormkin young~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the young wormkin~
+Long       A wormkin with no teeth plays here.
+~
+Desc       It is a rather small dragon, and you almost feel sad in killing it.
+~
+Nattacks   1.000000
+Stats1     50 1000 60 100 150 250
+Stats2     9 12 3 110 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6317
+Keywords   dragon wormkin elder~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the elder wormkin~
+Long       A wormkin that has grown a bit stares at you inquisitively.
+~
+Desc       A medium-sized dragon -- seems it hasn't killed anything yet by itself, 
+though there is a first time for everything...
+~
+Nattacks   2.000000
+Stats1     -300 5000 60 100 150 250
+Stats2     16 5 1 210 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        6301
+Keywords   knife thief's~
+Type       weapon~
+Short      a very sharp knife~
+Long       A very sharp knife lies here.~
+Flags      magic antineutral~
+WFlags     take wield hold~
+Values     0 8 1 6 0 0 0 0 0 0 0
+Stats      9 2500 0 9999 0 None None None
+AffData    Dexterity 2 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+#EXDESC
+ExDescKey  knife~
+ExDesc     A keen knife, very sharp -- you could cut the air in two!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        6302
+Keywords   hat wizard's~
+Type       armor~
+Short      a wizard's hat~
+Long       A blue wizard's hat lies here.~
+Flags      invis magic~
+WFlags     take head~
+Values     6 6 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    Intelligence 3 -1 -1 0
+AffData    mana 17 -1 -1 0
+#EXDESC
+ExDescKey  hat~
+ExDesc     A hat made of blue cloth.  It looks very comfortable.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        6303
+Keywords   headress pontiff's~
+Type       armor~
+Short      a pontiff's headress~
+Long       A white cone-shaped head ornament with religious symbols lies here.~
+Flags      invis magic~
+WFlags     take head~
+Values     6 6 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    Wisdom 3 -1 -1 0
+AffData    mana 13 -1 -1 0
+#EXDESC
+ExDescKey  headress~
+ExDesc     A starchy headress worn by powerful secular types.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        6304
+Keywords   visor black knight's~
+Type       armor~
+Short      a black knight's visor~
+Long       A black visor sits here.~
+Flags      invis magic~
+WFlags     take head~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    Constitution 2 -1 -1 0
+#EXDESC
+ExDescKey  visor~
+ExDesc     A visor that protects the head, good for warriors.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        6305
+Keywords   potion thick white~
+Type       potion~
+Short      a thick white potion~
+Long       A thick white potion has been left here.~
+Flags      magic~
+WFlags     take~
+Values     25 -1 -1 -1 0 0 0 0 0 0 0
+Stats      9 1000 0 9999 0 None None None
+#EXDESC
+ExDescKey  potion thick white~
+ExDesc     It is disgusting thick white gunk which looks like liquid web and smells like
+medicine.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#ROOM
+Vnum        6300
+Name       Webby Passage~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You find that footing here is very good, almost too good.  The
+limbs are coated with cobwebs and seem unusually strong for tree
+branches.  Paths lead in four directions.  The eastward path goes
+down a bit.
+~
+#EXIT
+Direction  North~
+ToRoom     6301
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6301
+Name       Webbed Entrance~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc            Sticky, sticky, sticky!  The ground is cluttered with leaves, decayed
+remains of webbed crickets, beetle, rats, dogs (?), and even humans.
+You begin to wonder about what lies ahead.  The air is damp here,
+and even the little light that shines through the canopy seems
+absorbed into the webbing.
+~
+#EXIT
+Direction  North~
+ToRoom     6302
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6132
+#ENDEXIT
+Reset M    6301 10 6301 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6302
+Name       Webby Passage~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You find that footing here is very good, almost too good.  The
+limbs are coated with cobwebs and seem unusually strong for tree
+branches.  Paths lead in four directions.  The eastward path goes
+down a bit.
+~
+#EXIT
+Direction  North~
+ToRoom     6304
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6305
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6301
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6303
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6303
+Name       Wasp Hive~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Drones scuttle about in this room.  The cells on the walls
+are honeycomb in shape and many of the maggots and wasps you see
+have fang-marks on their bodies.  You sense some order in their markings.
+~
+#EXIT
+Direction  East~
+ToRoom     6302
+#ENDEXIT
+Reset M    6305 1 6303 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6304
+Name       Webby Passage~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Another webby passage, all sticky and wet.  Tiny ballooning
+spiders fill the air.  It seems that these young ones are newborns.
+~
+#EXIT
+Direction  East~
+ToRoom     6305
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6302
+#ENDEXIT
+Reset M    6301 10 6304 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6305
+Name       Beneath the Busy Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You here the sounds of crawling arachnids above.  The rhythms of
+the footsteps suggest a primitive order in there movement.  The light
+seems brighter upwards.
+~
+#EXIT
+Direction  West~
+ToRoom     6304
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6306
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6306
+Name       On the Busy Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as rats, wolves, and humans.
+~
+#EXIT
+Direction  South~
+ToRoom     6307
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6305
+#ENDEXIT
+Reset M    6301 10 6306 -1 -1 -1 100
+Reset M    6301 10 6306 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6307
+Name       On the Busy Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as cats, wolves, and humans.  
+~
+#EXIT
+Direction  North~
+ToRoom     6306
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6308
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6308
+Name       On the Busy Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+with one big difference.  The spiders here are carrying ant-corpses,
+as well as cats, dogs, and humans.
+~
+#EXIT
+Direction  North~
+ToRoom     6307
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6306
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6305
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6309
+#ENDEXIT
+Reset M    6308 5 6308 -1 -1 -1 100
+Reset M    6308 5 6308 -1 -1 -1 100
+Reset M    6308 5 6308 -1 -1 -1 100
+Reset M    6308 5 6308 -1 -1 -1 100
+Reset M    6308 5 6308 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6309
+Name       A Split in the Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            As always, there is a split in the road.  One road is strewn
+with cricket feelers.  The other is well-kept and suitable for smooth
+travelling.  The webbing that was prevalent in earlier rooms is almost
+non-existant now.
+~
+#EXIT
+Direction  North~
+ToRoom     6310
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6308
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6320
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6310
+Name       Fuzzy Tree Limb~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You are on a "fuzzy" tree limb.  Interesting, since the branches
+seem to have "hairs" sprouting from its bark.  As you look
+closer you see millions of aphids covering each limb.
+~
+#EXIT
+Direction  South~
+ToRoom     6309
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6311
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6311
+Name       Tree Trunk~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc            You feel that you can rest here safely.  There is evidence of
+webbing here, but it is of a finer quality.
+~
+#EXIT
+Direction  East~
+ToRoom     6310
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6312
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6312
+Name       Tree Lair Entrance~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            It seems the inhabitant of this place does not web her
+victims, as evidenced by the remains before you.  The area
+is cluttered with desiccated corpses, apparently bitten 
+but unwebbed, and drained of their life juices.
+~
+#EXIT
+Direction  North~
+ToRoom     6311
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6313
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6313
+Name       Wolf Spider Lair~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Very dark, as all lairs of spiders are.  Not much of furnishings
+save an exit.  The wolf spider keeps no corpses here, but rather
+throws them out at her leisure.
+~
+#EXIT
+Direction  East~
+ToRoom     6312
+#ENDEXIT
+Reset M    6303 1 6313 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6320
+Name       The Webless Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Strange.  No webbing here.  In fact, no sounds whatsoever.  
+The path continues northward, where you find that you may have to
+tightrope your way across a ravine.
+~
+#EXIT
+Direction  North~
+ToRoom     6309
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6321
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6321
+Name       Above the Ravine~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Stranger still.  Your feet get a real firm grip on the spiderline.
+You are above a deep ravine.  This line connects you between two trees.
+Below you can see a prismatic web with lots of animal bones caught in it:
+some bear and small deer bones in fact.  No human skeletons are visible 
+(yet).
+~
+#EXIT
+Direction  East~
+ToRoom     6320
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6323
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6322
+#ENDEXIT
+Reset M    6306 3 6321 -1 -1 -1 100
+  Reset G  6305 10 100
+#ENDROOM
+
+#ROOM
+Vnum        6322
+Name       The Rainbow Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is the rainbow web--each strand, each link, a hue of violently
+sharp colors and contrasts.  The resident here seems to have a command
+of light as well.
+~
+#EXIT
+Direction  Up~
+ToRoom     6321
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6323
+Name       The Web Forest~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            The trees here take on a different appearance--they are not trees
+anymore, but disjointed make-shift silken made shafts, sticky to the touch,
+and webby in texture.  This is another world it would appear.
+~
+#EXIT
+Direction  North~
+ToRoom     6321
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6324
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6324
+Name       The Slave Pit~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You have entered the slave pit.  A voice blares in the distance,
+"Get back to work, maggots!"  Rails upon rails of mined gold and silver
+clutter the trail beneath you.
+~
+#EXIT
+Direction  North~
+ToRoom     6325
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6323
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6325
+Name       The Tether Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Another tether path just like the rest of them.  Surprising well
+-lit by the golden orbs that hang from the sides, you can see the paths 
+become finer and finer in quality.
+~
+#EXIT
+Direction  East~
+ToRoom     6326
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6324
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6326
+Name       A Road Crossing~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Another shifty little strand of webs, almost ethereal in nature.
+~
+#EXIT
+Direction  West~
+ToRoom     6325
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6327
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6327
+Name       A Leader Strand~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This strand is weightier, more sturdy.  It shimmers as you step on
+it.  You are definitely not in the Midgaardian realms anymore.  Just
+where you are you can't tell.  It feels like you're moving through
+ether.  You can still get back down to more surer lands.
+~
+#EXIT
+Direction  North~
+ToRoom     6328
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6326
+#ENDEXIT
+Reset M    6309 2 6327 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6328
+Name       The Entrance of the Ethereal Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You are at the entrance to ethereal web.  Flickering in and out,
+in and out, each strand reveals a different hue from black to green 
+to blue.
+~
+#EXIT
+Direction  South~
+ToRoom     6331
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6330
+Name       The Young Wormkin's Crib~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A playpen of sorts, with maggots of wasps and other baby vermin
+lying about.  You feel that humans have been played with here too,
+and eaten later.  You sense that the maker of this place has
+an appetite for dragon meat, and uses this room as a breeding
+area.
+~
+#EXIT
+Direction  Up~
+ToRoom     6331
+#ENDEXIT
+Reset M    6306 3 6330 -1 -1 -1 100
+Reset M    6316 1 6330 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6331
+Name       The Base of the Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Large strands connect at this point.  The node shimmers and
+flickers within the ether.  You see many flying creatures--
+insects, pegasi, and dragon wormkins--navigate the dangerous
+passages of the web.  Exits go in many directions.
+~
+#EXIT
+Direction  North~
+ToRoom     6330
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6332
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6333
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6334
+#ENDEXIT
+Reset M    6306 3 6331 -1 -1 -1 100
+  Reset G  6305 10 100
+#ENDROOM
+
+#ROOM
+Vnum        6332
+Name       Through the Trees~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This part of the web intersects through the branches of some
+trees.  Various leaves and other debris that the many drones 
+have not picked up yet lie here.
+~
+#EXIT
+Direction  East~
+ToRoom     6331
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6335
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6333
+#ENDEXIT
+Reset M    6304 1 6332 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6333
+Name       Above the Clouds~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You can see all of Midgaard in this ethereal web.  Many
+of the larger dragons that do wish to fly seem to fly
+away from the sticky strands of the web.
+~
+#EXIT
+Direction  East~
+ToRoom     6331
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6334
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6335
+#ENDEXIT
+Reset M    6307 5 6333 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6334
+Name       On A Cloud~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Rather thick in consistency.  You realize this is not
+a typical cloud, but it might be the nest of an aerial creature.
+~
+#EXIT
+Direction  Down~
+ToRoom     6331
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6335
+Name       A Link in the Ethereal Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.
+~
+#EXIT
+Direction  East~
+ToRoom     6336
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6331
+#ENDEXIT
+Reset M    6307 5 6335 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6336
+Name       The Tenuous Strand~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Very windy here since it goes up into the sky somewhat.
+Still, it's safe enough to move around.
+~
+#EXIT
+Direction  South~
+ToRoom     6340
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6341
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6331
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6340
+Name       The Elder Wormkin's Room~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A more mature wormkin it seems resides here.  Various tomes of
+arcane lore clutter the area, along with shards of armor and weaponry.
+~
+#EXIT
+Direction  Down~
+ToRoom     6331
+#ENDEXIT
+Reset M    6317 1 6340 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6341
+Name       Another Tree Limb~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Once again the web crosses another tree limb.  To the side you
+see the possible entrace to another creatures lair.
+~
+#EXIT
+Direction  East~
+ToRoom     6342
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6334
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6345
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6342
+Name       The Bird Spider's Lair~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is a big game hunter among most spiders.  Crush jewels
+and other weapons suggest the inhabitant must have powerful jaws.
+Beware!
+~
+#EXIT
+Direction  Down~
+ToRoom     6331
+#ENDEXIT
+Reset M    6310 1 6342 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        6345
+Name       A Link in the Ethereal Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.
+~
+#EXIT
+Direction  South~
+ToRoom     6350
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6346
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6345
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6346
+Name       The Quiet Tree Top~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Here is a quiet tree top.  Downwards you can see a familiar path
+that may lead back to Midgaard.
+~
+#EXIT
+Direction  East~
+ToRoom     6345
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6347
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6132
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6347
+Name       On The Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar
+of a powerful beast.  Dragon, you think.  You shiver in your boots
+as you tiptoe on this section of the web.
+~
+#EXIT
+Direction  East~
+ToRoom     6346
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6355
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6331
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6350
+Name       The Ki-Rin Chamber~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A wise ki-rin was entrapped here many years ago.  It is from her
+that the ruler of this realm zaps his magical strength.
+~
+#EXIT
+Direction  North~
+ToRoom     6347
+#ENDEXIT
+Reset M    6315 1 6350 -1 -1 -1 100
+  Reset G  6109 10 100
+  Reset G  6109 10 100
+#ENDROOM
+
+#ROOM
+Vnum        6355
+Name       A Link in the Ethereal Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.  To
+the north you sense the heavy breathing of a fiery animal.
+~
+#EXIT
+Direction  North~
+ToRoom     6360
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6365
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6360
+Name       Yevaud's Lair~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Yevaud, the Usurper of Midgaard, resides here.  A voice cries
+out, "BEWARE, the Usurper of Midgaard lives here!  FLEE while you can!"
+But even Yevaud has his master...or so you deduce.
+~
+#EXIT
+Direction  South~
+ToRoom     6355
+#ENDEXIT
+Reset M    6302 1 6360 -1 -1 -1 100
+  Reset G  6304 2 100
+#ENDROOM
+
+#ROOM
+Vnum        6365
+Name       A Link in the Ethereal Web~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is another link in the ethereal web.  Various creatures
+seem to get caught (or hypnotized) by its sticky strands.  A single
+spider line lies to the north, while ghastly seemings are due
+southward.  The grim entrance of Arachnos' Lair is downward.
+~
+#EXIT
+Direction  North~
+ToRoom     6371
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6331
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6366
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6390
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6366
+Name       Entrance to the Donjonkeep~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A dark path at the end of the web strand, you see ahead
+a torch lit chamber where the souls of unavenged adventurers
+come and gnash their teeth.  The howls and screams of many echo
+through the hall ways.  You see one definite path ahead.
+~
+#EXIT
+Direction  North~
+ToRoom     6367
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6367
+Name       The Guardian's Room~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A chair sits here for a tireless guardian who ensures that no
+soul escapes.  The room is undecorated.
+~
+#EXIT
+Direction  North~
+ToRoom     6368
+#ENDEXIT
+Reset M    6313 1 6367 -1 -1 -1 100
+#EXDESC
+ExDescKey  chair~
+ExDesc     An ordinary chair, well used, glued to the ground by spiderweb.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6368
+Name       Realm of the Hopeless~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Here you see many misguided souls who think they still live.
+They search for those who killed them without warrant, and seek the
+free souls of living beings to inhabit and perhaps adventure once 
+more.
+~
+#EXIT
+Direction  North~
+ToRoom     6369
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6369
+Name       Realm of the Hopeless~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Here you see many misguided souls who think they still live.
+They search for those who killed them without warrant, and seek the
+free souls of living beings to inhabit and perhaps adventure once
+more.
+~
+#EXIT
+Direction  North~
+ToRoom     6368
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6370
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6370
+Name       The Donjonkeep~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            No souls have ever lived in this place.  The wails of slaves
+and the howls of wolves are the only way you can describe the sounds
+you hear.  The walls are thin and wispy.  The only light you receive
+is the shimmering from the strand of the ethereal web you used to get
+here.  
+~
+#EXIT
+Direction  East~
+ToRoom     6371
+#ENDEXIT
+Reset M    6312 1 6370 -1 -1 -1 100
+  Reset G  6301 5 100
+  Reset G  6109 10 100
+#ENDROOM
+
+#ROOM
+Vnum        6371
+Name       The Single Spider Line~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A single spider line supports you once more.  As you look
+across the ether you seen a single shack up ahead with a light in 
+the window.  You sense a great evil coming from the north and feel
+inclined to go back on the ethereal web and take your chances there.
+~
+#EXIT
+Direction  North~
+ToRoom     6331
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6372
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6372
+Name       The Single Spider Line~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A single spider line supports you once more.  The shack comes
+closer into view and you are even more inclined to go back now.
+~
+#EXIT
+Direction  North~
+ToRoom     6371
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6373
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6373
+Name       The Hermit's Corner~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Here you see evidence of a vagrant's abode.  The shack is to the
+north, if you dare enter it.  You get the sneaking feeling you should
+go back now.  The skies above you darken and roar with the laughter
+of thunder.
+~
+#EXIT
+Direction  North~
+ToRoom     6372
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6380
+#ENDEXIT
+Reset M    6311 1 6373 -1 -1 -1 100
+  Reset G  6302 2 100
+#ENDROOM
+
+#ROOM
+Vnum        6380
+Name       Mahatma's Inescapable Trap~
+Sector     indoors~
+Flags      death nomob~
+Stats      0 0 0 0 0
+Desc            Mahatma, that silly thief, is here, and he steals everything you
+have.  He says, "Here, have a quick trip to the Temple of Midgaard."
+He plugs a black dagger into your back...
+~
+#ENDROOM
+
+#ROOM
+Vnum        6390
+Name       The Entrance to the Arachnos' Lair~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            All strands inevitably lead here, the center of the web, the
+entrance to Arachnos' Lair.
+~
+#EXIT
+Direction  East~
+ToRoom     6391
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6391
+Name       The Sticky Chamber~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You can still bail out since your knees are shaking from the
+anticipation (or is it fear?).  The sky is clear on this strand of 
+web, surprisingly unsticky.  The strand does not vibrate like the 
+others.  A few ballooning spiders pass by, cackling "You're gonna
+die, you're gonna fry.  Good bye!"
+~
+#EXIT
+Direction  East~
+ToRoom     6392
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6331
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        6392
+Name       The Great Door~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc            Before you you see a large, web-like door.  Various designs
+of ancient runes and names of Midgaard heroes are etched into
+the webwork.  Perhaps lists of victims?  You can't tell.  
+~
+#EXIT
+Direction  North~
+ToRoom     6399
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6391
+#ENDEXIT
+Reset D    6392 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        6399
+Name       The Lair of Arachnos~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            This is the lair of the Empress Spider, Arachnos.  A lavishly
+adorned rainbow web, her lair allows her to move to any universe 
+she wishes by using her magical strands to the Prime Material Plane.
+Coffers upon coffers of gold, magical jewels and gems await.  Unfor-
+tunately Arachnos is a baggy spider too, and webs all her treasures 
+to her beautiful silken body.
+~
+#EXIT
+Direction  South~
+ToRoom     6392
+Flags      isdoor~
+#ENDEXIT
+Reset M    6314 1 6399 -1 -1 -1 100
+  Reset G  6301 5 100
+  Reset G  6302 2 100
+  Reset G  6303 2 100
+  Reset G  6304 2 100
+Reset D    6399 2 2 100 -2
+#ENDROOM
+
+#ENDAREA

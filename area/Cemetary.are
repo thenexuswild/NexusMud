@@ -1,0 +1,2444 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Cemetary of the Undead~
+Author          Unknown~
+Vnums           3400 3489
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       20
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        3400
+Keywords   orcus demon prince m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Orcus, Demon Prince of the Undead~
+Long       Orcus, Demon Prince of the Undead is amused by your meager presence.
+~
+Desc         Orcus is a grossly fat demon lord, some 15' tall,  His huge gray body 
+is convered with goatish hair, and his head is goat-like although his 
+horns are similar to those of a ram.  His great legs are also goat-like, 
+but his arms are human.  Vast bat wings sprout from his back, and his 
+long, snaky tail is tipped with a poisonous head.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     33 5 -7 1150 4 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3401
+Keywords   vampire lord m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Vampire Lord~
+Long       The Vampire Lord rises out of his coffin and attacks!
+~
+Desc         The Vampire Lord is dressed in rich dark clothing.  He looks like as if
+he has been drained of all his blood, and has pale white skin.  His red
+evil eyes pierce your very soul.
+~
+Nattacks   3.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     25 0 0 525 5 0 8
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive wimpy~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3402
+Keywords   jacob marley m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Jacob Marley~
+Long       Jacob Marley is roaming the graveyard moaning quite loudly.
+~
+Desc         Jacob Marley is old and tired looking.  He walks through the graveyard
+like he is looking for someone.  His chains of damnation weigh heavilly
+upon his neck.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 0 4 260 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3403
+Keywords   lich m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Lich~
+Long       An ancient Lich sits here on his throne grinning evily.
+~
+Desc         The Lich is the remains of living tissue barley covering the white of
+bone pressing through his skin.  From his eyesockets you see mere black
+holes with glowing points of light.  His garments are old and ragged but
+seem to have been made of the richest materials.  Various pieces of jewelry
+ornate his body.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     31 0 -5 720 8 0 14
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis detect_hidden fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3404
+Keywords   mummy m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Mummy~
+Long       A Mummy appears out of the sarcophagus and attacks!
+~
+Desc         The mummy is totally covered in old white rags that envelope his entire
+body.  He moans softly and reaches for you!
+~
+Nattacks   2.000000
+Stats1     -400 0 60 100 150 250
+Stats2     23 0 2 420 5 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3405
+Keywords   zombie m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Zombie~
+Long       A Zombie roams the graveyard looking for fresh brains to feast apon.
+~
+Desc         The decayed remains of a once living being now transformed into rotten
+flesh and yellow bone.  He claws for you as he mummers, 'BrAiNs!'.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     16 3 5 200 4 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3406
+Keywords   gargoyle statue m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Gargoyle Statue~
+Long       A lifelike statue of a Gargoyle is perched here.
+~
+Desc         A small demon with wings and a pointed horn that sticks through his head.
+It has a long tail with an arrow shaped tip and claws for fingers make this 
+demon look very formidable.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     18 1 5 200 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3407
+Keywords   skeleton m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Skeleton~
+Long       A skeleton of human bones attacks!
+~
+Desc         You see the remains of a long dead human that seems to have no feeling or
+thought.  It notices a living presence and attacks!
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     13 4 6 145 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3408
+Keywords   wraith m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Wraith~
+Long       A withered wraith roams endlessly here.
+~
+Desc         A black shadowy figure roams here on a never ending quest for damnation.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     15 4 6 178 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3409
+Keywords   ghoul m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Ghoul~
+Long       A Ghoul shrieks at your presence and attacks!
+~
+Desc         A humanoid like figure with pointed teeth and a long snake tongue and
+sharp talons on his feet and hands.  A foul odor is being emitted from his
+body. 
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     18 2 5 210 7 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3410
+Keywords   spectre m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Spectre~
+Long       A Spectre is here haunting the area.
+~
+Desc         This very powerful undead creature is here trying to drain you life
+force to feed its empty soul.  Its wraithlike form is getting closer
+so you better leave.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     20 0 4 400 5 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   hide infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3411
+Keywords   wight m034~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Wight~
+Long       A devilish Wight jumps at you and attacks!
+~
+Desc         This green undead monster is drooling blood from its latest victim.
+You see an evil grin on his face as you enter the room.  He likes it when
+dinner comes to him!
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     17 2 5 220 6 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        3400
+Keywords   crown jeweled o034~
+Type       armor~
+Short      a Jeweled Crown~
+Long       An old jewel studded crown is lying here.~
+WFlags     take head~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        3401
+Keywords   wand orcus o034~
+Type       weapon~
+Short      the Wand of Orcus~
+Long       A jeweled wand with a large skull on one end has been lost here.~
+Flags      glow magic~
+WFlags     take wield~
+Values     0 14 2 6 0 0 0 0 0 0 0
+Stats      16 8000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        3402
+Keywords   fangs vampire teeth o034~
+Type       weapon~
+Short      Vampyric Fangs~
+Long       A set of sharp looking fangs are lying here dripping with blood.~
+Flags      magic~
+WFlags     take wield~
+Values     0 10 2 1 0 0 0 0 0 0 0
+Stats      8 3500 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    hitroll -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        3403
+Keywords   chains damnation o034~
+Type       armor~
+Short      the Chains of Damnation~
+Long       A set of heavy looking chains are lying on the ground here.~
+Flags      glow magic~
+WFlags     take neck~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      14 2000 0 9999 0 None None None
+AffData    hit 20 -1 -1 0
+AffData    Strength -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        3404
+Keywords   femur bone human o034~
+Type       weapon~
+Short      a human femur bone~
+Long       A long human femur bone with a titanium rod crammed into it is lying here.~
+WFlags     take wield~
+Values     0 3 5 4 0 0 0 0 0 0 0
+Stats      5 25 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        3405
+Keywords   torc golden o034~
+Type       armor~
+Short      a golden torc~
+Long       A golden neck chain has been dropped here.~
+Flags      glow magic~
+WFlags     take neck~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      2 4000 0 9999 0 None None None
+AffData    Constitution 2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        3406
+Keywords   rags tattered white o034~
+Type       armor~
+Short      tattered white rags~
+Long       A pile of tattered white rags have been tossed here.~
+Flags      magic~
+WFlags     take body~
+Values     15 15 0 0 0 0 0 0 0 0 0
+Stats      5 6000 0 9999 0 None None None
+AffData    mana 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        3407
+Keywords   key stone k034~
+Type       key~
+Short      a stone key~
+Long       A small stone key with the letters 'ES' inscribed into it is lying here.~
+Flags      hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        3408
+Keywords   manual book paper parchment o034~
+Type       paper~
+Short      a small piece of parchment~
+Long       A small piece of parchment has been carelessly left here.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  parchment~
+ExDesc         If you value your meager existence, it is our recomendation that you
+turn back while you still can.  Just thought we would let you know. :)
+ 
+                                        -Sincerely
+                                        Itch,
+                                        Falton, &
+                                        Super            :)
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        3409
+Keywords   key diamond k034~
+Type       key~
+Short      a diamond tipped key~
+Long       A small diamond tipped key is lying here.~
+Flags      hum~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        3400
+Name       A Gravel Road on the Graveyard~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are on a well-kept gravel road that leads north-south through the
+graveyard.  On both sides of the road tombstones line the path.  An iron
+grate is to the north.
+~
+#EXIT
+Direction  South~
+ToRoom     3401
+Desc       The gravel road continues southward.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3401
+Name       A Gravel Road in the Graveyard~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are on a well-kept gravel road that leads north-south through the
+graveyard.  Tombstones line both sides of the road.
+~
+#EXIT
+Direction  West~
+ToRoom     3417
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3400
+Desc       The gravel road continues northwards.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3402
+Desc       The gravel road continues southward.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3406
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3402
+Name       A Gravel Road in the Graveyard~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are on a well-kept gravel road that leads north-south through the
+graveyard.  Tombstones line both sides of the road.
+~
+#EXIT
+Direction  North~
+ToRoom     3401
+Desc       The gravel road continues northwards.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3418
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3403
+Desc       The gravel road continues southward.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3407
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3403
+Name       A Gravel Road in the Graveyard~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are on a well-kept gravel road that leads north-south through the
+graveyard.  Tombstones are lined up on both sides of the road.
+~
+#EXIT
+Direction  West~
+ToRoom     3419
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3402
+Desc       The gravel road continues northwards.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3404
+Desc       The gravel road continues southward to an open space before a small
+Tomb.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3408
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3404
+Name       In front Ebeneezer Scrooge's Tomb~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are on an open space before a small Tomb. You see the words
+'Ebeneezer Scrooge' written on the stone door. The gravel road continues
+north.
+~
+#EXIT
+Direction  North~
+ToRoom     3403
+Desc       The gravel road continues northwards.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3420
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3405
+Key        3407
+Desc       The tomb door is made of solid stone.
+~
+Keywords   door tomb~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3409
+#ENDEXIT
+Reset D    3404 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3405
+Name       The Tomb of Ebeneezer Scrooge~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in a small, dark tomb.  The dark brown glass in the tiny windows
+do not let much light through.  A few rows of worn wooden benches stand here
+and an ancient altar sits in the middle of the floor.
+~
+#EXIT
+Direction  North~
+ToRoom     3404
+Key        3407
+Desc       The tomb door is made of solid stone.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3428
+Keywords   altar door handle~
+Flags      isdoor~
+#ENDEXIT
+Reset D    3405 0 2 100 -2
+Reset D    3405 5 1 100 -2
+#EXDESC
+ExDescKey  glass windows~
+ExDesc     The windows must be meant to be dark.  At least they are completely clean.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  altar~
+ExDesc     The altar looks very old...you examine the floor around the alter and notice
+that it seems less dusty than the rest of the room...someone must clean here
+regularly...maybe that old guy you killed in Cafe, he looked like that sort.
+You also notice a small handle underneath the alter.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  benches rows~
+ExDesc     The benches are not of the comfortable kind.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  handle~
+ExDesc     The handle is made of metal, but seems to be strong enough to still pull on.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3406
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All around you are tombstones of warriors long dead.
+~
+#EXIT
+Direction  West~
+ToRoom     3401
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3407
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3410
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3407
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         Tombstones lie all about you.
+~
+#EXIT
+Direction  West~
+ToRoom     3402
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3406
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3411
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3408
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3408
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All around you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3407
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3412
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3409
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3403
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3409
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3408
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3413
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3404
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3410
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  West~
+ToRoom     3406
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3411
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3411
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3410
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3414
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3412
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3407
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3412
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3411
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3415
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3413
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3408
+#ENDEXIT
+Reset M    3409 6 3412 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3413
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3412
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3409
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3414
+Name       Outside the tomb of Jacob Marley~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         To the east you see the tomb of Jacob Marley.
+~
+#EXIT
+Direction  West~
+ToRoom     3411
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3416
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3415
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3415
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3414
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3412
+#ENDEXIT
+Reset M    3402 1 3415 -1 -1 -1 100
+  Reset E  3407 99 17 100
+  Reset E  3403 1 3 100
+#ENDROOM
+
+#ROOM
+Vnum        3416
+Name       The Tomb of Jacob Marley~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         You are inside the small dank dusty tomb of Jacob Marley.  It appears as
+if this room hasn't been touched in quite a long time.
+~
+#EXIT
+Direction  West~
+ToRoom     3414
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3417
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  East~
+ToRoom     3401
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3418
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3421
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3418
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3417
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3402
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3419
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3422
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3419
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3418
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3403
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3420
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3423
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3420
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3419
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3404
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3424
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3421
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  East~
+ToRoom     3419
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3422
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3422
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3421
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3418
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3423
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3425
+#ENDEXIT
+Reset M    3409 6 3422 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3423
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3422
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3419
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3424
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3426
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3424
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3423
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3420
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3425
+Name       Opened Coffin~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         You notice amidst the tombstones an unburied opened coffin lying here on
+the ground.  Cobwebs and dirt cover the coffin.
+~
+#EXIT
+Direction  East~
+ToRoom     3422
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3426
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3427
+#ENDEXIT
+Reset M    3409 6 3425 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3426
+Name       Tombstones~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         All about you lie tombstones.
+~
+#EXIT
+Direction  North~
+ToRoom     3425
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3423
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3427
+Name       Wishing Well~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         You see an old wishing well erected here.  It has a few bricks missing
+and appears to have been dry for quite some time now.
+~
+#EXIT
+Direction  East~
+ToRoom     3425
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3428
+Name       Dark Stairway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are on a stone stairway that descends into darkness.  A relative amount
+of dust has collected here over the years.
+~
+#EXIT
+Direction  Up~
+ToRoom     3405
+Keywords   altar door handle~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3429
+#ENDEXIT
+Reset O    3408 1 3428 -1 -1 -1 100
+Reset D    3428 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3429
+Name       Dark Hallway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are in a dark hallway that appears to have been untouched for many 
+ages.  A musky smell permeates the thick air.
+~
+#EXIT
+Direction  Up~
+ToRoom     3428
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3431
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3430
+Name       Chamber of Tombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see large cuts within the walls here which contain the remains of 
+warriors long dead.  The floor is covered with a thick green moss.
+To the east you see the Catacombs continue.
+~
+#EXIT
+Direction  East~
+ToRoom     3431
+#ENDEXIT
+Reset M    3405 5 3430 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3431
+Name       Catacombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a long hallway that offers exits to many different
+chambers of tombs.  Everything appears to be still.  Even your heart.
+~
+#EXIT
+Direction  North~
+ToRoom     3429
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3430
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3432
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3433
+#ENDEXIT
+Reset M    3407 10 3431 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3432
+Name       Chamber of Tombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see large cuts within the walls here which contain the remains of
+warriors long dead.  The floor is covered with a thick green moss.
+~
+#EXIT
+Direction  West~
+ToRoom     3431
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3433
+Name       Catacombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large corridor that offers many exits to chambers
+of tombs.  Everything appears to be still. Even your heart.
+~
+#EXIT
+Direction  North~
+ToRoom     3431
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3435
+#ENDEXIT
+Reset M    3407 10 3433 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3434
+Name       Chamber of Tombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         The walls here have large cuts which contain the remains of warriors 
+long dead.  The floor is covered with thick green moss.
+~
+#EXIT
+Direction  East~
+ToRoom     3435
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3435
+Name       Catacombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a long corridor that offers many exits to 
+chambers of tombs.  Everything seems to be still. Even your heart.
+~
+#EXIT
+Direction  North~
+ToRoom     3433
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3434
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3436
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3437
+#ENDEXIT
+Reset M    3407 10 3435 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3436
+Name       Chamber of Tombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see large cuts in the walls which contain the remains of warriors
+long dead.  The floor is covered with thick green moss.
+~
+#EXIT
+Direction  West~
+ToRoom     3435
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3441
+Key        3403
+Keywords   ring~
+Flags      isdoor~
+#ENDEXIT
+Reset M    3405 5 3436 -1 -1 -1 100
+Reset D    3436 5 1 100 -2
+#EXDESC
+ExDescKey  moss~
+ExDesc     As you brush aways some of the moss you think you see a ring as on a trap door.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3437
+Name       Catacombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large corridor that offers many exits to chambers
+of tombs.  Everything seems to be still.  Even your heart.
+~
+#EXIT
+Direction  North~
+ToRoom     3435
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3439
+#ENDEXIT
+Reset M    3407 10 3437 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3438
+Name       Chamber of Tombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see large cuts in the walls which contain the remains of warriors 
+long dead.  The floor is covered with thick green moss.
+~
+#EXIT
+Direction  East~
+ToRoom     3439
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3439
+Name       Catacombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a long corridor which offers many exits to chambers
+of tombs.  Everything seems to be still.  Even your heart.
+~
+#EXIT
+Direction  North~
+ToRoom     3437
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3438
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3440
+#ENDEXIT
+Reset M    3407 10 3439 -1 -1 -1 100
+  Reset E  3404 10 16 100
+#ENDROOM
+
+#ROOM
+Vnum        3440
+Name       Chamber of Tombs~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see large cuts in the walls which contain the remains of warriors
+long dead.  The floor is covered with thick green moss.
+~
+#EXIT
+Direction  West~
+ToRoom     3439
+#ENDEXIT
+Reset M    3405 5 3440 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3441
+Name       PaSsAgEwAy tO dOoM!~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are in a tight passageway that descends down into darkness.
+~
+#EXIT
+Direction  Up~
+ToRoom     3436
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3442
+#ENDEXIT
+Reset M    3408 6 3441 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3442
+Name       Ancient Passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a dark musky passageway.  The walls are covered with
+ancient paintings and wierd symbols of unknown decent.  You see nothing
+but darkness to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     3443
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3447
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3443
+Name       Narrow Passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a narrow passageway that offers exits to the east and
+to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     3442
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3444
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3444
+Name       Narrow Passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a narrow passageway that offers exits to the north
+and west.
+~
+#EXIT
+Direction  West~
+ToRoom     3443
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3445
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3445
+Name       Ancient Burial Chamber~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large chamber filled with old relics and worthless
+items strewn about.  You see a large sarcophagus leaning against the 
+eastern wall.  The coffin is has been partially left open.....
+~
+#EXIT
+Direction  South~
+ToRoom     3444
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3446
+Keywords   coffin sarcophagus~
+Flags      isdoor~
+#ENDEXIT
+Reset M    3408 6 3445 -1 -1 -1 100
+Reset D    3445 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3446
+Name       Inside the Sarcophagus~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in an ancient sarcophagus wherein rests an ancient mummy
+that is probably not enjoying your company about now.
+~
+#EXIT
+Direction  West~
+ToRoom     3445
+Keywords   coffin sarcophagus~
+Flags      isdoor~
+#ENDEXIT
+Reset M    3404 1 3446 -1 -1 -1 100
+  Reset E  3406 1 5 75
+Reset D    3446 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3447
+Name       Ancient Passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in an ancient passageway with wierd paintings and symbols
+covering the walls.  You can make out the shapes of men and animals but
+nothing beyond that.  The passage leads to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     3442
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3448
+#ENDEXIT
+Reset M    3408 6 3447 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3448
+Name       Ancient Passageway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in an ancient passageway with wierd paintings and symbols
+covering the walls.  You can barely make out the shapes of men and animals.
+The passageway continues to the east and north.
+~
+#EXIT
+Direction  North~
+ToRoom     3447
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3449
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3449
+Name       Edge of the Black Pool~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large cavern at the edge of a black pool.  You would
+hate to have to enter the darkness.  Hopefully your group shares your same
+thoughts.
+~
+#EXIT
+Direction  West~
+ToRoom     3448
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3450
+#ENDEXIT
+Reset M    3408 6 3449 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3450
+Name       Underneath the Pool of Darkness~
+Sector     swamp~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are swimming under the surface of the pool.  You can barely hold 
+your breath any longer.  Luckily you can make out a small cave in the floor
+of the pool.
+~
+#EXIT
+Direction  Up~
+ToRoom     3449
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3451
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3451
+Name       Underwater Cave~
+Sector     swamp~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are swimming in an underwater passageway.  You can make out a light
+towards the south.
+~
+#EXIT
+Direction  Up~
+ToRoom     3450
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3462
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3452
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large corridor that has been carved into the ancient
+rock.  The tunnel continues towards the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     3463
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3453
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3453
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large corridor that has been carved into the ancient
+rock.  Large shadows linger here that might conceal just about anything.
+The tunnel continues towards the north and to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     3452
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3454
+#ENDEXIT
+Reset M    3411 4 3453 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3454
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a large corridor that has been carved into the ancient
+rock.  Large shadows linger here that might conceal just about anything.
+The tunnel continues to the east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     3453
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3455
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3455
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast corridor.  Many shadows linger here that might
+conceal just about anything.  The tunnel continues to the east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     3454
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3456
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3456
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast corridor.  Many shadows linger here that might
+conceal just about anything.  The tunnel continues to the north, east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     3455
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3457
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3467
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3457
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast corridor.  The shadows linger here and look 
+like they might conceal just about anything.  The tunnel continues to the
+south and north.
+~
+#EXIT
+Direction  South~
+ToRoom     3456
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3458
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3458
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast corridor.  The shadows linger here and look
+like they might conceal anything. The tunnel continues towards the north
+and south.
+~
+#EXIT
+Direction  South~
+ToRoom     3457
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3459
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3459
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast corridor.  The shadows linger here and look
+like they might conceal anything. The tunnel continues towards the east
+and south.
+~
+#EXIT
+Direction  South~
+ToRoom     3458
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3460
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3460
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         Your are standing in a vast tunnel way.  The shadows linger here and look
+like they might conceal anything.  The tunnel continues towards the east
+and west.
+~
+#EXIT
+Direction  West~
+ToRoom     3459
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3461
+#ENDEXIT
+Reset M    3411 4 3460 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3461
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast tunnel way.  The shadows linger here and look
+like they might conceal anything.  The tunnel continues towards the east
+and west.
+~
+#EXIT
+Direction  West~
+ToRoom     3460
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3462
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3462
+Name       Shore of Darkness~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You come to the surface of the pool to stand on the shore inside a
+vast cavern.  There are tunnels to the west and to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     3451
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3461
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3463
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3463
+Name       Vast Tunnel Way~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a vast corridor.  The shadows linger here and look like
+they might conceal anything.  The tunnel continues to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     3462
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3452
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3464
+Name       Certain Death~
+Sector     city~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc         You scream in horror as a bolt of light hits you in the chest!!  Your body
+convulses and lurches Violently.  Blood is forced from your lungs as you
+gasp for air, a warm sensation covers your body.  Then blackness..
+Your fight against the undead is over and you join their ranks.
+~
+#EXIT
+Direction  West~
+ToRoom     3467
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3465
+Name       Almost Certain Death~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see Orcus, Demi-God of the undead here.  You don't think that you will
+be on this world much longer.
+~
+#EXIT
+Direction  West~
+ToRoom     3466
+#ENDEXIT
+Reset M    3400 1 3465 -1 -1 -1 100
+  Reset E  3401 1 16 75
+#ENDROOM
+
+#ROOM
+Vnum        3466
+Name       Iron Ladder~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see an iron ladder imbedded into the wall here.  They lead up into
+blackness.  To the east you see the private chamber of Orcus.  And darkness
+continues on towards the north.
+~
+#EXIT
+Direction  Up~
+ToRoom     3427
+Desc       You see the iron ladder leading upwards.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3465
+Desc       You see the private chamber of Orcus, Demi-God of the undead.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3467
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3467
+Name       Intersection of Tunnel Ways~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         To the north the tunnel ways continue on.  You see a place to the east
+you dont think you would like to be.  To the south you see a ladder imbedded
+into the wall leading up.  And to the west you see the entrance to a large
+stone crypt.
+~
+#EXIT
+Direction  North~
+ToRoom     3456
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3464
+Desc       I would not go there if I were you.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3466
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3468
+Desc       You see the entrance to an ancient stone crypt.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3468
+Name       Entrance to the Crypt~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing on a stone stairway that leads up to a large stone crypt.
+On both sides of you are stone statues of Gargoyles.  They almost seem 
+lifelike in appearance.  You think you saw one move!
+~
+#EXIT
+Direction  East~
+ToRoom     3467
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3469
+Key        3409
+Keywords   crypt~
+Flags      isdoor~
+#ENDEXIT
+Reset M    3406 2 3468 -1 -1 -1 100
+Reset M    3406 2 3468 -1 -1 -1 100
+  Reset E  3409 99 17 100
+Reset D    3468 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3469
+Name       Ancient Crypt~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see a large dark room with mounds of gold everywhere.  Rich tapestries
+and clothing lie strewn about.  You see the white of bone through the 
+remains of brave warriors armor lying about here.  Thick webs hang from the
+ceiling cluttering sight.  It is hard to tell where and what everything is.
+~
+#EXIT
+Direction  East~
+ToRoom     3468
+Key        3409
+Keywords   crypt~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     3470
+Desc       You see hole in the ceiling.  It looks like you could climb up to it.
+~
+#ENDEXIT
+Reset M    3403 1 3469 -1 -1 -1 100
+  Reset E  3400 1 6 50
+  Reset E  3405 1 3 50
+Reset D    3469 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3470
+Name       Basement~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a deep dank basement, of what seems to be quite a 
+large house.  You have an eerie feeling about this place.
+To the east you see a large room to the east in which sets a large coffin
+in the middle of the room.  Their is a stairway here leading up.
+~
+#EXIT
+Direction  Down~
+ToRoom     3469
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3471
+Desc       You see a large room to the east in which sets a large coffin in the middle
+of the room.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     3472
+Desc       You see a stairway leading up here.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3471
+Name       Coffin Room~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see a very dark room with no sign of movement.   A large coffin lies
+in the center of this room.  Long shadows linger in every direction.
+As you examine the coffin you notice the lid begin to slide off!
+Something arises out of the coffin......
+~
+#EXIT
+Direction  West~
+ToRoom     3470
+#ENDEXIT
+Reset M    3401 1 3471 -1 -1 -1 100
+  Reset E  3402 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum        3472
+Name       Dark Stairway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing on an old rickety stairway.  It creaks loudly with every
+foot step.
+~
+#EXIT
+Direction  South~
+ToRoom     3474
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     3470
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3473
+Name       Study~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a study with bookshelves lining every wall.  Old wooden
+desks with crumpled parchments stand in the middle of the room.  The floor
+has some holes here from the rotting of dead wood.  You have to gauge your
+steps carefully here.
+~
+#EXIT
+Direction  East~
+ToRoom     3474
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3477
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3474
+Name       Kitchen~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         Broken pieces of dining ware and old pieces of silver ware are all about
+the floor here.  Stoves that haven't been cooked on in ages are rusting
+uselessly in the corner.  The sound of a leaky faucet seems to match the
+drum of your beating heart.
+~
+#EXIT
+Direction  North~
+ToRoom     3472
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3473
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3478
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3475
+#ENDEXIT
+Reset M    3410 8 3474 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3475
+Name       Main Room~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         A large portrait of Itch and Falton hangs over the mantle of the fire 
+place.  As you peer around the rest of the room you think you see Itch and
+Falton grinning evilly out of the corner of your eye.
+~
+#EXIT
+Direction  West~
+ToRoom     3474
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3479
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3476
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     3480
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3476
+Name       Bathroom~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         A useless toilet and sink rest in the wall here.  A broken mirror hangs on
+the northern wall.  A used condom rests on the sink. :)
+~
+#EXIT
+Direction  South~
+ToRoom     3475
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3477
+Name       Trophy Room~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         The dead heads of game hang on every wall in the room here.  It appears
+the once owner of this Mansion was quite the hunter.
+~
+#EXIT
+Direction  North~
+ToRoom     3473
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3478
+#ENDEXIT
+Reset M    3410 8 3477 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3478
+Name       Mansion Courtyard~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You stand in a vast courtyard of this once marvelous mansion.  Dead bushes
+and shrubbery still root the ground here.  Broken Glass double doors lead off
+to the west into the trophy room.  A wooden door exits to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     3474
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3477
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3479
+Name       Foyer of the Mansion~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are in the entranceway to the great mansion.  The entrance doors
+are to your east, while the rest of the mansion awaits you to the north.
+~
+#EXIT
+Direction  East~
+ToRoom     3486
+Keywords   doors door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3475
+#ENDEXIT
+Reset D    3479 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3480
+Name       Stairway to the Balcony~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are on a rickety old stairway with worn carpet that leads up to the
+balcony of this great mansion.
+~
+#EXIT
+Direction  Down~
+ToRoom     3475
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     3481
+#ENDEXIT
+Reset M    3410 8 3480 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3481
+Name       Balcony~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing on a great balcony overlooking the main room.  Bedrooms
+exit the north and east while the bathroom lies to the south.
+~
+#EXIT
+Direction  Down~
+ToRoom     3480
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     3482
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3483
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3484
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3482
+Name       Bedroom~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         Hmm..what is that wailing noise?
+~
+#EXIT
+Direction  South~
+ToRoom     3481
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3483
+Name       Bedroom~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         A decrepit old bed lies in the center of the room.  A broken old vanity
+sits against the eastern wall.
+~
+#EXIT
+Direction  West~
+ToRoom     3481
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3484
+Name       Upstairs Bathroom~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         A very large bathroom with old towels and body ointments.  A piece of 
+dung floats in the murky water of the porcelain toilet bowl.  A large shower
+has been installed into the southern wall.
+~
+#EXIT
+Direction  North~
+ToRoom     3481
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3485
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3485
+Name       Shower Room~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing in a what used to be modernized wash room.  Blood seems
+to be dripping out of the broken nozzle in the wall.  A smell of decay
+permeates the air.
+~
+#EXIT
+Direction  North~
+ToRoom     3484
+#ENDEXIT
+Reset M    3410 8 3485 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3486
+Name       Porch in front of the Mansion~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You see a large abandoned old mansion surrounding you here.  The wood of
+the house is old and decayed.  All the windows have been long boarded up.
+A keep out sign is lying broken on the floor here.
+~
+#EXIT
+Direction  West~
+ToRoom     3479
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3487
+#ENDEXIT
+Reset D    3486 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        3487
+Name       Twisty Driveway~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         A long twisty driveway leads up towards a hulking mansion.  Large evergreen
+trees line this winding path.  It continues north towards the mansion and
+south towards the vast wilderness.
+~
+#EXIT
+Direction  North~
+ToRoom     3486
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3488
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3488
+Name       An old Country Lane~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         You are standing on an old country lane.  Brush has overgrown most parts
+of this path.  You can make out a twisty driveway to the north.  The vast
+wilderness continues to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     3487
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3489
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3489
+Name       Country Lane~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         An old country lane leads towards the north.  The trail is surrounded
+by vast evergreens.  The woods continue towards the south.
+~
+#EXIT
+Direction  North~
+ToRoom     3488
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

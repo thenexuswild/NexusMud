@@ -1,0 +1,182 @@
+#PLAYER
+Version      23
+Name         Zombie~
+Password     4be7510d7934dcd6d52b09c9e786646e770c111545eb7ef640c9d5226f2bebee~
+Sex          male~
+Race         centaur~
+Class        Ranger~
+Title         the Strider~
+Rank         Ranger~
+Site         boralis.iguanadons.net~
+Prompt       &z[&W%h&whp &W%m&wm &W%v&wmv&z]  [&c%X&wexp&z]&D ~
+FPrompt      &z[&W%h&whp &W%m&wm &W%v&wmv&z]  [&R%c&z] ~
+PCFlags      nstart autoexits blank automap ansi autogold~
+Channels     chat~
+Speaks       common centaur~
+Status       2 0 625 117 205 101 -1
+Status2      2 7 350 0 0 0 100 0
+Configs      24 -1 -1 -1 -1 1 0 2850
+Motd         0 0
+Age          0 0 0 -16 320
+HpManaMove   33 44 105 111 149 150
+Regens       0 0 0
+Position     standing~
+Coordinates  -1 -1 -1
+SavingThrows 0 0 0 0 1
+RentData     0 0 0 0 0
+RentRooms    11407
+KillInfo     0 0 0 0 0
+AttrPerm     13 10 17 14 18 13 13
+AttrMod      0 0 0 0 0 0 0
+Condition    0 75 75
+Tongue       100 'centaur'
+Tongue       100 'common'
+MaxColors    111
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 12 10 14 15 7 7 11 7 7 7 12 7 7 2 6 7 7 12 7 7 7 9 7 12 13 7 7 11 7 7 3 12 9 7 7 10 2 2 3 7 9 7 2 9 12 9 6 11 13 2 13 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 10 15
+MaxBeacons   10
+Beacons      0 0 0 0 0 0 0 0 0 0
+Zone         Gwyn al'Fer~
+Zone         Halls of Creation~
+IMCPerm      0
+IMCFlag      imccolor
+End
+
+#OBJECT
+Version      23
+Ovnum        11479
+Ego          10
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       5 5 0 0 0 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        11478
+Ego          0
+WearLoc      0
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       0 0 -1 0 0 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2894
+Ego          0
+WearLoc      16
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       10 2 10 1 1 0 10 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2884
+Ego          0
+WearLoc      5
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       2 2 0 2 2 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2885
+Ego          0
+WearLoc      7
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       2 2 0 2 2 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2887
+Ego          0
+WearLoc      6
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       2 2 0 2 2 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2886
+Ego          0
+WearLoc      10
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       2 2 0 2 2 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2888
+Ego          0
+WearLoc      8
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       2 2 0 2 2 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2893
+Ego          0
+WearLoc      11
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       7 7 0 14 1 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        2902
+Ego          0
+Level        30
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       0 0 0 0 0 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#END

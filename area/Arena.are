@@ -1,0 +1,1889 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Nexus Arena~
+Author          Unknown~
+Vnums           23800 23899
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       120
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#OBJECT
+Vnum        23800
+Keywords   key arena k238~
+Type       key~
+Short      the Arena Key~
+Long       The Arena Key.~
+Flags      glow hum magic~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23801
+Keywords   pen arena o238~
+Type       pen~
+Short      a arena pen~
+Long       A pen with the Arena Logo on it has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23802
+Keywords   ticket arena o238~
+Type       paper~
+Short      a Nexus Arena Ticket~
+Long       A Nexus Arena Ticket is lying here. Better not lose it.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23803
+Keywords   token arena o238~
+Type       treasure~
+Short      A Nexus Arena Token~
+Long       A Nexus Arena Token is lying here. Better not lose it.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23804
+Keywords   clue arena o238~
+Type       paper~
+Short      a Nexus Arena Clue~
+Long       A Nexus Arena Clue is here. Without it, you'd be clueless.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23805
+Keywords   flag blue o238~
+Type       treasure~
+Short      a blue flag~
+Long       A blue flag has been left here.~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23806
+Keywords   flag red o238~
+Type       treasure~
+Short      a red flag~
+Long       A red flag has been left here.~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23899
+Keywords   key arena skeleton k238~
+Type       key~
+Short      the Arena Skeleton Key~
+Long       The Arena Skeleton Key.~
+Flags      glow hum magic~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        23800
+Name       Nexus Arena~
+Sector     city~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc            You stand in the waiting room of the Nexus Arena.  Immortals
+may use this area for their Quests.  The Arena is 8 X 8 rooms.  There 
+is a large door to the east that leads out into the main Arena.  There
+is also a door to the north leading to the Blue Room, and a door to the
+south leading to the Red Room.
+~
+#EXIT
+Direction  North~
+ToRoom     23865
+Key        23800
+Desc       This door leads to the Blue Team Safe Room.~
+Keywords   door blue~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23825
+Key        23800
+Desc       There is a HUGE door here.  When it's open it leads into the main Arena.~
+Keywords   door large~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23866
+Key        23800
+Desc       This door leads to the Red Team Safe Room.~
+Keywords   door red~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    23800 99 23800 -1 -1 -1 100
+Reset D    23800 0 2 100 -2
+Reset D    23800 1 2 100 -2
+Reset D    23800 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23801
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23802
+Key        23899
+Desc       A Red square lies to the east.~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23809
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23802
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23803
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23810
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23801
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23803
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23804
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23811
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23802
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23804
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23805
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23812
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23803
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     23866
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23805
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23806
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23813
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23804
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23806
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23807
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23814
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23805
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23807
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23808
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23815
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23806
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23808
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     23816
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23807
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23809
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23801
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23810
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23817
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23810
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23802
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23811
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23818
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23809
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23811
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23803
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23812
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23819
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23810
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23812
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23804
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23813
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23820
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23811
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23813
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23805
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23814
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23821
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23812
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23814
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23806
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23815
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23822
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23813
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23815
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23807
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23816
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23823
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23814
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23816
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23808
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23824
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23815
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23817
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23809
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23818
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23825
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23818
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23810
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23819
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23826
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23817
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23819
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23811
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23820
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23827
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23818
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23820
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23812
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23821
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23828
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23819
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23821
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23813
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23822
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23829
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23820
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23822
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23814
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23823
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23830
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23821
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23823
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23815
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23824
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23831
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23822
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23824
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23816
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23832
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23823
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23825
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23817
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23826
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23833
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23826
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23818
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23827
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23834
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23825
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23827
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23819
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23828
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23835
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23826
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23828
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23820
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23829
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23836
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23827
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23829
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23821
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23830
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23837
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23828
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23830
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23822
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23831
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23838
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23829
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23831
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23823
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23832
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23839
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23830
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23832
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23824
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23840
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23831
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23833
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23825
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23834
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23841
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23834
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23826
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23835
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23842
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23833
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23835
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23827
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23836
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23843
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23834
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23836
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23828
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23837
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23844
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23835
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23837
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23829
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23838
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23845
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23836
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23838
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23830
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23839
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23846
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23837
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23839
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23831
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23840
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23847
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23838
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23840
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23832
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23848
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23839
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23841
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23833
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23842
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23849
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23842
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23834
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23843
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23850
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23841
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23843
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23835
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23844
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23851
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23842
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23844
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23836
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23845
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23852
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23843
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23845
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23837
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23846
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23853
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23844
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23846
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23838
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23847
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23854
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23845
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23847
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23839
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23848
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23855
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23846
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23848
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23840
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23856
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23847
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23849
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23841
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23850
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23857
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23850
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23842
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23851
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23858
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23849
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23851
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23843
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23852
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23859
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23850
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23852
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23844
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23853
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23860
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23851
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23853
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23845
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23854
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23861
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23852
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23854
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23846
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23855
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23862
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23853
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23855
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23847
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23856
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23863
+Desc       A Red square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23854
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23856
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23848
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23864
+Desc       A Blue square lies to the south.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23855
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23857
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23849
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23858
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23858
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23850
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23859
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23857
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23859
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23851
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23860
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23858
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23860
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23852
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23861
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23859
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     23865
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23861
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23853
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23862
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23860
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23862
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23854
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23863
+Desc       A Red square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23861
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23863
+Name       A Red Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23855
+Desc       A Blue square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23864
+Desc       A Blue square lies to the east.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23862
+Desc       A Blue square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23864
+Name       A Blue Square~
+Sector     city~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23856
+Desc       A Red square lies to the north.~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23863
+Desc       A Red square lies to the west.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23865
+Name       The Blue Safe Room~
+Sector     city~
+Flags      nomob indoors safe~
+Stats      0 0 0 0 0
+Desc            You are standing in the Safe Room of the Blue Team.
+~
+#EXIT
+Direction  Up~
+ToRoom     23860
+Desc       A small staircase rises above you.~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        23866
+Name       The Red Safe Room~
+Sector     city~
+Flags      nomob indoors safe~
+Stats      0 0 0 0 0
+Desc            You are standing in the Safe Room of the Red Team. 
+~
+#EXIT
+Direction  Up~
+ToRoom     23804
+Desc       A small staircase rises above you.~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

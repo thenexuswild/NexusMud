@@ -1,0 +1,684 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Miden'Nir~
+Author          Unknown~
+Vnums           3500 3522
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       60
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        3500
+Keywords   wyvern~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the wyvern~
+Long       A monstrous wyvern slowly circles just above your head.
+~
+Desc       This huge winged creature looks really menacing as it circles only inches
+above your head, flapping its wings and squawking very loudly.
+~
+Nattacks   1.000000
+Stats1     -700 400 60 100 150 250
+Stats2     8 13 3 90 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        3501
+Keywords   goblin~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the goblin~
+Long       A mountain goblin is wandering around mumbling to himself...
+~
+Desc       You see before you a small and twisted creature with knotted muscles and
+disgustingly green skin.  Doesn't look like the type you'd invite to dinner.
+~
+Nattacks   1.000000
+Stats1     -250 50 60 100 150 250
+Stats2     4 17 6 55 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#ROOM
+Vnum        3500
+Name       The Plains~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on the plains, to the north you notice a small path into the hills.
+~
+#EXIT
+Direction  North~
+ToRoom     1000
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3501
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3501
+Name       The Lane~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are strolling along a pleasant, shady lane.  The road is lined on both
+sides by tall, stately trees which lend the scene with a sense of quiet
+serenity.  You can follow the road north or south.
+~
+#EXIT
+Direction  North~
+ToRoom     3500
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3502
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3502
+Name       The Turning Point~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         The trees stand close here, and the tall, bushy undergrowth prevents you
+from seeing far in any direction save north, where a broad lane leads off into
+the distance; and west, where the same lane continues towards what looks like
+a fairly large city.  The muted sounds of city commotion reach your ears from a
+distance; stray dogs barking, children crying, and street salesmen shouting.
+  A steep path leads down from here towards the Dwarven Village.
+~
+#EXIT
+Direction  North~
+ToRoom     3501
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1000
+Desc       You see a path and a large castle in the distance.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3503
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6500
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3503
+Name       City Entrance~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You stand on the outskirts of a large city - Midgaard; the capital of this
+land.  The road leads east into the peace and quiet - and dangers - of the
+forest; and to the west it becomes the main street of the town; surrounded by
+a confusion of shops, bars, and market places.
+~
+#EXIT
+Direction  East~
+ToRoom     3502
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3053
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3504
+Name       The South Bridge~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You are standing on a small, rickety bridge leading from the Midgaard
+City Dump, to the forest of Miden'Nir (Goblinic for Green Blood).  You can
+smell the Dump to the north, but go south and there is fresh air and
+greenery.
+~
+#EXIT
+Direction  North~
+ToRoom     3030
+Desc       You can see the clutter of the City Dump.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3505
+Desc       If you go south, you will enter the Miden'Nir.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3505
+Name       The Trail to Miden'Nir~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You are in a light forest.  A path leads south, but the passage to the
+east is easy enough.  To the west, smoke can be seen rising above the 
+treetops.  The sprawl of Midgaard lies north of here.
+~
+#EXIT
+Direction  North~
+ToRoom     3504
+Desc       To the north, you see the bridge to Midgaard.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3506
+Desc       More light forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3507
+Desc       This path cuts through the darkness of the Miden'Nir.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3506
+Name       The Miden'Nir~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You are in a dark forest.  To the east, mountains block passage.  From
+here, only the lighter forest to the west or south offer a way to travel.
+~
+#EXIT
+Direction  South~
+ToRoom     3509
+Desc       The forest is darker to the south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3505
+Desc       The forest gets lighter as you go west.
+~
+#ENDEXIT
+Reset M    3500 5 3506 -1 -1 -1 100
+Reset M    3501 12 3506 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3507
+Name       The Miden'Nir~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            The forest is deep here and the wind blows through the trees and
+through your hair.  To the north, the forest gets lighter.  However, the
+southern and eastern paths place you even deeper in the wood.
+~
+#EXIT
+Direction  North~
+ToRoom     3505
+Desc       The forest is lighter in this direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3510
+Desc       More and darker woods.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3508
+Desc       There is a small path leading west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3508
+Name       On a Small Path~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            A path is here, leading east and south.  Mountains slash the scenery
+to the west of here.
+~
+#EXIT
+Direction  East~
+ToRoom     3507
+Desc       Wind-swept forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3511
+Desc       To the south, the trail continues.
+~
+#ENDEXIT
+Reset M    3501 12 3508 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3509
+Name       The Miden'Nir~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            More trees...  You can go north, south or travel toward the mountains
+that lie east of here.
+~
+#EXIT
+Direction  North~
+ToRoom     3506
+Desc       The trees lighten up a bit this way.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3512
+Desc       Huge grey mountains lie in this direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3514
+Desc       The forest continues.
+~
+#ENDEXIT
+Reset M    3501 12 3509 -1 -1 -1 100
+Reset M    3501 12 3509 -1 -1 -1 100
+Reset M    3501 12 3509 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3510
+Name       The Crossroads~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Here footworn paths lead north, south and east.  The trees seem to
+be closing in on you at this point.
+~
+#EXIT
+Direction  North~
+ToRoom     3507
+Desc       Trees as far as the eye can see.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3514
+Desc       There is an especially dark part of the forest this way.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3516
+Desc       There is an especially dark section of forest this way.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3511
+Name       The Trail~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You are on a north-south trail.  To the west, impassible mountains glare
+at you.
+~
+#EXIT
+Direction  North~
+ToRoom     3508
+Desc       The trail bends to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3515
+Desc       To the south, the path re-enters the forest.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3512
+Name       At the Foot of the Mountains~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            You can go west or south and re-enter the forest.  Mountains prevent
+passage in any other direction.
+~
+#EXIT
+Direction  South~
+ToRoom     3513
+Desc       A light section of forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3509
+Desc       The forest continues here.
+~
+#ENDEXIT
+Reset M    3500 5 3512 -1 -1 -1 100
+Reset M    3501 12 3512 -1 -1 -1 100
+Reset M    3501 12 3512 -1 -1 -1 100
+Reset M    3501 12 3512 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3513
+Name       The Miden'Nir~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc           The forest is light here and gets lighter to the north.  To the west
+everything gets dark.  The wind kicks up as you ponder your options.
+~
+#EXIT
+Direction  North~
+ToRoom     3512
+Desc       There is a small clearing to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3514
+Desc       It gets darker and thicker this way.
+~
+#ENDEXIT
+Reset M    3500 5 3513 -1 -1 -1 100
+Reset M    3501 12 3513 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3514
+Name       Deep Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            It is quite dark here, forest surrounds you.  Footsteps can be heard,
+but their direction can not be determined.
+~
+#EXIT
+Direction  North~
+ToRoom     3509
+Desc       More forest.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3513
+Desc       Lighter forest and mountains in the distance.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3510
+Desc       The forest continues.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3517
+Desc       More trees.
+~
+#ENDEXIT
+Reset M    3501 12 3514 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3515
+Name       Light Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            The forest is light here and you can easily pick your way through the
+trail.  To the east, the forest becomes deep again.  South, the trail
+continues.
+~
+#EXIT
+Direction  North~
+ToRoom     3511
+Desc       A trail leading north-south.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3516
+Desc       The trees get thicker as you go east.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3518
+Desc       More trees and some small hills.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3516
+Name       The Sink~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            The ground is quite muddy here and puddles are all around.  Your boots
+make a disgusting SQUISH as you walk here.  You can go in any of the four
+cardinal directions from here.  Hopefully, it will be dryer.
+~
+#EXIT
+Direction  North~
+ToRoom     3510
+Desc       The Miden'Nir continues.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3517
+Desc       More trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3519
+Desc       The trees get VERY thick to the south.  You can barely see...
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3515
+Desc       Some light trees and daylight.
+~
+#ENDEXIT
+Reset M    3501 12 3516 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3517
+Name       Near the Mountains~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc           The most prominent feature here is the mountains that lie to the east.
+You can only go north and west from here as the rocks stop all other
+movement.
+~
+#EXIT
+Direction  North~
+ToRoom     3514
+Desc       Many trees to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3516
+Desc       There is a bit of a slope downward to the west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3518
+Name       The Fading Trail~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            The trail becomes nearly impassible here.  You can go south and west,
+as the forest is relatively light.  To the north, you can see a path.
+~
+#EXIT
+Direction  North~
+ToRoom     3515
+Desc       You can see a trail this way.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3522
+Desc       Dark forests.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3520
+Desc       Light trees and mountains in the distance.
+~
+#ENDEXIT
+Reset M    3500 5 3518 -1 -1 -1 100
+Reset M    3501 12 3518 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3519
+Name       The Dark Path~
+Sector     forest~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc            You are hemmed in by trees on either side of you.  There is no way
+to go east or west.  The wind, which howled earlier, seems to have died in
+this natural tunnel.
+~
+#EXIT
+Direction  North~
+ToRoom     3516
+Desc       Ahhh...  daylight.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3521
+Desc       More darkness.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        3520
+Name       On the Verge of Darkness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            The forest is getting pretty thick here.  To the south, the forest is
+too dense to venture into.  The eastern path seems the only way to go from
+here.
+~
+#EXIT
+Direction  East~
+ToRoom     3518
+Desc       Light and a visible trail.
+~
+#ENDEXIT
+Reset M    3500 5 3520 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        3521
+Name       Carnage~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc            Here, you see a gruesome sight.  Blood is everywhere...  on the trees
+and soaked into the ground.  Two carcasses lie in front of you, seeming to
+look up at you.  The forest is impassible to the south, but the path
+continues north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     3519
+Desc       Darkness...
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     3522
+Desc       More dark forest.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  carcass body corpse carcasses bodies corpses~
+ExDesc        The corpses looked as if they have been pierced by a large, jagged
+spear.  The damage these people sustained is simply amazing.  Worse, the
+lips on the bodies are a light shade of blue, hinting at poison in
+their systems.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        3522
+Name       Stench~
+Sector     forest~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          There is a sickening stench here.  It smells of blood and death.  To the
+north, you catch glimpses of daylight.  To the east, you simply cannot see.
+The trees are close and stifling.
+~
+#EXIT
+Direction  North~
+ToRoom     3518
+Desc       Daylight and a trail to follow.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     3521
+Desc       Darkness..  the smell seems to come from here.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,2728 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Bamboo Forest and Ishikawa River~
+Author          Unknown~
+Vnums           10800 10890
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       40
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        10800
+Keywords   spirit bamboo m108~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the bamboo spirit~
+Long       A bamboo spirit eyes you here.
+~
+Desc       This being is the spirit of the bamboo, which resents your coming into its
+domain.  It appears to be a beautiful, sexless human.
+~
+Nattacks   2.000000
+Stats1     -100 500 60 100 150 250
+Stats2     12 9 7 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10801
+Keywords   musashi miyamoto m108~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Musashi Miyamoto~
+Long       Musashi Miyamoto is writing the Book of Five Rings here.
+~
+Desc       The greatest swordsman to ever live, Musashi was once a very handsome man.
+However, he has since retired to the wilderness, and looks to be little more
+than a wild man.  Wishing to help others find enlightenment through 'kendo'
+the spiritual aspect of swordsmanship, Musashi is currently writing the Book
+of Five Rings, the sum of all his knowledge.
+~
+Nattacks   4.000000
+Stats1     0 1000 60 100 150 250
+Stats2     36 -7 -10 3000 1 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10802
+Keywords   apprentice smith swordsmith m108~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Apprentice Swordsmith~
+Long       Masamura's apprentice prepares a blade for the master here.
+~
+Desc       A talented swordsmith in his own right, this man fled the Shogun's service to
+learn from the best.  He is quite young, and very handsome and well built, with
+deep brown eyes which make you swoon.  Perhaps under the tutelage of the great
+Masamura, he will also find spiritual enlightenment.
+~
+Nattacks   2.000000
+Stats1     250 2000 60 100 150 250
+Stats2     24 0 1 450 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10803
+Keywords   apprentice smith swordsmith m108~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Apprentice Swordsmith~
+Long       One of Masamura's apprentices is collecting materials for a sword here.
+~
+Desc       A talented swordsmith in his own right, this young man has recently been
+accepted by the Mystic Swordsmith, and is performing the minor chores.
+He is quite handsome, having dark brown eyes and black hair.
+~
+Nattacks   2.000000
+Stats1     250 2000 60 100 150 250
+Stats2     18 3 5 247 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10804
+Keywords   masamura swordsmith smith m108~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Masamura, the Mystic Swordsmith~
+Long       The Great Masamura is putting the finishing touches on a katana here.
+~
+Desc       You feel humbled in the presence of the greatest swordsmith who ever lived.
+And he has lived quite a long time, having found near immortality through
+the zen aspects of sword crafting.  He looks quite old, with long white hair,
+yet his eyes show a firey spirit of the newly initiated samurai.
+~
+Nattacks   4.000000
+Stats1     500 10000 60 100 150 250
+Stats2     32 -5 -6 2000 4 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10805
+Keywords   bakemono goblin m108~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the bakemono~
+Long       A goblin is scavenging for food here.
+~
+Desc       This nasty creature, much like the goblins of the west are known for their bad
+demeanor, aggressiveness, stench, and bad table manners.  However, they are
+known as 'bakemono' by the locals.
+~
+Nattacks   1.000000
+Stats1     -350 700 60 100 150 250
+Stats2     8 13 8 97 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10806
+Keywords   fish small m108~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the small fish~
+Long       A small fish is swimming here.
+~
+Desc       It is just a small, harmless fish.
+~
+Nattacks   1.000000
+Stats1     0 25 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10807
+Keywords   large fish m108~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the large fish~
+Long       A large fish is swimming here.
+~
+Desc       It is just a large, harmless fish.~
+Nattacks   1.000000
+Stats1     0 50 60 100 150 250
+Stats2     2 19 10 23 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10808
+Keywords   shark tiger m108~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the tiger shark~
+Long       You see a dorsal fin break the waves here.
+~
+Desc       This large, savage beast is alive only to eat and reproduce.  You might be it's
+next meal if you keep gawking at it and not move on!
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 1 4 247 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        10800
+Keywords   key silver k108~
+Type       key~
+Short      silver key~
+Long       A silver key has been left here to tarnish.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10801
+Keywords   key iron k108~
+Type       key~
+Short      iron key~
+Long       A strange iron key lies in the dirt here.~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10802
+Keywords   hammer smith o108~
+Type       key~
+Short      a swordsmith's hammer~
+Long       A smith's hammer lies forgotten in the corner here.~
+WFlags     take wield~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  hammer smith~
+ExDesc     this hammer has quite an unusual handle. The end is iron shod with strange
+potrusions.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10803
+Keywords   table o108~
+Type       container~
+Short      the table~
+Long       ~
+Values     70 15 10802 10 0 10802 0 0 0 0 0
+Stats      50 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  table~
+ExDesc     Upon examination, it seems as if the table has a secret compartment built into
+it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10804
+Keywords   wakizashi blade apprentice short o108~
+Type       weapon~
+Short      an Apprentice's wakizashi~
+Long       The apprentice has left a fine wakizashi here, unfinished.~
+WFlags     take wield~
+Values     0 4 3 1 0 0 0 0 0 0 0
+Stats      10 1000 0 9999 0 None None None
+#EXDESC
+ExDescKey  wakizashi blade short apprentice~
+ExDesc     This blade is complete by most standards, but the exquisite worksmanship
+can only be complemented by Masamura's own final touch-up work.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10805
+Keywords   blade masamura katana o108~
+Type       weapon~
+Short      a Masamura blade~
+Long       An unfinished Masamura katana has been left here, unenchanted.~
+WFlags     take wield~
+Values     0 9 1 1 0 0 0 0 0 0 0
+Stats      12 2000 0 9999 0 None None None
+#EXDESC
+ExDescKey  blade masamurai katana~
+ExDesc     This blade is beautiful, yet does not seem to radiate the power that most of
+katana's that Masamura has created do.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10806
+Keywords   crystal shard o108~
+Type       weapon~
+Short      a crystal shard~
+Long       A crystal shard has been discarded here.~
+WFlags     take wield~
+Values     0 1 1 6 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  shard crystal~
+ExDesc     This piece of rock is some strange crystal which you have never seen before.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10807
+Keywords   shard cyrstal sharp o108~
+Type       weapon~
+Short      a crystal shard~
+Long       A sharp crystal shard has been discarded here.~
+WFlags     take wield~
+Values     0 7 1 6 0 0 0 0 0 0 0
+Stats      1 2000 0 9999 0 None None None
+#EXDESC
+ExDescKey  shard crystal~
+ExDesc     This piece of crystal is quite sharp, made of a material which you have never
+seen before.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10808
+Keywords   book five rings parchment bundle o108~
+Type       treasure~
+Short      Book of Five Rings~
+Long       A bundle of parchment lies in the dust here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 20000 0 9999 0 None None None
+AffData    hitroll 3 -1 -1 0
+AffData    damroll 5 -1 -1 0
+#EXDESC
+ExDescKey  book five rings parchment bundle~
+ExDesc     Hmmm, it is very deep, explaining in an eloquent manner how to use a katana
+effectively.  It is Miyamoto Musashi's greatest contribution to literature
+and culture, the sum of his knowledge.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10809
+Keywords   corpse o108~
+Type       container~
+Short      rotting corpse~
+Long       A rotting corpse floats here.~
+Values     100 0 0 10 0 0 0 0 0 0 0
+Stats      150 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  corpse rotting~
+ExDesc     The corpse looks quite fresh, and looks to have been a young man.  He looks to
+have been a samurai.  His throat is slit.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10810
+Keywords   sash o108~
+Type       container~
+Short      a sash~
+Long       A sash lies in a puddle of water here.~
+WFlags     take waist~
+Values     15 0 0 10 0 0 0 0 0 0 0
+Stats      3 500 0 9999 0 None None None
+#EXDESC
+ExDescKey  sash~
+ExDesc     Oh gross!  It is all bloody and wet.  However, it looks to have a secret
+compartment
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10811
+Keywords   paper o108~
+Type       treasure~
+Short      a piece of paper~
+Long       A piece of paper lies on the ground here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  paper back~
+ExDesc     It seems to be blank.
+The box is submerged under the south bridge.  Here is the key
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10812
+Keywords   key small k108~
+Type       key~
+Short      a small key~
+Long       ~
+WFlags     take~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10813
+Keywords   box iron o108~
+Type       container~
+Short      an iron box~
+Long       ~
+Values     50 15 10812 10 0 10812 0 0 0 0 0
+Stats      100 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  box iron~
+ExDesc     It is covered with mud, under the water, you are surprised you found it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10814
+Keywords   bag o108~
+Type       container~
+Short      a bag~
+Long       a small bag is sitting here.~
+WFlags     take~
+Values     30 0 0 10 0 0 0 0 0 0 0
+Stats      2 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10815
+Keywords   sword practice wooden boken o108~
+Type       armor~
+Short      wooden sword~
+Long       A wooden practice sword has been left here.~
+WFlags     take wield~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      8 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  practice sword wooden boken~
+ExDesc     Most samurai use these to practice, so as not to maim or kill their comrades.
+However, Musashi uses them in combat, and has NEVER lost a duel.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10816
+Keywords   gland shark  o108~
+Type       boat~
+Short      shark's gland~
+Long       A nasty looking gland of a large fish is rotting here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10817
+Keywords   tooth shark o108~
+Type       armor~
+Short      shark tooth~
+Long       A huge shark tooth has been left here.~
+WFlags     take wield~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10818
+Keywords   tooth shark o108~
+Type       armor~
+Short      shark tooth~
+Long       A large shark tooth has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10820
+Keywords   bracelet diamond studded o108~
+Type       treasure~
+Short      diamond studded bracelet~
+Long       A beautiful diamond studded bracelet lies here.~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+#EXDESC
+ExDescKey  bracelet diamond studded~
+ExDesc     this beautiful bracelet looks to be one of the artifacts stolen from the
+Memorial Museum!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10821
+Keywords   spellbreaker masamura o108~
+Type       armor~
+Short      Masamura's Spellbreaker~
+Long       A beautiful blade floats in the air here.~
+WFlags     take wield~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      30 0 0 9999 0 None None None
+AffData    hitroll 3 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        10800
+Name       At the Edge of the Bamboo Forest~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand at the edge of the supposedly haunted forest, to the west of the
+summer capital.  The safety of the west gates is just a step away to the east,
+while a seldom-travelled path leads west into the forest.
+You see a sign here.
+~
+#EXIT
+Direction  East~
+ToRoom     10424
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10801
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Enter the Haunted forest at your own risk.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10801
+Name       The Path in the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on the main path in the bamboo forest, which leads to the
+western end of the Empire.  Most people do not brave this route, and go around
+the forest, instead.  The path continues west.
+A message seems to be carved into a large tree here.
+~
+#EXIT
+Direction  North~
+ToRoom     10802
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10800
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10812
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10806
+#ENDEXIT
+#EXDESC
+ExDescKey  message tree~
+ExDesc     DO NOT WANDER OFF THE PATH!  There are spirits and other nasty things out
+there, not to mention the fact that you'll probably get lost.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10802
+Name       In the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What looked to be a path was just a thin spot among the tress, and you seem
+to have lost your way.  Bamboo looms all around you, making you feel a little
+uncomfortable.  Perhaps that is the path up ahead?
+~
+#EXIT
+Direction  North~
+ToRoom     10813
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10801
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10803
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10803
+#ENDEXIT
+Reset M    10800 12 10802 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10803
+Name       In the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What looked to be a path was just a thin spot among the trees, and you seem
+to have lost your way.  Bamboo looms all around you, making you feel a little
+uncomfortable.  Perhaps that is the path up ahead?
+~
+#EXIT
+Direction  North~
+ToRoom     10804
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10801
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10803
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10816
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10804
+Name       In the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What looked to be a path was just a thin spot among the trees, and you seem
+to have lost your way.  Bamboo looms all around you, making you feel a little
+uncomfortable.  Perhaps that is the path up ahead?
+~
+#EXIT
+Direction  North~
+ToRoom     10804
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10805
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10816
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10817
+#ENDEXIT
+Reset M    10800 12 10804 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10805
+Name       In the Bamboo Forest, at the Edge of the Hills~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Your imaginary path has apparently taken you somewhere, as you notice that
+the woods thin out as the hills begin.
+~
+#EXIT
+Direction  East~
+ToRoom     10822
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10801
+#ENDEXIT
+Reset M    10800 12 10805 -1 -1 -1 100
+Reset M    10800 12 10805 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10806
+Name       The Path in the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The main path in the bamboo forest continues east and west here, though what
+look to be smaller paths lead off the main path into the heart of the bamboo
+forest.
+~
+#EXIT
+Direction  North~
+ToRoom     10816
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10801
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10814
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10807
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10807
+Name       The Main Path in the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The main path in the bamboo forest, which provides a direct route from the
+summer capital to the western sea, continues east and west here.  Openings in
+the woods which might be footpaths lead off in other directions, though you
+think that maybe you should heed the advice you so wisely read at the edge of
+the forest.
+~
+#EXIT
+Direction  North~
+ToRoom     10816
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10806
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10814
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10808
+#ENDEXIT
+Reset M    10800 12 10807 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10808
+Name       Bend in the Path in the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The forest path bends here, going east and north.  Bamboo looms all around
+you, making you feel a little uncomfortable.  A foot path leads off to the
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     10819
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10807
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10809
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10809
+Name       In the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little uncomfortable.  Perhaps that is the trail up ahead.
+~
+#EXIT
+Direction  North~
+ToRoom     10808
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10807
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10810
+#ENDEXIT
+Reset M    10800 12 10809 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10810
+Name       In the Bamboo Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little uncomfortable.  Perhaps that is the trail up ahead.  And that IS a pit
+down, watch out!
+~
+#EXIT
+Direction  North~
+ToRoom     10809
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10811
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10808
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10818
+Desc       Are those spikes at the bottom?
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10811
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot among the trees, though you
+think that it has taken you SOMEWHERE.  The woods thin out to the south, while
+a pitfall lies in the middle of this 'trail'.
+~
+#EXIT
+Direction  North~
+ToRoom     10801
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10815
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10830
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10818
+Desc       Those spikes at the bottom look awfully sharp!  You calculate: F= ma= dmgt^2/2.
+~
+#ENDEXIT
+Reset M    10800 12 10811 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10812
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little nervous.  Perhaps that is the path up ahead.
+~
+#EXIT
+Direction  North~
+ToRoom     10801
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10812
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10813
+#ENDEXIT
+Reset M    10800 12 10812 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10813
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot in among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little nervous.  Perhaps that is the path up ahead.
+~
+#EXIT
+Direction  North~
+ToRoom     10802
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10801
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10815
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10814
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin sport among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little nervous.  Perhaps that is the path up ahead.
+~
+#EXIT
+Direction  North~
+ToRoom     10817
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10812
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10815
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10813
+#ENDEXIT
+Reset M    10800 12 10814 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10815
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         What appeared to be a path was just a thin spot among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little nervous.  A brisk tributary which runs into the Ishikawa River is
+accessable from a bank here.
+~
+#EXIT
+Direction  East~
+ToRoom     10812
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10843
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10801
+#ENDEXIT
+Reset M    10800 12 10815 -1 -1 -1 100
+Reset M    10800 12 10815 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10816
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little nervous
+~
+#EXIT
+Direction  North~
+ToRoom     10817
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10803
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10807
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10817
+Name       In the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          What appeared to be a path was just a thin spot among the trees, and you
+seem to have lost your way.  Bamboo looms all around you, making you feel a
+little nervous.
+~
+#EXIT
+Direction  East~
+ToRoom     10802
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10808
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10816
+#ENDEXIT
+Reset M    10800 12 10817 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10818
+Name       Pitfall (DT)~
+Sector     indoors~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc          It turns out that the pitfall was meant to kill, as the spikes upon which
+you are impaled tell you.
+~
+#EXIT
+Direction  North~
+ToRoom     10810
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10819
+Name       On the Main Path in the Bamboo woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path bends again here, going west where the forest begins to thin out a
+little, and also to the south.  Bamboo looms all around you.
+~
+#EXIT
+Direction  North~
+ToRoom     10817
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10816
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10808
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10820
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10820
+Name       On the Main Path in the Bamboo forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand just footsteps away from safety, at the western edge of the bamboo
+woods.  The path goes east here.
+~
+#EXIT
+Direction  East~
+ToRoom     10819
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10821
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     WARNING:  The forest is haunted by evil spirits.  Be sure to stay on the
+path, or you will surely get lost.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10821
+Name       At the Edge of the Bamboo Woods~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand at the western edge of the bamboo forest, where a path begins.
+~
+#EXIT
+Direction  East~
+ToRoom     10820
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10988
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10822
+Name       In the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The bamboo continues growing in the hills, though not as densly as down
+below along the river.  A path goes north and south, while it looks like you
+could make your way onto an outcrop to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10825
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10824
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10823
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10805
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10823
+Name       Above the Bamboo Woods~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand on a ledge in the hills, looking down upon the bamboo woods.  You
+can almost make out the main path which leads through the forest.  Looking to
+the south, you see another set of hills on the south end of the woods, where
+a stream of black smoke rises out of one of the hills.  Very strange...
+~
+#EXIT
+Direction  North~
+ToRoom     10822
+#ENDEXIT
+Reset M    10805 12 10823 -1 -1 -1 100
+Reset M    10805 12 10823 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10824
+Name       Scenic View~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Making your way up the side of a hill, and out onto the outcrop.  You are
+rewarded with a breath taking view of the Ishikawa basin:  the city, the rice
+paddies, and parts of the forest.  Past the city is the great sea, and beyond,
+who knows?
+~
+#EXIT
+Direction  West~
+ToRoom     10822
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10825
+Name       Path in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path in the hills continues, as the bamboo thins out to the point where
+it is no longer a hinderance.
+~
+#EXIT
+Direction  South~
+ToRoom     10822
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10826
+#ENDEXIT
+Reset M    10805 12 10825 -1 -1 -1 100
+Reset M    10805 12 10825 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10826
+Name       Path in the hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path bends to the north here, going further and further into the hills
+which lies to Ishikawa's northwest.
+~
+#EXIT
+Direction  North~
+ToRoom     10827
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10825
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10827
+Name       In the Hills, near the Mouth of a Cave~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path comes to and end here, at the mouth of a cave which lies to the
+north.
+~
+#EXIT
+Direction  North~
+ToRoom     10828
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10826
+#ENDEXIT
+Reset M    10805 12 10827 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10828
+Name       Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand in a dry cave, dimly lit only by a glowing crytal embedded in the
+ceiling.  Up ahead, further into the cave, you see a light.
+~
+#EXIT
+Direction  North~
+ToRoom     10829
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10827
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10829
+Name       Musashi's Cave~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         You come to the inner part of the cave, lit by a torch held in a sconce in
+the wall.  A draft coming from somewhere tells you that there is a ventilation
+system of some sorts.  A crude fire pit lies along the north wall, and a table
+stands near it.  A makeshift bed lies along the western edge of the cave.
+~
+#EXIT
+Direction  South~
+ToRoom     10828
+#ENDEXIT
+Reset M    10801 1 10829 -1 -1 -1 100
+  Reset E  10815 10 16 100
+  Reset E  10808 5 17 35
+#ENDROOM
+
+#ROOM
+Vnum        10830
+Name       A Path in the Foothills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Climbing uphill a bit, you clear the bamboo forest and arrive at this point
+in the hills.  The path continues to the south, and it might be possible to
+squeeze between the rocks to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10831
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10833
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10831
+Name       Along the Rocky Trail~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This path does not look to be used very often, and is very hard climbing.
+However, you manage, and carefully work your way through the hills.  To the
+west, the path ends, with a narrow squeeze between two large rocks, while
+the path looks to continue to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10832
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10830
+#ENDEXIT
+Reset M    10805 12 10831 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10832
+Name       End of the Rocky Path~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The trail comes to an end here, at the edge of a stream which probably heads
+toward the Ishikawa River.  The path continues to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10839
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10831
+#ENDEXIT
+Reset M    10803 1 10832 -1 -1 -1 100
+  Reset G  10801 2 100
+  Reset E  10806 100 17 100
+  Reset G  10806 100 100
+  Reset G  10806 100 100
+  Reset G  10807 8 100
+  Reset G  10806 100 100
+  Reset G  10806 100 100
+  Reset G  10806 100 100
+  Reset G  10806 100 100
+#ENDROOM
+
+#ROOM
+Vnum        10833
+Name       Path in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path continues through the hills here, forking off in three directions:
+north, east, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     10830
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10834
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10836
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10834
+Name       Bend in the Path in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The bends here, going north and south.  Down a good 15 feet or so is a brisk
+little stream which runs toward the Ishikawa River.  You make out a faint sound
+of hammering, just above the noise of the running water.
+~
+#EXIT
+Direction  South~
+ToRoom     10835
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10833
+#ENDEXIT
+Reset M    10805 12 10834 -1 -1 -1 100
+Reset M    10805 12 10834 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10835
+Name       End of the Path~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Path ends here, at a cliff face which lies to the east.  You see some
+smoke rising from some unknown source nearby, and the hammering has gotten
+louder.
+~
+#EXIT
+Direction  North~
+ToRoom     10834
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10837
+Key        10801
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10805 12 10835 -1 -1 -1 100
+Reset D    10835 1 2 100 -2
+#EXDESC
+ExDescKey  cliff face~
+ExDesc     hmmm, there seems to be a door of some sort, now that you have examined it
+carefully.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10836
+Name       Rugged Path in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This rugged path branches off of the main trail, and heads further into the
+hills.
+~
+#EXIT
+Direction  East~
+ToRoom     10833
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10837
+Name       Masamura's Smithy~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You have found Masamura's secret workshop, where he has worked beyond
+memory.  There is a strong draft here, and the sould of hammering is quite
+loud.  You see a large anvil next to a hot fire, fed by who knows what. On
+A stream flows through one corner of the cave, and then out a hole.  A table
+with several tools stands along the south wall.
+~
+#EXIT
+Direction  South~
+ToRoom     10838
+Key        10800
+Keywords   secret~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10835
+Key        10801
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10802 1 10837 -1 -1 -1 100
+  Reset E  10802 1 17 100
+  Reset E  10804 1 16 100
+Reset O    10803 1 10837 -1 -1 -1 100
+  Reset P  0 10800 1 10803 100
+Reset D    10837 2 2 100 -2
+Reset D    10837 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10838
+Name       Masamura's Private Workshop.~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Finally, you have arrived at Masamura's own workshop, where not even his
+apprentices are allowed to enter without permission.  There is a large anvil,
+made of some silvery metal, lying next to a fire.  In a glass-steel cabinet,
+you see some of Masamura's finest works, created over a period of several
+lifetimes.
+~
+#EXIT
+Direction  North~
+ToRoom     10837
+Key        10800
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10804 1 10838 -1 -1 -1 100
+  Reset E  10805 5 16 50
+  Reset E  10821 1 17 1
+Reset D    10838 0 2 100 -2
+#EXDESC
+ExDescKey  cabinet glass steel~
+ExDesc     You see some of Masamura's best blades, all neatly displayed in their ornate
+scabbards.  Too bad the case is magically and physically locked...
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10839
+Name       Brisk Stream~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Burr!!!  You are standing in knee-deep water, in a little stream which runs
+down to the river.
+~
+#EXIT
+Direction  North~
+ToRoom     10840
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10832
+#ENDEXIT
+Reset M    10806 10 10839 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10840
+Name       Brisk Stream~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand in knee-deep water in a stream.  The brook seems to laugh as it
+trips and falls over stones on its way to the river.  It continues north and
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     10841
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10839
+#ENDEXIT
+Reset M    10807 10 10840 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10841
+Name       Bend in the Brisk Stream~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The running brook bends here, becoming wider and deeper, and heading east
+toward a little waterfall, becoming swifter along the way.  Perhaps you should
+turn back now before it gets to swift.
+~
+#EXIT
+Direction  East~
+ToRoom     10842
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10840
+#ENDEXIT
+Reset M    10806 10 10841 -1 -1 -1 100
+Reset M    10806 10 10841 -1 -1 -1 100
+Reset M    10807 10 10841 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10842
+Name       The Rapids~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         The little stream has become a large stream, heading ever so quickly toward
+a small waterfall.  The current has become a little too strong to turn back
+now, though it looks like you could make it down the waterfall withou breaking
+too much of your body.
+~
+#EXIT
+Direction  Down~
+ToRoom     10869
+#ENDEXIT
+Reset M    10806 10 10842 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10843
+Name       Tributary~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This little tributary continues here, heading east. Along the edge of the
+bamboo forest.  You can reach the forest by climbing up the north bank.
+~
+#EXIT
+Direction  North~
+ToRoom     10815
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10844
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10869
+#ENDEXIT
+Reset M    10806 10 10843 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10844
+Name       Mouth of the Tributary~
+Sector     swamp~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The little tributary ends here, emptying out into the great Ishikawa River.
+The water has gotten pretty deep, and swimming is becoming dangerous.  Hope
+you brought a raft.
+~
+#EXIT
+Direction  East~
+ToRoom     10845
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10843
+#ENDEXIT
+Reset M    10806 10 10844 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10845
+Name       Ishikawa River Delta~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You float on the most important river in all the Empire, which runs from the
+central mountains to the Eastern Sea.  The delta has three main branches, and
+you are now between the north and middle branch.  On the west is a fairly high
+earthen rampart, meant to help defend against the unlikely invasion across the
+river from the forest.
+~
+#EXIT
+Direction  North~
+ToRoom     10846
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10860
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10844
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10846
+Name       Ishikawa River Delta~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You float on a part of the Ishikawa River delta, between the northern and
+middle main branches.  It continues north and south.  To the west, you see a 
+large rampart, a serious hinderance to any invasion across the river, from
+the forest on the west bank.  Breaking between the rampart is the beginning
+of the moat to the Shogun's palace.
+~
+#EXIT
+Direction  North~
+ToRoom     10847
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10845
+#ENDEXIT
+Reset M    10807 10 10846 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10847
+Name       Ishikawa River Delta~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The main branch of the Ishikawa River delta continues here, between the
+northern and middle delta branches.  To the west, you see a small park, rising
+above the river, well out of your reach.  To the north, you see Ishikawa City's
+western bridge.  The bamboo forest lies along the west bank, much to dense to
+enter at this point.  Beyond the park you see the moat to the inner city begin.
+~
+#EXIT
+Direction  North~
+ToRoom     10848
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10846
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10848
+Name       Under the Bridge~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Having borrowed bridge-building from the Chinese, the Japanese have learned
+to make incredibly sound and beautiful bridges.  The river continues north and
+south from here.
+~
+#EXIT
+Direction  North~
+ToRoom     10849
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10847
+#ENDEXIT
+Reset O    10809 1 10848 -1 -1 -1 100
+  Reset P  0 10810 1 10809 100
+  Reset P  0 10811 1 10810 100
+Reset M    10807 10 10848 -1 -1 -1 100
+Reset M    10806 20 10848 -1 -1 -1 100
+  Reset G  10812 1 100
+Reset M    10807 10 10848 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10849
+Name       Ishikawa Delta~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are boating on the main branch of the Ishikawa River delta, between the
+northern and middle branches.  A tall city walls lies on the west.  Meanwhile,
+the river continues north and south.  The bamboo forest lies on the west bank,
+though they are much to dense to enter from the river.
+~
+#EXIT
+Direction  North~
+ToRoom     10850
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10848
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10850
+Name       Ishikawa River Delta~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are riding on the main branch which creates the Ishikawa River delta,
+between the northern and middle branches.  A ramp leads to the east, through
+the city walls, and up into the lumber mill.  You see the river start to bend
+to the north.  The bamboo woods lie on the west bank, much to dense to enter
+from here.
+~
+#EXIT
+Direction  North~
+ToRoom     10851
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10637
+Desc       ramp~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10849
+#ENDEXIT
+Reset M    10806 20 10850 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10851
+Name       Bend In the River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Ishikawa River bends here, heading into its north branch.  The city
+walls follow the river around the curve as well.  To the north and west, the
+bamboo forest is thinning out.
+~
+#EXIT
+Direction  East~
+ToRoom     10852
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10850
+#ENDEXIT
+Reset M    10806 20 10851 -1 -1 -1 100
+Reset M    10807 10 10851 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10852
+Name       North Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The North branch of the Ishikawa River has picked up speed as it heads
+toward the great sea.  It continues here, going east and west.  Along the
+northern bank is a levee, much to high to climb, and beyond that, rice
+paddies.  To the south you see the city walls.
+~
+#EXIT
+Direction  East~
+ToRoom     10853
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10851
+#ENDEXIT
+Reset M    10806 20 10852 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10853
+Name       North Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The North Branch of the Ishikawa River continues here, heading eastward
+toward the north bridge, and westward, further inland.  A levee, much to high
+to climb lies along the north bank, while the city walls lie on the south.
+~
+#EXIT
+Direction  East~
+ToRoom     10854
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10852
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10854
+Name       Under the North Bridge~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The river thins out a bit, making it possible for the stone bridge to span
+the distance.  The river continues to the east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     10855
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10853
+#ENDEXIT
+Reset M    10806 20 10854 -1 -1 -1 100
+Reset M    10806 20 10854 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10855
+Name       Ishikawa River's North Branch~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The north branch of the Ishikawa River continues here, going west under the
+bridge and bending northward.  The city walls lie on the south bank, while a
+levee lines the north.
+~
+#EXIT
+Direction  North~
+ToRoom     10856
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10854
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10856
+Name       North Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The north branch of the Ishikawa River continues here, bending toward the
+south and east.  The city wall follows the river along the southern bank,
+while a levee lines the north bank.
+~
+#EXIT
+Direction  East~
+ToRoom     10857
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10854
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10857
+Name       North Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Ishikawa River comes closer and closer to the sea here.  On the south,
+you see the city walls, while a levee lies along the north bank.  The river
+continues east and west here.
+~
+#EXIT
+Direction  East~
+ToRoom     10858
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10856
+#ENDEXIT
+Reset M    10807 10 10857 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10858
+Name       North Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The north branch of the Ishikawa River draws toward its mouth now, near the
+great sea.  Up ahead, you can see the remains of the old lighthouse.  To the
+north is a levee while the city walls follow the river along the south bank.
+~
+#EXIT
+Direction  East~
+ToRoom     10859
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10857
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10859
+Name       Mouth of the North Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Ishikawa River empties out into the sea here.  The great city walls
+slowly drop, and end in a jetty which heads out into the sea.  To the south,
+you see an old burnt-out lighthouse, well out of your reach.  It might be
+possible to mount the jetty from here, though.
+~
+#EXIT
+Direction  East~
+ToRoom     10890
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10696
+Desc       jetty~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10858
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10860
+Name       Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You float on the Ishikawa River, between the middle and north branches.
+A large earthen rampart along the east bank has been raised to deter any
+invasion across the river from the bamboo forest on the west bank.  You
+also see the moat to the inner city start here.
+~
+#EXIT
+Direction  North~
+ToRoom     10845
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10861
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10861
+Name       Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You float on the Ishikawa River, between the middle and north branches.
+On the east, above an unclimbable rampart lies a small park, while to the
+west are dense bamboo woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10860
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10862
+#ENDEXIT
+Reset M    10806 20 10861 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10862
+Name       Fork in the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have arrived at a fork in the Ishikawa River, where it splits into its
+north and middle branches.  The city walls follow the river along the northern
+bank, around the bend.
+~
+#EXIT
+Direction  North~
+ToRoom     10861
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10863
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10870
+#ENDEXIT
+Reset M    10806 30 10862 -1 -1 -1 100
+Reset M    10806 30 10862 -1 -1 -1 100
+Reset M    10806 30 10862 -1 -1 -1 100
+Reset M    10807 20 10862 -1 -1 -1 100
+Reset M    10807 20 10862 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10863
+Name       Middle Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on the middle branch of the Ishikawa River, which divides the old
+and new sections of the city.  It continues east and west here.  The southern
+branch forks off to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     10864
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10862
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10864
+Name       Middle Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on the Middle branch of the Ishikawa River, which divides the old
+and new sections of the city.  It heads east under the southern bridge, and
+goes upstream toward the west.
+~
+#EXIT
+Direction  East~
+ToRoom     10865
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10863
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10865
+Name       Under the South Bridge~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Ishikawa River continues here, narrow enough at this point for the south
+bridge to span it.
+~
+#EXIT
+Direction  East~
+ToRoom     10866
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10864
+#ENDEXIT
+Reset O    10813 1 10865 -1 -1 -1 100
+  Reset P  0 10814 1 10813 100
+  Reset P  0 10820 1 10814 100
+#ENDROOM
+
+#ROOM
+Vnum        10866
+Name       Middle Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Ishikawa River continues here, going upstream to the west under the
+south bridge, and east toward the sea.  To the north, you see the city walls,
+protecting the city from invasion.
+~
+#EXIT
+Direction  East~
+ToRoom     10867
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10865
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10867
+Name       Middle Branch of the Ishikawa River~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Ishikawa River continues here, heading downstream to the east toward
+the great sea.  It also continues to the west.  To the north, you see the
+city walls, while what looks to be a shipyard lies to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     10868
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10866
+#ENDEXIT
+Reset M    10807 10 10867 -1 -1 -1 100
+Reset M    10806 20 10867 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10868
+Name       Mouth of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have come to the end of the middle branch of the Ishikawa River, at the
+edge of the sea.  The northern shore is quite rocky, too rocky to climb, and
+above it rises the sea wall.  To the south you see part of the ship yard.
+~
+#EXIT
+Direction  North~
+ToRoom     10689
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10876
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10867
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10869
+Name       Waterfall~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You ride over a small waterfall, down to the source of small tributary which
+runs into the Ishikawa River.  Downstream, you see that river, and the City of
+the Gods as well.  It would be next to impossible to climb up the waterfall.
+~
+#EXIT
+Direction  East~
+ToRoom     10843
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10870
+Name       South Branch of the Ishikawa River Delta~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The shortest of the three river branches which make up the alluvial fan
+of the Ishikawa River Delta is the southernmost, which bends eastward here,
+heading toward the sea.
+~
+#EXIT
+Direction  North~
+ToRoom     10862
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10871
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10871
+Name       South Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This branch of the Ishikawa river continues here, heading east toward the
+sea.
+~
+#EXIT
+Direction  North~
+ToRoom     10870
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10872
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10872
+Name       South Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This branch of the Ishikawa river continues here, heading east toward the
+sea.
+~
+#EXIT
+Direction  East~
+ToRoom     10873
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10871
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10873
+Name       Mouth of the South Branch of the Ishikawa River~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          At this point, the southernmost branch of the Ishikawa alluvial fan meets
+with the great ocean.
+~
+#EXIT
+Direction  East~
+ToRoom     10874
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10872
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10874
+Name       Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You float on the Great Eastern Sea, at the mouth of the Ishikawa River.
+It seems to continue a long way east, as far as the eye can see.
+~
+#EXIT
+Direction  North~
+ToRoom     10875
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10874
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10873
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10875
+Name       Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are floating on the Great Eastern Sea, which seems to continue forever
+to the east.  The rocky shores to the west are impossible to climb here.
+~
+#EXIT
+Direction  North~
+ToRoom     10876
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10875
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10874
+#ENDEXIT
+Reset M    10808 2 10875 -1 -1 -1 100
+  Reset E  10818 30 17 100
+#ENDROOM
+
+#ROOM
+Vnum        10876
+Name       Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are floating on the Great Eastern Sea, at the mouth of the middle branch
+of the Ishikawa alluvial fan.  The sea continues forever to the east, as far as
+the eye can see.
+~
+#EXIT
+Direction  North~
+ToRoom     10877
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10876
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10875
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10868
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10877
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are floating in the Sea, which, at this point, reaches chest level.  IT
+continues east as far as you can sea, while a sandy beach provides a landing to
+the west.
+~
+#EXIT
+Direction  North~
+ToRoom     10878
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10877
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10876
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10689
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10878
+Name       Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are floating in the shallows of the Great Eastern sea, which continues
+eastward, as far as the eye can see.  You can land on the beach to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     10879
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10878
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10877
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10688
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10879
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Great Eastern Sea is immense, going east as far as you can see.  A sandy
+beach provides a landing to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     10880
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10879
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10878
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10687
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10880
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Great Eastern Sea seems to continue eastward, forever here.  To the west
+is a sandy beach.
+~
+#EXIT
+Direction  North~
+ToRoom     10881
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10880
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10686
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10881
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The beauty of the sea touches you, as it spreads before you as far as the
+eye can see.  A beautiful lighthouse rises on the rocks to the west, making
+landing very inconvenient.
+~
+#EXIT
+Direction  North~
+ToRoom     10882
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10881
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10880
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10882
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Great Eastern Sea lies before you, heading east as far as the eye can
+see.
+~
+#EXIT
+Direction  North~
+ToRoom     10883
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10882
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10881
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10690
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10883
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You sea the wonderful blue sea, rising before you, the waves gently going
+to the shore.  To the east, it continues into oblivion.
+~
+#EXIT
+Direction  North~
+ToRoom     10884
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10883
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10882
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10691
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10884
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The sea lies before you, going eastward into oblivion.
+~
+#EXIT
+Direction  North~
+ToRoom     10885
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10884
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10883
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10692
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10885
+Name       The Great Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You float on the great sea, which seems to continue forever eastward.
+~
+#EXIT
+Direction  North~
+ToRoom     10886
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10885
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10884
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10693
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10886
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You float on the Great Eastern Sea, which goes forever eastward.
+~
+#EXIT
+Direction  North~
+ToRoom     10887
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10886
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10885
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10694
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10887
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Great Eastern sea seems to continue eastward forever, as far as the eye
+can see, yet to the north, it is bound by a jetty which serves as a protection
+against storms.  Beyond that lies a channel, where the northern branch of the
+Ishikawa river starts.
+~
+#EXIT
+Direction  North~
+ToRoom     10696
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10888
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10886
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10695
+#ENDEXIT
+Reset M    10808 2 10887 -1 -1 -1 100
+  Reset E  10816 15 17 50
+  Reset E  10817 10 16 100
+#ENDROOM
+
+#ROOM
+Vnum        10888
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The ocean surrounds the jetty here, bending around it as it heads toward the
+mouth of the Ishikawa River.  The ocean continues east, as far as the eye can
+see.
+~
+#EXIT
+Direction  North~
+ToRoom     10889
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10888
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10887
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10887
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10889
+Name       The Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The sea rounds the Jetty here, where you can see the burnt out hull of a
+large ship stretched across the rocks.  The jetty is looks much to dangerous
+to climb along the west side here.
+~
+#EXIT
+Direction  North~
+ToRoom     10890
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10889
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10888
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10890
+Name       Great Eastern Sea~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are floating on the Great Eastern Sea, which meets with the north branch
+of the Ishikawa river here.
+~
+#EXIT
+Direction  North~
+ToRoom     10890
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10890
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10889
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10859
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

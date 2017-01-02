@@ -1,0 +1,150 @@
+#VERSION 1
+#CHANNEL
+ChanName      chat
+ChanColorname chat
+ChanLevel     1
+ChanType      0
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      auction
+ChanColorname auction
+ChanLevel     1
+ChanType      0
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      quest
+ChanColorname chat
+ChanLevel     1
+ChanType      0
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      music
+ChanColorname chat
+ChanLevel     1
+ChanType      0
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      shout
+ChanColorname shout
+ChanLevel     2
+ChanType      0
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      wartalk
+ChanColorname wartalk
+ChanLevel     1
+ChanType      4
+End
+
+#CHANNEL
+ChanName      yell
+ChanColorname yell
+ChanLevel     2
+ChanType      1
+End
+
+#CHANNEL
+ChanName      newbiechat
+ChanColorname chat
+ChanLevel     1
+ChanType      0
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      think
+ChanColorname think
+ChanLevel     101
+ChanType      0
+ChanFlags     keephistory interport
+End
+
+#CHANNEL
+ChanName      muse
+ChanColorname muse
+ChanLevel     113
+ChanType      0
+ChanFlags     keephistory interport
+End
+
+#CHANNEL
+ChanName      comm
+ChanColorname log
+ChanLevel     102
+ChanType      5
+End
+
+#CHANNEL
+ChanName      info
+ChanColorname log
+ChanLevel     101
+ChanType      5
+End
+
+#CHANNEL
+ChanName      auth
+ChanColorname log
+ChanLevel     103
+ChanType      5
+End
+
+#CHANNEL
+ChanName      warn
+ChanColorname log
+ChanLevel     108
+ChanType      5
+End
+
+#CHANNEL
+ChanName      build
+ChanColorname log
+ChanLevel     103
+ChanType      5
+End
+
+#CHANNEL
+ChanName      log
+ChanColorname log
+ChanLevel     101
+ChanType      5
+End
+
+#CHANNEL
+ChanName      guildtalk
+ChanColorname guildtalk
+ChanLevel     1
+ChanType      2
+End
+
+#CHANNEL
+ChanName      clantalk
+ChanColorname guildtalk
+ChanLevel     1
+ChanType      2
+End
+
+#CHANNEL
+ChanName      ilog
+ChanColorname log
+ChanLevel     101
+ChanType      5
+ChanFlags     keephistory
+End
+
+#CHANNEL
+ChanName      bugs
+ChanColorname log
+ChanLevel     101
+ChanType      5
+ChanFlags     keephistory
+End

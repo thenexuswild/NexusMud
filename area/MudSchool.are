@@ -1,0 +1,2677 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Mud School~
+Author          Unknown~
+Vnums           1500 1560
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        You hear school kid's laughing~
+ResetFreq       3
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        1500
+Keywords   acolyte cleric school~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the acolyte of Exile~
+Long       An acolyte of Exile is here, grinning at you.
+~
+Desc       He is big and bad.  Don't mess with him.
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     30 -10 -20 29999 2 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1501
+Keywords   blob school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the blob~
+Long       The blob is here, waiting to eat you up.
+~
+Desc       He is big, he is bad.  You don't want to fight him when he isn't chained up.
+Perhaps now would be a good time to flee from him!!!  If you don't flee, you
+would really suffer the consequences.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     5 20 -99 50 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1502
+Keywords   monster school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the monster~
+Long       There is a monster leashed here.
+~
+Desc       He looks mean, but you feel comfortable that you can kill him, especially since
+he is leashed up, and you are not.
+~
+Nattacks   1.000000
+Stats1     0 100 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1503
+Keywords   monster wimpy school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the wimpy monster~
+Long       There is a wimpy monster leashed here.
+~
+Desc       He looks wimpy.  You feel comfortable that you can kill him, especially since
+he is leashed up, and you are not.
+~
+Nattacks   1.000000
+Stats1     0 100 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1504
+Keywords   monster aggressive school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the aggressive monster~
+Long       There is an aggressive monster leashed here.
+~
+Desc       He looks mean, but you feel comfortable that you can kill him, especially since
+he is leashed up, and you are not.
+~
+Nattacks   1.000000
+Stats1     0 100 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1505
+Keywords   monster wimpy aggressive school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the wimpy aggressive monster~
+Long       There is a wimpy aggressive monster leashed here.
+~
+Desc       He looks mean, but you feel comfortable that you can kill him, especially since
+he is leashed up, and you are not.
+~
+Nattacks   1.000000
+Stats1     0 100 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1506
+Keywords   big creature school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the big creature~
+Long       There is a big creature hulking over your form.
+~
+Desc       He looks mean, and you just might have a small problem killing him, but he
+looks like a great prize!!!
+~
+Nattacks   1.000000
+Stats1     0 200 60 100 150 250
+Stats2     2 19 9 20 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   curse~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1507
+Keywords   adept cleric school~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the adept of Trillian~
+Long       An adept of Trillian is here, contemplating your progress.
+~
+Desc       She is big and bad.  Don't mess with her.
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     30 -10 -20 29999 2 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   invisible detect_magic sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1509
+Keywords   rabbit school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the rabbit~
+Long       A rabbit is bouncing around here.
+~
+Desc       The rabbit smiles at you, completely harmless!
+~
+Nattacks   1.000000
+Stats1     100 10 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1510
+Keywords   lizard school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the lizard~
+Long       A lizard slithers up to you.
+~
+Desc       It smiles at you, and tries to eat your leg.
+~
+Nattacks   1.000000
+Stats1     -100 10 60 100 150 250
+Stats2     2 19 9 20 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1511
+Keywords   boar school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the boar~
+Long       A boar tries to run you over.
+~
+Desc       It grunts at you.
+~
+Nattacks   1.000000
+Stats1     0 10 60 100 150 250
+Stats2     3 18 8 30 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1512
+Keywords   fox school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the fox~
+Long       A fox is here staring at you.
+~
+Desc       His fur might be worth money.
+~
+Nattacks   1.000000
+Stats1     100 10 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1513
+Keywords   snail school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the snail~
+Long       A snail is trying to get out of your way.
+~
+Desc       You don't see much but slime about it.
+~
+Nattacks   1.000000
+Stats1     0 2 60 100 150 250
+Stats2     0 21 10 0 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1514
+Keywords   beast school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the beast~
+Long       A beast tries to feed off of you.
+~
+Desc       It looks mean.  You'd better run.
+~
+Nattacks   1.000000
+Stats1     0 50 60 100 150 250
+Stats2     5 16 6 55 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1515
+Keywords   bear~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the bear~
+Long       A bear is here growling at you.
+~
+Desc       The bear must be bigger than you!  It wants to rip your head off.
+~
+Nattacks   1.000000
+Stats1     0 40 60 100 150 250
+Stats2     4 17 7 44 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1516
+Keywords   wolf school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the wolf~
+Long       A wolf is here snarling at you.
+~
+Desc       The wolf doesn't want to be bothered.
+~
+Nattacks   1.000000
+Stats1     0 40 60 100 150 250
+Stats2     4 17 7 44 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1517
+Keywords   adept cleric school~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the adept of Exile~
+Long       An adept of Exile is here, grinning and selling you things.
+~
+Desc       He is big and bad.  Don't mess with him.
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     30 -10 -20 29999 2 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   invisible detect_magic sanctuary~
+Bodyparts  head arms legs heart~
+ShopData   1017 7090 0 0 0 100 100 5 22
+#ENDMOBILE
+
+#MOBILE
+Vnum        1518
+Keywords   adept school cleric~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the adept of Infoteq school~
+Long       An adept of Infoteq is here, training young students.
+~
+Desc       He is big and bad.  Don't mess with him.
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     30 -10 -20 29999 2 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1519
+Keywords   priest cleric school~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the priest of Hatchet~
+Long       The priest of Hatchet is ready to help you train.
+~
+Desc       He is big and bad.  Don't mess with him.
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     30 -10 -20 29999 2 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1520
+Keywords   beast school~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the diploma beast~
+Long       The hideous diploma beast is here, holding your graduation present!
+~
+Desc       This horrible creature is your final test for mud school.  Kill him, and the
+diploma is yours.
+~
+Nattacks   1.000000
+Stats1     0 300 60 100 150 250
+Stats2     3 18 8 30 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   curse~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        1500
+Keywords   mace sub school~
+Type       weapon~
+Short      a sub issue mace~
+Long       You see a sub issue mace here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 2 3 4 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  mace~
+ExDesc     You see a mace of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1501
+Keywords   dagger sub school~
+Type       weapon~
+Short      a sub issue dagger~
+Long       You see a sub issue dagger here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 2 3 6 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  dagger~
+ExDesc     You see a dagger of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1502
+Keywords   sword sub school~
+Type       weapon~
+Short      a sub issue sword~
+Long       You see a sub issue sword here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 2 3 1 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  sword~
+ExDesc     You see a sword of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1503
+Keywords   vest sub school~
+Type       armor~
+Short      a sub issue vest~
+Long       You see a sub issue vest here.~
+WFlags     take body~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  vest~
+ExDesc     You see a vest of great but cheap craftsmanship.  Stamped on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1504
+Keywords   shield sub school~
+Type       armor~
+Short      a sub issue shield~
+Long       You see a sub issue shield here.~
+WFlags     take shield~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  shield~
+ExDesc     You see a shield of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1505
+Keywords   cloak sub school~
+Type       armor~
+Short      a sub issue cloak~
+Long       You see a sub issue cloak here.~
+WFlags     take neck~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  cloak~
+ExDesc     You see a cloak of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1506
+Keywords   helmet sub school~
+Type       armor~
+Short      a sub issue helmet~
+Long       You see a sub issue helmet here.~
+WFlags     take head~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  helmet~
+ExDesc     You see a helmet of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1507
+Keywords   leggings sub school~
+Type       armor~
+Short      a pair of sub issue leggings~
+Long       You see a pair of sub issue leggings here.~
+WFlags     take legs~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  leggings~
+ExDesc     You see leggings of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1508
+Keywords   boots sub school~
+Type       armor~
+Short      a pair of sub issue boots~
+Long       You see a pair of sub issue boots here.~
+WFlags     take feet~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  boots~
+ExDesc     You see boots of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1509
+Keywords   gloves sub school~
+Type       armor~
+Short      a pair of sub issue gloves~
+Long       You see a pair of sub issue gloves here.~
+WFlags     take hands~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  gloves~
+ExDesc     You see gloves of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1510
+Keywords   sleeves sub school~
+Type       armor~
+Short      a pair of sub issue sleeves~
+Long       You see a pair of sub issue sleeves here.~
+WFlags     take arms~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  sleeves~
+ExDesc     You see sleeves of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1511
+Keywords   cape sub school~
+Type       armor~
+Short      a sub issue cape~
+Long       You see a sub issue cape here.~
+WFlags     take about~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  cape~
+ExDesc     You see a cape of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1512
+Keywords   belt sub school~
+Type       armor~
+Short      a sub issue belt~
+Long       You see a sub issue belt here.~
+WFlags     take waist~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  belt~
+ExDesc     You see a belt of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1513
+Keywords   bracer sub school~
+Type       armor~
+Short      a sub issue bracer~
+Long       You see a sub issue bracer here.~
+WFlags     take wrist~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  bracer~
+ExDesc     You see a bracer of great but cheap craftsmanship.  Imprinted on the side is:
+Nexus Wholesale Club
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1514
+Keywords   key school~
+Type       key~
+Short      a key~
+Long       You see a very important key here!~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1515
+Keywords   diploma school~
+Type       treasure~
+Short      a mud school diploma~
+Long       You see a mud school diploma here.~
+Flags      magic~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  diploma~
+ExDesc     This document shows that you have graduated from Mud School.
+It also has magical effects on your abilities if you hold it!
+ 
+Hatchet the Silver Knight
+Merc Industries
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1516
+Keywords   banner school~
+Type       light~
+Short      a war banner~
+Long       A war banner is on the floor here.~
+Flags      glow magic~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#EXDESC
+ExDescKey  banner~
+ExDesc     This is the official Holomud war banner to see you through the darkest realm!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#ROOM
+Vnum        1500
+Name       Entrance to Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This is the entrance to the Holomud Mud School.  Go north to go through mud
+school.  If you have been here before and want to go directly to the arena,
+go south.
+~
+#EXIT
+Direction  North~
+ToRoom     1557
+Desc       You see the doorway into the Mud School Building.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1544
+Desc       You see the one way door into the Arena of Mud School.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sysnote~
+ExDesc     SYSNOTE: Rooms 1506, 1547, & 1561-1599 unused.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1501
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The exits are west and south.  A small plaque is on the
+wall.
+~
+#EXIT
+Direction  South~
+ToRoom     1557
+Desc       You see a path into another room.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1502
+Desc       You see a path into another room.
+~
+#ENDEXIT
+Reset M    1500 1 1501 -1 -1 -1 100
+#EXDESC
+ExDescKey  plaque~
+ExDesc     This zone (Mud School) is created by Hatchet for any Merc Mud.
+Copyright 1992, 1993.
+ 
+Modified for Holomud by Exile in December of 1993.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  sign~
+ExDesc     Equipment check time!  Type 'EQUIPMENT' to see your current equipment.  Right
+now, you have either the standard Holomud newbie kit or no equipment.  As you
+go through the school you will acquire a complete set of equipment.
+ 
+To pick up items on the ground as you see them, type 'GET item'.
+To wear a piece of armor, type 'WEAR item'.
+To hold a light source, type 'HOLD item'.
+To wield a weapon, type 'WIELD weapon'.
+To wear, hold, and wield everything you have, type 'WEAR ALL'.
+To stop using a piece of equipment, type 'REMOVE item'.
+Finally, to see the items in your inventory, type 'INVENTORY'.
+ 
+When you are ready to continue, go west.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1502
+Name       The Center Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Exits lead in ALL directions.
+~
+#EXIT
+Direction  North~
+ToRoom     1503
+Desc       You see the room north that will lead you to the next section.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1501
+Desc       You see a room.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1505
+Desc       You see a room.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1504
+Desc       You see a room.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1507
+Desc       You see a room.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1508
+Desc       You see a room.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     This is the direction practicing room.  The directions you can go in any
+room are: north, south, east, west, up, or down.  Of course, not all rooms
+have all exits available.
+ 
+To see the obvious exits in a room, type 'EXITS'.
+ 
+Sometimes doors are closed, or locked, or secret.  Then you have to notice
+clues in the room description, or try going into that direction and seeing
+if you bump into a door.
+ 
+Try going into each direction from here.  When you are done, go NORTH.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1503
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Exits lead north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     1509
+Desc       You see the next station ahead.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1502
+Desc       You see the central room.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Since you are here, let us have another lesson.  You can see the statistics on
+yourself by typing 'SCORE'.  Do that right now.  At higher levels, 'SCORE'
+gives you more information.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1504
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is east.
+~
+#EXIT
+Direction  East~
+ToRoom     1502
+Desc       You see the central room.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Just go east to the central room.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1505
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is north.
+~
+#EXIT
+Direction  North~
+ToRoom     1502
+Desc       You see the central room.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Just go north to the central room.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1507
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is up.
+~
+#EXIT
+Direction  Up~
+ToRoom     1502
+Desc       You see the central room.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Just go up to the central room.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1508
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The only exit is down.
+~
+#EXIT
+Direction  Down~
+ToRoom     1502
+Desc       You see the central room.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Just go down to the central room.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1509
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Exits reach west and down.
+~
+#EXIT
+Direction  Down~
+ToRoom     1510
+Desc       You see a cage.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1511
+Desc       You see the next station of Mud School.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to combat training.
+ 
+The first lesson is knowing whom to fight.  Use the command 'CONSIDER' to
+consider killing a monster.  Avoid fighting monsters that will kill you
+easily.
+ 
+The second lesson is running away.  There is a monster in the room down.
+He is too strong for you to kill, but he won't kill you.  So go 'DOWN' from
+here, then 'CONSIDER' him, then 'KILL' him.  After a while, type 'FLEE' to
+escape from him.
+ 
+You can also set your character to flee automatically with the 'WIMPY' command.
+Type 'HELP WIMPY' to find out more about 'WIMPY'.
+ 
+After you flee, you will be back in this room.  When you are ready to go on
+to the next station, go 'WEST'.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1510
+Name       The Blob Cage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a smelly cage.  Strangely, the walls are still clean!
+You see a sign here.  The only exit is up.
+~
+#EXIT
+Direction  Up~
+ToRoom     1509
+Desc       You see a safe room up.
+~
+#ENDEXIT
+Reset M    1501 1 1510 -1 -1 -1 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     Remember, don't fight the blob to the finish!  Just type 'KILL BLOB', then
+when you are fighting, type 'FLEE', until you flee and are out of here.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1511
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.
+~
+#EXIT
+Direction  East~
+ToRoom     1509
+Desc       You see the next station of Mud School.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1512
+Desc       You see the combat hall.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to the next station.  Here, you will actually fight real monsters,
+without fleeing!  Kill every mob, since they hold some equipment you need.
+To start, go down.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1512
+Name       The Cage Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the cage room.  All around are 4 cages.  Light fluoresces off the
+ceiling in soft white tones.  Of course, there is a big sign on the wall.
+Exits lead into the cardinal directions plus down.
+~
+#EXIT
+Direction  North~
+ToRoom     1513
+Desc       You see the aggressive monster inside!
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1516
+Desc       You see the unmodified monster inside!
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1515
+Desc       You see the wimpy monster inside!
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1514
+Desc       You see the aggressive wimpy monster inside!
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1517
+Desc       You see the next station below.
+~
+#ENDEXIT
+Reset M    1507 1 1512 -1 -1 -1 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to the cage room.  The adepts of mud school have captured some
+monsters for you to kill.  In the four cages are four monsters of various
+types.  Kill them all!
+ 
+After you kill each monster, get all of the equipment from their corpses
+with the command 'GET ALL CORPSE'.  You can then use the command 'WEAR ALL'
+to wear your newly won equipment.  There is an additional command you can
+use called 'AUTOLOOT'.  This command automatically gets objects in the
+corpse when you kill it.
+ 
+Between combat, you may need to rest or sleep to regenerate hit points.
+You can 'REST' to regenerate hit points, or you can 'SLEEP'.  'SLEEP' will
+refresh you faster than 'REST', but you will be less aware of your
+surroundings.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1513
+Name       A Cage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is south.
+~
+#EXIT
+Direction  South~
+ToRoom     1512
+Desc       You see the Cage Room.
+~
+#ENDEXIT
+Reset M    1504 1 1513 -1 -1 -1 100
+  Reset E  1507 99 7 100
+  Reset E  1512 99 13 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     There is an aggressive monster in this room.  Kill him and get out of here
+fast!  Remember to loot the corpse.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1514
+Name       A Cage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is east.
+~
+#EXIT
+Direction  East~
+ToRoom     1512
+Desc       You see the Cage Room.
+~
+#ENDEXIT
+Reset M    1505 1 1514 -1 -1 -1 100
+  Reset E  1508 99 8 100
+  Reset E  1513 99 14 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     There is a wimpy, aggressive monster in this room.  Kill him and get out of
+here fast!  Remember to loot the corpse.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1515
+Name       A Cage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is north.
+~
+#EXIT
+Direction  North~
+ToRoom     1512
+Desc       You see the Cage Room.
+~
+#ENDEXIT
+Reset M    1503 1 1515 -1 -1 -1 100
+  Reset E  1506 99 6 100
+  Reset E  1511 99 12 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     There is a wimpy monster in this room.  Kill him and get out of here fast!
+Remember to loot the corpse.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1516
+Name       A Cage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+in the upkeep here!  There is a sign on the wall.  The only exit is west.
+~
+#EXIT
+Direction  West~
+ToRoom     1512
+Desc       You see the Cage Room.
+~
+#ENDEXIT
+Reset M    1502 1 1516 -1 -1 -1 100
+  Reset E  1505 99 3 100
+  Reset E  1505 99 4 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     There is a monster in this room.  Kill him and get out of here fast!
+Remember to loot the corpse.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1517
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  Find your own exit here.
+~
+#EXIT
+Direction  Up~
+ToRoom     1512
+Desc       You see the Cage room.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1518
+Desc       You see the Shop.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1519
+Desc       You see the next station of Mud School.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    1517 1 1 100 -2
+#EXDESC
+ExDescKey  sign~
+ExDesc     On most muds, by now you would be hungry and thirsty.  However, since
+you are just a virtual character here anyway you will never have to
+worry about food and drink...
+ 
+To the south is a store.  Inside the store, you can use these commands:
+ 
+    BUY    Buy an item
+    LIST   List what is for sale
+ 
+After buying some food and drink, you can 'EAT' and 'DRINK' it.  These
+commands are still available but they are "social" commands only for
+role playing -- you should never become hungry or thirsty here.
+ 
+After that, find the next exit yourself.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1518
+Name       The Store in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a cramped room.  Stacked neatly on shelves everywhere are items
+and packages.  Light fluoresces off the ceiling in soft white tones.  Of
+course, there is a sign on the wall.  The only exit is north.
+~
+#EXIT
+Direction  North~
+ToRoom     1517
+Desc       You see the only exit out of here.
+~
+#ENDEXIT
+Reset M    1517 1 1518 -1 -1 -1 100
+  Reset G  7090 999 100
+  Reset G  1017 999 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     The sign reads:
+ 
+   Buy   - Buy something from the storekeeper.
+   List  - The storekeeper will tell you what's for sale.
+   Value - The storekeeper will tell you how much he will give to you for
+           that item.
+   Sell  - Sell that item to the storekeeper.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1519
+Name       A Room in Mud School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         You are in a square white room.  The walls are all blank, with no windows.
+Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+sign on the wall.  The exits are north and west, with a door to the east.
+~
+#EXIT
+Direction  West~
+ToRoom     1517
+Desc       You see the room you just came from.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     1520
+Desc       You see a darkened room inside.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1521
+Key        1514
+Desc       You see the next station of Mud School.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    1519 3 1 100 -2
+Reset D    1519 1 2 100 -2
+#EXDESC
+ExDescKey  sign~
+ExDesc     North of you is a dark room.  I hope you still have the lantern!  If not,
+you have to back to the store and buy one.
+ 
+In the room is a monster with a key that you need.  After killing the
+monster and getting the key, come back here, UNLOCK EAST, OPEN EAST,
+and continue east.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1520
+Name       The Darkened Room~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc         This room was purposefully darkened so that you would need to hold on to a
+light source to go through.  The walls are, of course, blank, and white.
+The only exit is south.
+~
+#EXIT
+Direction  South~
+ToRoom     1519
+Desc       You see the room that you have come from.
+~
+#ENDEXIT
+Reset M    1506 1 1520 -1 -1 -1 100
+  Reset E  1509 99 9 100
+  Reset E  1510 99 10 100
+  Reset E  1514 99 17 100
+  Reset E  1513 99 14 100
+#ENDROOM
+
+#ROOM
+Vnum        1521
+Name       The End of Mud School!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This is a very bright room, with a marble pedestal in the center.  Behind
+the pedestal stands a person cloaked in Silver.  Tapestries flow from every
+wall, and you feel very happy to be here right now.  There is a big sign here.
+The only exit is on the other side of the gate north of you.
+~
+#EXIT
+Direction  North~
+ToRoom     1522
+Desc       You see the Arena ahead.
+~
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    1520 1 1521 -1 -1 -1 100
+  Reset E  1515 99 17 100
+Reset D    1521 0 1 100 -2
+#EXDESC
+ExDescKey  sign~
+ExDesc     You have graduated from Mud School!  Get your diploma.  Go 'NORTH' from here
+to visit our arena.  There are plenty of low-level monsters, but DON'T attack
+other players.
+ 
+If you want to go directly back to the temple at any time, type 'RECALL'.
+ 
+After you raise to level two, you can 'SAVE' your character.  Your character
+will be automatically SAVE'd every few minutes.
+ 
+If you need more help during the game, type 'HELP'.  If you see something
+wrong or have comments, use 'BUG', 'IDEA', or 'TYPO' to report them.
+ 
+May your visit here be ... mercenary.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1522
+Name       South Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  West~
+ToRoom     1523
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     1529
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1525
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1523
+Name       South Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  West~
+ToRoom     1524
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     1528
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1522
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1524
+Name       South West Corner of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1527
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1523
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+Reset M    1513 5 1524 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1525
+Name       South Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  West~
+ToRoom     1522
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     1530
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1526
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1526
+Name       South East Corner of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1531
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1525
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+Reset M    1512 3 1526 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1527
+Name       West Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1532
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1528
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1524
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1528
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1533
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1529
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1523
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1527
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1529
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1534
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1530
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1522
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1528
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1530
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1535
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1531
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1525
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1529
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1531
+Name       East Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1536
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1526
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1530
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1532
+Name       West Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1537
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1533
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1527
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1533
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1538
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1534
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1528
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1532
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1534
+Name       Center of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.  There is a BIG SIGN here.
+~
+#EXIT
+Direction  North~
+ToRoom     1539
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1535
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1529
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1533
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1548
+Desc       You see a dark murky dungeon below.
+~
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    1509 4 1534 -1 -1 -1 100
+Reset D    1534 5 1 100 -2
+#EXDESC
+ExDescKey  sign big~
+ExDesc     Those with high bravery or low senses of cautiousness might wish to go below
+to the Dungeon.  However, know that there are aggressive monsters down there,
+and there is no quick escape back out of here when you are in the dungeon.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1535
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1540
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1536
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1530
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1534
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1536
+Name       East Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1541
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1531
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1535
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1537
+Name       West Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1542
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1538
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1532
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1538
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1543
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1539
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1533
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1537
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1539
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1544
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1540
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1534
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1538
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1540
+Name       Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1545
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1541
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1535
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1539
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1541
+Name       East Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  North~
+ToRoom     1546
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1536
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1540
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1542
+Name       North West Corner of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  East~
+ToRoom     1543
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1537
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+Reset M    1510 3 1542 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1543
+Name       North Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  You can barely see the ceiling.  You feel as if you are being watched
+by some divine being.
+~
+#EXIT
+Direction  East~
+ToRoom     1544
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1538
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1542
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1544
+Name       North Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  East~
+ToRoom     1545
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1539
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1543
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1545
+Name       North Wall of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  East~
+ToRoom     1546
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1540
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1544
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1546
+Name       North East Corner of Arena~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the Arena.  Remember, if you wish to get out of this Arena, just
+go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+being watched by some divine being.
+~
+#EXIT
+Direction  South~
+ToRoom     1541
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1545
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1560
+Desc       You see the EXIT.
+~
+#ENDEXIT
+Reset M    1511 3 1546 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1548
+Name       The Center of the Dungeon~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the center of a large room.  A faint light from above shows that
+the floors are all covered with slime.  A feeling of dread comes over you as
+you notice that this is NOT a great place to go.  Exits go in all directions.
+Of special note is the one that brings you back up!!!
+~
+#EXIT
+Direction  Up~
+ToRoom     1534
+Desc       You see safety!
+~
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     1550
+Desc       You see the north wall.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1553
+Desc       You see the east wall.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1555
+Desc       You see the south wall.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1552
+Desc       You see the west wall.
+~
+#ENDEXIT
+Reset D    1548 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1549
+Name       The North West Corner of the Dungeon~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  East~
+ToRoom     1550
+Desc       You see the north wall.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1552
+Desc       You see the south wall.
+~
+#ENDEXIT
+Reset M    1514 1 1549 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1550
+Name       The North Wall of the Dungeon~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  East~
+ToRoom     1551
+Desc       You see the north east corner.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1548
+Desc       You see the center of the dungeon.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1549
+Desc       You see the north west corner.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1551
+Name       The North East Corner of the Dungeon~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  South~
+ToRoom     1553
+Desc       You see the east wall.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1550
+Desc       You see the north wall.
+~
+#ENDEXIT
+Reset M    1515 2 1551 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1552
+Name       The West Wall of the Dungeon~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  North~
+ToRoom     1549
+Desc       You see the north west corner.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1548
+Desc       You see the center of the dungeon.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1554
+Desc       You see the south west corner.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1553
+Name       The East Wall of the Dungeon~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  North~
+ToRoom     1551
+Desc       You see the north east corner.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1556
+Desc       You see the south east corner.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1548
+Desc       You see the center of the dungeon.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1554
+Name       The South West Corner of the Dungeon~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  North~
+ToRoom     1552
+Desc       You see the north wall.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1555
+Desc       You see the south wall.
+~
+#ENDEXIT
+Reset M    1516 2 1554 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1555
+Name       The South Wall of the Dungeon~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  North~
+ToRoom     1548
+Desc       You see the center of the dungeon.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1556
+Desc       You see the south east corner.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1554
+Desc       You see the south west corner.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1556
+Name       The South East Corner of the Dungeon~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are against a wall in the dungeon.  It is quite dark here.  The lack of
+any windows in the area explains the smell around you.
+~
+#EXIT
+Direction  North~
+ToRoom     1553
+Desc       You see the east wall.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1555
+Desc       You see the south wall.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1557
+Name       A Room in Mud School~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are in a room in Mud School.  Pastels cover these walls, due to Hatchet's
+mood for the day.  To the west is Furey's Training Room, and to the east is
+Hatchet's Guild Room.  North of you is the next Station of Mud School.
+There is a sign on the wall (type 'LOOK SIGN' to read it).
+~
+#EXIT
+Direction  North~
+ToRoom     1501
+Desc       You see the next station of Mud School.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1559
+Desc       You see Hatchet's Guild Room.  Go there to practice your skills.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1500
+Desc       You see the entrance to Mud School.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1558
+Desc       You see Furey's Training Room.  Go there to train your attributes.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     To find out your attributes, type 'score'.  You can improve your attributes
+in Furey's Training Room to the west.  You can practice your skills and spells
+in Hatchet's Guild Room to the east.  You can continue through mud school by
+going north.
+ 
+If you are a new character, you should go 'WEST' from here, train your
+abilities, and then come back here and go 'NORTH'.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1558
+Name       Infoteq's Training Room~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are in Infoteq's Training Room.  Around you are all sorts of physical
+and mental training tools.  The whole room is filled with magic, holiness, 
+and sweat.  There is a sign on the wall.
+~
+#EXIT
+Direction  East~
+ToRoom     1557
+Desc       You see the room you came from, and the room you should go to.
+~
+#ENDEXIT
+Reset M    1518 1 1558 -1 -1 -1 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to Infoteq's Training Room.  Here you can train your attributes.  To 
+train an attribute, you need enough credits.  To find out how much credits
+it will cost, type 'train' while you are in this room.  To train for a 
+specific attribute, type 'train <attr>' where attr is the first 3 letters of
+the attribute you want increased.  Type 'help train' for more information.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1559
+Name       Aramina's Guild Room~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are in a room filled with weapons, books, and many combat dummies, some
+cut and stabbed many times, others burnt to a crisp.  The room is filled with
+sweat and an aura of magic.  There is a sign on the wall.
+~
+#EXIT
+Direction  West~
+ToRoom     1557
+Desc       You see the room you came from and the room you should go to.
+~
+#ENDEXIT
+Reset M    1519 1 1559 -1 -1 -1 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to Aramina's Guild Room.  Here you will learn your skills and spells.
+To find out what skills and spells you can practice and how many practice
+sessions you have, type 'train'.  To practice the specific skill, type
+'train <skill>', where 'skill' is the skill or spell you wish to practice.
+Practicing increases the amount you know of that skill or spell, up to a
+certain maximum.  After that, you must learn by your mistakes to get 
+better at the skills you have learned.  In other words, you must use
+the skill.  When you have trained all you wish to train, go west.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1560
+Name       A Safe Room~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       You are in a safe room, away from all the mean rabbits and snails of the Arena.
+You can rest here, and go up to go back to the Arch.
+~
+#EXIT
+Direction  Up~
+ToRoom     1001
+Desc       You see the Arch.
+~
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

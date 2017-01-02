@@ -1,0 +1,2236 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Museum of the Gods~
+Author          Unknown~
+Vnums           24200 24370
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       180
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        24200
+Keywords   kelrin statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Kelrin~
+Long       The statue of Kelrin is here.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -10 -10 15000 10 0 65
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24201
+Keywords   aramina statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the statue of Aramina~
+Long       The statue of Aramina is here, bonking the other statues on the head.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     39 -10 -10 15000 10 0 45
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24202
+Keywords   amon statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Amon~
+Long       The statue of Amon is stands here with his arms crossed.
+~
+Desc       Are you really trying to check out Amon?
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     39 -10 -10 35000 10 0 45
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24203
+Keywords   jo statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the statue of Jo~
+Long       The statue of Jo is here looking so pretty.
+~
+Desc       soon to be added 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 -8 -10 14000 100 0 75
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24205
+Keywords   velvet statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the statue of Velvet~
+Long       The statue of Velvet is here, flirting outrageously.
+~
+Desc       They call me 'Velvet' and think of me as a soft-winged butterfly, 
+but this particular butterfly has a poisoned sting - as several 
+people have discovered after it was too late.
+ 
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     30 -7 -10 13500 100 0 75
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24206
+Keywords   scarlett statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Scarlett~
+Long       Scarlett us standing here in a puddle of blood.
+~
+Desc       Scarlett is contemplating stepping down from the alcove to FUBAR you!
+He is dressed all in red and it is hard to tell whether his attire was
+always red, or just soaked with your blood!
+ 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     37 -8 -10 14000 100 0 75
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24208
+Keywords   coldwinter statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Coldwinter~
+Long       The statue of Coldwinter is here on a platform of ice.
+~
+Desc       Yep, you were right this statue looks just like Coldwinter.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -10 -10 13000 10 0 75
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24209
+Keywords   treebeard statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Treebeard~
+Long       The statue of Treebeard is here, his eyes twinkling at you.
+~
+Desc       You see before you a representation of Treebeard the Ent, a living tree
+and also the oldest being in this world. His strength and power would
+seem to be enormous, drawn from the roots of the earth. In his branches
+he carries a copy of The Lord of the Rings. His eyes portray the wisdom
+of the ages, yet still twinkle and sparkle with humor. You don't 
+seriously think you stand a chance against him do you?
+ 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     38 -9 -10 14500 10 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24211
+Keywords   dhenders statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Dhenders~
+Long       The statue of Dhenders is here, staring at you with an impish grin.
+~
+Desc       You gaze upon the statue of Dhenders and feel a sense of bewilderment.
+You don't know if it's safe to continue staring or run for your life.
+Unfortunately for you... 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -7 -10 13500 100 0 85
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24213
+Keywords   nightsky statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Nightsky~
+Long       The statue of Nightsky is here, smiling at you.
+~
+Desc       The Statue of Nightsky doesn't really look like any statue you've
+ever seen. He's more of a huge blot of blackness peppered with stars.
+Here and there you can pick out a few constellations - the Volleybal,
+the Pipet, and then Racquet, among others. He notices you looking at
+him, and gives you a big smile. It would really be a shame if you
+were to try to kill him. he'd have to do something drastic at that
+point...
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -7 -10 13500 100 0 75
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24214
+Keywords   ax statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Ax~
+Long       The statue of Ax is here, with a satanic smile.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     39 -10 -10 14000 10 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24215
+Keywords   scarlett statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Scarlett~
+Long       The statue of Scarlett is here, killing everyone that looks at him.
+~
+Desc       You are dead!  Sorry...
+You see a light on the horizon...
+
+...however the light seems to be quickly receeding...
+
+You have died.  All is dark.  But suddenly...
+
+The Gods have taken pity on you.  You are alive again!
+
+You seem to be some place different...
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 -7 -10 13000 100 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24217
+Keywords   jo statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Jo~
+Long       The statue of Jo stands here with a twinkle in here eye.
+~
+Desc       You see before you a sculpture that is very lifelike,
+from the flesh-colored skin tones to the reddish-brown hair
+on her head. The eyes, made of sparkling sapphires, seem to
+follow your every move. She has an infectious grin on her
+face as she stands with her arms held out toward you, looking
+for a hug. This statue is so realistic, you wonder if you should
+touch it at all.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 -7 -10 13000 100 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24218
+Keywords   saga statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the statue of Saga~
+Long       The statue of Saga looms here, watching you ever so closely.
+~
+Desc       At least 200 feet tall, this life size replica statue seems to 
+be the exact likeness of the the Immortal Saga. Leaning way back 
+you almost get the impression that the statue is watching you. 
+You best be on your way if you know what is good for you!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -10 -10 13000 10 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24219
+Keywords   jenn statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the statue of Jenn~
+Long       The statue of Jenn is here, sending an evil grin your way..
+~
+Desc       The statue of Jenn is standing here, wondering why she is undefined.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 -7 -10 13000 10 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24220
+Keywords   heretic statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the statue of Heretic~
+Long       The statue of Heretic is here laughing at you.
+~
+Desc       The statue of Heretic looks brand new, like it has just been made.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     30 -7 -10 13000 100 0 80
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24221
+Keywords   sherekhan statue m242~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the statue of Sherekhan~
+Long       The statue of a Sherekhan is here.
+~
+Desc       You gaze upon what at first appears to be a man...
+Wait, it's the dreaded beast of the jungle........
+Your brain isn't capable of seeing the god of the
+jungle clearly but for some reason you are beginning
+to get the feeling that you may be lunch..........
+
+Perhaps you best... R R R U U U U N N N N N ! ! ! 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     32 -7 -10 13000 100 0 85
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24296
+Keywords   ghost~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the pale ghost of an ancient mudder~
+Long       The pale ghost of an ancient mudder drifts here.
+~
+Nattacks   3.000000
+Stats1     -500 0 60 100 150 250
+Stats2     30 1 0 15000 10 0 75
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24297
+Keywords   guard dragon guardian museum~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Guardian Dragon~
+Long       The Guardian Dragon stands here, seemingly immoble but incredibly lifelike.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -20 -10 25000 10 0 125
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   invisible detect_hidden sanctuary fireshield sneak hide infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24298
+Keywords   guard museum~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Museum Guard~
+Long       A Museum Guard is standing here, protecting the Statues.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     30 -5 -5 15000 10 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        24299
+Keywords   guard museum~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Museum Guard~
+Long       A Museum Guard is standing here, protecting the Statues.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     30 -5 -5 2500 10 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis detect_hidden sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        24200
+Keywords   boots coldtech 1<1>1 o242~
+Type       armor~
+Short      Kelrin's Coldtech Boots ~
+Long       Kelrin's Coldtech Boots have been left here.~
+Flags      magic~
+WFlags     take feet~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 5000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData affected  'fireshield' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24201
+Keywords   bracelet musical charm 1<1>1 o242~
+Type       armor~
+Short      Aramina's musical charm bracelet~
+Long       Aramina's musical charm bracelet has been left here.~
+WFlags     take wrist~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      3 20000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    mana 40 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24202
+Keywords   wolf fang necklace 1<1>1 o242~
+Type       armor~
+Short      Amon's Wolf Fang Necklace~
+Long       Amon's Wolf Fang Necklace is lying here.~
+Flags      glow magic~
+WFlags     take neck~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 15000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    hit 20 -1 -1 0
+AffData    mana 20 -1 -1 0
+AffData    Wisdom -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24203
+Keywords   ring stars 1<1>1 o242~
+Type       armor~
+Short      Jo's ring of the Stars~
+Long       A star shimmers brightly here.~
+Flags      glow~
+WFlags     take finger~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24205
+Keywords   stiletto dagger silver 1<1>1 o242~
+Type       weapon~
+Short      Velvet's silver stiletto~
+Long       A long thin silver dagger has been left here.~
+WFlags     take wield~
+Values     0 11 3 6 0 0 0 0 0 0 0
+Stats      5 15000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+#EXDESC
+ExDescKey  stiletto~
+ExDesc     Don't you just wish you were this dagger sometimes? *grin*
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24206
+Keywords   scarlett haze 1<1>1 o242~
+Type       armor~
+Short      Scarlett Haze~
+Long       A menacing mist of blood droplets from an eerie haze~
+Flags      hum~
+WFlags     take about~
+Values     26 26 0 0 0 0 0 0 0 0 0
+Stats      2 7500 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    hit -10 -1 -1 0
+AffData    mana 30 -1 -1 0
+AffData    Strength -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24208
+Keywords   broken soapbox 1<1>1 o242~
+Type       container~
+Short      Heretic's Broken Soapbox~
+Long       Heretic's Broken Soapbox sits here.~
+Flags      magic~
+WFlags     take hold~
+Values     50 0 0 10 0 0 0 0 0 0 0
+Stats      1 7500 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Intelligence -3 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24209
+Keywords   armor entwood 1<1>1 o242~
+Type       armor~
+Short      Treebeard's Entwood Armor~
+Long       A large block of wood has been left here.~
+Flags      magic~
+WFlags     take body~
+Values     14 14 0 0 0 0 0 0 0 0 0
+Stats      15 50000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 2 -1 -1 0
+AffData affected  'invisible' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24211
+Keywords   gloves batting 1<1>1 o242~
+Type       armor~
+Short      Dhenders' pine-tarred batting gloves~
+Long       Someone foolishly left behind a pair of batting gloves heavily stained with pine-tar.~
+WFlags     take hands~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+AffData    hit 35 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24213
+Keywords   coat lab 1<1>1 o242~
+Type       container~
+Short      Nightsky's Lab Coat~
+Long       Nightsky's lab coat is hanging on a hook here.~
+WFlags     take about~
+Values     1000 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 15 -1 -1 0
+AffData    mana 15 -1 -1 0
+AffData    Intelligence 2 -1 -1 0
+AffData    hitroll -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24214
+Keywords   flam skull flaming earring 1<1>1 o242~
+Type       treasure~
+Short      Ax's Flaming Skull Earring~
+Long       Here lies a earring in the shape of a skull with flames coming off out it.~
+WFlags     take ears~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      16 100000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24218
+Keywords   shades designer 1<1>1 o242~
+Type       armor~
+Short      Saga's Designer Shades~
+Long       Wow! You dont see shades like these every day.~
+Flags      glow magic~
+WFlags     take face~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 20 -1 -1 0
+AffData    mana 20 -1 -1 0
+AffData    move 20 -1 -1 0
+AffData affected  'detect_evil' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24219
+Keywords   slippers platypus feet 1<1>1 o242~
+Type       armor~
+Short      Jenn's Platypus Feet Slippers~
+Long       A pair of comfy looking platypus slippers have been abandoned here.~
+WFlags     take feet~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll -2 -1 -1 0
+AffData    hit 25 -1 -1 0
+#EXDESC
+ExDescKey  platypus feet slippers~
+ExDesc     Aren't they warm and snuggly?
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24220
+Keywords   bear cub fur pants 1<1>1 o242~
+Type       armor~
+Short      Coldwinter's Bear Cub Fur Pants~
+Long       Coldwinter's Bear Cub Fur Pants have been left here.~
+WFlags     take legs~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    move 35 -1 -1 0
+AffData    damroll 3 -1 -1 0
+AffData    Constitution -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24221
+Keywords   tiger fur 1<1>1 o242~
+Type       armor~
+Short      Sherekhans's Tiger Fur~
+Long       Sherekhans's Tiger Fur has been left here.~
+Flags      glow magic~
+WFlags     take about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 20 -1 -1 0
+AffData    Strength 1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+#EXDESC
+ExDescKey  tiger fur~
+ExDesc     A thick, orange and black fur coat that seems imbued with
+the strength and cunningness of the great beast.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24250
+Keywords   site access 1<1>1 o242~
+Type       armor~
+Short      Site Access~
+Long       Site Access!! Take it and RULE DE WORLD!~
+Flags      glow hum invis magic nodrop~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    mana 100 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24251
+Keywords   bracer rose silver 1<1>1 o242~
+Type       armor~
+Short      a Aramina's silver rose bracers~
+Long       A perfect silver rose has been left here.~
+Flags      glow magic~
+WFlags     take arms~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    Wisdom 3 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData    Constitution -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24252
+Keywords   blood moon 1<1>1 o242~
+Type       light~
+Short      A Blood Moon~
+Long       A Blood Moon  has been left here.~
+Flags      magic~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    mana 30 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24253
+Keywords   towel 1<1>1 o242~
+Type       armor~
+Short      Jo's Towel~
+Long       Jo's Towel has been left here.~
+Flags      glow~
+WFlags     take about~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+AffData    Intelligence 2 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24255
+Keywords   zith dagger 1<1>1 o242~
+Type       weapon~
+Short      Velvet's little Zith~
+Long       Zith is here, looking for someone to bite.~
+Flags      magic~
+WFlags     take wield~
+Values     0 5 3 6 0 0 0 0 0 0 0
+Stats      5 2500 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24256
+Keywords   eyes 1<1>1 o242~
+Type       armor~
+Short      Sherekhan's peircing eyes~
+Long       A pair of yellow peircing eyes that seem to
+stare right into your soul has been left here.~
+Flags      glow magic~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 5000 0 9999 0 None None None
+AffData    mana 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24258
+Keywords   non-belief 1<1>1 o242~
+Type       armor~
+Short      Heretic's Non-Belief~
+Long       Heretic's Non-Belief lies here.~
+Flags      hum magic~
+WFlags     take about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1500 0 9999 0 None None None
+AffData    mana -25 -1 -1 0
+AffData    hit -25 -1 -1 0
+AffData    move -25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24259
+Keywords   survivor buff  1<1>1 o242~
+Type       armor~
+Short      Saga's authentic Hatch Survivor Buff~
+Long       An ultra rare survivor buff has been left here.~
+Flags      glow hum magic nodrop~
+WFlags     take head~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 15000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Strength 1 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+AffData    Wisdom 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24261
+Keywords   jersey baseball 1<1>1 o242~
+Type       armor~
+Short      Dhenders' battered baseball jersey~
+Long       Here lies an old jersey with the number 23 printed on the back.~
+WFlags     take about~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    damroll -1 -1 -1 0
+AffData    hit -30 -1 -1 0
+AffData    mana -10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24263
+Keywords   glove racquetball 1<1>1 o242~
+Type       armor~
+Short      Nightsky's Racquetball Glove~
+Long       Nightsky's racquetball glove is lying on the floor here.~
+WFlags     take hands~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    Strength -2 -1 -1 0
+AffData    mana 30 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24264
+Keywords   woodstock wood stock bird 1<1>1 o242~
+Type       treasure~
+Short      Woodstock~
+Long       Here sits Woodstock from the Peanuts in his nest.~
+WFlags     take head~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    mana 35 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24268
+Keywords   paws paw 1<1>1 o242~
+Type       armor~
+Short      Tigger's Paws~
+Long       Someone left a bloody paw lying here.~
+WFlags     take~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24269
+Keywords   rose long 1<1>1 o242 ~
+Type       treasure~
+Short      A long stemmed red rose~
+Long       A beautiful, long stemmed red rose has been left here for Jenn.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+AffData    Wisdom 1 -1 -1 0
+AffData affected  'invisible' -1 -1 0
+#EXDESC
+ExDescKey  rose long~
+ExDesc     A present from Setanta.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24270
+Keywords   bear cub 1<1>1 o242~
+Type       armor~
+Short      Coldwinter's Pet Bear Cub~
+Long       A cute little bear cub wanders here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    Strength 5 -1 -1 0
+AffData    move 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24271
+Keywords   guitar body~
+Type       armor~
+Short      a black guitar body~
+Long       The bottom half of a guitar is laying here.~
+Flags      invis nodrop antigood antievil~
+WFlags     take shield~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24272
+Keywords   guitar neck~
+Type       weapon~
+Short      a wicked guitar neck~
+Long       The neck of a guitar is leaning up against a wall here.~
+Flags      hum~
+WFlags     take wield~
+Values     0 8 4 4 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    hit 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24273
+Keywords   guitar nobs~
+Type       treasure~
+Short      a set of guitar nobs~
+Long       Some small nobs are laying on the ground here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    mana 40 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24274
+Keywords   guitar strings~
+Type       treasure~
+Short      an E,A,D,G,B, and e string~
+Long       A full set of guitar strings are laying on the ground here.~
+Flags      hum~
+WFlags     take waist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    move 40 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24275
+Keywords   guitar frets~
+Type       treasure~
+Short      a set of guitar frets~
+Long       A full set of guitar frets have been set down here.~
+Flags      hum~
+WFlags     take legs~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    armor -20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24276
+Keywords   guitar esp emblem~
+Type       treasure~
+Short      an ESP guitar emblem~
+Long       An ESP guitar emblem has been cast aside here.~
+Flags      hum~
+WFlags     take arms~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 0 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24280
+Keywords   guitar griffen~
+Type       weapon~
+Short      Griffen's Electric Guitar~
+Long       Griffen's Electric Guitar seems to be laying here.~
+WFlags     take wield~
+Values     0 8 8 4 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 7 -1 -1 0
+AffData    hitroll 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24296
+Keywords   shuttle pleasure piece left wandering k242~
+Type       key~
+Short      the left piece of the ticket~
+Long       A piece of torn gold paper has been left here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24297
+Keywords   shuttle pleasure piece center pawn k242~
+Type       treasure~
+Short      the center piece of the ticket~
+Long       A piece of torn gold paper has been left here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24298
+Keywords   shuttle pleasure piece right janitor k242~
+Type       treasure~
+Short      the right piece of the ticket~
+Long       A piece of torn gold paper has been left here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24299
+Keywords   ticket shuttle pleasure k242~
+Type       key~
+Short      First Class ticket to the Pleasure Planet~
+Long       A First Class ticket to the Pleasure Planet has been foolishly left here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24300
+Keywords   boots coldtech 0<0>0 o242~
+Type       armor~
+Short      Kelrin's Coldtech Boots~
+Long       You see a pile of trash here.~
+Flags      magic~
+WFlags     take feet~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 1 0 9999 0 None None None
+AffData    damroll -3 -1 -1 0
+AffData affected  'fireshield' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24301
+Keywords   bracelet musical charm 0<0>0 o242~
+Type       armor~
+Short      Aramina's musical charm bracelet~
+Long       You see a pile of trash here.~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24302
+Keywords   wolf fang necklace 0<0>0 o242~
+Type       armor~
+Short      Amon's Wolf Fang Necklace~
+Long       You see a pile of trash here.~
+Flags      glow magic~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24303
+Keywords   ring stars 0<0>0 o242~
+Type       armor~
+Short      Jo's ring of the Stars~
+Long       You see a pile of trash here.~
+Flags      glow~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24305
+Keywords   stiletto dagger silver 0<0>0 o242~
+Type       weapon~
+Short      Velvet's silver stiletto~
+Long       You see a pile of trash here.~
+WFlags     take wield~
+Values     0 1 1 6 0 0 0 0 0 0 0
+Stats      5 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  stiletto~
+ExDesc     Don't you just wish you were this dagger sometimes? *grin*
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24306
+Keywords   scarlett haze 0<0>0 o242~
+Type       armor~
+Short      Scarlett Haze~
+Long       You see a pile of trash here.~
+Flags      magic~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24308
+Keywords   broken soapbox 0<0>0 o242~
+Type       armor~
+Short      Heretic's Broken Soapbox~
+Long       You see a pile of trash here.~
+Flags      magic~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24309
+Keywords   armor entwood 0<0>0 o242~
+Type       armor~
+Short      Treebeard's Entwood Armor~
+Long       You see a pile of trash here.~
+Flags      magic~
+WFlags     take body~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      15 1 0 9999 0 None None None
+AffData affected  'invisible' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24311
+Keywords   gloves batting 0<0>0 o242~
+Type       armor~
+Short      Dhenders' pine-tarred batting gloves~
+Long       You see a pile of trash here.~
+WFlags     take hands~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24314
+Keywords   flam skull earring flaming 0<0>0 o242~
+Type       weapon~
+Short      Ax's Flaming Skull Earring~
+Long       You see a pile of trash here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 1 1 1 0 0 0 0 0 0 0
+Stats      16 100000 0 9999 0 None None None
+AffData affected  'invisible' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        24318
+Keywords   shades designer 0<0>0 o242~
+Type       armor~
+Short      Saga's Designer Shades~
+Long       You see a broken pair of sunglasses here. What a shame.~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24319
+Keywords   slippers platypus feet 0<0>0 o242~
+Type       armor~
+Short      Jenn's Platypus Feet Slippers~
+Long       You see a pile of trash here.~
+WFlags     take feet~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#EXDESC
+ExDescKey  platypus feet slippers~
+ExDesc     Aren't they warm and snuggly?
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24320
+Keywords   bear cup fur pants 0<0>0 o242~
+Type       armor~
+Short      Coldwinter's Bear Cub Fur Pants~
+Long       You see a pile of trash here.~
+WFlags     take legs~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24321
+Keywords   tiger fur 0<0>0 o242~
+Type       armor~
+Short      Sherekhans's Tiger Fur~
+Long       You see a pile of trash here.~
+Flags      glow magic~
+WFlags     take about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  tiger fur~
+ExDesc     A thick, orange and black fur coat.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24350
+Keywords   site access 0<0>0 o242~
+Type       armor~
+Short      Site Access~
+Long       You see a pile of trash here.~
+Flags      glow hum invis magic nodrop~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24351
+Keywords   bracer rose silver 0<0>0 o242~
+Type       armor~
+Short      a Aramina's silver rose bracers~
+Long       You see a pile of trash here.~
+Flags      glow magic~
+WFlags     take arms~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24352
+Keywords   blood moon 0<0>0 o242~
+Type       light~
+Short      A Blood Moon~
+Long       You see a pile of trash here.~
+Flags      glow magic~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24353
+Keywords   towel 0<0>0 o242~
+Type       armor~
+Short      Jo's Towel~
+Long       You see a pile of trash here.~
+Flags      glow~
+WFlags     take about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24355
+Keywords   zith dagger 0<0>0 o242~
+Type       weapon~
+Short      Velvet's little Zith~
+Long       You see a pile of trash here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 1 1 6 0 0 0 0 0 0 0
+Stats      5 2500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24356
+Keywords   eyes 0<0>0 o242~
+Type       armor~
+Short      Sherekhan's peircing eyes~
+Long       You see a pile of trash here.~
+Flags      magic~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 50 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24358
+Keywords   non-belief 0<0>0 o242~
+Type       armor~
+Short      Heretic's Non-Belief~
+Long       You see a pile of trash here.~
+Flags      glow magic~
+WFlags     take about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24359
+Keywords   survivor buff 0<0>0 o242~
+Type       armor~
+Short      Saga's authentic Hatch Survivor Buff~
+Long       The tribe has spoken. You see a pile of trash here.~
+Flags      glow magic~
+WFlags     take head~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 15000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24361
+Keywords   jersey baseball 0<0>0 o242~
+Type       armor~
+Short      Dhenders' battered baseball jersey~
+Long       You see a pile of trash here.~
+WFlags     take about~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24363
+Keywords   glove racquetball 0<0>0 o242~
+Type       armor~
+Short      Nightsky's Racquetball Glove~
+Long       You see a pile of trash here.~
+WFlags     take hands~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24364
+Keywords   woodstock wood stock bird 0<0>0 o242~
+Type       armor~
+Short      Woodstock~
+Long       You see a pile of trash here.~
+WFlags     take arms~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24368
+Keywords   paws paw 0<0>0 o242~
+Type       armor~
+Short      Tigger's Paws~
+Long       You see a pile of trash here.~
+WFlags     take~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        24369
+Keywords   rose long 0<0>0 o242 ~
+Type       treasure~
+Short      A long stemmed red rose~
+Long       You see a pile of trash here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData affected  'invisible' -1 -1 0
+#EXDESC
+ExDescKey  rose long~
+ExDesc     A present from Setanta.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        24370
+Keywords   bear cub 0<0>0 o242~
+Type       armor~
+Short      Coldwinter's Pet Bear Cub~
+Long       You see a pile of trash here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        24200
+Name       Museum to the Gods~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You have entered the Museum to the Gods.  Shhhhh be very quiet...
+others are here admiring the artwork.  The Lower Level is dedicated
+to the Lesser Gods.  The Upper Level is dedicated to the Greater 
+Gods.  Please do not touch anything here.  We wish to preserve the
+Statues as long as possible.  There are guards all about who are
+dedicated to the Museum and will do anything to protect it.  Enjoy
+your visit and thank you for your patronage.
+~
+#EXIT
+Direction  North~
+ToRoom     24251
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24255
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24263
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     24267
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1199
+#ENDEXIT
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24296 8 24200 -1 -1 -1 100
+Reset M    24297 1 24200 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24201
+Name       Entering the Shuttle Craft~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       40  24202 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport to the Pleasure Planet.
+Please fasten your seatbelt and keep your seat back and tray tables 
+in a full upright and locked position. Now sit back, relaxy and enjoy
+the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        24202
+Name       Backing away from the Station~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       40  24203 0 0 100000
+Desc       With a sudden jerk, the shuttle leaves the station and begins to rotate
+to face into the blackness of space. The roar of the engines is steady
+as you begin your journey to the hyperspace jump point.
+~
+#ENDROOM
+
+#ROOM
+Vnum        24203
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       8  24204 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace. Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        24204
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       80  24205 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you. You have no idea
+just how much time has passed since you left the station. You just
+want to drift off to sleeeeeeeeppppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        24205
+Name       ALERT!~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       40  24200 0 0 100000
+Desc       All of a sudden, you are startled awake by the blaring alarms of your
+computer console. "Sensors report a temporal rift has developed just
+off the port bow and we are being pulled into it."
+"Quickly," you shout, "All Reverse!"
+The engines rev up for a moment, and then down. "No affect Sir," the
+computer reports. You stare at the rift in horror as you are drawn 
+into it. Wierd things begin to pop up around you, they rapidly
+move about and blink out of existence. They appear and disappear
+more rapidly...finally it gets just too intense and you pass out
+from the input overload. Blackness overcomes you....
+~
+#ENDROOM
+
+#ROOM
+Vnum        24206
+Name       Before a Great Building~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       60  24200 0 0 100000
+Desc       As you regain consciousness, you notice that you are no longer in
+your shuttle. You are lying in the middle of a path leading up
+to a extremly ornate building. Your curiosity overwhemls your fear
+and you approach the structure. Across the top of the entrance are
+the words, 'Museum to the Gods'. Could this really be the place?!
+You've heard of it before, the great treasures it holds, and the 
+dangers that await the unwary and unprepared. Yet you had thought
+it only a myth. Excited you decide to enter the building.
+~
+#ENDROOM
+
+#ROOM
+Vnum        24251
+Name       Exhibit of the Demi-Gods~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in the Exhibit of the Demi-Gods.  Each Alcove holds
+a single statue.  You may go into the Alcoves to get a better look at
+the Statues, but please, do not touch them.
+~
+#EXIT
+Direction  North~
+ToRoom     24253
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24252
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     24200
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24254
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     24280
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     24281
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24252
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  West~
+ToRoom     24251
+#ENDEXIT
+Reset M    24299 20 24252 -1 -1 -1 100
+Reset M    24213 1 24252 -1 -1 -1 1
+  Reset E  24213 1 12 50
+  Reset E  24263 1 9 100
+#ENDROOM
+
+#ROOM
+Vnum        24253
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  South~
+ToRoom     24251
+#ENDEXIT
+Reset M    24299 20 24253 -1 -1 -1 100
+Reset M    24205 1 24253 -1 -1 -1 100
+  Reset E  24205 1 17 50
+Reset M    24205 1 24253 -1 -1 -1 10
+  Reset E  24305 99 17 10
+Reset M    24205 1 24253 -1 -1 -1 5
+  Reset E  24255 1 17 100
+Reset M    24205 1 24253 -1 -1 -1 100
+  Reset E  24355 99 17 10
+#ENDROOM
+
+#ROOM
+Vnum        24254
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  East~
+ToRoom     24251
+#ENDEXIT
+Reset M    24299 20 24254 -1 -1 -1 100
+Reset M    24203 1 24254 -1 -1 -1 1
+  Reset E  24203 1 3 50
+Reset M    24203 1 24254 -1 -1 -1 10
+  Reset E  24303 99 3 10
+Reset M    24203 1 24254 -1 -1 -1 5
+  Reset E  24253 1 12 100
+Reset M    24203 1 24254 -1 -1 -1 100
+  Reset E  24353 99 12 10
+#ENDROOM
+
+#ROOM
+Vnum        24255
+Name       Exhibit of the Avatars~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in the Exhibit of the Avatars.  Each Alcove holds
+a single statue.  You may go into the Alcoves to get a better look at
+the Statues, but please, do not touch them.
+~
+#EXIT
+Direction  North~
+ToRoom     24258
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24257
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     24256
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24200
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24256
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  North~
+ToRoom     24255
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24257
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  West~
+ToRoom     24255
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24258
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  South~
+ToRoom     24255
+#ENDEXIT
+Reset M    24299 20 24258 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24263
+Name       Exhibit of the Avatars~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in the Exhibit of the Avatars.  Each Alcove holds
+a single statue.  You may go into the Alcoves to get a better look at
+the Statues, but please, do not touch them.
+~
+#EXIT
+Direction  North~
+ToRoom     24264
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24200
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     24266
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24265
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24264
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  South~
+ToRoom     24263
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24265
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  East~
+ToRoom     24263
+#ENDEXIT
+Reset M    24215 1 24265 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24266
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  North~
+ToRoom     24263
+#ENDEXIT
+Reset M    24299 20 24266 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24267
+Name       Museum to the Gods~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You have entered the Museum to the Gods.  Shhhhh be very quiet...
+others are here admiring the artwork.  The Lower Level is dedicated
+to the Lesser Gods.  The Upper Level is dedicated to the Greater 
+Gods.  Please do not touch anything here.  We wish to preserve the
+Statues as long as possible.  There are guards all about who are
+dedicated to the Museum and will do anything to protect it.  Enjoy
+your visit and thank you for your patronage.
+~
+#EXIT
+Direction  North~
+ToRoom     24268
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24271
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24274
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     24200
+#ENDEXIT
+Reset M    24299 20 24267 -1 -1 -1 100
+Reset M    24299 20 24267 -1 -1 -1 100
+Reset M    24299 20 24267 -1 -1 -1 100
+Reset M    24299 20 24267 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24268
+Name       Exhibit of the Implementors~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in the Exhibit of the Implementors.  Each Alcove holds
+a single statue.  You may go into the Alcoves to get a better look at
+the Statues, but please, do not touch them.
+~
+#EXIT
+Direction  North~
+ToRoom     24279
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24269
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     24267
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24270
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24269
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  West~
+ToRoom     24268
+#ENDEXIT
+Reset M    24214 1 24269 -1 -1 -1 1
+  Reset E  24214 1 17 50
+Reset M    24214 1 24269 -1 -1 -1 10
+  Reset E  24314 99 17 10
+Reset M    24214 1 24269 -1 -1 -1 5
+  Reset E  24264 1 10 100
+Reset M    24214 1 24269 -1 -1 -1 100
+  Reset E  24364 99 10 10
+#ENDROOM
+
+#ROOM
+Vnum        24270
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  East~
+ToRoom     24268
+#ENDEXIT
+Reset M    24299 20 24270 -1 -1 -1 100
+Reset M    24299 20 24270 -1 -1 -1 100
+Reset M    24201 1 24270 -1 -1 -1 1
+  Reset E  24201 1 14 50
+Reset M    24201 1 24270 -1 -1 -1 10
+  Reset E  24301 99 14 10
+Reset M    24201 1 24270 -1 -1 -1 5
+  Reset E  24251 1 10 100
+Reset M    24201 1 24270 -1 -1 -1 100
+  Reset E  24351 99 10 10
+#ENDROOM
+
+#ROOM
+Vnum        24271
+Name       Exhibit of the Co-Implementors~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in the Exhibit of the Co-Implementors.  Each Alcove holds
+a single statue.  You may go into the Alcoves to get a better look at
+the Statues, but please, do not touch them.
+~
+#EXIT
+Direction  North~
+ToRoom     24273
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24277
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     24272
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24267
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24272
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  North~
+ToRoom     24271
+#ENDEXIT
+Reset M    24299 20 24272 -1 -1 -1 100
+Reset M    24208 1 24272 -1 -1 -1 1
+  Reset E  24220 1 17 50
+Reset M    24208 1 24272 -1 -1 -1 10
+  Reset E  24320 99 17 10
+Reset M    24208 1 24272 -1 -1 -1 5
+  Reset E  24270 1 17 100
+Reset M    24208 1 24272 -1 -1 -1 100
+  Reset E  24320 99 17 10
+#ENDROOM
+
+#ROOM
+Vnum        24273
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  South~
+ToRoom     24271
+#ENDEXIT
+Reset M    24200 1 24273 -1 -1 -1 1
+  Reset E  24200 1 7 50
+Reset M    24200 1 24273 -1 -1 -1 10
+  Reset E  24300 99 7 10
+Reset M    24200 1 24273 -1 -1 -1 5
+  Reset E  24268 1 17 100
+Reset M    24200 1 24273 -1 -1 -1 100
+  Reset E  24368 99 17 10
+Reset M    24299 20 24273 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24274
+Name       Exhibit of the Gods~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in the Exhibit of the Gods.  Each Alcove holds
+a single statue.  You may go into the Alcoves to get a better look at
+the Statues, but please, do not touch them.
+~
+#EXIT
+Direction  North~
+ToRoom     24275
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     24267
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     24276
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24278
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24275
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  South~
+ToRoom     24274
+#ENDEXIT
+Reset M    24221 1 24275 -1 -1 -1 1
+  Reset E  24221 1 1 50
+Reset M    24221 1 24275 -1 -1 -1 10
+  Reset E  24321 99 1 10
+Reset M    24221 1 24275 -1 -1 -1 5
+  Reset E  24256 1 17 100
+Reset M    24221 1 24275 -1 -1 -1 100
+  Reset E  24356 99 17 10
+#ENDROOM
+
+#ROOM
+Vnum        24276
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  North~
+ToRoom     24274
+#ENDEXIT
+Reset M    24220 1 24276 -1 -1 -1 1
+  Reset E  24208 1 2 50
+Reset M    24220 1 24276 -1 -1 -1 10
+  Reset E  24308 99 2 10
+Reset M    24220 1 24276 -1 -1 -1 5
+  Reset E  24258 1 17 100
+Reset M    24220 1 24276 -1 -1 -1 100
+  Reset E  24358 99 17 10
+Reset M    24299 20 24276 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        24277
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  West~
+ToRoom     24271
+#ENDEXIT
+Reset M    24218 1 24277 -1 -1 -1 1
+  Reset E  24209 1 5 50
+Reset M    24218 1 24277 -1 -1 -1 10
+  Reset E  24309 99 5 10
+Reset M    24218 1 24277 -1 -1 -1 5
+  Reset E  24259 1 17 100
+Reset M    24218 1 24277 -1 -1 -1 100
+  Reset E  24359 99 17 10
+#ENDROOM
+
+#ROOM
+Vnum        24278
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  East~
+ToRoom     24274
+#ENDEXIT
+Reset M    24211 1 24278 -1 -1 -1 1
+  Reset E  24211 1 9 50
+Reset M    24211 1 24278 -1 -1 -1 10
+  Reset E  24311 99 9 10
+Reset M    24211 1 24278 -1 -1 -1 5
+  Reset E  24261 1 12 100
+Reset M    24211 1 24278 -1 -1 -1 100
+  Reset E  24361 99 12 10
+#ENDROOM
+
+#ROOM
+Vnum        24279
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  South~
+ToRoom     24268
+#ENDEXIT
+Reset M    24202 1 24279 -1 -1 -1 1
+  Reset E  24202 1 11 50
+Reset M    24202 1 24279 -1 -1 -1 10
+  Reset E  24302 99 11 10
+Reset M    24202 1 24279 -1 -1 -1 5
+  Reset E  24252 1 17 100
+Reset M    24202 1 24279 -1 -1 -1 100
+  Reset E  24352 99 17 10
+#ENDROOM
+
+#ROOM
+Vnum        24280
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  Down~
+ToRoom     24251
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        24281
+Name       An Alcove~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc          You are standing in a Statue Alcove.  Others around you are admiring
+the statue here.   You are awed at the life-like representation.  It is
+almost as if...it were alive.
+~
+#EXIT
+Direction  Up~
+ToRoom     24251
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

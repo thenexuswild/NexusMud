@@ -1,0 +1,68 @@
+#PLAYER
+Version      23
+Name         Lordken~
+Password     234eaa2133592c311bb5ec06d170be50031a329a7ccf7b54151dae79fbc7844e~
+Sex          male~
+Race         human~
+Class        Warrior~
+Title         the Newbie~
+Site         107-203-12-112.lightspeed.milwwi.sbcglobal.net~
+Prompt       &z[&W%h&whp &W%m&wm &W%v&wmv&z]  [&c%X&wexp&z]&D ~
+FPrompt      &z[&W%h&whp &W%m&wm &W%v&wmv&z]  [&R%c&z] ~
+PCFlags      autoexits blank automap ansi autogold~
+Channels     chat~
+Speaks       common~
+Status       1 0 0 70 180 101 -4
+Status2      2 0 0 0 0 0 100 0
+Configs      24 -1 -1 -1 -1 0 0 102
+Motd         0 0
+Age          0 0 0 -16 241
+HpManaMove   10 10 100 100 150 150
+Regens       0 0 0
+Position     standing~
+Coordinates  -1 -1 -1
+SavingThrows 0 0 0 0 0
+RentData     0 0 0 0 0
+RentRooms    1000
+KillInfo     0 0 0 0 0
+AttrPerm     16 17 14 12 9 11 11
+AttrMod      0 0 0 0 0 0 0
+Condition    0 75 75
+Tongue       100 'common'
+MaxColors    112
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 7 7 12 10 14 15 7 7 11 7 7 25 12 7 7 2 6 7 7 12 7 7 7 9 7 12 13 7 7 11 7 7 3 12 9 7 7 10 2 2 3 7 9 7 2 9 12 9 6 11 13 2 13 15 12 12 12 10 7 10 10 11 8 10 13 2 6 9 15 12 2 6 1 9 2 10 7 10 15
+MaxBeacons   10
+Beacons      0 0 0 0 0 0 0 0 0 0
+Zone         Halls of Creation~
+IMCPerm      0
+IMCFlag      imccolor
+End
+
+#OBJECT
+Version      23
+Ovnum        11479
+Ego          10
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       5 5 0 0 0 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#OBJECT
+Version      23
+Ovnum        11478
+Ego          0
+WearLoc      0
+Level        1
+Oday         0
+Omonth       0
+Oyear        0
+Coords       -1 -1 -1
+Values       0 0 -1 0 0 0 0 0 0 0 0
+Sockets      None None None
+End
+
+#END

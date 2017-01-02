@@ -1,0 +1,6179 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Orion Outpost~
+Author          Unknown~
+Vnums           1000 1199
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        You hear a humm from the spacestation.~
+ResetFreq       30
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        1000
+Keywords   receptionist recep m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Receptionist~
+Long       A receptionist is standing behind the counter here, smiling at you.
+~
+Desc       You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 10 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1001
+Keywords   cryogenicist cryo m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Cryogenicist~
+Long       The Cryogenicist is here, staring at you and playing with a canister of
+liquid nitrogen.
+~
+Desc       You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 10 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel innkeeper immortal~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1002
+Keywords   clerk supply stop m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Supply Stop Clerk~
+Long       An impatient clerk is here, selling some supplies.
+~
+Desc          The clerk has a slightly impatient air about him. He looks as if he'd
+rather be at Quark's or on the Nexus.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1015 1016 1017 1018 1019 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1003
+Keywords   dealer antique weapons m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Antique Weapons Dealer~
+Long       An antique dealer is standing here, eager to sell you his most expensive items.
+~
+Desc          He's an older gentleman, who looks shrewd and well learned in the
+arts of haggling and sales.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1010 1011 1012 1013 1014 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1004
+Keywords   dealer antique armor m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Antique Armor Dealer~
+Long       An antique dealer is standing here, eager to sell you his most expensive items.
+~
+Desc          He's an older gentleman, who looks shrewd and well learned in the
+arts of haggling and sales.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1035 1036 1037 1038 1039 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1005
+Keywords   mystic somatic arcana m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Somatic Arcana Mystic~
+Long       A strange being stands here making wild gestures with what look to be arms.
+~
+Desc          This being is very strange indeed. It seems to never stop making those
+strange gestures. The being would be happy to sell you some powerful item,
+if you are interested.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1030 1031 1032 1033 1034 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1006
+Keywords   mystic verbal arcana m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Verbal Arcana Mystic~
+Long       A small being is here, chanting and singing endlessly.
+~
+Desc          This being is very strange indeed. It seems to never stop chanting
+some mystical song. If you are interested, the being would gladly sell
+you some powerful item.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 2 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1025 1026 1027 1028 1029 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1007
+Keywords   mystic material arcana m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Material Arcana Mystic~
+Long       A large being is here, mixing and preparing various ungents, potions and such.
+~
+Desc          This being is very strange indeed. It seems to never stop mixing the
+various things that it is trying to make. When it has a spare moment, it
+would be more than happy to sell you one of it's wares.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 2 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1020 1021 1022 1023 1024 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1008
+Keywords   broker pawn m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Pawn Broker~
+Long       The Pawn Broker is here, ready to convert your items into credits.
+~
+Desc         He's an elderly gentlemen that has the look of many years of experience
+on his face. He trades fairly but at severly lower prices due to the
+volume of stuff he already has.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   24297 0 0 0 0 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1009
+Keywords   wong m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Dr. Wong~
+Long       Dr. Wong welcomes you to his world.
+~
+Desc          Dr. Wong smiles warmly at you.
+
+Dr. Wong appears to be deeping in thought
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 2 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1010
+Keywords   postmaster postal post m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Postmaster~
+Long       The head Postmaster is standing here, waiting to help you with your mail.
+~
+Desc          The Postmaster seems like a happy old man, though a bit sluggish. Perhaps
+if he were to brush the cobwebs from his uniform, it'd help to make a better 
+impression.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 0 -7 30000 1 0 18
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1011
+Keywords   smyth trainer paladin defmagic m010~
+Race       humanoid~
+Class      paladin~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Smyth~
+Long       Smyth is the Commading Officer of Orion Outpost. He is the Paladin trainer of Orion Outpost.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1012
+Keywords   roberts trainer utility transport m010~
+Race       humanoid~
+Class      bard~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Roberts~
+Long       Roberts is Chief Engineer of Orion Outpost. He is always singing and himming to himself while he is works.  Roberts is the bard trainer of Orion outpost.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1013
+Keywords   bel trainer wild m010~
+Race       humanoid~
+Class      druid~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Bel~
+Long       Bel is the Science Officer of Orion Outpost. She appears to be the Druid trainer of Orion Station.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1014
+Keywords   albert trainer healing m010~
+Race       humanoid~
+Class      cleric~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Albert~
+Long       Albert is Chief Medical Officer of Orion Outpost. He runs the healing bay for Orion outpost.  He appears to be willing to teach you about healing.  Looks like he might be the cleric trainer.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1015
+Keywords   kaya trainer fighter m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Kaya~
+Long       Kaya is the K'voran Liason for Orion Outpost. You see a powerfull person before you.  She is well toned and has so many muscles you wonde rif she might be the Warrior trainer.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     34 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1016
+Keywords   dar trainer offmagic m010~
+Race       humanoid~
+Class      mage~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Dar~
+Long       Dar is Chief of Security for Orion Outpost. He is the mage trainer. You can feel the raw magic radiating from him.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1017
+Keywords   Vuarq trainer thief rogue m010~
+Race       humanoid~
+Class      rogue~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Vuarq~
+Long       Vuarq owns the main bar on Orion Outpost. You almost didn't notie him, you wonder if he might be the Rogue trainer.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1018
+Keywords   hanz trainer strength m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Hanz~
+Long       Hanz the strength trainer is here to pump you up!
+~
+Desc       Here you see Hanz, the incredible strength trainer.  "We're going to PUMP!
+*clap* YOU up!"
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 1 -9 15000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1019
+Keywords   aysha trainer intelligence m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Aysha~
+Long       Aysha is Roberts' wife. She is here to teach you.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 1 -9 15000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1020
+Keywords   librarian trainer wisdom m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Librarian~
+Long       the Librarian is here willing to help you seek wisdom!
+~
+Desc       here you see the Librarian.  This old crone charges outrageous prices
+for those who seek her services, but people seldom complain.  After
+meeting her price, you are certain to come out of the transaction
+much wiser than you were when you started.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 1 -9 15000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1021
+Keywords   franz trainer constitution m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Franz~
+Long       Franz the trainer is here to pump you up!
+~
+Desc       Franz talks with a really odd accent.  Every once in a while you overhear
+him discussing some "girly man" or "little girl" who is working out
+somewhere in the gym.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 1 -9 15000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1022
+Keywords   master gymnast trainer dexterity m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Master Gymnast~
+Long       the Master Gymnast is here ready to train you.
+~
+Desc       You see the Master Gymnast.  As you stand and watch he casually finishes his
+routing on the parallel bars with a triple roll and landing easily on his
+feet.  He says, "If you are here to learn to be more dextrous then you have
+certainly come to the right place."
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 1 -9 15000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1023
+Keywords   phrenologist phreno m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Phrenologist~
+Long       the Phrenoligist is here muttering over an anatomical chart.
+~
+Desc       The phrenologist is here perusing a book of anatomical drawings.  He looks up with a slightly impatient expression and says, "If you are here for
+an analysis you have come to the right place, but hurry up!  I haven't
+got all day you know!"
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     33 1 0 15000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1024
+Keywords   brother~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Vuarq's Brother~
+Long       Vuarq's Brother watches you calmly, while he skillfully mixes a drink.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 0 -5 1000 2 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   1000 1001 1002 1003 1004 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1025
+Keywords   replicator m010~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Replicator~
+Long       A replicator is here, creating many popular dishes for patrons.
+~
+Desc         This machine creates several popular dishes from cultures all over
+the galaxy. Type list to get a list of the selection. Please do not
+harm this machine, Chief Roberts has enough trouble fixing stuff around
+here as it is. 
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     34 0 -8 30000 100 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+ShopData   1005 1006 1007 1008 1009 20 300 0 28
+#ENDMOBILE
+
+#MOBILE
+Vnum        1026
+Keywords   casino girl m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Casino Girl~
+Long       This beautiful woman works here in Vuarq's Casino, running the game.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 0 -5 390 1 0 12
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1027
+Keywords   officer security m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Security Officer~
+Long       A Security Officer is here, ready to jump in at the first sign of trouble.
+~
+Desc       He looks very strong and stern. He probably won't put up with many 
+troublemakers.
+
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     17 3 5 225 3 0 13
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1028
+Keywords   officer engineering m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      an Engineering Officer~
+Long       An Engineering Officer stands here, mainting the station.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     10 10 7 123 1 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1029
+Keywords   nurse m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a Nurse~
+Long       A Nurse is standing here, trying to heal her sick patients.
+~
+Nattacks   1.000000
+Stats1     800 0 60 100 150 250
+Stats2     1 20 10 100 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1030
+Keywords   officer ops m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      an OPs Officer~
+Long       An OPs Officer stand here, making sure everything runs smoothly.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     0 20 10 100 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1031
+Keywords   janitor m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Janitor~
+Long       A janitor is walking around, cleaning up.
+~
+Nattacks   1.000000
+Stats1     800 0 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1032
+Keywords   drunk m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the drunk~
+Long       A singing, happy Drunk.
+~
+Desc       A drunk who seems to be too happy, and to carry too much money.
+~
+Nattacks   1.000000
+Stats1     400 0 60 100 150 250
+Stats2     2 19 10 22 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1033
+Keywords   upper cleaning bot m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Cleaning Bot~
+Long       You hardly notice the bot cleaning the upper half of the room.
+~
+Nattacks   1.000000
+Stats1     -200 0 60 100 150 250
+Stats2     0 20 10 4 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1034
+Keywords   lower cleaning bot m010~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Cleaning Bot~
+Long       You hardly notice the bot cleaning the lower part of the room.
+~
+Nattacks   1.000000
+Stats1     -200 0 60 100 150 250
+Stats2     0 20 10 4 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1035
+Keywords   inhabitant m010~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      an Inhabitant of Orion Outpost~
+Long       An Inhabitant of Orion Outpost wanders around taking care of some errands.
+~
+Nattacks   1.000000
+Stats1     400 0 60 100 150 250
+Stats2     1 20 10 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1036
+Keywords   visitor m010~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Visitor to Orion Outpost~
+Long       A Visitor to Orion Outpost wanders around checking everything out and buying trinkets.
+~
+Nattacks   2.000000
+Stats1     0 1000 60 100 150 250
+Stats2     20 0 4 325 3 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1037
+Keywords   prisoner m010~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Prisoner~
+Long       A Prisoner is here, serving time.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 0 4 325 3 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1038
+Keywords   patient m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Patient~
+Long       A patient is here trying to get better.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 0 4 325 3 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1039
+Keywords   john m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      John~
+Long       Smyth's son, John is standing here.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 0 4 325 3 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1040
+Keywords   gar m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Gar~
+Long       Vuarq's son, Gar is standing here.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 0 4 325 3 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1041
+Keywords   dweezle m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Dweezle~
+Long       Dweezle, the Assasin Contact, is here skulking around.
+~
+Desc       Dweezle whispers to you, 'It'll cost ya 30mil to join the guild,
+and ya had better watch out, because in the guild there are no rules.'
+To join type join and to leave type leave.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 0 -10 30000 20 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1042
+Keywords   beowulf m010~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Beowulf~
+Long       Beowulf, the Hero Contact, is here recruiting the best of the best.
+~
+Desc       Beowulf whispers to you, 'It'll cost ya 50mil to join the guild...
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 0 -10 30000 20 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1043
+Keywords   Regnar trainer range offmagic m010~
+Race       humanoid~
+Class      ranger~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Regnar~
+Long       Regnar stands here.  He is the Ranger trainer for orion outpost.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1044
+Keywords   Neddy trainer necro necromancer m010~
+Race       humanoid~
+Class      necromancer~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Neddy~
+Long       Neddy is staning here surrounded by darkness.  He is the necormancer trainer for Orion Outpost~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1045
+Keywords   Kom trainer monk m010~
+Race       humanoid~
+Class      monk~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Kom~
+Long       Kom is here practicing his kunk gu.  He is the monk trainer for Orion Outpost.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        1046
+Keywords   Killec trainer anti anti antipaladin  m010~
+Race       humanoid~
+Class      antipaladin~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Killec~
+Long       Killec is standing here amitting a evil aura. He is the Antipaladin trainer for Orion Outpost. 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     100 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel immortal practice~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+
+
+
+#OBJECT
+Vnum        1000
+Keywords   drink kylar o010~
+Type       drinkcon~
+Short      a popular Kylar drink~
+Long       A popular Kylar drink is here bubbling violently.~
+WFlags     take~
+Values     5 5 13 0 0 0 0 0 0 0 0
+Stats      65 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1001
+Keywords   ale Dovulan o010~
+Type       drinkcon~
+Short      a popular Dovulan ale~
+Long       A bright green drink has been left here, unfinished.~
+WFlags     take~
+Values     5 5 3 0 0 0 0 0 0 0 0
+Stats      10 8 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1002
+Keywords   drink K'voran o010~
+Type       drinkcon~
+Short      a popular K'voran drink~
+Long       A small drink has been lef there.~
+WFlags     take~
+Values     5 5 14 0 0 0 0 0 0 0 0
+Stats      10 3 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1003
+Keywords   drink savasian o010~
+Type       drinkcon~
+Short      a popular Savasian drink~
+Long       A vile looking drink has been left here.~
+WFlags     take~
+Values     5 5 9 0 0 0 0 0 0 0 0
+Stats      10 17 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1004
+Keywords   drink balingi o010~
+Type       drinkcon~
+Short      a popular Balingi drink~
+Long       A large drink has been left here.~
+WFlags     take~
+Values     5 5 5 0 0 0 0 0 0 0 0
+Stats      10 7 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1005
+Keywords   dish kylar o010~
+Type       food~
+Short      a popular Kylar dish~
+Long       A vile looking Kylar delicacy has been left here.~
+WFlags     take~
+Values     12 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1006
+Keywords   dish dovulan o010~
+Type       food~
+Short      a popular Dovulan dish~
+Long       An interesting meal has been left here.~
+WFlags     take~
+Values     5 0 0 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1007
+Keywords   dish k'voran o010~
+Type       food~
+Short      a popular k'voran dish~
+Long       A tasty looking, if small k'voran dish has been left here.~
+WFlags     take~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1008
+Keywords   dish savasian o010~
+Type       food~
+Short      a popular Savasian stew~
+Long       A steaming stew has been left here.~
+WFlags     take~
+Values     10 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1009
+Keywords   dessert balingi o010~
+Type       food~
+Short      a popular Balingi dessert~
+Long       A sweet, intoxicating confection has been left here.~
+WFlags     take~
+Values     5 0 0 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1010
+Keywords   dagger o010~
+Type       weapon~
+Short      a dagger~
+Long       A dagger with a long thin blade is here.~
+Action     pierce~
+WFlags     take wield~
+Values     0 1 4 6 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1011
+Keywords   sword small o010~
+Type       weapon~
+Short      a small sword~
+Long       A small sword lies here.~
+Action     lash~
+WFlags     take wield~
+Values     0 1 6 6 0 0 0 0 0 0 0
+Stats      3 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  sword small o010 inscription~
+ExDesc     The small sword seems to have an inscription of some sort inscription...
+It says: "May this sword be a good companion."
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1012
+Keywords   sword long o010~
+Type       weapon~
+Short      a long sword~
+Long       A long sword has been left here.~
+Action     slash~
+WFlags     take wield~
+Values     0 1 8 1 0 0 0 0 0 0 0
+Stats      8 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1013
+Keywords   flail large o010~
+Type       weapon~
+Short      a flail~
+Long       A large flail is here.~
+Action     pound~
+WFlags     take wield~
+Values     0 2 4 4 0 0 0 0 0 0 0
+Stats      6 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1014
+Keywords   warhammer hammer o010~
+Type       weapon~
+Short      a warhammer~
+Long       A medium sized warhammer is here.~
+Action     pound~
+WFlags     take wield~
+Values     0 1 5 4 0 0 0 0 0 0 0
+Stats      6 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1015
+Keywords   paper o010~
+Type       paper~
+Short      a piece of paper~
+Long       A sheet of white paper is lying here.~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1016
+Keywords   pen o010~
+Type       pen~
+Short      a pen~
+Long       A pen.~
+WFlags     take hold face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1017
+Keywords   light portable emitter o010~
+Type       light~
+Short      a small portable light-wave emitter~
+Long       A small portable light-wave emitter, aka light source has been left here.~
+WFlags     take hold~
+Values     0 0 96 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1018
+Keywords   bag o010~
+Type       container~
+Short      a bag~
+Long       A small bag is here.~
+WFlags     take hold~
+Values     50 0 0 10 0 0 0 0 0 0 0
+Stats      2 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1019
+Keywords   transport personal o010~
+Type       boat~
+Short      an all-terrain personal transport~
+Long       An all-terrain personal transport has been left here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      32 100 0 9999 0 None None None
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1020
+Keywords   potion orange sense_life o010~
+Type       potion~
+Short      a orange potion of sense life, by "NexusCorp, Inc" (tm)~
+Long       A orange potion of sense life, by "NexusCorp, Inc" (tm)~
+Flags      magic~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1500 0 9999 0 None None None
+Spells       'fly' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1021
+Keywords   potion white curing o010~
+Type       potion~
+Short      a white potion of liquid curing by "NexusCorp, Inc" (tm)~
+Long       A white potion of liquid curing by "NexusCorp, Inc" (tm)~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      5 1000 0 9999 0 None None None
+Spells       'cure light' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1022
+Keywords   potion purple sanct o010~
+Type       potion~
+Short      a purple potion of sanctuary by "NexusCorp, Inc"(tm)~
+Long       A purple potion of sanctuary by "NexusCorp, Inc"(tm)~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      3 2500 0 9999 0 None None None
+Spells     'sanctuary' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1023
+Keywords   potion yellow see_invis o010~
+Type       potion~
+Short      A yellow potion of see invisible by "NexusCorp, Inc"(tm)~
+Long       A small yellow potion has carelessly been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     12 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+Spells     'detect invis' 'NONE' 'NONE'
+#EXDESC
+ExDescKey  potion yellow o010~
+ExDesc     The potion has a small label 'Detect The Invisible'.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1024
+Keywords   potion misty blue heal o010~
+Type       potion~
+Short      a misty blue potion of heal by "NexusCorp, Inc" (tm)~
+Long       A misty blue potion of heal by "NexusCorp, Inc" (tm)~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      20 2500 0 9999 0 None None None
+Spells     'heal' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1026
+Keywords   scroll prot_evil o010~
+Type       scroll~
+Short      a scroll of protection from evil~
+Long       A bright blue scroll has been left here.~
+Flags      glow magic~
+WFlags     take~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1500 0 9999 0 None None None
+Spells     'protection from evil' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1027
+Keywords   scroll identify o010~
+Type       scroll~
+Short      a scroll of identify~
+Long       A scroll has carelessly been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     12 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+Spells     'identify' 'NONE' 'NONE'
+#EXDESC
+ExDescKey  scroll identify o010~
+ExDesc     The scroll has a magic formula drawn upon it:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1028
+Keywords   scroll power o010~
+Type       scroll~
+Short      a scroll of power~
+Long       A scroll of power has been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 2000 0 9999 0 None None None
+Spells       'armor' 'NONE' 'NONE'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1029
+Keywords   scroll charm o010~
+Type       scroll~
+Short      a scroll of charm~
+Long       A pretty little scroll has been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1030
+Keywords   staff sleep o010~
+Type       staff~
+Short      a staff of sleep~
+Long       A staff has carelessly been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     12 5 5 208 0 0 0 0 0 0
+Stats      17 5000 0 9999 0 None None None
+Spells     'sleep'
+#EXDESC
+ExDescKey  staff~
+ExDesc     The staff is made of old oak, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+  ZZZZZ
+     Z
+    Z
+   Z
+  ZZZZZ  z   z
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1031
+Keywords   staff healing o010~
+Type       staff~
+Short      a staff of healing~
+Long       A staff has carelessly been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     10 8 8 62 0 0 0 0 0 0
+Stats      7 300 0 9999 0 None None None
+Spells     'cure light'
+#EXDESC
+ExDescKey  staff~
+ExDesc     The staff is made of metals unknown to you.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1032
+Keywords   wand bright blind o010~
+Type       wand~
+Short      a bright wand~
+Long       A small wind lies here. It glows so bright it's hard to see.~
+Flags      glow magic~
+WFlags     take hold~
+Values     10 2 2 26 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+Spells       'blindness' 
+#ENDOBJECT
+
+#OBJECT
+Vnum        1033
+Keywords   wand flame fire o010~
+Type       wand~
+Short      a wand of flame~
+Long       A small endlessly burning stick is lying here.~
+Flags      glow magic~
+WFlags     take hold~
+Values     10 2 2 113 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+Spells       'flamestrike'
+#ENDOBJECT
+
+#OBJECT
+Vnum        1034
+Keywords   wand invis o010~
+Type       wand~
+Short      a wand of invisibility~
+Long       A wand has carelessly been left here.~
+Flags      magic~
+WFlags     take hold~
+Values     12 4 4 150 0 0 0 0 0 0
+Stats      2 100 0 9999 0 None None None
+Spells       'invisible'
+#EXDESC
+ExDescKey  wand~
+ExDesc     The wand is an old dark stick.  You notice a small symbol etched at the
+base of the wand.  It looks like this:
+
+     \ /
+    - O -
+     / \
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1035
+Keywords   jacket soft leather o010~
+Type       armor~
+Short      a leather jacket~
+Long       A soft leather jacket is lying on the ground.~
+WFlags     take body~
+Values     2 2 0 2 0 0 0 0 0 0 0
+Stats      10 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1036
+Keywords   shirt mail chain o010~
+Type       armor~
+Short      a chain mail shirt~
+Long       A chain mail shirt is lying on the ground.~
+WFlags     take body~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      60 50 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1037
+Keywords   jacket scale mail o010~
+Type       armor~
+Short      a scale mail jacket~
+Long       A scale mail jacket is lying on the ground.~
+WFlags     take body~
+Values     6 6 0 0 0 0 0 0 0 0 0
+Stats      40 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1038
+Keywords   plate bronze breast o010~
+Type       armor~
+Short      a bronze breast plate~
+Long       A bronze breast plate is lying on the ground.~
+WFlags     take body~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      80 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1039
+Keywords   plate breast o010~
+Type       armor~
+Short      a breast plate~
+Long       A breast plate is lying on the ground.~
+WFlags     take body~
+Values     7 7 0 0 0 0 0 0 0 0 0
+Stats      100 150 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1040
+Keywords   uniform o010~
+Type       armor~
+Short      a Orion uniform~
+Long       A Orion uniform is here, folded neatly.~
+WFlags     take body~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1041
+Keywords   uniform K'voran o010~
+Type       armor~
+Short      a K'voran uniform~
+Long       A K'voran uniform is here, folded neatly.~
+WFlags     take body~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1042
+Keywords   badge comm o010~
+Type       treasure~
+Short      a comm-badge~
+Long       A comm-badge has been left here.~
+Flags      hum~
+WFlags     take hold face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 2000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+AffData    Wisdom 1 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1043
+Keywords   gargle-blaster galactic blaster pan o010~
+Type       drinkcon~
+Short      a Pan-Galactic Gargle-Blaster~
+Long       An incredibly powerful drink is here, looking rather toxic.~
+WFlags     take~
+Values     5 5 7 0 0 0 0 0 0 0 0
+Stats      1 75 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1044
+Keywords   laser utility o010~
+Type       weapon~
+Short      a utility laser~
+Long       A small utility phaser has been left here.~
+Flags      hum~
+WFlags     take wield~
+Values     0 1 1 6 0 0 0 0 0 0 0
+Stats      1 5000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1045
+Keywords   analysis device wand o010~
+Type       wand~
+Short      an analysis device~
+Long       A small analysis device has been left here.~
+WFlags     take hold~
+Values     10 5 5  0 0 0 0 0 0 0
+Stats      1 2500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1046
+Keywords   card security~
+Type       key~
+Short      a security card~
+Long       A small plastic card has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1090
+Keywords   The Gateway o010~
+Type       trash~
+Short      a Gateway~
+Long       Your gateway to other worlds sits here.~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      100000 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  gateway~
+ExDesc     Here you see your gateway to other worlds.  To use the
+gateway, type "list" to see what areas the gateway can take you to.
+Then say "run <areaname>" to enter the world you would like to visit.  For example,
+say "run upper" to go to the Upper Bardic college.
+
+Avialable areas are:
+abyss, arabian, Upper bardic(upper), lower bardic(lower), camelot, emerald, 3m, japan,
+cemetary, cyberia, town of Deadwood(town), galaxy, high-tower, mahn-tor, mythic-tarot, 
+rhyoden-outpost, seaelf, sieged-castle, fathertime, vampire, midgaard, wax museum(wax),
+100acres, circes, rome, drowcity.
+
+Newbie areas:
+gwyn, newbie-realms, midguaard, chessboard
+
+~
+#ENDEXDESC 
+#ENDOBJECT
+
+#OBJECT
+Vnum        1091
+Keywords   Gateway quest o010~
+Type       trash~
+Short      a gateway~
+Long       Your gateway to the worlds sits here.~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      100000 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  gateway~
+ExDesc     HHere you see your gateway to other worlds.  To use the
+gateway, type "list" to see what areas the gateway can take you to.
+Then say "run <areaname>" to enter the world you would like to visit.  For example,
+say "run upper" to go to the Upper Bardic college.
+Avialable areas are:
+abyss, arabian, animal cell, Upper bardic(upper), lower bardic(lower), camelot, emerald, nostalgia,
+cemetary, cyberia, town of Deadwood(town), galaxy, high-tower, mahn-tor, mythic-tarot, 
+rhyoden-outpost, seaelf, sieged-castle, newbie-realms, space-raiders, vampire,
+midgaard, wax museum(wax).
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1092
+Keywords   poster shuttle schedule o010~
+Type       trash~
+Short      a shuttle schedule~
+Long       A poster, containing information about the shuttle schedule is here.~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      100000 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  shuttle schedule poster~
+ExDesc     Shuttle Departure Schedule: All Shuttles depart at regular intervals. Some
+trips may require a ticket. These are designated by a $ next to the name.
+
+Docking Ring 1 - Pylon A: $ Pleasure Planet | Pylon B:   No Route Scheduled
+Docking Ring 2 - Pylon A:   Clan Asteroid   | Pylon B:   No Route Scheduled
+Docking Ring 3 - Pylon A:   Planet Sky      | Pylon B:   Planet Ward
+Layout:
+                2
+                |
+               ---
+              /   \
+             |     |
+             |     |
+            / \---/ \
+           1    |    3
+                *
+*=You are Here!
+A Pylons are Up
+B Pylons are Down
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1099
+Keywords   laser mark1 o010~
+Type       weapon~
+Short      a personal laser~
+Long       A personal laser has been left here on 'charge'.~
+WFlags     take wield~
+Values     0 3 10 6 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1100
+Keywords   cookie cohpk z010~
+Type       food~
+Short      a oreo cookie~
+Long       A tasty cookie is here.~
+WFlags     take~
+Values     12 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1101
+Keywords   locker z010~
+Type       treasure~
+Short      a clan locker~
+Long       A clan locker is bolted to the floor here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5000 100 0 9999 0 None None None
+#EXDESC
+ExDescKey  locker~
+ExDesc     There is a small note on the locker which says:
+
+To use, type "BROWSE", "WITHDRAW x", or "DEPOSIT x".  Please report any
+strange occurrences to the clan manager.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1197
+Keywords   warhammer hammer doom z010~
+Type       weapon~
+Short      Exile's Warhammer of Doom~
+Long       A medium sized warhammer is here.~
+Flags      antineutral~
+WFlags     take wield~
+Values     0 1 5 4 0 0 0 0 0 0 0
+Stats      6 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        1198
+Keywords   thumbscrews screws z010~
+Type       treasure~
+Short      a set of thumbscrews~
+Long       A painful - looking set of thumbscrews are sitting here.~
+WFlags     take hands~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 500 0 9999 0 None None None
+AffData    hit -20 -1 -1 0
+AffData affected  'paralysis' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1199
+Keywords   mobscript z010~
+Type       paper~
+Short      a piece of paper~
+Long       A piece of mobscript has been left here. Please junk it.~
+Flags      hum~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        1000
+Name       The Nexus~
+Sector     indoors~
+Flags      nomob indoors safe~
+Stats      0 0 0 0 0
+Desc          As darkness surrounds you, you notice it is seemingly "lit up" by
+transparent obsidian on the surrounding four walls, floor, and ceiling.
+You find that you are standing in the Nexus on the Orion
+Outpost near the Planet K'vor. This gateway is used to travel to far off worlds.
+Through modern science you can travel to many worlds in an instance with just a simple voice 
+command.  To get a list of the locations you can travel to type "look gateway". To travel to one, you need only 
+say "run <name of location>". Enjoy your travel!
+To the north you see the Arch.
+~
+#EXIT
+Direction  North~
+ToRoom     1001
+#ENDEXIT
+Reset O    1090 1 1000 -1 -1 -1 100
+#EXDESC
+ExDescKey  credits~
+ExDesc     CREDITS:
+ 
+Written and Produced by : Aramina & Exile
+~
+#ENDEXDESC
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run upper~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 893
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run lower~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 700
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run camelot~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2710
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run emerald~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 10000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run abyss~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5800
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run arabian~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5001
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run midguaard~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 3014
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run cemetary~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 3400
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run cyberia~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 8500
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run town~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5900
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run galaxy~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5702
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run high-tower~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 1300
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run mahn-tor~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2300
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run mythic-tarot~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 42000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run rhyoden-outpost~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 44080
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run seaelf~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 8100
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run sieged-castle~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 14600
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run newbie-realms~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 1600
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run vampire~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 16000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run midgaard~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 3014
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run wax~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 21700
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run gwyn~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2850
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run 3m~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 12500
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run rome~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 12032
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run drowcity~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 51000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run 100acres~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 1800
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run chessboard~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 6000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run fathertime~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 20000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run japan~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 10800
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run gwyn~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2850
+endif
+~
+#ENDPROG
+
+#ENDROOM
+
+#ROOM
+Vnum        1001
+Name       The Arch~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          This is the 'Arch', a link between fantasy and reality. In other
+words, it's the exit from the Nexus to the rest of the station.
+To the north is a hallway.
+~
+#EXIT
+Direction  North~
+ToRoom     1002
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1128
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1000
+#ENDEXIT
+Reset M    1043 1 1001 -1 -1 -1 100
+Reset M    1044 1 1001 -1 -1 -1 100
+Reset M    1045 1 1001 -1 -1 -1 100
+Reset M    1046 1 1001 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1002
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          You are standing in a hallway.  There is a Turbolift to the east going 
+up, and one to the west going down. To the south is the Nexus. To the
+North is a SpeedLift to General Quarters.
+~
+#EXIT
+Direction  North~
+ToRoom     1151
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1003
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1001
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1031
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1003
+Name       Turbolift Up [Deck: Nexus]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1004 0 0 100000
+Desc          You are in the Turbolift going up. The lift is currently on the
+Nexus Level. The next stop is the Medical Station.
+~
+#EXIT
+Direction  West~
+ToRoom     1002
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1004
+Name       Turbolift Up [Deck: Medical Station]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1014 0 0 100000
+Desc          You are in the Turbolift going up. The lift is currently on the
+Medical Station Level. The next stop is OPs.
+~
+#EXIT
+Direction  West~
+ToRoom     1005
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1005
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in a hallway.  There is a Turbolift to the east going 
+up, and one to the west going down. To the south is the Medical Station.
+~
+#EXIT
+Direction  East~
+ToRoom     1004
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1006
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1030
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1006
+Name       Sick Bay~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Amazed at the technology that surrounds you, you gaze at all the medical
+equipment as you enter the sick bay.  To the east and to the west are
+state-of-the-art monitoring equipment around examination tables.  To the
+south you see more of the sick bay.
+~
+#EXIT
+Direction  North~
+ToRoom     1005
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1007
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1008
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1009
+#ENDEXIT
+Reset M    1029 1 1006 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1045 5 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1007
+Name       Examination Table~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand near an examination table in the medical station.  State-of-
+the-art monitoring equipment surround the bed here.  A large scren above
+the head of the table monitors the patient's vital signs and will emit
+warning beeps if the patient goes into Code: Blue.  To the west is sick
+bay.
+~
+#EXIT
+Direction  West~
+ToRoom     1006
+#ENDEXIT
+Reset M    1038 1 1007 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1008
+Name       Sick Bay~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are amazed at all the medical technology which surrounds you as 
+you walk through the medical station.  To the east and west are recovery
+tables.  To the south is Dr. Albert's office.
+~
+#EXIT
+Direction  North~
+ToRoom     1006
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1010
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1011
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1012
+#ENDEXIT
+Reset M    1029 2 1008 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1045 5 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1009
+Name       Examination Table~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand near an examination table in the medical station.  State-of-
+the-art monitoring equipment surround the bed here.  A large screen above
+the head of the table monitors the patient's vital signs and will emit
+warning beeps if the patient goes into Code: Blue.  To the east is sick
+bay.
+~
+#EXIT
+Direction  East~
+ToRoom     1006
+#ENDEXIT
+Reset M    1038 2 1009 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1010
+Name       Recovery Bed~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The light panels have been dimmed in this part of the medical station
+so that patients here can recover.  A screen above the bed quietly 
+monitors the patient's vital signs.  To the west is sick bay.
+~
+#EXIT
+Direction  West~
+ToRoom     1008
+#ENDEXIT
+Reset M    1038 3 1010 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1011
+Name       Dr. Albert's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A large desk sits in the middle of Dr. Albert's office, yet it pales
+by comparison to the medical technology that surrounds the modest desk.
+Monitors high on one wall of the office show the vital signs of all the
+patients currently in the medical station.  On the eastern wall is a 
+small table with lab equipment on it.  Isn't that the lab itself to the
+east?  Seems like it's hard to distinguish the lab from the office.
+~
+#EXIT
+Direction  North~
+ToRoom     1008
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1013
+#ENDEXIT
+Reset M    1014 1 1011 -1 -1 -1 100
+  Reset E  1040 99 5 100
+  Reset E  1042 18 17 10
+  Reset E  1099 1 16 1
+#ENDROOM
+
+#ROOM
+Vnum        1012
+Name       Recovery Bed~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The light panels have been dimmed in this part of the medical station
+so that patients here can recover.  A screen above the bed quietly 
+monitors the patient's vital signs.  To the west is sick bay.
+~
+#EXIT
+Direction  East~
+ToRoom     1008
+#ENDEXIT
+Reset M    1038 4 1012 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1013
+Name       Lab~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As you enter the medical lab, you notice a large table in the middle
+of the room covered with lab equipment and several computer monitors
+evaluating lab samples.  There are lab stations surrounding the table
+on the north and east walls.  On the south wall is a depressurization
+chamber.  To the west is Dr. Albert's office, yet it is tough to
+distinguish the lab from the office because of the amount of lab 
+equipment spillin over into the office.
+~
+#EXIT
+Direction  West~
+ToRoom     1011
+#ENDEXIT
+Reset M    1029 3 1013 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1045 5 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1014
+Name       Turbolift Down [Deck: OPs]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30  1030 0 0 100000
+Desc          You are on the Turbolift going down. The lift is currently on the 
+OPs Level. The next stop is the Medical Station.
+~
+#EXIT
+Direction  West~
+ToRoom     1015
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1015
+Name       Upper Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand on a walkway above OPs.  Here you can grab onto the guard 
+rails and watch all the activity below as the officers run the entire 
+space station from here, or you can look out the huge transparent 
+windows to catch a glimpse of K'vor.  To the north is another
+part of the upper walkway, while to the east is the Turbolift.
+~
+#EXIT
+Direction  North~
+ToRoom     1016
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1014
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1016
+Name       Upper Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand on a walkway above OPs.  Here you can grab onto the guard 
+rails and watch all the activity below as the officers run the entire 
+space station from here, or you can look out the huge transparent 
+windows to catch a glimpse K'vor.  To the west is the engineering 
+station.  To the south is another part of the walkway. 
+~
+#EXIT
+Direction  South~
+ToRoom     1015
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1017
+#ENDEXIT
+Reset M    1027 12 1016 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1017
+Name       Engineering Station~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A panel in front of you displays information about the engineering 
+statis of the space station.  Chief Engineer Roberts usually can be
+found here, with his sleeves rolled up, ready to fix any problems
+with the station.  If you glance out the windows to the north, you
+might be able to see K'vor.  Looking down over the guardrail,
+you see the systems station.  To the east and west are parts ofthe
+upper walkway.
+~
+#EXIT
+Direction  East~
+ToRoom     1016
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1018
+#ENDEXIT
+Reset M    1012 1 1017 -1 -1 -1 100
+  Reset E  1040 99 5 100
+  Reset E  1042 18 17 10
+  Reset E  1099 1 16 1
+#ENDROOM
+
+#ROOM
+Vnum        1018
+Name       Upper Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand on a walkway above OPs.  Here you can grab onto the guard 
+rails and watch all the activity below as the officers run the entire 
+space station from here, or you can look out the huge transparent 
+windows to catch a glimpse of K'vor.  To the north is Smyth's
+office.  To the west is the science station, and to the east is the
+engineering station.  Steps leading down take you to the lower 
+level of OPs.
+~
+#EXIT
+Direction  North~
+ToRoom     1019
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1017
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1020
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1024
+#ENDEXIT
+Reset M    1030 1 1018 -1 -1 -1 50
+Reset D    1018 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1019
+Name       Smyth's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The first thing that catches your eye is the dark metallic design
+of this room.  The walls are plain except for the dark coloring.
+A desk in the middle of the room contains a computer terminal and
+a baseball!  A viewport on the north wall of the office provides
+you with a spectacular view of the K'voran home world.  To the south
+is part of the upper walkway.
+~
+#EXIT
+Direction  South~
+ToRoom     1018
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    1011 1 1019 -1 -1 -1 100
+  Reset E  1040 99 5 100
+  Reset E  1042 18 17 10
+  Reset E  1099 1 16 1
+#ENDROOM
+
+#ROOM
+Vnum        1020
+Name       Science Station~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A panel here monitors docking and departing spacecraft.  You can usually
+find Lt. Bel here controlling the sensor arrays, and/or fending
+off Dr. Albert's advances.  If you look down, you can see the lower 
+level of OPs.  To the north you might be able to catch a glimpse of the
+K'voran homeworld.  To the east and west are parts of the upper walkway.
+~
+#EXIT
+Direction  East~
+ToRoom     1018
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1021
+#ENDEXIT
+Reset M    1013 1 1020 -1 -1 -1 100
+  Reset E  1040 99 5 100
+  Reset E  1042 18 17 10
+  Reset E  1099 1 16 1
+#ENDROOM
+
+#ROOM
+Vnum        1021
+Name       Upper Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand on a walkway above OPs.  Here you can grab onto the guard 
+rails and watch all the activity below as the officers run the entire 
+space station from here, or you can look out the huge transparent 
+windows to catch a glimpse of K'vor.  To the east is the science station, 
+while to the south is another part of the upper walkway.
+~
+#EXIT
+Direction  East~
+ToRoom     1020
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1022
+#ENDEXIT
+Reset M    1027 13 1021 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1022
+Name        
+Upper Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand on a walkway above OPs.  Here you can grab onto the guard 
+rails and watch all the activity below as the officers run the entire 
+space station from here, or you can look out the huge transparent 
+windows to catch a glimpse of K'vor.  To the north is another
+part of the upper walkway, while to the west is the transporter room.
+~
+#EXIT
+Direction  North~
+ToRoom     1021
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1023
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1023
+Name       Transporters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The Transporters are currently down for repairs.  Chief Roberts is working
+hard to get them up and running.  There is a large sign posted here.
+~
+#EXIT
+Direction  East~
+ToRoom     1022
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Anyone interested in writing a K'vor area please contact the immortal
+staff.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1024
+Name       Lower Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There is a lot of activity here as the officers control Deep Space
+Nine from this command area.  As you walk around, you find yourself
+having to dodge people runing from station to station.  Steps leading
+up take you to the upper walkway.  To the west is the defense station,
+while to the east is the systems station.  To the south is a rather 
+large viewscreen.
+~
+#EXIT
+Direction  East~
+ToRoom     1025
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1026
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1027
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1018
+#ENDEXIT
+Reset M    1030 2 1024 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+#ENDROOM
+
+#ROOM
+Vnum        1025
+Name       Systems Station~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A panel here monitors the life support systems and internal communication
+of the space station.  Looking up, you see the engineering station and
+part of the upper walkway.  To the west is part of the lower walkway.
+~
+#EXIT
+Direction  West~
+ToRoom     1024
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1026
+Name       In Front of the Main View Screen~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand in front of the main view screen which is so large that it
+can be seen all over OPs.  The screen is currently displaying the
+progress of a docking trader ship.  To the north, east, and west 
+are parts of the lower walkway.  
+~
+#EXIT
+Direction  North~
+ToRoom     1024
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1028
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1029
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1027
+Name       Defense Station~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A panel here is currently keeping track of weapons and shields of 
+incoming spacecraft, as well as the weapon and shield status of the
+space station itself.  Major Kaya can usually be found here, 
+monitoring the defense station.  Looking up, you can see the science
+officer's station as well as part of the upper walkway.  To the 
+east is part of the lower walkway.
+~
+#EXIT
+Direction  East~
+ToRoom     1024
+#ENDEXIT
+Reset M    1015 1 1027 -1 -1 -1 100
+  Reset E  1041 99 5 100
+  Reset E  1042 18 17 10
+  Reset E  1099 1 16 1
+#ENDROOM
+
+#ROOM
+Vnum        1028
+Name       Lower Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There is a lot of activity here as the officers control Sapphire
+Dragon Outpost from this command area.  As you walk around, you find 
+yourself having to dodge people runing from station to station.  To 
+the west is the main view screen.
+~
+#EXIT
+Direction  West~
+ToRoom     1026
+#ENDEXIT
+Reset M    1030 3 1028 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+#ENDROOM
+
+#ROOM
+Vnum        1029
+Name       Lower Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There is a lot of activity here as the officers control Orion
+Outpost from this command area.  As you walk around, you find yourself
+having to dodge people runing from station to station.  To the east
+is the main view screen.
+~
+#EXIT
+Direction  East~
+ToRoom     1026
+#ENDEXIT
+Reset M    1030 4 1029 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+#ENDROOM
+
+#ROOM
+Vnum        1030
+Name       Turbolift Down [Deck: Medical Station]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1031 0 0 100000
+Desc          You are in the Turbolift going down. The lift is currently on the
+Medical Station Level. The next stop is the Nexus.
+~
+#EXIT
+Direction  East~
+ToRoom     1005
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1031
+Name       Turbolift Down [Deck: Nexus]~
+Sector     indoors~
+Flags      nomob indoors safe teleport teleshowdesc~
+Stats       30 1032 0 0 100000
+Desc          You are in the Turbolift going down. The lift is currently on the
+Nexus Level. The next stop is Transportation.
+~
+#EXIT
+Direction  East~
+ToRoom     1002
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1032
+Name       Turbolift Down [Deck: Transportation]~
+Sector     indoors~
+Flags      nomob indoors safe teleport teleshowdesc~
+Stats       30 1068 0 0 100000
+Desc          You are in the Turbolift going down. The lift is currently on the
+Transportation Level. The next stop is the Promenade.
+~
+#EXIT
+Direction  East~
+ToRoom     1033
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1033
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in a hallway.  There is a Turbolift to the east going 
+up and one to the west going down. To the south is the Transportation Level.
+~
+#EXIT
+Direction  East~
+ToRoom     1034
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1035
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1032
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1034
+Name       Turbolift Up [Deck: Transportation]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1003 0 0 100000
+Desc          You are in the Turbolift going up. The lift is currently on the
+Transportation Level. The next stop is the Nexus.
+~
+#EXIT
+Direction  West~
+ToRoom     1033
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1035
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  To the north is the Turbolift.
+~
+#EXIT
+Direction  North~
+ToRoom     1033
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1036
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1037
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1038
+#ENDEXIT
+Reset O    1092 1 1035 -1 -1 -1 100
+Reset M    1027 8 1035 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1036
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.     
+~
+#EXIT
+Direction  West~
+ToRoom     1035
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     1039
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1037
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  Down are some stairs to the Promenade Deck.
+~
+#EXIT
+Direction  North~
+ToRoom     1035
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1050
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1071
+#ENDEXIT
+Reset M    1031 2 1037 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1038
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite. 
+~
+#EXIT
+Direction  East~
+ToRoom     1035
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     1057
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1039
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  To the northeast is the hallway leading to 
+Docking Ring #1. 
+~
+#EXIT
+Direction  South~
+ToRoom     1042
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     1040
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     1036
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1040
+Name       Hallway to Docking Ring #1~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Was that a Balingi female that just passed you?  You find yourself 
+walking down a long hallway lined with red lights along the corridor 
+leading you to Docking Ring #1.
+~
+#EXIT
+Direction  Northeast~
+ToRoom     1041
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     1039
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1041
+Name       Docking Ring #1~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are at a main docking ring. Ships come and go from here on a
+fairly regular basis. Some are just traveling thru this system, while
+some are traveling to star systems several light years away.  Up is 
+Pylon A, and down is Pylon B. 
+~
+#EXIT
+Direction  Up~
+ToRoom     1060
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1061
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     1040
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1042
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.
+~
+#EXIT
+Direction  North~
+ToRoom     1039
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1044
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1043
+#ENDEXIT
+Reset M    1027 9 1042 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+Reset M    1036 1 1042 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1043
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  Down are some stairs to the Promenade Deck.
+~
+#EXIT
+Direction  East~
+ToRoom     1042
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1050
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1075
+#ENDEXIT
+Reset M    1032 2 1043 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1044
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.
+~
+#EXIT
+Direction  North~
+ToRoom     1042
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     1047
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1045
+Name       Hallway to Docking Ring #2~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Exactly where did that Savasian look like he was heading anyway?
+You find yourself walking down a long hallway well lit with yellow
+lights along the corridor leading you to Docking Ring #2.
+~
+#EXIT
+Direction  North~
+ToRoom     1048
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1046
+#ENDEXIT
+Reset M    1036 7 1045 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1046
+Name       Docking Ring #2~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are at a main docking ring. Ships come and go from here on a
+fairly regular basis. Some are just traveling thru this system, while 
+some are traveling to star systems several light years away.  Up is 
+Pylon A, and down is Pylon B.
+~
+#EXIT
+Direction  North~
+ToRoom     1045
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1062
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1063
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1047
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  
+~
+#EXIT
+Direction  West~
+ToRoom     1048
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     1044
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1048
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.   
+~
+#EXIT
+Direction  North~
+ToRoom     1049
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1047
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1045
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1051
+#ENDEXIT
+Reset M    1027 11 1048 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1049
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  Down are some stairs to the Promenade Deck.
+~
+#EXIT
+Direction  North~
+ToRoom     1050
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1048
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1080
+#ENDEXIT
+Reset M    1031 3 1049 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1050
+Name       The Center~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are at the center of the Transportation Deck above the Promenade. From
+this vantage point you can see most of activity below you. People bustling
+about hurrying to catch a shop or go to Vuarq's for fun.  You can usually
+find youngsters sitting here, leaning over the guardrails, doing some
+'being watching' and giggling at some of the strange outfits the Sapphire
+Dragon Outpost visitors wear.  To the north, south, east, and west are areas
+where you can go down to the Promenade.
+~
+#EXIT
+Direction  North~
+ToRoom     1037
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1043
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1049
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1056
+#ENDEXIT
+Reset M    1027 7 1050 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+Reset M    1040 1 1050 -1 -1 -1 100
+Reset M    1039 1 1050 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1051
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite. 
+~
+#EXIT
+Direction  East~
+ToRoom     1048
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     1052
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1052
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.
+~
+#EXIT
+Direction  North~
+ToRoom     1055
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     1051
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1053
+Name       Hallway to Docking Ring #3~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Hey, wasn't that a pair of Bynars walking past you?  You find yourself
+walking down a long hallway lit with green corridor lights leading you
+northwest to Docking Ring #3.
+~
+#EXIT
+Direction  Southeast~
+ToRoom     1057
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     1054
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1054
+Name       Docking Ring #3~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are at a main docking ring. Ships come and go from here on a
+fairly regular basis. Some are just traveling thru this system, while 
+some are traveling to star systems several light years away.  Up is 
+Pylon A, and down is Pylon B. 
+~
+#EXIT
+Direction  Up~
+ToRoom     1064
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1065
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     1053
+#ENDEXIT
+Reset M    1032 4 1054 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1055
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.
+~
+#EXIT
+Direction  North~
+ToRoom     1057
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1056
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1052
+#ENDEXIT
+Reset M    1027 10 1055 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+Reset M    1036 2 1055 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1056
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  Down are some stairs to the Promenade Deck.
+~
+#EXIT
+Direction  East~
+ToRoom     1050
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1055
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1085
+#ENDEXIT
+Reset M    1032 3 1056 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1057
+Name       The Walkway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          On the level of the Transportation Deck, you notice many beings, 
+humanoid and other forms, walking to and from the docking rings.  You
+can hold onto the guardrail and look down over the rails.  As you
+do so, you notice many more beings walking on the promenade, trying
+to catch a shop before it closes or trying to get to Vuarq's for a drink,
+a game, or a holosuite.  To the Northwest is Docking Ring #3.
+~
+#EXIT
+Direction  South~
+ToRoom     1055
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     1038
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     1053
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1058
+Name       Vuarq's - Casino~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          Step right up and place your bets!  Vuarq's Casino never closes,
+except *ahem* when Dar has something to say about it.  A Kylar 
+pushes past you to get over to the Dabo Wheel (better get out of
+his way -- he looks serious!).  A scantily clad humanoid female
+winks at you and says, "Hey, ya gonna bet or what?"
+~
+#EXIT
+Direction  West~
+ToRoom     1089
+#ENDEXIT
+Reset M    1026 1 1058 -1 -1 -1 100
+Reset M    1041 1 1058 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1059
+Name       Vuarq's - Bar~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          Welcome to Vuarq's Bar, a favorite spot for most Orion Outpost
+visitors as well as employees.  You can step up to the bar and talk "trade" 
+with Vuarq himself, or order a specialty from the bartender. The bar is 
+crowded now, as it usually is, and most patrons look quite relaxed 
+sipping on their drinks. 
+~
+#EXIT
+Direction  North~
+ToRoom     1089
+#ENDEXIT
+Reset M    1017 1 1059 -1 -1 -1 100
+Reset M    1024 1 1059 -1 -1 -1 100
+  Reset G  1000 99 100
+  Reset G  1001 99 100
+  Reset G  1002 99 100
+  Reset G  1003 99 100
+  Reset G  1004 99 100
+  Reset G  1043 99 100
+#ENDROOM
+
+#ROOM
+Vnum        1060
+Name       Pylon A [Docking Ring #1]~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       +--------------------+
+| Ship Docked        |
+| Destination:       |
+| Pleasure Planet    |
++--------------------+
+~
+#EXIT
+Direction  East~
+ToRoom     24201
+Key        24299
+Keywords   airlock~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1041
+#ENDEXIT
+Reset D    1060 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1061
+Name       Pylon B [Docking Ring #1]~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       +----------------+
+| No Ship Docked |
++----------------+
+~
+#EXIT
+Direction  Up~
+ToRoom     1041
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1062
+Name       Pylon A [Docking Ring #2]~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       +-------------------+
+| Ship Docked       |
+| Destination:      |
+| Asteroid of Clans |
++-------------------+
+~
+#EXIT
+Direction  North~
+ToRoom     21200
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1046
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1063
+Name       Pylon B [Docking Ring #2]~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       +----------------+
+| No Ship Docked |
++----------------+
+~
+#EXIT
+Direction  Up~
+ToRoom     1046
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1064
+Name       Pylon A [Docking Ring #3]~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       +----------------+
+| Ship Docked    |
+| Destination:   |
+| Planet Sky     |
++----------------+
+~
+#EXIT
+Direction  West~
+ToRoom     25100
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1054
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1065
+Name       Pylon B [Docking Ring #3]~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       +----------------+
+| Ship Docked    |
+| Destination:   |
+| Planet Ward    |
++----------------+
+~
+#EXIT
+Direction  North~
+ToRoom     25113
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1054
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1066
+Name       Vuarq's - HoloSuite Access~
+Sector     indoors~
+Flags      nomob indoors nomagic nosummon silence~
+Stats      0 0 0 0 0
+Desc          Although you are walking in a fairly secluded room up above
+Vuarq's, you can still hear the commotion from the bar below.  You 
+see some large, comfy chairs here in bright neon colors, and some
+half-finished drinks sit on the small tables next to the chairs.
+A powerpad is also on the table, and you can use it to read
+quest messages, or post one of your own.  To see the messages,
+input "look at board".  To see a particular message, input "read
+<message number>".  To post one, input "write <message title>". 
+You may use this room as long as you like, but please be quiet.  To
+the east is the HoloSuite, while down takes you back to Vuarq's.
+~
+#EXIT
+Direction  East~
+ToRoom     1067
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1089
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1067
+Name       Vuarq's - HoloSuites~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand in a room somewhat smaller than the Nexus, but still
+"well-lit" by glowing yellow gridlines on black.  Programmed here are
+"specialized" HoloSims, quite unlike the regular simulations found
+in the Nexus.  You can almost classify these simulations as 
+special "quests."  
+~
+#EXIT
+Direction  West~
+ToRoom     1066
+#ENDEXIT
+Reset O    1091 1 1067 -1 -1 -1 100
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run upper~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 893
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run lower~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 700
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run camelot~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2710
+endif
+~
+#ENDPROG
+
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run emerald~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 10000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run abyss~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5800
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run arabian~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5001
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run nostalgia~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 6100
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run animal-cell~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 9000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run cemetary~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 3400
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run dragons-rock~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 24900
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run cyberia~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 8500
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run town~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5900
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run galaxy~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 5702
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run high-tower~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 1300
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run mahn-tor~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2300
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run mystic-tarot~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 4200
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run rhyoden-outpost~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 4408
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run seaelf~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 8100
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run sieged-castle~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 14600
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run newbie-realms~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 1600
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run space-raiders~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 2136
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run vampire~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 16000
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run midgaard~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 3014
+endif
+~
+#ENDPROG
+#MUDPROG
+Progtype  speech_prog~
+Arglist   p run wax~
+Comlist   if level($n) >= 1
+mptrlook 0.$n 21700
+endif
+~
+#ENDPROG
+#ENDROOM
+
+#ROOM
+Vnum        1068
+Name       Turbolift Down [Deck: Promenade]~
+Sector     indoors~
+Flags      nomob indoors safe teleport teleshowdesc~
+Stats       30 1108 0 0 100000
+Desc          You are in the Turbolift going down. The lift is currently on the
+Promenade level. The next stop is the Residential level.
+~
+#EXIT
+Direction  East~
+ToRoom     1069
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1069
+Name       A Hallway~
+Sector     indoors~
+Flags      nomob indoors safe~
+Stats      0 0 0 0 0
+Desc          You are standing in a hallway.  There is a Turbolift to the east going
+up and one to the west going down. To the south is the Promenade.
+~
+#EXIT
+Direction  East~
+ToRoom     1070
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1071
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1068
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1070
+Name       Turbolift Up [Deck: Promenade]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1034 0 0 100000
+Desc          You are in the Turbolift going up. The lift is currently on the
+Promenade level. The next stop is the Transportation Deck.
+~
+#EXIT
+Direction  West~
+ToRoom     1069
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1071
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  There are some stairs leading up to the 
+Transportation Level.  North will take you to the TurboLift.  South will 
+take you to Vuarq's.
+~
+#EXIT
+Direction  North~
+ToRoom     1069
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1072
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1089
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1087
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1037
+#ENDEXIT
+Reset M    1027 2 1071 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1072
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  To the north is the Supply Stop, and to 
+the east is the Donation Room. ~
+#EXIT
+Direction  North~
+ToRoom     1073
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1074
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1075
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1071
+#ENDEXIT
+Reset M    1034 5 1072 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1073
+Name       Supply Stop~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          The Supply Stop -- everything you need for those journeys to other
+worlds!  You can barely make out the Holograph displays of items 
+around the store.  Blocking your way is a terminal that beeps at
+your arrival and says, "How may we help you today?"  An impatient
+clerk behind the counter taps his foot and waits for you to type
+your response into the terminal.  There is an instruction sheet
+next to the terminal.
+~
+#EXIT
+Direction  South~
+ToRoom     1072
+#ENDEXIT
+Reset M    1002 1 1073 -1 -1 -1 100
+  Reset G  1015 99 100
+  Reset G  1016 99 100
+  Reset G  1017 99 100
+  Reset G  1018 99 100
+  Reset G  1019 99 100
+Reset M    1035 3 1073 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1074
+Name       Donation Room~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     1072
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1075
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  There are some stairs leading up to the 
+Transportation Level.  To the east is the Reading Room, while to the 
+west is Vuarq's.
+~
+#EXIT
+Direction  North~
+ToRoom     1072
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1076
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1077
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1089
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1043
+#ENDEXIT
+Reset M    1027 4 1075 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1076
+Name       Reading Room~
+Sector     indoors~
+Flags      nomob indoors nomagic nosummon silence~
+Stats      0 0 0 0 0
+Desc          Shhhhhhhh....You have entered the Reading Room, a place where
+you can communicate with the rest of Nexus world, or read
+messages from other players.  You can sit in one of the leather
+couches here and fall asleep easily, or you can pick up the
+powerpad next to your chair and begin reading.  To see the
+messages, input "look at board".  To see a particular message,
+input "read <message number>".  To communicate with others, 
+input "write <message name>".  You may stay here as long as
+you like, but we kindly request that you remain quiet.
+~
+#EXIT
+Direction  East~
+ToRoom     1152
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1075
+#ENDEXIT
+Reset M    1035 6 1076 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1077
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  Going east will take you to the Training 
+Tower, while going south will take you to the Tinker's.
+~
+#EXIT
+Direction  North~
+ToRoom     1075
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1078
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1079
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1080
+#ENDEXIT
+Reset M    1031 1 1077 -1 -1 -1 50
+Reset M    1033 6 1077 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1078
+Name       Before the Tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          To the east is the Training Tower where you can improve your stats.
+To the west is the Promenade.
+~
+#EXIT
+Direction  East~
+ToRoom     1093
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1077
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1079
+Name       The Tinker's Shop~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You feel as if you have stepped into another time and place here.
+You are standing in the middle of a huge workroom filled with all
+sorts of tools you've never seen before in your life.  There's a
+genetic experiment in the middle of the immense room.  Suddenly,
+an image of Dr. Wong appears before you.  He greets you
+warmly and says, "Hello, welcome to my world.  How may I help you
+today?"  You shake yourself in disbelief because you know Dr. Wong
+died years ago, then you realize this is all a HoloSimulation.
+~
+#EXIT
+Direction  North~
+ToRoom     1077
+#ENDEXIT
+Reset M    1009 1 1079 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1080
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+ 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  There are some stairs leading up to the 
+Transportation Level.  To the north is Vuarq's, while to the south 
+is the Sub-Space Mail Office.
+~
+#EXIT
+Direction  North~
+ToRoom     1089
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1077
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1081
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1082
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1049
+#ENDEXIT
+Reset M    1027 5 1080 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1081
+Name       Sub-Space Mail Office~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          You are first struck by the cleanliness and the blinding white
+of the Orion Outpost mail office.  There are several terminals 
+lined along the counter where you can input your responses.  To get your
+messages, input "receive" and the clerk behind the counter will
+give you hard copies of your messages.  To send a message to someone,
+input "mail <name>", and you will be given a "]" prompt so that you can
+type your message.  To end the message, input an "@" sign.  The
+clerk will automatically take 150 credits for each message you send.
+~
+#EXIT
+Direction  North~
+ToRoom     1080
+#ENDEXIT
+Reset M    1010 1 1081 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1082
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  South takes you to Duel Arcana, the magic 
+shop, while west takes you to Dar's Office.
+~
+#EXIT
+Direction  North~
+ToRoom     1085
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1080
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1083
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1084
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    1033 1 1082 -1 -1 -1 50
+Reset D    1082 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1083
+Name       Duel Arcana~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          Welcome to the Duel Arcana, a shop specializing in ancient magic 
+for all your journeys to other worlds.  You notice that your 
+surroundings have changed, and you have been transported back in 
+time to the Mideval Ages on Earth.  Tere are several tents nearby, 
+each owned by one of the Arcana Mystics.  Beware!  They are all in
+competition with each other, each believing that its form of magic 
+is far superior to the others.  To the east is the Somatic Arcana 
+Mystic, To the south is the Verbal Arcana Mystic, and to the west 
+is the Material Arcana Mystic.
+~
+#EXIT
+Direction  North~
+ToRoom     1082
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1107
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1105
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1106
+#ENDEXIT
+Reset M    1035 7 1083 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1084
+Name       Dar's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A door disappears as you step toward Dar's Office.  You have entered
+Orion Security.  There is a large desk in the middle of the room
+with a terminal on it.  The surrounding walls are a light beige in color.
+Dar can usually be found here, checking up on Vuarq's "activities."
+To the west is the Detention Center.
+~
+#EXIT
+Direction  East~
+ToRoom     1082
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1090
+#ENDEXIT
+Reset M    1016 1 1084 -1 -1 -1 100
+  Reset E  1041 99 5 100
+  Reset E  1042 18 17 10
+  Reset E  1099 1 16 1
+#ENDROOM
+
+#ROOM
+Vnum        1085
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  There are some stairs leading up to the 
+Transportation Level.  To the east is Vuarq's, while to the west is the 
+Antique Armor and Weapon's Shop.
+~
+#EXIT
+Direction  North~
+ToRoom     1087
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1089
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1082
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1086
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1056
+#ENDEXIT
+Reset M    1027 6 1085 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1086
+Name       Antiques in Armor and Weaponry~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc          Stepping into this room, you find yourself suddenly in a small
+Mideval village on ancient Earth.  Obviously this is a HoloSimulation,
+but yet the realistic sights, sounds, and smells could fool anyone.
+You hear the clanging of tools pounding metal to the north, while 
+you can smell the tanning of leather to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     1103
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1085
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1104
+#ENDEXIT
+Reset M    1035 8 1086 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1087
+Name       The Promenade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Standing in the middle of the Promenade, you realize you are in
+the midst of great commotion as beings hustle to and fro, trying
+to catch a shop before it closes or get to Vuarq's.  There are
+specialty shops all around you, while Vuarq's is in the middle
+of this level.  You are amazed at the many races of beings that 
+frequent Orion Outpost, yet you see more K'vorans and 
+Humans than other races.  To the west is the pawn shop.  
+~
+#EXIT
+Direction  North~
+ToRoom     1199
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1071
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1085
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1088
+#ENDEXIT
+Reset M    1032 1 1087 -1 -1 -1 50
+Reset M    1034 6 1087 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1088
+Name       Pawn Shop~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc          This shop is packed!! You see equipment, household wares, carpets,
+jewelry, and so on, lining the tables and shelves throughout the store.
+The items seem to have been placed in a haphazard fashion, but each
+item has a neatly attached tag.
+~
+#EXIT
+Direction  East~
+ToRoom     1087
+#ENDEXIT
+Reset M    1008 1 1088 -1 -1 -1 100
+  Reset G  24297 1 100
+#ENDROOM
+
+#ROOM
+Vnum        1089
+Name       Vuarq's~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          Welcome to Vuarq's!!  You want the best in Orion Outpost 
+entertainment, then you've come to the right place.  A laser splitter 
+spells out, "Welcome to Vuarq's!" in bright red, while other lasers in 
+many colors bounce all around the room.  If you want a drink, you can go 
+south to the bar.  If you want to gamble, you can go east to the casino.  
+If you want to run a HoloSuite simulation or read the social board, you
+can go up.  You can also stay here and have a specialty dish while 
+sitting in one of the plush leather chairs here.  If you want to leave
+(you don't want to do that do you?), you can leave north or west.
+~
+#EXIT
+Direction  North~
+ToRoom     1071
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1058
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1059
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1085
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1066
+#ENDEXIT
+Reset M    1025 1 1089 -1 -1 -1 100
+  Reset G  1005 99 100
+  Reset G  1006 99 100
+  Reset G  1007 99 100
+  Reset G  1008 99 100
+  Reset G  1009 99 100
+Reset M    1027 3 1089 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+Reset M    1031 4 1089 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1090
+Name       Detention Center~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You have entered the Orion Outpost Detention Center.  To the 
+north and south are the cells.  You will notice that there are no bars on
+the cells.  That's because Orion Outpost uses state-of-the-art
+electronic forcefields designed to stun victims that touch them. 
+~
+#EXIT
+Direction  North~
+ToRoom     1091
+Key        1046
+Keywords   forcefield force~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1084
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1092
+Key        1046
+Keywords   forcefield force~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    1027 19 1090 -1 -1 -1 100
+  Reset E  1040 99 5 90
+  Reset E  1046 99 17 100
+  Reset E  1044 18 16 20
+Reset D    1090 0 2 100 -2
+Reset D    1090 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1091
+Name       Detention Cell~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A state-of-the-art electronic forcefield blocks off the cell from
+you.  Even though the cell is meticulously clean and has a small bed,
+you would rather not be caught behind the forcefield.  What you can't
+see can have a shocking effect on you.
+~
+#EXIT
+Direction  South~
+ToRoom     1090
+Key        1046
+Keywords   forcefield force~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    1037 1 1091 -1 -1 -1 50
+Reset D    1091 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1092
+Name       Detention Cell~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A state-of-the-art electronic forcefield blocks off the cell from
+you.  Even though the cell is meticulously clean and has a small bed,
+you would rather not be caught behind the forcefield.  What you can't
+see can have a shocking effect on you.
+~
+#EXIT
+Direction  North~
+ToRoom     1090
+Key        1046
+Keywords   forcefield force~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    1037 2 1092 -1 -1 -1 50
+Reset D    1092 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1093
+Name       Base of the Training Tower~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       Here you are standing at the base of the training tower.  The tower is the
+home of the many famous trainers of this quadrant.  Exits lie to the west
+and up, which lead to the Promenade and the studios respectively.
+~
+#EXIT
+Direction  West~
+ToRoom     1078
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1094
+Desc       You see the entrance to Hanz and Franz's training studio.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1094
+Name       Entrance to Hanz and Franz's training studio~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing at the entrance of Hanz and Franz's training studio.  
+They are here to pump you up!  Hanz has a gymnasium with strength 
+training equipment to the north, and Franz has endurance training 
+equipment to the south.  Exits also lead down to the base of the 
+tower and up to the library and classrooms.
+~
+#EXIT
+Direction  North~
+ToRoom     1095
+Desc       You see Hanz's strength training studio.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1097
+Desc       You see Franz's constitution training studio.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1098
+Desc       You see the entrances to the library and classrooms.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1093
+Desc       You see the base of the training tower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1095
+Name       Hanz's Strength Training Studio~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Hanz is here demonstrating the use of some of the weight training equipment.  
+There is really no other way to describe Hanz than HUGE, this is one big guy!
+You really don't think it would be healthy to mess with him.  Free weights 
+and nautilous equipment line the walls, you think this would be an ideal 
+place to work on your strength conditioning.
+~
+#EXIT
+Direction  South~
+ToRoom     1094
+Desc       You see the entrance to Hanz and Franz's training studios.
+~
+#ENDEXIT
+Reset M    1018 1 1095 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1097
+Name       Franz's Constitution Training Studio~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the constitution training studio.  Franz is here training a
+small crowd of people who are all gasping and wheezing from exaustion.
+Franz himself is doing the same exercises but he has yet to break a sweat
+from all the calisthenics and jumping around.
+~
+#EXIT
+Direction  North~
+ToRoom     1094
+Desc       You see the entrance to Hanz and Franz's training studio.
+~
+#ENDEXIT
+Reset M    1021 1 1097 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1098
+Name       Library and Classroom entrance~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing to the entrance doors to the Library and Classrooms.  Inside
+the classrooms to the south you can be instructed by the master philosopher
+who is world renouned for his training in mathematics, systems of logic, and
+the sciences.  To the north you can be assisted by the librarian who will
+be happy to help you increase your knowledge and wisdom...for a slight fee
+of course.  Entrances also lead down to Hanz and Franz's training studios
+and up to a gymnasium.
+~
+#EXIT
+Direction  North~
+ToRoom     1100
+Desc       You see the Library.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1099
+Desc       You see a number of classrooms.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1101
+Desc       You see the Gymnasium.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1094
+Desc       You see the entrance to Hanz and Franz's training studio.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1099
+Name       Classrooms~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the classrooms of.  A noted philosopher is at
+the front of the class lecturing on something called "Heisenberg's
+Uncertainty principle".  Who was Heisenberg and what was he uncertain
+about anyway?  You seem far behind the rest of the class...maybe the
+lecturer could provide you with a little personal attention to catch
+you up.
+~
+#EXIT
+Direction  North~
+ToRoom     1098
+Desc       You see the entrance to the classrooms and library.
+~
+#ENDEXIT
+Reset M    1019 1 1099 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1100
+Name       The Library~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the library.  Inside you see books on countless
+topics on hundreds of shelves.  How could you possibly find a book by
+yourself when there are thousands of them here?  Fortunately the librarian
+is here to help you.  This would seem to be a perfect place to increase
+your wisdom and knowledge of the world in general...maybe the librarian
+can assist you if this is your goal.
+~
+#EXIT
+Direction  South~
+ToRoom     1098
+Desc       You see the entrance to the library and classrooms.
+~
+#ENDEXIT
+Reset M    1020 1 1100 -1 -1 -1 100
+#EXDESC
+ExDescKey  Playgirl~
+ExDesc     You are fascinated by some rather interesting ..ahem.. articles.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  Playboy~
+ExDesc     You are fascinated by some rather interesting ..ahem.. articles.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  Playbeing~
+ExDesc     Isn't that Eccentrica Gallumbits, the triple breasted whore of Betelguise?
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  magazine rack~
+ExDesc     You see some VERY interesting magazines.  What was the title of that one...
+Playboy?  There's a Playgirl sitting right next to it, what are they?
+Hey, is that the latest issue of Playbeing??  Wow!
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  book books~
+ExDesc     There are hundreds of books here to choose from.  You do however see
+a magazine rack that immediately catches the eye...
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1101
+Name       Gymnasium~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Here you see a number of gymnasts practicing.  People all across the wide 
+floor are doing handstands and tumbling exercises, along with practicing 
+tricks such as juggling.  You are immediately awestruck by one man who is 
+juggling a dozen pins...one handed.  Perhaps you should talk to him about
+how to become more dextrous.  A stairway leads up to the Phrenologist's
+office who can tell you about your abilities.
+~
+#EXIT
+Direction  Up~
+ToRoom     1102
+Desc       You see the Phrenologists's office.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1098
+Desc       You see the entrance to the library and classrooms.
+~
+#ENDEXIT
+Reset M    1022 1 1101 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1102
+Name       The Phrenologists's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the office of the Phrenologist.  The Phrenologist is here to help you
+determine where your training would be best applied.  For a small fee he will
+tell you your ability scores so you will know where to emphasize your
+training.
+~
+#EXIT
+Direction  Down~
+ToRoom     1101
+Desc       You see the gymnasium.
+~
+#ENDEXIT
+Reset M    1023 1 1102 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1103
+Name       Weapons Display~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand under a frame of a shack before a large table lined with
+many weapons.  In the background you see a large furnace being used
+by a man heating up metal inside it, then beating the molten metal
+into a shape.  Looks like extremely hot work!  An antique dealer dressed
+in voluminous robes stands behind the counter waiting to help you.
+You soon realize this is a HoloSimulation created by the dealer to
+give his shop a sense of ambiance.
+~
+#EXIT
+Direction  South~
+ToRoom     1086
+#ENDEXIT
+Reset M    1003 1 1103 -1 -1 -1 100
+  Reset G  1010 99 100
+  Reset G  1011 99 100
+  Reset G  1012 99 100
+  Reset G  1013 99 100
+  Reset G  1014 99 50
+#ENDROOM
+
+#ROOM
+Vnum        1104
+Name       Armor Display~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The smell of leather brought you here, and now you stand under a
+small frame of a shack before a large table lined with armor.  You 
+haven't seen items like this in your life, except in books in the 
+space station's library.  In the background you see several people
+pulling stitches through leather and pounding metal into breast
+plates.  An antique dealer stands before you.  You realize that this
+is a HoloSimulation, but you still marvel at the atmosphere the
+dealer has created.
+~
+#EXIT
+Direction  North~
+ToRoom     1086
+#ENDEXIT
+Reset M    1004 1 1104 -1 -1 -1 100
+  Reset G  1035 99 100
+  Reset G  1036 99 100
+  Reset G  1037 99 100
+  Reset G  1038 99 100
+  Reset G  1039 99 50
+#ENDROOM
+
+#ROOM
+Vnum        1105
+Name       Verbal Arcana~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          You have walked under an open tent where a Mystic, wearing light
+blue robes, is chanting constantly.  The Mystic looks up to the sky 
+every once in a while and changes the tune of its chant slightly 
+each time.  It must be in tune with the forces of nature and the
+element of air.  You notice a small tray on a table filled with
+scrolls.  The Mystic notices you admiring its work and stops 
+chanting briefly to help you.
+~
+#EXIT
+Direction  North~
+ToRoom     1083
+#ENDEXIT
+Reset M    1006 1 1105 -1 -1 -1 100
+  Reset G  1026 99 100
+  Reset G  1027 99 100
+  Reset G  1028 99 100
+  Reset G  1029 99 50
+#ENDROOM
+
+#ROOM
+Vnum        1106
+Name       Material Arcana~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          Entering an earthen cave, you are amazed by the cool temperature
+and clean nature of the small room.  A Mystic, in brown leather pants
+and tunic, stands behind a large table watching potions bubbling in 
+small vials.  It notices your arrival and warmly smiles at you.  You 
+notice several potions premixed on the table closer to you.
+~
+#EXIT
+Direction  East~
+ToRoom     1083
+#ENDEXIT
+Reset M    1007 1 1106 -1 -1 -1 100
+  Reset G  1020 99 100
+  Reset G  1021 99 100
+  Reset G  1023 99 100
+  Reset G  1022 99 100
+#ENDROOM
+
+#ROOM
+Vnum        1107
+Name       Somatic Arcana~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          You stand under the shade of a large tree that cools you from the
+hot sun.  A Mystic in a short green tunic and green boots stands on
+the other side of the tree gesticulating madly.  It's actions are so
+wild, yet intricate, that you can barely understand what the Mystic
+is doing.  It is obviously in tune the forces of nature.  The Mystic
+notices your appearance and suddenly appears right next to you.  It
+gestures toward the tree, and a large hole appears filled with wands
+and staffs.
+~
+#EXIT
+Direction  West~
+ToRoom     1083
+#ENDEXIT
+Reset M    1005 1 1107 -1 -1 -1 100
+  Reset G  1030 99 100
+  Reset G  1031 99 100
+  Reset G  1032 99 100
+  Reset G  1033 99 50
+  Reset G  1034 99 100
+#ENDROOM
+
+#ROOM
+Vnum        1108
+Name       Turbolift Down [Deck: Residential]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1145 0 0 100000
+Desc          You are in the Turbolift going down. The lift is currently on the
+Residential level. The next stop is Engineering.
+~
+#EXIT
+Direction  East~
+ToRoom     1109
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1109
+Name       A Hallway~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in a hallway.  There is a Turbolift to the east going 
+up and one to the west going down. To the south is the Residential Level.
+~
+#EXIT
+Direction  East~
+ToRoom     1110
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1111
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1108
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1110
+Name       Turbolift Up [Deck: Residential]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1070 0 0 100000
+Desc          You are in the turbolift going up. The lift is currently on the 
+Residential Level. The next stop is the Promenade.
+~
+#EXIT
+Direction  West~
+ToRoom     1109
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1111
+Name       Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1109
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1112
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1113
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1114
+#ENDEXIT
+Reset M    1027 14 1111 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1112
+Name       A bend in the Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  South~
+ToRoom     1129
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1111
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1113
+Name       North Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1111
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1115
+#ENDEXIT
+Reset M    1035 5 1113 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1114
+Name       A bend in the Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  East~
+ToRoom     1111
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1144
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1115
+Name       North Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1113
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1116
+#ENDEXIT
+Reset M    1035 4 1115 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1116
+Name       North Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1115
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1117
+#ENDEXIT
+Reset M    1033 5 1116 -1 -1 -1 50
+Reset M    1034 4 1116 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1117
+Name       Central Hub~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1116
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1118
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1119
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1120
+#ENDEXIT
+Reset M    1027 15 1117 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1118
+Name       East Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1136
+Keywords   door north~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1133
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1137
+Keywords   door south~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1117
+#ENDEXIT
+Reset M    1033 3 1118 -1 -1 -1 50
+Reset M    1034 2 1118 -1 -1 -1 50
+Reset D    1118 0 1 100 -2
+Reset D    1118 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1119
+Name       South Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1117
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1121
+#ENDEXIT
+Reset M    1033 4 1119 -1 -1 -1 50
+Reset M    1034 3 1119 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1120
+Name       West Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1138
+Keywords   door north~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1117
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1139
+Keywords   door south~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1140
+#ENDEXIT
+Reset M    1033 2 1120 -1 -1 -1 50
+Reset M    1034 1 1120 -1 -1 -1 50
+Reset D    1120 0 1 100 -2
+Reset D    1120 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1121
+Name       South Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1119
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1122
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1122
+Name       South Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1121
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1123
+Name       Outer Hall~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1122
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1124
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1125
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1126
+#ENDEXIT
+Reset M    1027 17 1123 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1124
+Name       A bend in the Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1129
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1125
+Name       Lookout~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc        You have arrived at the look out. From here you can gaze into the vast depths
+of space.  The stars twinkle at you from many thousands of lightyears away. It's
+a rather awe-inspiring view. You could just stand her for hours staring out there.
+~
+#EXIT
+Direction  North~
+ToRoom     1123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1126
+Name       A bend in the Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1144
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1127
+Name       Short Term Quarters Office~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          You are standing in the Short Term Quarters Office, where you need
+to checkin or "rent" or equipment before you can go to your quarters
+to sleep.  The receptionist will make sure your equipment is stored
+safely while you are resting.  To get a listing of how much the
+services are, input "offer".  To store your equipment, input "rent".
+~
+#EXIT
+Direction  East~
+ToRoom     1125
+#ENDEXIT
+Reset M    1000 1 1127 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1128
+Name       CryoGenic Stasis Office~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc          You have entered the CryoGenics Stasis Offfice, better known as
+long-term checkin.  Here you can store your equipment.  The Cryogenicist will
+safely store your equipment for the time period, then gladly "freeze"
+you in stasis until you decide you wish to be thawed.
+~
+#EXIT
+Direction  West~
+ToRoom     1001
+#ENDEXIT
+Reset M    1001 1 1128 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1129
+Name       Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1112
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1124
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1130
+#ENDEXIT
+Reset M    1027 16 1129 -1 -1 -1 50
+  Reset E  1040 18 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1130
+Name       East Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1132
+Keywords   door north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1129
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1131
+Keywords   door south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1133
+#ENDEXIT
+Reset M    1035 1 1130 -1 -1 -1 50
+Reset D    1130 0 1 100 -2
+Reset D    1130 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1131
+Name       Dar's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.  You can also see a rather
+large bucket in the middle of the room.
+~
+#EXIT
+Direction  North~
+ToRoom     1130
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1132
+Name       Bel's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  South~
+ToRoom     1130
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1133
+Name       East Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1135
+Keywords   door north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1130
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1134
+Keywords   door south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1118
+#ENDEXIT
+Reset M    1035 2 1133 -1 -1 -1 50
+Reset D    1133 0 1 100 -2
+Reset D    1133 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1134
+Name       Kaya's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  North~
+ToRoom     1133
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1135
+Name       Roberts' and Aysha's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.  Large exotic plants
+also fill this room, making it appear like a tropical rainforest.
+~
+#EXIT
+Direction  South~
+ToRoom     1133
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1136
+Name       Smyth's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  South~
+ToRoom     1118
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1137
+Name       Albert's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  North~
+ToRoom     1118
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1138
+Name       Vuarq's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  South~
+ToRoom     1120
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1139
+Name       Guest Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  North~
+ToRoom     1120
+Flags      isdoor~
+#ENDEXIT
+Reset M    1036 3 1139 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1140
+Name       West hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  East~
+ToRoom     1120
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1141
+#ENDEXIT
+Reset M    1036 4 1140 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1141
+Name       West Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1142
+Keywords   door north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1140
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1143
+Key        1100
+Keywords   door south~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1144
+#ENDEXIT
+Reset D    1141 0 1 100 -2
+Reset D    1141 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        1142
+Name       Guest Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  South~
+ToRoom     1141
+Flags      isdoor~
+#ENDEXIT
+Reset M    1036 5 1142 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1143
+Name       Guest Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Pleasing decor and comfy couches are what you notice first about
+these living quarters.  It also comes equipped with a food replicator.
+Just perfect for relaxing when not working or on duty.  You can barely
+make out a cozy bed behind the large couches.
+~
+#EXIT
+Direction  North~
+ToRoom     1141
+Key        1100
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     26149
+Key        1100
+Keywords   cohp~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    1036 6 1143 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        1144
+Name       Outer Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In a hallway on the Residential Level, you find the area is 
+pleasantly lit with glowing yellow corridor lights and glowing
+panels.  The hallways are quiet in nature thanks to a radical 
+design in architecture that allows this feature.  This allows for
+peace and quiet on this level for sleeping guests and officers.
+~
+#EXIT
+Direction  North~
+ToRoom     1114
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1141
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1126
+#ENDEXIT
+Reset M    1027 18 1144 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+  Reset E  1044 18 16 20
+#ENDROOM
+
+#ROOM
+Vnum        1145
+Name       Turbolift Up [Deck: Engineering]~
+Sector     indoors~
+Flags      nomob indoors teleport teleshowdesc~
+Stats       30 1110 0 0 100000
+Desc          You are in the turbolift going up. The lift is currently on the
+Engineering Level. The next stop is the Residential Level.
+~
+#EXIT
+Direction  South~
+ToRoom     1146
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1146
+Name       Main Engineering~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You have entered main engineering, where all the machines that run
+Orion Outpost are kept operational.  Large machines hum and 
+beep all around you.  Other than Vuarq's, this is probably the noisiest 
+level on the entire station.
+~
+#EXIT
+Direction  North~
+ToRoom     1145
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     1147
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1148
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1149
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1147
+Name       Main Engineering~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You have entered main engineering, where all the machines that run
+Orion Outpost are kept operational.  Large machines hum and 
+beep all around you.  Other than Vuarq's, this is probably the noisiest 
+level on the entire station.
+~
+#EXIT
+Direction  West~
+ToRoom     1146
+#ENDEXIT
+Reset M    1028 1 1147 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+#ENDROOM
+
+#ROOM
+Vnum        1148
+Name       Main Engineering~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You have entered main engineering, where all the machines that run
+Orion Outpost are kept operational.  Large machines hum and 
+beep all around you.  Other than Vuarq's, this is probably the noisiest 
+level on the entire station.
+~
+#EXIT
+Direction  North~
+ToRoom     1146
+#ENDEXIT
+Reset M    1028 2 1148 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+#ENDROOM
+
+#ROOM
+Vnum        1149
+Name       Main Engineering~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in main engineering, where all the machines that run
+Orion Outpost are kept operational.  Large machines hum and 
+beep all around you.  Other than Vuarq's, this is probably the noisiest 
+level on the entire station.
+~
+#EXIT
+Direction  East~
+ToRoom     1146
+#ENDEXIT
+Reset M    1028 3 1149 -1 -1 -1 50
+  Reset E  1040 99 5 90
+  Reset E  1042 18 17 10
+#ENDROOM
+
+#ROOM
+Vnum        1150
+Name       Debriefing Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Well hello there!  Welcome to Nexus!  We're happy to have you here
+as a new cadet.  The first thing you'll need to do is go west to obtain
+your cadet training and your equipment.  If you've been here 
+before, or are just here to visit friends and don't require the training
+or equipment, just recall to the Nexus on Orion Outpost.
+Orion Outpost is our hometown here on Nexus.  All your skills, spells, stats, 
+mailing, supply and information needs can be taken care of right here on 
+the Station.  To get more detailed information please go west into the
+Academy.  Good luck and good adventuring!
+~
+#EXIT
+Direction  West~
+ToRoom     600
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1151
+Name       SpeedLift to the Lookout~
+Sector     indoors~
+Flags      nomob indoors safe teleport teleshowdesc~
+Stats       15  1125 0 0 100000
+Desc          You are on the quick transport to the Lookout.
+~
+#EXIT
+Direction  South~
+ToRoom     1002
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1152
+Name       Reading Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in a reading room.
+~
+#EXIT
+Direction  East~
+ToRoom     1153
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1076
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1153
+Name       Reading Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in a reading room.
+~
+#EXIT
+Direction  East~
+ToRoom     1154
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1152
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1154
+Name       Reading Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in a reading room.
+~
+#EXIT
+Direction  West~
+ToRoom     1153
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1197
+Name       Exile's Treasure Room~
+Sector     indoors~
+Flags      nomob private isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     1199
+#ENDEXIT
+Reset O    1197 1 1197 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1198
+Name       Exile's Torture Chamber~
+Sector     indoors~
+Flags      death indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     1199
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        1199
+Name       Tunnel to the Museum of the Gods~
+Sector     indoors~
+Flags      nomob isolated~
+Stats      0 0 0 0 0
+Desc       A sign here reads: "Museum Under Construction"
+~
+#EXIT
+Direction  North~
+ToRoom     1199
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1087
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

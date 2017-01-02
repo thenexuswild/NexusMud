@@ -1,0 +1,2826 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Vampire Quest~
+Author          Unknown~
+Vnums           16000 16063
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       15
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        16000
+Keywords   rat m160~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A large rat~
+Long       A large rat scurries away from you
+~
+Desc       You see a large rat that is more afraid of you than you are of it.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     3 1 10 0 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16001
+Keywords   snake m160~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A slimey snake~
+Long       A slimey snake bares his fangs and attacks!
+~
+Desc       You see a long snake with fangs dripping with venom.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     3 1 10 0 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16002
+Keywords   mongrelman mongrel citizen man m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A sorry looking, part humanoid, male~
+Long       A sorry looking, part humanoid, male stands here.
+~
+Desc       This man appears to be more of a mutt or a mongrel then
+anything really human.  Parts of him look like ogre, parts
+like orc, parts like human and other parts like things you
+can't even imagine.  He is dressed in tattered clothing
+an appears to be a citizen of this denizen.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     5 1 9 1 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16003
+Keywords   mongrelman mongrel citizen woman female m160~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A sorry looking, part humanoid female~
+Long       A sorry looking, part humanoid female stares at you.
+~
+Desc       This woman to be more of a mutt or a mongrel than
+anything really human.  Parts of her look like ogre, parts
+like orc, parts like human and other parts like things you
+can't even imagine.  She is dressed only in a tattered
+skirt.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     5 1 9 1 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16004
+Keywords   mongrelman mongrel man guard m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A part humanoid male guard~
+Long       A mongrelman in armor snarls at you and attacks!
+~
+Desc       This mongrelman is definitely prepared for intruders.
+He is armored and armed and immediately attacks.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16005
+Keywords   mongrelman mongrel man chief m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A large mongrel chieftain~
+Long       A large mongrel chieftain screams a war cry and attacks!
+~
+Desc       This man is definitely a leader of his people.  He screams a
+war cry and attacks.
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     10 1 7 1 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16006
+Keywords   elf m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   resting~
+DefPos     resting~
+Short      A bedraggled elf~
+Long       A bedraggled elf begs you for release.
+~
+Desc       You see a bedraggled elf, he is wearing only a loin cloth and stripes
+from whipping line his back.  His hands and feet are chained.
+~
+Nattacks   1.000000
+Stats1     500 15 60 100 150 250
+Stats2     4 1 9 1 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16007
+Keywords   dwarf m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     sleeping~
+Short      A half-dead dwarf~
+Long       A half-dead dwarf lays here.
+~
+Desc       You almost want to cry when you take a closer look
+at this dwarf.  One eye is gone and one hand is
+crippled.  He barely acknowledges your presense.
+~
+Nattacks   1.000000
+Stats1     500 15 60 100 150 250
+Stats2     3 1 10 1 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16008
+Keywords   klingon m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A defiant klingon~
+Long       A defiant klingon snarls at you.
+~
+Desc       Yes, even klingons can be taken prisoner.  This one is
+heavily chained and screams at you to release him
+immediately!
+~
+Nattacks   1.000000
+Stats1     500 15 60 100 150 250
+Stats2     4 1 9 1 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16009
+Keywords   human kingston m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   resting~
+DefPos     resting~
+Short      A human~
+Long       A human peers at you intently.
+~
+Desc       "Yes, my name is Kingston," he says, "I was captured by the
+mongrelmen while trying to enter the tower."  "Now I am just 
+used a labor to expand this hole, and as a breeder for
+the women.  Take the key from my mattress and destroy the evil
+in the tower.  I am too weak to help."
+~
+Nattacks   1.000000
+Stats1     500 15 60 100 150 250
+Stats2     5 1 9 1 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16010
+Keywords   ogre female woman m160~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   resting~
+DefPos     resting~
+Short      An ugly pregnant ogre~
+Long       An ugly pregnant ogre rubs her belly absentmindedly.
+~
+Desc       This ogress is obviously some sort of harem girl.  A collar
+surrounds her neck and she is scantily clad and pregnant.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     2 1 10 1 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16011
+Keywords   elf female woman m160~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A beautiful elf~
+Long       A beautiful elf stands regally before you.
+~
+Desc       This elf is obviously a favorite.  Her collar is
+jeweled and she is clothed in silks.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     2 1 10 1 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16012
+Keywords   halfling female woman m160~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   sitting~
+DefPos     sitting~
+Short      A tiny halfling~
+Long       A tiny halfling female sits alone in a corner.
+~
+Desc       The halfling barely looks up at you, her gaze is 
+pleading.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     2 1 10 1 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16013
+Keywords   lizard female woman m160~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   sitting~
+DefPos     sitting~
+Short      A strange lizardwoman~
+Long       A lizard looking female hisses at you.
+~
+Desc       This female acts like a humanoid but her skin is
+that of a lizard and her forked tongue flicks at 
+you. She motions you over to her.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     2 1 10 1 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16014
+Keywords   vampire man pale butler m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A pale butler~
+Long       A pale butler smiles at you showing his incisors.
+~
+Desc       The butler smiles and greets you showing his large incisors.
+"Are you here for dinner?" He says.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16015
+Keywords   vampire man pale pianist m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      A pianist~
+Long       A pale ornately dressed man plays moonlight sonata on the baby grand.
+~
+Desc       This ornately dress man is totally emersed in his music.
+His hands float expertly about the keys.  You are mesmerized
+by his music.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16016
+Keywords   vampire man pale reader m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      A pale man~
+Long       A pale skinned man intently reads a book.
+~
+Desc       This man raises an eyebrow at your entrance.  "How dare
+you disturb me!" he growls.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16017
+Keywords   vampire man pale waiter m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A waiter~
+Long       A waiter eyes you and licks his lips.
+~
+Desc       The waiter appraises you and then says, "Will I be
+serving you for dinner?"
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16018
+Keywords   vampire man pale cook m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A pale cook~
+Long       A pale cook sharpens his knives while looking at you.
+~
+Desc       The cook smiles and says, "Ahh you've finally arrived!"
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16019
+Keywords   vampire man guest m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      An elegantly dressed man~
+Long       An elegantly dressed man smiles hungerly at you.
+~
+Desc       This man is very pale skinned and dressed in
+dinner finery. He smiles and says, "Ahhh,
+breakfast in bed?"
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     8 1 8 1 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16020
+Keywords   vampire woman female guest m160~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      An elegantly dressed woman~
+Long       An elegantly dressed female licks her lips as you enter.
+~
+Desc       This female is amazingly pale, she smiles and you can
+see her large incisors.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     8 1 8 1 2 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16021
+Keywords   skeleton m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A skeleton~
+Long       A ghastly skeleton flails his arms at you.
+~
+Desc       The skeleton smiles and even on him you can
+see large incisors.
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     10 1 10 1 3 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16022
+Keywords   alchemist m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A pale alchemist~
+Long       A pale alchemist works intently on some experiment.
+~
+Desc       The alchemist doesn't even turn around.  He just growls,
+"Go away!"
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     15 1 6 1 4 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16023
+Keywords   statue stone m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A large statue~
+Long       A large statue animates and attacks.
+~
+Desc       This statue appears to be made of stone.
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     12 1 7 1 5 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16024
+Keywords   metal statue m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A tall statue~
+Long       A tall polished statue stands ready to attack.
+~
+Desc       This tall statue appears to be made of a different material than the
+others.  Perhaps it is made of metal?
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     15 1 6 1 4 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16025
+Keywords   vampire lord m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A handsome vampire~
+Long       A handsome vampire mesmerizes you with his gaze.
+~
+Desc       A tall handsome vampire smiles at you and you melt
+at his gaze.  "I have waited for you." he says,
+"And now you will join me."
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     20 1 4 1 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        16026
+Keywords   mongrelman mongrel man guard m160~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A part humanoid male guard~
+Long       A mongrelman in armor snarls at you and attacks!
+~
+Desc       This mongrelman is definitely prepared for intruders.
+He is armored and armed and immediately attacks.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     7 1 8 1 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        16001
+Keywords   key bat vampire k160~
+Type       key~
+Short      a bat shaped key~
+Long       A bat shaped key jiggles here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  key bat~
+ExDesc     If you don't catch this key quick it might fly away!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16002
+Keywords   key rusted vampire k160~
+Type       key~
+Short      An old rusted key~
+Long       An old rusted key lies here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  key rusted~
+ExDesc     This key is old and rusted but you think it just might fit
+in the grate.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16003
+Keywords   steel key vampire k160~
+Type       key~
+Short      An old steel key~
+Long       An old steel key on a leather chain lies here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      5 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16004
+Keywords   key blood red vampire k160~
+Type       key~
+Short      A pulsing blob~
+Long       A pulsing blood red blob beats here.~
+Flags      glow~
+WFlags     take~
+Values     0 0 0 0 -1 10 0 0 0 0 0
+Stats      3 10000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16005
+Keywords   hay o160~
+Type       container~
+Short       ~
+Long        ~
+Values     3000 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16006
+Keywords   leggings leg scale brown o160~
+Type       armor~
+Short      A pair of brown scale leg plates~
+Long       A pair of brown scale leg plates lie here.~
+WFlags     take legs~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      8 8000 0 9999 0 None None None
+#EXDESC
+ExDescKey  leggins leg plates brown~
+ExDesc     These leg plates are made of some brown metal/stone combination.
+You've never seen their like before.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16007
+Keywords   boots brown metal o160~
+Type       armor~
+Short      brown metal boots~
+Long       A pair of brown metal boots lay here.~
+WFlags     take feet~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      5 5000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16008
+Keywords   helmet metal brown o160~
+Type       armor~
+Short      A brown metal helmet~
+Long       A brown metal helmet lays on it's side.~
+WFlags     take head~
+Values     7 7 0 0 0 0 0 0 0 0 0
+Stats      7 7000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16009
+Keywords   plate brown breast metal o160~
+Type       armor~
+Short      A brown metal breast plate~
+Long       A brown metal breast plate rusts here.~
+WFlags     take body~
+Values     9 9 0 0 0 0 0 0 0 0 0
+Stats      9 9000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16010
+Keywords   veil o160~
+Type       armor~
+Short      A sheer veil~
+Long       A sheer veil lays here.~
+WFlags     take head~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  sheer veil~
+ExDesc     This veil is intricately embroidered with flowers.
+The manufacture is beautiful although it doesn't
+serve as much more than ornamentation.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16011
+Keywords   underwear silk o160~
+Type       treasure~
+Short      A pair of silk underwear~
+Long       A pair of high-cut silk underwear lies here.~
+WFlags     take waist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  underwear~
+ExDesc     These underwear are adorned with lace and cut
+high to the hips.  Definitely only ornamental.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16012
+Keywords   vest silk o160~
+Type       treasure~
+Short      A silk bolero vest~
+Long       A silk partly see-through bolero vest lies here.~
+WFlags     take body about~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  vest~
+ExDesc     This vest doesn't seem like it would be very good armor.
+You think the chief just likes it on his harem women.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16013
+Keywords   pants silk o160~
+Type       treasure~
+Short      A pair of loose flowing silk pants~
+Long       A pair of loose flowing silk pants lies here.~
+WFlags     take legs~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  pants~
+ExDesc     These loose pants are definitely ornamental.  Their
+sheerness shimmers enticingly.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16014
+Keywords   bra silk o160~
+Type       treasure~
+Short      A silk bra~
+Long       A silk bra lies here~
+WFlags     take body~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  bra~
+ExDesc     This silk bra looks more ornate than comfortable,
+you guess it's probably just for show.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16015
+Keywords   collar jeweled o160~
+Type       treasure~
+Short      A jeweled slave collar~
+Long       A jeweled collar lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Strength -1 -1 -1 0
+AffData    Constitution -1 -1 -1 0
+AffData    move -50 -1 -1 0
+#EXDESC
+ExDescKey  collar jeweled~
+ExDesc     This collar has a lock on the back of it with a metal loop.
+You don't think it's something anyone would normally wear 
+even if it is pretty.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16016
+Keywords   bracers brown metal o160~
+Type       armor~
+Short      A pair of brown metal bracers~
+Long       A pair of brown metal bracers sit here.~
+WFlags     take arms~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      8 8000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16017
+Keywords   gloves brown metal o160~
+Type       armor~
+Short      gloves with brown metal plates~
+Long       A pair of gloves with brown metal plates on the back lie here.~
+WFlags     take hands~
+Values     7 7 0 0 0 0 0 0 0 0 0
+Stats      7 7000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16018
+Keywords   shield brown metal o160~
+Type       armor~
+Short      a brown metal shield~
+Long       A brown metal shield lies here.~
+WFlags     take shield~
+Values     7 7 0 0 0 0 0 0 0 0 0
+Stats      7 7000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16019
+Keywords   pendant vampire fang o160~
+Type       treasure~
+Short      a vampire fang pendant~
+Long       A vampire fang pendant glows here.~
+Flags      glow~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      4 100000 0 9999 0 None None None
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+#EXDESC
+ExDescKey  fang pendant vampire~
+ExDesc     This vampire fang appears to go from pure white to blood red as
+you look at it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16020
+Keywords   scarf o160~
+Type       treasure~
+Short      a blood red scarf~
+Long       Some red piece of silk lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 50000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        16021
+Keywords   ring metal o160~
+Type       treasure~
+Short      A circular band of metal~
+Long       A circular band of metal lies here.~
+Flags      nodrop~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 50000 0 9999 0 None None None
+AffData    Constitution 2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  ring metal~
+ExDesc     This circular band of metal is very cold to the touch, you
+have the urge to wear it on your finger though.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16022
+Keywords   ring plain red band o160~
+Type       treasure~
+Short      A plain red metal band~
+Long       A plain red metal band seems to pulse here.~
+Flags      hum invis~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 100000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    hit 10 -1 -1 0
+#EXDESC
+ExDescKey  plain ring red band~
+ExDesc     As you pick up this ring, you feel thoughts of every person the
+vampire has ever sucked the blood from. The inscription on the inside
+of the ring reads, "Your blood to my blood"
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16023
+Keywords   bracelet hair o160~
+Type       treasure~
+Short      a bracelet made of hair~
+Long       A bracelet made of braided hair lies here.~
+Flags      antigood~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 30000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+AffData    Wisdom 1 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+#EXDESC
+ExDescKey  bracelet hair~
+ExDesc     As you look closely you realize this bracelet is made of braided hair
+of all sorts of colors.  It's creepy even to touch it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16024
+Keywords   apron o160~
+Type       treasure~
+Short      a white apron~
+Long       a white apron lies in a heap here.~
+WFlags     take waist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+AffData    mana 5 -1 -1 0
+#EXDESC
+ExDescKey  apron~
+ExDesc     This is a plain white apron.  You get the idea that Aramina wanted
+to just see some guys wearing them so she could get a chuckle out of it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16025
+Keywords   wristband o160~
+Type       treasure~
+Short      A wristband made of skin~
+Long       A wristband made of some strange leather like material sits here.~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+AffData    mana 10 -1 -1 0
+AffData    Strength 1 -1 -1 0
+#EXDESC
+ExDescKey  wristband~
+ExDesc     As you look closer you realize this wristband is made of skin!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16026
+Keywords   sceptre staff o160~
+Type       light~
+Short      An ornately carved staff~
+Long       An ornately carved staff is leaning against the wall.~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  staff~
+ExDesc     This staff is carved with very intricate details depicting these people.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16027
+Keywords   coffin o160~
+Type       container~
+Short      a velvet lined coffin~
+Long       An ornately carved, velvet lined coffin sits here.~
+Flags      glow hum~
+Values     100000 15 16028 10 0 16028 0 0 0 0 0
+Stats      1000 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  coffin~
+ExDesc     This coffin seems to have a different scene for each century this vampire
+has been alive through.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16028
+Keywords   key soil k160~
+Type       key~
+Short      a bag of soil~
+Long       A small bag of soil lies here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16029
+Keywords   stake o160~
+Type       weapon~
+Short      a wooden stake~
+Long       A wooden stake is tucked away in here.~
+Flags      antievil~
+WFlags     take wield~
+Values     0 3 6 6 0 0 0 0 0 0 0
+Stats      15 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16030
+Keywords   mallet wooden o160~
+Type       weapon~
+Short      a wooden mallet~
+Long       A wooden mallet lies here.~
+WFlags     take wield~
+Values     0 3 8 4 0 0 0 0 0 0 0
+Stats      16 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        16031
+Keywords   mattress bed o160~
+Type       container~
+Short       ~
+Long        ~
+Values     10000 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16032
+Keywords   heart o160~
+Type       container~
+Short      a beating heart~
+Long       A large heart beats here.~
+WFlags     take~
+Values     10000 5 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        16060
+Keywords   basket easter z160~
+Type       container~
+Short      A brightly colored basket~
+Long       A brightly colored basket sits here.~
+Flags      glow~
+WFlags     take hold~
+Values     1000 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    Intelligence 2 -1 -1 0
+AffData    Wisdom 2 -1 -1 0
+#EXDESC
+ExDescKey  easter basket~
+ExDesc      Congratulations, you have assembled a unique basket!  Cherish it because
+you won't get another.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        16061
+Keywords   ears bunny z160~
+Type       armor~
+Short      A set of pink bunny ears~
+Long       A set of pink bunny ears lies here.~
+Flags      glow invis~
+WFlags     take head~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Intelligence 2 -1 -1 0
+AffData    Wisdom 2 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        16000
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You have entered what appears to be a run down courtyard.
+In front of you, you can barely make out an old cobblestone
+path.  Further up the path you see a large black tower
+that seems to suck the light out of sky.
+~
+#EXIT
+Direction  North~
+ToRoom     16004
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16002
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16001
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16001
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are walking in what used to be a courtyard.  Bushes are
+overgrown and old flowerbeds are now full of weeds.
+~
+#EXIT
+Direction  North~
+ToRoom     16003
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16000
+#ENDEXIT
+Reset M    16000 3 16001 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16002
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are walking in what used to be a courtyard.  Bushes are
+overgrown and old flowerbeds are now full of weeds.
+~
+#EXIT
+Direction  North~
+ToRoom     16005
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16000
+#ENDEXIT
+Reset M    16001 3 16002 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16003
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are walking in what used to be a courtyard.  Bushes are
+overgrown and old flowerbeds are now full of weeds.
+The tower looms closer and seems to grow as you get nearer.
+~
+#EXIT
+Direction  North~
+ToRoom     16006
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16004
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16001
+#ENDEXIT
+Reset M    16001 3 16003 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16004
+Name       Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are walking on an overgrown path leading to a tall
+dark tower.  Tall grass grows between the flagstones, and
+courtyard lies to the east and west.  The path continues
+to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     16007
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16005
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16000
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16003
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16005
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are wandering through an overgrown courtyard.  When
+this courtyard was tended it contained many flowering bushes
+and a hedge fence.  Now there is an opening through the
+hedges to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     16008
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16012
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16002
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16004
+#ENDEXIT
+Reset M    16000 3 16005 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16006
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are walking in what used to be a courtyard.  Bushes are
+overgrown and old flowerbeds are now full of weeds.
+The tower looms closer and seems to grow as you get nearer.
+~
+#EXIT
+Direction  North~
+ToRoom     16009
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16007
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16003
+#ENDEXIT
+Reset M    16000 3 16006 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16007
+Name       Path~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You have reached the end of the path.  Before you stands the
+stairs to the tower door.  A feeling of dread overcomes you
+and you wonder if you should go further.
+~
+#EXIT
+Direction  East~
+ToRoom     16008
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16004
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16006
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     16010
+Desc       You see stairs leading to a landing before the tower.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16008
+Name       Courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are walking in what used to be a courtyard.  Bushes are
+overgrown and old flowerbeds are now full of weeds.
+~
+#EXIT
+Direction  North~
+ToRoom     16011
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16005
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16007
+#ENDEXIT
+Reset M    16001 3 16008 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16009
+Name       The Graveyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You have entered what appears to be a graveyard.  Only a few
+gravestones stand but one appears to be untouched by the ravages
+of time.
+~
+#EXIT
+Direction  South~
+ToRoom     16006
+#ENDEXIT
+#EXDESC
+ExDescKey  gravestone tombstone stone~
+ExDesc     You can read an inscription on this stone.
+
+           --------------
+         / Search for    \
+         |   the depths  |
+         | to gain the   |
+         |    right      |
+         |      to       |
+         |    Enter      |
+         |               |
+         |               |
+/\W/\///\/\/\////\/\/\/\/////\/\/\////
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16010
+Name       Landing~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You have reached the landing before the main door to the
+tower. A large doorknocker in the shape of a head with
+fangs hangs on the door.  There is a lock on the door.
+~
+#EXIT
+Direction  North~
+ToRoom     16040
+Key        16001
+Desc       You see a large door.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     16007
+#ENDEXIT
+Reset D    16010 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16011
+Name       Rose Garden~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You have entered an overgrown rose garden.  No flowers bloom
+on the stalks, but the thorns scratch at your legs.
+~
+#EXIT
+Direction  South~
+ToRoom     16008
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16012
+Name       The Pit~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         Aaaaaaahhhhhhhhh!!!!!!
+You have fallen into a pit trap.  You look up but there's no sign
+of light.  The door must have closed as you fell in.  Looking
+around, you see a barred door to the east.  The floor is covered
+with hay which appears to be what broke your fall.
+~
+#EXIT
+Direction  East~
+ToRoom     16013
+Key        16002
+Desc       You see a barred door.
+~
+Keywords   door bar~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    16005 1 16012 -1 -1 -1 100
+  Reset P  0 16002 1 16005 100
+Reset D    16012 1 2 100 -2
+#EXDESC
+ExDescKey  hay~
+ExDesc     As you look closely you think you see a key.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16013
+Name       Smooth Hall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This hallway is amazingly smooth.  You get the feeling that
+this was once the basement of a larger keep.
+~
+#EXIT
+Direction  North~
+ToRoom     16015
+Desc       you see a door.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16016
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16012
+Key        16002
+Desc       You see a barred door.
+~
+Keywords   door bar~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    16013 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16015
+Name       Guard Room~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         As you enter this room you see several chairs surrounding
+a table.  This looks to be a guard shack and three of them
+are waiting just for you!
+~
+#EXIT
+Direction  South~
+ToRoom     16013
+Desc       You see a door
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16004 15 16015 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16008 30 6 100
+Reset M    16004 15 16015 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+Reset M    16004 15 16015 -1 -1 -1 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+#ENDROOM
+
+#ROOM
+Vnum        16016
+Name       Smooth Hall~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         This hallway is amazingly smooth.  You get the feeling that
+this was once the basement of a larger keep.
+~
+#EXIT
+Direction  East~
+ToRoom     16017
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16018
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16013
+Keywords    ~
+#ENDEXIT
+Reset M    16002 3 16016 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16017
+Name       Sleeping Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a room strewn with sleeping pallets and
+clothing.  This must be the main sleeping quarters for the
+inhabitants of this domain.  There are no creature comforts
+here and you start to feel sorry for these...... people.
+~
+#EXIT
+Direction  West~
+ToRoom     16016
+#ENDEXIT
+Reset M    16002 3 16017 -1 -1 -1 100
+Reset M    16002 3 16017 -1 -1 -1 100
+Reset M    16003 3 16017 -1 -1 -1 100
+Reset M    16003 3 16017 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16018
+Name       Smooth Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The hallway is still amazingly smooth.  It continues to the south
+and you can see the openings to a few rooms off of it.  Rubble
+lays in piles in places and old torches stand in sconces 
+against the walls.
+~
+#EXIT
+Direction  North~
+ToRoom     16016
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16020
+#ENDEXIT
+Reset M    16003 3 16018 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16019
+Name       The Harem Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Even though you can tell this is quarters for the
+chief's harem, your nose wrinkles in disgust.  Females
+of all species are housed here and now you understand
+why the inhabitants look the way they do.
+~
+#EXIT
+Direction  East~
+ToRoom     16024
+Desc       You see a barred door with no sign of a keyhole!
+~
+Keywords   door bar~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16010 1 16019 -1 -1 -1 100
+  Reset E  16010 3 6 100
+Reset M    16011 1 16019 -1 -1 -1 100
+  Reset E  16010 3 6 100
+  Reset E  16012 3 12 100
+  Reset E  16014 3 5 100
+  Reset E  16015 3 3 100
+  Reset E  16013 3 7 100
+  Reset E  16011 3 13 100
+Reset M    16012 1 16019 -1 -1 -1 100
+  Reset E  16012 3 12 100
+Reset M    16013 1 16019 -1 -1 -1 100
+  Reset E  16013 3 7 100
+Reset D    16019 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16020
+Name       Smooth Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The hallway is still amazingly smooth.  It continues to the south
+and you can see the openings to a few rooms off of it.  Rubble
+lays in piles in places and old torches stand in sconces 
+against the walls.
+~
+#EXIT
+Direction  North~
+ToRoom     16018
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16021
+#ENDEXIT
+Reset M    16004 15 16020 -1 -1 -1 100
+  Reset E  16006 30 7 100
+#ENDROOM
+
+#ROOM
+Vnum        16021
+Name       Smooth Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Off to the east you see an old collapsed double door. 
+What you can see of the door is very ornate and you
+feel a bit saddened that you are not seeing this place in
+its former splendor.  The hall continues to the north
+and the south.
+~
+#EXIT
+Direction  North~
+ToRoom     16020
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16023
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16022
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16022
+Name       Smooth Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You continue down the hallway and make your way around
+piles of rubble.  Just ahead you can see a turn in
+the hallway with a room off to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     16021
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16025
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16023
+Name       The Grand Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Before you stands what once must have been a beautiful
+throne room at one time.  Now all that is left is tattered
+tapestries and some crude benches.  Perhaps this place is
+still used?
+~
+#EXIT
+Direction  West~
+ToRoom     16021
+#ENDEXIT
+Reset M    16004 15 16023 -1 -1 -1 100
+  Reset E  16008 30 6 100
+#ENDROOM
+
+#ROOM
+Vnum        16024
+Name       The Chief's Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered what seems to be the current dwelling place
+of the leader of these inhabitants.  The quarters are much
+nicer and instead of a pallet, a large bed sits in the
+corner of the room.  A door leads to the west as well
+as the one you entered to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     16025
+Desc       You see a door.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16019
+Desc       You see another door.  This one is barred.
+~
+Keywords   door bar~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16005 1 16024 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+  Reset E  16026 3 17 100
+Reset M    16004 15 16024 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+Reset M    16004 15 16024 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+Reset D    16024 1 1 100 -2
+Reset D    16024 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16025
+Name       A Turn in the Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The hallway turns to the east here and a door stands off
+to your west.
+~
+#EXIT
+Direction  North~
+ToRoom     16022
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16026
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16024
+Desc       You see a very ornate door, amazingly intack.
+~
+Keywords   door ornate~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    16025 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16026
+Name       Smooth Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are traveling down a smooth hallway.  
+Ocassionally you have to step over piles of rubble.
+~
+#EXIT
+Direction  East~
+ToRoom     16027
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16025
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16027
+Name       Smooth Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are traveling down a smooth hallway.  
+Ocassionally you have to step over piles of rubble.
+~
+#EXIT
+Direction  East~
+ToRoom     16028
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16026
+#ENDEXIT
+Reset M    16003 2 16027 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16028
+Name       Corner~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in another corner of the hallway. To your
+east is a door and the hall continues
+to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     16029
+Desc       You see a door
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16030
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16027
+#ENDEXIT
+Reset M    16002 2 16028 -1 -1 -1 100
+Reset D    16028 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16029
+Name       Guard House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a well equipped guard house.  
+There is a desk in the east corner of the room and
+empty weapons racks along the walls.  Unfortunately
+for you the weapons are on the guards!
+~
+#EXIT
+Direction  West~
+ToRoom     16028
+Desc       You see a door.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16004 15 16029 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+Reset M    16004 15 16029 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+Reset M    16004 15 16029 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+  Reset E  16016 30 10 100
+  Reset E  16017 30 9 100
+  Reset E  16018 30 11 100
+Reset M    16026 1 16029 -1 -1 -1 100
+  Reset E  16003 1 17 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16016 30 10 100
+  Reset E  16017 30 9 100
+  Reset E  16018 30 11 100
+Reset D    16029 3 1 100 -2
+#EXDESC
+ExDescKey  desk~
+ExDesc     As you examine the desk you see a piece of parchment on it.
+It looks like a list.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  parchment paper list~
+ExDesc     This appears to be a list of prisoners.  Each name is
+listed with their race and profession.  One name is
+circled. It is a human adventurer by the name of
+Kingston and his profession is listed as cat burgler.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16030
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in the zig-zag of a lhallway.  The hall continues to
+the east and you can go back north.
+~
+#EXIT
+Direction  North~
+ToRoom     16028
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16031
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16031
+Name       Rough Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking in a rough hewn hallway.  Exits are to
+the west and the south.
+~
+#EXIT
+Direction  South~
+ToRoom     16032
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16030
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16032
+Name       Rough Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking in a rough hewn hallway.  Exits are to
+the east and north.
+~
+#EXIT
+Direction  North~
+ToRoom     16031
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16033
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16033
+Name       Rough Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking in a rough hewn hallway.  Exits are to
+the west and the south.
+~
+#EXIT
+Direction  South~
+ToRoom     16034
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16032
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16034
+Name       Rough Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking in a rough hewn hallway.  The hallway
+extends to the north and the south.
+~
+#EXIT
+Direction  North~
+ToRoom     16033
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16035
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16035
+Name       Rough Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking in a rough hewn hallway.  It turns here
+to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     16034
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16038
+Desc       You think you see a crack in the wall.
+~
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16036
+#ENDEXIT
+Reset D    16035 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16036
+Name       Before the cells~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand before a prison cell.  A barred door blocks 
+the way to your west.
+~
+#EXIT
+Direction  East~
+ToRoom     16035
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16037
+Key        16003
+Desc       You see a door with bars on it.
+~
+Keywords   door bar~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16004 15 16036 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+  Reset E  16016 30 10 100
+  Reset E  16017 30 9 100
+  Reset E  16018 30 11 100
+Reset M    16004 15 16036 -1 -1 -1 100
+  Reset E  16006 30 7 100
+  Reset E  16009 30 5 100
+  Reset E  16007 30 8 100
+  Reset E  16008 30 6 100
+  Reset E  16016 30 10 100
+  Reset E  16017 30 9 100
+  Reset E  16018 30 11 100
+Reset D    16036 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16037
+Name       Prison Cell~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a prison cell.  Males of all species roam this room in
+chains.  One human looks at you pleadingly.
+~
+#EXIT
+Direction  East~
+ToRoom     16036
+Desc       You see a barred door with no lock!
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16006 1 16037 -1 -1 -1 100
+Reset M    16007 1 16037 -1 -1 -1 100
+Reset M    16008 1 16037 -1 -1 -1 100
+Reset M    16009 1 16037 -1 -1 -1 100
+Reset O    16031 1 16037 -1 -1 -1 100
+  Reset P  0 16001 1 16031 100
+Reset D    16037 1 2 100 -2
+#EXDESC
+ExDescKey  bed~
+ExDesc     You see a bed with a straw matress.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16038
+Name       The Way Up~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in what appears to be a tunnel upwards.  This
+looks like an escape route.  Better run!
+~
+#EXIT
+Direction  East~
+ToRoom     16039
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16035
+Keywords   secret~
+Flags      ~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16039
+Name       Almost out!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You continue to climb up the sloping tunnel.  You
+think you actually see some sunlight above you.
+~
+#EXIT
+Direction  West~
+ToRoom     16038
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     16009
+Desc       You see a crack of light through the tombstone.
+~
+Keywords   tombstone tomb stone~
+Flags      ~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16040
+Name       The Foyer~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the foyer of this large tower.
+Shapes appear to be distorted here as opposed to
+what you think that they should be.  A ghastly
+butler greets you at the door.
+~
+#EXIT
+Direction  North~
+ToRoom     16041
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16010
+Key        16001
+Desc       You see the door.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16043
+#ENDEXIT
+Reset M    16014 1 16040 -1 -1 -1 100
+Reset D    16040 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16041
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in along hallway. Fascinating portraits
+line the wall and you notice that each person depicted is very
+pale in complection.
+~
+#EXIT
+Direction  North~
+ToRoom     16045
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16040
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16042
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16042
+Name       Stairs~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are at the bottom of a stair case.  A room lies off to the
+north, and you have no idea what is upstairs.
+~
+#EXIT
+Direction  North~
+ToRoom     16044
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16041
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     16050
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16043
+Name       Parlor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered the parlor.  Several couches are set around
+a fireplace that burns a black flame.  An old pipe organ is 
+set into the west wall.
+~
+#EXIT
+Direction  East~
+ToRoom     16040
+#ENDEXIT
+Reset M    16015 1 16043 -1 -1 -1 100
+  Reset E  16020 3 3 100
+#ENDROOM
+
+#ROOM
+Vnum        16044
+Name       The Library~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a library.  There are shelf after shelf
+of books, more than you could possibly read even in a lifetime.
+~
+#EXIT
+Direction  South~
+ToRoom     16042
+#ENDEXIT
+Reset M    16016 1 16044 -1 -1 -1 100
+  Reset E  16025 3 15 100
+#EXDESC
+ExDescKey  shelf shelve~
+ExDesc     As you scan the shelves one particular book stands out.
+It looks to be bound in some pale pink skin-like 
+substance.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  book pale skin~
+ExDesc     You really don't want to touch this book, however,
+you see a piece of paper sticking out of it.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  paper~
+ExDesc     As you look closely at the paper you see the following.
+L__k f_r th_ m_n m_d_ _f m_t_l.
+
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16045
+Name       Dining Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered what seems to be the dining room.  The table is set with
+bowels and no plates or utensils.  The only serving dish on the 
+table is a pitcher.  What could these people eat?
+~
+#EXIT
+Direction  East~
+ToRoom     16046
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16041
+#ENDEXIT
+Reset M    16017 1 16045 -1 -1 -1 100
+  Reset E  16023 1 14 100
+#ENDROOM
+
+#ROOM
+Vnum        16046
+Name       Kitchen~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This room was obviously a kitchen.  It's hard to 
+tell what's made here now, especially after seeing the
+dining room.
+~
+#EXIT
+Direction  West~
+ToRoom     16045
+#ENDEXIT
+Reset M    16018 1 16046 -1 -1 -1 100
+  Reset E  16024 3 13 100
+#ENDROOM
+
+#ROOM
+Vnum        16047
+Name       A Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered into an old bedroom.  In the corner is an old canopy
+bed and along the wall a desk and chair.
+~
+#EXIT
+Direction  South~
+ToRoom     16050
+#ENDEXIT
+Reset M    16019 1 16047 -1 -1 -1 100
+#EXDESC
+ExDescKey  desk~
+ExDesc     You see a piece of crumpled paper on the desk.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  paper~
+ExDesc     As you look closely at the bloodstained paper you see 
+scribbled on it, "Search the chairs"
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  chair~
+ExDesc                \/||\/
+          
+            O  O
+
+      ---          ----
+-----/   \-|    |-/   \
+     | | | \____/ | | |
+      W W          W W
+
+Kilroy was here.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16048
+Name       A Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a bedroom, this one is very neat with
+a chair, desk and a bed.
+~
+#EXIT
+Direction  South~
+ToRoom     16051
+#ENDEXIT
+Reset M    16020 1 16048 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16049
+Name       A Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a bedroom that is in complete disarray.
+The bed is wrecked and and the chair overturned in the corner.
+~
+#EXIT
+Direction  South~
+ToRoom     16052
+#ENDEXIT
+#EXDESC
+ExDescKey  chair~
+ExDesc     Scrawled in blood on the bottom of this chair are the
+words.
+
+      that which
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16050
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking in a long hall, there are stairs down
+here and at the other end of the hall, stairs up.
+~
+#EXIT
+Direction  North~
+ToRoom     16047
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16051
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16053
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     16042
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16051
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are walking down a hallway with doors off to the
+north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     16048
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16052
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16054
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16050
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16052
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are at the east end of a hallway.  Rooms are
+to the north and south and there are stairs 
+up to another level.
+~
+#EXIT
+Direction  North~
+ToRoom     16049
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16055
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16051
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     16056
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16053
+Name       A Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a bedroom that looks lived in.
+As with the other rooms here there is a bed, desk and
+chair.
+~
+#EXIT
+Direction  North~
+ToRoom     16050
+#ENDEXIT
+Reset M    16020 1 16053 -1 -1 -1 100
+#EXDESC
+ExDescKey  chair~
+ExDesc     Carved in the bottom of this chair is the word
+        
+            Open
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16054
+Name       A Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a charred bedroom, you can make
+out the remnants of a bed, desk and chair.
+~
+#EXIT
+Direction  North~
+ToRoom     16051
+#ENDEXIT
+#EXDESC
+ExDescKey  chair~
+ExDesc     You see marks that you think make up words but you
+can't make them out.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16055
+Name       A Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a bedroom that is amazingly neat and
+clean.  As usual there is bed, chair, and desk.
+~
+#EXIT
+Direction  North~
+ToRoom     16052
+#ENDEXIT
+Reset M    16019 1 16055 -1 -1 -1 100
+Reset M    16020 1 16055 -1 -1 -1 100
+#EXDESC
+ExDescKey  chair~
+ExDesc     On the bottom of this chair is carved.
+
+     should beat
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        16056
+Name       The Top of the Stairs~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have reached the top of the stairs.  There are doors to the
+north and south and more hallway to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     16057
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16061
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16059
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     16052
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16057
+Name       A Room Full of Statues~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a room full of statues.  Each one has
+hideous fangs and glares at you cruelly.
+~
+#EXIT
+Direction  South~
+ToRoom     16056
+#ENDEXIT
+Reset M    16023 10 16057 -1 -1 -1 100
+Reset M    16023 10 16057 -1 -1 -1 100
+Reset M    16023 10 16057 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16058
+Name       Alchemic Lab~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered an alchemic lab.  Beakers line the walls
+with different sorts of nasty things in them.  You don't
+even want to get close to see them.  Something bubbles 
+in a tube on the central table.
+~
+#EXIT
+Direction  South~
+ToRoom     16059
+#ENDEXIT
+Reset M    16022 1 16058 -1 -1 -1 100
+  Reset E  16019 3 4 100
+#ENDROOM
+
+#ROOM
+Vnum        16059
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       To the west stands a large set of ornate double doors.
+There are also openings to the north and south and 
+hallway to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     16058
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     16056
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     16060
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16062
+Desc       You see large double doors.
+~
+Keywords   doors door double~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    16059 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16060
+Name       Chemical Storage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This room contains shelf after shelf of potions, vials,
+and beakers.  Every color of the rainbow can be found here.
+A few boxes sit on the shelves.  Wonder what's in them?
+~
+#EXIT
+Direction  North~
+ToRoom     16059
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        16061
+Name       Coffin Storage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You gasp as you enter and see stacks of coffins filling 
+this room from floor to ceiling.  You hope there's nothing
+in them.
+~
+#EXIT
+Direction  North~
+ToRoom     16056
+#ENDEXIT
+Reset M    16021 3 16061 -1 -1 -1 100
+Reset M    16021 3 16061 -1 -1 -1 100
+Reset M    16021 3 16061 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        16062
+Name       Large Receiving Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a large hall.  At the opposite end of the
+entrance are two large double doors.  The door is black
+and appears to suck the light from this room.
+~
+#EXIT
+Direction  East~
+ToRoom     16059
+Desc       You see a door.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     16063
+Key        16004
+Desc       You see large blood stained doors.
+~
+Keywords   door doors~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    16024 1 16062 -1 -1 -1 100
+  Reset E  16032 99 17 100
+  Reset P  0 16004 1 16032 100
+  Reset E  16021 3 2 100
+Reset M    16023 10 16062 -1 -1 -1 100
+Reset M    16023 10 16062 -1 -1 -1 100
+Reset D    16062 1 1 100 -2
+Reset D    16062 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        16063
+Name       The Vampire Leader's Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a very large, dark room.  There are no windows and
+the door has slammed shut behind you.  There is no escape, only the
+tall, pale figure standing next to a long black coffin.
+~
+Reset M    16025 1 16063 -1 -1 -1 100
+  Reset E  16028 99 17 100
+  Reset E  16022 3 2 100
+Reset O    16027 1 16063 -1 -1 -1 100
+  Reset P  0 16030 3 16027 100
+  Reset P  0 16029 3 16027 100
+#ENDROOM
+
+#ENDAREA

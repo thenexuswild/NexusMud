@@ -1,0 +1,1587 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Drow City~
+Author          Unknown~
+Vnums           51000 51500
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       30
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        51000
+Keywords   goblin slave~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     sleeping~
+Short      the goblin slave~
+Long       A goblin slave lies here asleep.
+~
+Desc       The defenseless goblin begs for mercy.
+~
+Nattacks   1.000000
+Stats1     350 0 60 100 150 250
+Stats2     1 20 9 11 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51010
+Keywords   Drow commoner~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Drow commoner~
+Long       A drow commoner is here, walking around on guard duty.
+~
+Desc       I doubt he is the type to give directions.
+~
+Nattacks   2.000000
+Stats1     -1000 300 60 100 150 250
+Stats2     10 12 0 130 13 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51020
+Keywords   drow noble warrior~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the drow warrior noble~
+Long       A drow warrior noble stands here guarding his home.
+~
+Desc       He looks kind of p.o.ed!
+~
+Nattacks   2.000000
+Stats1     -1000 1000 60 100 150 250
+Stats2     12 9 0 160 14 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51030
+Keywords   drow noble mage~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the drow mage noble~
+Long       A drow mage noble is here protecting his home.
+~
+Desc       The mage prepares to cast a spell...at you!!
+~
+Nattacks   2.000000
+Stats1     -1000 2000 60 100 150 250
+Stats2     15 8 2 190 8 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51040
+Keywords   drow priestess~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the drow priestess~
+Long       A drow priestess is here shouting orders.
+~
+Desc       I wouldn't want go get on her bad side!
+~
+Nattacks   2.000000
+Stats1     -1000 4000 60 100 150 250
+Stats2     17 5 0 205 14 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51050
+Keywords   drow master~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the drow master~
+Long       A drow master stares at you angrily.
+~
+Desc       The drow master is ALWAYS ready for a fight.
+~
+Nattacks   2.000000
+Stats1     -1000 10000 60 100 150 250
+Stats2     21 0 0 248 18 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51060
+Keywords   drow weaponsmaster~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the weaponsmaster~
+Long       A drow weaponsmaster is here shadow boxing.
+~
+Desc       He definitely know his way around in combat.
+~
+Nattacks   2.000000
+Stats1     -1000 15000 60 100 150 250
+Stats2     23 0 -2 405 12 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51070
+Keywords   drow matron mother~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Matron Mother~
+Long       The Matron Mother of the house is standing here.
+~
+Desc       She looks really p.o.ed!!!!
+~
+Nattacks   2.000000
+Stats1     -1000 30000 60 100 150 250
+Stats2     24 0 -3 450 15 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51080
+Keywords   drow matron mother~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Matron Mother~
+Long       The Matron Mother of the first house is waiting for you.
+~
+Desc       She looks like she is about to rip your head of and eat it.
+~
+Nattacks   3.000000
+Stats1     -1000 40000 60 100 150 250
+Stats2     25 0 -4 350 12 0 24
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51089
+Keywords   yochlol~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the yochlol~
+Long       A yochlol forms out of a swirling mist...
+~
+Desc       The yochlol is not in a good mood.
+~
+Nattacks   2.000000
+Stats1     -1000 60000 60 100 150 250
+Stats2     23 0 -6 4500 15 1 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis flying sanctuary fireshield sleep iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        51090
+Keywords   yochlol~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the yochlol~
+Long       A yochlol forms out of a swirling mist...
+~
+Desc       The yochlol is not in a good mood.
+~
+Nattacks   2.000000
+Stats1     -1000 60000 60 100 150 250
+Stats2     23 0 -6 4500 15 1 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis flying sanctuary fireshield iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        51000
+Keywords   longsword commoner~
+Type       weapon~
+Short      a commoner's longsword~
+Long       A commoner's longsword made of adamantite has been left here.~
+Action     slash~
+WFlags     take wield~
+Values     0 1 8 1 0 0 0 0 0 0 0
+Stats      12 500 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51010
+Keywords   longsword noble~
+Type       weapon~
+Short      a noble's longsword~
+Long       A drow noble's longsword, made of adamantite, lies here.~
+Action     slash~
+WFlags     take wield~
+Values     0 1 8 1 0 0 0 0 0 0 0
+Stats      12 800 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51020
+Keywords   whip snake twoheaded~
+Type       weapon~
+Short      a snake headed whip~
+Long       A whip with two snakes heads lies here.~
+Action     slash~
+Flags      glow magic~
+WFlags     take wield~
+Values     0 2 6 1 0 0 0 0 0 0 0
+Stats      12 1500 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51030
+Keywords   whip snake threeheaded~
+Type       weapon~
+Short      a snake headed whip~
+Long       A whip with three snake heads has been left here.~
+Action     slash~
+Flags      glow magic~
+WFlags     take wield~
+Values     0 2 7 1 0 0 0 0 0 0 0
+Stats      12 2300 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51040
+Keywords   whip snake fourheaded~
+Type       weapon~
+Short      a snake headed whip~
+Long       A whip with four snake heads has been carelessly left here.~
+Action     slash~
+Flags      glow magic~
+WFlags     take wield~
+Values     0 2 8 1 0 0 0 0 0 0 0
+Stats      12 4000 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51050
+Keywords   longsword black~
+Type       weapon~
+Short      a black longsword~
+Long       A black longsword has been carelessly left here.~
+Action     slash~
+Flags      glow magic~
+WFlags     take wield~
+Values     0 2 8 1 0 0 0 0 0 0 0
+Stats      12 4000 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51060
+Keywords   whip snake fiveheaded~
+Type       weapon~
+Short      a snake headed whip~
+Long       A whip with 5 snake heads has been carelessly dropped here.~
+Action     slash~
+Flags      glow magic antigood~
+WFlags     take wield~
+Values     0 3 6 1 0 0 0 0 0 0 0
+Stats      12 4500 0 9999 0 None None None
+AffData    Strength -2 -1 -1 0
+AffData    Intelligence -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51070
+Keywords   whip snake sixheaded~
+Type       weapon~
+Short      a snake headed whip~
+Long       A whip with six snake heads has been dropped here very carelessly.~
+Action     slash~
+Flags      glow magic antigood~
+WFlags     take wield~
+Values     0 4 5 1 0 0 0 0 0 0 0
+Stats      12 8000 0 9999 0 None None None
+AffData    Strength -3 -1 -1 0
+AffData    Intelligence -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51080
+Keywords   bracers iron~
+Type       armor~
+Short      a pair of bracers~
+Long       A pair of bracers has been dropped here.~
+Flags      glow magic~
+WFlags     take arms~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      3 1000 0 9999 0 None None None
+AffData    hitroll -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51090
+Keywords   gauntlets strength~
+Type       treasure~
+Short      a pair of gauntlets~
+Long       A pair of gauntlets is lying on the ground.~
+Flags      glow~
+WFlags     take hands~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 3000 0 9999 0 None None None
+AffData    Strength 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51100
+Keywords   wand lightning blue silver~
+Type       wand~
+Short      a silvery blue wand~
+Long       A silvery blue wand has been dropped in the dirt.~
+Flags      magic~
+WFlags     take hold~
+Values     10 3 3  0 0 0 0 0 0 0
+Stats      1 3000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        51110
+Keywords   helmet helm~
+Type       armor~
+Short      a small helmet~
+Long       A small helmet lies up against a rock.~
+Flags      magic~
+WFlags     take head~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      5 3000 0 9999 0 None None None
+AffData    Intelligence 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51120
+Keywords   ring ruby~
+Type       treasure~
+Short      a small ruby ring~
+Long       A small ruby ring lies in the dirt.~
+Flags      magic~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 8000 0 9999 0 None None None
+AffData    hit 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51130
+Keywords   dagger sacrificial spidag~
+Type       weapon~
+Short      a spider shaped dagger~
+Long       A dagger with spider leg shaped blades lies on the ground.~
+Action     pierce~
+Flags      magic antigood~
+WFlags     take wield~
+Values     0 3 4 6 0 0 0 0 0 0 0
+Stats      8 15000 0 9999 0 None None None
+AffData    hitroll 3 -1 -1 0
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        51140
+Keywords   hat green~
+Type       armor~
+Short      a small bright green hat~
+Long       A small bright green hat lies in the dirt.~
+Flags      nodrop~
+WFlags     take head~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 600 0 9999 0 None None None
+AffData    armor -15 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        51000
+Name       City Entrance~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are at the entrance to a small underground city.  A great adamantite
+gate lies open to the west allowing entrance into the city.
+~
+#EXIT
+Direction  West~
+ToRoom     51010
+Desc       A huge gate opens to the west allowing entrance into the city.~
+Keywords   gate~
+#ENDEXIT
+#EXDESC
+ExDescKey  gate~
+ExDesc     A large adamantite gate with giant spider shaped emblems stands here.~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        51010
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate street going north-south.  A large gate
+lies to the east while a building lies to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     51230
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51000
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51020
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51220
+#ENDEXIT
+Reset M    51060 2 51010 -1 -1 -1 100
+  Reset E  51050 2 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51020
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street going north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     51010
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51030
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51030
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street going east-west.  A large house
+stands to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     51020
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51040
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51060
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51040
+Name       3rd House~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You stand inside the 3rd house of the city; it is fairly well decorated
+by drow standards having a few statues, murals and such.  A door leads to the 
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     51030
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51050
+Flags      isdoor~
+#ENDEXIT
+Reset M    51020 4 51040 -1 -1 -1 100
+  Reset E  51010 12 16 100
+Reset M    51030 4 51040 -1 -1 -1 100
+  Reset E  51020 12 16 100
+Reset M    51040 4 51040 -1 -1 -1 100
+  Reset E  51030 12 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51050
+Name       Throne Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The throne room of the 3rd house is about as decorated as the inner
+courtyard except with a blood covered altar in the center of the room.
+~
+#EXIT
+Direction  North~
+ToRoom     51040
+Flags      isdoor~
+#ENDEXIT
+Reset M    51070 3 51050 -1 -1 -1 100
+  Reset E  51060 3 16 100
+  Reset E  51110 2 6 100
+#ENDROOM
+
+#ROOM
+Vnum        51060
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street going east-west.  To the north
+is a large building.
+~
+#EXIT
+Direction  North~
+ToRoom     51180
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51030
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51070
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51070
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street leading north and east.  To the
+south is an extremely large house.
+~
+#EXIT
+Direction  North~
+ToRoom     51100
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51060
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51080
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51080
+Name       2nd House~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You stand inside the 2nd house of the city.  The room is highly decorated
+with statues of spiders and murals everywhere.
+~
+#EXIT
+Direction  North~
+ToRoom     51070
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51090
+Flags      isdoor~
+#ENDEXIT
+Reset M    51020 4 51080 -1 -1 -1 100
+  Reset E  51010 12 16 100
+Reset M    51030 4 51080 -1 -1 -1 100
+  Reset E  51020 12 16 100
+Reset M    51040 4 51080 -1 -1 -1 100
+  Reset E  51030 12 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51090
+Name       Throne Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The throne room of the 2nd house is just a little more decorative than
+the inner courtyard having an altar in the center of the room.
+~
+#EXIT
+Direction  East~
+ToRoom     51080
+Flags      isdoor~
+#ENDEXIT
+Reset M    51070 3 51090 -1 -1 -1 100
+  Reset E  51060 3 16 100
+  Reset E  51080 2 10 100
+#ENDROOM
+
+#ROOM
+Vnum        51100
+Name       Main Gate~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are at the entrance to the 1st house of the city.  A large gate, almost
+as big and elegant as the one at the entrance to the city, stands here.
+~
+#EXIT
+Direction  North~
+ToRoom     51140
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51070
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51110
+Desc       A large gate lies to the west.~
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51110
+Name       1st House~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You stand in the inner courtyard of the 1st and largest house in the city.
+The room is extremely large and decorative.  Mural and paintings hang on the 
+walls depicting some battles and a spider queen.
+~
+#EXIT
+Direction  East~
+ToRoom     51100
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51120
+#ENDEXIT
+Reset M    51020 4 51110 -1 -1 -1 100
+  Reset E  51010 12 16 100
+Reset M    51030 4 51110 -1 -1 -1 100
+  Reset E  51020 12 16 100
+Reset M    51040 4 51110 -1 -1 -1 100
+  Reset E  51030 12 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51120
+Name       Throne Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The throne room of the 1st house is in one word...awesome.  It is so
+horrifying it is almost beautiful.
+~
+#EXIT
+Direction  North~
+ToRoom     51130
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51110
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51130
+Name       Main Chamber~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          This is the council chamber for the Matron Mother herself.  A huge table
+and chairs surrounding it sits in the center of the room.
+~
+#EXIT
+Direction  South~
+ToRoom     51120
+Flags      isdoor~
+#ENDEXIT
+Reset M    51080 1 51130 -1 -1 -1 100
+  Reset E  51070 1 16 100
+  Reset E  51120 1 1 100
+#ENDROOM
+
+#ROOM
+Vnum        51140
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          You walk along a highly ornate city street leading north-south and east.
+~
+#EXIT
+Direction  North~
+ToRoom     51150
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51170
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51100
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51150
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street leading south.  A building is
+to the west.
+~
+#EXIT
+Direction  South~
+ToRoom     51140
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51160
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51160
+Name       Cleric Academy~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This is the most lavish of the academies being that it is for the clerics.
+~
+#EXIT
+Direction  East~
+ToRoom     51150
+Flags      isdoor~
+#ENDEXIT
+Reset M    51050 3 51160 -1 -1 -1 100
+  Reset E  51040 2 16 100
+  Reset E  51100 5 17 100
+#ENDROOM
+
+#ROOM
+Vnum        51170
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street going east-west.  To the north
+is a giant temple.
+~
+#EXIT
+Direction  North~
+ToRoom     51190
+Desc       The entrance to the temple of Lloth.~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51210
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51140
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51180
+Name       Warrior's Academy~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This looks more like a barracks than a school.
+~
+#EXIT
+Direction  South~
+ToRoom     51060
+#ENDEXIT
+Reset M    51010 10 51180 -1 -1 -1 100
+  Reset E  51000 50 16 100
+Reset M    51050 3 51180 -1 -1 -1 100
+  Reset E  51050 3 16 100
+  Reset E  51100 5 17 100
+#ENDROOM
+
+#ROOM
+Vnum        51190
+Name       Entrance to the Temple of Lloth~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The temple is the largest building in the city.  Even it's doors are beyond
+imagination.  Inside of the temple entrance, the walls are made of gold and 
+adamantite.
+~
+#EXIT
+Direction  South~
+ToRoom     51170
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     51260
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51200
+Name       Mage's Academy~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The Mage's Academy is fairly well decorated see that the drow prefer magic
+over physical power greatly.
+~
+#EXIT
+Direction  South~
+ToRoom     51210
+Flags      isdoor~
+#ENDEXIT
+Reset M    51050 3 51200 -1 -1 -1 100
+  Reset E  51040 2 16 100
+  Reset E  51100 5 17 100
+#ENDROOM
+
+#ROOM
+Vnum        51210
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street going eastward.  To the north is
+a building.
+~
+#EXIT
+Direction  North~
+ToRoom     51200
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51230
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51220
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51170
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51220
+Name       Slave Chamber~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The room is in shambles.  Traw is strewn all about the room as beds for the
+unfortunate creatures who have fallen prey to drow imperialism.
+~
+#EXIT
+Direction  North~
+ToRoom     51210
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51010
+#ENDEXIT
+Reset M    51000 15 51220 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        51230
+Name       City street~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You walk along a highly ornate city street leading west and south.  To the
+north is a relatively small house.
+~
+#EXIT
+Direction  North~
+ToRoom     51240
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51010
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51210
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51240
+Name       4th house~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc           You stand inside the 4th house of the city.  Its inner courtyard is rather 
+dull by drow standards and rather small as well.
+~
+#EXIT
+Direction  East~
+ToRoom     51250
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51230
+Flags      isdoor~
+#ENDEXIT
+Reset M    51020 4 51240 -1 -1 -1 100
+  Reset E  51010 12 16 100
+Reset M    51030 4 51240 -1 -1 -1 100
+  Reset E  51020 12 16 100
+Reset M    51040 4 51240 -1 -1 -1 100
+  Reset E  51030 12 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51250
+Name       Throne Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The throne room is basically similar to the inner courtyard in regards
+to decor.  there is a small throne behind the altar but that is about it.
+~
+#EXIT
+Direction  West~
+ToRoom     51240
+#ENDEXIT
+Reset M    51070 3 51250 -1 -1 -1 100
+  Reset E  51060 3 16 100
+  Reset G  51140 3 100
+#ENDROOM
+
+#ROOM
+Vnum        51260
+Name       Entrance Way~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You stand in the entrance way to the temple which opens up to the north
+into a large hallway going east and west.  Small statues os spiders line the
+entrance way's walls.
+~
+#EXIT
+Direction  North~
+ToRoom     51270
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     51190
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51270
+Name       Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+To the north is a obsidian stairway.
+~
+#EXIT
+Direction  North~
+ToRoom     51350
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51260
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51280
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51310
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51280
+Name       Long Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+~
+#EXIT
+Direction  East~
+ToRoom     51290
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51270
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51290
+Name       Long Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+To the north is a door.
+~
+#EXIT
+Direction  North~
+ToRoom     51500
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51300
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51280
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51300
+Name       Long Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+~
+#EXIT
+Direction  East~
+ToRoom     51340
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51290
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51310
+Name       Long Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+~
+#EXIT
+Direction  East~
+ToRoom     51270
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51320
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51320
+Name       Long Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+To the south is a door.
+~
+#EXIT
+Direction  East~
+ToRoom     51310
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51330
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51340
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51330
+Name       Warrior's Barracks~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The room is a complete mess.  None of the beds are made, clothes and other
+items have been left all about the room.  Well drow warriors never were known
+for neatness.
+~
+#EXIT
+Direction  North~
+ToRoom     51310
+Flags      isdoor~
+#ENDEXIT
+Reset M    51010 10 51330 -1 -1 -1 100
+  Reset E  51000 50 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51340
+Name       Long Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are in a long hallway lined with adamantite.  The walls are engraved
+with pictures of elves and spiders.  The hallway continues east and west.  As you
+look down the hallway you can make out one or two figures moving away from you.
+~
+#EXIT
+Direction  East~
+ToRoom     51320
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51300
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51350
+Name       Grand Stairway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are standing at the bottom of a giant obsidian and adamantite 
+stairway.  The edges are trimmed with gold.
+~
+#EXIT
+Direction  South~
+ToRoom     51270
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     51360
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51360
+Name       Grand Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are standing in the middle of a grand hallway.  The walls are 
+of the purest adamantite with gold trim.  Mosaics line the walls.
+~
+#EXIT
+Direction  North~
+ToRoom     51380
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51370
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     51350
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51370
+Name       Mage's Barracks~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The mage's living quarters is rather clean with the exception of a few
+used component containers.  It is rather well decorated as well.  Cots line the
+floor for the mages to sleep on.  the only door is to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     51360
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51380
+Name       Grand Hallway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are walking down a grand hallway, heavily decorated with adamantite
+and gold.  To the north the hall goes down a flight of stairs while a door is 
+too the west.
+~
+#EXIT
+Direction  South~
+ToRoom     51360
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51390
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     51400
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51390
+Name       Cleric's Barracks~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            The bed chamber is brightly decorated with spider shaped statues, murals
+and the like.  Large beds line the floor making this a comfortable room to live 
+in.
+~
+#EXIT
+Direction  East~
+ToRoom     51380
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51400
+Name       Grand Stairway~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are climbing a set of obsidian stairs surrounded by adamantite walls.
+To the north are a set of large golden doors.
+~
+#EXIT
+Direction  North~
+ToRoom     51410
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     51380
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51410
+Name       Main Chamber~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This is the south side of a large auditorium used for services by the
+drow priestesses.  In the center is a large sacrificial pit and beyond that is
+an altar.
+~
+#EXIT
+Direction  East~
+ToRoom     51420
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51400
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51440
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51420
+Name       Eastern Side of Chamber~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are on the eastern side of the chamber overlooking the pit.  To the east
+is a door while to the north is an altar.
+~
+#EXIT
+Direction  North~
+ToRoom     51450
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51460
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51410
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51430
+Name       Sacrificial Pit~
+Sector     indoors~
+Flags      death nomob~
+Stats      0 0 0 0 0
+Desc       A you climb down into the pit, thousands of spiders cover you, tearing your
+fragile body to shreds.  
+ 
+Lloth thanks you for your sacrifice.
+~
+#ENDROOM
+
+#ROOM
+Vnum        51440
+Name       Western Side of Chamber~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are on the western side of the main chamber overlooking a sacrificial
+pit.  To the north is an altar.
+~
+#EXIT
+Direction  North~
+ToRoom     51450
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     51410
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51450
+Name       The Altar~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You are standing in front of a highly and freshly bloodstained altar.  
+Engraved on the top of the altar is a giant spider with a human head.  Looking 
+down from the altar you see a large sacrificial pit with thousands of swarming
+spiders looking for their next meal!
+~
+#EXIT
+Direction  North~
+ToRoom     51480
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     51420
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51440
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     51430
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51460
+Name       Slave Cells~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This is the main room to the cell chambers for the slaves to be 
+sacrificed.  You notice there are no guards around.
+~
+#EXIT
+Direction  North~
+ToRoom     51470
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51420
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51470
+Name       Slave Pen~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            Rotten meat and breads lie about the floor while shackles hang from the 
+walls.  The room reeks of death.  You almost become nauseous and decide to leave
+the room since you were obviously too late to save the slave.
+~
+#EXIT
+Direction  South~
+ToRoom     51460
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51480
+Name       Dias~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            You stand upon a dias behind the altar.  Above you is a enormous illusion
+of a female drow turning into a giant spider and back again.  There is a door 
+to the west.
+~
+#EXIT
+Direction  South~
+ToRoom     51450
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     51490
+Flags      isdoor~
+#ENDEXIT
+Reset M    51089 1 51480 -1 -1 -1 100
+  Reset E  51130 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum        51490
+Name       The Treasury~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This is obviously only a temporary storage place for the collected 
+treasure being rather bare.
+~
+#EXIT
+Direction  East~
+ToRoom     51480
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        51500
+Name       Weaponsmaster's Chamber~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc            This one person bedchamber is very elegant.  The owner must be held in high 
+to get this kind of treatment.
+~
+#EXIT
+Direction  South~
+ToRoom     51290
+Flags      isdoor~
+#ENDEXIT
+Reset M    51060 2 51500 -1 -1 -1 100
+  Reset E  51050 2 16 1000
+  Reset E  51090 1 9 100
+#ENDROOM
+
+#ENDAREA

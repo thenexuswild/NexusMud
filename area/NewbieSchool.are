@@ -1,0 +1,938 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Newbie School~
+Author          Unknown~
+Vnums           600 618
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        You hear a whistle in the distance.~
+ResetFreq       5
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        600
+Keywords   trainer skills school m006~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Skill/Spell Trainer~
+Long       The Trainer is here to help you learn skills and spells.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     34 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        601
+Keywords   trainer stats school m006~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Stat Trainer~
+Long       The Trainer is here to help you raise your stats.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     34 0 -8 5000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        602
+Keywords   dummy school m006~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the practice dummy~
+Long       A practice dummy stands here.
+~
+Desc       He's made of old rags with painted eyes.  He doesn't look too threatening.
+~
+Nattacks   1.000000
+Stats1     0 100 60 100 150 250
+Stats2     1 20 10 5 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        600
+Keywords   light newbie halogen o006~
+Type       light~
+Short      A Solar Powered Halogen Flashlight~
+Long       A Solar Powered Halogen Flashlights blinds you.~
+Flags      hum~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+AffData    Wisdom 1 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+#EXDESC
+ExDescKey  light halogen~
+ExDesc     This light is very very bright!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        601
+Keywords   helmet newbie o006~
+Type       armor~
+Short      A Space Cadet Helmet~
+Long       A Space Cadet Helmet sits here, you should really put it on.~
+WFlags     take head~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+#EXDESC
+ExDescKey  helmet~
+ExDesc     This bright shiny helmet is yours to keep, just make sure it's polished
+when the commander comes around!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        602
+Keywords   pips newbie o006~
+Type       armor~
+Short      Pips~
+Long       Little metallic dots lie here.~
+WFlags     take neck~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+#EXDESC
+ExDescKey  pips metallic~
+ExDesc     These little round dots should be worn on your collar and will 
+label you as a cadet of Sapphire Dragon Outpost.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        603
+Keywords   newbie jacket survival o006~
+Type       armor~
+Short      A Survival Jacket~
+Long       A SDO survival jacket lies here.~
+WFlags     take about~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+AffData    hit 5 -1 -1 0
+#EXDESC
+ExDescKey  jacket survival~
+ExDesc     This jacket has a small computer menu tacked to the inside of it.
+There are labels to push for rain, snow, heat, and fair weather 
+conditions.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        604
+Keywords   uniform cadet newbie o006~
+Type       armor~
+Short      A SDO Cadet Uniform~
+Long       A SDO Cadet Uniform lays here neatly folded.~
+WFlags     take body~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  uniform cadet~
+ExDesc     This highly starched uniform shirt could stand up on it's own.  So 
+that's how cadets stand so long at attention!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        605
+Keywords   belt belt newbie o006~
+Type       container~
+Short      A Cadet Utility Belt~
+Long       A belt with many pouches and buttons sits here.~
+WFlags     take waist~
+Values     10 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Dexterity 1 -1 -1 0
+#EXDESC
+ExDescKey  belt~
+ExDesc     This belt made out of new space aged polymer has pouches and buttons.
+As you push the buttons you notice that the pouches rotate to ease in
+finding the contents that you have stored in them.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        606
+Keywords   pants black newbie o006~
+Type       armor~
+Short      Black Pants~
+Long       A pair of black pants is folded neatly here.~
+WFlags     take legs~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    move 5 -1 -1 0
+AffData    hitroll 1 -1 -1 0
+#EXDESC
+ExDescKey  pants black~
+ExDesc     These black pants seem to be made of a cross between spandex and polyester,
+no wonder they cling to you when you wear them.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        607
+Keywords   plates cyber newbie o006~
+Type       armor~
+Short      Cyber Plates~
+Long       A pair of shiny arm guards lie here,~
+WFlags     take arms~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#EXDESC
+ExDescKey  cyber plates arm~
+ExDesc     These shiny plates are made up of some metal you've never seen before
+and seem to be alive.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        608
+Keywords   bracelet id newbie o006~
+Type       armor~
+Short      A SDO Identification Bracelet~
+Long       An ID bracelet sits here.~
+WFlags     take wrist~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#EXDESC
+ExDescKey  bracelet id~
+ExDesc     Why look at that! it's got your name and bar code on it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        609
+Keywords   gloves black newbie o006~
+Type       armor~
+Short      A Pair of Black Gloves~
+Long       A pair of black gloves lie here.~
+WFlags     take hands~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Wisdom 1 -1 -1 0
+#EXDESC
+ExDescKey  gloves~
+ExDesc     These black gloves are made out of the same space age material as your
+pants.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        610
+Keywords   ring graduation newbie o006~
+Type       treasure~
+Short      A HoloMUD Class Ring~
+Long       A HoloMUD class ring sits here.~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+AffData    mana 5 -1 -1 0
+#EXDESC
+ExDescKey  ring class~
+ExDesc     Class of '95
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        611
+Keywords   boots heavy newbie o006~
+Type       armor~
+Short      Heavy Boots~
+Long       A pair of heavy boots.~
+WFlags     take feet~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    move 5 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+#EXDESC
+ExDescKey  boots heavy~
+ExDesc     These boots enable you to walk normally in the light gravity of the 
+station.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        612
+Keywords   technoshield shield techno newbie o006~
+Type       armor~
+Short      A Technoshield~
+Long       A technoshield sits here.~
+WFlags     take shield~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    mana 2 -1 -1 0
+AffData    hit 2 -1 -1 0
+#EXDESC
+ExDescKey  shield~
+ExDesc     This shield is made of the finest space aged metal available.
+You can even see yourself in it!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        613
+Keywords   blanket security newbie o006~
+Type       armor~
+Short      A Security Blanket~
+Long       A small square of cloth lies here.~
+WFlags     take hold~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  blanket~
+ExDesc     Hold me and you'll feel better.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        614
+Keywords   disrupter ion newbie o006~
+Type       weapon~
+Short      An Ion Disrupter~
+Long       An Ion Disrupter hums dangerously here.~
+WFlags     take wield~
+Values     0 3 4 6 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#EXDESC
+ExDescKey  ion disrupter~
+ExDesc     Congratulations on your purchase of the handy dandy Ion Disrupter!
+Pat Pending
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        615
+Keywords   cabinet locker o006~
+Type       container~
+Short      A tall locker.~
+Long       A tall locker stands here.~
+Values     1000 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  locker cabinet~
+ExDesc     Why don't you look inside it and see what's really there?
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        616
+Keywords   diploma newbie o006~
+Type       trash~
+Short      A Sapphire Dragon Academy Diploma~
+Long       A Sapphire Dragon Academy Diploma waits here for you to take it.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        600
+Name       Sapphire Dragon Academy~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A voice sounds over the speaker system:
+
+"Welcome to Sapphire Dragon Academy, this is the main newbie source for
+initial equipment and training for HoloMUD.  Before you decide to 
+continue with your training, I'd like to make sure that you are aware
+of some important policies.  If at any time you disagree with these 
+policies, or decide not to continue your training, please type "quit"
+and exit the game.  Now, please type "look policy".  After you have
+finished please type "n" and go north."
+
+Note: all commands are enclosed in "". To execute the commands, type the 
+enclosed phrase on your command line minus the quotes.  If you see 
+something like <command> that means substitute the bracketed text with
+the appropriate argument.
+~
+#EXIT
+Direction  North~
+ToRoom     601
+#ENDEXIT
+#EXDESC
+ExDescKey  policy~
+ExDesc     The following is an abbreviated version of the information you obtain
+by typing "help policy."
+
+1) Be polite to other players, i.e. "do unto others as you would have
+   them do unto you."
+
+2) Obscenities, racials slurs, and other immature behavior is not
+   tolerated.  In this day of telecommunication laws, we can not
+   allow this behavior.
+
+3) The utilization of bugs or loopholes is not allowed.  If you find
+   a bug or loophole, please inform an immortal (level 31+).  If the 
+   bug or loophole is significant, you will be rewarded.  If you do
+   not report it, expect not to play here.
+
+4) Kill stealing is not permitted.
+
+5) Multi-playing must be kept to a maximum of two chars per person on
+   line.
+
+We're trying to make a mud that is fun for EVERYONE here, this is
+the main point to any policy.  Personally We'd rather have a mud
+that requires no "police" work whatsoever.  And it may sound
+harsh, but we feel that we have to include the following:
+Playing any mud is not a right.  This MUD is here for the
+enjoyment of people, from newbies to the Implementors.  We try
+to be as fair as possible when making decisions, but any decision
+made by an immort over level 33 should be considered final.  You
+may appeal to one of the Implementors if you think something is
+unfair, but in most cases the decisions will be upheld.  If you
+do not feel that you can abide by that my recommendation is to
+get a listing of MUDs and to find one that you feel is more
+suited to your personality.  In any event, the decisions of
+the Implementors is final.
+
+Aramina and Exile
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        601
+Name       Entrance to the Newbie Academy~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Aramina looks at you and says, "Good, I'm glad you decided to
+stay and try out HoloMUD.  This academy is made up of 4 lessons,
+at the end of each lesson, get the diploma, type "hold diploma", and
+then "complete".  This will stabilize your holographic equipment
+and let you return to the station with it.  Your first lesson
+is on basic HoloMUD commands.  Please type "get all" to retrieve your
+basic equipment and then type "n" or "north" to enter the first room."
+~
+#EXIT
+Direction  North~
+ToRoom     602
+#ENDEXIT
+Reset O    603 99 601 -1 -1 -1 100
+Reset O    601 99 601 -1 -1 -1 100
+Reset O    613 99 601 -1 -1 -1 100
+Reset O    606 99 601 -1 -1 -1 100
+Reset O    611 99 601 -1 -1 -1 100
+Reset O    609 99 601 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        602
+Name       How to Move~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "The first commands you must learn are the movement commands.  There
+are 10 possible directions that you can go in, north, south, east
+west, up, down, northeast, northwest, southeast, and southwest.  All
+of the directions may be abbreviated. (n,s,e,w,u,d,ne,nw,se,sw)  
+It is a good idea to look before you move into another room, this can
+be done two ways either by "look <direction>" where direction is one of
+the above commands, or by "exits".  In some instances, you will not
+see an exit with the exits command but when you go in that direction
+it will tell you that the way is closed.  To go in that direction
+type "open <exit name> <direction>"  The direction is not always 
+required.  In other instances exits will exist that you won't be able
+to see.  The room description will usually give you a hint if this is
+the case, or you may have to use the search skill to find the exit.
+Rooms may have exits that can only be opened by performing a certain
+action, for example type "push button" in this room and you
+will see the northern exit open.  Please exit in that direction."
+~
+#EXIT
+Direction  North~
+ToRoom     603
+Keywords   button~
+Flags      isdoor~
+#ENDEXIT
+Reset D    602 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        603
+Name       Teleportation Rooms~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       16  604 0 0 100000
+Desc       "You have entered what is called a teleport room.  Rooms like this
+show no exits but transport you to another room after a certain 
+amount of time.  Some of these rooms do transport you to death
+traps which will cause you to lose all of your equipment so make
+sure that you read the descriptions carefully!  Now please wait and
+you will be transported to the next room."
+~
+#ENDROOM
+
+#ROOM
+Vnum        604
+Name       Manipulating Objects~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "To better your character, you must obtain and manipulate objects in the
+game.  The commands to help you do this are; get, drop, junk, donate,
+put, give, wear, grab, inventory, equipment, remove, and look.  Most of
+these commands are self explanatory.  Junk completely deletes and object
+from the game and donate allows you to send the object to a donation
+room for other people to get and use.  Inventory tells you what you 
+are carrying, and equipment tells you what you are currently using.
+look will tell you more about the object, room or a mob or another
+player.  If you want to learn specifics about an object, learn the
+readmagic skill and obtain an identify scroll then type
+"recite identify <object>".  Please go north."
+~
+#EXIT
+Direction  North~
+ToRoom     618
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        605
+Name       Some General Commands~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "A few other basic commands that you may find handy are: score, who,
+news, brief, socials, and display.  Information on all of these commands 
+is available by typing "help <subject>."  Take some time now to try them
+out.
+
+Because HoloMUD has over 300 commands for your use, rather than list 
+them here please type "command" and you will see a full command listing.  
+If at any time you have questions about a command, please don't hesitate 
+to ask on a newbie channel or ask a level 31+ (see who's on by typing 
+"who 31") after checking the help files. Please pick up your diploma
+before you leave."
+~
+#EXIT
+Direction  North~
+ToRoom     606
+#ENDEXIT
+Reset O    616 99 605 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        606
+Name       Congratulations!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "You have made it through the first part of your cadet training.  Please
+hold the diploma, and type "complete" to stabilize the items.
+Once you have done that, please continue north to the next lesson.
+~
+#EXIT
+Direction  North~
+ToRoom     607
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        607
+Name       Fight School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Exile grins at you, "Welcome, here you will learn how to fight, when
+to fight, why to fight, and when to flee or recall.  I hope that you 
+are prepared for this.  Pick up your new weapon and wield it by typing
+"wield ion"  Before you start, I suggest you type "wimpy 5", that way 
+you'll attempt to automatically try to flee before you are killed.  
+HoloMUD uses a system of credits, credits are used for everything from
+leveling to buying things.  The ways to obtain credits are to complete
+quest areas, as you just did, selling items when you reach level 10,
+or my favorite way of gaining them, killing monsters.
+Remember, no pain, no gain."
+~
+#EXIT
+Direction  North~
+ToRoom     608
+#ENDEXIT
+Reset O    612 99 607 -1 -1 -1 100
+Reset O    614 99 607 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        608
+Name       Your First Fight~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Now before you go killing this monster in front of you, you should
+learn a few things about battle.  Before you kill a monster, you
+should first check to see if it's possible for you to even win the
+battle or not.  You can get an idea of this by typing "consider <mob>".
+The consider command will display a different message depending on
+the comparison of your hit points and the mobs and your armor class
+and the mobs.  Now to battle the monster, type "kill <mob>"."
+~
+#EXIT
+Direction  North~
+ToRoom     609
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     607
+#ENDEXIT
+Reset M    602 99 608 -1 -1 -1 100
+  Reset E  600 99 0 100
+#ENDROOM
+
+#ROOM
+Vnum        609
+Name       Your Second Fight~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Good! You made it.  Now I'll tell you a little about some commands on 
+HoloMUD.  HoloMUD has several nice commands to help you with your 
+battle messages.  The battle command allows you to reduce the amount 
+of spam that you get in battle.  You can opt for just a little spam 
+with battle off, medium spam with battle brief, or full
+spam with battle complete.  If you'd like to automatically see the 
+condition of the monster you're battling type "autocond."  To see 
+your condition and available exits, type "display all".  Now kill the
+monster by typing "kill dummy" "
+~
+#EXIT
+Direction  North~
+ToRoom     610
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     608
+#ENDEXIT
+Reset M    602 99 609 -1 -1 -1 100
+  Reset E  605 99 13 100
+#ENDROOM
+
+#ROOM
+Vnum        610
+Name       Your Last Fight~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Congratulations!  I thought you'd die there for sure.  Well, since
+you made it this far, I'll give you a few hints on ways to escape from
+a battle gone wrong.  If you feel you can't cut it against a mob then
+just be a wimp and type "flee".  This will cause you to lose lots of
+experience and it may not work all the time.  If you're really desperate
+you can type "recall" or "/" and end your simulation and return to
+the holobooth.  This causes you to lose even MORE experience.  Or,
+you can take it like a man and DIE!  You'll still lose experience but
+your equipment will still be with you and you'll be returned to the
+holobooth.  Now go ahead and type "kill dummy", you shouldn't have
+to flee with this one but......."
+~
+#EXIT
+Direction  North~
+ToRoom     611
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     610
+#ENDEXIT
+Reset M    602 99 610 -1 -1 -1 100
+  Reset E  607 99 10 100
+#ENDROOM
+
+#ROOM
+Vnum        611
+Name       Amazing!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "See, I told you you could do it.  Now, you'll have to fight the 
+mob in front of you to get your diploma, go north and complete this school
+but you killed the last three just fine so I'm sure you can do this.
+Just beware of that mobs special abilities.  Oh! I forgot Aramina
+made me take them off of the mob so you'd have at least a chance.
+Have fun in the rest of your studies and just remember, if you have
+a question don't ask me, bug Aramina."
+~
+#EXIT
+Direction  North~
+ToRoom     612
+#ENDEXIT
+Reset M    602 99 611 -1 -1 -1 100
+  Reset E  616 99 17 100
+  Reset E  604 99 5 100
+#ENDROOM
+
+#ROOM
+Vnum        612
+Name       Fight School Graduation~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A voice comes over the loud speaker.
+"Please hold the diploma and type complete, then head north to your
+next lesson." 
+~
+#EXIT
+Direction  North~
+ToRoom     613
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        613
+Name       Training School~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Aramina says, "Welcome back, this school teaches you about credits,
+stats, skills and spells.  On HoloMUD, credits are used for everything.
+With them you level, buy stats, buy skills, and buy equipment.  As 
+you learned in the last school, the best way to earn credits is to 
+kill mobs.  Now you have to decide just how you want to use those
+credits.  To the west is the room to train skills and spells, to the east is
+the room to train stats and north is a room explaining how to level. To
+the south is the room to exit this portion of the school."
+~
+#EXIT
+Direction  North~
+ToRoom     614
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     615
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     617
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     616
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        614
+Name       Gaining~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This equipment that you've been picking up is called "leveling equipment" 
+This is because it raises your stats when you wear it.  Your stats, natural 
+and adjusted, affect how many hps and mana you gain upon leveling.  
+The exact rates are dependent on race and you can find out more specifics 
+by typing "help gain"  Once you have worn your leveling equipment and you have
+enough credits, type gain.  You may want to have a bit of a credit
+buffer before you do this.  On HoloMUD you can go to negative credits
+if you die and the more negative you are, the more chance that your
+character will permanently die.  Now, check if you have enough 
+credits by typing "score" or "score l" and if you do type "gain"."
+~
+#EXIT
+Direction  South~
+ToRoom     613
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        615
+Name       Stat Training~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "On HoloMUD your stats can be increased to a maximum of 18/100 on strength
+and 18 on any other stat.  This is done by training a specific stat
+in exchange for credits.  The cost of each stat is 100 for the first
+stat and then 10x that up to a maximum of 5 million per stat.  Your
+stats affect how many hps and mana you get when you gain levels.  Information
+on this can be found in "help gain".  To train a stat, go to the trainer
+and type "train <stat>" where stat is the first three letters of the
+stat you'd like to train i.e. "train str" would train strength.  Once
+you are too experienced to run through this newbie school, you will
+have to seek out the trainers on the station.  You can find them by
+using "help station", they can be found in the training tower on the
+promenade deck. When you reach a trainer, type "train" and a message
+will appear telling you what stat that trainer can advance you in."
+~
+#EXIT
+Direction  West~
+ToRoom     613
+#ENDEXIT
+Reset M    601 1 615 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        616
+Name       Skill and Spell Training~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "There are no classes on HoloMUD so every race can learn every skill and
+spell to varying degrees of success.  To train a skill or spell, locate
+a trainer and type "train"  This will give you a list of all the
+skills and spells that you can train as well as their cost.  To train
+a specific skill or spell type "train <skill/spell>" and if you have
+the correct amount of credits you will now be able to use that new
+knowledge.  The number of skills or spells you can learn at any one
+level is based on your intelligence.  You can learn a maximum of 
+3 skills or spells at any given level of ability if your intelligence
+is at 17 or above when you train.  To see which skills or spells you
+already know, type "spheres" and to see what's available at a 
+certain level type "spells <level>".  You will start off knowing 
+the skill or spell at a low percentage, but the more you use it the
+better it will become.  Once you are too high of a level for this 
+area, you will have to find the trainers on the station.  You can find
+them by typing "help station" and "help FAQ1" or asking any immortal
+(level 31+) on which mob will train you in which sphere."
+~
+#EXIT
+Direction  East~
+ToRoom     613
+#ENDEXIT
+Reset M    600 1 616 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        617
+Name       The Final Diploma~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Congratulations!  You have completed your education in the Sapphire
+Dragon Academy.  I hope that you have learned enough about HoloMUD to
+help you start your adventures here.  If you need further help,
+please use the help files, the newbie channel, or ask an immortal
+(level 31+).  Now pick up your diploma, your graduation ring, your id
+bracelet and your rank insignia pips, hold the diploma and type complete.  
+Then, go north to the holodeck.  When you get to the holodeck, type 
+list to see the names of the areas you can visit, then type "run <area>". 
+Until you've gained a few levels, I recommend that you run the newbie realms.  
+Good Luck! and Have Fun!"
+~
+#EXIT
+Direction  North~
+ToRoom     1000
+#ENDEXIT
+Reset O    602 99 617 -1 -1 -1 100
+Reset O    608 99 617 -1 -1 -1 100
+Reset O    610 99 617 -1 -1 -1 100
+Reset O    616 99 617 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        618
+Name       Communicating~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "There are several ways to communicate to other players and the immortals,
+For information on communication to other players on line type "look
+players", for information on how to use the mail system type "help mail",
+for information on how to post to one of the several boards type
+"help boards". The most important communication line for newbies is
+the newbie channel, to communicate on this channel type "newbie <phrase>"
+Please continue to the next room."
+~
+#EXIT
+Direction  North~
+ToRoom     605
+#ENDEXIT
+#EXDESC
+ExDescKey  players~
+ExDesc     for general conversation the following are available:
+
+COMMAND      TOGGLE         ACTION
+-------      ------         ------
+say or '      none          sends your phrase to everyone in the room
+gsay          none          sends your phrase to everyone in your group
+tell          notell        sends your phrase to one person you specify
+ask           none          sends a question to one person in the room
+whisper       none          sends the phrase to one person in the room
+gossip        nogossip      sends the phrase to everyone on the gossip line
+grats         nograts       sends the phrase to everyone on the grats line
+trade         notrade       sends the phrase to everyone on the trade line
+newbie        nonewbie      sends the phrase to everyone on the newbie line
+qsay          quest         sends the phrase to everyone on the quest line
+afk			  afk           sends people that tell to you a message saying
+							that you are away from your keyboard.
+ignore <pc>   ignore        prevents communications from the specified PC.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ENDAREA

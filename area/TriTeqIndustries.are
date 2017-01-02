@@ -1,0 +1,2618 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            TriTeq Industries~
+Author          Unknown~
+Vnums           26000 26190
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       60
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        26001
+Keywords   terminator t101 quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the T-101~
+Long       The Terminator (Model T-101) is here, hunting someone.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -15 -10 7500 8 0 45
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden flying sanctuary fireshield aqua_breath iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26002
+Keywords   terminator t1001 quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the T-1001~
+Long       The Terminator (Model T-1001) is here, hunting someone.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     38 -20 -10 10000 8 0 55
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden flying sanctuary fireshield aqua_breath iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26003
+Keywords   tarrasque quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Tarrasque~
+Long       The legendary Tarrasque is here, ravaging the countryside.
+~
+Desc       This creature is a scaly biped with two horns on it's head, a
+lashing tail and a reflective carapace. The Tarrasque is a killing
+machine and when activated will eat or destroy everything for miles
+around.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     33 -5 -7 14500 7 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26004
+Keywords   kurgan quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Kurgan~
+Long       The Kurgan is here, chopping off people's heads.
+~
+Desc       The Kurgan is dressed in black studded leather.  He has a large scar 
+across his neck.  As you approach, he finishes putting together his
+sword. He then yells, 'There can be only one!' and attacks....
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     34 0 -8 12600 5 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26005
+Keywords   predator quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Predator~
+Long       The Predator is here, wait no he isn't, yes he is, ack! RUN!
+~
+Desc       You see a rippling in the air and nothing more. The Predator is
+attacking you for your skull. It will display it proudly among
+its collection. You should feel honored:)
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     35 -10 -9 15750 6 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   invisible detect_invis detect_hidden flying sanctuary fireshield aqua_breath sneak hide infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26006
+Keywords   jaws shark quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Jaws~
+Long       Jaws, the killer shark is here, searching for blood.
+~
+Desc       Jaws is just like any other killer shark, mean, nasty and very very
+hungry. Not only that, but he's twice the normal size of any killer
+shark you've ever seen. That makes him twice as hungry. I think you
+had better run.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     32 0 -6 12500 6 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary aqua_breath iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26007
+Keywords   darth vader quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Darth Vader~
+Long       Darth Vader is here, searching for Luke.
+~
+Desc       He is dressed in all black. Darth Vader is mostly a machine now. Very
+little of his humanity remains.  As he approaches you can hear the sound
+of his breathing apparatus. 'woosh, tssssh'. He notices you, and is not
+very pleased to see you. He raises his hand, and you begin to choke.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     34 -5 -8 6750 7 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26008
+Keywords   borg quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Borg~
+Long       The Borg are here, assimilating everything.
+~
+Desc       You see before you a group of cyborgs. They seem to work as a whole,
+rather than individually. As they approach you can hear them saying,
+'Resistance is futile,  you will be assimilated.' Chances are they're
+not here for tea and crumpets. Your magic doesn't seem to work very
+well around them! Maybe it's time to....RUN! 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     32 1 -6 12600 6 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden flying sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26009
+Keywords   godzilla quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Godzilla~
+Long       Godzilla is here, stomping Tokyo into a pancake again.
+~
+Desc       Godzilla towers over 100 meters and breaths a 50 meter cone of
+nuclear fire! He's not bad, he's just hungry. And after eating
+some of those Nuclear Sumbmarines he gets a bad case of heartburn.
+So where does he go? Tokyo, to search for an Alka-Seltzer factory.
+It's not his fault they don't make the streets big enough for him to 
+walk on. 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     34 -5 -8 12500 7 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26010
+Keywords   kong king quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      King Kong~
+Long       King Kong is here, climbing up the Empire State Building.
+~
+Desc       King Kong is a really really big gorilla. He has an affinity for 
+beautiful women, bananas, and climbing tall structures. One might
+ask, 'Where does such a creature sit?' and another would answer,
+'Anywhere he damn well pleases:)'
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     32 1 -6 10000 8 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26011
+Keywords   batman quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Batman~
+Long       Batman is here bringing criminals to his own form of vigilante justice.
+~
+Desc       He's tall, dark and kind of resembles a bat. With the Wayne family 
+fortune behind him he has succesfully defeated many a criminal. 
+Still, some people wonder if he isn't just as bad as the criminals
+he captures, or just as crazy.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -3 -10 14500 6 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary iceshield sneak hide infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26012
+Keywords   spiderman quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Spiderman~
+Long       Spiderman is here, clinging to a wall.
+~
+Desc       Spiderman, Spiderman, does whatever a spider can.
+Spins a web anytime, catches thieves just like flies.
+Look out, here comes the Spiderman!
+~
+Nattacks   4.000000
+Stats1     350 0 60 100 150 250
+Stats2     33 -5 -7 12750 7 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   invisible detect_evil detect_invis detect_magic detect_hidden sanctuary sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26013
+Keywords   hulk incredible quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Incredible Hulk~
+Long       A 10 foot extremely muscular green guy is here, ready to tear you apart.
+~
+Desc       HULK SMASH!!!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -10 -10 11500 3 0 70
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26014
+Keywords   flash quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Flash~
+Long       The Flash is here, moving near the speed of sound!
+~
+Desc       You can almost make out a trail of flames behind him as he moves!
+~
+Nattacks   4.000000
+Stats1     750 0 60 100 150 250
+Stats2     36 -10 -10 13500 10 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   invisible sanctuary iceshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26015
+Keywords   gord rogue quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Gord the Rogue~
+Long       Gord the Rogue, Champion of the Balance stands here.
+~
+Desc       You must learn Balance Grasshoppa!
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 -20 -10 1 50 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_evil detect_invis detect_hidden sanctuary aqua_breath sneak hide infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26016
+Keywords   lightning ball quest m260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Ball Lightning~
+Long       A Ball of Pure Lightning floats here, electrocuting everything.
+~
+Desc       Zzzzzzzzzzzzzzzzzzzzaaaaaapppppp!!!
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 1 100 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden flying sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26050
+Keywords   evil great quest z260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Great Evil~
+Long       The Great Evil stands here, corrupting the air with his very presence.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     36 -20 -10 25000 100 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_evil detect_invis detect_magic detect_hidden flying sanctuary fireshield aqua_breath sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26051
+Keywords   evil lesser quest z260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Lesser Evil~
+Long       A Lesser Evil stands here, it's corruption exuding from every pore.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     34 -20 -8 25000 100 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_evil detect_invis detect_magic detect_hidden flying sanctuary fireshield aqua_breath sneak infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26096
+Keywords   zombie quest z260~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Zombie~
+Long       The Zombie
+~
+Desc       You see a nauseating visage that looks like it rose straight from the
+grave...
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     5 15 9 20 3 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26097
+Keywords   zombie master zombiemaster quest z260~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The Zombie Master~
+Long       The Zombie Master is here, raising legions of undead.
+~
+Desc       The Zombie Master is the master of a legion of animated corpses and
+various undead.  Threaten him at your own risk...
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     35 0 -9 3000 4 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        26099
+Keywords   nudge guy z260~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Nudge Nudge Guy~
+Long       The Nudge Nudge Guy is standing here, winking at you.
+~
+Desc       He smiles knowingly.
+ 
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 1 -5 1 4 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        26000
+Keywords   shotgun gun terminator quest o260~
+Type       weapon~
+Short      the Terminator's shotgun~
+Long       The Terminator's shotgun is here, better hope he isn't looking for it.~
+Flags      magic~
+WFlags     take wield~
+Values     0 8 6 6 0 0 0 0 0 0 0
+Stats      5 1000000 0 9999 0 None None None
+AffData    damroll 6 -1 -1 0
+AffData    hit 25 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product by TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26001
+Keywords   shades terminator quest o260~
+Type       armor~
+Short      the Terminator's shades~
+Long       The Terminator has left his shades here. Better hope he's not looking for em.~
+WFlags     take head~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 2 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26002
+Keywords   shield terminator quest o260~
+Type       armor~
+Short      a Poly-amemetic Alloy Shield~
+Long       A quicksilver looking object has been left here.~
+WFlags     take shield~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData affected  'sanctuary' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26003
+Keywords   eye tarrasque quest o260~
+Type       light~
+Short      the Eye of the Tarrasque~
+Long       A evilly glowing eye has been left here.~
+Flags      magic nodrop~
+WFlags     take hold~
+Values     10 0 -1 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26004
+Keywords   scar kurgen quest o260~
+Type       armor~
+Short      the scar of the Kurgen~
+Long       You don't even want to know what it is that's laying here.~
+WFlags     take neck~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    move 30 -1 -1 0
+AffData    hit 30 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26005
+Keywords   field phased stealth light predator quest o260~
+Type       armor~
+Short      the Predator's Phased-Light Stealth Field~
+Long       You can't quite make out whatever it is that's on the ground here.~
+Flags      invis~
+WFlags     take body~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 20 -1 -1 0
+AffData    hit 20 -1 -1 0
+AffData affected  'invisible' -1 -1 0 
+AffData affected  'fireshield' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26006
+Keywords   tooth jaws quest o260~
+Type       weapon~
+Short      Jaws' Tooth~
+Long       You almost trip over a large tooth embedded in the floor here.~
+WFlags     take wield~
+Values     10 1 33 6 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    Strength 1 -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26007
+Keywords   lightsabre light sabre quest o260~
+Type       weapon~
+Short      a lightsabre~
+Long       A small metal cylindar lies here. It looks dangerous.~
+Flags      glow hum~
+WFlags     take wield~
+Values     0 8 5 1 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    hitroll 5 -1 -1 0
+AffData    damroll 5 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData affected  'iceshield' -1 -1 0
+#EXDESC
+ExDescKey  light sabre label tag~
+ExDesc     It's a small metal cylindar with a small depression just big enough for
+your thumb. You notice a small tag on one side.
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26008
+Keywords   interface cybernetic borg quest o260~
+Type       armor~
+Short      a Borg CyberNetic Interface~
+Long       A high-tech computer interface has been left here.~
+WFlags     take hands~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Wisdom -3 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    move 20 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26009
+Keywords   bambi corpse flattened quest o260~
+Type       container~
+Short      The flattened corpse of Bambi~
+Long       You see the flattened remains of poor little Bambi crushed into the ground here.~
+WFlags     take hold~
+Values     10000 0 -1 10 0 -1 0 0 0 0 0
+Stats      20 1000000 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData    mana 25 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26010
+Keywords   suit king kong monkey quest o260~
+Type       armor~
+Short      King Kong's Monkey Suit~
+Long       A pile of fur has been left here.~
+WFlags     take about~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      30 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    Strength 2 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26011
+Keywords   belt utility batman quest o260~
+Type       armor~
+Short      Batman's Utility Belt~
+Long       A bright yellow belt has been left here.~
+Flags      invis magic~
+WFlags     take waist~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData    Strength 3 -1 -1 0
+AffData    hit 15 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26012
+Keywords   webslinger web spiderman quest o260~
+Type       armor~
+Short      Spiderman's Webslinger~
+Long       A strange metal bracelet has been left here.~
+WFlags     take wrist~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hitroll 2 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData    mana 20 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26013
+Keywords   shorts tattered hulk quest o260~
+Type       armor~
+Short      Hulk's Tattered Shorts~
+Long       HULK SMASH!!!~
+WFlags     take legs~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      3 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 5 -1 -1 0
+AffData    hit 40 -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26014
+Keywords   boots flash quest o260~
+Type       armor~
+Short      Flash's Boots~
+Long       You see a pair of bright red boots with yellow lightning bolts on them here.~
+WFlags     take feet~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      0 1000000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    move 75 -1 -1 0
+AffData affected  'flying' -1 -1 0
+AffData affected  'haste' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26015
+Keywords   ring cats-eye chrysoberyl quest o260~
+Type       armor~
+Short      a cats-eye chrysoberyl ring~
+Long       A cats-eye chrysoberyl ring has been left here.~
+Flags      invis~
+WFlags     take finger~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Dexterity 5 -1 -1 0
+AffData    move 30 -1 -1 0
+AffData    hit 30 -1 -1 0
+AffData    mana 30 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26016
+Keywords   armlets lightning quest o260~
+Type       armor~
+Short      armlets of pure lightning~
+Long       A small ball of electricty floats thru the air.~
+Flags      glow invis~
+WFlags     take arms~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Strength 5 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#EXDESC
+ExDescKey  label~
+ExDesc     Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26050
+Keywords   ward great z260~
+Type       treasure~
+Short      The Great Ward~
+Long       The Great Ward is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26051
+Keywords   ward one z260~
+Type       treasure~
+Short      ward one~
+Long       Ward One is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26052
+Keywords   ward two z260~
+Type       treasure~
+Short      ward two~
+Long       Ward Two is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26053
+Keywords   ward three z260~
+Type       treasure~
+Short      ward three~
+Long       Ward Three is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26054
+Keywords   ward four z260~
+Type       treasure~
+Short      ward four~
+Long       Ward Four is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26055
+Keywords   ward five z260~
+Type       treasure~
+Short      ward five~
+Long       Ward Five is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26073
+Keywords   morotronix super durian quest o260~
+Type       weapon~
+Short      a Morotronix Super-Durian~
+Long       A Morotronix Super-Durian Model 101 is lying here.~
+Flags      glow hum magic~
+WFlags     take wield~
+Values     0 5 9 6 0 0 0 0 0 0 0
+Stats      7 40000 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  durian~
+ExDesc     The Super-Durian is the latest and greatest achievement in offensive,
+backstabbing fruit, by Morotronix INC (& TriTeq Industries). It consists
+of a small green fruit from an East Indian Tree (Durio Zibethinus) of
+the silk-cotton family. It has an oval grip with a retractable prickly
+rind guaranteed to pierce the toughest hides.
+ 
+"Morotronix -- making life sillier for the contemporary adventurer."
+"TriTeq Industries -- when you want the best, get TriTeq."
+ 
+I.T. & Orom
+CEO/Chief Engineer & EEEEDIOT.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26074
+Keywords   bug golden o260~
+Type       light~
+Short      a golden bug~
+Long       An 'I survived the bug' award is lying here.~
+Flags      glow magic~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'flying' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        26075
+Keywords   holomud holo ticket o260~
+Type       paper~
+Short      a HoloMud Quest Ticket~
+Long       A HoloMud Quest Ticket is lying here. Better not lose it.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26076
+Keywords   holomud holo token o260~
+Type       treasure~
+Short      A HoloMud Quest Token~
+Long       A HoloMud Quest Token is lying here. Better not lose it.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26077
+Keywords   holomud holo clue o260~
+Type       paper~
+Short      a HoloMud Quest Clue~
+Long       A HoloMud Quest Clue is here. Without it, you'd be clueless.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26078
+Keywords   holomud holo sign o260~
+Type       paper~
+Short      a HoloMud Quest Clue Sign~
+Long       A HoloMud Quest Clue Sign is here. Without it, you'd be clueless.~
+Flags      glow hum~
+WFlags     hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26080
+Keywords   ring secret decoder triteq quest o260~
+Type       container~
+Short      TriTeq Industries Super-Secret Decoder Ring~
+Long       TriTeq Industries Super-Secret Decoder ring has been left here.~
+Flags      invis magic~
+WFlags     take finger~
+Values     100 5 -1 10 0 -1 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Intelligence 5 -1 -1 0
+AffData    Wisdom 5 -1 -1 0
+AffData affected  'invisible' -1 -1 0
+AffData affected  'detect_evil' -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'detect_magic' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        26091
+Keywords   mindsword mind sword artifact o260~
+Type       weapon~
+Short      Mindsword~
+Long       The great Mindsword has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 9 5 1 0 0 0 0 0 0 0
+Stats      10 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    Intelligence 6 -1 -1 0
+AffData    Wisdom 6 -1 -1 0
+AffData affected  'fireshield' -1 -1 0
+AffData affected  'protect' -1 -1 0
+#EXDESC
+ExDescKey  mindsword sword symbol inscription label~
+ExDesc     This sword is a full meter long with lightly fluted sides. It has
+a black hilt. Upon the hilt is a white symbol.
+The symbol is that of a banner.
+The Mindsword spun in the dawn's gray light
+And men and demons knelt down before.
+The Mindsword flashed in the midday bright
+Gods joined the dance, and the march to war.
+It spun in the twilight dim as well
+And gods and men marched off to hell. 
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26092
+Keywords   townsaver town sword saver artifact o260~
+Type       weapon~
+Short      Townsaver~
+Long       The great Sword of Fury has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 8 5 1 0 0 0 0 0 0 0
+Stats      10 1000000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 25 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData affected  'sanctuary' -1 -1 0
+#EXDESC
+ExDescKey  townsaver sword symbol inscription label~
+ExDesc     This sword is a full meter long with lightly fluted sides. It has
+a black hilt. Upon the hilt is a white symbol.
+The symbol is that of a sword over a battlement.
+Long roads the Sword of Fury makes
+Hard walls it builds around the soft
+The fighter who Townsaver takes
+Can bid farewell to home and croft. 
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26093
+Keywords   soulcutter soul sword cutter artifact o260~
+Type       weapon~
+Short      Soulcutter~
+Long       The great Tyrant's Blade has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 9 5 1 0 0 0 0 0 0 0
+Stats      0 1000000 0 9999 0 None None None
+AffData    Strength -3 -1 -1 0
+AffData    Constitution -3 -1 -1 0
+AffData    damroll 4 -1 -1 0
+AffData    armor 25 -1 -1 0
+#EXDESC
+ExDescKey  soulcutter sword symbol inscription label~
+ExDesc     This sword is a full meter long with lightly fluted sides. It
+has a black hilt. The hilt is unadorned.
+There is no symbol on this sword's hilt.
+The Tyrant's Blade no blood hath spilled
+But doth the spirit carve
+Soulcutter hath no body killed
+But many left to starve. 
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26094
+Keywords   shieldbreaker shield sword breaker artifact o260~
+Type       weapon~
+Short      Shieldbreaker~
+Long       The great sword Shieldbreaker has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 9 5 1 0 0 0 0 0 0 0
+Stats      0 1000000 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    hit 25 -1 -1 0
+AffData    mana -25 -1 -1 0
+AffData    move -25 -1 -1 0
+AffData affected  'haste' -1 -1 0
+#EXDESC
+ExDescKey  inscription symbol shieldbreaker label~
+ExDesc     I shatter Swords and splinter spears;
+None stands to Shieldbreaker.
+My point's the fount of orphans' tears
+My edge the widowmaker.
+The symbol is that of a hammer.
+This sword is a full meter long with lightly fluted sides. It
+has a black hilt. Upon the hilt is a white symbol.
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26095
+Keywords   sightblinder sight sword blinder artifact o260~
+Type       weapon~
+Short      Sightblinder~
+Long       The great Sword of Stealth has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 9 5 1 0 0 0 0 0 0 0
+Stats      2 15000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData affected  'invisible' -1 -1 0
+AffData affected  'detect_evil' -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'detect_magic' -1 -1 0
+AffData affected  'flying' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#EXDESC
+ExDescKey  sightblinder symbol inscription label~
+ExDesc     This sword is a full meter long with lightly fluted sides. It
+has a black hilt. Upon the hilt is a white symbol.
+The symbol is that of a eye.
+The Sword of Stealth is given to
+One lowly and despised.
+Sightblinder's gifts: his eyes are keen
+His nature is disguised.
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26096
+Keywords   coinspinner coin sword spinner artifact o260~
+Type       weapon~
+Short      Coinspinner~
+Long       The great Sword of Chance has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 9 5 1 0 0 0 0 0 0 0
+Stats      2 1000000 0 9999 0 None None None
+AffData    hitroll 50 -1 -1 0
+AffData    save_all -25 -1 -1 0
+AffData    damroll 3 -1 -1 0
+AffData    save_spell -25 -1 -1 0
+AffData affected  'iceshield' -1 -1 0
+#EXDESC
+ExDescKey  coinspinner symbol inscription label~
+ExDesc     This sword is a full meter long with lightly fluted sides. It
+has a black hilt. Upon the hilt is a white symbol.
+The symbol is that of a pair of dice.
+Who holds Coinspinner knows good odds
+Whichever move he make
+But the Sword of Chance, to please the gods,
+Slips from him like a snake.
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26097
+Keywords   woundhealer wound sword healer artifact o260~
+Type       weapon~
+Short      Woundhealer~
+Long       The great Sword of Mercy has been left here.~
+Flags      glow~
+WFlags     take wield~
+Values     0 1 1 1 0 0 0 0 0 0 0
+Stats      10 1000000 0 9999 0 None None None
+AffData    damroll -10 -1 -1 0
+AffData    mana 50 -1 -1 0
+#EXDESC
+ExDescKey  inscription symbol woundhealer sword label~
+ExDesc     Whose flesh the Sword of Mercy hurts has drawn no breath;
+Whose soul it heals has wandered in the night,
+Has paid the summing of all debts in death
+Has turned to see returning light.
+The symbol is that of a open hand.
+This sword is a full meter long with lightly fluted sides. It has
+a black hilt. Upon the hilt is a white symbol.
+Another fine product from TriTeq Industries.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26098
+Keywords   champagne glass z260~
+Type       drinkcon~
+Short      a glass of champagne~
+Long       A glass of champagne has been left here.~
+WFlags     take hold~
+Values     5 5 2 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26099
+Keywords   strawberries berries z260~
+Type       food~
+Short      strawberries with whipped cream~
+Long       Some strawberries with whipped cream have been left here.~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold missile~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        26101
+Keywords   choker platypus necklace z260~
+Type       treasure~
+Short      a pendant~
+Long       Jasmine has misplaced one of her trinkets here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  choker platypus necklace inscription~
+ExDesc     Hanging from the middle of a black, satiny ribbon is the most unusual
+pendant you have ever seen. Your eye is drawn to the intricate detail
+etched into the silver, and a smile slowly comes to your face as you 
+realize you are looking at a miniature rendition of a platypus. Examining
+the choker futher, you notice somet hing written on the underside of the
+ribbon.
+For Stephanie...a small token of affection from one of your really lame
+friends...Jen.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        26102
+Keywords   patch cloth slap stim stimulant o260~
+Type       armor~
+Short      a slap patch of stimulant~
+Long       A small rectangular piece of cloth has been dropped here.~
+Flags      magic~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold missile face ears face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hit 120 -1 -1 0
+AffData    hit 120 -1 -1 0
+AffData    hit 120 -1 -1 0
+AffData    hit 120 -1 -1 0
+AffData    hit 120 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        26103
+Keywords   patch cloth slap tranq tranquilizer o260~
+Type       armor~
+Short      a slap patch of tranquilizer~
+Long       A small rectangular piece of cloth has been dropped here.~
+Flags      magic~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold missile face ears face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    hit -120 -1 -1 0
+AffData    hit -120 -1 -1 0
+AffData    hit -120 -1 -1 0
+AffData    hit -120 -1 -1 0
+AffData    hit -120 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        26000
+Name       Carlyle's Study~
+Sector     indoors~
+Flags      nomob indoors private isolated~
+Stats      0 0 0 0 0
+Desc        Carlyle has discovered that if you combine all three gems into one, with a
+special catalyst, you will end up with a diamond. He further discovered that
+if you were to combine several diamonds with a rarer more magical catalyst
+that you would achieve the secret of the diamond dragons. So far all his
+experiments to find this secret have failed, maybe you can figure it out?
+~
+#EXIT
+Direction  Up~
+ToRoom     24900
+Key        24978
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26099
+Name       The Honeymoon Suite~
+Sector     indoors~
+Flags      nomob indoors private isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Up~
+ToRoom     1000
+Desc       This is the exit to HoloDeck.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26100
+Name       Infoteq's Anxiety Closet!!!~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26131
+Keywords   closet~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26149
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+Reset M    26001 1 26100 -1 -1 -1 100
+Reset M    26002 1 26100 -1 -1 -1 100
+Reset M    26003 1 26100 -1 -1 -1 100
+Reset M    26004 1 26100 -1 -1 -1 100
+Reset M    26005 1 26100 -1 -1 -1 100
+Reset M    26006 1 26100 -1 -1 -1 100
+Reset M    26007 1 26100 -1 -1 -1 100
+Reset M    26008 1 26100 -1 -1 -1 100
+Reset M    26009 1 26100 -1 -1 -1 100
+Reset M    26010 1 26100 -1 -1 -1 100
+Reset M    26011 1 26100 -1 -1 -1 100
+Reset M    26012 1 26100 -1 -1 -1 100
+Reset M    26013 1 26100 -1 -1 -1 100
+Reset M    26014 1 26100 -1 -1 -1 100
+Reset M    26015 1 26100 -1 -1 -1 100
+Reset M    26016 1 26100 -1 -1 -1 100
+Reset M    23900 1 26100 -1 -1 -1 100
+Reset M    23901 1 26100 -1 -1 -1 100
+Reset M    23902 1 26100 -1 -1 -1 100
+Reset M    23903 1 26100 -1 -1 -1 100
+Reset M    23904 1 26100 -1 -1 -1 100
+Reset M    23905 1 26100 -1 -1 -1 100
+Reset M    23906 1 26100 -1 -1 -1 100
+Reset M    23907 1 26100 -1 -1 -1 100
+Reset M    23908 1 26100 -1 -1 -1 100
+Reset M    23909 1 26100 -1 -1 -1 100
+Reset M    23910 1 26100 -1 -1 -1 100
+Reset M    23911 1 26100 -1 -1 -1 100
+Reset D    26100 1 1 100 -2
+Reset D    26100 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26101
+Name       Entertainment Area~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     301
+Key        740
+Keywords   glass~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26102
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26128
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26131
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26135
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26101 0 2 100 -2
+Reset D    26101 3 1 100 -2
+Reset D    26101 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26102
+Name       The Kitchen~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26103
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26104
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26101
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26103
+Name       The Balcony~
+Sector     indoors~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26105
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26102
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     26126
+Keywords   vines~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26103 6 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26104
+Name       Dining Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     26102
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26105
+Name       A Path~
+Sector     mountain~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26106
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26103
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26106
+Name       A Path through the Forest~
+Sector     indoors~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26107
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26105
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26107
+Name       A Path through the Forest~
+Sector     forest~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26108
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26106
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26108
+Name       A Path through the Forest~
+Sector     forest~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26109
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26107
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26109
+Name       The River~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc~
+Stats       450  26110 0 0 100000
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     26108
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     26110
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26110
+Name       The River~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc~
+Stats       300  26111 0 0 100000
+Desc       ~
+#EXIT
+Direction  Northeast~
+ToRoom     26109
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     26111
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26111
+Name       The River near the Falls~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc~
+Stats       200  26112 0 0 100000
+Desc       ~
+#EXIT
+Direction  Northeast~
+ToRoom     26110
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     26112
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26112
+Name       The Top of the Falls~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc~
+Stats       50  26113 0 0 100000
+Desc       ~
+#EXIT
+Direction  Down~
+ToRoom     26113
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     26111
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26113
+Name       Over the Falls and Falling~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc~
+Stats       15  26114 0 0 100000
+Desc       ~
+#EXIT
+Direction  Down~
+ToRoom     26114
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26114
+Name       The Bottom of the Falls~
+Sector     water_noswim~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     26115
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26115
+Name       A Natural Pool Near the Falls~
+Sector     water_noswim~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26114
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26116
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26123
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26122
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26116
+Name       A Natural Pool Near the Falls~
+Sector     swamp~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     26117
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26115
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26117
+Name       A Beach by the Natural Pool~
+Sector     mountain~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26116
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26118
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26118
+Name       A Small Cave~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc~
+Stats       30  26124 0 0 100000
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26117
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26119
+Name       A Natural Pool Near the Falls~
+Sector     swamp~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26123
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26120
+Name       A Natural Pool Near the Falls~
+Sector     swamp~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26121
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26119
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26121
+Name       A Natural Pool Near the Falls~
+Sector     swamp~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26122
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26123
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26122
+Name       A Natural Pool Near the Falls~
+Sector     swamp~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26115
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26121
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26123
+Name       A Natural Pool by the Falls~
+Sector     swamp~
+Flags      isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26115
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26117
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26119
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26121
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26124
+Name       A Cave Behind the Falls~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       30  26118 0 0 100000
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     26125
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26125
+Name       Behind the Falls~
+Sector     mountain~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26124
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26127
+Desc       Jumping off from up here looks like a REALLY BAD idea.
+~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     26126
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26126
+Name       A small tunnel through the Mountain~
+Sector     mountain~
+Flags      indoors tunnel isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Southwest~
+ToRoom     26103
+Keywords   vines~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     26125
+#ENDEXIT
+Reset D    26126 9 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26127
+Name       Crushed into the Rocks by the Waterfall~
+Sector     mountain~
+Flags      death indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Up~
+ToRoom     26125
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26128
+Name       An Indoor Swimming Pool~
+Sector     swamp~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26101
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26129
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26129
+Name       An Indoor Swimming Pool~
+Sector     swamp~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     26128
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26138
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26129 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26130
+Name       The Jacuzzi~
+Sector     swamp~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26131
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26136
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26130 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26131
+Name       The Bedroom~
+Sector     indoors~
+Flags      nomob indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26101
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26130
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26100
+Keywords   closet~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26133
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     26132
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     26150
+Keywords   doubledoors~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26101 1 1 100 -2
+Reset D    26100 3 1 100 -2
+Reset D    26133 5 1 100 -2
+Reset D    26150 7 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26132
+Name       Alyssa's Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Northeast~
+ToRoom     26131
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26133
+Name       The Virtual Reality Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Up~
+ToRoom     26131
+Keywords   reality~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26133 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26134
+Name       An Empty Cave~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     26135
+Keywords   wall~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     26139
+Keywords   floor~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26134 2 1 100 -2
+Reset D    26134 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26135
+Name       The Library~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26134
+Keywords   bookcase~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     26101
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26135 0 1 100 -2
+Reset D    26135 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26136
+Name       Underwater~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26137
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     26130
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26136 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26137
+Name       Underwater~
+Sector     water_noswim~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26138
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26136
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26138
+Name       Underwater~
+Sector     water_noswim~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     26137
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     26129
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26138 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26139
+Name       Beach (HOG)~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26140
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     26134
+Keywords   sky~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26139 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26140
+Name       A Cargo Bay in the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26141
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26139
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26141
+Name       A Hallway in the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26146
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26142
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26140
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26142
+Name       A Cargo Bay in the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     26143
+Desc       You can't possibly be stupid enough to go out an airlock
+without a space suit can you?
+~
+Keywords   airlock~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26141
+#ENDEXIT
+Reset D    26142 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26143
+Name       Sucked Out the Airlock~
+Sector     indoors~
+Flags      indoors isolated teleport teleshowdesc~
+Stats       30  26144 0 0 100000
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26142
+Keywords   airlock~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26143 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26144
+Name       Lost amongst the Greatest Improbabilities~
+Sector     indoors~
+Flags      indoors nomagic isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        26145
+Name       The Kitchen in the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     26146
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26146
+Name       A Hallway in the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     26148
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     26147
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     26141
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     26145
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26147
+Name       Marvin's Room in the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  West~
+ToRoom     26146
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26148
+Name       The Bridge of the Heart of Gold~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     26146
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26149
+Name       TriTeq Industries Super-Secret Headquarters~
+Sector     indoors~
+Flags      nomob indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     1000
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     26100
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     1143
+Key        1100
+Keywords   portal~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    26149 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26150
+Name       Trillian's Clothes Closet!!!~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  Southeast~
+ToRoom     26131
+Keywords   doubledoors~
+Flags      isdoor~
+#ENDEXIT
+Reset D    26150 8 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        26175
+Name       Out of the Blender into the Frying Pan!~
+Sector     indoors~
+Flags      nomob indoors isolated~
+Stats      0 0 0 0 0
+Desc       Just kidding. This is where you wait for whichever Immort it is that's 
+running the quest. Congratulations on making it throught the Blender. 
+~
+#ENDROOM
+
+#ROOM
+Vnum        26176
+Name       Entrance to the 'Teq Industries "Player Blender" (tm)~
+Sector     indoors~
+Flags      nomob indoors isolated teleport teleshowdesc~
+Stats       30  26179 0 0 100000
+Desc       You are standing at the edge of what appears to be a HUGE Blender. As 
+you gaze down into it's awesome depths, you notice that the blades don't
+seem 'that' sharp from way up here. As you get ready to step back from
+the edge, someone sneaks up behind you and shoves you in! As you fall into
+the blender you hear satanic laughter that sends a shiver up your spine.
+~
+#ENDROOM
+
+#ROOM
+Vnum        26177
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport teleshowdesc~
+Stats       1  26175 0 0 100000
+Desc       Ahh the way out, you found it!!!
+~
+#ENDROOM
+
+#ROOM
+Vnum        26178
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26179 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26177
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26179
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26180 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26179
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26180
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26181 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26180
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26181
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26182 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26181
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26182
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26183 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26187
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26183
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26184 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26183
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26184
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26185 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26188
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26185
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26186 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26185
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26186
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26178 0 0 100000
+Desc       As you are mixed and tossed about the blender, you notice that
+there seems to be a way out, if only you could manage to get there.
+~
+#EXIT
+Direction  North~
+ToRoom     26189
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        26187
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26180 0 0 100000
+Desc       Nope, this isn't the way out, back into the blender!!
+~
+#ENDROOM
+
+#ROOM
+Vnum        26188
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26181 0 0 100000
+Desc       Nope, this isn't the way out, back into the blender!!
+~
+#ENDROOM
+
+#ROOM
+Vnum        26189
+Name       Inside the Blender!~
+Sector     indoors~
+Flags      nomob indoors isolated teleport~
+Stats       1  26179 0 0 100000
+Desc       Nope, this isn't the way out, back into the blender!!
+~
+#ENDROOM
+
+#ROOM
+Vnum        26190
+Name       Before the 'Teq Industries "Player Blender" (tm)~
+Sector     indoors~
+Flags      nomob indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are standing before a giant blender.
+~
+#EXIT
+Direction  North~
+ToRoom     26176
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

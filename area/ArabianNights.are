@@ -1,0 +1,6072 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            The Arabian Nights~
+Author          Unknown~
+Vnums           5000 5199
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       100
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        5000
+Keywords   aladdin arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Aladdin~
+Long       Aladdin is here, admiring his ring.
+~
+Desc       Before you stands one of the laziest people you've ever 
+seen.  Aladdin lives in this opulent palace only because he 
+was saved from having to learn an honest trade by the Jinni 
+of the Lamp.  He's wearing scarlet satin robes trimmed in 
+royal blue.  On his ring finger is a gold ring with a large 
+sapphire set in it.  He seems very proud of the ring, and 
+he's always holding it up to admire it in the light.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -6 -6 15000 6 4 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5001
+Keywords   kamar jinni pearl arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Kamar al-Akmar~
+Long       Kamar al-Akmar is standing here, glaring down at you.
+~
+Desc       Glaring down at you is the monstrous smoky shape of the 
+jinni Kamar al-Akmar, the Pearl Guardian.  Charged with 
+guarding the Pearl Tower and preventing intruders from 
+venturing farther into the palace, he takes his job very 
+seriously.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -5 -6 15000 6 4 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5002
+Keywords   shams jinni turquoise arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Shams al-Nahar~
+Long       Shams al-Nahar is standing here, glaring down at you.
+~
+Desc       Glaring down at you is the monstrous smoky shape of the 
+jinni Shams al-Nahar, the Turquoise Guardian.  Charged with 
+guarding the Turquoise Tower and preventing intruders from 
+venturing farther into the palace, he takes his job very 
+seriously.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -5 -6 10000 6 4 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   sanctuary iceshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5003
+Keywords   harun jinni alabaster arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Harun al-Rashid~
+Long       Harun al-Rashid is standing here, glaring down at you.
+~
+Desc       Glaring down at you is the monstrous smoky shape of the 
+jinni Harun al-Rashid, the Alabaster Guardian.  Charged with 
+guarding the Alabaster Tower and preventing intruders from 
+venturing farther into the palace, he takes his job very 
+seriously.
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -5 -6 10000 6 4 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5004
+Keywords   ibn jinni onyx arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Ibn al-Karibi~
+Long       Ibn al-Karibi is standing here, glaring down at you.
+~
+Desc       Glaring down at you is the monstrous smoky shape of the 
+jinni Ibn al-Karibi, the Onyx Guardian.  Charged with 
+guarding the Onyx Tower and preventing intruders from 
+venturing farther into the palace, he takes his job very 
+seriously.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -5 -6 10000 6 4 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5005
+Keywords   princess badr arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Princess Badr al-Budur~
+Long       Princess Badr al-Budur is standing here, looking out at her 
+garden.
+~
+Desc       Aladdin's lovely wife stands before you, dressed in a long 
+dressing gown of green silk that perfectly matches her green 
+eyes and complements her long black hair.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -10 -10 15000 8 4 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5006
+Keywords   jinni arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Jinni~
+Long       The Jinni of the Lamp stands here, towering over you.
+~
+Desc       You cower in terror as the sight of this monstrous jinni 
+sends fear running through you.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -10 -10 20000 8 4 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5007
+Keywords   shahrazad arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Shahrazad~
+Long       Shahrazad stands here, admiring her lovely ring.
+~
+Desc       You see something special.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     55 -4 -5 5000 4 4 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5008
+Keywords   salim arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Salim~
+Long       Salim the flower merchant stands here, waiting for you to 
+buy something.
+~
+Desc       You see a sweet saintly looking old man, with snow white 
+hair and twinkling brown eyes.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 -1 -3 2000 4 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   5006 5007 5008 5009 5010 50 200 6 24
+#ENDMOBILE
+
+#MOBILE
+Vnum        5009
+Keywords   shaddad arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Shaddad~
+Long       Shaddad the fruit merchant stands here, waiting for you to 
+buy something.
+~
+Desc       You see before you a big, fat, jolly man who is always 
+laughing and giving away free fruit when he thinks no one 
+else is looking.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 -1 -3 2000 4 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   5011 5012 5013 5014 5015 50 200 6 24
+#ENDMOBILE
+
+#MOBILE
+Vnum        5010
+Keywords   abdallah arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Abdallah~
+Long       Abdallah the spice merchant stands here, waiting for you to 
+buy something.
+~
+Desc       You see a grumpy sort of man before you who is gruff with 
+everyone to hide his true feelings.  The years have not been 
+kind to him, and you can see by his eyes that he's really 
+not grumpy, just sad.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 -1 -3 2000 4 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   5016 5017 5018 5019 5020 50 200 6 24
+#ENDMOBILE
+
+#MOBILE
+Vnum        5011
+Keywords   ahmad arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Ahmad~
+Long       Ahmad the jewel merchant stands here, waiting for you to buy 
+something.
+~
+Desc       You see a sleazy looking man with greasy black hair and a 
+thin moustache.  His weasely eyes watch you like a hawk to 
+make sure you don't steal anything.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 -1 -3 2000 4 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   5021 5022 5023 5024 5025 50 200 6 24
+#ENDMOBILE
+
+#MOBILE
+Vnum        5012
+Keywords   zuraik arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Zuraik~
+Long       Zuraik the fabric merchant stands here, waiting for you to 
+buy something.
+~
+Desc       Before you stands a snotty looking aristocratic type of man 
+who probably overprices all of his wares in order to make 
+the biggest profit he can.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 -1 -3 2000 4 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5013
+Keywords   camel arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A camel~
+Long       A camel stands here, looking for some water.
+~
+Desc       You see one of the ugliest animals you've ever seen before, 
+with two silly looking humps on his back.
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 -1 -3 2000 4 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5014
+Keywords   nomad arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A desert nomad~
+Long       A desert nomad stands here, looking for his sheep herd.
+~
+Desc       You see a dirty old man, weathered from years of herding 
+sheep in the desert.  He doesn't smell too good either.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     48 0 -3 2000 3 4 40
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5015
+Keywords   ali baba arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Ali Baba~
+Long       Ali Baba stands here, guarding his hoard of treasure.
+~
+Desc       You see a light in the horizon...
+
+...however the light seems to be quickly receding...
+
+You have died.  All is dark.  But suddenly...
+
+The Gods have taken pity on you.  You are alive again!
+
+You seem to be some place different...
+
+Heh, no...you aren't dead....yet that is....
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     65 -10 -10 15000 8 4 70
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden fireshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5016
+Keywords   marjaneh arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Marjaneh~
+Long       The sneaky slave Marjaneh is standing here.
+~
+Desc       Before you is Ali Baba's clever slave wench, Marjaneh.  She is 
+very intelligent, and is always coming up with clever ways 
+to get out of even the most difficult circumstances.  She 
+looks at you and bats her long eyelashes suggestively.  
+Never hurts for her to have a few extra coins in her pocket, 
+and she's always extremely willing to recompense you 
+somehow....
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     63 -6 -6 10000 6 4 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   invisible detect_hidden sanctuary hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5017
+Keywords   scorpion arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A scorpion~
+Long       A scorpion stands here.
+~
+Desc       You see an insect rather on the small side, but he's got a really scary 
+looking
+stinger.
+~
+Nattacks   2.000000
+Stats1     -400 0 60 100 150 250
+Stats2     40 4 1 1000 3 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5018
+Keywords   rattlesnake arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A rattlesnake~
+Long       A rattlesnake lies here, shaking its rattles at you.
+~
+Desc       You see a black and gold mottled snake with rattles on the end of its 
+tail and
+some scary looking fangs.
+~
+Nattacks   2.000000
+Stats1     -400 0 60 100 150 250
+Stats2     40 4 1 1000 3 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5019
+Keywords   lizard arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A lizard~
+Long       A lizard sits here, flicking his tongue at you.
+~
+Desc       You see a little harmless looking green lizard.
+~
+Nattacks   2.000000
+Stats1     -400 0 60 100 150 250
+Stats2     40 4 1 1000 3 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5020
+Keywords   cactus arabian m050~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cactus~
+Long       A cactus stands here.
+~
+Desc       You cower in terror from the ferocious looking cactus with its long poky 
+spiny
+things.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     40 4 1 1000 3 4 20
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        5000
+Keywords   ring key arabian o050~
+Type       treasure~
+Short      Shahrazad's Magical Ring~
+Long       An intricately twisted golden ring lies here.~
+Flags      hum~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5001
+Keywords   pearl key arabian o050~
+Type       key~
+Short      a pearl key~
+Long       A small key made of pearl lies here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5002
+Keywords   turquoise key arabian o050~
+Type       key~
+Short      a turquoise key~
+Long       A small key made of turquoise lies here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5003
+Keywords   alabaster key arabian o050~
+Type       key~
+Short      an alabaster key~
+Long       A small key made of alabaster lies here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5004
+Keywords   onyx key arabian o050~
+Type       key~
+Short      an onyx key~
+Long       A small key made of onyx lies here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5005
+Keywords   key palace arabian o050~
+Type       key~
+Short      a palace key~
+Long       A small brass key lies here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5006
+Keywords   rose flower arabian o050~
+Type       treasure~
+Short      a long stemmed white rose~
+Long       A lovely white rose lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5007
+Keywords   jasmine flower arabian o050~
+Type       treasure~
+Short      a jasmine~
+Long       A lovely jasmine lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5008
+Keywords   forget forget-me-not flower arabian o050~
+Type       treasure~
+Short      a forget-me-not~
+Long       A lovely forget-me-not lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5009
+Keywords   lily flower arabian o050~
+Type       treasure~
+Short      a white lily~
+Long       A lovely white lily lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5010
+Keywords   orchid flower arabian o050~
+Type       treasure~
+Short      an orchid~
+Long       A lovely orchid lies here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5011
+Keywords   figs fruit arabian o050~
+Type       food~
+Short      some figs~
+Long       Some figs lie here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5012
+Keywords   grapes fruit arabian o050~
+Type       food~
+Short      a bunch of grapes~
+Long       A bunch of purple grapes lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5013
+Keywords   pomegranite fruit arabian o050~
+Type       food~
+Short      a pomegranite~
+Long       A juicy pomegranite lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5014
+Keywords   dates fruit arabian o050~
+Type       food~
+Short      some dates~
+Long       Some dates lie here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5015
+Keywords   orange fruit arabian o050~
+Type       food~
+Short      an orange~
+Long       A juicy orange lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5016
+Keywords   basil spice arabian o050~
+Type       food~
+Short      some basil~
+Long       Some basil lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5017
+Keywords   ginger spice arabian o050~
+Type       food~
+Short      some ginger~
+Long       Some ginger lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5018
+Keywords   nutmeg spice arabian o050~
+Type       food~
+Short      some nutmeg~
+Long       Some nutmeg lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5019
+Keywords   cloves spice arabian o050~
+Type       food~
+Short      some cloves~
+Long       Some cloves lie here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5020
+Keywords   sage spice arabian o050~
+Type       food~
+Short      some sage~
+Long       Some sage lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5021
+Keywords   diamond jewel arabian o050~
+Type       treasure~
+Short      an uncut diamond~
+Long       A glittering diamond lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5022
+Keywords   ruby jewel arabian o050~
+Type       treasure~
+Short      an uncut ruby~
+Long       A sparkling ruby lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5023
+Keywords   emerald jewel arabian o050~
+Type       treasure~
+Short      an uncut emerald~
+Long       A sparkling emerald lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5024
+Keywords   sapphire jewel arabian o050~
+Type       treasure~
+Short      an uncut sapphire~
+Long       A sparkling sapphire lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5025
+Keywords   pearl jewel arabian o050~
+Type       treasure~
+Short      a flawless pearl~
+Long       A shining pearl lies here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5026
+Keywords   bracers pearl arabian o050~
+Type       armor~
+Short      Mother of Pearl Bracers~
+Long       Some shiny pearl bracers lie here.~
+WFlags     take arms~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5027
+Keywords   amulet turquoise arabian o050~
+Type       armor~
+Short      a turquoise amulet~
+Long       A small amulet made of turquoise lies here.~
+Flags      antigood~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    hit 15 -1 -1 0
+AffData    mana 5 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5028
+Keywords   leggings alabaster arabian o050~
+Type       armor~
+Short      some alabaster leggings~
+Long       Some white leggings lie here.~
+Flags      antigood~
+WFlags     take legs~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    hit 15 -1 -1 0
+AffData    Strength -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5029
+Keywords   shield onyx arabian o050~
+Type       armor~
+Short      a Black Onyx shield~
+Long       A shiny black shield lies here.~
+WFlags     take shield~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    hit 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5030
+Keywords   lamp aladdin arabian o050~
+Type       light~
+Short      Aladdin's Lamp~
+Long       A battered old copper lamp lies here.~
+Flags      glow hum antievil~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 10000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    mana 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5031
+Keywords   egg rukh arabian o050~
+Type       armor~
+Short      a Rukh Egg~
+Long       The master of the jinn lies here.~
+Flags      glow hum~
+WFlags     take hold~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    hit 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5032
+Keywords   ring aladdin arabian o050~
+Type       armor~
+Short      Aladdin's Ring~
+Long       A gold ring with a deep blue sapphire lies here.~
+Flags      glow hum antineutral~
+WFlags     take finger~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      2 10000 0 9999 0 None None None
+AffData    mana 30 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    hit -20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5033
+Keywords   carpet arabian o050~
+Type       armor~
+Short      a flying carpet~
+Long       An intricately woven carpet lies here.~
+WFlags     take feet~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      5 10000 0 9999 0 None None None
+AffData    move 30 -1 -1 0
+AffData    Wisdom -2 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5034
+Keywords   scimitar speed arabian o050~
+Type       weapon~
+Short      a Scimitar of Speed~
+Long       A dangerous looking curved blade lies here.~
+Flags      glow hum antigood antineutral~
+WFlags     take wield~
+Values     0 6 5 1 0 0 0 0 0 0 0
+Stats      5 100000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData affected  'haste' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5035
+Keywords   paper arabian o050~
+Type       trash~
+Short      a piece of paper~
+Long       A piece of paper lies on the ground.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  paper arabian o050~
+ExDesc     Ok, if you don't know what key word unlocks the cave, try 
+saying Open Sesame.  But really, you should read the Arabian 
+Nights if you've never heard the story of Ali Baba and the 
+Forty Thieves.  :)
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5036
+Keywords   key golden arabian o050~
+Type       key~
+Short      a golden key~
+Long       A small golden key lies here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5037
+Keywords   plaque arabian o050~
+Type       trash~
+Short      A small golden plaque~
+Long       A small golden plaque is here, mounted on the rock wall near 
+the door.~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  plaque arabian o050~
+ExDesc     Grave danger lies ahead for any intruders that dare pass the 
+golden door.  Should you scorn this warning and still enter, 
+consider yourself fortunate if you manage to find the path 
+out in time to live, still carrying anything you entered 
+with.  Behind the golden door lies a weapon of great worth, 
+but fear for your life if you try to retrieve it.  If you 
+are still feeling brave, then go forth foolish mortal and 
+attempt to acquire it.  When your life is crushed out of you 
+though, don't say I didn't try to warn you. 
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5038
+Keywords   chest wooden arabian o050~
+Type       container~
+Short      a small wooden chest~
+Long       ~
+Values     10 15 5039 10 0 5039 0 0 0 0 0
+Stats      15 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5039
+Keywords   key brass arabian o050~
+Type       key~
+Short      a tiny brass key~
+Long       A small brass key lies here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        5000
+Name       Crushed to a Bloody Pulp~
+Sector     indoors~
+Flags      death nomob~
+Stats      0 0 0 0 0
+Desc       A feeling of terror comes over you, and you look up to see 
+huge boulders come crashing down on you.  You hear your 
+bones grind and crunch, and you feel your flesh get mashed 
+to a bloody, pulpy mess.  Why is it taking you such an 
+agonizingly long time to die?  Too bad that nifty equipment 
+you're wearing couldn't protect you from these huge 
+boulders.  Finally, your screams of agony and pain become 
+just echos ringing through the passages, as your twitching 
+remains stop moving and you die a horrible, excruciating, 
+anguished death.
+~
+#ENDROOM
+
+#ROOM
+Vnum        5001
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  South~
+ToRoom     1000
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5002
+#ENDEXIT
+Reset M    5017 10 5001 -1 -1 -1 100
+Reset M    5018 10 5001 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5002
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  East~
+ToRoom     5001
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5004
+#ENDEXIT
+Reset M    5019 10 5002 -1 -1 -1 100
+Reset M    5020 10 5002 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5003
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5024
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5004
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5007
+#ENDEXIT
+Reset M    5019 10 5003 -1 -1 -1 100
+Reset M    5020 10 5003 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5004
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5003
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5002
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5005
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5008
+#ENDEXIT
+Reset M    5017 10 5004 -1 -1 -1 100
+Reset M    5018 10 5004 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5005
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5004
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5006
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5009
+#ENDEXIT
+Reset M    5014 1 5005 -1 -1 -1 100
+Reset M    5017 10 5005 -1 -1 -1 100
+Reset M    5018 10 5005 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5006
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the east, you see a tropical oasis.  Or 
+is that just a figment of your imagination?
+~
+#EXIT
+Direction  North~
+ToRoom     5005
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5010
+#ENDEXIT
+Reset M    5019 10 5006 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5007
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5025
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5003
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5008
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5011
+#ENDEXIT
+Reset M    5013 3 5007 -1 -1 -1 100
+Reset M    5019 10 5007 -1 -1 -1 100
+Reset M    5020 10 5007 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5008
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5007
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5004
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5009
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5012
+#ENDEXIT
+Reset M    5020 10 5008 -1 -1 -1 100
+Reset M    5017 10 5008 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5009
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5008
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5005
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5010
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5013
+#ENDEXIT
+Reset M    5017 10 5009 -1 -1 -1 100
+Reset M    5018 10 5009 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5010
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the east, you see a tropical oasis.  Or 
+is that just a figment of your imagination?
+~
+#EXIT
+Direction  North~
+ToRoom     5009
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5006
+#ENDEXIT
+Reset M    5018 10 5010 -1 -1 -1 100
+Reset M    5019 10 5010 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5011
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5026
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5007
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5012
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5014
+#ENDEXIT
+Reset M    5019 10 5011 -1 -1 -1 100
+Reset M    5020 10 5011 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5012
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5011
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5008
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5013
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5015
+#ENDEXIT
+Reset M    5013 3 5012 -1 -1 -1 100
+Reset M    5020 10 5012 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5013
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the east, you see a tropical oasis.  Or 
+is that just a figment of your imagination?
+~
+#EXIT
+Direction  North~
+ToRoom     5012
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5009
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5031
+#ENDEXIT
+Reset M    5017 10 5013 -1 -1 -1 100
+Reset M    5018 10 5013 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5014
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5027
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5011
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5015
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5017
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5015
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5014
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5012
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5031
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5018
+#ENDEXIT
+Reset M    5019 10 5015 -1 -1 -1 100
+Reset M    5020 10 5015 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5016
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5028
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5027
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5017
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5020
+#ENDEXIT
+Reset M    5014 1 5016 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5017
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5016
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5014
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5018
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5021
+#ENDEXIT
+Reset M    5013 3 5017 -1 -1 -1 100
+Reset M    5017 10 5017 -1 -1 -1 100
+Reset M    5018 10 5017 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5018
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5017
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5015
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5019
+#ENDEXIT
+Reset M    5014 1 5018 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5019
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5018
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5031
+#ENDEXIT
+Reset M    5019 10 5019 -1 -1 -1 100
+Reset M    5020 10 5019 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5020
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5030
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5016
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5021
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5022
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5021
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5020
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5017
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5023
+#ENDEXIT
+Reset M    5017 10 5021 -1 -1 -1 100
+Reset M    5018 10 5021 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5022
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5029
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5020
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5023
+#ENDEXIT
+Reset M    5013 3 5022 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5023
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...
+~
+#EXIT
+Direction  North~
+ToRoom     5022
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5021
+#ENDEXIT
+Reset M    5019 10 5023 -1 -1 -1 100
+Reset M    5020 10 5023 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5024
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the north you see a magnificent palace 
+rising out of the sands.
+~
+#EXIT
+Direction  South~
+ToRoom     5003
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5025
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5025
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the north you see a magnificent palace 
+rising out of the sands.
+~
+#EXIT
+Direction  East~
+ToRoom     5024
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5007
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5026
+#ENDEXIT
+Reset M    5014 1 5025 -1 -1 -1 100
+Reset M    5017 10 5025 -1 -1 -1 100
+Reset M    5018 10 5025 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5026
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the north, you see a magnificent palace 
+rising out of the sands.
+~
+#EXIT
+Direction  East~
+ToRoom     5025
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5011
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5027
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5027
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the north you see a magnificent palace 
+rising out of the sands.
+~
+#EXIT
+Direction  East~
+ToRoom     5026
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5014
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5016
+#ENDEXIT
+Reset M    5013 3 5027 -1 -1 -1 100
+Reset M    5019 10 5027 -1 -1 -1 100
+Reset M    5020 10 5027 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5028
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the north you see a magnificent palace 
+rising out of the sands.
+~
+#EXIT
+Direction  South~
+ToRoom     5016
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5030
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5029
+Name       A Desert~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       As the sun beats down on your head unrelentlessly and the 
+beads of sweat start to trickle down your face, you see 
+nothing but miles and miles and miles of sand in every 
+direction...Off to the north you see a magnificent palace 
+rising out of the sands.
+~
+#EXIT
+Direction  East~
+ToRoom     5030
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5022
+#ENDEXIT
+Reset M    5017 10 5029 -1 -1 -1 100
+Reset M    5018 10 5029 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5030
+Name       Before the Palace~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       In front of you looms Aladdin's Palace.  Proudly guarding 
+the enormous solid gold gates are a pair of red gold lions 
+with eyes of sapphires.  The gleaming walls of alternating 
+silver and gold bricks shine in the intense desert sunlight.  
+Ninety-nine enormous windows decorate each wall, each of 
+them adorned with glittering diamonds, rubies, and emeralds.  
+On each corner a magnificent tower stands, constructed of 
+porphyry, jasper, agate, and the finest marble, each with a 
+sparkling crystal dome atop it.  You can hardly believe the 
+sheer wealth that the palace represents.
+~
+#EXIT
+Direction  North~
+ToRoom     5059
+Key        5000
+Desc       You see large, golden gates.
+~
+Keywords   gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5028
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5020
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5029
+#ENDEXIT
+Reset D    5030 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5031
+Name       At the Edge of the Canyon~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand at the edge of a narrow, yet extraordinarily deep 
+gorge in the desert.  The walls of the canyon are sheer 
+cliff, and the only means of crossing to the other side is a 
+fragile-looking rope bridge that extends across the gap.  On 
+the other side you can see the lush vegetation of a tropical 
+oasis.  Beware though...strange sandstorms have been known 
+to come up out of nowhere and tear through the gorge.  You 
+wouldnt want to be caught in one of those while on that rope 
+bridge.
+~
+#EXIT
+Direction  North~
+ToRoom     5015
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5013
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5032
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5019
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5032
+Name       On the Rope Bridge~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You tentatively step out onto the bridge and begin across.  
+The bridge itself is surprisingly sturdy despite its fragile 
+appearance.  It has a tendency to sway, though.  You might 
+want to hurry across...and, oh, try not to look down.
+~
+#EXIT
+Direction  North~
+ToRoom     5031
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5033
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5033
+Name       On the Rope Bridge~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       As you reach the middle of the rope bridge, so far, so good.  
+You can't wait to escape the harsh sunlight of the desert in 
+the lush greenery ahead.  You continue along as a stiff wind 
+of oven hot air starts to gently sway the bridge back and 
+forth.
+~
+#EXIT
+Direction  North~
+ToRoom     5032
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5034
+Desc       You see a sandstorm starting to tear violently through the 
+canyon.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5034
+Name       Sandstorm!~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       32  5035 0 0 100000
+Desc       The first grains of sand start to sting your skin as the hot 
+air flowing through the canyon picks up intensity, rapidly 
+approaching a raging sandstorm.  It's not too far to the 
+shelter of the oasis, though.  Perhaps if you hurry, you can 
+make it in time...
+~
+#EXIT
+Direction  North~
+ToRoom     5033
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5042
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5035
+Name       Scoured to the Bone~
+Sector     indoors~
+Flags      death nomob~
+Stats      0 0 0 0 0
+Desc       Ack.....that sandstorm was moving a little faster than you 
+thought, huh?  Unfortunately no one will ever know what 
+became of you as the millions of tiny grains of sand scoured 
+every inch of flesh and muscle off your skeleton and then 
+ground the bones to a fine powder, carrying away all trace 
+of your sorry existence.
+~
+#ENDROOM
+
+#ROOM
+Vnum        5036
+Name       The Fabric Merchant's~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A myriad of brilliant colors greet your eyes as you enter 
+the store of Zuraik, the fabric merchant.  Crowded into the 
+small quarters of Zuraik's shop are dozens and dozens of 
+bales of silks, satins, brocades, and fine gauzes.
+~
+#EXIT
+Direction  West~
+ToRoom     5042
+#ENDEXIT
+Reset M    5012 1 5036 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5037
+Name       The Flower Merchant's~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The sweet perfume of thousands of blossoms greets your nose 
+as you enter the shop of Salim, the flower merchant.  The 
+shop is filled with green plants in pots and vases filled 
+with flowers.
+~
+#EXIT
+Direction  East~
+ToRoom     5042
+#ENDEXIT
+Reset M    5008 1 5037 -1 -1 -1 100
+  Reset G  5006 91 100
+  Reset G  5007 91 100
+  Reset G  5008 91 100
+  Reset G  5009 91 100
+  Reset G  5010 91 100
+#ENDROOM
+
+#ROOM
+Vnum        5038
+Name       The Fruit Merchant's~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Large wooden crates holding many different delicious looking 
+fruits occupy a majority of the space in the shop of 
+Shaddad, the fruit merchant.
+~
+#EXIT
+Direction  West~
+ToRoom     5043
+#ENDEXIT
+Reset M    5009 1 5038 -1 -1 -1 100
+  Reset G  5011 91 100
+  Reset G  5012 91 100
+  Reset G  5013 91 100
+  Reset G  5014 91 100
+  Reset G  5015 91 100
+Reset O    5031 3 5038 -1 -1 -1 5
+#ENDROOM
+
+#ROOM
+Vnum        5039
+Name       The Spice Merchant's~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The shop of Abdallah, the spice merchant, is extremely 
+small, almost claustrophobic.  It doesn't need to be large, 
+though, just large enough to hold the many glass jars of 
+spices held on the shelves behind the counter.  The pungent 
+odor of spice pervades the room, and on the counter is a 
+balace that Abdallah uses to weigh out your parsley, sage, 
+rosemary, and thyme.
+~
+#EXIT
+Direction  East~
+ToRoom     5043
+#ENDEXIT
+Reset M    5010 1 5039 -1 -1 -1 100
+  Reset G  5016 91 100
+  Reset G  5017 91 100
+  Reset G  5018 91 100
+  Reset G  5019 91 100
+  Reset G  5020 91 100
+#ENDROOM
+
+#ROOM
+Vnum        5040
+Name       The Jewel Merchant's~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Ahmad, the jewel merchant, eyes you suspiciously as you 
+enter his little shop, but don't take it personally.  It's 
+an occupational trait that he needs to ensure the safety of 
+the sparkling jewels that he sells here.  Unlike most jewel 
+merchants though, he doesn't sell polished jewelery, he 
+sells the raw, uncut stones.
+~
+#EXIT
+Direction  West~
+ToRoom     5044
+#ENDEXIT
+Reset M    5011 1 5040 -1 -1 -1 100
+  Reset G  5021 91 100
+  Reset G  5022 91 100
+  Reset G  5023 91 100
+  Reset G  5024 91 100
+  Reset G  5025 91 100
+#ENDROOM
+
+#ROOM
+Vnum        5041
+Name       An Abandoned Shop~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You enter a small empty shop that appears to have been empty 
+for some time.  Empty barrels and crates and shelves line 
+the walls, giving you no clue as to what used to be sold 
+here, except it looks like the shop owner may have needed to 
+vacate the premises quickly as you spy a small trapdoor in 
+the floor behind the counter.  You are amazed at how well 
+the trapdoor blends in with the floor, you barely noticed it 
+was there.
+~
+#EXIT
+Direction  East~
+ToRoom     5044
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5045
+Desc       You see a well hidden trapdoor in the floor.
+~
+Keywords   door trapdoor~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    5041 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5042
+Name       The Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You walk along the main street in the tropical oasis, 
+looking at the lush green bushes and tall palm trees that 
+are everywhere.  On either side of the street you can see a 
+shop.  To the east is the fabric merchant, while to the west 
+is the flower merchant.
+~
+#EXIT
+Direction  North~
+ToRoom     5034
+Desc       You see a sandstorm starting to tear violently through the 
+canyon.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5036
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5043
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5037
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5043
+Name       The Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You walk along the main street in the tropical oasis, 
+looking at the lush green bushes and tall palm trees that 
+are everywhere.  On either side of the street you can see a 
+shop.  To the east is the fruit merchant, while to the west 
+is the spice merchant.
+~
+#EXIT
+Direction  North~
+ToRoom     5042
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5038
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5044
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5039
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5044
+Name       The Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You walk along the main street in the tropical oasis, 
+looking at the lush green bushes and tall palm trees that 
+are everywhere.  On either side of the street you can see a 
+shop.  To the east is the jewel merchant, while to the west 
+is an abandoned shop.
+~
+#EXIT
+Direction  North~
+ToRoom     5043
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5040
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5041
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5045
+Name       A Tunnel~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A small tunnel, an escape route one would assume, lies 
+underneath the abandoned shop, leading off to the south.  It 
+is very dark, and you probably wouldn't want to go that way 
+with the danger of cave-ins.  To the west, there seems to 
+be a small bedroom of sorts.
+~
+#EXIT
+Direction  South~
+ToRoom     5047
+Desc       You see a very dark tunnel, and you can faintly hear rubble 
+starting to crumble down.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5046
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5041
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5046
+Name       A Secret Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       As you enter the small, hidden bedroom, you are astonished 
+to see the figure of Shahrazad before you.  For one thousand 
+and one nights, the lovely Shahrazad regaled King Shahryar 
+with tales.  Betrayed by his first wife, the King vowed 
+never to let a woman be unfaithful to him again, so he had 
+her beheaded, and in his anger towards women, he took a new 
+wife every day and had her executed the next morning.  
+Enchanted by Shahrazad's tales, the King postponed her 
+beheading every day for one thousand and one nights so that 
+he might hear the next of her stories.  On the thousand and 
+first night, at the end of her last story, King Shahryar 
+discovered that his base desire for revenge had turned to 
+love.
+
+On her ring finger, you can see a powerful magical ring 
+which she uses to store her knowledge of tales.  The power 
+that the ring posesses is capable of unlocking any gate or 
+portal.
+~
+#EXIT
+Direction  East~
+ToRoom     5045
+#ENDEXIT
+Reset M    5007 1 5046 -1 -1 -1 100
+  Reset E  5000 1 1 100
+#ENDROOM
+
+#ROOM
+Vnum        5047
+Name       Crushed to Death~
+Sector     indoors~
+Flags      death indoors nomob~
+Stats      0 0 0 0 0
+Desc       Oops...there was a cave-in.  Guess you shouldn't have gone 
+that way.
+~
+#ENDROOM
+
+#ROOM
+Vnum        5048
+Name       A Narrow Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Entering the secret narrow passage, you spot a spiral 
+staircase at the end of the hall.
+~
+#EXIT
+Direction  North~
+ToRoom     5049
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5049
+Name       A Narrow Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Entering the secret narrow passage, you spot a spiral 
+staircase at the end of the hall.
+~
+#EXIT
+Direction  North~
+ToRoom     5050
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5048
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5050
+Name       A Narrow Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Entering the secret narrow passage, you spot a spiral 
+staircase at the end of the hall.
+~
+#EXIT
+Direction  North~
+ToRoom     5051
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5049
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5051
+Name       A Narrow Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Entering the secret narrow passage, you spot a spiral 
+staircase at the end of the hall.
+~
+#EXIT
+Direction  North~
+ToRoom     5052
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5050
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5052
+Name       A Narrow Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Entering the secret narrow passage, you spot a spiral 
+staircase at the end of the hall.
+~
+#EXIT
+Direction  North~
+ToRoom     5053
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5051
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5053
+Name       A Narrow Passage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Entering the secret narrow passage, you spot a spiral 
+staircase at the end of the hall.
+~
+#EXIT
+Direction  South~
+ToRoom     5052
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5054
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5054
+Name       A Spiral Staircase~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       As you begin your descent down the spiral staircase, you 
+wonder what could be so important as to be concealed down 
+here.
+~
+#EXIT
+Direction  Up~
+ToRoom     5053
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5055
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5055
+Name       A Spiral Staircase~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       As you begin your descent down the spiral staircase, you 
+wonder what could be so important as to be concealed down 
+here.
+~
+#EXIT
+Direction  Up~
+ToRoom     5054
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5056
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5056
+Name       A Spiral Staircase~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       As you begin your descent down the spiral staircase, you 
+wonder what could be so important as to be concealed down 
+here.
+~
+#EXIT
+Direction  Up~
+ToRoom     5055
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5057
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5057
+Name       A Secret Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       At the bottom of the stairs you find yourself in a plain and 
+simple room that contrasts sharply with the splendor and 
+wealth displayed in the rest of the palace.  There are no 
+decorations or ornamentations in this room save a full 
+length mirror with a simple gold frame in a rosebud pattern.  
+Although the mirror looks very old, it appears to be a 
+perfectly ordinary mirror.  Appearances can be deceiving 
+though...
+~
+#EXIT
+Direction  North~
+ToRoom     5058
+Key        5000
+Desc       You see a very old mirror.
+~
+Keywords   mirror portal~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5056
+#ENDEXIT
+Reset D    5057 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5058
+Name       Whoops!~
+Sector     indoors~
+Flags      teleport teleshowdesc nomob~
+Stats       4  5190 0 0 100000
+Desc       You slipped!
+~
+#ENDROOM
+
+#ROOM
+Vnum        5059
+Name       At the Entrance to Aladdin's Palace~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you step inside Aladdin's Palace you try and suppress the 
+feeling of sheer awe that comes over your very being at the 
+splendor and wealth.  You stand in a hallway where exquisite 
+onyx and pearl murals decorate the walls, with delicate 
+details etched in gold.  In each of the four corner towers, 
+a jinni rescued from the sea stands guard.  Before releasing 
+them from their imprisonment of the copper jar they 
+inhabited, Aladdin extracted from them a promise in the name 
+of Allah to defend his palace from intruders, keeping the 
+treasures and secrets within safe.
+~
+#EXIT
+Direction  North~
+ToRoom     5067
+Key        5004
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5178
+Key        5004
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5030
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5065
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5188
+Key        5004
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    5059 0 2 100 -2
+Reset D    5059 1 2 100 -2
+Reset D    5059 4 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5060
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5063
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5061
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5084
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5061
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5060
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5064
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5062
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5085
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5062
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5061
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5065
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5063
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  South~
+ToRoom     5064
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5060
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5064
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5063
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5065
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5061
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5065
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5064
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5059
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5062
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5066
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5183
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5067
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5067
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5066
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5059
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5068
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5070
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5069
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5069
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5068
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5071
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5178
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5070
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5182
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5071
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5068
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5071
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5070
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5072
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5069
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5072
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the halls, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5071
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5164
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5073
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5179
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5077
+#ENDEXIT
+Reset D    5073 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5074
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5078
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5075
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5075
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5074
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5079
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5076
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5092
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5080
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5179
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5077
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5081
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5078
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5073
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5078
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5077
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5082
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5079
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5074
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5079
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5078
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5075
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5080
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5097
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5076
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5081
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5082
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5077
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5082
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5081
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5086
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5083
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5078
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5083
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5082
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5087
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5084
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5102
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5060
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5085
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5085
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5084
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5061
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5086
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5086
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5085
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5087
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5082
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5087
+Name       The Pearl Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the first of the four magnificent towers that 
+grace the corners of the palace, the Pearl Tower.  
+Everything in this tower is made of shining pearl, crystal, 
+and gold.  The floors are made of alternating squares of 
+pearl and gold, and the walls are composed of millions of 
+pearls encased in sparkling crystal.  If you look up you can 
+see the sun shining in through the crystal dome that makes 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5086
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5083
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5088
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5110
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5093
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5089
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5089
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5088
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5094
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5090
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5090
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5089
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5095
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5091
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5091
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5090
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5092
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5097
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5076
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5093
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5114
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5088
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5094
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5099
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5095
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5089
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5095
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5094
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5100
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5096
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5090
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5096
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5095
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5101
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5097
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5097
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5096
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5080
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5082
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5098
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5117
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5099
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  West~
+ToRoom     5094
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5100
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  South~
+ToRoom     5101
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5095
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5101
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5100
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5096
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5102
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite pearl and turquoise murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  South~
+ToRoom     5084
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5103
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5104
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5104
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5103
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5108
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5105
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5105
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5104
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5109
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5106
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5106
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5105
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5110
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5107
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5111
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5108
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5108
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5107
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5104
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5109
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  West~
+ToRoom     5105
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5110
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5114
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5088
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5106
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5111
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5180
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5107
+#ENDEXIT
+Reset D    5111 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5112
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5113
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5113
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5112
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5116
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5114
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5114
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5113
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5117
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5093
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5110
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5115
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5180
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5118
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5116
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5117
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5113
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5117
+Name       The Turquoise Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the second of the four magnificent towers that 
+grace the corners of the palace, the Turquoise Tower.  
+Everything in this tower is made of smooth turquoise, 
+crystal, and gold.  The floors are made of alternating 
+squares of turquoise and gold, and the walls are composed of 
+millions of turquoise spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5116
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5098
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5114
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5118
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5121
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5119
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5121
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5119
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5118
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5122
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5120
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5119
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5121
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  South~
+ToRoom     5122
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5118
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5122
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5121
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5125
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5119
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5123
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5126
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5124
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5127
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5125
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5125
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5124
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5126
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5122
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5126
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble floors, you 
+admire the exquisite turquoise and alabaster murals, with their delicate 
+details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5125
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5123
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5127
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5130
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5128
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5124
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5128
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5127
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5131
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5129
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5129
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5128
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5132
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5130
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5134
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5127
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5131
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  South~
+ToRoom     5132
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5128
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5132
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite turquoise and alabaster 
+murals, with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5131
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5136
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5129
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5133
+Name        The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5137
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5134
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5134
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5133
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5138
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5130
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5135
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5139
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5136
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5136
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5135
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5140
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5132
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5137
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5141
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5138
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5133
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5138
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5137
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5134
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5139
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5143
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5140
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5135
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5140
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5139
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5136
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5141
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5181
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5142
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5137
+#ENDEXIT
+Reset D    5141 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5142
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5141
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5143
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5143
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5142
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5139
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5144
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  East~
+ToRoom     5147
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5158
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5145
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5181
+Keywords   door~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5146
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5146
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5145
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5147
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5147
+Name       The Alabaster Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the third of the four magnificent towers that 
+grace the corners of the palace, the Alabaster Tower.  
+Everything in this tower is made of smooth alabaster, 
+crystal, and gold.  The floor is made of alternating squares 
+of alabaster and gold, and the walls are composed of 
+millions of alabaster spheres encased in sparkling crystal.  
+If you look up you can see the sun shining in through the 
+crystal dome that makes the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5146
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5144
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5148
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5153
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5149
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5149
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5148
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5154
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5150
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5155
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5151
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5151
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5150
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5156
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5152
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5152
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5151
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5153
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  East~
+ToRoom     5158
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5154
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5148
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5154
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5153
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5159
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5155
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5149
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5155
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5154
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5160
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5156
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5150
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5156
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5155
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5157
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5151
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5157
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5156
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5158
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5144
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5153
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5159
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  West~
+ToRoom     5154
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5160
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  South~
+ToRoom     5161
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5155
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5161
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5160
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5162
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5162
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander through the hallways, across the smooth marble 
+floors, you admire the exquisite alabaster and onyx murals, 
+with their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5161
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5170
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5163
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5182
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5167
+#ENDEXIT
+Reset D    5163 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5164
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5165
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5172
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5165
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5164
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5166
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5167
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5167
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5166
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5168
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5163
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5168
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5167
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5172
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5169
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5169
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5168
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5170
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5162
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5174
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5171
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5171
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5170
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5175
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5172
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5172
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5171
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5176
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5173
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5168
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5173
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5172
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5177
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5174
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  West~
+ToRoom     5170
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5175
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  South~
+ToRoom     5176
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5171
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5176
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5175
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5177
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5172
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5177
+Name       The Onyx Tower~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are in the fourth and final tower of the four that grace 
+the corners of the palace.  Everything in this tower is made 
+of shiny onyx, crystal, and gold.  The floor is made of 
+alternating squares of onyx and gold, and the walls are 
+composed of millions of onyx spheres encased in sparkling 
+crystal.  If you look up you can see the sun shining in 
+through the crystal dome that makes up the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     5176
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5173
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5178
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       As you wander across the hallways, across the smooth marble 
+floors, you admire the exquisite onyx and pearl murals, with 
+their delicate details etched in gold.
+~
+#EXIT
+Direction  North~
+ToRoom     5069
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5059
+Key        5004
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    5178 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5179
+Name       The Chamber of the Pearl Guardian~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       In sharp contrast to the splendor of pearl in the rest of 
+the tower, theis room is very simple and purely utiltarian.  
+Dark rugs cover the walls and floors, muffling screams and 
+hiding bloodstains, and there are no furnishings in the 
+room.  Furniture would only get in the way when the Pearl 
+Guardian persuades you to leave.
+~
+#EXIT
+Direction  East~
+ToRoom     5076
+Key        5001
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5001 1 5179 -1 -1 -1 100
+  Reset E  5001 1 17 100
+  Reset E  5026 15 10 20
+Reset D    5179 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5180
+Name       The Chamber of the Turquoise Guardian~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       In sharp contrast to the splendor of turquoise in the rest 
+of the tower, theis room is very simple and purely 
+utiltarian.  Dark rugs cover the walls and floors, muffling 
+screams and hiding bloodstains, and there are no furnishings 
+in the room.  Furniture would only get in the way when the 
+Turquoise Guardian persuades you to leave.
+~
+#EXIT
+Direction  South~
+ToRoom     5115
+Key        5002
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5002 1 5180 -1 -1 -1 100
+  Reset E  5002 1 17 100
+  Reset E  5027 10 3 15
+Reset D    5180 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5181
+Name       The Chamber of the Alabaster Guardian~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       In sharp contrast to the splendor of alabaster in the rest 
+of the tower, theis room is very simple and purely 
+utiltarian.  Dark rugs cover the walls and floors, muffling 
+screams and hiding bloodstains, and there are no furnishings 
+in the room.  Furniture would only get in the way when the 
+Alabaster Guardian persuades you to leave.
+~
+#EXIT
+Direction  South~
+ToRoom     5145
+Key        5003
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5003 1 5181 -1 -1 -1 100
+  Reset E  5003 1 17 100
+  Reset E  5028 10 7 15
+Reset D    5181 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5182
+Name       The Chamber of the Onyx Guardian~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       In sharp contrast to the splendor of onyx in the rest of the 
+tower, theis room is very simple and purely utiltarian.  
+Dark rugs cover the walls and floors, muffling screams and 
+hiding bloodstains, and there are no furnishings in the 
+room.  Furniture would only get in the way when the Onyx 
+Guardian persuades you to leave.
+~
+#EXIT
+Direction  West~
+ToRoom     5070
+Key        5004
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5004 1 5182 -1 -1 -1 100
+  Reset E  5004 1 17 100
+  Reset E  5029 10 11 10
+Reset D    5182 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5183
+Name       A Corridor~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The hallway here is narrower and less ostentatious than the 
+grand hallways you've travelled through to get here.  You've 
+entered the corridor leading to the private chambers of the 
+inhabitants of the palace.
+~
+#EXIT
+Direction  North~
+ToRoom     5186
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5184
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5066
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5184
+Name       A Corridor~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The hallway here is narrower and less ostentatious than the 
+grand hallways you've travelled through to get here.  You've 
+entered the corridor leading to the private chambers of the 
+inhabitants of the palace.  In front of you is a door 
+leading to one of the private rooms.
+~
+#EXIT
+Direction  North~
+ToRoom     5185
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5183
+#ENDEXIT
+Reset D    5184 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5185
+Name       The Jinni's Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       Looming in front of you is the smoky shape of the largest 
+jinni you've ever seen.  Like all the jinn, his arrogance 
+far exceeds his sheer size, and his burning eyes glare down 
+at you.  As jinn do not need the furnishings and 
+ornamentations that mere mortals do, the room is empty.  In 
+his left hand, though, this jinni holds an old battered 
+copper lamp, and you realize that before you is the 
+legendary Jinni of the Lamp.  His sole job is to protect 
+Aladdin's Lamp from falling into the wrong...namely 
+your...hands.
+~
+#EXIT
+Direction  South~
+ToRoom     5184
+#ENDEXIT
+Reset M    5006 1 5185 -1 -1 -1 100
+  Reset E  5030 10 0 4
+#ENDROOM
+
+#ROOM
+Vnum        5186
+Name       A Corridor~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The hallway here is narrower and less ostentatious than the 
+grand hallways you've travelled through to get here.  You've 
+entered the corridor leading to the private chambers of the 
+inhabitants of the palace.  In front of you is a door 
+leading to one of the private rooms.
+~
+#EXIT
+Direction  North~
+ToRoom     5187
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5183
+#ENDEXIT
+Reset D    5186 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5187
+Name       The Master Bedroom~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       In the very center of the palace courtyard is a small tower 
+not visible from the outside.  This octagonal room must be 
+kept cool by some mysterious magical means because desert 
+sunlight floods in from every angle.  Large panels of glass 
+make up the walls, and a crystal dome sits atop it.  Looking 
+around you see the bedroom tower sits amidst the courtyard 
+gardens that sit in the center of the walls of the rest of 
+the palace.  Outside may be a barren desert, but within the 
+protection of the walls the garden flourishes.  Streams 
+ripple through the scented gardens, with its fountains and 
+flowers and fruit trees.  In the midst of all this sunshine 
+and beauty stands Princess Badr al-Budur, for this 
+enchanting room is the bedroom that she shares with her 
+husband, Aladdin.  
+~
+#EXIT
+Direction  South~
+ToRoom     5186
+#ENDEXIT
+Reset M    5005 1 5187 -1 -1 -1 100
+  Reset E  5039 1 17 100
+Reset O    5038 1 5187 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5188
+Name       A Stairway~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       You are on a stairway leading up to one of the only rooms on 
+the second floor, the library.
+~
+#EXIT
+Direction  Up~
+ToRoom     5189
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5059
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5189
+Name       Aladdin's Library~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       The tall shelves in the library are lined with thousands of 
+shiny leather bound books.  It appears that Aladdin likes to 
+read an awful lot.  You can see Aladdin standing by the 
+window, admiring his ring in the sun.
+~
+#EXIT
+Direction  North~
+ToRoom     5048
+Key        5005
+Keywords   secret~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5188
+#ENDEXIT
+Reset M    5000 1 5189 -1 -1 -1 100
+  Reset E  5005 1 17 100
+  Reset E  5032 10 1 5
+Reset D    5189 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5190
+Name       In Front of a Cave~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You arrive from the magical portal in Aladdin's Palace in 
+front of a mysterious looking rock.  A faint cloud of dust 
+remains from the band of forty mounted men that ride off 
+into the distance.  They seem to have been thieves.  As you 
+look closely at the rock, it seems that the men came from 
+it.  Perhaps it contains a cave inside?  However, you don't 
+see any doors in the rock...at least none with any handles 
+to open them.  Maybe there's another way to get the door to 
+open...maybe it was something that they said to get it 
+open....
+~
+#EXIT
+Direction  North~
+ToRoom     5191
+Desc       You see a rock wall in front of you.
+~
+Keywords   opensesame~
+Flags      isdoor~
+#ENDEXIT
+Reset O    5035 1 5190 -1 -1 -1 100
+Reset D    5190 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5191
+Name       The Main Cavern~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You were expecting to see a dark, dismal cave, but instead 
+you enter a spacious, well-lighted chamber.  An opening in 
+the ceiling provides the light.  As you look around you see 
+passages leading to chambers in several directions.
+~
+#EXIT
+Direction  North~
+ToRoom     5193
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5190
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5192
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5192
+Name       Inside the Cavern~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You look around the bare chamber as your eyes adjust to the 
+dimmer light in this cavern.  There is no opening in the 
+ceiling in this chamber, so the only light is that coming 
+from the main chamber.  You are about to leave to explore 
+the rest of the caves, when you notice a definite female 
+shape watching you from the shadows.  
+~
+#EXIT
+Direction  East~
+ToRoom     5191
+#ENDEXIT
+Reset M    5016 1 5192 -1 -1 -1 100
+  Reset E  5033 15 8 20
+#ENDROOM
+
+#ROOM
+Vnum        5193
+Name       Before a Golden Door~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Although smaller than the main cavern, this chamber is still 
+spacious, yet it is bare.  You wonder why anyone would go to 
+all the trouble to conceal an empty cave.  As you step 
+further inside, though, you notice a gleaming gold door set 
+in the back wall.  Curiousity piqued, you step towards it to 
+open it, but are stopped by an angry looking man.  What's 
+his problem anyway?  It's not like he has the keys to the 
+door or anything...
+~
+#EXIT
+Direction  North~
+ToRoom     5194
+Key        5036
+Desc       You can't seem to see what's in that direction because of 
+the silly door blocking your view.
+~
+Keywords   golden door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5191
+#ENDEXIT
+Reset M    5015 1 5193 -1 -1 -1 100
+  Reset E  5036 1 17 100
+Reset O    5037 1 5193 -1 -1 -1 100
+Reset D    5193 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5194
+Name       Inside the Inner Caves~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc nomob~
+Stats       24  5000 0 0 100000
+Desc       Passages lead in every direction from this chamber.  If one 
+was not careful, one could get hopelessly lost in here.  All 
+sorts of valuable things lie about inside these chambers.  
+Rich bales of silk, brocade, and valuable carpeting piled 
+one on top of the other, gold and silver ingots lying in 
+great heaps, and money in bags.
+~
+#EXIT
+Direction  North~
+ToRoom     5195
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5194
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5194
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+Reset O    5034 2 5194 -1 -1 -1 1
+#ENDROOM
+
+#ROOM
+Vnum        5195
+Name       Inside the Inner Caves~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc nomob~
+Stats       24  5000 0 0 100000
+Desc       Passages lead in every direction from this chamber.  If one 
+was not careful, one could get hopelessly lost in here.  All 
+sorts of valuable things lie about inside these chambers.  
+Rich bales of silk, brocade, and valuable carpeting piled 
+one on top of the other, gold and silver ingots lying in 
+great heaps, and money in bags.
+~
+#EXIT
+Direction  North~
+ToRoom     5195
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5196
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5194
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5195
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5196
+Name       Inside the Inner Caves~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc nomob~
+Stats       24  5000 0 0 100000
+Desc       Passages lead in every direction from this chamber.  If one 
+was not careful, one could get hopelessly lost in here.  All 
+sorts of valuable things lie about inside these chambers.  
+Rich bales of silk, brocade, and valuable carpeting piled 
+one on top of the other, gold and silver ingots lying in 
+great heaps, and money in bags.
+~
+#EXIT
+Direction  North~
+ToRoom     5196
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5196
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5197
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5195
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5197
+Name       Inside the Inner Caves~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc nomob~
+Stats       24  5000 0 0 100000
+Desc       Passages lead in every direction from this chamber.  If one 
+was not careful, one could get hopelessly lost in here.  All 
+sorts of valuable things lie about inside these chambers.  
+Rich bales of silk, brocade, and valuable carpeting piled 
+one on top of the other, gold and silver ingots lying in 
+great heaps, and money in bags.
+~
+#EXIT
+Direction  North~
+ToRoom     5196
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5198
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5197
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5197
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5198
+Name       Inside the Inner Caves~
+Sector     indoors~
+Flags      isolated teleport teleshowdesc nomob~
+Stats       24  5000 0 0 100000
+Desc       Passages lead in every direction from this chamber.  If one 
+was not careful, one could get hopelessly lost in here.  All 
+sorts of valuable things lie about inside these chambers.  
+Rich bales of silk, brocade, and valuable carpeting piled 
+one on top of the other, gold and silver ingots lying in 
+great heaps, and money in bags.
+~
+#EXIT
+Direction  North~
+ToRoom     5199
+Desc       You're almost there!!
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5198
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5198
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5197
+Desc       Grab what you can and run!!!
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5199
+Name       You made it!~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       Phew....that was close.  But hey, you made it.  Real 
+mudders(tm) enjoy running through there and giving 
+themselves adrenaline highs.  Come back and run through it 
+again with all your neat equipment on when the zone resets.  
+Or are you too chicken?? :)
+~
+#ENDROOM
+
+#ENDAREA

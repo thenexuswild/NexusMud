@@ -1,0 +1,31 @@
+Version     1
+Name        Half-Orc~
+Race        6
+Classes     Cleric Rogue Warrior~
+Str_Plus    1
+Dex_Plus    0
+Wis_Plus    -2
+Int_Plus    -1
+Con_Plus    2
+Cha_Plus    -4
+Lck_Plus    0
+Hit         6
+Mana        -9
+Affected    infrared~
+Language    orcish~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   106
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     60
+Weight     190
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'discern scent' 7 90
+Skill 'orcish vigour' 65 80
+Skill 'sudden strike' 30 85
+End

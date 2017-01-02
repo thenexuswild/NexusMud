@@ -1,0 +1,33 @@
+Version     1
+Name        Iguanadon~
+Race        13
+Classes     Warrior Cleric Rogue~
+Str_Plus    2
+Dex_Plus    1
+Wis_Plus    -3
+Int_Plus    -2
+Con_Plus    1
+Cha_Plus    -2
+Lck_Plus    0
+Hit         2
+Mana        0
+Affected    aqua_breath~
+Resist      cold~
+Language    reptile~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   104
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers eye scales claws tailattack~
+Attacks    tail~
+Height     78
+Weight     215
+Hunger_Mod  -2
+Thirst_mod  -3
+Mana_Regen  0
+HP_Regen    0
+Skill 'secretion' 70 80
+Skill 'sense life' 7 90
+Skill 'venomspit' 35 85
+End

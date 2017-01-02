@@ -1,0 +1,4668 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Nakaminato Village~
+Author          Unknown~
+Vnums           10900 10999
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       15
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        10900
+Keywords   diamyo samurai lord higashi makoto m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Daimyo Higashi~
+Long       Daimyo Higashi carefully examines you from the place he is sitting.
+~
+Desc       Daimyo Higashi is a very handsome, very strong man with dark eyes which seem
+to be able to look into your soul.  Cunning, he has managed to maneuver into
+a very excellent spot:  he is now one of the Shogun's most trusted Daimyos.
+~
+Nattacks   2.000000
+Stats1     100 4000 60 100 150 250
+Stats2     12 9 2 600 2 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10901
+Keywords   militia soldier man m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the militia man~
+Long       A member of the Militia watches you suspiciously here.
+~
+Desc       Trained rudimentary weapon skills, these brave soldiers are here to defend
+the village against bandits.  They are no match for the samurai, however.
+~
+Nattacks   1.000000
+Stats1     200 300 60 100 150 250
+Stats2     6 15 4 97 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10902
+Keywords   man m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the man~
+Long       A man is going about his business here.
+~
+Desc       He is just one of the many villagers who lives in Anjiro, and he really
+couldn't care less who you are or where you come from.
+~
+Nattacks   1.000000
+Stats1     100 60 60 100 150 250
+Stats2     4 17 6 37 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10903
+Keywords   woman m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the woman~
+Long       A woman is going about her daily business here.
+~
+Desc       She is just one of the many villagers who lives in Anjiro, and is really too
+busy to care about who you are or where you came from.
+~
+Nattacks   1.000000
+Stats1     100 60 60 100 150 250
+Stats2     4 17 6 37 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10904
+Keywords   samurai m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the samurai~
+Long       A samurai stands here, looking out for troublemakers.
+~
+Desc       Loyal to his lord, the samurai is the epitome of the warrior and gentleman.
+~
+Nattacks   2.000000
+Stats1     100 1000 60 100 150 250
+Stats2     10 11 3 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10905
+Keywords   lord keijiro higashi m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the samurai Lord Keijiro Higashi~
+Long       The samurai lord, Keijiro Higashi, reviews his troops here.
+~
+Desc       The son of Makoto Higashi, Keijiro, is a brilliant strategist.  He is also
+quite gorgeous, his long flowing hair whippin in the wind as he walks among
+his troops, he is truly a magnificent sight.
+~
+Nattacks   2.000000
+Stats1     100 4000 60 100 150 250
+Stats2     14 7 1 500 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10906
+Keywords   gaijin lord cyrus m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Gaijin Lord Cyrus~
+Long       The Gaijin Lord Cyrus is studying Japanese here.
+~
+Desc       This cavalry officer of Tirgoth found himself shipwrecked in the Japans, and
+came into favor with the Great Daimyo who would eventually become Shogun.  He
+is quite handsome, having long brown hair and beautiful mustaches.  He is now
+quite Japanese in manner.
+~
+Nattacks   3.000000
+Stats1     500 22000 60 100 150 250
+Stats2     30 -4 -5 800 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   sanctuary fireshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10907
+Keywords   fisherman man m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the fisherman~
+Long       A fisherman is here, fishing.
+~
+Desc       This man is just a plain fisherman, making a living by going out every day
+to catch fish.
+~
+Nattacks   1.000000
+Stats1     100 300 60 100 150 250
+Stats2     5 16 5 97 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10908
+Keywords   girl m109~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the girl~
+Long       A little girl is here, playing.
+~
+Desc       This little girl is quite cute, enjoying the wonders of childhood.
+~
+Nattacks   1.000000
+Stats1     100 25 60 100 150 250
+Stats2     1 20 9 10 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10909
+Keywords   boy m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the boy~
+Long       A little boy is playing here.
+~
+Desc       This young boy is adorable, playing in the street, enjoying the wonders of
+childhood.
+~
+Nattacks   1.000000
+Stats1     100 25 60 100 150 250
+Stats2     1 20 9 11 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10910
+Keywords   farmer m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the farmer~
+Long       A farmer is working in the fields here.
+~
+Desc       This burly looking man is quite strong from long hours of working in the
+fields.  He is much to busy to talk to you.
+~
+Nattacks   1.000000
+Stats1     100 200 60 100 150 250
+Stats2     6 15 4 85 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10911
+Keywords   horse m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the horse~
+Long       A horse is minding its own horsey business here.
+~
+Desc       This beast is obviously a riding horse, an easily frightened animal which
+runs very fast.
+~
+Nattacks   1.000000
+Stats1     0 70 60 100 150 250
+Stats2     5 16 5 60 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10912
+Keywords   man m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Man~
+Long       A man stands here, minding his own business.
+~
+Desc       This is one of the many villagers of Anjiro, who is working at home right
+now.
+~
+Nattacks   1.000000
+Stats1     100 60 60 100 150 250
+Stats2     4 17 6 60 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10913
+Keywords   woman m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Woman~
+Long       A woman is here, minding her own business.
+~
+Desc       This is one of the many villages of Anjiro, who is working at home at the
+moment.
+~
+Nattacks   1.000000
+Stats1     100 60 60 100 150 250
+Stats2     4 17 6 60 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10914
+Keywords   samurai m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Samurai~
+Long       A samurai stands here, looking out for enemies of his lord.
+~
+Desc       This soldier has been trained in the fine art of war, a deadly and cunning
+warrior who is completely loyal to his master.
+~
+Nattacks   1.000000
+Stats1     100 1000 60 100 150 250
+Stats2     9 12 3 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10915
+Keywords   samurai m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Samurai~
+Long       A samurai stands here, solemnly awaiting an inspection.
+~
+Desc       This warrior is very talented, trained in the fine are of war.  He is a deadly
+swordsman, as well as gentleman, artist, and thinker.  He is completely loyal
+to his lord.
+~
+Nattacks   1.000000
+Stats1     100 1000 60 100 150 250
+Stats2     9 12 3 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10916
+Keywords   chin dog m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Chin~
+Long       A small dog is eyeing your leg here.
+~
+Desc       This little dog is quite cute, a toy dog which is treasured by nobles.
+~
+Nattacks   1.000000
+Stats1     0 10 60 100 150 250
+Stats2     0 20 10 1 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10917
+Keywords   innkeeper m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Innkeeper~
+Long       The innkeeper offers you a menu and motions for someone to take your coat.
+~
+Desc       This polite man is here, ready to serve you.  He runs this famous establisment
+and has made it popular through good service and good food.
+~
+Nattacks   2.000000
+Stats1     200 3000 60 100 150 250
+Stats2     12 9 2 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   0 0 10530 10538 10540 100 80 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10918
+Keywords   smith blacksmith m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Blacksmith~
+Long       A blacksmith is working on some weapons for the militia here.
+~
+Desc       The blacksmith, while talented enough to make katanas and other fine blades,
+has been banished to this small rural village to make weapons for the militia,
+probably punishment for some offense.
+~
+Nattacks   2.000000
+Stats1     100 7000 60 100 150 250
+Stats2     18 2 0 400 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   10467 10465 10466 10480 10486 80 100 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10919
+Keywords   baker m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Baker~
+Long       The Baker offers you the most delicious okonomiyaki in the land here.
+~
+Desc       This simple man is a master baker, a perfectionist when it comes to making
+rice cakes.  They are quite famous throughout the land.
+~
+Nattacks   2.000000
+Stats1     100 7000 60 100 150 250
+Stats2     18 3 0 400 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   0 0 0 10915 10916 80 100 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10920
+Keywords   storekeeper m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Storekeeper~
+Long       A storekeeper stands behind a counter here, watching you suspiciously.
+~
+Desc       The storekeeper has been charged to look over his family's business: the
+running of the largest general store in Anjiro Village.
+~
+Nattacks   2.000000
+Stats1     100 7000 60 100 150 250
+Stats2     18 3 0 400 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   10546 10547 10549 10523 10522 80 100 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10921
+Keywords   farmer m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Farmer~
+Long       A farmer is here, selling his vegetables.
+~
+Desc       This man has made quite a harvest, and is now selling his best.  He offers you
+a tomato.
+~
+Nattacks   2.000000
+Stats1     100 1500 60 100 150 250
+Stats2     15 6 1 185 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   10919 10920 10921 10922 10923 30 100 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10922
+Keywords   fisherman m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Fisherman~
+Long       A Fisherman is here, selling his bountiful catch.
+~
+Desc       This man was apparently quite successful this morning, having hauled in quite
+a bit of seafood.
+~
+Nattacks   2.000000
+Stats1     100 1500 60 100 150 250
+Stats2     15 6 1 185 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   0 0 10912 10913 10914 30 100 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10923
+Keywords   ship builder m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Ship Builder~
+Long       A ship builder is here, drafting a new design.
+~
+Desc       A hearty man, this fellow was once a sailor.  He is much to old to sail now,
+but continues to live by the sea which he loves, designing and building ships.
+~
+Nattacks   2.000000
+Stats1     100 7000 60 100 150 250
+Stats2     18 3 0 400 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+ShopData   0 0 0 0 10566 30 100 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        10924
+Keywords   priest shinto m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Shinto Priest~
+Long       A Shinto priest stands here, performing some exotic rite.
+~
+Desc       This man might have been quite handsome, but the severe monastic style hides
+all of that.
+~
+Nattacks   2.000000
+Stats1     350 500 60 100 150 250
+Stats2     10 11 2 122 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10925
+Keywords   crab m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the crab~
+Long       A large crab is looking for food here.
+~
+Desc       This crab is about a foot wide with deady pincers!
+~
+Nattacks   1.000000
+Stats1     0 30 60 100 150 250
+Stats2     2 19 8 22 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10926
+Keywords   gardener m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Gardener~
+Long       A gardener diligently trims some bushes here.
+~
+Desc       This old man has worked as a gardener for some time, being quite talented at
+what he does.
+~
+Nattacks   1.000000
+Stats1     0 50 60 100 150 250
+Stats2     5 16 5 60 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10927
+Keywords   maid m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Maid~
+Long       A maid is cleaning up after you here.
+~
+Desc       This young woman is quite busy, cleaning up after YOUR mess... geez.
+~
+Nattacks   1.000000
+Stats1     0 50 60 100 150 250
+Stats2     5 16 5 60 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10928
+Keywords   chef m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Chef~
+Long       A chef toils over a wok here.
+~
+Desc       This man is one of the most talented cooks in the land, hired by the Daimyo
+to suit his refined tastes.
+~
+Nattacks   1.000000
+Stats1     0 50 60 100 150 250
+Stats2     5 16 5 60 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10929
+Keywords   geisha m109~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Geisha~
+Long       A geisha is here, her face white with makeup.
+~
+Desc       This young woman is an entertainer, her beauty and charm enchanting you.
+~
+Nattacks   1.000000
+Stats1     0 25 60 100 150 250
+Stats2     4 17 6 47 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10930
+Keywords   bandit m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Bandit~
+Long       A bandit is here, getting ready to waylay you.
+~
+Desc       This man has fallen upon hard times, and has resorted to crime.  He probably
+has the death sentence lying over his head.
+~
+Nattacks   1.000000
+Stats1     -200 600 60 100 150 250
+Stats2     9 12 3 110 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10931
+Keywords   bandit leader m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Bandit Leader~
+Long       The Bandit Leader jumps up from his seat and attacks!
+~
+Desc       This man is quite strong, ruling over the other bandits by fear and cunning.
+He does not seem happy to see you.
+~
+Nattacks   2.000000
+Stats1     -350 4000 60 100 150 250
+Stats2     20 1 0 247 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10932
+Keywords   bandit guard m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Bandit~
+Long       A bandit who is guarding area leaps to kill you!
+~
+Desc       This man has fallen upon hard times, and fallen in league with bandits.  He is
+quite tough, more than a match for you.
+~
+Nattacks   2.000000
+Stats1     -250 1000 60 100 150 250
+Stats2     12 9 2 147 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10933
+Keywords   leech small m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the small Leech~
+Long       A small leech swims here, looking for dinner.
+~
+Desc       This little fish is a long tube with a mouth, perfect for sucking blood.
+~
+Nattacks   1.000000
+Stats1     0 5 60 100 150 250
+Stats2     0 20 10 2 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10934
+Keywords   leech large m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the large leech~
+Long       A large leech is swimming here, looking for dinner.
+~
+Desc       This large fish is just a long tube with a mouth, just the right shape for
+sucking blood.
+~
+Nattacks   1.000000
+Stats1     0 25 60 100 150 250
+Stats2     1 20 9 5 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10935
+Keywords   fish small m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the small fish~
+Long       A small fish is swimming peacefully here.
+~
+Desc       This small fish is often found in rice paddies.
+~
+Nattacks   1.000000
+Stats1     0 25 60 100 150 250
+Stats2     1 20 9 5 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10936
+Keywords   spirit guardian m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Guardian Spirit~
+Long       You sense a poweful force watching over the area.
+~
+Desc       Dragged up from unknown planes of existance, this monster serves its master
+to the word.  It is otherwise very non-descpript.
+~
+Nattacks   4.000000
+Stats1     0 20000 60 100 150 250
+Stats2     31 -4 -6 950 6 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   invisible detect_invis sanctuary fireshield hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10937
+Keywords   magician bandit m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Magician~
+Long       One of the bandits stands here, waving a wand of some sort at you.
+~
+Desc       This magician, once a great scholar in Ishikawa, was kicked out of his order.
+He has now fallen upon banditry as a means of support.
+~
+Nattacks   2.000000
+Stats1     -200 6000 60 100 150 250
+Stats2     22 0 -1 350 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Affected   detect_invis fireshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10938
+Keywords   elder old man m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the elder~
+Long       An old man is sitting here, practicing calligraphy.
+~
+Desc       This man is quite old, having seen many rice harvests, wars, and so forth.  He
+is wearing a plain grey robe, and is holding a calligraphy brush. His hair is
+black but greying.
+~
+Nattacks   1.000000
+Stats1     250 375 60 100 150 250
+Stats2     9 12 3 110 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10939
+Keywords   lord yamashita m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Lord Yamashita~
+Long       The Lord Yamashita is here, contemplating a higher reality.
+~
+Desc       This noble looking lord is now the guest of Daimyo Higashi, coming all the way
+from his home province in the far south.  He has long black hair, tied in a
+top knot, and is wearing a light blue court kimono.
+~
+Nattacks   2.000000
+Stats1     200 2100 60 100 150 250
+Stats2     13 8 2 185 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10940
+Keywords   lord noble yamada m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Lord Yamada~
+Long       The Lord Yamada is practicing some strange martial arts form here.
+~
+Desc       Lord Yamada is a very handsome, middle aged lord, famed for his grace and
+martial prowess.  He has long black hair, tied into a topknot.  He is wearing
+a light court kimono which is dark brown in color.
+~
+Nattacks   2.000000
+Stats1     200 3000 60 100 150 250
+Stats2     13 8 2 222 3 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10941
+Keywords   adviser m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the adviser~
+Long       One of the Daimyo's advisers is here, ready to wait on you.
+~
+Desc       This young samurai has not served the daimyo long, but his diplomatic skills
+have helped him advance very quickly.
+~
+Nattacks   2.000000
+Stats1     200 1800 60 100 150 250
+Stats2     12 9 2 172 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10942
+Keywords   consort lady Hiromi m109~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Lady Hiromi~
+Long       The Daimyo's consort, the Lady Hiromi, is writing some poetry here.
+~
+Desc       This beautiful woman is well known for her poetry writing, which flows like
+her vibrant black hair.  She is wearing a pink kimono.
+~
+Nattacks   2.000000
+Stats1     250 1800 60 100 150 250
+Stats2     11 10 2 172 3 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10943
+Keywords   samurai elite m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Elite Samurai~
+Long       An elite samurai guards his lord here.
+~
+Desc       One of the most powerful samurai in the Daimyo's domain, these warriors have
+the great honor of defending their master.
+~
+Nattacks   2.000000
+Stats1     250 4000 60 100 150 250
+Stats2     20 1 0 247 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10944
+Keywords   translator m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the translator~
+Long       The Daimyo's translator stand here, ready to assist his lord.
+~
+Desc       This handsome young man is linguistically talented, and serves his lord in the
+best way he can.
+~
+Nattacks   2.000000
+Stats1     200 1600 60 100 150 250
+Stats2     11 10 2 160 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10945
+Keywords   gate keeper m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Gate Keeper~
+Long       The Gate Keeper watches the reception hall entrance here.
+~
+Desc       This fierce warrior has served the Daimyo for a long time, and works, keeping
+track of who comes and goes from the reception hall.
+~
+Nattacks   2.000000
+Stats1     200 2100 60 100 150 250
+Stats2     13 8 2 185 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10946
+Keywords   lady daughter kaori m109~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Lady Kaori~
+Long       The Lady Kaori is preparing to take a bath here.
+~
+Desc       This beautiful young lady is the Daimyo's daughters, one of the most sought 
+after in the land.
+~
+Nattacks   2.000000
+Stats1     0 2800 60 100 150 250
+Stats2     15 6 1 210 3 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10947
+Keywords   spirit guardian m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Guardian Spirit~
+Long       You sense a powerful force, watching over the area.
+~
+Desc       Dragged up from unknown planes of existence, this creature serves its master
+to the word.  It is strangely non-descript.
+~
+Nattacks   4.000000
+Stats1     0 20000 60 100 150 250
+Stats2     31 -4 -6 950 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis sanctuary fireshield hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10948
+Keywords   bully m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the local bully~
+Long       The local bully is here, looking for someone to beat up.
+~
+Desc       This large man, bigger than most of the local militia, tends to exert his
+influence over town affairs.  He wears nice clothing, probably taken from
+some poor local.
+~
+Nattacks   1.000000
+Stats1     -250 15 60 100 150 250
+Stats2     8 13 3 1 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10949
+Keywords   yakuza m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the yakuza~
+Long       A Man with a lot of tattoos is standing here, watching you with little interest.
+~
+Desc       This man has a very cocky expression, probably because he knows that if you
+mess with him, his buddies will come and kick your butt.  He has a lot of
+tattoos, just barely visible beneath his nice clothes.
+~
+Nattacks   1.000000
+Stats1     -250 15 60 100 150 250
+Stats2     7 14 4 1 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10950
+Keywords   salaryman businessman man m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the salaryman~
+Long       You see a Japanese businessman here, enjoying an after-work drink.
+~
+Desc       Hmmm.... this man seems a little anachronistic, don't you think?  Well, where
+there is a bar, you'll find a Japanese businessman.  He is wearing a blue
+suit, the typical armor of the modern day samurai.  Hope he doesn't get beat
+up!
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     4 17 6 1 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10951
+Keywords   girl high m109~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a flirty high-school girl~
+Long       A high school girl with her skirt hiked up is checking the men out here.
+~
+Desc       Strange, this girl is a little anachronistic... she is a high school girl,
+wearing a white sailor outfit with a cute red scarf.  She must be bad, since
+her skirt is hiked way up, and she should be in school, not in a bar.  What
+is she doing in this TIME period anyway?  Well, where there is a salaryman,
+you'll find a school girl.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     3 18 8 1 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10952
+Keywords   patron bar m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the bar patron~
+Long       A bar patron is here, enjoying his drink.
+~
+Desc       This bar patron apparently has had quite a bit to drink, poor guy.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     4 17 7 1 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10953
+Keywords   madam m109~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the willow world madam~
+Long       The willow world madam stands here, eyeing you curiously.
+~
+Desc       This older woman must have been really beautiful once.  Having gained a lot of
+money from her work, she has now opened her own brothel up.  She wears a nice
+green kimono.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     5 16 6 1 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10954
+Keywords   willow woman prostitute m109~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the willow woman~
+Long       A beautiful woman is here, waiting to serve you.
+~
+Desc       This beautiful woman is more than just a prostitute, she is an artisan,
+trained to make your stay here very enjoyable.  She is wearing a stunning
+kimono, and her perfume makes you dizzy with desire.
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     4 17 7 1 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10955
+Keywords   the Madman m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Madman~
+Long       A madman stands here, ranting and raving.
+~
+Desc       This dishevelled character evokes pity deep within your heart.  Obviously, he
+was once a productive member of society, but has now just gone nuts.  He is
+ranting and raving about some sparkling dagger.  You wouldn't happened to have
+seen it, would you?  Help the poor guy out!
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     20 1 0 1 6 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10956
+Keywords   calligrapher kobayashi m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the calligrapher Kobayashi~
+Long       The famous calligrapher, Kobayashi is sitting here, practicing.
+~
+Desc       Master Kobayashi, a renowned calligrapher sits before you, the guess of the
+Daimyo.  He is old and balding, but his hands are steady, and you cannot help
+but to admire the scroll he is working on.
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     10 11 3 1 6 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10957
+Keywords   ninja m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the ninja~
+Long       A ninja is stealthily walking moving about here.
+~
+Desc       This ninja is young, but already quite adept at moving about silently and
+without being noticed.  He is dressed in a ninja suit which seems to help
+him cloak with his surroundings.
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     12 9 2 1 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc wimpy~
+Affected   invisible sneak hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10960
+Keywords   merchant m109~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a Fat Merchant~
+Long       A fat merchant is here, ordering his crew to load up the cargo.
+~
+Desc       "Yes, I'm taking my cargo to the west," he replies to your question.
+"What, you want to come along?  Well, I have a very full ship and I've 
+already accepted as many passengers as I normally carry but. . ." he looks
+you over critically.  "Very well, I will take you with me, but of course
+you will have to pay for your passage.  I can't just do this out of the 
+goodness of my heart you know."
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 20 -100 1 7 0 49
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath~
+Bodyparts  head arms legs heart~
+ShopData   10952 0 0 0 0 50 100 0 28
+#ENDMOBILE
+
+#OBJECT
+Vnum        10900
+Keywords   small key k109~
+Type       key~
+Short      small key~
+Long       You see a small key lying in the dirt here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10901
+Keywords   large key k109~
+Type       key~
+Short      large key~
+Long       Someone has left a key here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10902
+Keywords   wire rod k109~
+Type       key~
+Short      wire rod~
+Long       A wire, like an unbent coat-hanger, has been left out here.~
+WFlags     take~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10903
+Keywords   box laquer large o109~
+Type       container~
+Short      the large laquer box~
+Long       ~
+Values     100 15 10902 10 0 10902 0 0 0 0 0
+Stats      20 300 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10904
+Keywords   golden circlet o109~
+Type       armor~
+Short      a thin golden circlet~
+Long       A fine golden circlet has been left out to tarnish here.~
+Flags      antineutral~
+WFlags     take head~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      3 3000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    damroll -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10905
+Keywords   ornate kote laced armor arm guards o109~
+Type       armor~
+Short      ornate kote~
+Long       A pair of ornate laced armor arm guards lies here.~
+Flags      magic antievil~
+WFlags     take arms~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      5 5000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    Constitution -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10906
+Keywords   wand onyx o109~
+Type       wand~
+Short      an onyx wand~
+Long       A strange onyx wand radiates strange magical auras here.~
+Flags      invis~
+WFlags     take hold~
+Values     10 2 2  0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10907
+Keywords   robe sorcerer o109~
+Type       armor~
+Short      a Sorcerer's Robe~
+Long       A bizarre robe with strange runes lies in a pile here.~
+Flags      antigood~
+WFlags     take about~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      4 20000 0 9999 0 None None None
+AffData    mana 20 -1 -1 0
+AffData    Constitution -2 -1 -1 0
+AffData affected  'detect_magic' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10908
+Keywords   cloak travelling o109~
+Type       armor~
+Short      a travelling cloak~
+Long       A worn cloak has been left here.~
+Flags      antigood antievil~
+WFlags     take neck~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      5 1000 0 9999 0 None None None
+AffData    move 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10909
+Keywords   no dachi ornate o109~
+Type       weapon~
+Short      ornate no-dachi~
+Long       An ornate, two-handed katana has been left to rust here.~
+Flags      magic antievil~
+WFlags     take wield~
+Values     0 7 3 1 0 0 0 0 0 0 0
+Stats      20 5000 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    damroll 2 -1 -1 0
+AffData    hitroll -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10910
+Keywords   medal o109~
+Type       armor~
+Short      Tirgothic Medal~
+Long       Someone has left a nifty medal here.~
+Flags      antievil~
+WFlags     take finger~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      1 10000 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10911
+Keywords   katana blade o109~
+Type       weapon~
+Short      katana~
+Long       A fine curved blade has been left here.~
+WFlags     take wield~
+Values     0 3 4 1 0 0 0 0 0 0 0
+Stats      8 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10912
+Keywords   tuna o109~
+Type       food~
+Short      a tuna fish~
+Long       You see a large tuna, smoked to perfection.~
+WFlags     take~
+Values     18 0 0 0 0 0 0 0 0 0 0
+Stats      2 40 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10913
+Keywords   herring o109~
+Type       food~
+Short      a herring~
+Long       A herring flounders about here, hoping you won't eat it.~
+WFlags     take~
+Values     12 0 0 0 0 0 0 0 0 0 0
+Stats      1 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10914
+Keywords   steamed crab o109~
+Type       food~
+Short      a steamed crab~
+Long       A crab, steamed to redness, has been abandonned here.~
+WFlags     take~
+Values     12 0 0 0 0 0 0 0 0 0 0
+Stats      2 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10915
+Keywords   rice cake o109~
+Type       food~
+Short      a rice cake~
+Long       You see a delicious rice cake ready to be taken here.~
+WFlags     take~
+Values     18 0 0 0 0 0 0 0 0 0 0
+Stats      1 50 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10916
+Keywords   pastry o109~
+Type       food~
+Short      a japanese pastry~
+Long       You see a delicious Japanese pastry left here to spoil~
+WFlags     take~
+Values     12 0 0 0 0 0 0 0 0 0 0
+Stats      1 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10917
+Keywords   key rusting k109~
+Type       key~
+Short      a rusting key~
+Long       You see a rusting key lying in the dirt here.~
+WFlags     take~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10918
+Keywords   potion flourescent o109~
+Type       potion~
+Short      flourescent potion~
+Long       A bright, flourescent potion is lighting up the room here.~
+WFlags     take~
+Values     16 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10919
+Keywords   cabbage head o109~
+Type       food~
+Short      a head of cabbage~
+Long       A fresh head of cabbage is lying here.~
+WFlags     take~
+Values     16 0 0 0 0 0 0 0 0 0 0
+Stats      1 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10920
+Keywords   green pepper o109~
+Type       food~
+Short      a green pepper~
+Long       A green pepper has been left here.~
+WFlags     take~
+Values     4 0 0 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10921
+Keywords   carrot o109~
+Type       food~
+Short      carrot~
+Long       A bright orange carrot has been left here.~
+WFlags     take~
+Values     8 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10922
+Keywords   celery o109~
+Type       potion~
+Short      a stalk of celery~
+Long       A stalk of celery is lying here.~
+WFlags     take~
+Values     12 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10923
+Keywords   tomato o109~
+Type       food~
+Short      a tomato~
+Long       A plump, ripe tomato is lying here.~
+WFlags     take~
+Values     8 0 0 0 0 0 0 0 0 0 0
+Stats      1 8 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10924
+Keywords   ring white gold o109~
+Type       armor~
+Short      a white gold ring~
+Long       A white colored ring catches your eye here.~
+Flags      magic antievil~
+WFlags     take finger~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      2 6000 0 9999 0 None None None
+AffData    Intelligence 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10925
+Keywords   sash black o109~
+Type       armor~
+Short      a black sash~
+Long       a plain black sash has been left here.~
+Flags      magic antineutral~
+WFlags     take neck waist~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    hit 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10926
+Keywords   needle throwing long o109~
+Type       weapon~
+Short      a long throwing needle~
+Long       A long throwing needle has been left here.~
+Flags      antievil~
+WFlags     take wield~
+Values     0 2 3 6 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#EXDESC
+ExDescKey  needle throwing long~
+ExDesc     Disguised as a hairpin, some noble ladies (and ninjas) use this type of needle
+as a type of concealed weapon.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10927
+Keywords   hakama silk o109~
+Type       armor~
+Short      a pair of silk hakama~
+Long       A pair of silk hakama lie neatly folded here.~
+Flags      magic antievil~
+WFlags     take legs~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      2 1000 0 9999 0 None None None
+AffData    Dexterity 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10928
+Keywords   chest o109~
+Type       container~
+Short      a large chest~
+Long       A large chest lies in a corner here.~
+Values     300 13 10929 10 0 10929 0 0 0 0 0
+Stats      300 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10929
+Keywords   key k109~
+Type       key~
+Short      a key~
+Long       A nondescript key catches your attention.~
+WFlags     take~
+Values     0 0 0 0 -1 15 0 0 0 0 0
+Stats      2 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10930
+Keywords   pistol flintlock o109~
+Type       weapon~
+Short      a flintlock pistol~
+Long       A beautiful flintlock pistol has been left here to rust.~
+WFlags     take wield~
+Values     0 2 15 6 0 0 0 0 0 0 0
+Stats      2 0 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10931
+Keywords   flail rice o109~
+Type       weapon~
+Short      a rice flail~
+Long       A farmer has left his grain flail here.~
+WFlags     take wield~
+Values     0 2 5 4 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10932
+Keywords   fishing net o109~
+Type       weapon~
+Short      a fishing net~
+Long       A fishing net lies tangled on the ground here.~
+WFlags     take wield~
+Values     0 1 2 5 0 0 0 0 0 0 0
+Stats      5 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10933
+Keywords   okonomiyaki cake o109~
+Type       potion~
+Short      an okonomiyaki cake~
+Long       An okonomiyaki Japanese pizza is lying in the dirt here.~
+WFlags     take~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10934
+Keywords   green bead necklace o109~
+Type       armor~
+Short      a green-bead necklace~
+Long       Someone has left a necklace made of green beads here.~
+Flags      magic~
+WFlags     take neck~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10935
+Keywords   sailor scarf red o109~
+Type       armor~
+Short      a red sailor's scarf~
+Long       A school girl has left her red scarf here.~
+WFlags     take neck~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Intelligence 2 -1 -1 0
+AffData    Wisdom -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10936
+Keywords   silver ear-ring o109~
+Type       armor~
+Short      a silver ear-ring~
+Long       A silver ear-ring has been left to tarnish here.~
+WFlags     take ears~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Wisdom 1 -1 -1 0
+AffData    hit -10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10937
+Keywords   brief case o109~
+Type       container~
+Short      a brief case~
+Long       Someone has left a high quality brief case here.~
+WFlags     take hold~
+Values     100 5 0 10 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10938
+Keywords   boots hiking o109~
+Type       armor~
+Short      a pair of hiking boots~
+Long       A pair of hiking boots has been abandoned here.~
+WFlags     take feet~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+AffData    Dexterity -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10939
+Keywords   brush calligraphy o109~
+Type       wand~
+Short      a calligraphy brush~
+Long       A fine calligraphy brush has been left here.~
+WFlags     take hold~
+Values     20 2 2  0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  brush calligraphy~
+ExDesc     This fine brush is made of bamboo and wolf-hair.  You have a feeling that it
+has a purpose... say, writing characters.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10940
+Keywords   ink black potion o109~
+Type       potion~
+Short      an ink-black potion~
+Long       An ink-black potion has been left here.~
+WFlags     take~
+Values     15 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  potion black ink~
+ExDesc     This looks like a bottle of calligraphy ink.  Perhaps you shouldn't drink it.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10941
+Keywords   scroll hanging o109~
+Type       scroll~
+Short      a beautiful hanging scroll~
+Long       A beautiful hanging scroll hangs on the wall here.~
+WFlags     take~
+Values     1 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  scroll hanging~
+ExDesc     This scroll is beautifully written with the flowing hand of a master
+calligrapher.  However, it seems to be missing a few characters.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10942
+Keywords   book calligraphy o109~
+Type       trash~
+Short      a book of calligraphy~
+Long       An old book lies in the dust here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  book calligraphy~
+ExDesc     As you browse through this book, you find that it is a list of magical
+phrases, which one could, if put on a high-quality scroll, create various
+effects... in fact, it teaches you how to write the characters!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10943
+Keywords   crystal dagger o109~
+Type       weapon~
+Short      a plain crystal dagger~
+Long       A dagger made of nondescript crystal lies here.~
+WFlags     take~
+Values     0 7 1 6 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  dagger crystal~
+ExDesc     This plain crystal dagger looks like it is suitable for enchanting... if only
+you could find the right enchant....
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10945
+Keywords   sparkling crystal dagger o109~
+Type       weapon~
+Short      A sparkling crystal dagger~
+Long       A dagger made of a sparkling crystal catches your attention here.~
+Flags      glow antigood~
+WFlags     take wield~
+Values     0 7 3 6 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+AffData    Wisdom -3 -1 -1 0
+AffData    damroll 4 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10946
+Keywords   chameleon suit o109~
+Type       armor~
+Short      the chameleon suit~
+Long       You see the outline of a ninja suit on the ground here.~
+Flags      antigood~
+WFlags     take about~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      5 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10947
+Keywords   o-yoroi laced black o109~
+Type       armor~
+Short      black laquered o-yoroi~
+Long       A suit of black-laquered o-yoroi rests on a stand here.~
+WFlags     take body~
+Values     9 9 0 0 0 0 0 0 0 0 0
+Stats      25 1 0 9999 0 None None None
+AffData    Dexterity -1 -1 -1 0
+AffData    Strength 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10948
+Keywords   black laquer kabuto o109~
+Type       armor~
+Short      a black laquered kabuto~
+Long       A beautiful black laquered kabuto rests atop a stand here.~
+WFlags     take head~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      10 1 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+AffData    Intelligence -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10949
+Keywords   face mask o109~
+Type       armor~
+Short      A kabuto face mask~
+Long       A kabuto face mask rests beneath a kabuto here.~
+WFlags     take face~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      3 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+AffData    hit -20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10950
+Keywords   teak chest o109~
+Type       container~
+Short      the heavy teakwood chest~
+Long       ~
+Values     100 13 10951 10 0 10951 0 0 0 0 0
+Stats      100 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10951
+Keywords   teeny tiny key k109~
+Type       key~
+Short      a teeny tiny key~
+Long       You barely notice a teeny tiny key lying here.~
+WFlags     take~
+Values     0 0 0 0 -1 13 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        10952
+Keywords   voucher k109~
+Type       key~
+Short      a voucher~
+Long       A voucher to board the merchant's ship lies here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        10900
+Name       Dock~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand on a wooden dock, which goes out far enough into water for 
+ships to land.  Right now, there is a large merchant's ship at the west 
+end of the dock, and from here, the dock heads eastward out onto a 
+beach, which lies in the shadows of a tall cliff.
+~
+#EXIT
+Direction  East~
+ToRoom     10901
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27010
+Key        10952
+Desc       The gangplank to the merchant's ship is blocked off by a small gate.
+~
+Keywords   gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10960 1 10900 -1 -1 -1 100
+  Reset G  10952 99 100
+Reset M    10914 15 10900 -1 -1 -1 100
+  Reset E  10911 30 16 100
+Reset M    10914 15 10900 -1 -1 -1 100
+Reset M    10914 15 10900 -1 -1 -1 100
+  Reset E  10911 30 16 100
+Reset D    10900 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10901
+Name       Sandy Beach~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This sandy beach lies in the shadows of a cliff, and heads north and south.
+To the east is a large, open sandy flat, where a lord might drill his troops. 
+~
+#EXIT
+Direction  North~
+ToRoom     10902
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10905
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10904
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10900
+#ENDEXIT
+Reset M    10925 14 10901 -1 -1 -1 100
+Reset M    10925 14 10901 -1 -1 -1 100
+Reset M    10907 10 10901 -1 -1 -1 100
+  Reset G  10933 10 100
+Reset M    10907 10 10901 -1 -1 -1 100
+  Reset G  10932 5 100
+#ENDROOM
+
+#ROOM
+Vnum        10902
+Name       Sandy Beach~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand on a sandy beach in the shadows of a tall, unclimbable cliff.  The
+cliff rises on the eastern edge of the beach, preventing further movement in
+that direction.  The beach continues to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10903
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10901
+#ENDEXIT
+Reset M    10925 14 10902 -1 -1 -1 100
+Reset M    10907 10 10902 -1 -1 -1 100
+  Reset E  10932 10 17 100
+Reset M    10925 14 10902 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10903
+Name       North End of the Sandy Beach~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The beach ends here, at a pile of rubble and rocks, which reaches out into
+the sea, forming a jetty of some sort.  The cliff rises above you to the east,
+preventing passage in that direction.   There are several beams and boards
+lying around here, suggesting that a craftsman of some sort works here.
+~
+#EXIT
+Direction  South~
+ToRoom     10902
+#ENDEXIT
+Reset M    10923 1 10903 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10904
+Name       South End of the Sandy Beach~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The beach ends here, at a pile of impassable rocks and rubble.  The cliff
+rises to the east, preventing movement in that direction.  You see several
+fishermen here, plying their trade.
+~
+#EXIT
+Direction  North~
+ToRoom     10901
+#ENDEXIT
+Reset M    10907 10 10904 -1 -1 -1 100
+Reset M    10925 14 10904 -1 -1 -1 100
+Reset M    10925 14 10904 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10905
+Name       Sandy Flat~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The beach opens up onto a large, sandy flat here.  Some trees which you have
+never seen before lie along the western edge.  A path leads through the trees
+and up the cliff which overshadows the flat.
+~
+#EXIT
+Direction  East~
+ToRoom     10906
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10901
+#ENDEXIT
+Reset M    10915 8 10905 -1 -1 -1 100
+  Reset E  10911 50 16 100
+Reset M    10915 8 10905 -1 -1 -1 100
+  Reset E  10911 50 16 100
+Reset M    10915 8 10905 -1 -1 -1 100
+  Reset E  10911 50 16 100
+Reset M    10915 8 10905 -1 -1 -1 100
+  Reset E  10911 100 16 100
+Reset M    10905 1 10905 -1 -1 -1 100
+  Reset E  10905 5 10 70
+Reset M    10925 14 10905 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10906
+Name       Path Through the Woods~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path winds through a small copse of trees, sloping upward onto the
+cliff.  It seems to go up forever.
+~
+#EXIT
+Direction  Up~
+ToRoom     10907
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10905
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10907
+Name       Cliff Ledge~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a low ledge, perhaps 20 feet above a copse of trees,
+overlooking a sandy beach and the Koryo Sea.  On the west, the cliff climbs
+even higher, while the ledge continues north and south.  The view is quite
+spectacular.
+~
+#EXIT
+Direction  North~
+ToRoom     10909
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10908
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10906
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10908
+Name       Path to Nakaminato~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This dirt path on the cliff winds through bamboo trees, headed east toward
+the small fishing village, Nakaminato.  Fishermen pass by, on their way to
+the beach, watching you carefully. 
+~
+#EXIT
+Direction  North~
+ToRoom     10907
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10912
+#ENDEXIT
+Reset M    10902 15 10908 -1 -1 -1 100
+Reset M    10903 15 10908 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10909
+Name       Cliff Ledge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          From this vantage point, you see the breath taking beauty of the Koryo sea,
+lying beyond the sandy beach below.  The cliff rises a good 30 feet above the
+beach, and continues to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10910
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10907
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10910
+Name       Cliff Ledge~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The ledge bends south and east here, the whole way providing a wonderful
+view of the ocean below.
+~
+#EXIT
+Direction  East~
+ToRoom     10911
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10909
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10911
+Name       Before the Large Compound~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          As your round the ledge, you find yourself at the gates of a large compound,
+probably that of some noble.  The gate is made of iron, supported by heavy oak
+boards.
+~
+#EXIT
+Direction  North~
+ToRoom     10967
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10910
+#ENDEXIT
+Reset M    10914 15 10911 -1 -1 -1 100
+  Reset E  10911 30 16 100
+Reset M    10914 15 10911 -1 -1 -1 100
+  Reset G  10933 50 100
+#ENDROOM
+
+#ROOM
+Vnum        10912
+Name       The Main Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking on a hard packed dirt road, the main street in the village
+of Nakaminato.  Commoners are walking by, looking at you  suspiciously.  A 
+smith's shop is to your north, while a militia station lies to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     10922
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10913
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10923
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10908
+#ENDEXIT
+Reset M    10902 15 10912 -1 -1 -1 100
+Reset M    10903 15 10912 -1 -1 -1 100
+Reset M    10908 10 10912 -1 -1 -1 100
+Reset M    10916 8 10912 -1 -1 -1 100
+Reset M    10909 10 10912 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10913
+Name       The Main Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This wide street, which the villagers call 'the street', or 'the road' goes
+all the way through Nakaminato.  To the north is a large inn, while a stable
+lies to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     10924
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10914
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10925
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10912
+#ENDEXIT
+Reset M    10902 15 10913 -1 -1 -1 100
+Reset M    10903 15 10913 -1 -1 -1 100
+Reset M    10903 15 10913 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10914
+Name       Town Square~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The wide main street intersects with a smaller street, creating a node in
+the village of Nakaminato.  The small street heads north and south here, 
+while the wide street continues to east and west.  This area is somewhat 
+busy as peasants go about their daily business, which has remained the 
+same for the last few centuries.  A large pit, used for storing fish, 
+lies in the middle of the square, its access blocked by a bamboo grate.
+~
+#EXIT
+Direction  North~
+ToRoom     10920
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10915
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10921
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10913
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10936
+Keywords   grate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10902 15 10914 -1 -1 -1 100
+Reset M    10902 15 10914 -1 -1 -1 100
+Reset M    10903 15 10914 -1 -1 -1 100
+Reset M    10903 15 10914 -1 -1 -1 100
+Reset M    10957 1 10914 -1 -1 -1 100
+  Reset E  10941 1 17 70
+  Reset E  10946 1 12 85
+Reset D    10914 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10915
+Name       The Main Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This hard-packed dirt road goes all the way though the small fishing village
+of Nakaminato.  To the north you see a common residence, while a grocer's 
+store is to your south.  The road continues east, while the town square 
+lies directly to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     10930
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10916
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10929
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10914
+#ENDEXIT
+Reset M    10909 10 10915 -1 -1 -1 100
+Reset M    10916 8 10915 -1 -1 -1 100
+  Reset G  10933 50 100
+Reset M    10908 10 10915 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10916
+Name       The Main Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The wide street heads through Nakaminato, from the ocean on the west to 
+the rice paddies to the east.  Here, it continues, with commoner's homes on
+either side. 
+~
+#EXIT
+Direction  North~
+ToRoom     10932
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10917
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10933
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10915
+#ENDEXIT
+Reset M    10902 15 10916 -1 -1 -1 100
+Reset M    10903 15 10916 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10917
+Name       The Main Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a wide dirt road which runs east and west through the
+small fishing village of Nakaminato, which eventually comes to an end to 
+the east. The homes of commoners lie to the north and south.  This section of
+the road is fairly busy as people head out to the rice fields.
+~
+#EXIT
+Direction  North~
+ToRoom     10934
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10918
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10935
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10916
+#ENDEXIT
+Reset M    10902 15 10917 -1 -1 -1 100
+Reset M    10902 15 10917 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10918
+Name       Edge of Nakaminato~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on the outskirts of the beautiful fishing village of
+Nakaminato.  Situated on the western coast of Nippon's main island, Anjiro
+is a docking point for many westerners who would visit the closed society.
+Due to trade, Nakaminato has grown a great deal in the past couple of 
+years. A sign is mounted on a post here.
+~
+#EXIT
+Direction  East~
+ToRoom     10919
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10917
+#ENDEXIT
+Reset M    10902 15 10918 -1 -1 -1 100
+Reset M    10902 15 10918 -1 -1 -1 100
+#EXDESC
+ExDescKey  sign post signpost~
+ExDesc     Welcome to Nakaminato, domain of Daimyo Higashi Shimizu.
+Population:  3X,3X1
+             27,XX0
+             21,0XX
+             12,122
+       And still growing!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10919
+Name       Nakaminato-Ishikawa Road~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This long road runs from the small fishing village of Nakaminato,
+all the way through the bamboo forests of the Ishikawa River basin to 
+Ishikawa city.  To the west you see Anjiro, while the road goes on quite 
+a long way. ~
+#EXIT
+Direction  North~
+ToRoom     10978
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10982
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10974
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10918
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10920
+Name       Another Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small street runs north and south, from the farmer's market to the
+south to a shrine in the northern part of the village.  To the east is a
+large buidling, resting in the shadows of some tall hills, which house some
+of the loveliest hot springs in the world.  To the west, you smell a strong
+perfume, which captivates your senses and beckons you to enter.
+~
+#EXIT
+Direction  North~
+ToRoom     10926
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10937
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10914
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10938
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10921
+Name       The Marketplace~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         To the south of the town square is a market place where you can buy foods of
+all sorts.  Farmers are here, selling the fruits of their harvest, as well as
+fishermen and peasants.
+~
+#EXIT
+Direction  North~
+ToRoom     10914
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10942
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10941
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10943
+#ENDEXIT
+Reset M    10903 20 10921 -1 -1 -1 100
+Reset M    10903 20 10921 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10922
+Name       Smithy~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Nakaminato, while growing quickly, cannot support more than one 
+blacksmith. You are greeted by a blast of heat and the pounding of metal 
+on metal as you enter into this small smithy.  Looking around, you see 
+the blacksmith, working on a new piece.  Assistants are running about, 
+hauling pails of water and other items one might find an apprentice 
+carrying.  On the walls, you see weapons and armor of all sorts.
+~
+#EXIT
+Direction  South~
+ToRoom     10912
+#ENDEXIT
+Reset M    10918 1 10922 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10923
+Name       Keisatsu Koban (Police Box)~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In order to watch over the comings and going from the city, this station
+was constructed.  It is not very large or imposing, but the people who defend
+it are well trained.  It provides a wonderful view of the main road.
+~
+#EXIT
+Direction  North~
+ToRoom     10912
+#ENDEXIT
+Reset M    10901 30 10923 -1 -1 -1 100
+Reset M    10901 30 10923 -1 -1 -1 100
+Reset M    10901 30 10923 -1 -1 -1 100
+Reset M    10901 30 10923 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10924
+Name       Sakaeya Inn~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Named for an ancient Shogun's wife, this fine in draws customers from all
+over the Empire.  The common room is beautifully decorated with wall hangings,
+fine laquerware, and other nice items.  There are several tables, set close to
+the ground, which you can sit at.  A beautiful waitress offers you some tea.
+~
+#EXIT
+Direction  South~
+ToRoom     10913
+#ENDEXIT
+Reset M    10917 1 10924 -1 -1 -1 100
+Reset M    10948 1 10924 -1 -1 -1 100
+  Reset E  10934 10 3 100
+Reset M    10949 5 10924 -1 -1 -1 100
+Reset M    10949 5 10924 -1 -1 -1 100
+Reset M    10949 5 10924 -1 -1 -1 100
+Reset M    10951 2 10924 -1 -1 -1 100
+  Reset E  10935 2 3 100
+Reset M    10951 2 10924 -1 -1 -1 100
+Reset M    10950 3 10924 -1 -1 -1 100
+Reset M    10950 3 10924 -1 -1 -1 100
+  Reset E  10937 10 17 100
+Reset M    10950 3 10924 -1 -1 -1 100
+Reset M    10952 6 10924 -1 -1 -1 100
+Reset M    10952 6 10924 -1 -1 -1 100
+Reset M    10952 6 10924 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10925
+Name       Stables~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Used to house horses for those who would visit Sakaeya, this stable is 
+littered with hay.  There is a tying post, and a trough, as well as other 
+objects one typically finds in a stable. 
+~
+#EXIT
+Direction  North~
+ToRoom     10913
+#ENDEXIT
+Reset M    10911 6 10925 -1 -1 -1 100
+Reset M    10911 6 10925 -1 -1 -1 100
+Reset M    10911 6 10925 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10926
+Name       End of the Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You come to the end of Higashi Road, where you are surrounded by some
+wondrous sites.  To the north is a large shrine, while to the east is the 
+exquisite home of Daimyo Higashi.  A large building, probably the barracks
+for the Daimyo's samurai. 
+~
+#EXIT
+Direction  North~
+ToRoom     10927
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10940
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10920
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10928
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10927
+Name       Gate to Kurihara Shrine~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand before a large arch, which guards the entrance to the Kurihara
+shrine;  this arch is typical of any other Shinto shrine.  Beyond, you see
+a beautiful glade, where the forces of nature seem to be alive.  You notice
+that several rocks and paper have been left at the edge of the arch, a custom
+which is supposed to bring good luck.
+~
+#EXIT
+Direction  North~
+ToRoom     10939
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10926
+#ENDEXIT
+Reset M    10902 15 10927 -1 -1 -1 100
+Reset M    10902 15 10927 -1 -1 -1 100
+Reset M    10903 15 10927 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10928
+Name       Samurai Barracks~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in the Samurai barracks, where the soldiers loyal to the
+great Daimyo Higashi stay when not on duty.  The barracks are well decorated
+as far as samurai dwellings go, having wall hangings, sword stands, and other
+items which show that the people who live here are not only warriors, but from
+noble families as well.
+~
+#EXIT
+Direction  East~
+ToRoom     10926
+#ENDEXIT
+Reset M    10914 15 10928 -1 -1 -1 100
+Reset M    10914 15 10928 -1 -1 -1 100
+  Reset E  10911 30 16 100
+Reset M    10914 15 10928 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10929
+Name       General Store~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small shop deals in common goods which one might use in the fields or
+at home.  The merchandise is neatly arranged around the inside of the room,
+almost like furniture, giving the store a homey sort of feel.
+~
+#EXIT
+Direction  North~
+ToRoom     10915
+#ENDEXIT
+Reset M    10920 1 10929 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10930
+Name       Commoner's Home~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Most of the homes in Anjiro look pretty much the same.  This particular
+building is made of bamboo, with a thatched room.  It looks quite sturdy,
+if not entirely weatherproof.  But, as the Japanese will tell you, they can
+persevere better than anyone.  The room is sparsely decorated, with a low
+table, which is probably moved aside at night to make room for tatami beds.
+~
+#EXIT
+Direction  South~
+ToRoom     10915
+#ENDEXIT
+Reset M    10912 4 10930 -1 -1 -1 100
+  Reset G  10933 10 100
+Reset M    10913 4 10930 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10931
+Name       Hideaway~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small, dark room is used to hide excess valuables so that they Daimyo
+can't tax them.
+~
+#EXIT
+Direction  Down~
+ToRoom     10932
+Key        10917
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    10918 4 10931 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10932
+Name       Commoner's Home~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small compound is the home of a common family in Nakaminato.  It is
+comprised of a courtyard which is connected to several smaller buildings.
+A small garden in a corner is being used to grow tomatoes and other small
+vegetables.
+~
+#EXIT
+Direction  South~
+ToRoom     10916
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10931
+Key        10917
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10912 4 10932 -1 -1 -1 100
+Reset M    10913 4 10932 -1 -1 -1 100
+  Reset G  10917 4 100
+#ENDROOM
+
+#ROOM
+Vnum        10933
+Name       Commoner's Home~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This large house is the home of one of the common families in Nakaminato.  You
+are standing under it's sturdy tile roof, which probably keeps out the rain and
+snow, if not the cold wind.  The furnishings are quite simple, and you bet that
+everything is done in this one main room.  It is very clean.  Remember to take
+your shoes off!
+~
+#EXIT
+Direction  North~
+ToRoom     10916
+#ENDEXIT
+Reset M    10912 4 10933 -1 -1 -1 100
+Reset M    10913 4 10933 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10934
+Name       Commoner's Home~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This house lies on the eastern edge of Nakaminato, in the shadows of 
+some hills to the north.  It is much like the other buildings in Nakaminato,
+made of wood, and sparsely furnished.
+~
+#EXIT
+Direction  South~
+ToRoom     10917
+#ENDEXIT
+Reset M    10912 4 10934 -1 -1 -1 100
+  Reset G  10933 30 100
+Reset M    10913 4 10934 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10935
+Name       Commoner's Home~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This house is situated on the eastern edge of Nakaminato, resembling 
+the other commoner's homes in the area.  It is made up of sturdy wooden
+planks, and a thatched roof on top.  The decorations are quite simple,
+made for this time and age where nothing is permanent.
+~
+#EXIT
+Direction  North~
+ToRoom     10917
+#ENDEXIT
+Reset M    10912 4 10935 -1 -1 -1 100
+  Reset G  10933 30 100
+Reset M    10913 4 10935 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10936
+Name       Fish Pit~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc         This large pit was dug into the town square years ago, for the purpose of
+storing excess fish.  It is about 12 feet deep, and roughly 8 feet square.
+It smells quite awful.
+~
+#EXIT
+Direction  Up~
+ToRoom     10914
+Keywords   grate~
+#ENDEXIT
+Reset M    10955 1 10936 -1 -1 -1 100
+  Reset E  10940 1 17 20
+#ENDROOM
+
+#ROOM
+Vnum        10937
+Name       Bath House~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large building lies on the edge of Nakaminato, at the foot of some 
+hills which were created long ago by volcanic activity.  They are the 
+source of hot springs, which in turn feed into small pools which have 
+been carved into the smooth rock floor of the public bathouse.  The 
+bathouse itself is more like an indoor garden, having trees and other 
+beautiful natural ornaments surrounding the pools of refreshing water.
+~
+#EXIT
+Direction  West~
+ToRoom     10920
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10938
+Name       Realm of the Willow Women~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand before the gates of the Realm of the Willow women, ladies who are
+well versed both in the performing arts and the art of lovemaking.  The aroma
+in the air is intoxicating, the arrangement of artwork is visually stimulating,
+you think that everything is absolutely perfect.  Welcome to the Realm of the
+Willow Women, enter and be enchanted.  A sliding door to the west leads to
+pleasures undescribable.  There is a note on the door.
+~
+#EXIT
+Direction  East~
+ToRoom     10920
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     -1
+Desc       You have a feeling that you aren't wanted beyond these doors.
+~
+Keywords   sliding door~
+#ENDEXIT
+Reset M    10953 1 10938 -1 -1 -1 100
+  Reset E  10936 2 19 100
+Reset M    10954 2 10938 -1 -1 -1 100
+Reset M    10954 2 10938 -1 -1 -1 100
+Reset M    10904 20 10938 -1 -1 -1 100
+Reset M    10904 20 10938 -1 -1 -1 100
+#EXDESC
+ExDescKey  note~
+ExDesc     NO FOREIGNERS!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        10939
+Name       Kurihara Shrine~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand in before a small shrine, set in a picturesque glade along the
+northern edge of Anjiro.  There is a large stone set in the center of the
+glade, which houses the most powerful spirit in the glade.  You feel restful
+and at ease in this quiet place.
+~
+#EXIT
+Direction  South~
+ToRoom     10927
+#ENDEXIT
+Reset M    10924 2 10939 -1 -1 -1 100
+Reset M    10924 2 10939 -1 -1 -1 100
+  Reset E  10943 1 16 20
+#ENDROOM
+
+#ROOM
+Vnum        10940
+Name       Gate of Daimyo Higashi's Reception Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand at the gates of a huge compound, the reception hall of the Daimyo.
+The gate is painted white, with double wooden door which block the entrance 
+into the courtyard.
+~
+#EXIT
+Direction  East~
+ToRoom     10944
+Key        10900
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10926
+#ENDEXIT
+Reset M    10914 20 10940 -1 -1 -1 100
+Reset M    10914 20 10940 -1 -1 -1 100
+Reset M    10945 1 10940 -1 -1 -1 100
+  Reset G  10900 10 100
+Reset D    10940 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10941
+Name       Bakery~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         Unlike the western bakeries which you are familiar with, this place deals
+exclusively in rice cakes.  The heat from the ovens in the back where they
+both cook the rice then compress it into cakes can be felt even here.
+~
+#EXIT
+Direction  North~
+ToRoom     10921
+#ENDEXIT
+Reset M    10919 1 10941 -1 -1 -1 100
+  Reset G  10915 50 100
+  Reset G  10916 50 100
+  Reset G  10933 50 100
+#ENDROOM
+
+#ROOM
+Vnum        10942
+Name       Fish Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         Your nose is bombarded by the smell of freshly (and not so freshly) caught
+fish as you enter this large open air market.  Several fishermen are here,
+trying to sell their catches.  One stand is larger than the rest, and seems
+to attract the most attention.
+~
+#EXIT
+Direction  West~
+ToRoom     10921
+#ENDEXIT
+Reset M    10922 1 10942 -1 -1 -1 100
+  Reset G  10912 50 100
+  Reset G  10913 50 100
+  Reset G  10914 50 100
+#ENDROOM
+
+#ROOM
+Vnum        10943
+Name       Farmer's Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand amid rows upon rows of stalls, each with a farmer sitting behind
+it, trying to sell some of the things he has harvested.  There are vegetables
+of all sorts, as well as fruits and other items which a farmer might sell.
+~
+#EXIT
+Direction  East~
+ToRoom     10921
+#ENDEXIT
+Reset M    10921 1 10943 -1 -1 -1 100
+  Reset G  10919 50 100
+  Reset G  10920 50 100
+  Reset G  10921 50 100
+  Reset G  10922 50 100
+  Reset G  10923 50 100
+#ENDROOM
+
+#ROOM
+Vnum        10944
+Name       Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in a beautiful courtyard of Daimyo Higashi's reception
+hall and residence.  There are blooming cherry blossoms everywhere, many
+which have fallen to create a fragrant blanket upon the picturesque garden
+in which you stand.  A large red gate lies to the west, while sliding doors
+like to the north and south.  The courtyard stretches further east.
+~
+#EXIT
+Direction  North~
+ToRoom     10945
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10951
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10947
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10940
+Key        10900
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10927 10 10944 -1 -1 -1 100
+Reset M    10914 20 10944 -1 -1 -1 100
+  Reset E  10911 10 16 100
+Reset D    10944 2 1 100 -2
+Reset D    10944 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10945
+Name       Dining Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand before inside of a beautifully decorated dining hall, capable of
+seating over thirty people.  A large wooden table, rising about a foot of the
+ground, runs from one end of the room to the other, and is graced by small
+dishes and chopsticks.  There are beautiful wall hangings on the wall, showing
+some of the most beautiful scenes in Anjiro.  A sliding door to the north leads
+into the kitchens, while similar doors to both the south and the east lead out
+into the courtyard and into an antechambre, respectively.
+~
+#EXIT
+Direction  North~
+ToRoom     10946
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10952
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10951
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10927 10 10945 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10946
+Name       Kitchens~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The kitchens of Daimyo Higashi staff some of the best cooks in all of the
+Japans.  The kitchen, like any other, has crude stoves, typical of this day
+and age, and other ornaments which one might find in a Japanese kitchen. A 
+sliding door to the east leads out into a courtyard, while a door to the south
+provides access to the dining hall.
+~
+#EXIT
+Direction  East~
+ToRoom     10956
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10945
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10928 4 10946 -1 -1 -1 100
+Reset M    10928 4 10946 -1 -1 -1 100
+Reset M    10928 4 10946 -1 -1 -1 100
+Reset M    10927 10 10946 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10947
+Name       Antechamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in a beautiful room, richly decorated with wall hangings
+and beautiful mats.  The sliding door to the north opens out onto the courtyard
+veranda, while the one to the east leads into a small reception room.
+~
+#EXIT
+Direction  North~
+ToRoom     10944
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10948
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10914 20 10947 -1 -1 -1 100
+Reset M    10914 20 10947 -1 -1 -1 100
+  Reset G  10933 50 100
+Reset D    10947 1 1 100 -2
+Reset D    10947 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10948
+Name       Small Reception Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small room is used by the Daimyo to receive minor officials and other
+unimportant people.  It is splendidly decorated with natural scenes.  Behind
+a small dias on the south end of the room, where the Daimyo undoubtedly sits,
+is a beautiful wall hanging, with the flowing script of a skilled calligrapher
+spelling out the character for 'virtue'.
+A sliding door to the north leads out onto the courtyard, while similar doors
+to the east and west lead to other rooms.
+~
+#EXIT
+Direction  North~
+ToRoom     10951
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10949
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10947
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10914 20 10948 -1 -1 -1 100
+Reset M    10914 20 10948 -1 -1 -1 100
+Reset M    10941 1 10948 -1 -1 -1 100
+Reset D    10948 1 1 100 -2
+Reset D    10948 0 1 100 -2
+Reset D    10948 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10949
+Name       Large Reception Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The Daimyo uses this room to receive great lords or the Shogun himself.  It
+has exceptionally beautiful decorations.  These include wall hangings depicting
+nature scenes, and mats with beautiful silk covers.  A raised dias lies along
+the eastern side of the room, above which hangs a beautiful poem, written by a
+famous calligrapher.  A sliding door leads out west.
+~
+#EXIT
+Direction  East~
+ToRoom     10950
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10948
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10900 1 10949 -1 -1 -1 100
+  Reset E  10909 5 16 100
+  Reset E  10901 5 17 100
+Reset M    10944 1 10949 -1 -1 -1 100
+Reset M    10943 4 10949 -1 -1 -1 100
+Reset M    10943 4 10949 -1 -1 -1 100
+  Reset G  10933 100 100
+Reset M    10943 4 10949 -1 -1 -1 100
+Reset D    10949 3 1 100 -2
+Reset D    10949 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10950
+Name       Antechambre~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room is decorated with fine wall hangings made of silk and fine
+rose wood nesting tables.  A beautiful Chinese rug covers most of the floor.
+Sliding doors to the east, west, and north provide exits from this room.
+~
+#EXIT
+Direction  North~
+ToRoom     10954
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10959
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10949
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10943 4 10950 -1 -1 -1 100
+Reset M    10927 10 10950 -1 -1 -1 100
+Reset D    10950 3 1 100 -2
+Reset D    10950 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10951
+Name       Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The beautiful courtyard continues here, lined by a wooden veranda the whole
+way.  Beautiful cherry blossoms line the garden, their petals forming a soft,
+fragrant blanket upon the ground.  Sliding doors lead into rooms to the north,
+east, and south.
+~
+#EXIT
+Direction  North~
+ToRoom     10952
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10953
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10948
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10944
+#ENDEXIT
+Reset M    10926 10 10951 -1 -1 -1 100
+Reset M    10904 20 10951 -1 -1 -1 100
+Reset M    10904 20 10951 -1 -1 -1 100
+Reset D    10951 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10952
+Name       Foyer~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         You stand outside of the Grand Dining Hall, in a richly decorated antechamber
+which lies between the main courtyard and the north garden.  Sliding doors lead
+off in all directions.
+~
+#EXIT
+Direction  North~
+ToRoom     10956
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10955
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10951
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10945
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10927 10 10952 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10953
+Name       Grand Audience Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This hall is quite enormous, being almost sixty feet long from the paper
+sliding doors which lie on the east and west walls.  It is also beautifully
+decorated, the upper panel of the room being a cream color with green and
+black pictures depicting scenes from nature.  A raised dias lies along the
+south wall.
+~
+#EXIT
+Direction  North~
+ToRoom     10955
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10954
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10951
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10927 10 10953 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10954
+Name       Garden~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         Overlooking a beatiful stream which winds down through the mountains, this
+beautiful garden is quite and serene.  There are beautiful cherry blossom and
+willow trees lining a dirt path which winds its way through the garden.  On the
+veranda to the south of the garden is a paper sliding door which leads into one
+of the wings of the Daimyo's Reception Hall.
+~
+#EXIT
+Direction  North~
+ToRoom     10958
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10950
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10953
+#ENDEXIT
+Reset M    10926 10 10954 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10955
+Name       Antechambre~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in the corner room of Daimyo Higashi's reception hall,
+which is splendidly decorated with wall hangings.  There are exits to the
+south and west.
+~
+#EXIT
+Direction  South~
+ToRoom     10953
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10952
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10956
+Name       South End of the North Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This large garden is quite peaceful and serene, graced by blooming cherry
+blossom trees and perfectly arranged flowers.  A dirt path leads out east,
+while the courtyard continues north.  A sliding door to the west leads into
+the kitchen, while a sliding door to the south leads into an antechambre.
+~
+#EXIT
+Direction  North~
+ToRoom     10960
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10961
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10952
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10946
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10926 10 10956 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10957
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a path which connects the northen courtyard and the
+eastern garden, surrounded by the Daimyo's reception hall.  North, through
+an oaken door, is the bath house.
+~
+#EXIT
+Direction  North~
+ToRoom     10965
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10958
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10961
+#ENDEXIT
+Reset M    10926 10 10957 -1 -1 -1 100
+Reset D    10957 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10958
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You are standing on a path which connects the northern courtyard to the
+eastern garden.  Here, it lies at the eastern edge of the Reception Hall,
+where it is bound on the east by thick woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10957
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10954
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10959
+Name       Daimyo's Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This sparsely decorated chambers belongs to the Daimyo himself, a ferocious
+warrior, and devout vassal of the Shogun.  The decorations consist of a single
+wall hanging, and beautiful tatami and blankets for the Daimyo and his consort.
+~
+#EXIT
+Direction  East~
+ToRoom     10966
+Key        10901
+Keywords   secret door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10950
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10942 1 10959 -1 -1 -1 100
+  Reset E  10924 10 1 100
+Reset D    10959 3 1 100 -2
+Reset D    10959 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10960
+Name       North End of the North Courtyard~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at the northern end of the beautiful northern garden, where
+one might go after dinner to meditate.  The cherry blossom trees, the symbols
+of Japanese beauty, bloom abundantly here.  The courtyard is lined by a wooden
+veranda, where there are many sliding doors leading into guest rooms.
+~
+#EXIT
+Direction  North~
+ToRoom     10963
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10964
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10956
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10962
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10927 10 10960 -1 -1 -1 100
+Reset M    10914 20 10960 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10961
+Name       Garden Path~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This dirt path, which florishes with many a tree and shrub and flower,
+connects the Northern Courtyard with the Eastern Garden.  The north and 
+south sides of the path are bound by the Reception Hall's wings.
+~
+#EXIT
+Direction  East~
+ToRoom     10957
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10956
+#ENDEXIT
+Reset M    10926 10 10961 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10962
+Name       Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are standing in a large, lavishly decorated room which houses the guests
+of the Daimyo.  A painting done on silk hangs along the west wall, while fine
+tatamis and beautifully woven blankets are neatly folded along one edge of the
+room.
+~
+#EXIT
+Direction  East~
+ToRoom     10960
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10929 5 10962 -1 -1 -1 100
+Reset M    10956 1 10962 -1 -1 -1 100
+  Reset E  10939 1 17 60
+Reset M    10927 10 10962 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10963
+Name       Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This wonderfully decorated room, lying of the northern garden, serves as a
+guest bedroom for the Daimyo's visitors.  There are several silk wall hanings,
+as well as some tatami and blankets rolled up in a corner.
+~
+#EXIT
+Direction  South~
+ToRoom     10960
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10929 5 10963 -1 -1 -1 100
+Reset M    10939 1 10963 -1 -1 -1 100
+  Reset E  10925 5 13 100
+#ENDROOM
+
+#ROOM
+Vnum        10964
+Name       Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         The Daimyo uses this room, which lies of the northern courtyard, as a bedroom
+for his guests.  It is beautifully decorated with wall hangings and colorful
+tatami and blankets.
+~
+#EXIT
+Direction  West~
+ToRoom     10960
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10929 5 10964 -1 -1 -1 100
+Reset M    10940 1 10964 -1 -1 -1 100
+  Reset E  10927 15 7 100
+#ENDROOM
+
+#ROOM
+Vnum        10965
+Name       Bath House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Like most wealthy families, the Daimyo has his own private bath house.  This
+particular bathhouse is enclosed in thick oak, with an oaken door to the south
+which prevents heat from escaping.  A large wooden tub lies along the northeast
+corner, with two benches on its south and west sides.
+~
+#EXIT
+Direction  South~
+ToRoom     10957
+Keywords   oaken door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10927 10 10965 -1 -1 -1 100
+Reset M    10946 1 10965 -1 -1 -1 100
+  Reset E  10926 15 6 100
+Reset D    10965 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10966
+Name       Vault~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          This small, non-descript room serves as a secret vault for the Daimyo's most
+prized possessions.  There is a large teak-wood chest lying in one corner.  The
+only exit is back west, where you came from.
+~
+#EXIT
+Direction  West~
+ToRoom     10959
+Key        10901
+Keywords   secret~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    10947 1 10966 -1 -1 -1 100
+Reset O    10947 1 10966 -1 -1 -1 90
+Reset O    10948 1 10966 -1 -1 -1 90
+Reset O    10949 1 10966 -1 -1 -1 50
+Reset O    10950 1 10966 -1 -1 -1 100
+  Reset P  0 10942 1 10950 15
+Reset D    10966 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10967
+Name       Courtyard~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in a plain-looking courtyard, the center of a fairly large
+compound which lies along the northern edge of Nakaminato.  A beautiful 
+wooden veranda surrounds the courtyard, upon which you see a young woman 
+sitting, in the midst of practicing caligraphy.  She motions for you to 
+take off your foot wear before entering. There is a sliding door to the 
+west and a heavy oak door to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10971
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10968
+Keywords   oak~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10911
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10969
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10926 10 10967 -1 -1 -1 100
+Reset M    10926 10 10967 -1 -1 -1 100
+Reset M    10927 10 10967 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10968
+Name       Bath House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The owner of this fine compound is rich enough to own a bath house as well.
+Like most bath houses, it is well insulated, and very warm.  A heavy oak door
+to the west provides an entrance to the room.
+~
+#EXIT
+Direction  West~
+ToRoom     10967
+Keywords   oak~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10969
+Name       Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This well decorated room serves as the main bechambers for the owner of the
+compound.  There is a single wall hanging along the north wall, depicting an
+ancestor of some sort.  Two tatami lie on the floor, covered by two colorful
+blankets.
+~
+#EXIT
+Direction  East~
+ToRoom     10967
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10970
+Name       Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room serves as the bedroom for the children in the family.  It
+is somewhat plain.
+~
+#EXIT
+Direction  East~
+ToRoom     10971
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10908 20 10970 -1 -1 -1 100
+Reset M    10909 20 10970 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10971
+Name       Garden~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The courtyard is much more functional here, serving as a garden where some
+beautiful tomatoes are being grown.  Sliding doors lead of to the north, east,
+and west, lying off of the veranda.
+~
+#EXIT
+Direction  North~
+ToRoom     10973
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10972
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10967
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10970
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10926 10 10971 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10972
+Name       Elders Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the most lavishly decorated of the family bedrooms, reserved for the
+respected elders of the house.  There are two tatami, as well as several heavy
+blankets.  A sliding door leads west into the courtyard.
+~
+#EXIT
+Direction  West~
+ToRoom     10971
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10938 1 10972 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10973
+Name       Guest Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Once reserved for the servants of the household, on the orders of the
+Daimyo, it has been converted to a room for a strange foreigner who landed
+in the country not long ago.  The room is sparsely decorated, with a straw
+tatami floor and bedmats neatly rolled up in a corner.  There is a rough
+map of the Japans rolled up in another corner.
+~
+#EXIT
+Direction  South~
+ToRoom     10971
+Keywords   sliding~
+Flags      isdoor~
+#ENDEXIT
+Reset M    10906 1 10973 -1 -1 -1 100
+  Reset E  10930 5 16 50
+  Reset E  10910 2 1 20
+#ENDROOM
+
+#ROOM
+Vnum        10974
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You find youself wading in shin-deep water, amid the stalks of growing rice.
+Your feet sink into the mud, making it somewhat difficult to move.  Looking
+north, you see the Nakaminato-Ishikawa Road.
+~
+#EXIT
+Direction  North~
+ToRoom     10919
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10975
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10976
+#ENDEXIT
+Reset M    10910 10 10974 -1 -1 -1 100
+  Reset E  10931 15 16 100
+Reset M    10933 15 10974 -1 -1 -1 100
+Reset M    10933 15 10974 -1 -1 -1 100
+Reset M    10934 10 10974 -1 -1 -1 100
+Reset M    10935 15 10974 -1 -1 -1 100
+Reset M    10910 16 10974 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10975
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are wading in shin-deep water, amid the stalks of growing rice, the food
+staple in Japanese culture.  It is quite difficult to move here due to the mud.
+To the north, you see the Nakaminato-Ishikawa Road.~
+#EXIT
+Direction  North~
+ToRoom     10982
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10977
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10974
+#ENDEXIT
+Reset M    10933 15 10975 -1 -1 -1 100
+Reset M    10910 16 10975 -1 -1 -1 100
+  Reset E  10931 15 16 100
+Reset M    10933 15 10975 -1 -1 -1 100
+Reset M    10934 10 10975 -1 -1 -1 100
+Reset M    10934 10 10975 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10976
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in shin-deep water, amid the stalks of growing rice.
+It is quite difficult to move in the mud.  To the north, you see the 
+Nakaminato-Ishikawa Road.
+~
+#EXIT
+Direction  North~
+ToRoom     10974
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10977
+#ENDEXIT
+Reset M    10934 10 10976 -1 -1 -1 100
+Reset M    10910 16 10976 -1 -1 -1 100
+Reset M    10935 15 10976 -1 -1 -1 100
+Reset M    10935 15 10976 -1 -1 -1 100
+Reset M    10933 15 10976 -1 -1 -1 100
+Reset M    10910 16 10976 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10977
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in shin-deep water, in a rice paddy south of the
+Nakaminato-Ishikawa Road. 
+~
+#EXIT
+Direction  North~
+ToRoom     10975
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10976
+#ENDEXIT
+Reset M    10933 15 10977 -1 -1 -1 100
+Reset M    10910 16 10977 -1 -1 -1 100
+Reset M    10934 10 10977 -1 -1 -1 100
+Reset M    10935 15 10977 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10978
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in shin-deep water, in a rice paddy which lies just to the
+north of the Nakaminato-Ishikawa Road.  The green stalks of rice are starting
+to protrude from the water, whatever that means is beyond you.
+~
+#EXIT
+Direction  North~
+ToRoom     10980
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10979
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10919
+#ENDEXIT
+Reset M    10933 15 10978 -1 -1 -1 100
+Reset M    10910 16 10978 -1 -1 -1 100
+Reset M    10934 10 10978 -1 -1 -1 100
+Reset M    10935 15 10978 -1 -1 -1 100
+Reset M    10935 15 10978 -1 -1 -1 100
+Reset M    10910 16 10978 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10979
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This soggy rice-paddy lies to the north of the Nakaminato-Ishikawa
+Road.  You find that you are standing in shin-deep water, and your feet
+sink deeply into the mud, making movement a little difficult.
+~
+#EXIT
+Direction  North~
+ToRoom     10981
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10982
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10978
+#ENDEXIT
+Reset M    10933 15 10979 -1 -1 -1 100
+Reset M    10910 16 10979 -1 -1 -1 100
+  Reset E  10931 15 16 100
+Reset M    10933 15 10979 -1 -1 -1 100
+Reset M    10933 15 10979 -1 -1 -1 100
+Reset M    10935 15 10979 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10980
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in shin-deep water, in a large rice paddy which lies just
+north of the Nakaminato-Ishikawa Road.
+~
+#EXIT
+Direction  East~
+ToRoom     10981
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10978
+#ENDEXIT
+Reset M    10910 16 10980 -1 -1 -1 100
+Reset M    10934 10 10980 -1 -1 -1 100
+Reset M    10935 15 10980 -1 -1 -1 100
+Reset M    10935 15 10980 -1 -1 -1 100
+Reset M    10910 16 10980 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10981
+Name       Rice Paddy~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in shin-deep water, in one of the many large rice paddies
+which surround Nakaminato.  This fine paddy lies just to the north of the 
+Nakaminato-Ishikawa Road.
+~
+#EXIT
+Direction  South~
+ToRoom     10979
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10980
+#ENDEXIT
+Reset M    10933 15 10981 -1 -1 -1 100
+Reset M    10910 16 10981 -1 -1 -1 100
+Reset M    10934 10 10981 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10982
+Name       Nakaminato-Ishikawa Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This hard-packed dirt road, lying in between rice paddies, goes from 
+Nakaminato village in the west to Ishikawa City in the east.
+~
+#EXIT
+Direction  North~
+ToRoom     10979
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10983
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10975
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10919
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10983
+Name       Nakaminato-Ishikawa Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking on the Nakaminato-Ishikawa Road, which runs from the small
+fishing village of Nakaminato in the west, to the Shogun's summer retreat of
+Ishikawa to the east.  Here, on either side of the roads, wooded hills are
+starting to rise.
+~
+#EXIT
+Direction  East~
+ToRoom     10984
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10982
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10984
+Name       Nakaminato-Ishikawa Road, in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The road begins its ascent into the hills here, or, depending on your point
+of view, descent into the Naka river basin.  To the north and south of you are
+unpassable wooded hills. 
+~
+#EXIT
+Direction  East~
+ToRoom     10985
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10983
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10985
+Name       Nakaminato-Ishikawa Road, in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking on the Nakaminato-Ishikawa Road, which winds through the 
+hilly valley that lies between Nakaminato and Ishikawa City.  On both sides 
+of the road are thick woods.
+~
+#EXIT
+Direction  North~
+ToRoom     10990
+Key        1
+Keywords   thicket~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10986
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10984
+#ENDEXIT
+Reset M    10930 10 10985 -1 -1 -1 100
+Reset M    10930 10 10985 -1 -1 -1 100
+Reset D    10985 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10986
+Name       Nakaminato-Ishikawa Road, in the Hills.~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking on the Nakaminato-Ishikawa Road, which winds through the 
+Hilly valley that lies between Anjiro and Ishikawa City.  Here, you begin 
+to see some of the source streams of the great Ishikawa River.
+~
+#EXIT
+Direction  East~
+ToRoom     10987
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10985
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10987
+Name       Nakaminato-Ishikawa Road, in the Hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You notice the change in the road's slope now, as it descends into the
+Ishikawa River basin.  Looking around, you notice that the woods have thinned
+out quite a bit.
+~
+#EXIT
+Direction  East~
+ToRoom     10988
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10986
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10988
+Name       Nakaminato-Ishikawa Road~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The Nakaminato-Ishikawa Road continues here, in the Ishikawa River 
+basin.  Up ahead, you see the start of thick bamboo woods.
+~
+#EXIT
+Direction  East~
+ToRoom     10989
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10987
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10989
+Name       Nakaminato-Ishikawa Road, Near the Edge of the Bamboo Forest~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on the Nakaminato-Ishikawa Road, not far from the 
+beautiful city of Ishikawa.  Just up ahead, you see the frightening 
+bamboo forest. 
+~
+#EXIT
+Direction  East~
+ToRoom     10821
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10987
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10990
+Name       Dirt Path~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Wandering off of the main road, you find yourself walking on a cleverly
+concealed dirt path which winds further and further into the valley.
+~
+#EXIT
+Direction  North~
+ToRoom     10991
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10985
+Key        1
+Keywords   thicket~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10991
+Name       Dirt Path~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         Meandering further into the woods, you see that the dirt path comes to an end
+just up ahead.  The bamboo woods are quite thick, preventing movement off of
+the path.
+~
+#EXIT
+Direction  North~
+ToRoom     10992
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10990
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10992
+Name       End of the Dirt Path~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The dirt path comes to an aprupt end here, in a natural-looking cul de sac,
+formed by a clearing in the thick bamboo forest.  From the circle of charred
+stones in the center of the clearing, you would guess that someone used this
+area to camp once upon a time.
+~
+#EXIT
+Direction  South~
+ToRoom     10991
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10993
+Keywords   foliage~
+Flags      isdoor~
+#ENDEXIT
+Reset O    10938 1 10992 -1 -1 -1 100
+Reset D    10992 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10993
+Name       Path to the Encampment~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Just beyond the screen of foliage, you find yourself at the edge of a large
+camp of some sort.  There is quite a bit of commotion as people scramble
+to deal with the intruders.  Tents lie on either side of the path, which
+continues to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     10995
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10992
+Key        1
+Keywords   foliage~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10996
+Key        10906
+Keywords   forcefield~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10994
+#ENDEXIT
+Reset M    10930 10 10993 -1 -1 -1 100
+Reset D    10993 1 1 100 -2
+Reset D    10993 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10994
+Name       Circle of Tents~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The path ends here, in a circle of tents.  Several large men looked at you
+in an alarmed fashion, drawing their swords to run you off.... or perhaps, run
+you through.  While the tents to the north and south are made of hemp, the one
+to the west is beautiful, made of the finest Chinese silk.
+~
+#EXIT
+Direction  North~
+ToRoom     10997
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10993
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10998
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10999
+#ENDEXIT
+Reset M    10930 10 10994 -1 -1 -1 100
+Reset M    10937 1 10994 -1 -1 -1 100
+  Reset E  10907 3 12 50
+  Reset E  10906 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        10995
+Name       Inside the Provisions Tent~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The bandits use this tent for provisions.  It is made of tough hemp, making
+it very durable and water resistant.
+~
+#EXIT
+Direction  South~
+ToRoom     10993
+#ENDEXIT
+Reset M    10930 10 10995 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10996
+Name       Inside the Provisions Tent~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The bandits use this large tent to store the booty they have taken from
+unfortunate travelers.  It is made of sturdy hemp, making it quite durable
+and water resistant.
+~
+#EXIT
+Direction  North~
+ToRoom     10993
+#ENDEXIT
+Reset M    10936 1 10996 -1 -1 -1 100
+  Reset E  10902 5 17 100
+Reset M    10930 10 10996 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10997
+Name       Inside the Bandit's Tent~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large tent is used to shelter the bandits against the weather.  It
+is made of thick hemp, making it quite durable and water resistant.
+~
+#EXIT
+Direction  South~
+ToRoom     10994
+#ENDEXIT
+Reset M    10930 10 10997 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10998
+Name       Inside the Bandits Tent~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The bandits use this large tent as housing, shelter against the elements.
+It is quite durable, being made of a fine hemp, and treated with a water-
+proofing solution.
+~
+#EXIT
+Direction  North~
+ToRoom     10994
+#ENDEXIT
+Reset M    10930 10 10998 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10999
+Name       The Bandit Leader's Tent~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You find yourself in a beautifully decorated tent, made of a fine, durable
+silk which has been treated with a water-resistant coating.  A nice rosewood
+table of chinese origin rests in the middle of the tent, upon which is placed
+a beautiful laquer box.  The carpet is also quite exquisite, probably being of
+Persian origin.
+~
+#EXIT
+Direction  East~
+ToRoom     10994
+#ENDEXIT
+Reset M    10931 1 10999 -1 -1 -1 100
+  Reset E  10908 5 12 50
+Reset M    10932 3 10999 -1 -1 -1 100
+Reset M    10932 3 10999 -1 -1 -1 100
+Reset M    10932 3 10999 -1 -1 -1 100
+Reset O    10903 1 10999 -1 -1 -1 100
+  Reset P  0 10904 3 10903 100
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,3109 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            the Abyss~
+Author          Unknown~
+Vnums           5800 5898
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       40
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        5800
+Keywords   bony skeleton m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the skeleton~
+Long       A skeleton leaps out of the ground and charges towards you.
+~
+Desc       In life a great warrior in a royal army.  Now but a troubled soul 
+entraped in a human skeleton by a fiend's magic.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     10 4 7 100 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5801
+Keywords   zombie m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the zombie~
+Long       A zombie slowly rises from the ground and approches you.
+~
+Desc       This zombie is simply the corpse of a soldier killed in a battle, taken 
+by a fiend and brought into unlife by foul magic.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     12 3 7 150 2 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5802
+Keywords   disgusting wight m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the wight~
+Long       A disgusting wight leaps out of nowhere.
+~
+Desc       The wight is a disgusting creature.  With long grey hair, big yellow 
+fangs, rotted clothes and sharp talons ready to tear you limb from limb.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     15 3 6 240 3 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5803
+Keywords   wraith m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the wraith~
+Long       A ghostly wraith appears out of the darkness.
+~
+Desc       A black mist in the form of a man, can drain a mortal of all life force 
+with but one touch.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     20 0 4 300 4 0 8
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5804
+Keywords   specter vapor ghost m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the specter~
+Long       A vaporous specter appears out of the mist.
+~
+Desc       The specter is a misty vapor in the shape of a human head.  Usually people
+of high status in life are turned into specters in death.  Specters, like 
+wraiths, can drain a mortal of all their life energy.
+~
+Nattacks   2.000000
+Stats1     -1000 5000 60 100 150 250
+Stats2     22 0 3 390 4 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5805
+Keywords   lich wizard sorcerer m058~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the lich~
+Long       The lich discovers you in his lab and charges at you.
+~
+Desc       In life, the lich was an evil wizard, now an undead sorcerer brought into 
+unlife by a powerful fiend.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     31 0 -5 1500 8 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5806
+Keywords   dracolich lich dragon m058~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dracolich~
+Long       The dracolich leaps out of the pile and attacks.
+~
+Desc       This was a mighty gold dragon in life, now a mighty dracolich in unlife.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     32 0 -6 1999 30 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5807
+Keywords   vampire m058~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the vampire~
+Long       The mighty vampire climbs out of the coffin and glares angrily at you.
+~
+Desc       The vampire is the most powerful of all undead, and the ruler of the upper 
+layers of the Abyss.  Vampires cannot tolerate light, and generally live 
+with a spell that absorbs all light and leaves only pitch-black darkness.
+~
+Nattacks   3.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     30 -4 -4 1000 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5808
+Keywords   giant undead m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the undead giant~
+Long       An undead giant walks slowly towards you.
+~
+Desc       This huge creature was once a great giant, killed and turned undead by a 
+fiend.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     20 2 4 300 2 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5809
+Keywords   ogre undead m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the undead ogre~
+Long       An undead ogre walks slowly toowards you.
+~
+Desc       This abomination is horrible even to look at.  As ugly as ogres are in life, 
+they are much uglier as rotting corpses animated by evil magic.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     20 20 4 300 2 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5810
+Keywords   erinyes fiend m058~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the Erinyes~
+Long       The seductive Erinyes licks her lips and smiles at you.
+~
+Desc       This beautiful creature has the figure of a tall, slender woman, wearing only 
+a shirt and skirt made of white fiend hide.  She licks her lips with her long 
+blood-red tongue and smiles seductively at you.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     31 -4 -5 1250 4 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5811
+Keywords   black abishai fiend m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the black Abishai~
+Long       The black Abishai spreads its wings and grins at you.
+~
+Desc       The Abishai bears a slight resemblence to the pit fiend, but is nowhere near
+as powerful.  It is still a very powerful fighter, with talons longer than a 
+man's finger, and sharper than a paladin's sword.  The black Abishai is the 
+weakest of the three, and also the most stupid of them.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     33 -5 -7 1632 6 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5812
+Keywords   green abishai fiend m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the green Abishai~
+Long       The green Abishai spreads its wings and grins at you.
+~
+Desc       The Abishai bears a slight resemblence to the pit fiend, but is nowhere near 
+as powerful.  It is still a very powerful fighter, with talons longer than a 
+man's finger, and sharper than a paladin's sword.  The green Abishai is much 
+stronger than the black Abishai, but still far weaker than the red.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     34 -6 -8 1923 6 0 7
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5813
+Keywords   red abishai fiend m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the red Abishai~
+Long       The red Abishai spreads its wings and grins at you.
+~
+Desc       The Abishai bears a slight resemblence to the pit fiend, but is nowhere near 
+as powerful.  It is still a very powerful fighter, with talons longer than a 
+man's finger, and sharper than a paladin's sword.  The red Abishai is the most 
+powerful of the Abishai, and one of the most powerful of all lesser fiends.
+~
+Nattacks   4.000000
+Stats1     -1000 20000 60 100 150 250
+Stats2     35 -7 -9 2229 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5814
+Keywords   spinagon demon fiend m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Spinagon~
+Long       A small Spinagon glides down at you.
+~
+Desc       The Spinagon is a three-feet-tall demon, with large bat-like wings and razor 
+sharp talons.
+~
+Nattacks   3.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     26 0 -1 499 3 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5815
+Keywords   statue demon m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Demon Statue~
+Long       The Demon Statue.
+~
+Desc       It is a horrifying thing, a statue of the mighty fiend from the Pit of the 
+Abyss.  It glares down at you through blood-red eyes, and bares his huge 
+white fangs and his razor-sharp talons.  It is the diety worshiped in this 
+temple, and according to the prophecy, is destined to rule the world once 
+raised from the depths of the Abyss.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     36 -10 -10 3738 8 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5816
+Keywords   pit fiend demon m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Pit Fiend~
+Long       The Pit Fiend, ruler of the Abyss, sits here in his throne.
+~
+Desc       This is the ruler of the Abyss, who is destined to rule the entire world, 
+once released by its worshipers from this Pit made to entrap him.  His skin is
+harder than tempered steel, and his talons are longer than a man's hand.  He 
+bears a vague resemblence to a gargoyle, only his skin is black and his fangs 
+drip an acidic green ichor when he opens his mouth.  It is said that only a 
+god can match magical power with a Pit Fiend, but he can be controlled by any 
+mortal that speaks his name.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     39 -10 -10 4000 8 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5817
+Keywords   gargoyle demon fiend m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the gargoyle~
+Long       The fierce gargoyle is glaring at you, and he looks hungry.
+~
+Desc       The gargoyle is a large demon that looks much like a fiend, with hard red skin 
+and huge demon-like wings.  He isn't too happy about your intruding into his 
+lair.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     33 -5 -7 2000 6 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5818
+Keywords   demon water waterdemon m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the water demon~
+Long       A fierce water-demon slowly rises out of the pool.
+~
+Nattacks   4.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     35 -7 -9 2500 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5819
+Keywords   small star m058~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the small star~
+Long       A small white star is here, floating around in circles.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     1 0 10 4500 32 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        5800
+Keywords   broadsword o058~
+Type       weapon~
+Short      a Blood-Red Broadsword~
+Long       A deep red broadsword rests on the ground here.~
+Flags      glow magic antigood antineutral~
+WFlags     take wield~
+Values     0 2 5 1 0 0 0 0 0 0 0
+Stats      18 600 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+AffData    Strength -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5801
+Keywords   essence lich o058~
+Type       treasure~
+Short      the essence of the lich~
+Long       A small valuable gem lies here.~
+Flags      glow magic~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 15000 0 9999 0 None None None
+AffData    mana 15 -1 -1 0
+AffData    Wisdom -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5802
+Keywords   shirt fiend hide o058~
+Type       armor~
+Short      a shirt made of fiend hide~
+Long       A shirt made from the skin of an Abishai rests on the ground.~
+Flags      antigood~
+WFlags     take body~
+Values     3 3 0 3 0 0 0 0 0 0 0
+Stats      5 250 0 9999 0 None None None
+AffData    Dexterity 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5803
+Keywords   skirt fiend hide o058~
+Type       armor~
+Short      a skirt made of fiend hide~
+Long       A skirt made from the skin of an Abishai rests on the ground.~
+Flags      antigood~
+WFlags     take legs~
+Values     23 23 0 3 0 0 0 0 0 0 0
+Stats      5 600 0 9999 0 None None None
+AffData    Strength 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5804
+Keywords   trident black o058~
+Type       weapon~
+Short      a black trident~
+Long       A large, black trident rests on the ground.~
+Flags      glow hum nodrop antigood~
+WFlags     take wield~
+Values     0 3 4 6 0 0 0 0 0 0 0
+Stats      20 2400 0 9999 0 None None None
+AffData    Dexterity 2 -1 -1 0
+AffData    Strength -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5805
+Keywords   black scroll o058~
+Type       scroll~
+Short      a black scroll~
+Long       A pitch-black scroll with blood-red writings on it lay here.~
+WFlags     take~
+Values     50 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5806
+Keywords   staff flaming o058~
+Type       staff~
+Short      a flaming staff~
+Long       A long iron staff lies on the ground.~
+WFlags     take hold~
+Values     30 5 5  0 0 0 0 0 0 0
+Stats      20 7000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5807
+Keywords   staff power o058~
+Type       staff~
+Short      the Staff of Power~
+Long       A long, rosewood staff covered with runes lies on the ground.~
+Flags      hum~
+WFlags     take hold~
+Values     50 3 3  0 0 0 0 0 0 0
+Stats      7 20000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5808
+Keywords   bracelet vampire fangs o058~
+Type       treasure~
+Short      a bracelet of dangling vampire fangs~
+Long       A small pile of fangs have been left here.~
+Flags      antigood~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      12 10000 0 9999 0 None None None
+AffData    hit 20 -1 -1 0
+AffData    Intelligence -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5809
+Keywords   ring crystal o058~
+Type       armor~
+Short      a crystal ring~
+Long       A beautiful crystal ring lies here.~
+Flags      glow magic~
+WFlags     take finger~
+Values     -3 -3 0 0 0 0 0 0 0 0 0
+Stats      2 6800 0 9999 0 None None None
+AffData    Constitution 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5810
+Keywords   armor diamond o058~
+Type       armor~
+Short      a suit of diamond armor~
+Long       A suit of armor carved from a single diamond lies here.~
+Flags      glow~
+WFlags     take body~
+Values     23 23 0 0 0 0 0 0 0 0 0
+Stats      30 25000 0 9999 0 None None None
+AffData    Strength 3 -1 -1 0
+AffData    move -20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5811
+Keywords   chest large o058~
+Type       container~
+Short      a large chest~
+Long       A large chest sits in a corner~
+Values     1000 13 5822 10 0 5822 0 0 0 0 0
+Stats      100000 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5812
+Keywords   amulet black o058~
+Type       armor~
+Short      the black amulet~
+Long       A strange black amulet lies here on the ground.~
+Flags      glow hum invis~
+WFlags     take neck~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      3 5000 0 9999 0 None None None
+AffData    Dexterity -1 -1 -1 0
+AffData    hit 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5813
+Keywords   amulet green o058~
+Type       armor~
+Short      the green amulet~
+Long       A strange green amulet lies here on the ground.~
+Flags      glow hum invis~
+WFlags     take neck~
+Values     12 12 0 0 0 0 0 0 0 0 0
+Stats      3 2500 0 9999 0 None None None
+AffData    damroll -2 -1 -1 0
+AffData    hitroll 5 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5814
+Keywords   amulet red o058~
+Type       armor~
+Short      the red amulet~
+Long       A strange red amulet lies here on the ground.~
+Flags      glow hum invis~
+WFlags     take neck~
+Values     -1 -1 0 0 0 0 0 0 0 0 0
+Stats      3 5000 0 9999 0 None None None
+AffData    hitroll 3 -1 -1 0
+AffData    mana 20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5815
+Keywords   sword white flaming onyx o058~
+Type       weapon~
+Short      a flaming sword made of white onyx~
+Long       A long, white sword, encased in bright flames, lies here on the ground.~
+Flags      glow magic antigood~
+WFlags     take wield~
+Values     0 2 6 1 0 0 0 0 0 0 0
+Stats      10 4000 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+AffData    mana 35 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5816
+Keywords   battle axe huge o058~
+Type       weapon~
+Short      a huge battle axe~
+Long       A large, heavy-looking battle axe rests on the shelf.~
+WFlags     take wield~
+Values     0 2 10 1 0 0 0 0 0 0 0
+Stats      30 10000 0 9999 0 None None None
+AffData    hitroll -2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5817
+Keywords   gold coins~
+Type       money~
+Short      as much gold as you can carry~
+Long       The hoard of the dracolich lies in a huge pile on the ground.~
+WFlags     take~
+Values     75000 0 0 0 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5818
+Keywords   coffin large o058~
+Type       container~
+Short      the large coffin~
+Long       The huge coffin of the vampire sits in the middle of the cave.~
+Values     100 13 5821 10 0 5821 0 0 0 0 0
+Stats      1000 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5819
+Keywords   sign ancient o058~
+Type       treasure~
+Short      an ancient sign~
+Long       An ancient sign stands in the middle of the fog.~
+Flags      magic~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10000 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  sign ancient~
+ExDesc     The sign reads:
+      
+                            WELCOME TO HELL
+                            Enjoy your stay
+ 
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5820
+Keywords   key gold golden k058~
+Type       key~
+Short      a golden key~
+Long       A golden key has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5821
+Keywords   key iron large k058~
+Type       key~
+Short      the coffin key~
+Long       A large iron key has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5822
+Keywords   key k058~
+Type       key~
+Short      a small bronze key~
+Long       a small bronze key has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5823
+Keywords   potion black o058~
+Type       potion~
+Short      a black potion~
+Long       A pitch-black liquid in a glass vial has been left here.~
+WFlags     take~
+Values     50 -1 -1 -1 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5824
+Keywords   talon fiend fiend's o058~
+Type       weapon~
+Short      the fiend's talon~
+Long       A long, sharp talon of a pit fiend lies here on the ground.~
+Flags      glow antigood~
+WFlags     take wield~
+Values     0 9 4 1 0 0 0 0 0 0 0
+Stats      20 6000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    Wisdom -1 -1 -1 0
+AffData affected  'detect_magic' -1 -1 0
+AffData weaponspell 'poison' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5825
+Keywords   shield sapphire o058~
+Type       armor~
+Short      the Sapphire Shield~
+Long       A large shield carved from a single sapphire rests here.~
+Flags      glow magic~
+WFlags     take shield~
+Values     33 33 0 0 0 0 0 0 0 0 0
+Stats      7 1200 0 9999 0 None None None
+AffData    Dexterity -1 -1 -1 0
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        5800
+Name       Ruins of the Ancient Temple~
+Sector     indoors~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are walking through what was once a great temple.  Many tapestries
+describing horrible creatures coming and destroying the world hang on the
+walls. In the center of the temple there is a large dais, and behind it an
+altar made of a silvery-white material.  Hanging over the altar is a large
+ebony statue of a horrible fiend holding the head of a human child in one 
+hand, and a huge sword in the other.  The black ebony sword seems to be 
+surrounded by a dim red glow that illuminates the dark temple. 
+There is an aisle leading directly south.
+~
+#EXIT
+Direction  South~
+ToRoom     5801
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5801
+Name       The Center Isle~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are walking down the center aisle of the temple.  Large marble benches
+lay both to the right and the left.  In from of it is a short wooden stair-
+case leading up to the dais.  The aisle continues around the dais, and 
+south towards the altar.
+~
+#EXIT
+Direction  North~
+ToRoom     5800
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5802
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5803
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5804
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5802
+Name       Isle Around the Dais~
+Sector     indoors~
+Flags      dark indoors nomagic~
+Stats      0 0 0 0 0
+Desc       You are walking through a narrow aisle between the large marble benches and
+the huge wooden dais.  The glow of the sword held by the statue is becoming
+brighter as you get closer to it, and the silvery altar now had a light red
+glow as well.  Obviously, whatever deity was worshiped in this temple is 
+aware that you are here, and is probably not very happy about it, so 
+you'd better watch your step.
+~
+#EXIT
+Direction  South~
+ToRoom     5806
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5801
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5803
+Name       Isle Around the Dais~
+Sector     indoors~
+Flags      dark indoors nomagic~
+Stats      0 0 0 0 0
+Desc       You are walking through a narrow aisle between the large marble benches and
+the huge wooden dais.  The glow of the sword held by the statue is becoming
+brighter as you get closer to it, and the silvery altar now had a light red
+glow as well.  Obviously, whatever deity was worshiped in this temple is 
+aware that you are here, and is probably not very happy about it, so 
+you'd better watch your step.
+~
+#EXIT
+Direction  South~
+ToRoom     5806
+Desc        
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5801
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5804
+Name       The Dais~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       This is a huge dais, with three padded chairs in the rear and a large table
+in front of them.  There are many old runes carved into the table surface,
+probably prayers to whatever deity this temple was deticated.  There is
+another staircase at the southern end of the dais leading down to the altar.
+~
+#EXIT
+Direction  South~
+ToRoom     5808
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5801
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5806
+Name       Isle Around the Dais~
+Sector     indoors~
+Flags      dark indoors nomagic~
+Stats      0 0 0 0 0
+Desc       As you walk the length of the dais, you realize that it is really not that
+large, just high and wide.  There are more runes carved along the sides of
+the dais, probably more prayers or words of praise that the makers had for
+their god.  The altar is now in clear view, and you realize that there is a
+fire-scorched skeleton of a human child laying on the altar.  This must have
+been a temple to a very cruel and evil god.
+~
+#EXIT
+Direction  North~
+ToRoom     5803
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5808
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5807
+Name       Isle Around the Dais~
+Sector     indoors~
+Flags      dark indoors nomagic~
+Stats      0 0 0 0 0
+Desc       As you walk the length of the dais, you realize that it is really not that
+large, just high and wide.  There are more runes carved along the sides of
+the dais, probably more prayers or words of praise that the makers had for
+their god.  The altar is now in clear view, and you realize that there is a
+fire-scorched skeleton of a human child laying on the altar.  This must have
+been a temple to a very cruel and evil god.
+~
+#EXIT
+Direction  North~
+ToRoom     5803
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5808
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5808
+Name       The Center Isle~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are now in the canter aisle again, closing on the huge altar.  The glow
+from the sword is even brighter now, bathing the entire temple in a bright
+red light.  In this new light you realize that the statue is of a huge 
+winged fiend from the Abyss, probably a high minion of the deity these 
+people had worshiped.
+~
+#EXIT
+Direction  North~
+ToRoom     5804
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5807
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5809
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5806
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5809
+Name       By the Altar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The altar is huge.  It is large enough for three humans to lay on it at 
+once.  It is made of a glowing bright colored metal, probably silver or 
+platinum.  The large ebony statue hangs above the altar with it's glowing
+blade pointing down at the center of the altar.  There seems to be a 
+trapdoor in the floor beyond the altar.
+~
+#EXIT
+Direction  North~
+ToRoom     5808
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5810
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5810
+Name       Behind the Altar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       As you walk around the altar towards the trapdoor, you feel as if the giant
+statue is watching you, it's blazing red eyes glaring down at you from high
+above.  The trapdoor looks as if it could be easily opened by anyone, or at
+least anyone foolish enough to wish to do so.  You can feel a great evil
+coming from beyond the trapdoor.
+~
+#EXIT
+Direction  North~
+ToRoom     5809
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5811
+Keywords   trapdoor~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5815 1 5810 -1 -1 -1 100
+  Reset E  5800 10 16 100
+Reset D    5810 5 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5811
+Name       The Dark Pit~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       As you descend the pitch-black staircase, which is barely visible in the
+darkness of this room, you are pulled down by a magical force which drags
+you down into a very dark pit.  You can make out is a bright red glow coming
+from beyond an archway to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5812
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5810
+Keywords   trapdoor~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    5811 4 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5812
+Name       The Gate of the Abyss~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Before you stands a great archway, standing over five hundred feet tall,
+and three hundred feet wide at the bottom.  The entrance does not seem to
+be guarded,  but you can still feel a great evil coming from within.  Since
+there is no point staying in this pit much longer, and there is no way to
+reach the dark stairway that brought you here, your only option is to enter
+the gate and face what lies beyond.
+~
+#EXIT
+Direction  North~
+ToRoom     5813
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5813
+Name       The Abyss~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The Abyss is a most horrifying place.  The ground is smooth and black as
+obsidian, and the skies are a dark black with deep red swirls of noxious
+gasses that would be deadly to any mortal.  Many winged demons fly high
+above you in the dark skies, and many other undead fiends walk the dark
+ground.
+~
+#EXIT
+Direction  North~
+ToRoom     5814
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5815
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5816
+#ENDEXIT
+Reset M    5800 5 5813 -1 -1 -1 100
+Reset M    5801 7 5813 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5814
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to continue 
+onas far as you can see.  For some strange reason, the horrible demons that
+fly in the dark skies seem to watch over you, but not attack.  You can make 
+out a bright red glow far to the north.  Streams of dark ebony water block 
+your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5817
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5813
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5815
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  A 
+river of pitch-black waters blocks your way north, and a strange magical 
+force blocks your passage south.
+~
+#EXIT
+Direction  East~
+ToRoom     5821
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5813
+#ENDEXIT
+Reset M    5801 7 5815 -1 -1 -1 100
+Reset M    5801 7 5815 -1 -1 -1 100
+Reset M    5802 10 5815 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5816
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+river continues on westward, where you can see an old bridge crossing it.
+~
+#EXIT
+Direction  East~
+ToRoom     5813
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5823
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5817
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out a bright red glow far to the north.  Streams of dark ebony 
+water block your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5818
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5814
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5818
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+red glow seems to have dimmed slightly as you near it, but is still 
+glowing clearly in the black fog of this dreaded place.  Streams of ebony
+black water block your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5819
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5817
+#ENDEXIT
+Reset M    5800 5 5818 -1 -1 -1 100
+Reset M    5800 5 5818 -1 -1 -1 100
+Reset M    5800 5 5818 -1 -1 -1 100
+Reset M    5801 7 5818 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5819
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You have come across the top of a spiral staircase which continues down as
+far as you can see.  The bright red glow seems to be coming from something
+far at the bottom of the staircase.
+~
+#EXIT
+Direction  South~
+ToRoom     5818
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5820
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5820
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You begin descending the narrow, seemingly unending staircase.  Many 
+specteral figures fly around you, as if in some sort of ritual, but, 
+like the flying demons, they do not attack.  It is a very unnerving 
+experience.
+~
+#EXIT
+Direction  Up~
+ToRoom     5819
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5831
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5821
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  A 
+river of pitch-black waters blocks your way north, and a strange magical 
+force blocks your passage south.
+~
+#EXIT
+Direction  East~
+ToRoom     5822
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5815
+#ENDEXIT
+Reset M    5802 10 5821 -1 -1 -1 100
+Reset M    5802 10 5821 -1 -1 -1 100
+Reset M    5803 14 5821 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5822
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  A 
+river of pitch-black waters blocks your way north, and a strange magical
+force blocks your passage south.  The river suddenly becoms much wider, 
+blocking all exits except the one you came from, to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     5821
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5823
+Name       By the Old Bridge~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This is an old stone bridge, crossing about a foot over the black waters.
+Since there are no boats around, and swimming in those waters would be 
+nothing less than suicide, this bridge is the only way accross.  Some 
+agical force blocks your passage south and west.  The river seems to 
+bend northward beyond the bridge, as if the river also wished to avoid 
+the magical barrier.
+~
+#EXIT
+Direction  North~
+ToRoom     5825
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5816
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5824
+Name       In the Black River~
+Sector     city~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc       As you jump into the water, you feel a strong burning sensation cover your
+entire body.  The next thing you realize, your body is being burned away by
+powerful acids.  Maybe jumping in wasn't such a good idea after all...
+~
+#EXIT
+Direction  North~
+ToRoom     5825
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5825
+Name       On the Old Bridge~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       As you cross the bridge, you suddenly have an overwhelming urge to jump in 
+the water.  Perhaps the magical forces here are affecting your mind?  Or 
+maybe the waters are just naturally tempting.  But either way, you feel 
+that you have lived your entire life just to jump into this river.
+~
+#EXIT
+Direction  North~
+ToRoom     5826
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5823
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5824
+Desc       Despite a breeze, the black water below is deathly still.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5826
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  Once 
+again the river seems to follow you, blocking your path north and west.  
+The only other exit is east.
+~
+#EXIT
+Direction  East~
+ToRoom     5827
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5825
+#ENDEXIT
+Reset M    5800 5 5826 -1 -1 -1 100
+Reset M    5801 7 5826 -1 -1 -1 100
+Reset M    5801 7 5826 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5827
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can see a small cave not far to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5828
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5826
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5828
+Name       Outside a Small Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Popping out of the flat ground like a large wart, the mountain is only about
+twenty feet high, and the cave entrance is ten.  This must be the lair of a
+large creature, or of many small ones.  The river seems to flow around the
+cave, almost like a pitch-black moat surrounding a castle.
+~
+#EXIT
+Direction  North~
+ToRoom     5829
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5827
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5829
+Name       The Gargoyle's Lair~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This cave is very large, considering the size of the mountain.  On the 
+floor lie many bones of different creatures that have served as a meal 
+for whatever lives here.  There is a large trapdoor in the northern end 
+of the cave, with a golden lock hanging from the handle.  The key is 
+nowhere in sight.  There is a large pile of straw in one corner, 
+obviously where the abomination that lives here sleeps, and a small 
+well in another corner.
+~
+#EXIT
+Direction  South~
+ToRoom     5828
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5830
+Key        2
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5817 1 5829 -1 -1 -1 100
+  Reset G  5805 10 100
+  Reset G  5823 10 100
+  Reset E  5822 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        5830
+Name       The Storage Room~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This seemed to have served as a storage room for someone, many years ago.
+There are many rusty or broken swords and shields on the ground, and many
+coins scattered around the room.  There is one large shelf in the northern
+end of the room, and a small chest in a corner.  The lock on the chest looks
+much like the lock on the trapdoor.
+~
+#EXIT
+Direction  Up~
+ToRoom     5829
+#ENDEXIT
+Reset O    5811 1 5830 -1 -1 -1 100
+  Reset P  0 5809 1 5811 100
+  Reset P  0 5816 1 5811 100
+#ENDROOM
+
+#ROOM
+Vnum        5831
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You begin descending the narrow, seemingly unending staircase.  Many 
+specteral figures fly around you, as if in some sort of ritual, but, like 
+the flying demons, they do not attack.  It is a very unnerving experience.  
+Looking down over the rail, you can see the staircase ending at a black 
+stone surface, probably another level of the Abyss.
+~
+#EXIT
+Direction  Up~
+ToRoom     5820
+Keywords    
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5832
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5832
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You have reached the end of the spiral staircase.  Although there is a 
+level above you, the sky still looks like it did before, covered with 
+pitch-black clouds and red swirls of gasses.  More rivers cover this 
+level as they did the first one.  The only difference between this 
+level and the first, is that the demons in the sky are flying lower, 
+closer to you.
+~
+#EXIT
+Direction  East~
+ToRoom     5835
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5833
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5834
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5831
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5833
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the south, a red glow 
+eminating from it.
+~
+#EXIT
+Direction  North~
+ToRoom     5832
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5836
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5834
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north.  Farther to the west, the river bends southward, allowing 
+passage to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     5832
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5844
+#ENDEXIT
+Reset M    5801 7 5834 -1 -1 -1 100
+Reset M    5802 10 5834 -1 -1 -1 100
+Reset M    5802 10 5834 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5835
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north.  You can either return the way you came, or continue 
+east towards a large cave.
+~
+#EXIT
+Direction  East~
+ToRoom     5840
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5832
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5836
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the south, a red glow 
+eminating from it.
+~
+#EXIT
+Direction  North~
+ToRoom     5833
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5837
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5837
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the south, a red glow 
+eminating from it.
+~
+#EXIT
+Direction  North~
+ToRoom     5836
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5838
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5838
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You have come across another spiral staircase, like the first, leading down
+into unending blackness.  Again, you can see that the red aura is coming not
+from the staircase itsale, but from what lies within, at the lower levels of
+the Abyss.  Like on the bridge, you have an overwhelming urge to descend the
+stairs and see what lay beyond.
+~
+#EXIT
+Direction  North~
+ToRoom     5837
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5839
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5839
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You begin descending the narrow, seemingly unending staircase.  Many 
+specteral figures fly around you, as if in some sort of ritual, but, 
+like the flying demons, they do not attack.  It is a very unnerving 
+experience.  Looking down over the rail, you can see the staircase 
+ending at a black stone surface, probably another level of the Abyss.
+~
+#EXIT
+Direction  Up~
+ToRoom     5838
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5851
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5840
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north.  You can either return the way you came, or continue east 
+towards a large cave.
+~
+#EXIT
+Direction  East~
+ToRoom     5841
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5835
+#ENDEXIT
+Reset M    5803 14 5840 -1 -1 -1 100
+Reset M    5803 14 5840 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5841
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to continue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+blac river blocks your passage south, and another magical force blocks 
+your way north.  You can either return the way you came, or continue 
+east towards a large cave.
+~
+#EXIT
+Direction  East~
+ToRoom     5842
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5840
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5842
+Name       Outside the Large Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This is actually more of a pit than a cave.  It is a large hole in the 
+ground, with a narrow staircase leading down into the deep darkness.  
+As you attemt to make out what lay at the bottom, you see something 
+reflect your light.
+~
+#EXIT
+Direction  West~
+ToRoom     5841
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5843
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5843
+Name       The Grotto of the Dracolich~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       As you reach the bottom of the stairs, you stumble and trip over a small 
+round object.  Then you realize, that the object is a human skull.  As 
+you look around, you see many more skulls, lying on a huge pile of money 
+and gems in the center of the room.  As you approach the pile, it begins 
+to shift, and before you can escape, the stairs you came down crumble and 
+turn to dust. Looks like you're going to join those skulls pretty soon.
+~
+#EXIT
+Direction  Up~
+ToRoom     5842
+#ENDEXIT
+Reset M    5806 1 5843 -1 -1 -1 100
+  Reset E  5810 2 5 35
+  Reset G  5817 10 100
+#ENDROOM
+
+#ROOM
+Vnum        5844
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north.  Farther to the west, the river bends southward, allowing 
+passage to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     5834
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5845
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5845
+Name       Bend in the Black River~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Here the river bends to the south, allowing passage.  Another magic barrier
+prevents you from continuing west, so the only other exit would be to follow
+the river to the south, where you notice a small cave.
+~
+#EXIT
+Direction  East~
+ToRoom     5844
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5846
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5846
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north. As you follow the river to the south, you see the cave 
+getting closer and
+closer.
+~
+#EXIT
+Direction  North~
+ToRoom     5845
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5847
+#ENDEXIT
+Reset M    5802 10 5846 -1 -1 -1 100
+Reset M    5802 10 5846 -1 -1 -1 100
+Reset M    5802 10 5846 -1 -1 -1 100
+Reset M    5803 14 5846 -1 -1 -1 100
+Reset M    5808 6 5846 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5847
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north.  As you follow the river to the south, you see the cave 
+getting closer and closer.
+~
+#EXIT
+Direction  North~
+ToRoom     5846
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5848
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5848
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+black river blocks your passage south, and another magical force blocks 
+your way north.  As you follow the river to the south, you see the cave 
+getting closer and closer.
+~
+#EXIT
+Direction  North~
+ToRoom     5847
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5849
+#ENDEXIT
+Reset M    5803 14 5848 -1 -1 -1 100
+Reset M    5803 14 5848 -1 -1 -1 100
+Reset M    5809 5 5848 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5849
+Name       Outside a Small Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Again, a small cave emerges out of the flat surface of the Abyss.  This one
+seems very small, as it probably lairs a smaller beast.  You can see two
+blazing red eyes glaring at you from the darkness of the cave.
+~
+#EXIT
+Direction  North~
+ToRoom     5848
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5850
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5850
+Name       The Laboratory~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This seems to be an old lab of some type of wizard.  You can see many
+abominations of what were once frogs, toads, fish, rabbits and other
+creatures you can't even identify.  Whoever this lab does belong to,
+must be a cruel and evil sorcerer, or perhaps, considering the state
+of this place, an undead lich!
+~
+#EXIT
+Direction  North~
+ToRoom     5849
+#ENDEXIT
+Reset M    5805 1 5850 -1 -1 -1 100
+  Reset E  5801 1 17 100
+#ENDROOM
+
+#ROOM
+Vnum        5851
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Again, you descend into the darkness, with ghostly wraiths and misty 
+specters dancing around you.  When you listen closely, you hear that 
+they seem to be chanting a prayer or some sort, as if they were about 
+to sacrifice you to some evil deity, perhaps the one worshiped in the 
+temple that brought you to this awful place.  Looking down, again you 
+see the black ground of yet another level of the Abyss.
+~
+#EXIT
+Direction  Up~
+ToRoom     5839
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5852
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5852
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You have reached the end of the spiral staircase.  Although there is a 
+level above you, the sky still looks like it did before, covered with 
+pitch-black clouds and red swirls of gasses.  More rivers cover this 
+level as they did the first one.  As you look up, you realize that the 
+demons ar enearly upon you, and will probably attack at any minute.
+~
+#EXIT
+Direction  North~
+ToRoom     5856
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5854
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5855
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5851
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5854
+Name       By a Pool~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You are standing by a small pond into which all the rivers on this level 
+spill.  The water is pitch-black, so you can't tell if there is anything 
+inside, but you can feel that something is about to jump out and attack 
+you.  Better watch your step.
+~
+#EXIT
+Direction  West~
+ToRoom     5852
+#ENDEXIT
+Reset M    5818 1 5854 -1 -1 -1 50
+  Reset E  5825 3 11 20
+Reset M    5818 1 5854 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5855
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  There 
+is a bright white light coming from the west.  Black streams block your 
+passage north, and the magical force blocks the way south.
+~
+#EXIT
+Direction  East~
+ToRoom     5852
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5861
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5856
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the north, a red glow 
+eminating from it.  Black streams block your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5857
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5852
+#ENDEXIT
+Reset M    5804 10 5856 -1 -1 -1 100
+Reset M    5808 6 5856 -1 -1 -1 100
+Reset M    5808 6 5856 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5857
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the north, a red glow 
+eminating from it.  Black streams block your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5858
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5856
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5858
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the north, a red glow 
+eminating from it.  Black streams block your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5859
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5857
+#ENDEXIT
+Reset M    5803 14 5858 -1 -1 -1 100
+Reset M    5804 10 5858 -1 -1 -1 100
+Reset M    5809 5 5858 -1 -1 -1 100
+Reset M    5809 5 5858 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5859
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+can make out another spiral staircase, far off to the north, a red glow 
+eminating from it.  Black streams block your passage east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     5860
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5858
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5860
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You have come across another spiral staircase, like the first, leading 
+down into unending blackness.  Again, you can see that the red aura is 
+coming not from the staircase itsale, but from what lies within, at the 
+lower levels of the Abyss.  Like on the bridge, you have an overwhelming 
+urge to descend the stairs and see what lay beyond.
+~
+#EXIT
+Direction  South~
+ToRoom     5859
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5871
+#ENDEXIT
+Reset M    5802 10 5860 -1 -1 -1 100
+Reset M    5802 10 5860 -1 -1 -1 100
+Reset M    5803 14 5860 -1 -1 -1 100
+Reset M    5804 10 5860 -1 -1 -1 100
+Reset M    5808 6 5860 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5861
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons that 
+fly in the dark skies seem to watch over you, but not attack.  There is a 
+bright white light coming from the west.  The magical force blocks the way 
+south, and another old bridge crosses the river to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5864
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5855
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5862
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5862
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  There 
+is a bright white light coming from the west.  Black streams block your 
+passage north, and the magical force blocks the way south.
+~
+#EXIT
+Direction  East~
+ToRoom     5861
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5863
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5863
+Name       The Portal~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This appears to be a teleportation portal.  If you walk through it, you may
+end up anywhere, and there is no way of knowing it's destination without
+walking through it.  It could be your way out of this horrible Abyss, but it
+may also bring you to the Pit.  Or it might just be an illusion set up by an
+evil mage to trap you here, forever.
+~
+#EXIT
+Direction  East~
+ToRoom     5862
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5864
+Name       On the Old Bridge~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       As you cross the bridge, you suddenly have an overwhelming urge to jump in 
+the water.  Perhaps the magical forces here are affecting your mind?  Or 
+maybe the waters are just naturally tempting.  But either way, you feel 
+that you have lived your entire life just to jump into this river.
+~
+#EXIT
+Direction  North~
+ToRoom     5865
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5861
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5824
+Desc       Despite a breeze, the black water below is deathly still.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5865
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+notice that after the bridge, the river branches out and now blocks your 
+passage east and west, but you see an eastward bend far up to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5866
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5864
+#ENDEXIT
+Reset M    5804 10 5865 -1 -1 -1 100
+Reset M    5804 10 5865 -1 -1 -1 100
+Reset M    5808 6 5865 -1 -1 -1 100
+Reset M    5808 6 5865 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5866
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+notice that after the bridge, the river branches out and now blocks your 
+passage east and west, but you see an eastward bend far up to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5867
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5865
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5867
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  You 
+notice that after the bridge, the river branches out and now blocks your 
+passage east and west, but you see an eastward bend far up to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5868
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5866
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5868
+Name       Bend in the Black River~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The streams around you bend to the east allowing passage in that direction,
+but also blocking passage to the north.  Looking eastward, you can see 
+another dark cave, large enough to be the lair of a demh, 
+considering your luck so fr, it probably is one.
+~
+#EXIT
+Direction  East~
+ToRoom     5869
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5867
+#ENDEXIT
+Reset M    5803 14 5868 -1 -1 -1 100
+Reset M    5803 14 5868 -1 -1 -1 100
+Reset M    5809 5 5868 -1 -1 -1 100
+Reset M    5809 5 5868 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5869
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  For some strange reason, the horrible demons 
+that fly in the dark skies seem to watch over you, but not attack.  The 
+cave to the east seems alot closer than before, and you can actually make 
+out two small human-looking eyes, the color of deep blue sappires.
+~
+#EXIT
+Direction  East~
+ToRoom     5870
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5868
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5870
+Name       The Lair of the Erinyes~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This cave is almost completely empty.  Exceot for a few pillows in a 
+corner and a small well in another, this cavern is vacant.  Whatever 
+does lair here is either a very clean eater, of a very powerful magic-
+user.  Either way, if it lives in this Abyss, it can't be too friendly.
+~
+#EXIT
+Direction  West~
+ToRoom     5869
+#ENDEXIT
+Reset M    5810 1 5870 -1 -1 -1 100
+  Reset E  5802 15 5 100
+  Reset E  5803 15 7 100
+  Reset E  5815 10 16 100
+#ENDROOM
+
+#ROOM
+Vnum        5871
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You begin descending the narrow, seemingly unending staircase. Many spectral
+figures fly around you, as if in some sort of ritual, but, like the flying 
+demons, they do not attack.  It is a very unnerving experience.  Suddenly, 
+the specteral demons begin to scream very loudly, an ear-shattering cry that 
+pierces your very soul.  Then, they all charge towards you.  Right before 
+you are sure they will tear you apart, they stop. Then they all turn a misty 
+white, and dissapear.  Everything is silent, and even more unnerving than 
+when the ghosts were around.
+~
+#EXIT
+Direction  Up~
+ToRoom     5860
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5872
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5872
+Name       The Spiral Staircase~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This is the final level of the Abyss.  The rivers here have a faint red 
+glow around them.  The ebony ground here reflects back the light coming 
+from the red gasses in the dark skies.  And after all the time in the 
+Abyss, the flying demons finally fly down to attack you.  You can see no 
+more staircases in any direction you look, and that portal may have been 
+your only way out.  Now all you can do is continue on into the Pit of the 
+Abyss.
+~
+#EXIT
+Direction  East~
+ToRoom     5874
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5873
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5875
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5871
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5873
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+A very dark cloud of fog can be seen far to the south, no doubt the 
+entrance to the Pit.  You can hear the crys of undead rising and the ear-
+piercing laughs of the fiends that raise them.
+~
+#EXIT
+Direction  North~
+ToRoom     5872
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5876
+#ENDEXIT
+Reset M    5814 8 5873 -1 -1 -1 100
+Reset M    5814 8 5873 -1 -1 -1 100
+Reset M    5814 8 5873 -1 -1 -1 100
+  Reset E  5804 10 16 100
+#ENDROOM
+
+#ROOM
+Vnum        5874
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the
+fiends that raise them.  There is another cave not far to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     5880
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5872
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5875
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the 
+fiends that raise them.
+~
+#EXIT
+Direction  East~
+ToRoom     5872
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5884
+#ENDEXIT
+Reset M    5804 10 5875 -1 -1 -1 100
+Reset M    5804 10 5875 -1 -1 -1 100
+Reset M    5814 8 5875 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5876
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+A very dark cloud of fog can be seen far to the south, no doubt the 
+entrance to the Pit.  You can hear the crys  rising and the ear-
+piercing laughs of the fiends that raise them.
+~
+#EXIT
+Direction  North~
+ToRoom     5873
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5877
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5877
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+A very dark cloud of fog can be seen far to the south, no doubt the 
+entrance to the Pit.  You can hear the crys of undead rising and the ear-
+piercing laughs of the fiends that raise them.
+~
+#EXIT
+Direction  North~
+ToRoom     5876
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5878
+#ENDEXIT
+Reset M    5803 14 5877 -1 -1 -1 100
+Reset M    5803 14 5877 -1 -1 -1 100
+Reset M    5803 14 5877 -1 -1 -1 100
+Reset M    5803 14 5877 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5878
+Name       The Pit of the Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       As you enter the dark cloud, you are totally engulfed by the black vapor 
+and magically pulled into the darkest place you have ever seen, the Pit 
+of the Abyss.  Even with your light, this place remains pitch-black, and 
+the only was you can find your way around is by feeling the ground.  
+Better hope there are no rivers here.
+~
+#EXIT
+Direction  South~
+ToRoom     5879
+#ENDEXIT
+Reset O    5819 1 5878 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5879
+Name       The Pit of the Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The floor here is very smooth, which is all you can tell, since it is
+pitch-black and you can't see a thing.  You hear alot of chanting all 
+around you, and have a bad feeling that this is where the most horrible 
+fiends in the Abyss dwell, and where sacrifices like yourself are brought 
+by their worshipers.  As you feel around, you find exits to the east and 
+west.
+~
+#EXIT
+Direction  North~
+ToRoom     5878
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5892
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5895
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5880
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the 
+fiends that raise them.  There is another cave not far to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     5881
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5874
+#ENDEXIT
+Reset M    5814 8 5880 -1 -1 -1 100
+  Reset E  5804 10 16 100
+Reset M    5814 8 5880 -1 -1 -1 100
+Reset M    5814 8 5880 -1 -1 -1 100
+Reset M    5814 8 5880 -1 -1 -1 100
+  Reset E  5804 10 16 100
+#ENDROOM
+
+#ROOM
+Vnum        5881
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the 
+fiends that raise them.  There is another cave not far to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     5882
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5880
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5882
+Name       Outside a Dark Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This cave is very small, with an entrance you can barely fit into.  You 
+can see nothing but black darkness inside, and whatever does dwell within 
+is probably not very fond of light.  You sense a very powerful presence 
+waiting inside the cave.
+~
+#EXIT
+Direction  East~
+ToRoom     5883
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5881
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5883
+Name       The Dark Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Even with you light, you cannot see a thing.  There is a magical darkness 
+in this cave, which cannot be dispelled without magic of equal power.  As 
+you stumble around the room, you bump into a large coffin in the center of 
+the cave.  There is no more doubt, this is the lair of a vampire!
+~
+#EXIT
+Direction  West~
+ToRoom     5882
+#ENDEXIT
+Reset M    5807 1 5883 -1 -1 -1 100
+  Reset E  5808 10 17 100
+  Reset G  5821 100 100
+Reset O    5818 1 5883 -1 -1 -1 100
+  Reset P  0 5806 1 5818 100
+#ENDROOM
+
+#ROOM
+Vnum        5884
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the 
+fiends that raise them.  Another black stream blocks your path westward,
+and the only other exit is south, where you notice another small cave.
+~
+#EXIT
+Direction  East~
+ToRoom     5875
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5885
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5885
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebo of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the 
+fiends that raise them.  A black stream blocks your path westward, and the 
+only other exit is south, moving towards the small cave.
+~
+#EXIT
+Direction  North~
+ToRoom     5884
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5886
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5886
+Name       The Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The flat, pitch-black plane of ebony stone of the Abyss seems to comtinue 
+on as far as you can see.  The horrible demons that fly in the dark skies 
+begin to glide down towards you, rage and fury burning in their red eyes.  
+You can hear the crys of undead rising and the ear-piercing laughs of the 
+fiends that raise them.  A black stream blocks your path westward, and the 
+only other exit is south, moving towards the small cave.
+~
+#EXIT
+Direction  North~
+ToRoom     5885
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5887
+#ENDEXIT
+Reset M    5804 10 5886 -1 -1 -1 100
+Reset M    5804 10 5886 -1 -1 -1 100
+Reset M    5804 10 5886 -1 -1 -1 100
+Reset M    5804 10 5886 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5887
+Name       Outside the Small Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Like most of the other caves, this one is not large, but not very small 
+either.  It must be the lair of a fiend, which is not a very comforting 
+thought.  The entire cave is surrounded by a red aura, and the flying 
+demons seem to cringe away from it.  Either it is a solace in this evil 
+place, or something very fierce lairs inside.
+~
+#EXIT
+Direction  North~
+ToRoom     5886
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5888
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5888
+Name       The Fiends' Lair~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This cave is empty except for three large acolves, one in the south end, 
+one in the east, and one in the west.  Each alcove is an ivory white, with 
+a grim black aura surrounding it.
+~
+#EXIT
+Direction  North~
+ToRoom     5887
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5891
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5889
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5890
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5889
+Name       The First Alcove~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This alcove is very small, and obviously the fiend that dwells within cares
+little for comfort.  There are black runes on the white walls, and a dark
+cloud floating above you.
+~
+#EXIT
+Direction  North~
+ToRoom     5888
+#ENDEXIT
+Reset M    5811 1 5889 -1 -1 -1 100
+  Reset E  5812 15 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5890
+Name       The Second Alcove~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This alcove is very small, and obviously the fiend that dwells within cares
+little for comfort.  There are green runes on the white walls, and a dark
+cloud floating above you.
+~
+#EXIT
+Direction  East~
+ToRoom     5888
+#ENDEXIT
+Reset M    5812 1 5890 -1 -1 -1 100
+  Reset E  5813 10 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5891
+Name       The Third Alcove~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This alcove is very small, and obviously the fiend that dwells within cares
+little for comfort.  There are red runes on the white walls, and a dark
+loud floating above you.
+~
+#EXIT
+Direction  West~
+ToRoom     5888
+#ENDEXIT
+Reset M    5813 1 5891 -1 -1 -1 100
+  Reset E  5814 2 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5892
+Name       The Pit of the Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The floor here is very smooth, which is all you can tell, since it is pitch-
+black and you can't see a thing.  You hear alot of chanting all around you, 
+and have a bad feeling that this is where the most horrible fiends in the 
+Abyss dwell, and where sacrifices like yourself are brought by their 
+worshipers.  As you feel around, you find exits to the west and south.
+~
+#EXIT
+Direction  South~
+ToRoom     5893
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5879
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5893
+Name       The Pit of the Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The floor here is very smooth, which is all you can tell, since it is
+pitch-black and you can't see a thing.  You hear alot of chanting all 
+around you, and have a bad feeling that this is where the most horrible 
+fiends in the Abyss dwell, and where sacrifices like yourself are brought 
+by their worshipers.  As you feel around, you find exits to the west and 
+north.
+~
+#EXIT
+Direction  North~
+ToRoom     5892
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5896
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5894
+Name       The Pit of the Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The floor here is very smooth, which is all you can tell, since it is
+pitch-black and you can't see a thing.  You hear alot of chanting all 
+around you, and have a bad feeling that this is where the most horrible 
+fiends in the Abyss dwell, and where sacrifices like yourself are 
+brought by their worshipers.  As you feel around, you find exits to the 
+east and north.
+~
+#EXIT
+Direction  North~
+ToRoom     5895
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5896
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5895
+Name       The Pit of the Abyss~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       The floor here is very smooth, which is all you can tell, since it is
+pitch-black and you can't see a thing.  You hear alot of chanting all 
+around you, and have a bad feeling that this is where the most horrible 
+fiends in the Abyss dwell, and where sacrifices like yourself are 
+brought by their worshipers.  As you feel around, you find exits to the 
+east and south.
+~
+#EXIT
+Direction  East~
+ToRoom     5879
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5894
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5896
+Name       The Ancient Temple~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This temple looks as if it were over a million   It is filled 
+with statues of different fiends, and other forms of undead that come here
+to worship their deity.  In the center you see the same statue you saw in 
+the temple back in Midgaard.  Then, you realize that this is no statue.  
+It is, however, the most feared fiend in all of the Abyss, and a sight no 
+mortal eyes should see.  The fiend stands before a large golden door, 
+probably the way out of this Abyss.
+~
+#EXIT
+Direction  North~
+ToRoom     5897
+Key        5820
+Keywords   door north~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5893
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5894
+#ENDEXIT
+Reset M    5816 1 5896 -1 -1 -1 100
+  Reset E  5824 2 16 35
+  Reset E  5820 3 17 100
+  Reset G  24296 5 20
+Reset D    5896 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5897
+Name       The Portal~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       This is another portal, far larger that the other one, with a small sign 
+next to it that reads: "To the Upper World."  
+~
+#EXIT
+Direction  North~
+ToRoom     5898
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5898
+Name       The Center of the Universe~
+Sector     city~
+Flags      private~
+Stats      0 0 0 0 0
+Desc       You suddenly realize that you are floating in space, in the center of a
+ring of bright stars.  Looking around, you can see the entire universe
+like a movie played on the space within the ring of stars.  A large throne
+floats abovethe center of the ring, overlooking the entire universe.
+~
+Reset M    5819 1 5898 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

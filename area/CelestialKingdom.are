@@ -1,0 +1,1075 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Celestial Kingdom~
+Author          Unknown~
+Vnums           10700 10798
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       60
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        10700
+Keywords   raiden~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Raiden~
+Long       Raiden, the God of Archery, is practicing his skill with a bow here.
+~
+Desc       You see a rough-looking, dark-skinned Japanese man, 6' tall with scaled hands
+here, practicing his skill with the bow... even if he already is a master
+archer.
+~
+Nattacks   4.000000
+Stats1     350 31000 60 100 150 250
+Stats2     33 -5 -7 1500 6 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10701
+Keywords   susanowo~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Susanowo~
+Long       Susanowo, the God of Storms, is here raising a typhoon!
+~
+Desc       You see a large Japanese man with a long beard and a vicious expression.  He
+is wearing all yellow armor and weapons, and does not look happy to see you 
+here.
+~
+Nattacks   4.000000
+Stats1     0 39000 60 100 150 250
+Stats2     34 -7 -8 2100 6 0 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10702
+Keywords   tsukiyomo~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Tsukiyomo~
+Long       Tsukiyomo, the God of the Moon, is watching you carefully here.~
+Desc       You see a massively built human, 7' tall, with light blue skin before you.
+~
+Nattacks   4.000000
+Stats1     750 51000 60 100 150 250
+Stats2     35 -9 -9 2700 8 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10703
+Keywords   ameratasu omikami~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Ameratasu Omikami~
+Long       Ameratasu, Goddess of the Sun and mother of Emperors gazes in her mirror here.
+~
+Desc       You see a beautiful Japanese woman wearing a pale blue kimono.  She hold a
+silver, octagonal shaped mirror which seems to radiate the light of the sun.
+~
+Nattacks   4.000000
+Stats1     1000 60000 60 100 150 250
+Stats2     36 -10 -10 3500 8 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10704
+Keywords   warrior spirit~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the spirit warrior~
+Long       A spirit warrior stands here, guarding the heavens from mortal intruders.
+~
+Desc       This spirit was a great warrior in life, and has now been called to serve the
+gods in the afterlife.
+~
+Nattacks   2.000000
+Stats1     0 5300 60 100 150 250
+Stats2     20 0 4 248 3 0 4
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   invisible detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10705
+Keywords   warrior spirit~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the spirit warrior~
+Long       A spirit warrior stands here, guarding the heavens from mortal intruders.
+~
+Desc       A great warrior in life, this spirit has been called to serve the gods in the
+afterlife.
+~
+Nattacks   2.000000
+Stats1     0 2000 60 100 150 250
+Stats2     14 7 6 172 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10710
+Keywords   darklon man~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Darklon~
+Long       A demonic looking man is waiting to kill you here.
+~
+Desc       You see before you a most evil looking man, dressed in all black.  He moves
+as gracefully as a cat, yet has a lethal aura.  You are smitten by fear.
+~
+Nattacks   4.000000
+Stats1     -1000 10000 60 100 150 250
+Stats2     33 -10 -7 10000 6 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis flying sanctuary sneak hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10711
+Keywords   thor~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Thor, God of Thunder~
+Long       Thor, the God of Thunder eyes you suspiciously.
+~
+Desc       Thor is a great Norse God, well known for his temper and fighting skills.  He
+is dressed in Bear skins and a horned viking helmet.  His blond hair flows down
+his back, and his beard and mustaches give him a stately aura.
+~
+Nattacks   4.000000
+Stats1     1000 100000 60 100 150 250
+Stats2     33 -10 -7 10000 8 0 12
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis flying sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        10712
+Keywords   faisal~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Faisal, the trickster~
+Long       A sneaky looking man is examining your equipment here.
+~
+Desc       Faisal is a sneaky man, a nomad who was banished from his clan.  He is well
+known for his love of rare items, especially those which belong to the gods.
+~
+Nattacks   4.000000
+Stats1     0 100000 60 100 150 250
+Stats2     31 -10 -5 10000 6 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis flying sanctuary sneak hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        10780
+Keywords   shield raiden black o107~
+Type       armor~
+Short      Raiden's Shield~
+Long       A black shield of immense power has been left here.~
+Flags      antievil~
+WFlags     take shield~
+Values     28 28 0 0 0 0 0 0 0 0 0
+Stats      5 35000 0 9999 0 None None None
+AffData    Dexterity 1 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#EXDESC
+ExDescKey  raiden black shield~
+ExDesc     The shield is round and black and humming with immense power.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10781
+Keywords   o-yoroi o yoroi yellow laced armor o107~
+Type       armor~
+Short      Yellow O-Yoroi~
+Long       A full suit of yellow laced armor lies here.~
+Flags      antineutral~
+WFlags     take body~
+Values     30 30 0 0 0 0 0 0 0 0 0
+Stats      20 50000 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  yellow o-yoroi o yoroi laced armor~
+ExDesc     This beautiful suit of o-yoroi is perfect in every way.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10782
+Keywords   pike tsukiyomo o107~
+Type       weapon~
+Short      Tsukiyomo's Pike~
+Long       Tsukiyomo has left his pike here.~
+WFlags     take wield~
+Values     0 8 3 6 0 0 0 0 0 0 0
+Stats      30 50000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#EXDESC
+ExDescKey  pike tsukiyomo~
+ExDesc     This 12 foot weapon looks quite deadly!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10783
+Keywords   mirror ameratasu o107~
+Type       light~
+Short      Mirror of Ameratasu~
+Long       Ameratasu has left her mirror lying here.~
+Flags      antievil antineutral~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 50000 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 10 -1 -1 0
+#EXDESC
+ExDescKey  mirror ameratasu~
+ExDesc     This beatiful mirror is octagonal and perfect in every detail.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10784
+Keywords   medallion Amber k107~
+Type       key~
+Short      the Amber medallion~
+Long       A beatiful medallion carved from amber, resembling a sun, has been left here.~
+WFlags     take finger~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#EXDESC
+ExDescKey  sunburst medallion~
+ExDesc     The medallion is made of gold and resembles a sun.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10785
+Keywords   rod jet black k107~
+Type       key~
+Short      jet black rod~
+Long       A jet black rod floats in the air here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#EXDESC
+ExDescKey  jet black rod~
+ExDesc     This looks to be the shaft of an arrow, made out of some very black wood.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10786
+Keywords   staff storms k107~
+Type       key~
+Short      Staff of Storms~
+Long       A staff of immense natural power has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#EXDESC
+ExDescKey  staff storms~
+ExDesc     This staff was taken from a willow tree and radiates immense power.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10787
+Keywords   key white jade k107~
+Type       key~
+Short      white jade key~
+Long       A pretty white jade key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#EXDESC
+ExDescKey  jade key~
+ExDesc     This pale white key is perfect in every detail.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10788
+Keywords   wakizashi silvery short blade o107~
+Type       weapon~
+Short      silvery wakizashi~
+Long       A wakizashi made of a strange silvery material lies here.~
+WFlags     take wield hold~
+Values     0 4 4 5 0 0 0 0 0 0 0
+Stats      12 2500 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+#EXDESC
+ExDescKey  silvery wakizashi short blade~
+ExDesc     This is like a wakizashi in most respects, though you have never seen the
+material before.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10789
+Keywords   key silvery k107~
+Type       key~
+Short      silvery key~
+Long       A key made of a strange silvery material has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#EXDESC
+ExDescKey  key silvery~
+ExDesc     It is made of the strangest material you have every seen.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        10790
+Keywords   blade whirlwind o107~
+Type       weapon~
+Short      the Whirlwind Blade~
+Long       A blade which radiates tremendous power floats in the air here.~
+Flags      antievil antineutral~
+WFlags     take wield~
+Values     0 6 5 1 0 0 0 0 0 0 0
+Stats      14 0 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData affected  'haste' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        10791
+Keywords   mirror octagonal ameratasu o107~
+Type       light~
+Short      Ameratasu's Octagonal Mirror~
+Long       A beautiful octagonal mirror, which seems to radiate an inner heat, lies here.~
+Flags      antievil antineutral~
+WFlags     take~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      2 0 0 9999 0 None None None
+AffData    Constitution -2 -1 -1 0
+AffData    damroll -3 -1 -1 0
+AffData affected  'fireshield' -1 -1 0
+#ENDOBJECT
+
+#ROOM
+Vnum        10780
+Name       Top of the Pillar of Ameratasu~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand at the top of the Pillar of Ameratasu, beneath the clouds, yet
+above the rest of the city.  This is perhaps the best view of the city and
+the surounding country side.  Unfortunately the climb down doesn't look too
+safe.
+~
+#EXIT
+Direction  Up~
+ToRoom     10781
+Key        10786
+Keywords   cloud~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       It looks like an incredibly dangerous descent...
+~
+#ENDEXIT
+Reset D    10780 4 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10781
+Name       Entrance to the Heavens~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand above the clouds, looking toward the heavens.  Far below you is the
+top of the Pillar of Ameratasu, while up ahead, to the south, you see a shining
+gold gate, and beyond that, a strange silvery path twisting endlessly through
+the heavens.
+~
+#EXIT
+Direction  South~
+ToRoom     10782
+Key        10784
+Keywords   shining gold gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       It looks like a long fall in strong winds...
+~
+#ENDEXIT
+Reset D    10781 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10782
+Name       At the Shining Gate of Gold~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand beyond a gate made of shining gold, before you lies the realms of
+the gods.  But first, you must pass through a grove of cherry blossoms to the
+south, blocked by a wooden gate.
+~
+#EXIT
+Direction  North~
+ToRoom     10781
+Key        10784
+Desc       Entrance to the Heavens~
+Keywords   shining gold gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10783
+Key        10785
+Keywords   wooden gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       It looks like a long fall down through strong winds.....
+~
+#ENDEXIT
+Reset D    10782 2 2 100 -2
+Reset D    10782 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10783
+Name       In the Grove of Cherry Blossoms~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand amid the most beautiful cherry trees you have ever seen, which
+must truly belong to the gods.  To the north lies a gate carved from a gigantic
+moonstone, any beyond that a strange silvery path.
+~
+#EXIT
+Direction  North~
+ToRoom     10782
+Key        10785
+Keywords   wooden gate~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10784
+Key        10787
+Keywords   gate moonstone~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       The wind looks to strong to manage your flying vehicle...
+~
+#ENDEXIT
+Reset D    10783 2 2 100 -2
+Reset D    10783 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10784
+Name       At the Moonstone Gate~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand beyond the gate carved from gigantic moonstone.  Up ahead, the
+strange silver path finally begins.
+~
+#EXIT
+Direction  North~
+ToRoom     10783
+Key        10787
+Keywords   gate moonstone~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10785
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       The winds look to strong to control your flying vehicle in...
+~
+#ENDEXIT
+Reset D    10784 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10785
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.
+~
+#EXIT
+Direction  North~
+ToRoom     10788
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10786
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10789
+Keywords   gate moonstone~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10790
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       The wind is pretty vicious...
+~
+#ENDEXIT
+Reset M    10705 14 10785 -1 -1 -1 100
+Reset M    10705 14 10785 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10786
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.
+~
+#EXIT
+Direction  North~
+ToRoom     10787
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10788
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10780
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10786
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       The wind looks pretty strong... perhaps to strong for you to control your
+flying machine...
+~
+#ENDEXIT
+Reset M    10705 14 10786 -1 -1 -1 100
+Reset M    10705 14 10786 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10787
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.  A gate made of a
+strange silvery material lies before you.
+~
+#EXIT
+Direction  North~
+ToRoom     10792
+Key        10789
+Keywords   gate silvery~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10790
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10788
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10789
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       You see the quickest way to get to your gods.
+~
+#ENDEXIT
+Reset M    10704 1 10787 -1 -1 -1 100
+  Reset E  10788 3 17 100
+  Reset G  10789 3 100
+Reset M    10705 14 10787 -1 -1 -1 100
+Reset M    10705 14 10787 -1 -1 -1 100
+Reset D    10787 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        10788
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.
+~
+#EXIT
+Direction  North~
+ToRoom     10785
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10791
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10789
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10790
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       It is not advised to go this way....
+~
+#ENDEXIT
+Reset M    10705 14 10788 -1 -1 -1 100
+Reset M    10705 14 10788 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10789
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.
+~
+#EXIT
+Direction  North~
+ToRoom     10788
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10785
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10790
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10791
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       You see a REALLY quick way to the gods...
+~
+#ENDEXIT
+Reset M    10705 14 10789 -1 -1 -1 100
+Reset M    10705 14 10789 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10790
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.
+~
+#EXIT
+Direction  North~
+ToRoom     10791
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10789
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10785
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10788
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       You start to get vertigo.... you don't want to go this way.
+~
+#ENDEXIT
+Reset M    10705 14 10790 -1 -1 -1 100
+Reset M    10705 14 10790 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10791
+Name       On the Silvery Path~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing on a silvery path which twists and turns through the
+heavens.  Spirits float about, watching you curiously.
+~
+#EXIT
+Direction  North~
+ToRoom     10790
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     10789
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10788
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     10785
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       What are those ants down there? Ack, perhaps they are hills...
+~
+#ENDEXIT
+Reset M    10705 14 10791 -1 -1 -1 100
+Reset M    10705 14 10791 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        10792
+Name       Entrance to the Realm of the Gods~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have successfully maneuvered through the heavens, and reached your final
+destination:  the home of the Gods.  To the north lies a portal back to the
+temple of Ameratasu, while the exit south leads back out onto the silvery path.
+Going up leads you further into the home of the Gods.
+~
+#EXIT
+Direction  North~
+ToRoom     10550
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     10787
+Key        10789
+Keywords   gate silvery~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10793
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       It is a looooong way down, through gusty winds...
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10793
+Name       Celestial Archery Field~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc         You stand in an open field, surrounded by cherry trees and willows.  It is
+perhaps the most beautiful field you have ever seen.  At this southern end,
+you see a target, with a few dozen arrows splitting each other in half at the
+dead center of the target.  At the far end of the field, you see the archer...
+~
+#EXIT
+Direction  North~
+ToRoom     10792
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10794
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       It's a loooong way down...
+~
+#ENDEXIT
+Reset M    10700 1 10793 -1 -1 -1 100
+  Reset E  10780 3 11 30
+#ENDROOM
+
+#ROOM
+Vnum        10794
+Name       On a Storm Cloud~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand on a dark, forboding cloud, which seems solid enough to hold your
+weight.  The incessant sound of thunder continually shakes the cloud and rings
+in your ears.  You see a man siting on a storm cloud, coming toward you...
+~
+#EXIT
+Direction  North~
+ToRoom     10793
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10795
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       not a pretty sight....
+~
+#ENDEXIT
+Reset M    10701 1 10794 -1 -1 -1 100
+  Reset E  10781 3 5 30
+#ENDROOM
+
+#ROOM
+Vnum        10795
+Name       In the Light of the Moon~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand in midair, wear it seems that the light of the moon is the most
+intense.  Below you lie many puffy clouds.  When they part as the strong wind
+blows them, you see the Empire of Nippon, like a little map.  It is very calm
+and peaceful here.
+~
+#EXIT
+Direction  North~
+ToRoom     10794
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     10796
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       You see the Empire of Nippon WAY below you, just like a little map...
+~
+#ENDEXIT
+Reset M    10702 1 10795 -1 -1 -1 100
+  Reset E  10782 3 17 30
+#ENDROOM
+
+#ROOM
+Vnum        10796
+Name       In the Light of the Sun~
+Sector     air~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand on a fluffy cloud, under the warm light of a permanently Summer
+Sun.  Far below, you see the entire Empire of Nippon, Cathay, and Koguryo,
+as if it was a picture of a map.  You feel complete bliss here, as if you
+were in the presence of supreme goodness.  It seems very calm and peaceful
+here.
+~
+#EXIT
+Direction  North~
+ToRoom     10795
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     10797
+Desc       it is a looooong way down, not very inviting, huh?
+~
+#ENDEXIT
+Reset M    10703 1 10796 -1 -1 -1 10
+  Reset E  10791 1 0 1
+  Reset E  10790 1 17 10
+Reset M    10703 1 10796 -1 -1 -1 100
+  Reset E  10783 2 0 50
+  Reset E  10790 10 17 1
+#ENDROOM
+
+#ROOM
+Vnum        10797
+Name       Falling From the Heavens (DT)~
+Sector     air~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc          The wind is extremely strong here, and a gust blows you right off of your
+flying device...  You are falling....
+
+                                       falling.....
+
+                                                       falling....
+
+
+
+
+
+You fall another mile or so....
+
+
+Splattered on the Ground
+   You have broken the sound barrier, and all your bones as well.... You are
+dead.
+~
+#EXIT
+Direction  North~
+ToRoom     10786
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        10798
+Name       Falling from the Heavens (DT)~
+Sector     air~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc          The wind is extremely stong here, and you find that you can no longer
+control your flying.  You suddenly feel as if you have lost all control, and
+are falling...
+
+
+
+
+
+
+
+
+                             falling......
+
+
+
+
+
+
+
+
+			                          falling....
+
+
+
+Splattered on the Ground
+   Having fallen several miles, you finally land on the ground, feet first!
+However, your bones cannot take the shock, and you find yourself pasted at
+the foot of the Pillar of Ameratasu.  Didn't someone tell you about this DT?
+~
+#EXIT
+Direction  North~
+ToRoom     10787
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

@@ -1,0 +1,32 @@
+Version     1
+Name        Wild-Elf~
+Race        16
+Classes     Warrior Ranger Cleric Druid Rogue Bard~
+Str_Plus    2
+Dex_Plus    2
+Wis_Plus    -1
+Int_Plus    -3
+Con_Plus    1
+Cha_Plus    0
+Lck_Plus    0
+Hit         5
+Mana        -5
+Affected    infrared~
+Resist      sleep charm~
+Language    elvish~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   108
+Bodyparts  head arms legs heart brains guts hands ankles feet fingers ear eye~
+Height     84
+Weight     145
+Hunger_Mod  0
+Thirst_mod  -1
+Mana_Regen  0
+HP_Regen    0
+Skill 'scout' 10 90
+Skill 'wardance' 70 80
+Skill 'woodcall' 35 85
+End

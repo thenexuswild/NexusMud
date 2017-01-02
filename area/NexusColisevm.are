@@ -1,0 +1,1603 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Colisevm~
+Author          Unknown~
+Vnums           23900 23999
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       120
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        23900
+Keywords   smurf colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Smurf~
+Long       A bright and happy singing smurf is here.
+~
+Desc       Ooooh it's blueeeee
+
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23901
+Keywords   trix rabbit colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Trix Rabbit~
+Long       The Trix Rabbit is here, stealing off with some Trix.
+~
+Desc       Orangy Orange!
+Lemony Yellow!!
+Grapity Grape!!!
+TRIXTRIXTRIXTRIXTRIXTRIXTRIX!!!!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23902
+Keywords   mighty mouse colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Mighty Mouse~
+Long       Mighty Mouse is here to save the day.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23903
+Keywords   underdog colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Underdog~
+Long       It's just little ole' me, Underdog!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23904
+Keywords   rocky colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Rocky~
+Long       Rocky the flying squirrel is here.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23905
+Keywords   bullwinkle colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Bullwinkle~
+Long       Bullwinkle the Poetic Moose is here.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23906
+Keywords   he-man colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      He-Man~
+Long       He-Man, the Master of the Universe is here.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23907
+Keywords   barney colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Barney~
+Long       Barney the Purple Dinosaur is here, being disgusting.
+~
+Desc       Barney MUST DIE!!!!!!!!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23908
+Keywords   rambo colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Rambo~
+Long       Rambo is here blowing things up and reliving wars that are already over.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23909
+Keywords   host talkshow sally oprah donahue geraldo colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Talkshow Host from Hell~
+Long       The Talkshow Host from Hell is here with another obnoxious topic.
+~
+Desc       The worst part of Sally, Oprah, Donahue and Geraldo have been put
+into this creature. You can't change the channel you have to watch!
+ARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRGH!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23910
+Keywords   limbaugh rush colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Rush Limbaugh~
+Long       Rush is here spouting propaganda and making money at it.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23911
+Keywords   lag monster colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Lag Monster~
+Long       The Lag Monster is here lagging you to death.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23925
+Keywords   elemental chaos colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Chaos Elemental~
+Long       A Chaos Elemental is here, wreaking utter havoc!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 100
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        23926
+Keywords   elemental chaos colisevm m239~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a Chaos Elemental~
+Long       A Chaos Elemental is here, wreaking havoc!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -10 -10 10000 5 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive~
+Affected   detect_invis detect_hidden sanctuary fireshield aqua_breath infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        23900
+Keywords   key colisevm k239~
+Type       key~
+Short      the Colisevm Key~
+Long       The Colisevm Key.~
+Flags      glow hum magic~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23901
+Keywords   pen colisevm o239~
+Type       pen~
+Short      a colisevm pen~
+Long       A pen with the Colisevm Logo on it has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23902
+Keywords   ticket colisevm o239~
+Type       paper~
+Short      a Nexus Colisevm Ticket~
+Long       A Nexus Colisevm Ticket is lying here. Better not lose it.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23903
+Keywords   token colisevm o239~
+Type       treasure~
+Short      A Nexus Colisevm Token~
+Long       A Nexus Colisevm Token is lying here. Better not lose it.~
+Flags      glow hum~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23904
+Keywords   clue colisevm o239~
+Type       paper~
+Short      a Nexus Colisevm Clue~
+Long       A Nexus Colisevm Clue is here. Without it, you'd be clueless.~
+Flags      glow hum~
+WFlags     take hold~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23905
+Keywords   flag blue o239~
+Type       treasure~
+Short      a blue flag~
+Long       A blue flag has been left here.~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23906
+Keywords   flag red o239~
+Type       treasure~
+Short      a red flag~
+Long       A red flag has been left here.~
+WFlags     take finger neck body head legs feet hands arms shield about waist wrist wield hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23910
+Keywords   light colisevm o239~
+Type       light~
+Short      a Colisevm Light~
+Long       A Colisevm Light.~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Wisdom 3 -1 -1 0
+AffData affected  'detect_evil' -1 -1 0 
+AffData affected  'detect_invis' -1 -1 0
+AffData affected  'detect_magic' -1 -1 0
+AffData affected  'infrared' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23911
+Keywords   ring colisevm o239~
+Type       armor~
+Short      a Colisevm Ring~
+Long       A Colisevm Ring.~
+WFlags     take finger~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Constitution 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23912
+Keywords   necklace colisevm o239~
+Type       armor~
+Short      a Colisevm Necklace~
+Long       A Colisevm Necklace~
+WFlags     take neck~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Wisdom 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23913
+Keywords   bracelet colisevm o239~
+Type       armor~
+Short      a Colisevm Bracelet~
+Long       A Colisevm Bracelet.~
+WFlags     take wrist~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Strength 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23914
+Keywords   tunic colisevm o239~
+Type       armor~
+Short      a Colisevm Tunic~
+Long       A Colisevm Tunic.~
+WFlags     take body~
+Values     15 15 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Strength 3 -1 -1 0
+AffData affected  'sanctuary' -1 -1 0
+AffData affected  'fireshield' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23915
+Keywords   hat colisevm o239~
+Type       armor~
+Short      a Colisevm Hat~
+Long       A Colisevm Hat.~
+WFlags     take head~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Intelligence 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23916
+Keywords   pants colisevm o239~
+Type       armor~
+Short      a pair of Colisevm Pants~
+Long       A pair of Colisevm Pants.~
+WFlags     take legs~
+Values     25 25 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23917
+Keywords   boots colisevm o239~
+Type       armor~
+Short      a pair of Colisevm Boots~
+Long       A pair of Colisevm Boots.~
+WFlags     take feet~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23918
+Keywords   gloves colisevm o239~
+Type       armor~
+Short      a pair of Colisevm Gloves~
+Long       A pair of Colisevm Gloves.~
+WFlags     take hands~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Constitution 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23919
+Keywords   sleeves colisevm o239~
+Type       armor~
+Short      a pair of Colisevm Sleeves~
+Long       A pair of Colisevm Sleeves.~
+WFlags     take arms~
+Values     25 25 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Strength 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23920
+Keywords   shield colisevm o239~
+Type       armor~
+Short      a Colisevm Shield~
+Long       A Colisevm Shield.~
+WFlags     take shield~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23921
+Keywords   cape colisevm o239~
+Type       armor~
+Short      a Colisevm Cape~
+Long       A Colisevm Cape.~
+WFlags     take about~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Intelligence 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23922
+Keywords   belt colisevm o239~
+Type       armor~
+Short      a Colisevm Belt~
+Long       A Colisevm Belt.~
+WFlags     take waist~
+Values     15 15 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23923
+Keywords   lightsabre sabre colisevm o239~
+Type       weapon~
+Short      a Colisevm LightSabre~
+Long       A Colisevm LightSabre.~
+WFlags     take wield~
+Values     0 5 5 1 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Strength 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23924
+Keywords   charm luck colisevm o239~
+Type       armor~
+Short      a Colisevm Good Luck Charm~
+Long       A Colisevm Good Luck Charm.~
+WFlags     take hold~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Intelligence 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23925
+Keywords   banner colisevm o239~
+Type       container~
+Short      a Colisevm Banner~
+Long       A Colisevm Banner.~
+WFlags     take hold~
+Values     10000 0 -1 10 0 -1 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    move 10 -1 -1 0
+AffData    Intelligence 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23926
+Keywords   horn super colisevm o239~
+Type       weapon~
+Short      the Super Horn~
+Long       The Super Horn has been left here. It says, 'Squeeze Gently'.~
+Flags      hum~
+WFlags     take wield~
+Values     0 50 1 6 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+AffData    damroll 50 -1 -1 0
+AffData affected  'haste' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23927
+Keywords   lamp super o239~
+Type       light~
+Short      the Super Lamp~
+Long       The Super Lamp is here, shedding One Billion Candlepower.~
+Flags      hum~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+AffData    hit 120 -1 -1 0
+AffData    hit 120 -1 -1 0
+AffData    hit 120 -1 -1 0
+AffData    mana 120 -1 -1 0
+AffData    move 120 -1 -1 0
+AffData affected  'sanctuary' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23928
+Keywords   thing super o239~
+Type       armor~
+Short      the Super Thing~
+Long       The Super Thing is here, doing absolutely nothing.~
+WFlags     take finger neck body head legs feet hands arms about waist wrist hold~
+Values     10 10 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Strength 2 -1 -1 0
+AffData    hit 120 -1 -1 0
+AffData    mana 120 -1 -1 0
+AffData    move 120 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        23950
+Keywords   trix box o239~
+Type       treasure~
+Short      a box of Trix~
+Long       A Box of Trix Cereal.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        23999
+Keywords   key colisevm skeleton k239~
+Type       key~
+Short      the Colisevm Skeleton Key~
+Long       The Colisevm Skeleton Key.~
+Flags      glow hum magic~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        23900
+Name       Colisevm Entrance~
+Sector     indoors~
+Flags      dark indoors isolated~
+Stats      0 0 0 0 0
+Desc         Welcome to the Colisevm. It's a good day to die.
+Proceed One at a time or One Group at a time.
+~
+#EXIT
+Direction  North~
+ToRoom     23901
+Key        23900
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset O    23900 1 23900 -1 -1 -1 100
+Reset D    23900 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23901
+Name       Let the games begin!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23902
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23903
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23905
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23902 1 0 100 -2
+Reset D    23902 2 0 100 -2
+Reset D    23902 1 2 100 -2
+Reset D    23902 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23903
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23904
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23906
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23902
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23903 1 0 100 -2
+Reset D    23903 2 0 100 -2
+Reset D    23903 3 0 100 -2
+Reset D    23903 1 2 100 -2
+Reset D    23903 2 2 100 -2
+Reset D    23903 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23904
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     23907
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23903
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23904 2 0 100 -2
+Reset D    23904 3 0 100 -2
+Reset D    23904 2 2 100 -2
+Reset D    23904 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23905
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23902
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23906
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23908
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23905 0 0 100 -2
+Reset D    23905 1 0 100 -2
+Reset D    23905 2 0 100 -2
+Reset D    23905 0 2 100 -2
+Reset D    23905 1 2 100 -2
+Reset D    23905 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23906
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23903
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23907
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23909
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23905
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    23925 1 23906 -1 -1 -1 50
+Reset D    23906 0 0 100 -2
+Reset D    23906 1 0 100 -2
+Reset D    23906 2 0 100 -2
+Reset D    23906 3 0 100 -2
+Reset D    23906 0 2 100 -2
+Reset D    23906 1 2 100 -2
+Reset D    23906 2 2 100 -2
+Reset D    23906 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23907
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23904
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23910
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23906
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23907 0 0 100 -2
+Reset D    23907 2 0 100 -2
+Reset D    23907 3 0 100 -2
+Reset D    23907 0 2 100 -2
+Reset D    23907 2 2 100 -2
+Reset D    23907 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23908
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23905
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23909
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23908 0 0 100 -2
+Reset D    23908 1 0 100 -2
+Reset D    23908 0 2 100 -2
+Reset D    23908 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23909
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23906
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23910
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23908
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23909 0 0 100 -2
+Reset D    23909 1 0 100 -2
+Reset D    23909 3 0 100 -2
+Reset D    23909 0 2 100 -2
+Reset D    23909 1 2 100 -2
+Reset D    23909 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23910
+Name       Tier 1~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23907
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23909
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23910 0 0 100 -2
+Reset D    23910 3 0 100 -2
+Reset D    23910 0 2 100 -2
+Reset D    23910 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23911
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23912
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23914
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23911 1 0 100 -2
+Reset D    23911 2 0 100 -2
+Reset D    23911 1 2 100 -2
+Reset D    23911 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23912
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23913
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23915
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23911
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23912 1 0 100 -2
+Reset D    23912 2 0 100 -2
+Reset D    23912 3 0 100 -2
+Reset D    23912 1 2 100 -2
+Reset D    23912 2 2 100 -2
+Reset D    23912 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23913
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     23916
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23912
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23913 2 0 100 -2
+Reset D    23913 3 0 100 -2
+Reset D    23913 2 2 100 -2
+Reset D    23913 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23914
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23911
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23915
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23917
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23914 0 0 100 -2
+Reset D    23914 1 0 100 -2
+Reset D    23914 2 0 100 -2
+Reset D    23914 0 2 100 -2
+Reset D    23914 1 2 100 -2
+Reset D    23914 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23915
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23912
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23916
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23918
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23914
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    23925 1 23915 -1 -1 -1 25
+Reset D    23915 0 0 100 -2
+Reset D    23915 1 0 100 -2
+Reset D    23915 2 0 100 -2
+Reset D    23915 3 0 100 -2
+Reset D    23915 0 2 100 -2
+Reset D    23915 1 2 100 -2
+Reset D    23915 2 2 100 -2
+Reset D    23915 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23916
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23913
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23919
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23915
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23916 0 0 100 -2
+Reset D    23916 2 0 100 -2
+Reset D    23916 3 0 100 -2
+Reset D    23916 0 2 100 -2
+Reset D    23916 2 2 100 -2
+Reset D    23916 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23917
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23914
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23918
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23917 0 0 100 -2
+Reset D    23917 1 0 100 -2
+Reset D    23917 0 2 100 -2
+Reset D    23917 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23918
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23915
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23919
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23917
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23918 0 0 100 -2
+Reset D    23918 1 0 100 -2
+Reset D    23918 3 0 100 -2
+Reset D    23918 0 2 100 -2
+Reset D    23918 1 2 100 -2
+Reset D    23918 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23919
+Name       Tier 2~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23916
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23918
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23919 0 0 100 -2
+Reset D    23919 3 0 100 -2
+Reset D    23919 0 2 100 -2
+Reset D    23919 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23920
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23921
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23923
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23920 1 0 100 -2
+Reset D    23920 2 0 100 -2
+Reset D    23920 1 2 100 -2
+Reset D    23920 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23921
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  East~
+ToRoom     23922
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23924
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23920
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23921 1 0 100 -2
+Reset D    23921 2 0 100 -2
+Reset D    23921 3 0 100 -2
+Reset D    23921 1 2 100 -2
+Reset D    23921 2 2 100 -2
+Reset D    23921 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23922
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  South~
+ToRoom     23925
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23921
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23922 2 0 100 -2
+Reset D    23922 3 0 100 -2
+Reset D    23922 2 2 100 -2
+Reset D    23922 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23923
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23920
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23924
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23926
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23923 0 0 100 -2
+Reset D    23923 1 0 100 -2
+Reset D    23923 2 0 100 -2
+Reset D    23923 0 2 100 -2
+Reset D    23923 1 2 100 -2
+Reset D    23923 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23924
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23921
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23925
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23927
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23923
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    23925 1 23924 -1 -1 -1 100
+Reset D    23924 0 0 100 -2
+Reset D    23924 1 0 100 -2
+Reset D    23924 2 0 100 -2
+Reset D    23924 3 0 100 -2
+Reset D    23924 0 2 100 -2
+Reset D    23924 1 2 100 -2
+Reset D    23924 2 2 100 -2
+Reset D    23924 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23925
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23922
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     23928
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23924
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23925 0 0 100 -2
+Reset D    23925 2 0 100 -2
+Reset D    23925 3 0 100 -2
+Reset D    23925 0 2 100 -2
+Reset D    23925 2 2 100 -2
+Reset D    23925 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23926
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23923
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23927
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23926 0 0 100 -2
+Reset D    23926 1 0 100 -2
+Reset D    23926 0 2 100 -2
+Reset D    23926 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23927
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23924
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23928
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23926
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23927 0 0 100 -2
+Reset D    23927 1 0 100 -2
+Reset D    23927 3 0 100 -2
+Reset D    23927 0 2 100 -2
+Reset D    23927 1 2 100 -2
+Reset D    23927 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23928
+Name       Tier 3~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     23925
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     23927
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    23928 0 0 100 -2
+Reset D    23928 3 0 100 -2
+Reset D    23928 0 2 100 -2
+Reset D    23928 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        23929
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23930
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+Reset O    23926 5 23930 -1 -1 -1 25
+#ENDROOM
+
+#ROOM
+Vnum        23931
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23932
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23933
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23934
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23935
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23936
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+#ENDROOM
+
+#ROOM
+Vnum        23937
+Name       Rumble Room~
+Sector     indoors~
+Flags      indoors isolated~
+Stats      0 0 0 0 0
+Desc       ~
+Reset O    23927 5 23937 -1 -1 -1 25
+#ENDROOM
+
+#ENDAREA

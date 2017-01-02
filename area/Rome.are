@@ -1,0 +1,3807 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Rome~
+Author          Unknown~
+Vnums           12000 12106
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       45
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        12000
+Keywords   judge adjudicator m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the adjudicator~
+Long       An adjudicator is watching the games intently.
+~
+Desc       The adjudicator is a retired gladiator and scars cover all exposed parts of his
+body.  Although he is getting on in years, he remains healthy and fit.
+~
+Nattacks   2.000000
+Stats1     100 2000 60 100 150 250
+Stats2     12 9 7 140 1 9 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12001
+Keywords   scorekeeper m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Scorekeeper~
+Long       A scorekeeper has one eye on his stopwatch and the other on a clipboard.
+~
+Desc       The scorekeeper is a young man of about 25 years of age and is very intently
+studying his clipboard.
+~
+Nattacks   1.000000
+Stats1     100 500 60 100 150 250
+Stats2     7 14 8 80 1 9 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12003
+Keywords   spectator fan m120~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   sitting~
+DefPos     sitting~
+Short      a spectator~
+Long       A spectator is here watching the games.
+~
+Desc       The spectator is filthy, half drunk and screaming his head off.
+~
+Nattacks   1.000000
+Stats1     -100 100 60 100 150 250
+Stats2     5 16 9 65 2 6 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12004
+Keywords   noble nobleman m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Nobleman~
+Long       A nobleman stands here looking aloof.
+~
+Desc       The nobleman is dressed in fine clothes and jewelry and has a very snobbish
+attitude.  While he is getting old and his hair and beard are streaked with
+gray, he is by no means an easy target.
+~
+Nattacks   2.000000
+Stats1     500 3500 60 100 150 250
+Stats2     12 9 7 140 1 7 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12005
+Keywords   slave m120~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the slave~
+Long       A slave stands here, wishing that he was free.
+~
+Desc       A very pretty young woman who was captured instead of being killed when the
+Roman legions subjugated her land.
+~
+Nattacks   1.000000
+Stats1     0 10 60 100 150 250
+Stats2     3 18 10 30 1 8 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12006
+Keywords   gladiator m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the gladiator~
+Long       There is a gladiator standing here.
+~
+Desc       A well muscled man who is very heavily armored and armed to the teeth.  He
+lives for combat.
+~
+Nattacks   2.000000
+Stats1     -250 700 60 100 150 250
+Stats2     14 5 6 150 1 9 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12007
+Keywords   driver m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the chariot driver~
+Long       There is a chariot driver here.
+~
+Desc       You see a very slight and small individual whose whole life is centered around
+nothing but horses and speed.
+~
+Nattacks   2.000000
+Stats1     100 1200 60 100 150 250
+Stats2     10 11 7 120 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12008
+Keywords   coach trainer m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Coach~
+Long       There is a coach standing here, going over last minute strategy.
+~
+Nattacks   2.000000
+Stats1     0 500 60 100 150 250
+Stats2     11 10 7 130 2 7 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12009
+Keywords   healer m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the healer~
+Long       A healer is standing here.
+~
+Desc       You see a young man, still learning about magickal healing, wearing a white 
+coat and using a stethoscope.
+~
+Nattacks   2.000000
+Stats1     900 1500 60 100 150 250
+Stats2     14 7 6 170 1 7 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12010
+Keywords   herbalist young lady beautiful m120~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the herbalist~
+Long       There is a beautiful young lady here, carrying herbs to help the healer with.
+~
+Desc       The herbalist is a very beautiful young lady who is about 22 years old.  She 
+has deep brown eyes and shoulder-length chestnut hair.  Her body is perfectly 
+proportioned and she stands about 5' 5" tall.
+~
+Nattacks   2.000000
+Stats1     1000 500 60 100 150 250
+Stats2     10 11 7 110 1 8 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12011
+Keywords   shopkeeper m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Titus's shopkeeper~
+Long       Titus's shopkeeper is here, minding the store.
+~
+Desc       The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+~
+Nattacks   2.000000
+Stats1     750 5000 60 100 150 250
+Stats2     23 0 22 400 3 3 12
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+ShopData   3020 3021 3022 3023 3025 60 225 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        12012
+Keywords   peddler m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the peddler~
+Long       A poor peddler is standing here, trying to support his meager existence.
+~
+Desc       You see a small, dirty man who doesn't look very healthy.  
+~
+Nattacks   1.000000
+Stats1     250 100 60 100 150 250
+Stats2     4 17 9 40 1 5 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12013
+Keywords   page m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the page~
+Long       A page stands here, waiting to run an errand.
+~
+Desc       You see a young boy who looks very strong and very fast.  He has the look of
+a scholar about him.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     6 15 9 75 2 6 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12014
+Keywords   plaintiff m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the plaintiff~
+Long       The plaintiff stands here, pleading his case.
+~
+Nattacks   2.000000
+Stats1     0 1000 60 100 150 250
+Stats2     11 10 7 140 2 7 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12015
+Keywords   master m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the ticket master~
+Long       A ticket master is here, looking at you expectantly.
+~
+Nattacks   2.000000
+Stats1     100 4000 60 100 150 250
+Stats2     17 4 5 210 1 9 11
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12016
+Keywords   vendor m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the stadium vendor~
+Long       A stadium vendor is walking here, selling overpriced hotdogs and beer.
+~
+Desc       The vendor is a scruffy looking man who isn't afraid of a fight and looks like
+he's had just about enough of smart-mouthed spectators.  
+~
+Nattacks   1.000000
+Stats1     -150 500 60 100 150 250
+Stats2     8 13 8 100 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12017
+Keywords   citizen m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the citizen~
+Long       A citizen of Rome is standing here.
+~
+Nattacks   1.000000
+Stats1     900 100 60 100 150 250
+Stats2     5 16 9 85 1 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12018
+Keywords   gateguard guard m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the gateguard~
+Long       A gateguard stands here, tending the gate.
+~
+Desc       You see a strong, loyal public defender.
+~
+Nattacks   2.000000
+Stats1     1000 500 60 100 150 250
+Stats2     11 10 7 130 1 9 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12019
+Keywords   soldier m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the soldier~
+Long       A soldier on leave is walking around looking for entertainment.
+~
+Desc       You see a member of one of the emperor's elite legions.  He looks VERY strong.
+You have this vague feeling that his entertainment isn't going to be a very
+wholesome activity.
+~
+Nattacks   2.000000
+Stats1     300 1281 60 100 150 250
+Stats2     17 4 5 220 1 9 9
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12020
+Keywords   emperor caesar m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Caesar~
+Long       Julius Caesar, the Emperor of Rome, is sitting here.
+~
+Desc       You see a man who is dressed in the finest of clothes, has eaten the best of
+foods and lived in the most opulent palace that Rome has ever known. 
+~
+Nattacks   3.000000
+Stats1     990 24763 60 100 150 250
+Stats2     27 0 -1 650 3 9 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12021
+Keywords   guard royal bodyguard m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the royal bodyguard~
+Long       There is a royal bodyguard here, ready to die for the emperor, if necessary.
+~
+Desc       The bodyguard is dressed in the finest of armor and wields only the deadliest 
+of weapons.  He is very strong and would put up one hell of a fight.  He has
+been trained to be suspicious of all but the most innocent visitors, and likely
+to take offense of anyone with less than pure intentions.
+~
+Nattacks   2.000000
+Stats1     990 5000 60 100 150 250
+Stats2     18 2 5 220 3 5 6
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12022
+Keywords   judge justice m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      the judge~
+Long       A judge is standing here, reading a case.
+~
+Nattacks   2.000000
+Stats1     990 5000 60 100 150 250
+Stats2     21 0 3 260 1 9 11
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12023
+Keywords   master scheduler m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the master scheduler~
+Long       The master scheduler is here, writing in an appointment book.
+~
+Nattacks   2.000000
+Stats1     900 3000 60 100 150 250
+Stats2     17 3 5 210 1 9 9
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12024
+Keywords   slimeball slime ball green m120~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the slimeball~
+Long       A green ball of slime is hanging over you, oozing downward.
+~
+Desc       There is a green "ball" of slime oozing from the coating on the walls.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     12 9 7 145 2 5 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12025
+Keywords   Froboz m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Froboz~
+Long       Froboz the wizard is standing here, working on a new spell.
+~
+Desc       You see a middle-aged man who's knowledge of magic, both offensive and 
+defensive, is legendary.  He literally glows with a pink aura.
+~
+Nattacks   2.000000
+Stats1     300 32000 60 100 150 250
+Stats2     23 0 2 425 1 20 14
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12026
+Keywords   Titus m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Titus Andronicus~
+Long       Titus Andronicus is standing here, polishing a few swords.
+~
+Nattacks   2.000000
+Stats1     500 31000 60 100 150 250
+Stats2     24 0 1 450 1 10 14
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12027
+Keywords   senator m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the senator~
+Long       A senator is here, waiting for debate to begin.
+~
+Nattacks   2.000000
+Stats1     350 500 60 100 150 250
+Stats2     10 11 7 120 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12028
+Keywords   bailiff m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the bailiff~
+Long       The bailiff stands here, keeping order in the courtroom.
+~
+Nattacks   2.000000
+Stats1     900 1000 60 100 150 250
+Stats2     16 5 5 200 2 7 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12029
+Keywords   defendant m120~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the defendant~
+Long       The defendant stands here, pleading her case.
+~
+Nattacks   2.000000
+Stats1     200 500 60 100 150 250
+Stats2     11 9 7 130 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12030
+Keywords   jupiter m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Jupiter~
+Long       Jupiter, King of the Gods, is resting here.
+~
+Desc       He is the strongest of the Gods, and certainly no easy mark!  His powers
+transcend the plane of the physical, and could easily kill an unprepared
+mortal.
+~
+Nattacks   4.000000
+Stats1     1000 250000 60 100 150 250
+Stats2     65 0 -10 5000 8 4 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12031
+Keywords   Venus m120~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Venus~
+Long       Venus, the Goddess of Beauty and Knowledge, is resting here.
+~
+Nattacks   4.000000
+Stats1     1000 80000 60 100 150 250
+Stats2     64 8 -6 4500 6 8 12
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12032
+Keywords   Mars m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Mars~
+Long       Mars, the God of War and State, is resting here.
+~
+Nattacks   4.000000
+Stats1     1000 60000 60 100 150 250
+Stats2     63 7 -9 4000 8 5 14
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12033
+Keywords   Mercury m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Mercury~
+Long       Mercury, the messenger of the Gods, is standing here.
+~
+Nattacks   4.000000
+Stats1     1000 25000 60 100 150 250
+Stats2     61 5 -5 3500 4 9 8
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12034
+Keywords   shopkeeper m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Froboz's shopkeeper~
+Long       Froboz's shopkeeper is here, minding the store.
+~
+Desc       The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+~
+Nattacks   2.000000
+Stats1     650 5000 60 100 150 250
+Stats2     23 0 2 400 1 10 14
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+ShopData   3050 3051 3052 3053 3054 50 185 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        12035
+Keywords   executioner m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The executioner~
+Long       The executioner stands here, waiting to torture some sorry soul.
+~
+Desc       You see a burly man who is wearing a black hood that obscures his face.  He
+has a very sadistic attitude and clearly loves his work.
+~
+Nattacks   2.000000
+Stats1     -1000 1000 60 100 150 250
+Stats2     20 1 4 260 2 8 14
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        12036
+Keywords   baker m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Baker~
+Long       The Baker looks at you calmly, wiping flour from his face with one hand.
+~
+Desc       A fat, nice looking baker. But you can see that he has many scars on his
+body.
+~
+Nattacks   4.000000
+Stats1     900 2000 60 100 150 250
+Stats2     33 0 -7 30000 2 9 22
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+ShopData   3000 3001 3010 12006 12007 80 110 0 0
+#ENDMOBILE
+
+#MOBILE
+Vnum        12037
+Keywords   grocer m120~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the Grocer~
+Long       A grocer stands at the counter, with a slightly impatient look on his face.
+~
+Desc       A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
+~
+Nattacks   4.000000
+Stats1     900 20000 60 100 150 250
+Stats2     33 0 -7 30000 2 0 22
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+ShopData   3030 3031 3032 3005 12001 60 175 0 0
+#ENDMOBILE
+
+#OBJECT
+Vnum        12000
+Keywords   ring pewter o120~
+Type       treasure~
+Short      a pewter ring~
+Long       There is a pewter ring lying here.~
+Flags      invis magic~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 2500 0 9999 0 None None None
+AffData    hit 10 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12001
+Keywords   belt bronze o120~
+Type       armor~
+Short      a bronze belt~
+Long       There is a bronze belt on the ground here.~
+Flags      invis~
+WFlags     take waist~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      5 500 0 9999 0 None None None
+AffData    Strength -2 -1 -1 0
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12002
+Keywords   helmet roman combat o120~
+Type       armor~
+Short      a Roman combat helmet~
+Long       A Roman combat helmet has been left here.~
+Flags      glow~
+WFlags     take head~
+Values     18 18 0 0 0 0 0 0 0 0 0
+Stats      25 8000 0 9999 0 None None None
+AffData    Dexterity -2 -1 -1 0
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12003
+Keywords   whistle o120~
+Type       treasure~
+Short      a coach's whistle~
+Long       A coach's whistle has been left here.~
+Flags      nodrop~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 200 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12004
+Keywords   stethoscope o120~
+Type       treasure~
+Short      a stethoscope~
+Long       There is an odd object laying on the ground here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 2000 0 9999 0 None None None
+AffData    hitroll 4 -1 -1 0
+AffData    damroll -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12005
+Keywords   hairpin o120~
+Type       treasure~
+Short      a hairpin~
+Long       A woman's hairpin is lying here.~
+WFlags     take head~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 500 0 9999 0 None None None
+AffData    Strength -1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12006
+Keywords   apple o120~
+Type       food~
+Short      an apple~
+Long       A delicious looking apple has been left here.~
+WFlags     take~
+Values     4 0 0 0 0 0 0 0 0 0 0
+Stats      1 5 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12007
+Keywords   orange o120~
+Type       food~
+Short      an orange~
+Long       A sun-ripened orange has been left here.~
+WFlags     take~
+Values     6 0 0 0 0 0 0 0 0 0 0
+Stats      1 6 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12008
+Keywords   sandals o120~
+Type       armor~
+Short      a pair of leather sandals~
+Long       A pair of leather sandals has been dropped here.~
+WFlags     take feet~
+Values     2 2 0 0 0 0 0 0 0 0 0
+Stats      2 41 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12010
+Keywords   frank dog hotdog o120~
+Type       food~
+Short      a hotdog~
+Long       A hotdog loaded with chili and onions has been left here.~
+WFlags     take~
+Values     8 0 0 0 0 0 0 0 0 0 0
+Stats      1 11 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12011
+Keywords   bracelet silver gold o120~
+Type       treasure~
+Short      a silver and gold bracelet~
+Long       A bracelet, made from silver and gold, has been carelessly left here.~
+Flags      hum nodrop~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      14 8000 0 9999 0 None None None
+AffData    mana 25 -1 -1 0
+AffData    damroll -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12012
+Keywords   ring sapphire o120~
+Type       treasure~
+Short      a sapphire ring~
+Long       A sapphire ring has been left here.~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      80 5500 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12013
+Keywords   pendant jade o120~
+Type       treasure~
+Short      a jade pendant~
+Long       A beautiful jade pendant has been left here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      30 6000 0 9999 0 None None None
+AffData    Intelligence 3 -1 -1 0
+AffData    Wisdom 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12014
+Keywords   robe o120~
+Type       treasure~
+Short      Froboz's robe~
+Long       Froboz's robe has been dropped here.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 2500 0 9999 0 None None None
+AffData    save_spell -4 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12015
+Keywords   sword tempered o120~
+Type       weapon~
+Short      a tempered sword~
+Long       A nasty looking tempered sword is lying here.~
+Flags      hum~
+WFlags     take wield~
+Values     0 3 8 1 0 0 0 0 0 0 0
+Stats      16 5000 0 9999 0 None None None
+AffData    hitroll -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12016
+Keywords   sword quenched o120~
+Type       weapon~
+Short      a quenched sword~
+Long       A very bloody, but quenched, sword has been left here.~
+Flags      invis~
+WFlags     take wield hold~
+Values     0 3 5 1 0 0 0 0 0 0 0
+Stats      14 4000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12017
+Keywords   bracers moorish o120~
+Type       armor~
+Short      a pair of Moorish bracers~
+Long       A pair of Moorish bracers has been dropped here.~
+Flags      glow~
+WFlags     take arms~
+Values     32 32 0 0 0 0 0 0 0 0 0
+Stats      15 10000 0 10 0 None None None
+AffData    Dexterity -2 -1 -1 0
+AffData    damroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12018
+Keywords   plate breast roman combat o120~
+Type       armor~
+Short      a Roman combat breast plate~
+Long       A piece of military combat plate has been left here.~
+Flags      glow~
+WFlags     take body~
+Values     28 28 0 0 0 0 0 0 0 0 0
+Stats      135 9500 0 9999 0 None None None
+AffData    Dexterity 1 -1 -1 0
+AffData    hitroll -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12019
+Keywords   boots combat o120~
+Type       armor~
+Short      a pair of Roman combat boots~
+Long       A pair of combat boots have been left here.~
+Flags      glow~
+WFlags     take feet~
+Values     22 22 0 0 0 0 0 0 0 0 0
+Stats      45 9000 0 20 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    damroll -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12020
+Keywords   thunderbolt tbolt t-bolt o120~
+Type       weapon~
+Short      Jupiter's Thunderbolt~
+Long       Jupiter's Thunderbolt has been left here.~
+Flags      hum~
+WFlags     take wield~
+Values     0 4 6 4 0 0 0 0 0 0 0
+Stats      22 25000 0 5 0 None None None
+AffData    damroll 3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12021
+Keywords   loincloth red o120~
+Type       armor~
+Short      a red loincloth~
+Long       Mar's red loincloth is resting here.~
+Flags      hum antievil~
+WFlags     take waist~
+Values     35 35 0 0 0 0 0 0 0 0 0
+Stats      30 20000 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    Dexterity 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12022
+Keywords   necklace crystal o120~
+Type       treasure~
+Short      a crystal necklace~
+Long       Someone has left the crystal necklace of knowledge here.~
+Flags      hum~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      35 12000 0 9999 0 None None None
+AffData    Intelligence 6 -1 -1 0
+AffData    Wisdom 6 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12023
+Keywords   sandals winged o120~
+Type       armor~
+Short      a pair of winged sandals~
+Long       Mercury's winged sandals have been left here.~
+Flags      glow antineutral~
+WFlags     take feet~
+Values     24 24 0 0 0 0 0 0 0 0 0
+Stats      14 13000 0 10 0 None None None
+AffData    Dexterity 2 -1 -1 0
+AffData    move 100 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12024
+Keywords   scroll dark grey o120~
+Type       scroll~
+Short      a dark grey scroll~
+Long       A scroll has been carelessly left here.~
+Flags      invis~
+WFlags     take hold~
+Values     20 -1 -1 -1 0 0 0 0 0 0 0
+Stats      2 2000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12025
+Keywords   scroll ornate o120~
+Type       scroll~
+Short      an ornate scroll~
+Long       An ornate scroll has been left here.~
+WFlags     take hold~
+Values     18 -1 -1 -1 0 0 0 0 0 0 0
+Stats      2 3000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12026
+Keywords   scroll plain o120~
+Type       scroll~
+Short      a plain scroll~
+Long       A plain scroll is lying on the ground.~
+WFlags     take hold~
+Values     15 -1 -1 -1 0 0 0 0 0 0 0
+Stats      2 2200 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12027
+Keywords   bag herbs o120~
+Type       wand~
+Short      a bag of herbs~
+Long       There is a small, sweet-smelling bag here on the ground.~
+Flags      hum~
+WFlags     take hold~
+Values     30 4 4  0 0 0 0 0 0 0
+Stats      5 2000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12028
+Keywords   staff kodarta o120~
+Type       staff~
+Short      a Kodarta staff~
+Long       A Kodarta staff has been carelessly left here.~
+WFlags     take hold~
+Values     17 3 3  0 0 0 0 0 0 0
+Stats      6 4000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12029
+Keywords   wand prototype o120~
+Type       wand~
+Short      a prototype wand~
+Long       There is a prototype of a new magical wand lying here.~
+Flags      invis nodrop antigood~
+WFlags     take hold~
+Values     30 4 3  0 0 0 0 0 0 0
+Stats      26 13000 0 9999 0 None None None
+AffData    hitroll -3 -1 -1 0
+AffData    save_spell 8 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12030
+Keywords   potion blaze orange flask o120~
+Type       potion~
+Short      a flask~
+Long       There is a flask, containing a blaze orange potion, resting here.~
+WFlags     take~
+Values     9 -1 -1 -1 0 0 0 0 0 0 0
+Stats      8 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12031
+Keywords   mace executioner o120~
+Type       weapon~
+Short      an executioner's mace~
+Long       An executioner's mace is lying here.~
+Flags      nodrop~
+WFlags     take wield~
+Values     0 5 1 4 0 0 0 0 0 0 0
+Stats      13 18 0 9999 0 None None None
+AffData    Dexterity -2 -1 -1 0
+AffData    Strength -2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        12100
+Keywords   key rusted k120~
+Type       key~
+Short      a rusted key~
+Long       There is a rusted key here.~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12101
+Keywords   key double k120~
+Type       key~
+Short      a double sided key~
+Long       A double sided key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12102
+Keywords   key diamond k120~
+Type       key~
+Short      a diamond studded key~
+Long       A diamond studded key is sitting on the ground.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      30 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12103
+Keywords   key pearl k120~
+Type       key~
+Short      a key with a pearl handle~
+Long       A key with a peral handle is sitting on the ground.~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12104
+Keywords   key aquamarine k120~
+Type       key~
+Short      an aquamarine key~
+Long       There is an aquamarine colored key here.~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12105
+Keywords   key opal k20~
+Type       key~
+Short      an opal key~
+Long       An opal key has been left here.~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      20 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        12106
+Keywords   key steel k120~
+Type       key~
+Short      a steel key~
+Long       A steel key is lying on the ground.~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        12001
+Name       The Judging Booth~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You stand in the midst of a small room with windows on the east and south
+walls.  These windows provide a complete view of the competition fields.
+There are several scorecards, pencils and other items that are used by the
+judges sitting on a table.  The only exit is a trapdoor leading down.
+~
+#EXIT
+Direction  Down~
+ToRoom     12002
+Key        12100
+Desc       There is a rickety ladder leading down.
+~
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+Reset M    12000 3 12001 -1 -1 -1 100
+  Reset E  3042 99 11 100
+Reset M    12000 3 12001 -1 -1 -1 100
+  Reset E  3042 99 11 100
+Reset M    12000 3 12001 -1 -1 -1 100
+  Reset E  3042 100 11 100
+Reset M    12001 1 12001 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  3042 100 11 100
+Reset D    12001 5 2 100 -2
+#EXDESC
+ExDescKey  scorecards~
+ExDesc     The cards all have been filled in with the judges evaluations of today's 
+combatants.  It seems that Sparticus is having a good day.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  pencils pencil~
+ExDesc     An ordinary #2 lead pencil.  Judging by the teeth marks on the shaft, the
+user should see a dentist very soon!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12002
+Name       Caesar's Private Box~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the best view in the house!  You can see gladiators fighting or the
+chariot races with an unobstructed view.  The seats are upholstered in red
+velvet and are in top-notch condition.  There is a rickety ladder leading 
+up and a marble staircase leading down.
+~
+#EXIT
+Direction  Up~
+ToRoom     12001
+Key        12100
+Desc       You see a rickety ladder with a trapdoor leading up.
+~
+Keywords   trapdoor~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12003
+Desc       There is a marble staircase leading down.
+~
+#ENDEXIT
+Reset M    12004 3 12002 -1 -1 -1 100
+  Reset E  3042 100 11 100
+  Reset G  12100 2 100
+Reset D    12002 4 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        12003
+Name       West Side Commoner's Seating Area~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is the western side commoner's seating area.  There are row upon row of
+rough wooden benches bolted to the floor.  There is stadium garbage every-
+where and the smell makes you want to puke.  Stairs lead up to Caesar's 
+private box, a small ramp leads down to the playing field and a hallway 
+leads south.
+~
+#EXIT
+Direction  Down~
+ToRoom     12010
+Desc       Watch your step!
+~
+Keywords   ramp~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12004
+Desc       You see a small hallway that leads to a larger area.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     12002
+Desc       Watch your step!
+~
+Keywords   stairs stairway~
+#ENDEXIT
+Reset M    12003 10 12003 -1 -1 -1 100
+Reset M    12003 10 12003 -1 -1 -1 100
+#EXDESC
+ExDescKey  seats benches~
+ExDesc     The benches are made of rough cut lumber that has dried and split over time.
+You would probably get splinters if sat on them.  The words "BURT WAS HERE"
+have been carved into one of the benches with exquisite care.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12004
+Name       Southern Commoner's Seats~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is the southeastern part of the common seating areas.  The benches here
+are made of stone and are probably centuries old.  A few scratches on one of
+the benches catch your eye.  An acrid smell is coming from the east and a
+tunnel leads off to the north.
+~
+#EXIT
+Direction  East~
+ToRoom     12011
+Desc       There is an acrid smell coming from that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     12003
+Desc       The tunnel looks like it leads to another seating area.
+~
+#ENDEXIT
+Reset M    12003 10 12004 -1 -1 -1 100
+Reset M    12003 10 12004 -1 -1 -1 100
+Reset M    12016 3 12004 -1 -1 -1 100
+  Reset G  12010 25 100
+  Reset G  12010 25 100
+  Reset G  12010 25 100
+#EXDESC
+ExDescKey  marks scratches~
+ExDesc     They look like they form the words "Onivel Cinemod Semaj"  But you could be
+mistaken.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12005
+Name       The Abandoned Gate~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This used to be a busy gateway to and from western Rome.  There is an iron
+gate blocking your way and judging by the amount of rust and foliage
+growing on the bars, now very few people pass through this way.  Looking
+through the gate at the barren landscape that lies beyond, you can see
+why, but nevertheless, there seems to be a passable road outside the
+gate.  A dirt road leads off to the east, and a store is directly south.
+~
+#EXIT
+Direction  East~
+ToRoom     12012
+Desc       Through the clouds of dust, you can make out a passable road.
+~
+Keywords   road~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12006
+Desc       You can barely make out a storefront through the foliage.
+~
+Keywords   store~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27000
+Desc       The rusty western gate lies in that direction.
+~
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    12018 5 12005 -1 -1 -1 100
+#EXDESC
+ExDescKey  gate~
+ExDesc     The gate is so rarely used that there aren't even guards set here to 
+watch it.  The lock on the gate is so rusted that it doesn't seem very 
+secure, and perhaps if you tried hard enough, you could find a way to pry 
+it open.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12006
+Name       Swords 'R  Us~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc       Welcome to the weaponshop of Titus Andronicus!!  Rare halberds, whips, swords
+and other instruments of death are proudly displayed on the walls and in
+gleaming glass cases.  More common weapons are stacked like wood on the floor.  
+To the north you can barely make out a gate.  There is a very secure looking 
+door to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     12005
+Desc       You can see a city gate to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12007
+Key        12101
+Desc       There is a very secure looking door blocking your progress.  
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    12005 5 12006 -1 -1 -1 100
+  Reset E  3023 100 16 100
+Reset M    12011 1 12006 -1 -1 -1 100
+  Reset G  3020 100 100
+  Reset G  3021 100 100
+  Reset G  3023 100 100
+  Reset G  3024 100 100
+  Reset G  3025 100 100
+  Reset G  12008 100 100
+  Reset E  12008 100 8 100
+  Reset G  12101 1 100
+Reset M    12019 3 12006 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12008 100 8 100
+Reset D    12006 2 2 100 -2
+#EXDESC
+ExDescKey  swords weapons armor halberds whips~
+ExDesc     Titus has enough hardware in here to outfit a large army.  Maybe that's why
+he has a lucrative contract to sell weapons to the emperor's armies for 
+outrageous prices.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12007
+Name       The Back Room~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       If you thought that there were a lot of weapons in the front of the store,
+you haven't seen anything yet!!  There is barely enough room to walk amongst
+the crates of armor and swords.  No wonder Rome will stand for a thousand
+years.  The only exit is through a door to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     12006
+Key        12101
+Desc       Through the piles of weapons, you can see a door leading north to the rest of 
+the store.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    12026 1 12007 -1 -1 -1 100
+  Reset E  12016 3 17 100
+  Reset E  3042 100 11 100
+  Reset E  3046 100 5 100
+  Reset E  12008 100 8 100
+Reset D    12007 0 2 100 -2
+#EXDESC
+ExDescKey  weapons swords crates armor weapon sword crate~
+ExDesc     There are literally thousands of each.  Take your pick.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12008
+Name       Peanut Heaven~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are now so high up that you begin to feel lightheaded and your nose feels 
+like it is going to start bleeding.  There aren't even benches to sit on here; 
+just bare dirty stone.  The view of the surrounding country is spectacular.  
+Unfortunately you can barely see the playing field.  There is a set of steps 
+here, leading down.
+~
+#EXIT
+Direction  Down~
+ToRoom     12015
+Desc       Watch your step!
+~
+Keywords   stairs stairway~
+#ENDEXIT
+Reset M    12003 10 12008 -1 -1 -1 100
+Reset M    12003 10 12008 -1 -1 -1 100
+Reset M    12016 3 12008 -1 -1 -1 100
+  Reset G  12010 25 100
+  Reset G  12010 25 100
+  Reset G  12010 25 100
+#EXDESC
+ExDescKey  landscape country~
+ExDesc     You can see the entire city of Rome from here.  The buildings housing the 
+Roman government are to the east.  To the south east, off in the distance, is
+the massive aqueduct and further in that direction lies the Mountain of the 
+Gods.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12009
+Name       The Practice and Warm-up Area~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       There are many gladiators, chariot drivers and their coaches here, warming up 
+in preparation for the games.  The dust rising from the parched earth makes 
+you want to sneeze.  A short tunnel leads east and the thunder of pounding 
+hooves and the clash of weapons can be heard coming from the south.
+~
+#EXIT
+Direction  East~
+ToRoom     12016
+Desc       There is a large oval dirt-track in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12010
+Desc       You can hear the clash of weapons and the thunder of hooves in that direction.
+~
+#ENDEXIT
+Reset M    12006 5 12009 -1 -1 -1 100
+Reset M    12006 5 12009 -1 -1 -1 100
+  Reset E  12002 2 6 100
+Reset M    12007 4 12009 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12008 100 8 100
+Reset M    12008 1 12009 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  3043 100 5 100
+  Reset G  12003 10 100
+#EXDESC
+ExDescKey  gladiator~
+ExDesc     He is a big muscular man with lots of armor.  He sizes you up and decides that 
+you aren't worth his time or trouble.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  driver~
+ExDesc     The driver is too busy changing a wheel on his chariot to notice you.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  chariot~
+ExDesc     You see a two wheeled open cart which is obviously meant to be pulled by 
+horses.  The flaming paint-job and the large "01" stenciled on the side 
+identify the chariot as belonging to Drucilis "Lightning-whip" Octavious,
+a favorite driver of the masses.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  coach trainer~
+ExDesc     The coach tell you "Stop bothering my athletes and get lost!"
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12010
+Name       The Jousting Arena~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is a wide open grassy plane....LOOK OUT!!!!  You are almost skewered by a 
+gladiator's lance as he makes his charge.  A practicing area is due north.
+~
+#EXIT
+Direction  Up~
+ToRoom     12003
+Desc       You see a set of steps leading up into the spectator stands.  
+~
+#ENDEXIT
+#EXIT
+Direction  North~
+ToRoom     12009
+Desc       Through a small tunnel you can see athletes stretching and warming up for the 
+games.
+~
+#ENDEXIT
+Reset M    12006 5 12010 -1 -1 -1 100
+Reset M    12006 5 12010 -1 -1 -1 100
+Reset M    12006 5 12010 -1 -1 -1 100
+#EXDESC
+ExDescKey  gladiator~
+ExDesc     He is in the final stages of a charge against his opponent....THUD!  CLANG!
+CRASH!!!!....judging from the blood and the amount of distance that now 
+separates the gladiators head from the rest of his body, you can safely assume 
+that this was the final combat of his life.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12011
+Name       The First-Aid Station~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the place to come to if one is overcome by the heat and gore.  (Or if 
+a lion gets loose)  You see a jar of live leeches and other barbaric medical 
+apparatus lying about here.  From the west comes the roar of the crowd, and a 
+hall leads east.  The healer will be with you shortly.
+~
+#EXIT
+Direction  West~
+ToRoom     12004
+Desc       Rows of stone bleachers lie to the west.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12018
+Desc       You see hundreds, perhaps thousands of people.
+~
+#ENDEXIT
+Reset M    12009 1 12011 -1 -1 -1 100
+  Reset E  3043 100 5 100
+  Reset E  3042 100 11 100
+  Reset E  12004 6 3 100
+  Reset G  12028 3 100
+Reset M    12010 1 12011 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  3043 100 5 100
+  Reset E  12005 3 6 100
+  Reset G  12027 5 100
+#EXDESC
+ExDescKey  leech leeches~
+ExDesc     DISGUSTING!  Each is about the size of matchbox and very slimy.  You are VERY
+glad that you have access to a cleric!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12012
+Name       A Dirt Road~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are on a parched and dusty rural road which runs east and west.  There is 
+a structure lying to the south.
+~
+#EXIT
+Direction  West~
+ToRoom     12005
+Desc       It is difficult to see through the haze and dust.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12019
+Desc       Through the dust, you see a paved road.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12013
+Desc       It is difficult to see through the haze and dust.
+~
+#ENDEXIT
+Reset M    12017 15 12012 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12013
+Name       The Commoner's House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the main living quarters of a common Roman citizen.  The
+furnishings are sparse and it is warm here.  A putrid odor is coming from the 
+east and passages lead north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     12012
+Desc       A dusty road lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12020
+Desc       What is that smell??!!!  It's enough to make a yak gag!!!
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12014
+Desc       You hazard a guess that a bedroom lies in that direction.
+~
+#ENDEXIT
+Reset M    12017 15 12013 -1 -1 -1 100
+#EXDESC
+ExDescKey  furnishings furniture~
+ExDesc     The furniture that you see is very simple and plain.  It is made of rough hewn
+wood and fastened together with nails.  It looks very uncomfortable.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12014
+Name       The Bedchamber~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       This is the bedroom.  There is a hard and lumpy bed in the far corner.  It
+looks like the commoner's wife has been shirking her duties lately, as there
+is a big pile of soiled laundry here.  The only way out is from where you 
+came.
+~
+#EXIT
+Direction  North~
+ToRoom     12013
+Desc       You see the living quarters to the north.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  laundry wash clothing~
+ExDesc     It smells of sweat and is covered with mud.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12015
+Name       The Noblemans' Box~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       These are the "better" seats used primarily by the upper class of Rome.  There 
+is a large seating area to the east and a staircase leading up here.  The view 
+of the chariot track is pretty good. 
+~
+#EXIT
+Direction  Up~
+ToRoom     12008
+Desc       The stairs look safe enough.
+~
+Keywords   stairs staircase~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12022
+Desc       Rows upon rows of bleachers lie to the east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12016
+Name       Race Track~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is a hard dirt track about a quarter of a mile long.  There are hoof 
+prints everywhere, and you see a large cloud of dust approaching.  You had
+better move before you get run over.  A small tunnel leads west, you can see 
+the crowd to the east.  You can hear loud snarls and roars coming from below.
+~
+#EXIT
+Direction  West~
+ToRoom     12009
+Desc       You see athletes warming up and stretching.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     12023
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12017
+Desc       Do you like lots of live lions that haven't been fed for a few days?
+~
+#ENDEXIT
+Reset M    12007 4 12016 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12008 100 8 100
+Reset M    12007 4 12016 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12008 100 8 100
+Reset M    12007 4 12016 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12008 100 8 100
+#ENDROOM
+
+#ROOM
+Vnum        12017
+Name       The Lion Pit~
+Sector     indoors~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc          As you land at the bottom of this dirt-walled pit, the realization that a 
+pit full of lions is NOT a good thing to be hanging around in.  Several of the
+gladiators gather around the edge of the pit to watch your demise.  You look
+around you, and all you see is tawny fur and gaping jaws...it's too late to
+run, too late to hide.
+   Twelve lions rip you and your belongings into a gory mass of bloodied
+leather, bronze, and bone.
+ 
+   What's that old saying? 
+   Cats killed the curious?  Something like that, I'm sure...
+ 
+~
+#EXIT
+Direction  Up~
+ToRoom     12010
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12018
+Name       South Entrance to the Coliseum~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are standing at the south entrance to the Coliseum.  There are citizens 
+of Rome everywhere, apparently in a mad rush to get in.  A statue of Caligula
+the Mad Emperor overlooks the area.  There are long lines standing to the east, 
+and an acrid smell is coming from the west.  A busy road lies to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     12025
+Desc       The lines are very long and people look impatient.
+~
+Keywords   line lines~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12019
+Desc       A road lies in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12011
+Desc       An acrid, almost medicinal smell is coming from that direction.
+~
+#ENDEXIT
+Reset M    12017 15 12018 -1 -1 -1 100
+#EXDESC
+ExDescKey  statue caligula~
+ExDesc     A larger than life stone statue of Caligula, the Mad Emperor, looks at you. It
+looks like it is holding a phallus.  He's got a grin on his face that seems to
+say 'My horse would like you, I bet...'
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12019
+Name       The Main Highway~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is a well built and heavily traveled road running from east to west and 
+there is a large structure built entirely of stone to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     12018
+Desc       You can hear the roar of a large crowd of people coming from that direction.
+~
+Keywords   structure~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12026
+Desc       The highway continues to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12012
+Desc       The highway continues to the west.
+~
+#ENDEXIT
+Reset M    12017 15 12019 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12020
+Name       The Outhouse~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       PEEEEEEEEEEEEEEEE-YEEEEEWWWWWWWW!!!!!  Boy does it stink in here!!!  You taste 
+bile in your mouth and your eyes begin to water.  As you wipe away your tears, 
+you see that this is a small room, in the far corner of which a hole is dug.  
+The odor intensifies as you move closer and there is a roll of toilet paper 
+sitting on the ground.  The only exit is to the west and your nose and stomach 
+are strongly suggesting that you use it.
+~
+#EXIT
+Direction  West~
+ToRoom     12013
+Desc       The living quarters lie in that direction.  Why don't you stop pussyfooting 
+around and go that way??!!  Please?
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  hole toilet~
+ExDesc     You walk over to the hole and see that there is a large turd floating in a 
+pool black water about 2 feet below the surface of the ground.  As you lean
+closer to get a better look, your nose catches a concentrated dose of the 
+fragrant aroma wafting upwards.  Your stomach decides that it has had enough
+of this shoddy treatment and you puke until it is empty.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  roll paper~
+ExDesc     Hey!!  This is first-class stuff!! - White Cloud brand with lotion.  The roll
+is about half-used.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12021
+Name       The Slave Quarters~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is where the slaves sleep.  There are hard boards set out for use as beds
+and not much else.  The only exit is to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     12027
+Desc       To the north, a well-manicured path winds through the nobleman's estate.
+~
+#ENDEXIT
+Reset M    12005 5 12021 -1 -1 -1 100
+  Reset E  3023 100 16 100
+Reset M    12005 5 12021 -1 -1 -1 100
+  Reset E  3023 100 16 100
+Reset M    12005 5 12021 -1 -1 -1 100
+  Reset E  3023 100 16 100
+Reset M    12017 15 12021 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12022
+Name       Common Seating~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is where many of the common Roman citizens are seated during the games.
+These are the cheapest seats in the house, as glare from the sun is usually a 
+problem during the afternoon.  Like the other common seating areas, this place 
+could stand extensive renovation and a thorough cleaning.  This area extends 
+to the south and a much more elegant seating area can be seen to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     12015
+Desc       The seating gets much fancier and elegant in that direction.
+~
+Keywords   elegant~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12023
+Desc       The common seating area continues.
+~
+#ENDEXIT
+Reset M    12003 10 12022 -1 -1 -1 100
+Reset M    12003 10 12022 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12023
+Name       Common Seating~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is where many of the common Roman citizens are seated during the games.
+Like the other commoners' areas in the coliseum, it could use extensive 
+renovation and cleaning.  This area extends to the north and lots of noise can 
+be heard coming from the south.
+~
+#EXIT
+Direction  North~
+ToRoom     12022
+Desc       The common seating area continues.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12024
+Desc       You see hundreds, perhaps thousands of people.
+~
+#ENDEXIT
+Reset M    12003 10 12023 -1 -1 -1 100
+Reset M    12003 10 12023 -1 -1 -1 100
+Reset M    12016 3 12023 -1 -1 -1 100
+  Reset G  12010 25 100
+  Reset G  12010 25 100
+  Reset G  12010 25 100
+#ENDROOM
+
+#ROOM
+Vnum        12024
+Name       East Entrance to Coliseum~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You are standing at the east entrance to the Coliseum.  There are people 
+everywhere, apparently in a mad rush to get in.  A statue of Tiberius, an 
+emperor of a time long since passed, stands here looking out over the crowd.  
+There is a passage to the north, the ticket booth is to the south and a gate 
+opening to the city lies to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     12023
+Desc       You see rows upon rows of dilapidated wooden bleachers.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12025
+Desc       There are VERY long lines standing outside the ticket booth.
+~
+Keywords   booth~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12031
+Desc       Nero Drive lies in that direction.
+~
+#ENDEXIT
+Reset M    12017 15 12024 -1 -1 -1 100
+#EXDESC
+ExDescKey  statue tiberius~
+ExDesc     The statue of Tiberius, made of iron, stands here.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12025
+Name       Ticket Booth~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Long lines are standing here, waiting to buy tickets.  There are 3 vendors 
+working furiously.  Ticket stubs litter the ground and you can see that the
+people are getting very impatient.  There is a large, open cashbox here.  Main 
+entrances to the Coliseum are to the north and west.  
+~
+#EXIT
+Direction  North~
+ToRoom     12024
+Desc       You see hundreds, if not thousands of people.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12018
+Desc       You see hundreds, if not thousands of people.
+~
+#ENDEXIT
+Reset M    12015 3 12025 -1 -1 -1 100
+Reset M    12015 3 12025 -1 -1 -1 100
+Reset M    12015 3 12025 -1 -1 -1 100
+  Reset E  12015 1 16 100
+#EXDESC
+ExDescKey  cashbox~
+ExDesc     It's a shame that the exchange rate for Roman money is so low.  What amounts
+to a fortune in Rome isn't even worth one gold coin.  The contents of the box
+add up to about .... well forget it.  It isn't worth your time or trouble to
+carry it around.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12026
+Name       Paved Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are on a paved road that runs east to west.  You can see an elaborate
+looking estate to the south and to the north-west, off in the distance, you
+can see a very large stone structure.
+~
+#EXIT
+Direction  East~
+ToRoom     12033
+Desc       The road leads off to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12019
+Desc       The road leads west towards the highway.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12027
+Desc       It looks like a Nobleman's estate.  We are talking RICH nobleman's estate.
+~
+Keywords   estate house~
+#ENDEXIT
+#EXDESC
+ExDescKey  structure~
+ExDesc     That would probably be the Coliseum.  There are a few good matches scheduled
+for today.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12027
+Name       Noble Estate~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are on the grounds of a nobleman's estate which is hundreds of times the
+size and splendor of anything that a common citizen of Rome would ever hope
+to own.  Everything is lush and green.  The grass is perfectly manicured and 
+the trees are all bearing fruit.  Ornamental plants are perfectly situated 
+to enhance and adorn the three statues of dedicated to gods Jupiter, Venus and 
+Neptune.  A tranquil path leads east and west, there is a paved road to the 
+north and an extravagant house lies to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     12026
+Desc       You see a paved road in the distance.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12034
+Desc       The path leads east through the estate.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12028
+Desc       You see an incredible house off in the distance.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12021
+Desc       Off through the trees, you see a small, plain hut.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  Venus~
+ExDesc     Venus, the Roman goddess of beauty and knowledge is displayed in a all of her
+splendor.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  Jupiter~
+ExDesc     A statue made of pure gold depicts Zeus sitting on his throne.  The throne
+looks like it is made of silver.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  Neptune~
+ExDesc     The statue of Neptune is made of pure jade and is holding a crystal trident.
+It is sitting in the center of a small pond which has hundreds of beautiful
+fish swimming in it.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trees tree shrubs shrub plants plant~
+ExDesc     All of the plants, trees and shrubs are perfectly trimmed, without so much as 
+a dead leaf anywhere to be seen.  You welcome the shade that they give from 
+the harsh sun above.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12028
+Name       An Opulent House~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       You stand in a house, the size and splendor of which almost defies the 
+imagination.  The floor is done with hand crafted marble tile with silver 
+and jeweled inlays.  The light coming through the exquisitely crafted stained 
+glass windows bathes the room in splendor and the furniture looks as though it  
+was made by master craftsmen from all over the empire.  A path through the 
+estate is north of here.
+~
+#EXIT
+Direction  North~
+ToRoom     12027
+Desc       You see a well manicured path that winds through the estate.
+~
+#ENDEXIT
+Reset M    12004 3 12028 -1 -1 -1 100
+  Reset E  12001 3 13 100
+#EXDESC
+ExDescKey  floor tile~
+ExDesc     Very expensive!  A lot of master craftsmen labored long and hard to produce
+such a work of art.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  windows~
+ExDesc     They are intricate and the scenes that they depict cast honor on several of
+the gods.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  furniture~
+ExDesc     You hope to eventually be able to own a piece of furniture just like these 
+someday.  These are only dreams, of course.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12029
+Name       The Great North Gate~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is the northern gateway to the city of Rome.  The huge gate appears to be
+closed and locked against intrusion.  A large road muddy road runs through the 
+gate and into the countryside.  Nero Drive runs south from here.
+~
+#EXIT
+Direction  South~
+ToRoom     12030
+Desc       Nero Drive continues in that direction.
+~
+#ENDEXIT
+Reset M    12018 5 12029 -1 -1 -1 100
+#EXDESC
+ExDescKey  gate~
+ExDesc     The gate is made of solid iron and is well maintained.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  road~
+ExDesc     The road is wide and very muddy.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12030
+Name       Nero Drive~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are walking on a paved road that runs south through the city of Rome.  A
+great gate is directly north of here.  The Roman citizens are very friendly 
+and tip their hats or say hello as you pass.
+~
+#EXIT
+Direction  North~
+ToRoom     12029
+Desc       To the north, you can see a gate leading out of the city.
+~
+Keywords   gate~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12031
+Desc       Nero Drive continues in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12062
+Desc       You see the bakery of Rome.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12031
+Name       Nero Drive~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are walking on a great paved road that runs north and south through the
+city.  People are hurrying from one place to another, but always stop to say
+hello.  Most of the people are either coming from or going to the town square
+Nero Drive continues to the north, and you can see a large open area to the 
+south.
+~
+#EXIT
+Direction  North~
+ToRoom     12030
+Desc       Nero drive continues in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12032
+Desc       It looks like the town square.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12024
+Desc       You see the an opulent estate.
+~
+#ENDEXIT
+Reset M    12017 15 12031 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12032
+Name       Town Square~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing in the middle of a large open area which is the common area
+of Rome.  During the day, this place is alive with the hustle and bustle of
+all of the citizens of Rome and everyone in the city is sure to stop by at
+some time or another.  There are several street vendors peddling their wares
+and the overall atmosphere is carnival-like in nature.  To the southeast, off
+in the distance, you can see the aqueduct and the buildings of the Roman 
+government lie to the northeast.  Nero Drive leads north and south from here 
+and Clay Avenue runs east.
+~
+#EXIT
+Direction  North~
+ToRoom     12031
+Desc       Nero Drive heads in the direction of the northern gate.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12033
+Desc       A street made of hard packed clay runs in that direction towards the aqueduct
+and buildings of the Roman government.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12039
+Desc       Nero Drive heads in the direction of the south gate.
+~
+#ENDEXIT
+Reset M    12012 2 12032 -1 -1 -1 100
+  Reset E  12008 100 8 100
+  Reset G  12006 25 100
+  Reset G  12006 25 100
+  Reset G  12006 25 100
+  Reset G  12007 25 100
+  Reset G  12007 25 100
+Reset M    12012 2 12032 -1 -1 -1 100
+  Reset E  12008 100 8 100
+  Reset G  12006 25 100
+  Reset G  12006 25 100
+  Reset G  12007 25 100
+  Reset G  12007 25 100
+Reset M    12017 15 12032 -1 -1 -1 100
+Reset M    12017 15 12032 -1 -1 -1 100
+#EXDESC
+ExDescKey  vendor vendors~
+ExDesc     There are several sidewalk vendors here, selling fresh fruits and vegetables,
+home baked goods, fine jewelry and other items.  Most of the items for sale are 
+of very high quality.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  aqueduct~
+ExDesc     To the southeast, off in the distance, stands a large stone structure that is
+used to channel water into the city.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12033
+Name       Nero Drive~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are walking on a paved road that runs north and south through the city of
+Rome.  There are many people here, as polite as always.  Most of them are 
+either coming from or going to the town square which lies to the north.  Nero 
+Drive continues to the south.  There is an observation area overlooking the 
+aqueduct to the east and a paved road leads west.
+~
+#EXIT
+Direction  North~
+ToRoom     12032
+Desc       The town square lies in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12040
+Desc       The aqueduct and mountain of the gods are in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12034
+Desc       Nero Drive continues toward the South Gate.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12026
+Desc       A paved road runs west through the city.
+~
+#ENDEXIT
+Reset M    12017 15 12033 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12034
+Name       Nero Drive~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is a busy paved road that runs north through the city.  The people of 
+Rome are very friendly and say hello as you pass.  A gate leading out of the 
+city lies to the south and a small path goes west towards a nobleman's estate.
+To the east, off in the distance, lies the great mountain.  It is rumored that
+the gods watch over and protect the empire from there.
+~
+#EXIT
+Direction  North~
+ToRoom     12033
+Desc       Nero Drive leads in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12035
+Desc       You see many people entering and leaving the city through a large gate in the
+walls protecting the city.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12027
+Desc       It looks like a nobleman's estate.  We are talking RICH nobleman's estate.
+~
+#ENDEXIT
+Reset M    12017 15 12034 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12035
+Name       The South Gate~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       This is the southern gateway to the city of Rome.  The bronze gate is closed 
+and locked.  Looking through the bars, you see a heavily traveled road leading 
+out of the city.  Nero Drive starts here and runs north and a wizard's shop 
+lies to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     12034
+Desc       Nero Drive leads towards the center of town.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12042
+Desc       A small store, from which an occasional detonation can be heard, lies off in 
+that direction.  It appears to be surrounded by a rolling pink mist.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     -1
+Desc       The gate appears to be closed and locked against intruders.
+~
+Keywords   gate~
+#ENDEXIT
+Reset M    12018 5 12035 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        12036
+Name       The Emperor's Private Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the emperor's private office.  The room is richly
+furnished with the finest of the loot brought back from conquests of far 
+away lands.  There is a massive, intricately carved desk here, upon which 
+are important documents, decrees and other paperwork involved in running the 
+empire.  On the far wall, there is a marble bookcase that is well stocked 
+with the works of Homer, Plato, Socrates and other wise men.  Further, it 
+seems that the current emperor likes flowers as there are many potted and cut 
+specimens throughout the room.  There is a french door leading to the waiting
+room and a wooden door to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     12043
+Key        12102
+Desc       Through the door, you see a waiting room.
+~
+Keywords   french~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12037
+Key        12103
+Desc       The south door leads directly to the senate chambers.
+~
+Keywords   wooden~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    12020 1 12036 -1 -1 -1 100
+  Reset E  12017 1 10 100
+  Reset G  12024 7 100
+Reset M    12021 2 12036 -1 -1 -1 100
+  Reset E  3042 100 11 100
+  Reset E  3046 100 5 100
+Reset M    12021 2 12036 -1 -1 -1 100
+  Reset E  3042 100 11 100
+  Reset E  3046 100 5 100
+Reset D    12036 1 2 100 -2
+Reset D    12036 2 2 100 -2
+#EXDESC
+ExDescKey  desk~
+ExDesc     The desk is made of solid walnut and gold inlay.  It is exquisitely carved 
+with superior craftsmanship, the likes of which has rarely been seen.  It was
+probably brought to Rome from Gaul.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  documents decrees paperwork document decree papers paper~
+ExDesc     The documents are all written on reed scrolls made in Egypt and have been 
+sealed with wax.  
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  bookcase books~
+ExDesc     The books are very old and contain the wisdom of wise men from throughout the
+entire Roman empire.  They appear to be collecting dust.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  flowers plants flower plant~
+ExDesc     The plants contribute to a very relaxing atmosphere.  
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12037
+Name       The Senate Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the working room where elected senators from all over the empire 
+gather to advise the emperor.  An official seal of the emperor is hanging on 
+the far wall.  There is a wooden door to the north and a bronze door to the
+east and doublehung door to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     12036
+Key        12102
+Desc       The door is made of thick walnut.
+~
+Keywords   wooden~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12044
+Key        12103
+Desc       The door leads to the foyer.
+~
+Keywords   bronze~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12038
+Key        12104
+Keywords   doublehung~
+Flags      isdoor~
+#ENDEXIT
+Reset M    12013 2 12037 -1 -1 -1 100
+  Reset E  3020 100 16 100
+  Reset E  12008 100 8 100
+Reset M    12027 2 12037 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  3044 100 5 100
+  Reset G  12104 1 100
+Reset M    12027 2 12037 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  3044 100 5 100
+  Reset G  3050 500 100
+Reset D    12037 0 2 100 -2
+Reset D    12037 1 2 100 -2
+Reset D    12037 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        12038
+Name       The House of Commons~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the lower house of the advising body to the emperor.  Common men from
+all parts of Rome work here to further at the senators in advising the
+emperor on critical matters of state.  The seal of the emperor is painted on
+the far wall.  The only exit is to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     12037
+Key        12104
+Desc       You see that the doublehung door leads to the senate chambers.
+~
+Keywords   doublehung~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12039
+Name       Clay Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are on a wide well traveled road running east and west through the heart
+of Rome.  There are large crowds of people to the west and the road continues
+to the east.  The aqueduct is directly south of here.
+~
+#EXIT
+Direction  East~
+ToRoom     12046
+Desc       Clay Avenue continues in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12041
+Desc       You see an entrance to the aqueduct.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12032
+Desc       There are large crowds of people in that direction.
+~
+#ENDEXIT
+Reset M    12017 15 12039 -1 -1 -1 100
+#EXDESC
+ExDescKey  crowds people~
+ExDesc     It looks like some kind of bizarre or festival is occurring to the west.  There
+are hundreds of people of all classes shopping, talking or eating.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12040
+Name       Observation Lookout~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are on a platform overlooking a massive aqueduct.  There is a telescope 
+mounted to the railing that surrounds the area and you can hear the gurgle of
+water as it is channeled into the city.  Off in the distance, you can see the
+Mountain of the Gods.  There is a sign mounted to the railing and a ramp leads
+west.
+~
+#EXIT
+Direction  West~
+ToRoom     12033
+Desc       You can see a busy street in that direction.
+~
+#ENDEXIT
+Reset M    12017 15 12040 -1 -1 -1 100
+#EXDESC
+ExDescKey  telescope~
+ExDesc     If it were operational, it would offer a spectacular view of the Mountain of 
+the Gods.  Unfortunately, it appears to have been vandalized.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  aqueduct~
+ExDesc     The aqueduct is a massive stone structure that channels water into Rome from
+the Mountain of the Gods.  During the rainy season, it is filled to the top.
+However, due to recent drought, the water level appears to be very low.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  sign~
+ExDesc          
+         ********************************************
+         *                                          *
+         *      The Roman Aquarian and Mountain     *
+         *           Observation Platform           *
+         *                                          *
+         *       Designed and built by the Froboz   *
+         *            Magic Platform Company        *
+         *                                          *
+         ********************************************
+ 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12041
+Name       The Aqueduct~
+Sector     swamp~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae 
+and slime producing treacherous footing conditions.  There are exits to the 
+north, south and east.
+~
+#EXIT
+Direction  North~
+ToRoom     12039
+Desc       You can see a wide street to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12048
+Desc       You see more aqueduct.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12041
+Desc       You see more aqueduct.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12054
+Desc       You see more aqueduct.
+~
+#ENDEXIT
+Reset M    12024 6 12041 -1 -1 -1 100
+#EXDESC
+ExDescKey  slime algae~
+ExDesc     Due to the availability of moisture and nutrients, a green, viscous slime has 
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12042
+Name       The Mage's Shop~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the mage's shop.  Magical ointments, charms and potions
+are sitting on shelves and behind a glass counter.  There is a dense neon
+blue fog hugging the floor here, making it impossible to see below your knees.
+You suddenly hear mutterings coming from the back room, possibly from .... 
+KKKKKAAAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMM!!!!!!
+You are deafened by the noise from a tremendous explosion and the concussion 
+from the blast staggers you!  The shopkeeper seems to pay no heed to this.  
+The door to the back room opens and an older man, wearing a pointed hat, whose 
+face is smudged with soot sticks his head out.  "Is everyone all right?  Sorry 
+about that.  I was testing a new mages' spell.  I'll try to give advance notice 
+next time," he says.  The door then closes.
+~
+#EXIT
+Direction  West~
+ToRoom     12035
+Desc       You see the south gate through the door.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12049
+Key        12105
+Desc       The door is reinforced with steel and looks VERY sturdy.  Considering the 
+"test" that you just witnessed, you are glad that it stands between you and 
+whatever is going on in the back room.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    12019 3 12042 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12019 2 8 100
+Reset M    12034 1 12042 -1 -1 -1 100
+  Reset G  3050 500 100
+  Reset G  3051 500 100
+  Reset G  3053 500 100
+  Reset G  3054 500 100
+  Reset G  12030 10 100
+  Reset E  12008 100 8 100
+  Reset G  12105 1 100
+Reset D    12042 1 2 100 -2
+#EXDESC
+ExDescKey  fog mist~
+ExDesc     This is some really strange stuff!  You have never seen anything this color
+before.  Your legs are totally obscured from the knee down.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12043
+Name       The Waiting Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a very large room with a high ceiling and there are a few
+people waiting here to see the emperor on urgent matters. The master scheduler 
+tells you to have a seat and sends a page to inform the his highness of your 
+arrival.  There are large doors to the east and west and an exit leads south 
+to the foyer.
+~
+#EXIT
+Direction  West~
+ToRoom     12036
+Key        12102
+Desc       There is a large door to the west.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12050
+Desc       There is a sign on the door that says:  MUNICIPAL COURT OF ROME.  It appears 
+to be open.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12044
+Desc       The foyer is directly to the south.
+~
+#ENDEXIT
+Reset M    12004 3 12043 -1 -1 -1 100
+  Reset E  12000 5 1 100
+Reset M    12013 2 12043 -1 -1 -1 100
+  Reset E  3020 100 16 100
+  Reset E  12008 100 8 100
+Reset M    12023 1 12043 -1 -1 -1 100
+  Reset G  12102 1 100
+  Reset G  12103 1 100
+  Reset E  12008 100 8 100
+  Reset E  12013 1 4 100
+Reset D    12043 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        12044
+Name       The Entrance Foyer~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have just entered the main government building of the Roman Empire and are 
+standing in a massive room with an elaborately decorated domed roof.  There 
+are many people here; messengers and senators being the most numerous.  There 
+is a large, ornate door to the west, a hallway leads north and marble stairs 
+that lead out of the building  are to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     12043
+Desc       You see a hallway leading north to what looks like a waiting room.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12045
+Desc       You see a stairway leading out of the building.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12037
+Key        12103
+Desc       There is a large door to the west that blocks your path.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    12044 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        12045
+Name       Outside the Capitol~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand on white marble steps that lead up and into the Capitol Building.
+There are several statues, none of any real significance, at the entrance to
+the building.  The main entrance to the building is at the top of the steps.
+~
+#EXIT
+Direction  Up~
+ToRoom     12044
+Desc       The steps lead into the Capitol Building.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12046
+Desc       The steps terminate onto Clay Avenue.
+~
+#ENDEXIT
+Reset M    12017 15 12045 -1 -1 -1 100
+Reset M    12019 3 12045 -1 -1 -1 100
+  Reset E  3021 100 16 100
+  Reset E  12008 100 8 100
+  Reset E  12018 2 5 100
+#EXDESC
+ExDescKey  stairs stairway steps~
+ExDesc     The stairs are immaculately polished and made of white marble.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  statue statues~
+ExDesc     There is really nothing noteworthy about them.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12046
+Name       Clay Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing on a wide, heavily traveled road that runs east and west 
+through the heart of the city.  There are marble steps leading up.  To the 
+south, off in the distance, you can see a large stone structure and a mountain
+that is partially obscured by the haze.  There is a general store to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     12063
+Desc       The general store lies in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12051
+Desc       There is what appears to be a large gate in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12039
+Desc       Clay Avenue continues.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     12045
+Desc       There are some white marble steps leading up.
+~
+#ENDEXIT
+Reset M    12017 15 12046 -1 -1 -1 100
+#EXDESC
+ExDescKey  stone structure aqueduct~
+ExDesc     You see a massive stone structure, built several centuries ago, that is used
+to channel water into the city.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  mountain~
+ExDesc     Off to the southwest, you can see  a huge mountain that is partially obscured
+by the haze.  It is rumored that the gods reside there and protect the city.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12047
+Name       The Summit of The Mountain of the Gods~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are at the summit of a very high mountain and are standing above the 
+clouds.  The sun is shining brilliantly here, and the clouds below look like
+balls of cotton.  The scent of lilac is in the air.
+~
+#EXIT
+Direction  Down~
+ToRoom     12052
+Desc       You see a damp path leading back down the mountain.
+~
+Keywords   path~
+#ENDEXIT
+Reset M    12030 1 12047 -1 -1 -1 100
+  Reset E  12020 1 16 100
+#ENDROOM
+
+#ROOM
+Vnum        12048
+Name       The Aqueduct~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  There are exits in all
+four cardinal directions.
+~
+#EXIT
+Direction  North~
+ToRoom     12057
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12041
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12041
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12048
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+Reset M    12024 6 12048 -1 -1 -1 100
+#EXDESC
+ExDescKey  slime algae~
+ExDesc     Due to the availability of moisture and nutrients, a green viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12049
+Name       Froboz's Workshop~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the workshop of Froboz the Great, the most powerful and 
+famous mage that Rome has ever known.  Workbenches line the walls and are
+covered with various test tubes, beakers, petri dishes and crucibles and there
+is an odor in here that can best be described as a combination of old sweat
+socks and burning tires.  The only exit is back through the door through which
+you came.  In the middle of the room, you see a pile of ashes that looks like 
+it once was a body and Froboz is is busy making adjustments on a new type of 
+magic wand .... possibly the one responsible for the explosion a few minutes 
+ago.  He removes a jeweler's loupe from his eye as he turns around.  "How in 
+the name of Merlin did you get in here??!!" he asks.  "Oh, nevermind!  Since 
+you are here, you can serve as witnesses to the final test of the new mage's 
+spell:  'ectowatt'."  With this he makes a magical gesture and the Paladin 
+Knight appears.  Crossing his fingers, Froboz waves the wand his direction and 
+what happens next is incredible!  The Paladin is enveloped in what appears to 
+be a small, well contained, thermonuclear explosion.  When the smoke clears 
+you can see that the Paladin and all of equipment has been reduced to a large 
+pile of flaming cinders.  Froboz throws his head back and cackles with insane 
+glee.  "Now, my young friends, what can I do for you?" he asks.
+~
+#EXIT
+Direction  West~
+ToRoom     12042
+Key        12105
+Desc       There is a door, reinforced with steel, in that direction.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    12005 5 12049 -1 -1 -1 100
+  Reset E  3023 100 16 100
+Reset M    12025 1 12049 -1 -1 -1 100
+  Reset E  3042 100 11 100
+  Reset E  12014 10 5 100
+  Reset G  12025 10 100
+  Reset G  12026 10 100
+  Reset G  12029 10 100
+Reset D    12049 3 2 100 -2
+#EXDESC
+ExDescKey  workbench workbenches tubes beakers crucibles dishes~
+ExDesc     These are all tools of great power.  You cannot even begin to understand what
+any of this stuff does.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  cinders ashes pile~
+ExDesc     The ashes are a very fine grayish white powder that seems to be the only 
+worldly remains of Froboz's "test specimens". 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12050
+Name       The Courtroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stand inside of a large courtroom in which common civil disputes and 
+criminal matters are decided.  There is a judge's bench and a witness stand
+on the far side of the room and a jury's box along side.  The emperor's seal
+is prominently displayed on the wall behind the judge's stand, reminding all
+who enter that he is an extension of his highness.  There is a door, possibly 
+leading to the judge's chambers, to the east and the waiting room is to the 
+west.
+~
+#EXIT
+Direction  East~
+ToRoom     12055
+Key        12106
+Desc       The door might lead into the judge's private chambers.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12043
+Desc       The waiting room lies in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12060
+Desc       The holding cells lie in that direction.
+~
+#ENDEXIT
+Reset M    12014 1 12050 -1 -1 -1 100
+  Reset E  12011 2 15 100
+Reset M    12028 1 12050 -1 -1 -1 100
+  Reset E  3042 100 11 100
+  Reset G  12106 1 100
+Reset M    12029 1 12050 -1 -1 -1 100
+  Reset E  3024 100 16 100
+  Reset E  3043 100 5 100
+Reset D    12050 1 2 100 -2
+#EXDESC
+ExDescKey  bench stand box jury~
+ExDesc     You see large wooden structures that are designed to separate the judge, jury
+and witnesses from the rest of the courtroom.  They are made of polished  
+oak and are strictly functional.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  seal~
+ExDesc     The seal of the emperor is  above the judge's stand.  
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12051
+Name       The East Gate of Rome~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing inside of the eastern gate of Rome.  There are two tall 
+spires built into the city wall, from which the guards can see the whole 
+eastern side of the city.  The gate is currently open and to the east, 
+there is a heavily used road, made of packed clay, that leads out of Rome. 
+Another road leads westward into the city.
+~
+#EXIT
+Direction  East~
+ToRoom     12064
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12046
+Desc       The clay street leads into the city.
+~
+#ENDEXIT
+Reset M    12018 5 12051 -1 -1 -1 100
+Reset M    12018 5 12051 -1 -1 -1 100
+#EXDESC
+ExDescKey  spires towers~
+ExDesc     There are two tall spires on either side of the gate and are constantly manned
+by the city guards.  They are made of stone and stand about 40 feet tall. 
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  gate~
+ExDesc     The gate is fabricated from iron and has been designed to keep intruders out 
+of the city.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12052
+Name       A Mountain Path~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand on a small trail that leads up and down.  It has recently been 
+raining and there are small puddles everywhere.  You are just below the
+clouds and the view of the surrounding countryside is breathtaking.  
+~
+#EXIT
+Direction  Up~
+ToRoom     12047
+Desc       The trail leads up and enters the clouds.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12056
+Desc       The trail leads down.
+~
+#ENDEXIT
+Reset M    12031 1 12052 -1 -1 -1 100
+  Reset E  12022 1 3 100
+#EXDESC
+ExDescKey  trail~
+ExDesc     The mountain trail is a little muddy, due to the recent rains.  
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12054
+Name       The Aqueduct~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a massive stone structure that has been designed to channel water 
+into the city of Rome.  Due to the recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae 
+and slime, producing treacherous footing conditions.  There are exits in all 
+four cardinal directions.
+~
+#EXIT
+Direction  North~
+ToRoom     12041
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12054
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12057
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12048
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+Reset M    12024 6 12054 -1 -1 -1 100
+Reset M    12024 6 12054 -1 -1 -1 100
+#EXDESC
+ExDescKey  slime algae~
+ExDesc     Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered the everything with a slippery coating.  It seems to go out
+of its way to drip on you.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12055
+Name       Judge's Chambers~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a small room that is filled with legal tomes.  There is a small
+desk here, literally buried under legal documents.  There is also a small 
+window overlooking the northern part of the city.
+~
+#EXIT
+Direction  West~
+ToRoom     12050
+Key        12106
+Desc       The courtroom lies in that direction.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    12022 1 12055 -1 -1 -1 100
+  Reset E  12012 1 2 100
+Reset D    12055 3 2 100 -2
+#EXDESC
+ExDescKey  tomes books~
+ExDesc     The books are very large and filled with Roman legal precedent.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  papers documents~
+ExDesc     There are hundreds of pages of petitions, lawsuits and court orders sitting
+on the desk.  One particularly interesting case involves a nobleman, a slave
+and a roll of toilet paper.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12056
+Name       A Mountain Path~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing on a small trail that leads through a grove of trees.  Every
+thing is lush and green here and it appears to have been raining recently.
+"This would be an ideal place for a picnic," you think to yourself.
+~
+#EXIT
+Direction  Up~
+ToRoom     12052
+Desc       You see a small trail leading further up the mountain.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12059
+Desc       You see a small trail, leading down.
+~
+#ENDEXIT
+Reset M    12032 1 12056 -1 -1 -1 100
+  Reset E  12016 3 17 100
+  Reset E  12021 1 13 100
+#EXDESC
+ExDescKey  tree trees vegetation~
+ExDesc     All of the vegetation is lush, green and in full bloom.  You wish that you 
+could take the time to stop and enjoy it properly.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trail path~
+ExDesc     The path is a little muddy, possibly due to a recent thundershower.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12057
+Name       The Aqueduct~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to a recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  A valley lies to the 
+south and the other cardinal directions lead further into the aqueduct.
+~
+#EXIT
+Direction  North~
+ToRoom     12054
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12054
+Desc       The aqueduct continues.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     12058
+Desc       You see a gorgeous valley.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12041
+Desc       The aqueduct continues....
+~
+#ENDEXIT
+Reset M    12024 6 12057 -1 -1 -1 100
+Reset M    12024 6 12057 -1 -1 -1 100
+  Reset G  12030 500 100
+#EXDESC
+ExDescKey  slime algae~
+ExDesc     Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12058
+Name       The Valley of the Gods~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You stand in a tranquil valley at the base of a large mountain.  A quiet 
+stream, with fruit trees growing along its banks, winds its way peacefully
+through the valley and enters a large stone structure that lies to the west.
+There are birds singing and every now and then a ripple breaks the surface
+of the stream.  You can see a path leading through the trees above you.
+~
+#EXIT
+Direction  North~
+ToRoom     12057
+Desc       A small path winds its way through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     12059
+Desc       Yopath leading up the mountain.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  stream brook~
+ExDesc     A stream of the clearest, cleanest water that you have ever seen winds its way 
+through the valley.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  fish~
+ExDesc     A variety of species swims peacefully in the cool, clear water.  
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trees fruit~
+ExDesc     The fruit trees, nourished by the fertile ground at the edge of the stream and 
+sustained by the brilliant sunshine, line the banks of the stream and are 
+laden with fruit.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12059
+Name       A Mountain Path~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing on a path that leads up through a stand of large trees.  
+Everything is green and it seems like eternal spring - this is Mother Nature
+at her finest.  It is possible to descend into a tranquil valley from here.
+~
+#EXIT
+Direction  Up~
+ToRoom     12056
+Desc       The path leads further up the mountain.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     12058
+Desc       The path widens out into a tranquil valley.
+~
+#ENDEXIT
+Reset M    12033 1 12059 -1 -1 -1 100
+  Reset E  12023 1 8 100
+#EXDESC
+ExDescKey  trees~
+ExDesc     The trees are old and tower hundreds of feet above the ground.  If you stand
+still and listen carefully, you can hear the birds singing.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12060
+Name       The Holding Cells~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the holding cell area, just off of the cortroom.  Those
+who are recently convicted of serious crimes are brought here, pending torture
+and execution.  The courtroom lies to the north and another exit goes east.
+~
+#EXIT
+Direction  North~
+ToRoom     12050
+Desc       The courtroom lies to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     12061
+#ENDEXIT
+#EXDESC
+ExDescKey  cells cell~
+ExDesc     You can see small and very cramped cells which are filthy.  You shiver and 
+vow to never do anything that would cause you to become a resident.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        12061
+Name       The Torture Chamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in a very small room in which there are many tools designed
+specifically for inflicting pain and suffering.  Some of them are familiar,
+such as the rack and the iron maidens.  Others, you have never seen before
+and they make you wonder about the kind of sadistic mind that dreamt them up.
+The only exit is to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     12060
+Desc       The holding cells lie in that direction.
+~
+#ENDEXIT
+Reset M    12035 1 12061 -1 -1 -1 100
+  Reset G  12031 10 100
+#ENDROOM
+
+#ROOM
+Vnum        12062
+Name       The Roman Bakery~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the bakery of Rome and your mouth waters at the delicious
+aromas wafting from the kitchen.  The only exit is to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     12030
+#ENDEXIT
+Reset M    12036 1 12062 -1 -1 -1 100
+  Reset G  3010 100 100
+  Reset G  3011 100 100
+  Reset G  3000 100 100
+  Reset G  3001 100 100
+#ENDROOM
+
+#ROOM
+Vnum        12063
+Name       The General Store~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are standing in the only general store of Rome.  The walls and shelves 
+are covered with all of the various items required by Roman citizens and 
+stalwart mudders.  Clay Avenue lies to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     12046
+Desc       Clay Avenue lies in that direction.
+~
+#ENDEXIT
+Reset M    12037 1 12063 -1 -1 -1 100
+  Reset G  3031 100 100
+  Reset G  3032 100 100
+#ENDROOM
+
+#ROOM
+Vnum        12064
+Name       Before Rome~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You travel upon an East-West road wide enough for 30 men to march
+abreast.  It is packed hard through heavy use.  To the west stands the
+Gates of Rome inviting you to enter and partake of all the glory and
+splendor that is Rome.
+~
+#EXIT
+Direction  East~
+ToRoom     12065
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12051
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12065
+Name       Clay Road~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You travel upon an East-West road wide enough for 30 men to march
+abreast.  It is packed hard through heavy use.  To the west, your eyes
+catch the splendors of a mighty city.
+~
+#EXIT
+Direction  East~
+ToRoom     12066
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12064
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12066
+Name       Clay Road~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You travel upon an East-West road wide enough for 30 men to march
+abreast.  A small path leads off through a field to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     12067
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     12065
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     3061
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        12067
+Name       End of the Clay Road~
+Sector     city~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       The mighty clay road turns into lesser, but still traveled roads
+here.  You see a path continuing to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     12066
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

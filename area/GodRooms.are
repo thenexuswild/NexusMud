@@ -1,0 +1,351 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            God Rooms~
+Author          Unknown~
+Vnums           1200 1213
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 0 101 115
+ResetMsg        Please place message here~
+ResetFreq       1
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#OBJECT
+Vnum        1200
+Keywords   guitar griffen~
+Type       weapon~
+Short      Griffen's Electric Guitar~
+Long       Griffen's Electric Guitar seems to be laying here.~
+WFlags     take wield~
+Values     0 8 8 4 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 7 -1 -1 0
+AffData    hitroll 10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1201
+Keywords   melior drumstick red~
+Type       weapon~
+Short      Melior's red-stained drumsticks~
+Long       a pair of drumsticks is laying here.~
+WFlags     take wield~
+Values     0 11 4 6 0 0 0 0 0 0 0
+Stats      10 0 0 9999 0 None None None
+AffData    damroll 5 -1 -1 0
+AffData    move 25 -1 -1 0
+AffData    Dexterity 3 -1 -1 0
+AffData    Constitution -3 -1 -1 0
+AffData affected  'infravision' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        1210
+Keywords   condom fractal french tickler o012~
+Type       container~
+Short      a fractal French tickler~
+Long       An odd looking condom has been dropped by some careless person here.~
+Action     This condom is covered with little rubber 'spines' to enhance feeling.  As
+you look closer, you see that each of the spines is covered in smaller spines,
+and each of the smaller spines is covered by yet smaller spines...
+~
+Flags      glow magic nodrop~
+WFlags     take finger head hands about waist wrist hold~
+Values     1 1 9 10 0 9 0 0 0 0 0
+Stats      50 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  THIS_IS_A_GOD_ONLY_ITEM - IT'D_BE_SILLY_FOR_A_MORTAL_TO_HAVE_IT~
+ExDesc     
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1211
+Keywords   massager mandelbrot masturbator marvelous o012~
+Type       wand~
+Short      Mandelbrot's marvelous hand-held massager~
+Long       An odd looking device has been left here.~
+Action     It looks rather alot like a magic wand or staff of some sort, but thicker, and
+with a narrowed end.  The instructions on the box recommend daily use, "to
+relax stiff muscles and relieve stress".  Somehow you don't think that the
+directions shown here are followed all that strictly.
+~
+Flags      hum magic nodrop~
+WFlags     wield~
+Values     20 1 1  0 0 0 0 0 0 0
+Stats      50 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  THIS_IS_A_GOD_ONLY_ITEM - IT'D_BE_SILLY_FOR_A_MORTAL_TO_HAVE_IT~
+ExDesc     
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        1212
+Keywords   set mandelbrot marital aid box o012~
+Type       container~
+Short      a large box, labeled  'The Mandelbrot Marital Aids Set'~
+Long       The Mandelbrot marital aids set is here in its box.~
+Action     The box is covered in pictures portraying various fractal devices of dubious
+redeeming social value.  Some of the items seem quite interesting, tempting
+you to rip open the box and toss your innocence out the window for good.
+~
+Flags      glow magic nodrop~
+WFlags     take~
+Values     300 5 1 10 0 1 0 0 0 0 0
+Stats      100 0 0 9999 0 None None None
+#EXDESC
+ExDescKey  THIS_IS_A_GOD_ONLY_ITEM - IT'D_BE_SILLY_FOR_A_MORTAL_TO_HAVE_IT~
+ExDesc     
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#ROOM
+Vnum        1200
+Name       The Chat Room~
+Sector     indoors~
+Flags      indoors private~
+Stats      0 0 0 0 0
+Desc          You are lounging in a quiet cozy parlor, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  There are no doors out.  Clearly
+the owner of this room needs none.
+~
+#ENDROOM
+
+#ROOM
+Vnum        1201
+Name       Immortal Hangout~
+Sector     indoors~
+Flags      indoors private~
+Stats      0 0 0 0 0
+Desc          You see here a cozy little room with a fireplace.  You can tell it is Moses'
+room by the two stone tablets and a bible on a small ledge near the fireplace.
+This room was designed for total relaxation.  You can watch television, listen
+to the stereo, even soak in a hot tub.
+There is a bell here for the butler.
+~
+#ENDROOM
+
+#ROOM
+Vnum        1202
+Name       The Ice Box~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Here lie the frozen remains of mud players who just couldn't play with
+the other kids in the sandbox.
+~
+Reset O    3097 1 1202 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1204
+Name       The Q Continum~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This large room is well decorated, and lit from above by a soft magical
+glow of no particular origin.  Scattered around the room are comfortable chairs
+and piles of furs of various dimensions, and in the very middle there is a
+huge oaken table that shimmers in an odd manner.  A large picture window looks
+down over the whole world, showing the exploits of the many intrepid mortals.
+A spiral staircase leads down to another part of this room.
+~
+#EXIT
+Direction  North~
+ToRoom     1210
+Desc       You see the Quest Annex.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1205
+Desc       You see the lower part of this room, and the normal board.
+~
+#ENDEXIT
+Reset O    3098 1 1204 -1 -1 -1 100
+Reset O    3091 1 1204 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1205
+Name       The Lower Board Room of the Immortals~
+Sector     indoors~
+Flags      indoors private~
+Stats      0 0 0 0 0
+Desc          This room is a close twin to the main Immortal Board Room at the top of the
+spiral staircase here.  Your mind and body cannot help but relax as you gaze
+around this comfortable room, and hope that you will be able to linger here
+a while.  Many green plants line a marble stairway that leads down to the 
+HoloDeck. 
+~
+#EXIT
+Direction  East~
+ToRoom     1211
+Desc       The Immortal Group Board rooms are this way.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1206
+Desc       A well screened inter-dimensional portal hangs quietly in the air here.  You
+have no idea where it could possibly lead...
+~
+Keywords   portal fractal sex drugs rock'n'roll~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     1204
+Desc       You see the main Immortal Board Room at the top of the spiral staircase
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     1000
+Desc       You see the HoloDeck.
+~
+#ENDEXIT
+Reset O    3099 2 1205 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1206
+Name       The Fractal Orgy Chamber~
+Sector     hills~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room seems to go on forever, as does the party taking place here.  For
+miles in every direction, lewd acts and general debauchery meets your eye.  
+Each group of orgy-goers seems to be made up of several sub-groups, and each
+sub-group of even more sub-groups, etc., as you may have imagined.
+   A large silvery portal that leads back to the lower board room is floating
+in the air above you.
+You notice a sign hovering above the floor at regular intervals.
+~
+#EXIT
+Direction  Up~
+ToRoom     1205
+Desc       Through the silvery inter-dimemsional portal you see the serenity, seriousness,
+and relative safety (compared to remaining here, at least, depending on ones
+tastes) of the main board room of the Immortals.
+~
+Keywords   silver silvery portal door board main room~
+#ENDEXIT
+Reset O    1212 1 1206 -1 -1 -1 100
+  Reset P  0 1210 1 1212 100
+  Reset P  0 1211 1 1212 100
+#EXDESC
+ExDescKey  sign~
+ExDesc     The signs all say the same thing -
+
+	Remember, put all the toys back where you found them when you are
+	are done playing with them...
+	This room is here for your enjoyment, so don't let the mortals
+	in on it.  After all, you'll enjoy it more if the mortals just
+	look at your smug grin and wonder, right?  I thought so...
+	Now...Have Fun, OR ELSE ;)
+
+				  	- The Fractal Dominatrix (and crew)
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        1210
+Name       Quest Annex~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This is the Immortal Quest Annex. It provides acces to the Romper Room, Arena and
+Colisevm. The Quest Group Planning board is here alone with any misc stuff you
+might need to use the areas.
+~
+#EXIT
+Direction  North~
+ToRoom     23800
+Desc       The Arena is this way.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     23900
+Desc       The Colisevm is this way.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     1204
+Desc       The Q Continum is this way.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     24000
+Desc       The Romper Room is this way.
+~
+#ENDEXIT
+Reset O    3087 1 1210 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1211
+Name       Immortal Group Board Rooms~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Idea Group Board"
+~
+#EXIT
+Direction  East~
+ToRoom     1212
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1205
+#ENDEXIT
+Reset O    3089 1 1211 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1212
+Name       Immortal Group Board Rooms~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Bug/Typo Group Board"
+~
+#EXIT
+Direction  East~
+ToRoom     1213
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1211
+#ENDEXIT
+Reset O    3088 1 1212 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        1213
+Name       Immortal Group Board Rooms~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       "Area Planners Board"
+~
+#EXIT
+Direction  West~
+ToRoom     1212
+#ENDEXIT
+Reset O    3084 3 1213 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

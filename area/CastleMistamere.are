@@ -1,0 +1,1894 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Castle Mistamere~
+Author          Unknown~
+Vnums           2000 2053
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       20
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        2000
+Keywords   goblin humanoid mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A goblin~
+Long       A goblin is here, arguing over a few coins on the floor.
+~
+Desc       He looks scrawny, hungry perhaps?
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     3 20 10 35 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2001
+Keywords   trader man mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     resting~
+Short      A trader~
+Long       You see a man lying on a bed peacefully.
+~
+Nattacks   1.000000
+Stats1     -100 0 60 100 150 250
+Stats2     4 17 8 50 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2002
+Keywords   stirge mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A stirge~
+Long       A stirge flies towards you at great speed and attacks!
+~
+Desc       It does NOT look happy about you being here.
+~
+Nattacks   1.000000
+Stats1     -700 0 60 100 150 250
+Stats2     3 20 10 31 1 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2003
+Keywords   kobold mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A large kobold~
+Long       A large, rust-brown kobold stands here, eyeing you suspiciously.
+~
+Desc       He doesnt know whether to trust you or not.
+~
+Nattacks   1.000000
+Stats1     -200 0 60 100 150 250
+Stats2     3 20 10 36 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2005
+Keywords   wolf white mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A huge white wolf~
+Long       A huge white wolf jumps up and pounces on you!
+~
+Desc       Its drooling at you.. better not let it get what it wants, would ruin your whole
+~
+Nattacks   1.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     2 20 10 28 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2006
+Keywords   cleric evil priestess mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   sitting~
+DefPos     sitting~
+Short      The evil priestess~
+Long       A priestess of Set kneels at the altar here.
+~
+Desc       She looks at you through blackened eyes.. you can tell shes been through
+a lot in her life.
+~
+Nattacks   1.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     5 18 8 62 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2007
+Keywords   beetle fire mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The fire beetle~
+Long       A huge beetle sits on a dusty carpet here.
+~
+Desc       Funny, he seems to be glowing..
+~
+Nattacks   1.000000
+Stats1     -200 0 60 100 150 250
+Stats2     3 20 10 39 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2008
+Keywords   crab spider mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A crab spider~
+Long       A crab spider drops from the ceiling and attacks!
+~
+Nattacks   1.000000
+Stats1     -100 0 60 100 150 250
+Stats2     3 20 10 39 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2009
+Keywords   bandit man mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The bandit~
+Long       A bandit is here, eyeing you suspiciously.
+~
+Desc       He has obviously made this room a hideout, and doesnt like you intruding.
+~
+Nattacks   1.000000
+Stats1     -750 0 60 100 150 250
+Stats2     3 20 10 39 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2010
+Keywords   bandit leader man mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The bandit leader~
+Long       The bandit leader is here, giving you an icy glare.
+~
+Desc       He has the bandits under his control and will do anything to get you out
+of here.
+~
+Nattacks   1.000000
+Stats1     -750 0 60 100 150 250
+Stats2     5 18 8 66 2 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        2011
+Keywords   goblin mistamere~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A wandering goblin~
+Long       A goblin is here, wandering through the hallways..
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     3 20 10 38 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        2001
+Keywords   statue shepherd mistamere~
+Type       treasure~
+Short      the statue of a shepherd~
+Long       A huge statue of a shepherd stands in the middle of the room.~
+Flags      glow~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2002
+Keywords   glowing gland mistamere~
+Type       light~
+Short      a glowing gland~
+Long       There is something half covered in dirt here, its giving off light..~
+WFlags     take hold~
+Values     0 0 168 0 0 0 0 0 0 0 0
+Stats      0 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2003
+Keywords   axe large mistamere~
+Type       weapon~
+Short      a large axe~
+Long       A large axe lies on the ground here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 1 8 1 0 0 0 0 0 0 0
+Stats      0 1500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2004
+Keywords   gem moonstone mistamere~
+Type       treasure~
+Short      a small moonstone~
+Long       A moonstone lies at your feet, its white with a pale blue aura..~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      0 500 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2005
+Keywords   gem jasper mistamere~
+Type       treasure~
+Short      a small jasper stone~
+Long       A small stone has been set here, its pitch black with streaks of dark blue..~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      0 1000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2006
+Keywords   altar large mistamere~
+Type       container~
+Short      a large altar of Set~
+Long       An altar is here, above it on the wall is an invocation to Set~
+Values     400 5 -1 10 0 -1 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2007
+Keywords   potion vial black mistamere~
+Type       potion~
+Short      a small black vial~
+Long       A small black vial stands here at your feet.~
+WFlags     take hold~
+Values     10 -1 -1 -1 0 0 0 0 0 0 0
+Stats      0 2000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2008
+Keywords   sword short mistamere~
+Type       weapon~
+Short      a short sword~
+Long       There is a short sword here.~
+Flags      magic~
+WFlags     take wield~
+Values     0 2 4 6 0 0 0 0 0 0 0
+Stats      0 900 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2009
+Keywords   spear long mistamere~
+Type       weapon~
+Short      a long spear~
+Long       A spear lies thrown on the ground here..~
+WFlags     take wield~
+Values     0 2 5 6 0 0 0 0 0 0 0
+Stats      0 2700 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        2011
+Keywords   key large rusted mistamere~
+Type       key~
+Short      a large rusted key~
+Long       a rusted key is lying on the ground..~
+WFlags     take hold~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      0 0 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        2000
+Name       A Small Path~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are stading on a small path, in the distance you can see the ruins
+of a large castle.
+~
+#EXIT
+Direction  North~
+ToRoom     2001
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     1600
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2001
+Name       A Small Path~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are approching a large castle, you can almost see the drawbridge
+from here.
+~
+#EXIT
+Direction  North~
+ToRoom     2002
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2002
+Name       In Front of the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand before the ruins of Castle Mistamere. You see a drawbridge
+leading into the castle to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     2003
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2003
+Name       On The Drawbridge~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing on a large drawbridge, obviously lowered, leading to a set of 
+double doors in front of you that hold the wonders of the fallen Mistamere. 
+There are many runes etched upon the door's surface, in a language you can't 
+comprehend. To the south you can see a small path.
+~
+#EXIT
+Direction  North~
+ToRoom     2004
+Desc       The doors are made of iron and seem to have sustained a large amount of 
+damage. ~
+Keywords   door doors double iron reinforced~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2002
+#ENDEXIT
+Reset D    2003 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2004
+Name       A large hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a large hallway which leads north; and south to a pair of
+double doors. The walls and floor are made of stone, and have moss growing
+upon them. There is just enough light, let in by a skylight far above
+you, to suit your needs. There are heavy oak doors on both the eastern and
+western walls.
+~
+#EXIT
+Direction  North~
+ToRoom     2007
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2006
+Keywords   heavy oak east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2003
+Desc       The doors of the castle are stained with blood and have large nicks in them.~
+Keywords   door doors double iron reinforced south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2005
+Keywords   oak heavy west~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2004 1 1 100 -2
+Reset D    2004 2 1 100 -2
+Reset D    2004 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2005
+Name       An abandoned dining room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This room appears to have once been used as a dining room. There are
+tables and benches scattered throughout the room; many turned on their
+sides or upside down.  Everything is covered with cobwebs.
+~
+#EXIT
+Direction  East~
+ToRoom     2004
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2005 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2006
+Name       A guardroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered what used to be a guardroom for the castle.  There are
+empty weapons racks on the walls and battered shields and armor laying on
+the ground, all useless.
+~
+#EXIT
+Direction  West~
+ToRoom     2004
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2000 4 2006 -1 -1 -1 100
+Reset M    2000 4 2006 -1 -1 -1 100
+Reset M    2000 4 2006 -1 -1 -1 100
+Reset M    2000 4 2006 -1 -1 -1 100
+Reset D    2006 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2007
+Name       A hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a hallway leading east, west, and south.  There is a door to
+the north.  Light is streaming in from a small skylight in the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     2009
+Keywords   door heavy oak~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2008
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2004
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2010
+#ENDEXIT
+Reset M    2011 8 2007 -1 -1 -1 100
+Reset D    2007 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2008
+Name       A hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a hallway with a stone floor and walls.  It continues east and
+west, and there is a door north.  Light streams in from a small skylight.
+~
+#EXIT
+Direction  North~
+ToRoom     2019
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2011
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2007
+#ENDEXIT
+Reset D    2008 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2009
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a small bedroom. There are doors at the north and
+south ends of the room. On either side of the northern door are
+windows that are above your reach.
+~
+#EXIT
+Direction  North~
+ToRoom     2015
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2007
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2001 3 2009 -1 -1 -1 100
+  Reset E  2003 999 16 100
+  Reset G  2004 2 100
+Reset D    2009 0 1 100 -2
+Reset D    2009 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2010
+Name       A hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway which extends east and west;  to the north
+is a heavy oak door.  The walls and floor are made of stone. A small
+stream of light peeks in from a half covered skylight.
+~
+#EXIT
+Direction  North~
+ToRoom     2020
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2007
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2012
+#ENDEXIT
+Reset D    2010 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2011
+Name       A hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The hallway turns here, leading north and west.  There is a passage
+leading southeast into a tower. Light is being let in by an old skylight 
+far above your head.
+~
+#EXIT
+Direction  North~
+ToRoom     2026
+Desc       The hallway continues north..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2025
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     2013
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2008
+Desc       The hallway continues west..
+~
+#ENDEXIT
+Reset M    2011 8 2011 -1 -1 -1 100
+Reset D    2011 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2012
+Name       A hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The hallway comes to a bend here, leading north and east.  There is also
+a heavy oaken door west.  There are cobwebs all over the walls here,
+and it seems this passage hasn't been used in a long while.  There is a 
+tower to the southwest and a beam of light peeks through the skylight.
+~
+#EXIT
+Direction  North~
+ToRoom     2023
+Desc       The hallway continues north..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2010
+Desc       The hallway continues east..
+~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     2014
+Desc       The southwestern tower lies in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2021
+Desc       You see a large oaken door..
+~
+Keywords   door oak large oaken~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2011 8 2012 -1 -1 -1 100
+Reset D    2012 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2013
+Name       The southeastern tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You see a circular room, about 40 feet in diameter, with eight openings
+spaced evenly about the outside wall. The windows extend from about
+waist height to eyelevel for a normal human and are obviously ports
+through which arrows can be fired. The room appears to be empty.
+~
+#EXIT
+Direction  Northwest~
+ToRoom     2011
+Desc       You see the hallway..
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2014
+Name       The southwestern tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You see a circular room, about 40 feet in diameter, with eight openings
+spaced evenly about the outside wall. The windows extend from about
+waist height to about eyelevel for a normal human.  A tree limb has
+has grown through one of the windows, which are obviously ports
+through which arrows can be fired. The room appears to be empty.
+~
+#EXIT
+Direction  Northeast~
+ToRoom     2012
+Desc       You see the hallway..
+~
+Keywords   secret~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2014 6 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2015
+Name       The courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are in a grassy courtyard open to the sky. Three doors, including
+that by which you entered, line the walls. The courtyard continues to
+the north.
+~
+#EXIT
+Direction  North~
+ToRoom     2016
+Desc       The courtyard continues north..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2039
+Desc       You see a large oak door..
+~
+Keywords   door oak large oaken heavy east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2009
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2042
+Desc       You see a heavy oak door..
+~
+Keywords   door heavy oak west~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2005 4 2015 -1 -1 -1 100
+Reset M    2005 4 2015 -1 -1 -1 100
+Reset D    2015 1 1 100 -2
+Reset D    2015 2 1 100 -2
+Reset D    2015 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2016
+Name       The courtyard~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You see a grassy courtyard open to the sky.  Three doors, including the
+one by which you entered, line the walls.  The courtyard continues south.
+There is a large oak tree growing here.
+~
+#EXIT
+Direction  North~
+ToRoom     2017
+Desc       You see a large oak door..
+~
+Keywords   door oak large north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2038
+Desc       You see a large oak door
+~
+Keywords   door oak large east~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2015
+Desc       The courtyard continues south..
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2040
+Desc       You see a large oak door..
+~
+Keywords   door oak large west~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2005 4 2016 -1 -1 -1 100
+Reset M    2005 4 2016 -1 -1 -1 100
+Reset D    2016 0 1 100 -2
+Reset D    2016 1 1 100 -2
+Reset D    2016 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2017
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a small bedroom which appears to be sanctuary to a few
+rather dirty creatures, judging by the look of the beds and clothes thrown 
+about the room.  There are doors to the north and south; the south door
+is flanked by two windows.
+~
+#EXIT
+Direction  North~
+ToRoom     2018
+Desc       You see a heavy oaken door..
+~
+Keywords   door oak heavy north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2016
+Desc       You see the courtyard through the windows..
+~
+Keywords   door heavy oak south~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2003 4 2017 -1 -1 -1 100
+  Reset E  2009 999 16 100
+Reset M    2003 4 2017 -1 -1 -1 100
+  Reset E  2009 999 16 100
+Reset M    2003 4 2017 -1 -1 -1 100
+  Reset E  2009 999 16 100
+Reset M    2003 4 2017 -1 -1 -1 100
+  Reset E  2009 999 16 100
+Reset D    2017 0 1 100 -2
+Reset D    2017 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2018
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway extending east and west. There are heavy oak
+doors to both the north and south.  The walls and floor are made of
+stone and there is moss growing on them. A small ray of light streams in
+from above.
+~
+#EXIT
+Direction  North~
+ToRoom     2053
+Desc       You see a heavy oak door..
+~
+Keywords   door north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2036
+Desc       The hallway continues east..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2017
+Desc       You see a heavy oak door..
+~
+Keywords   door south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2051
+Desc       The hallway continues west..
+~
+#ENDEXIT
+Reset D    2018 0 1 100 -2
+Reset D    2018 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2019
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a small bedroom of some sort. The only door out of this
+room is by that which you came. There is a bed in the northern end of
+the room, recently used.  There is a skylight here similar to the ones 
+in the other rooms.
+~
+#EXIT
+Direction  South~
+ToRoom     2008
+Desc       You see the hallway..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2001 3 2019 -1 -1 -1 100
+Reset D    2019 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2020
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You have entered a small bedroom that looks recently used. On the south
+wall is a door, leading back into the hallway.  The walls and floor of
+this room are made of stone and a small beam of light hits your eyes from 
+above.
+~
+#EXIT
+Direction  South~
+ToRoom     2010
+Desc       You see a heavy oak door leading back into the hallway..
+~
+Keywords   door heavy oak~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2001 3 2020 -1 -1 -1 100
+Reset D    2020 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2021
+Name       The kitchen~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The west wall of this room has a ledge about seven feet from the floor, 
+with two small windows above it.  The room seems to be a kitchen, as
+it contains four tables, a pump, and an old stove.
+~
+#EXIT
+Direction  East~
+ToRoom     2012
+Desc       You see the hallway..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2021 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2022
+Name       The pantry~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The west wall of this room has a ledge about seven feet from the floor, 
+with two small windows above it. Cabinets and shelves line the wall,
+and in the middle of the floor lies the body of a goblin with a horribly
+swollen arm.  Trash and old sacks are scattered about the floor.
+~
+#EXIT
+Direction  East~
+ToRoom     2023
+Desc       You see the hallway..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2022 1 1 100 -2
+#EXDESC
+ExDescKey  goblin corpse halfway decayed~
+ExDesc     There seems to be a large snakebite on the swollen arm.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        2023
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway that stretches to the north and south. There is a
+skylight high above you, letting light in this desolate place. To the west
+is a door.
+~
+#EXIT
+Direction  North~
+ToRoom     2024
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2012
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2022
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy west~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2023 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2024
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway that leads north and south. A beam of light,
+from a halfway covered skylight, hits the floor in front of you.  To
+the east of you, on a huge stone wall, grows a patch of moss. There is a
+door west of you.
+~
+#EXIT
+Direction  North~
+ToRoom     2045
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2023
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2044
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy west~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2024 3 1 100 -2
+#EXDESC
+ExDescKey  moss~
+ExDesc     It it timeless, now one with the castle.. 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        2025
+Name       A utility room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The east wall of this room has a ledge about seven feet from the floor, 
+with two small windows above it.  The room appears to be empty.
+~
+#EXIT
+Direction  West~
+ToRoom     2011
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy oaken~
+Flags      isdoor~
+#ENDEXIT
+Reset O    2001 1 2025 -1 -1 -1 100
+Reset D    2025 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2026
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway which extends to the north and south. Further,
+there is a door to the east and a ray of sunlight catches your eye through 
+the roof above.  The walls and floor are made of aging stone here, with
+some corners covered by moss.
+~
+#EXIT
+Direction  North~
+ToRoom     2029
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2027
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2011
+Desc       The hallway continues..
+~
+#ENDEXIT
+Reset M    2011 8 2026 -1 -1 -1 100
+Reset D    2026 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2027
+Name       A storeroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The east wall of this room has a ledge about seven feet from the floor
+and there are two small windows above the ledge.  Except for some trash
+on the floor, the room is empty.
+~
+#EXIT
+Direction  West~
+ToRoom     2026
+Desc       The hallway lies west..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2027 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2028
+Name       A storeroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The east wall of this room has a ledge about seven feet from the floor
+and there are two small windows above the ledge.  Except for some trash
+in the center of the room, there is nothing here.
+~
+#EXIT
+Direction  West~
+ToRoom     2029
+Desc       The hallway lies west..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2028 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2029
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway which extends to the north and south;  to the
+east is a door.  The walls and floor are made of stone and there is moss 
+growing from between the cracks.  A beam of light, comming from a hole
+in the roof, hits the floor in front of you.
+~
+#EXIT
+Direction  North~
+ToRoom     2030
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2028
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2026
+Desc       The hallway continues..
+~
+#ENDEXIT
+Reset D    2029 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2030
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a hallway that stretches north and south; to the east is a heavy
+oaken door.  The walls and floor are made of stone, and moss is growing
+from between the cracks.  Through an open skylight, you hear a flock of
+crows pass overhead.
+~
+#EXIT
+Direction  North~
+ToRoom     2032
+Desc       The hallway continues north..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2031
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy oaken~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2029
+Desc       The hallway continues south..
+~
+#ENDEXIT
+Reset M    2011 8 2030 -1 -1 -1 100
+Reset D    2030 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2031
+Name       A storeroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The east wall of this room has a ledge about seven feet from the floor
+and there are two small windows above the ledge. Except for two long tables
+along the south wall, the room appears to be empty. As you enter the room,
+you hear the sound of small wings.
+~
+#EXIT
+Direction  West~
+ToRoom     2030
+Desc       The hallway lies west..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2002 3 2031 -1 -1 -1 100
+Reset M    2002 3 2031 -1 -1 -1 100
+Reset M    2002 3 2031 -1 -1 -1 100
+Reset O    2005 2 2031 -1 -1 -1 100
+Reset O    2005 2 2031 -1 -1 -1 100
+Reset D    2031 3 1 100 -2
+#EXDESC
+ExDescKey  nest ledge~
+ExDesc     The stirges have made a nest upon the ledge.
+ 
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        2032
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway which stretches north and south. To the east is
+a door. The walls and floor are made of stone, and moss is growing through
+the cracks. A ray of light hits the floor in front of you from a skylight in 
+the roof.
+~
+#EXIT
+Direction  North~
+ToRoom     2034
+Desc       The hallway continues north..
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2033
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2030
+Desc       The hallway continues south..
+~
+#ENDEXIT
+Reset D    2032 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2033
+Name       The chapel~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The east wall of this room has a ledge about seven feet from the floor,
+with two small windows above it.  There is a small altar on the
+northwest wall and there are several long benches in the room;  two
+of them have been pushed together in the southeast corner to form a rude
+bed.
+~
+#EXIT
+Direction  West~
+ToRoom     2032
+Desc       The hallway lies to the west..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2006 1 2033 -1 -1 -1 100
+  Reset E  2009 999 16 100
+Reset O    2006 1 2033 -1 -1 -1 100
+  Reset P  0 2007 2 2006 100
+  Reset P  0 2007 2 2006 100
+Reset D    2033 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2034
+Name       The hallway~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway that has come to a bend, now leading west and
+south.  There is a passage to the northeast, leading to a tower.  The walls 
+and and floor are hewn from stone and moss has started to grow through
+the cracks. There is rubble on the floor and the room is being flooded with 
+daylight from a skylight, opened by an unknown force.
+~
+#EXIT
+Direction  Northeast~
+ToRoom     2035
+Desc       The northeastern tower lies north..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2032
+Desc       The hallway continues south..
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2036
+Desc       The hallway continues west..
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2035
+Name       The northeastern tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a circular room, about 40 feet in diameter, with eight openings
+that are spaced evenly and extend from about waist height to eyelevel for a
+normal human. These are obviously ports through which arrows can be fired.
+The floor of the room is covered with rubbish.
+~
+#EXIT
+Direction  Southwest~
+ToRoom     2034
+Desc       The hallway lies south..
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2036
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway extending east and west. On the north and south
+walls are doors. The walls and floor are made of stone, and have moss
+growing between the cracks. A ray of light hits your eye from the skylight
+above.
+~
+#EXIT
+Direction  North~
+ToRoom     2043
+Desc       You see a heavy oak door..
+~
+Keywords   north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2034
+Desc       The hallway continues east..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2037
+Desc       You see a heavy oaken door..
+~
+Keywords   south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2018
+Desc       The hallway continues west..
+~
+#ENDEXIT
+Reset M    2011 8 2036 -1 -1 -1 100
+Reset D    2036 0 1 100 -2
+Reset D    2036 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2037
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a small bedroom, which seems to be empty except for the
+unoccupied bed in the eastern side of the room. The room is lit by a small
+skylight in the southwest corner of the room that lets in light but not
+rain. The only exit out seems to be the door to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     2036
+Desc       The hallway lies north..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2008 1 2037 -1 -1 -1 100
+Reset D    2037 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2038
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This trash filled room contains an empty bed with all of its slats removed
+and appears to be otherwise empty. A door on the east wall is flanked
+by two small windows about seven feet from the floor.
+~
+#EXIT
+Direction  West~
+ToRoom     2016
+Desc       the courtyard lies west..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2038 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2039
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This trash filled room contains an empty bed.  There are scorch marks on
+the wall, otherwise, it appears to be otherwise empty.  A door on the west 
+wall is flanked by two small windows about seven feet from the floor.
+~
+#EXIT
+Direction  West~
+ToRoom     2015
+Desc       The courtyard lies west..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2039 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2040
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This trash filled room contains an empty bed with a chest next it.
+Otherwise, the room appears to be empty. A door on the west wall is
+flanked by two small windows about seven feet from the floor.
+~
+#EXIT
+Direction  East~
+ToRoom     2016
+Desc       The courtyard lies east..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset O    2004 3 2040 -1 -1 -1 100
+Reset D    2040 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2041
+Name       A bedroom~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You are in a small bedroom, the room seems to be empty except for an
+unoccupied bed.  The room is lit by a skylight in the southeast corner that
+lets in light, not rain.
+~
+#EXIT
+Direction  North~
+ToRoom     2051
+Desc       You see a heavy oaken door..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2041 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2042
+Name       A bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This trash filled room contains an empty bed whose sheets are rotten
+and decayed. The room appears to be otherwise empty.  A door on the east
+wall is flanked by two small windows about seven feet from the floor.
+~
+#EXIT
+Direction  East~
+ToRoom     2015
+Desc       The courtyard lies east..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2042 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2043
+Name       A utility room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The north wall of this room has a ledge about seven feet from the floor,
+with two small windows above it. Except for the cobwebs clinging to the 
+walls, the room appears to be empty.
+~
+#EXIT
+Direction  South~
+ToRoom     2036
+Desc       The hallway lies south..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2043 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2044
+Name       A library~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The west wall of this room has a ledge about seven feet from the floor,
+with two small windows above it.  Bookshelves line the north and south 
+walls and few motheaten books remain on them. There is a large, dusty
+carpet in the middle of the room.
+~
+#EXIT
+Direction  East~
+ToRoom     2024
+Desc       The hallway lies east..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2007 2 2044 -1 -1 -1 100
+  Reset G  2002 2 100
+Reset M    2007 2 2044 -1 -1 -1 100
+  Reset G  2002 2 100
+Reset D    2044 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2045
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway extending north and south. The walls and floor
+are made of stone, and there is moss growing from between the cracks. There 
+is an oaken door to the west and a ray of light, from the skylight
+above, hits the floor just in front of your feet. 
+~
+#EXIT
+Direction  North~
+ToRoom     2048
+Desc       The hallway continues..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2024
+Desc       The hallway continues south..
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2046
+Desc       You see a heavy oaken door..
+~
+Keywords   door oak heavy west~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2011 8 2045 -1 -1 -1 100
+Reset D    2045 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2046
+Name       A storeroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The west wall of this room has a ledge about seven feet from the floor,
+with two small windows above it.  Except for some trash on the floor, the 
+room appears to be empty.
+~
+#EXIT
+Direction  East~
+ToRoom     2045
+Desc       The hallway lies east..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2046 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2047
+Name       A utility room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The west wall of this room has a ledge about seven feet from the floor,
+with two small bricked up windows above it. There is a large trapdoor in 
+the middle of the floor.
+~
+#EXIT
+Direction  East~
+ToRoom     2048
+Key        2011
+Desc       The hallway lies east..
+~
+Keywords   door oak heavy~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    2047 1 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2048
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway extending to the north and south. The walls and 
+floor are made of stone and there is a door to the west.  A beam of light 
+hits your eye from above, blinding you for a second.
+~
+#EXIT
+Direction  North~
+ToRoom     2049
+Desc       The hallway lies north..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2045
+Desc       The hallway continues south..
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2047
+Key        2011
+Desc       You see a heavy oaken door..
+~
+Keywords   door oak oaken heavy~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    2048 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2049
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway which has come to a bend, now leading east and
+south. The walls and floor are made of stone, and have moss growing
+through the cracks. A ray of light hits the floor in front of you from the 
+roof above. A passage to the northwest leads to one of the four towers of
+the castle.
+~
+#EXIT
+Direction  Northwest~
+ToRoom     2050
+Desc       The northwestern tower lies to in that direction.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2051
+Desc       The hallway continues east..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2048
+Desc       The hallway continues south..
+~
+#ENDEXIT
+Reset M    2011 8 2049 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        2050
+Name       The northwestern tower~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You see a circular room, about 40 feet in diameter, with eight openings
+spaced evenly about the outside wall. The windows extend from about waist
+height to eyelevel for a normal human and are obviously ports through which 
+arrows can be fired.  Except for the remains of a skeleton on the floor
+and yourself, the room appears to be empty.
+~
+#EXIT
+Direction  Southeast~
+ToRoom     2049
+Desc       The hallway lies south..
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  skeleton~
+ExDesc     It has been there for many years. It was once a defender of this castle.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        2051
+Name       The hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You are in a long hallway which extends east and west. The walls and floor
+are made of stone, and there is moss growing in the cracks. Doors lie both
+north and south. A ray of sunlight hits the wall next to you, highlighting
+its age.
+~
+#EXIT
+Direction  North~
+ToRoom     2052
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy north~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     2018
+Desc       The hallway continues east..
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     2041
+Desc       You see a heavy oak door..
+~
+Keywords   door oak heavy south~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     2049
+Desc       The hallway continues west..
+~
+#ENDEXIT
+Reset D    2051 0 1 100 -2
+Reset D    2051 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2052
+Name       A guardroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The north wall of this room has a ledge about seven feet from the floor,
+with small windows above it. The room looks as if it might have been a 
+guard post.  There are a few beds, some pegs on the walls for clothing, 
+a rack to hold weapons and a long table with a drawer that might have once 
+served as a desk.  There are moth eaten clothes on the bed, but the room 
+appears to be otherwise empty.
+~
+#EXIT
+Direction  South~
+ToRoom     2051
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset D    2052 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        2053
+Name       A storeroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The north wall of this room has a ledge about seven feet from the floor,
+with two small windows above it. There is a lot of what appears to be 
+personal gear and equipment strewn about the room.
+~
+#EXIT
+Direction  South~
+ToRoom     2018
+Desc       The hallway lies south..
+~
+Keywords   door oak heavy~
+Flags      isdoor~
+#ENDEXIT
+Reset M    2009 3 2053 -1 -1 -1 100
+Reset M    2009 3 2053 -1 -1 -1 100
+Reset M    2009 3 2053 -1 -1 -1 100
+Reset M    2010 1 2053 -1 -1 -1 100
+  Reset E  2008 999 16 100
+  Reset G  2005 3 100
+  Reset G  2004 2 100
+Reset D    2053 2 1 100 -2
+#ENDROOM
+
+#ENDAREA

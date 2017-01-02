@@ -1,0 +1,32 @@
+Version     1
+Name        Pixie~
+Race        4
+Classes     Mage Cleric Rogue Druid Ranger~
+Str_Plus    -4
+Dex_Plus    3
+Wis_Plus    0
+Int_Plus    2
+Con_Plus    -2
+Cha_Plus    3
+Lck_Plus    0
+Hit         -4
+Mana        40
+Affected    flying~
+Resist      sleep charm~
+Language    pixie~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   108
+Bodyparts  head arms legs heart brains guts hands ankles feet fingers ear eye wings~
+Height     20
+Weight     37
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'faerie speed' 65 80
+Skill 'faeriedust' 10 90
+Skill 'sleepdart' 40 85
+End

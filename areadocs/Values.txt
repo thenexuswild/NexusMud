@@ -1,0 +1,282 @@
+Table Documentation:
+--------------------
+
+Last modified by Dwip, 6/20/03
+
+The following tables are values used in some sections of the area file.
+
+===  Liquids Table
+
+The following is the list of liquid types for use in drink containers.
+
+Value | Liquid Type
+------------------------------
+  0       water
+  1       beer
+  2       wine
+  3       ale
+  4       dark ale
+  5       whiskey
+  6       lemonade
+  7       firebreather
+  8       local specialty
+  9       slime mold juice
+  10      milk
+  11      tea
+  12      coffee
+  13      blood
+  14      salt water
+  15      cola
+  16      mead
+  17      grog
+  18      orange juice
+  19      vodka
+  20      screwdriver
+
+===  Affect Modifiers
+
+The following is the list of numbers used to add magical affects to items.
+Not to be confused with spells used on potions, scrolls, etc. See the object
+section on apply types.
+
+1   - Strength
+2   - Dexterity
+3   - Intelligence
+4   - Wisdom
+5   - Constitution
+6   - Sex
+7   - Class ( Don't use )
+8   - Level ( Don't use )
+9   - Age
+10  - Height
+11  - Weight
+12  - Mana
+13  - Hit Points
+14  - Movement
+15  - Gold
+16  - Experience
+17  - Armor Class
+18  - Hitroll
+19  - Damroll
+20  - Save vs Paralyzation
+21  - Save vs Rods
+22  - Save vs Poison
+23  - Save vs Breath
+24  - Save vs Spells
+25  - Charisma
+26  - Affected by (see affected-flags table in mob section for values here)
+27  - Resistance (see res/imm/sus/abs table at the end of this doc)
+28  - Immunity (see res/imm/sus/abs table at the end of this doc)
+29  - Susceptibility (see res/imm/sus/abs table at the end of this doc)
+30  - Weapon Spell (see spell slots at end of document for values here)
+31  - Luck
+32  - Backstab
+33  - Pick
+34  - Track
+35  - Steal
+36  - Sneak
+37  - Hide
+38  - Palm
+39  - Detect Traps
+40  - Dodge
+41  - Spellfail
+42  - Scan
+43  - Gouge
+44  - Search
+45  - Mount
+46  - Disarm
+47  - Kick
+48  - Parry
+49  - Bash
+50  - Stun
+51  - Punch
+52  - Climb
+53  - Grip
+54  - Scribe
+55  - Brew
+56  - Wear Spell (see spell slots at end of document for values here)
+57  - Remove Spell (see spell slots at end of document for values here)
+58  - NOTUSED
+59  - Mentalstate
+60  - StripSN ( Removes a certain skill if the user is affected by it )
+61  - Remove ( Not sure what it means )
+62  - Dig
+63  - Hunger
+64  - Thirst
+65  - Drunk
+66  - HP Regen
+67  - Mana Regen
+68  - Move Regen
+69  - Antimagic
+70  - Roomflag ( Don't ask, I have no idea )
+71  - Sectortype ( Again, don't ask )
+72  - Room Light Level
+73  - Televnum
+74  - Teledelay
+75  - Cook
+76  - Recurringspell
+77  - Race
+78  - HitnDam
+79  - Save vs All
+80  - Eat Spell ( see spell slots at end of document for values here )
+81  - Race Slayer
+82  - Align Slayer
+83  - Contagious
+84  - Ext Affect ( Don't think this does anything )
+85  - Odor
+86  - Peek
+87  - Absorb ( Need to use BV values for modifier )
+88  - Attacks
+89  - Extragold
+90  - Allstats ( Don't abuse this one! )
+
+Note: Weaponspells will cast each time a weapon is used, keep this in mind when
+      creating weapons with spells. Wearspells and Remove spells are only cast
+      when the item is worn or removed.
+      
+
+===  Spell Slots
+
+To find the current slot number for a spell, consult the online command
+'slookup'.
+
+Example: slookup magic missile
+
+In the resulting output, you want the number listed after 'Slot:'
+
+Sn:  162 Slot:   32 Spell: 'magic missile       '
+Author: Smaug
+DamType: energy  ActType: destroy   ClassType: life   PowerType: minor
+Saves: none  SaveEffect: none
+Type: Spell  Target: offensive  Minpos: fighting  Mana: 12  Beats: 15  Range: 0
+Flags: 0  Guild: -1  Value: 0  Info: 852
+Rent: 25000  Code: spell_smaug
+Dammsg: magic missile
+Wearoff: !Magic Missile!
+Dice: ld4+l { 80
+Hitchar   : Your magic missile flies straight and true towards $N!
+Hitvict   : You are struck by a glowing magic missile!
+Hitroom   : $n shoots a glowing magic missile at $N!
+Misschar  : The magic missile shot by $n misses $N narrowly!
+Missvict  : You nimbly avoid the magic missile coming your way!
+Missroom  : $N nimbly avoids the magic missile shot by $n!
+Diechar   : Your magic missile skewers $N alive!
+Dievict   : You are impaled by the magic missile shot by $n!
+Dieroom   : A magic missile impales $N, killing $M instantly!
+--------------------------[CLASS USE]--------------------------
+Mag ) lvl:   1 max: 95%  Cle ) lvl: 101 max: 95%  Rog ) lvl: 101 max: 95%
+War ) lvl: 101 max: 95%  Nec ) lvl: 101 max: 95%  Dru ) lvl: 101 max: 95%
+Ran ) lvl: 101 max: 95%  Mon ) lvl: 101 max: 95%  Ava ) lvl: 101 max: 95%
+Ava ) lvl: 101 max: 95%  Ant ) lvl: 101 max: 95%  Pal ) lvl: 101 max: 95%
+Bar ) lvl:   3 max: 95%
+
+=== Lever Flags (Add values together to combine flags)
+Note: These values apply to levers, switches, pullchains, and buttons, in the value[0] slot.
+
+Value   | Details
+--------+-------------------------------------
+      0 | Trigger starts in the "up" or "in" position.
+      1 | Unlocks a door in the designated room. Combines with one of the direction flags for the actual door in the room.
+      2 | Locks a door in the designated direction. Combines with one of the direction flags for the actual door in the room.
+      4 | North exit direction setting used with other flags.
+      8 | South exit direction setting used with other flags.
+     16 | East exit direction setting used with other flags.
+     32 | West exit direction setting used with other flags.
+     64 | Up exit direction setting used with other flags.
+    128 | Down exit direction setting used with other flags.
+    256 | Must be set for any door based triggers to work.
+    512 | Trigger acts on a designated container object. The Value3 field for this trigger uses container flags to toggle the states of the same flags on the actual container.
+   1024 | Unlocks a door in the designated room. Combines with one of the direction flags for the actual door in the room.
+   2048 | Closes a door in the designated room. Combines with one of the direction flags for the actual door in the room.
+   4096 | Trigger creates a passage from the room it's in to the room designated by the Value2 field. Must be combined with the exit flags to determine the direction.
+   8192 | Trigger loads an object into the designated room.
+  16384 | Trigger loads an NPC into the designated room.
+  32768 | Trigger teleports the NPC or player who activated it to the room designated by the Value1 field.
+  65536 | If set, the trigger teleports all NPCs and Mobs in the room to the room designated in the Value1 field. Used with the "teleport" flag.
+ 131072 | If set, the trigger will also include any objects in the room if the "teleportall" flag is set.
+ 262144 | The trigger instantly kills the player who touched it.
+ 524288 | Trigger casts the spell designated by the Value1 field. If set, the Value2 field specifies the spell level. If not set, the spell casts at the player's level.
+1048576 | For "teleport" triggers, this makes the game show the destination room upon arrival.
+2097152 | Trigger randomizes up to 4 exits in the room designated by the Value1 field.
+4194304 | Trigger randomizes up to 6 exits in the room designated by the Value1 field.
+8388608 | If set, the trigger will return to its default state after being activated.
+
+=== Trap Flags (Add values together to combine flags)
+These flags govern how a trap gets set off.
+
+Value | Details
+------+--------------------------------------
+    0 | Attaches the trap to the room's reset list.
+    1 | Attaches the trap to an object's reset list.
+    2 | Trap triggers when a player enters the room.
+    4 | Trap triggers when a player leaves the room.
+    8 | Trap is sprung when a door or container is opened.
+   16 | Trap is sprung when a door or container is closed.
+   32 | Trap is sprung when an object is picked up.
+   64 | Trap is sprung when putting an object inside a container.
+  128 | Trap is sprung when a door or container is lockpicked.
+  256 | Trap is sprung when a door or container is unlocked.
+  512 | Unused.
+ 1024 | Unused.
+ 2048 | Unused.
+ 4096 | Unused.
+ 8192 | Unused.
+16384 | Unused.
+32768 | Trap is sprung when an object is examined.
+
+=== Trap Types
+
+ --------------------------------------------------------------------
+ | Number | Description             | Number | Description          |
+ --------------------------------------------------------------------
+ |    1   | Poison gas              |    8   | Flame                |
+ |    2   | Poison dart             |    9   | Explosion            |
+ |    3   | Poison needle           |   10   | Acid Spray           |
+ |    4   | Poison dagger           |   11   | Electric Shock       |
+ |    5   | Poison arrow            |   12   | Blade                |
+ |    6   | Blindness gas           |   13   | Sex change spell     |
+ |    7   | Sleeping gas            |    0   | Generic trap         |
+ --------------------------------------------------------------------
+
+=== Resist/Immune/Suscept/Absorb Flags
+
+[Note: Don't use the numerical values, these are listed only for reference purposes in the slookup command]
+
+Players and NPCs can have resistance, immunity, susceptibility, or
+ability to absorb certain types of attacks. This is referred to
+as the "RISA" settings.
+
+Resistance to an attack reduced damage by 20%.
+Immunity reduces an attack's damage to 0.
+Susceptibility increases damage by 20%.
+Absorption heals the victim rather than damaging them.
+
+Value    | Text        | Details
+---------+-------------+-------------------------------------
+       0 | nothing     | RISA default value - no benefits etc.
+       1 | fire        | RISA for fire based attacks.
+       2 | cold        | RISA for cold based attacks.
+       4 | electricity | RISA for electricity based attacks.
+       8 | energy      | RISA for energy based attacks.
+      16 | blunt       | RISA for blunt weapons.
+      32 | pierce      | RISA for piercing weapons.
+      64 | slash       | RISA for slashing weapons.
+     128 | acid        | RISA for acid based attacks.
+     256 | poison      | RISA for poison.
+     512 | drain       | RISA for drain attacks.
+    1024 | sleep       | RISA for sleep spells.
+    2048 | charm       | RISA for charm spells.
+    4096 | hold        | RISA for hold spells.
+    8192 | nonmagic    | RISA for non-magical weapons.
+   16384 | plus1       | RISA for +1 weapons.
+   32768 | plus2       | RISA for +2 weapons.
+   65536 | plus3       | RISA for +3 weapons.
+  131072 | plus4       | RISA for +4 weapons.
+  262144 | plus5       | RISA for +5 weapons.
+  524288 | plus6       | RISA for +6 weapons.
+ 1048576 | magic       | RISA for magical weapons.
+ 2097152 | paralysis   | RISA for paralysis spells.
+ 4194304 | good        | RISA for good aligned attackers.
+ 8388608 | evil        | RISA for evil aligned attackers.
+16777216 | hack        | RISA for hacking weapons.
+33554432 | lash        | RISA for lashing weapons.

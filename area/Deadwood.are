@@ -1,0 +1,4548 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Town of Deadwood~
+Author          Unknown~
+Vnums           5900 5994
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        You hear a six shooter in the distance~
+ResetFreq       30
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        5900
+Keywords   tumbleweed weed m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Tumbleweed~
+Long       A tumbleweed trounces you.
+~
+Nattacks   1.000000
+Stats1     -400 0 60 100 150 250
+Stats2     2 19 10 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5901
+Keywords   gecko lizard m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Gecko~
+Long       A quick, brown lizard scurries across the road seeking shelter.
+~
+Desc       The Gecko is more afraid of you than you are of it.
+~
+Nattacks   1.000000
+Stats1     50 0 60 100 150 250
+Stats2     3 18 10 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5902
+Keywords   gecko lizard m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Gecko~
+Long       A quick, green lizard scurries across the road seeking shelter.
+~
+Desc       The Gecko is more afraid of you than you are of it.
+~
+Nattacks   1.000000
+Stats1     50 0 60 100 150 250
+Stats2     3 18 10 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5903
+Keywords   traveler man m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A man~
+Long       A traveler, wearing a long, black coat, heads toward Deadwood.
+~
+Desc       You see a suspicious looking man with close-set eyes and a gun strapped
+around his waist.
+~
+Nattacks   1.000000
+Stats1     -400 0 60 100 150 250
+Stats2     8 13 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5904
+Keywords   dog scrawny m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A starved dog~
+Long       A scrawny, half-starved dog is looking for food.
+~
+Nattacks   1.000000
+Stats1     -370 0 60 100 150 250
+Stats2     2 18 10 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5905
+Keywords   citizen m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The citizen~
+Long       A citizen of Deadwood walks with a purpose.
+~
+Nattacks   1.000000
+Stats1     300 0 60 100 150 250
+Stats2     4 17 9 0 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5906
+Keywords   citizen m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The citizen~
+Long       A citizen of Deadwood walks with a purpose.
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     4 17 9 0 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5907
+Keywords   sheriff lawman m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The lawman~
+Long       The sheriff of Deadwood is here keeping the peace.
+~
+Desc       The sheriff of Deadwood is one tough cookie. He keeps the outlaws on
+their toes, although he's been known to take a bribe or two in his 
+time.
+~
+Nattacks   3.000000
+Stats1     -500 0 60 100 150 250
+Stats2     30 0 -4 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5908
+Keywords   deputy sheriff m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The sheriff's assistant~
+Long       The deputy is milling around, waiting for his orders.
+~
+Desc       You see a tall, skinny man with a 'Deputy' badge pinned to his shirt. 
+His job is to provide back-up for the sheriff, but he's got a yellow 
+streak to him a mile long.
+~
+Nattacks   2.000000
+Stats1     -400 0 60 100 150 250
+Stats2     18 3 5 0 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5909
+Keywords   prisoner jailbird m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The jailbird~
+Long       A prisoner is here catching some zzzz's after a long night of drinking.
+~
+Nattacks   1.000000
+Stats1     400 0 60 100 150 250
+Stats2     4 17 9 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5910
+Keywords   prisoner jailbird m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The jailbird~
+Long       A prisoner is here awaiting sentencing for horse stealing.
+~
+Nattacks   1.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     4 17 9 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5911
+Keywords   Shopkeeper owner proprietor m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The owner~
+Long       The Proprietor stands here eyeing you suspiciously.
+~
+Desc       You see a man that isn't used to hard work as evidenced by his soft, 
+uncalloused hands.
+~
+Nattacks   2.000000
+Stats1     300 0 60 100 150 250
+Stats2     22 0 3 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+ShopData   5938 5940 5942 5943 5944 100 200 6 18
+#ENDMOBILE
+
+#MOBILE
+Vnum        5912
+Keywords   teller employee m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The teller~
+Long       An employee of the bank stands here with a bored expression.
+~
+Desc       The teller of the bank works long hours and is grossly underpaid. It is
+very difficult for him not to steal money from his employer. He is 
+waiting to help you make a transaction.
+~
+Nattacks   2.000000
+Stats1     -400 0 60 100 150 250
+Stats2     10 11 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5913
+Keywords   president m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The bank president~
+Long       The Bank President look at you with dollar signs in his eyes.
+~
+Desc       Before you is a man of incredible wealth as evidenced by the very LARGE
+rings he wears on his fingers. There is a pocket watch hanging from a 
+gold chain in his hand as he ticks off mentally how many dollars he is 
+making per minute.
+~
+Nattacks   2.000000
+Stats1     -700 0 60 100 150 250
+Stats2     23 0 2 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea wimpy~
+Affected   detect_invis detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5914
+Keywords   guard vault m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The vault guard~
+Long       A vault guard glares at you - daring you to steal the money.
+~
+Desc       You see before you a MASSIVE man trained to kill anyone that enters the
+vault without permission. He carries two colt 45's on his hip and has a
+permanent sneer on his face.
+~
+Nattacks   2.000000
+Stats1     -700 0 60 100 150 250
+Stats2     16 5 5 0 2 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5915
+Keywords   tanner owner shopkeeper m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The proprietor~
+Long       The owner is in permanent-haggle mode with a customer.
+~
+Desc       The owner of the Leatherworks looks haggard and deep lines etch his 
+face from years of hard work. The years of slaughtering animals for 
+their hides has left him with an unpleasant smell.
+~
+Nattacks   2.000000
+Stats1     250 0 60 100 150 250
+Stats2     18 2 5 0 3 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5916
+Keywords   rat huge m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The rat~
+Long       A HUGE rat turns his beady eyes towards YOU.
+~
+Nattacks   1.000000
+Stats1     -788 0 60 100 150 250
+Stats2     4 17 9 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea wimpy~
+Affected   detect_invis detect_hidden hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5917
+Keywords   blacksmith shopkeeper m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Smithy~
+Long       The Blacksmith is here banging on a very hot anvil.
+~
+Desc       Beads of sweat stream from this portly man's face. He spends hours each
+day turning steel into usable items for sale.
+~
+Nattacks   2.000000
+Stats1     -666 0 60 100 150 250
+Stats2     20 0 4 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_magic~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5918
+Keywords   horse clydesdale m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Clydesdale~
+Long       A large horse is here trying to avoid the BIG piles.
+~
+Nattacks   1.000000
+Stats1     600 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5919
+Keywords   horse stallion m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The stallion~
+Long       A beautiful black stallion rears up at you menacingly.
+~
+Nattacks   2.000000
+Stats1     -750 0 60 100 150 250
+Stats2     11 10 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5920
+Keywords   horse mare m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   resting~
+DefPos     sitting~
+Short      The mare~
+Long       A very pregnant mare is giving birth.
+~
+Nattacks   1.000000
+Stats1     350 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5921
+Keywords   veterinarian doctor m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The horse doctor~
+Long       A Veterinarian leans over the mare assisting her.
+~
+Desc       This animal doctor is nothing like Dr. Doolittle; he doesn't understand
+what the animals say. In fact, he doesn't even LIKE animals.
+~
+Nattacks   2.000000
+Stats1     -750 0 60 100 150 250
+Stats2     20 1 4 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_evil sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5922
+Keywords   mule harry m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Harry~
+Long       Harry, the talking mule, tries to engage you in conversation.
+~
+Desc       Kin to that OTHER talking mule, Harry will usually talk to anyone, 
+including himself.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     11 10 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5923
+Keywords   horse rider m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The horse~
+Long       A horse with a rider on his back saunters by.
+~
+Nattacks   1.000000
+Stats1     120 0 60 100 150 250
+Stats2     5 16 9 0 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5924
+Keywords   Preacher man m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The preacher~
+Long       A man of the cloth is here preaching to anyone who will listen.
+~
+Desc       You see a man dressed in his Sunday go-to-meeting clothes, rehearsing 
+his latest sermon to himself.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     22 0 3 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Affected   detect_evil detect_invis detect_hidden sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5925
+Keywords   congregation church-goer m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A church-goer~
+Long       One of the congregation members is waiting for the preacher.
+~
+Nattacks   1.000000
+Stats1     555 0 60 100 150 250
+Stats2     7 14 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Affected   detect_evil~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5926
+Keywords   member church-goer m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A church-goer~
+Long       A church member stands here with a casserole in her hands.
+~
+Nattacks   1.000000
+Stats1     550 0 60 100 150 250
+Stats2     5 16 9 0 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Affected   detect_evil~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5927
+Keywords   child church-goer m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A church-goer~
+Long       A young child, holding her bonnet in her hands, waits here.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     4 17 9 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Affected   detect_evil~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5928
+Keywords   child church-goer m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A church-goer~
+Long       A young child, with a penny for the tithe, waits here.
+~
+Nattacks   1.000000
+Stats1     1000 0 60 100 150 250
+Stats2     4 17 9 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea wimpy~
+Affected   detect_evil~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5929
+Keywords   buggy horse carriage m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The carriage~
+Long       A horse and buggy is tethered here.
+~
+Nattacks   1.000000
+Stats1     200 0 60 100 150 250
+Stats2     4 17 9 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5930
+Keywords   carriage carriage horse m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The carriage~
+Long       An elaborate and expensive carriage with two horses is tethered here.
+~
+Nattacks   1.000000
+Stats1     -500 0 60 100 150 250
+Stats2     9 13 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5931
+Keywords   sassy woman m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Miss Sassy~
+Long       Miss Sassy stands here expecting you to spend money.
+~
+Desc       This woman has worked hard to keep her saloon going in this wild town.
+She dresses in a most elegant fashion, has her hair piled high on her 
+head, and is smoking a fat cigar.
+~
+Nattacks   2.000000
+Stats1     -200 0 60 100 150 250
+Stats2     21 0 3 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_magic detect_hidden sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5932
+Keywords   girl dance m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The dance hall girl~
+Long       A dance hall girl stands here smiling at the patrons.
+~
+Nattacks   1.000000
+Stats1     -350 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5933
+Keywords   cowboy man m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The man~
+Long       A cowboy stands here with a shot of whiskey in his hand.
+~
+Nattacks   1.000000
+Stats1     320 0 60 100 150 250
+Stats2     8 13 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5934
+Keywords   cowboy man m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The cheater~
+Long       A man sits here at the table with an ace in his boot.
+~
+Nattacks   2.000000
+Stats1     -320 0 60 100 150 250
+Stats2     12 9 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5935
+Keywords   bartender m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The bartender~
+Long       The bartender glares at you as he waits for your order.
+~
+Desc       You see a man with a soiled apron around him wiping up the mess his 
+customers have made. A long scar runs down the length of his left cheek
+from an old knife wound. He wears a gun around his hips. Does he need 
+to remind YOU of the sign?
+~
+Nattacks   2.000000
+Stats1     -600 0 60 100 150 250
+Stats2     21 0 3 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis iceshield~
+Bodyparts  head arms legs heart~
+ShopData   5932 5933 5935 5936 5937 100 200 6 18
+#ENDMOBILE
+
+#MOBILE
+Vnum        5936
+Keywords   snake python m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The python~
+Long       A python is here waiting to squeeze the life out of you.
+~
+Desc       This is one of the longest snakes you've ever seen. He's Miss Sassy's 
+personal bodyguard.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     24 0 1 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   blind detect_evil detect_hidden sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5937
+Keywords   drunk man m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     resting~
+Short      The drunk~
+Long       A man who reeks of beer is here sleeping soundly.
+~
+Nattacks   1.000000
+Stats1     400 0 60 100 150 250
+Stats2     5 16 9 0 2 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5938
+Keywords   fanny madam m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     resting~
+Short      The Madam~
+Long       Fanny is here and knows what you like.
+~
+Desc       You see a woman dressed in a silver-sequined gown and silver high 
+heels. Although fine lines are prominent in her face, the make-up is 
+professional. Her manicured, long nails are painted bright red. A 
+former call-girl, she now runs her own successful business.
+~
+Nattacks   2.000000
+Stats1     370 0 60 100 150 250
+Stats2     21 0 3 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5939
+Keywords   lady hooker m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The hooker~
+Long       A lady of the evening is here flirting with you.
+~
+Desc       She's waiting for YOU and insists on safe sex.
+~
+Nattacks   1.000000
+Stats1     -370 0 60 100 150 250
+Stats2     9 12 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5940
+Keywords   lady hooker m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   sitting~
+DefPos     resting~
+Short      The hooker~
+Long       A lady of the evening is mad at you for interrupting here.
+~
+Desc       This 'lady' is conducting business and is very disturbed that you have 
+entered the room without and invitation. Is that a gun she's holding?
+~
+Nattacks   1.000000
+Stats1     -370 0 60 100 150 250
+Stats2     7 14 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5941
+Keywords   man john m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The john~
+Long       A man stands here trying to procure the lady's services.
+~
+Desc       A very ordinary looking man, he's also very horny. He stares lustily at
+the ladies trying to decide among them.
+~
+Nattacks   1.000000
+Stats1     320 0 60 100 150 250
+Stats2     7 14 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5942
+Keywords   man john m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     resting~
+Short      The john~
+Long       The customer screams at you for interrupting him.
+~
+Desc       This man is pissed off! Since time is money, you are spending his money
+and wasting his time by being here.
+~
+Nattacks   2.000000
+Stats1     -355 0 60 100 150 250
+Stats2     10 11 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5943
+Keywords   clerk telegraph m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The telegraph operator~
+Long       The telegraph clerk is here tapping on his machine.
+~
+Nattacks   2.000000
+Stats1     300 0 60 100 150 250
+Stats2     10 11 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5944
+Keywords   clerk m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The clerk~
+Long       A clerk stands here collecting stagecoach fares.
+~
+Desc       The stagecoach clerk looks very busy and barely keeps up with the 
+requests to leave town.
+~
+Nattacks   2.000000
+Stats1     300 0 60 100 150 250
+Stats2     10 11 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5945
+Keywords   maid cleaning m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The cleaning woman~
+Long       A maid stands here swirling her duster at the dust.
+~
+Nattacks   1.000000
+Stats1     400 0 60 100 150 250
+Stats2     7 14 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5946
+Keywords   bird ostrich m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The ostrich~
+Long       A large bird stands staring at you.
+~
+Desc       This bird is grey and black and has very long legs. His beak is sharp 
+and he can outrun you.
+~
+Nattacks   3.000000
+Stats1     320 0 60 100 150 250
+Stats2     25 -1 0 0 4 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5947
+Keywords   teacher schoolmarm m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The schoolmarm~
+Long       The town's only teacher is here looking for her pupils.
+~
+Desc       She is very young and looks as if she should still be in school, too. 
+Her clothes are simple and her brown hair is tied back in a bun.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     21 0 3 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5948
+Keywords   child kid m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   sitting~
+DefPos     resting~
+Short      The child~
+Long       A child sits here quietly listening to the teacher.
+~
+Nattacks   1.000000
+Stats1     500 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5949
+Keywords   child kid m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The child~
+Long       A child is running across the playground.
+~
+Nattacks   1.000000
+Stats1     500 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5950
+Keywords   bully kid child m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The kid~
+Long       A teenage kid is here harassing the other children.
+~
+Desc       Apparently, this kid plans to make a career of staying in school, since
+he has been here several years already.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     10 11 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5951
+Keywords   girl child m059~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   sitting~
+DefPos     resting~
+Short      The girl~
+Long       A girl sits on the ground crying pitifully.
+~
+Nattacks   2.000000
+Stats1     500 0 60 100 150 250
+Stats2     16 5 5 0 2 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5952
+Keywords   kid child m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The kid~
+Long       A kid stands here fishing instead of being in school.
+~
+Nattacks   1.000000
+Stats1     300 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5953
+Keywords   kid child m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   resting~
+DefPos     resting~
+Short      The kid~
+Long       A child lies in the sun with a straw dangling from his lips.
+~
+Desc       This boy reminds you of your brother. He should be in school, but it's 
+hard to concentrate on such a fine day as this.
+~
+Nattacks   1.000000
+Stats1     500 0 60 100 150 250
+Stats2     6 15 9 0 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger wimpy~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5954
+Keywords   undertaker coffin-maker m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The coffin-maker~
+Long       An undertaker is here waiting to fill his coffins.
+~
+Desc       Very tall and thin, the undertaker has a sense of humor that no one 
+appreciates since all his jokes refer to the dead.
+~
+Nattacks   3.000000
+Stats1     -300 0 60 100 150 250
+Stats2     30 0 -4 0 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5955
+Keywords   ghost apparition m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The apparition~
+Long       A ghost of someone long-dead roams the cemetary.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     13 8 6 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5956
+Keywords   turd monster m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The turd monster~
+Long       A HUGE, brown, smelly turd stands here waiting for an unlucky victim.
+~
+Desc       This vile-smelling creature lives in the bottom of the outhouse holes. 
+Although blind and deaf, this turd is just like the blob that ate New 
+York - it knows where you are!
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     31 -5 -5 0 6 0 60
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive stayarea~
+Affected   blind detect_hidden sanctuary sneak~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5957
+Keywords   pegleg dog m059~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Dog~
+Long       Pegleg stands here on his three legs scrounging for food.
+~
+Desc       This dog has definitely seen better days. He limps along on three legs,
+begging for handouts and stealing whatever he can find.
+~
+Nattacks   2.000000
+Stats1     -125 0 60 100 150 250
+Stats2     11 8 7 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger aggressive stayarea wimpy~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        5958
+Keywords   man cowboy m059~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The cowboy~
+Long       A cowboy sits here at the table with a royal flush in his hand.
+~
+Nattacks   1.000000
+Stats1     250 0 60 100 150 250
+Stats2     8 13 8 0 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        5900
+Keywords   boots cowboy o059~
+Type       armor~
+Short      a pair of cowboy boots~
+Long       some old boots have been left to rot.~
+WFlags     take feet~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      1 100 0 9999 0 None None None
+AffData    move 5 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5901
+Keywords   badge star o059~
+Type       treasure~
+Short      a tin star~
+Long       A sheriff's badge lies here.~
+Flags      antineutral~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+AffData    Intelligence -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5902
+Keywords   ring tin o059~
+Type       treasure~
+Short      a tin ring~
+Long       A cheap tin ring has been discarded.~
+Flags      hum antineutral~
+WFlags     take finger~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 50 0 9999 0 None None None
+AffData    Dexterity 2 -1 -1 0
+#EXDESC
+ExDescKey  ring~
+ExDesc     An inscription reads "made of cheap materials"
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5903
+Keywords   pocket watch o059~
+Type       armor~
+Short      a pocket watch~
+Long       An old-fashioned pocket watch ticks here.~
+Flags      glow~
+WFlags     take face~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 700 0 9999 0 None None None
+AffData    hit 15 -1 -1 0
+AffData    move -5 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5904
+Keywords   coins pile o059~
+Type       money~
+Short      a large pile of coins~
+Long       A large pile of coins is here. Well, what did you expect?~
+WFlags     take~
+Values     5000 0 0 0 0 0 0 0 0 0 0
+Stats      50 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5905
+Keywords   monacle o059~
+Type       treasure~
+Short      a monacle~
+Long       A small round piece of glass has been dropped here.~
+Flags      nodrop~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 400 0 9999 0 None None None
+AffData    Wisdom 3 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+AffData    Dexterity -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5906
+Keywords   collar white o059~
+Type       armor~
+Short      a white cleric collar~
+Long       A white collar lies here, neatly starched.~
+Flags      antievil antineutral~
+WFlags     take neck~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      1 350 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5907
+Keywords   feather ostrich o059~
+Type       boat~
+Short      a fancy feather~
+Long       A large ostrich feather blows in the breeze.~
+Flags      glow hum invis~
+WFlags     take head~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      0 5000 0 9999 0 None None None
+AffData    armor -18 -1 -1 0
+AffData    damroll 1 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData affected  'flying' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5908
+Keywords   bone o059~
+Type       trash~
+Short      a gnawed bone~
+Long       It looks like some dog left his chew toy here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  bone~
+ExDesc     This bone lookes rather well chewed on.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5909
+Keywords   crap pile o059~
+Type       treasure~
+Short      a pile of crap~
+Long       A large pile of CRAP has been deposited here by someone, possibly YOU.~
+Flags      antievil~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      5 4000 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+#EXDESC
+ExDescKey  crap pile~
+ExDesc     WHOOOOOWEEEEE! This sucker sure does stink.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5910
+Keywords   hoops o059~
+Type       armor~
+Short      a pair of silver hoops~
+Long       Some semi-circular pieces of silver lie here.~
+WFlags     take ears~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      1 400 0 9999 0 None None None
+AffData    mana 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5911
+Keywords   anvil o059~
+Type       treasure~
+Short      an anvil~
+Long       The blacksmith's anvil is resting here.~
+Flags      nodrop~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      18 300 0 9999 0 None None None
+AffData    move -20 -1 -1 0
+AffData    Strength 2 -1 -1 0
+AffData    mana -30 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5912
+Keywords   bowie knife o059~
+Type       weapon~
+Short      a Bowie knife~
+Long       A very large knife is stuck in the wall.~
+Flags      antievil~
+WFlags     take wield hold~
+Values     0 2 8 1 0 0 0 0 0 0 0
+Stats      8 1200 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5913
+Keywords   mask surgical o059~
+Type       treasure~
+Short      a surgical mask~
+Long       A stained piece of gauze with straps is balled in the corner.~
+Flags      antievil~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1400 0 9999 0 None None None
+AffData    hitroll -2 -1 -1 0
+AffData    damroll 1 -1 -1 0
+AffData    Dexterity 1 -1 -1 0
+AffData    Intelligence 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5914
+Keywords   sapling o059~
+Type       treasure~
+Short      a firm sapling~
+Long       It looks like someone has cut a large twig and stripped the bark from it.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      2 50 0 9999 0 None None None
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5915
+Keywords   casserole o059~
+Type       treasure~
+Short      a casserole~
+Long       This casserole smells funny.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 2 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5916
+Keywords   handkerchief o059~
+Type       treasure~
+Short      a handkerchief~
+Long       An intricately embroidered square of cloth waits for a nose.~
+Flags      hum~
+WFlags     take face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 30 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5917
+Keywords   escargo snail o059~
+Type       treasure~
+Short      some almost-live escargo~
+Long       A tired snail treks onward.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  escargo~
+ExDesc     Just a fancy name for a slimy snail! Ewwwwww!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5918
+Keywords   wheelbarrow o059~
+Type       container~
+Short      a wheelbarrow~
+Long       A wheelbarrow with a broken handle rests here.~
+Values     5000 0 0 10 0 0 0 0 0 0 0
+Stats      1000 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5919
+Keywords   pitchfork o059~
+Type       weapon~
+Short      a pitchfork~
+Long       A rusted pitchfork leans against the wall.~
+WFlags     wield~
+Values     0 10 10 6 0 0 0 0 0 0 0
+Stats      10000 10000 0 9999 0 None None None
+AffData    mana 50 -1 -1 0
+AffData    hit 50 -1 -1 0
+AffData    damroll 5 -1 -1 0
+AffData    save_all -5 -1 -1 0
+AffData    affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  pitchfork~
+ExDesc     MAN... don't you wish you could pick up this puppy!!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5920
+Keywords   paper o059~
+Type       trash~
+Short      a slip of paper~
+Long       Someone has discarded a small slip of paper.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  paper~
+ExDesc     Fanny's: where real men are made!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5921
+Keywords   gun pistol revolver o059~
+Type       weapon~
+Short      a small revolver~
+Long       Looks like someone didn't think much of this pistol.~
+WFlags     take wield~
+Values     0 2 5 6 0 0 0 0 0 0 0
+Stats      5 5 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5922
+Keywords   gloves o059~
+Type       treasure~
+Short      a pair of rubber gloves~
+Long       A rather slimey pair of gloves have been tossed in the corner.~
+WFlags     take hands~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      3 30 0 9999 0 None None None
+AffData    Dexterity -1 -1 -1 0
+AffData    Constitution 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5923
+Keywords   coin o059~
+Type       money~
+Short      one gold coin~
+Long       One lousy stinking gold coin has been dropped here.~
+WFlags     take~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5924
+Keywords   key k059~
+Type       key~
+Short      a worn key~
+Long       Someone seems to have misplaced their keys.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 3 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5925
+Keywords   key k059~
+Type       key~
+Short      a large key~
+Long       Hmmmm, wonder what this key is for?~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5926
+Keywords   key k059~
+Type       key~
+Short      a intricately carved silver key~
+Long       What's that shiny object lying on the ground.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 3 0 0 0 0 0
+Stats      2 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5927
+Keywords   key k059~
+Type       key~
+Short      a key~
+Long       A key has been carelessly left here.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5928
+Keywords   key k059~
+Type       key~
+Short      a small heart-shaped key~
+Long       Looks like someone has lost their heart.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5929
+Keywords   key k059~
+Type       key~
+Short      a very realistic carving of a derringer~
+Long       What luck. you've found a gun.~
+Flags      hum~
+WFlags     take~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      1 100000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5930
+Keywords   pumps heels o059~
+Type       armor~
+Short      shimmering pumps~
+Long       Fanny seems to have forgotten her high heels~
+Flags      glow~
+WFlags     take feet~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      2 600 0 9999 0 None None None
+AffData    move -5 -1 -1 0
+AffData    hitroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        5931
+Keywords   hole o059~
+Type       container~
+Short      a mouse hole~
+Long       You see what looks like a cozy, comfortable mouse hole - just right for a 
+country mouse.~
+Values     10 0 0 10 0 0 0 0 0 0 0
+Stats      1000000 1000000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5932
+Keywords   sasparilla o059~
+Type       drinkcon~
+Short      a sasparilla~
+Long       A sasparilla with a foamy head is waiting for you to drink it.~
+WFlags     take~
+Values     2 2 1 0 0 0 0 0 0 0 0
+Stats      2 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5933
+Keywords   root-beer beer o059~
+Type       drinkcon~
+Short      a root-beer~
+Long       A frosty glass of root-beer is going flat.~
+WFlags     take~
+Values     1 1 15 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5934
+Keywords   doll plastic o059~
+Type       trash~
+Short      a life-sized plastic blow-up doll~
+Long       A pile of plastic lies here waiting to be blown up.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  doll plastic~
+ExDesc     The ladies will love this one! It's anatomically correct.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        5935
+Keywords   rum shot o059~
+Type       drinkcon~
+Short      a shot of rum~
+Long       A shot glass full of brown liquid is here.~
+WFlags     take~
+Values     1 1 5 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5936
+Keywords   bottle moonshine o059~
+Type       drinkcon~
+Short      a bottle of moonshine~
+Long       A bottle of clear liquid looks inviting.~
+WFlags     take~
+Values     3 3 7 0 0 0 0 0 0 0 0
+Stats      3 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5937
+Keywords   cigarettes package o059~
+Type       treasure~
+Short      some cigarettes~
+Long       A package of homemade "cigarettes" are lying here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5938
+Keywords   coffee beans o059~
+Type       food~
+Short      a bag of coffee beans~
+Long       A bag of coffee beans pleases your olfactory senses.~
+WFlags     take~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      5 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5940
+Keywords   elixer o059~
+Type       potion~
+Short      Jo's Fix-It Elixer~
+Long       A multi-colored bottle has been carelessly discarded.~
+Flags      magic~
+WFlags     take~
+Values     14 -1 -1 -1 0 0 0 0 0 0 0
+Stats      3 200 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5941
+Keywords   colt-45 revolver gun o059~
+Type       weapon~
+Short      a Colt-45~
+Long       A Colt-45 revolver is lying here.~
+Flags      nodrop~
+WFlags     take wield~
+Values     0 3 5 6 0 0 0 0 0 0 0
+Stats      9 20 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5942
+Keywords   potion o059~
+Type       potion~
+Short      Lana's Laxative~
+Long       A funny looking potion has been left here.~
+Flags      hum~
+WFlags     take~
+Values     0 -1 -1 -1 0 0 0 0 0 0 0
+Stats      2 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5943
+Keywords   greeting card o059~
+Type       paper~
+Short      a greeting card~
+Long       A greeting card beckons you to write on it.~
+WFlags     take~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        5944
+Keywords   pencil o059~
+Type       pen~
+Short      a crude pencil~
+Long       A crudely made pencil is lying here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        5900
+Name       A Dusty Road~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are traveling along a dusty road. You see nothing but a few
+scraggly trees and a small lizard scrambling for cover. The road
+continues in a northerly direction.
+~
+#EXIT
+Direction  North~
+ToRoom     5901
+Desc       The road continues on.
+~
+#ENDEXIT
+Reset M    5900 8 5900 -1 -1 -1 100
+Reset M    5900 8 5900 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5901
+Name       A Dusty Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You continue along a dusty road. As you walk, the wind picks up and 
+a tumbleweed rolls by.
+~
+#EXIT
+Direction  South~
+ToRoom     5900
+Desc       You see a dusty road,
+~
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     5902
+Desc       The road turns here.
+~
+#ENDEXIT
+Reset M    5900 8 5901 -1 -1 -1 100
+Reset M    5900 8 5901 -1 -1 -1 100
+Reset M    5901 8 5901 -1 -1 -1 100
+Reset M    5902 8 5901 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5902
+Name       Turn in the road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The road turns to the north here. You still don't see much except
+maybe a couple of rocks and small lizards.
+~
+#EXIT
+Direction  North~
+ToRoom     5903
+Desc       You see a wooden sign up ahead.
+~
+#ENDEXIT
+#EXIT
+Direction  Southwest~
+ToRoom     5901
+Desc       You see a dusty road.
+~
+#ENDEXIT
+Reset M    5901 8 5902 -1 -1 -1 100
+Reset M    5902 8 5902 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5903
+Name       Entrance to Deadwood~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are now at the entrance to Deadwood. There is a wooden sign
+here. To the northwest you can see the Sheriff's office, and to the
+northeast you can see what appears to be a store. In the distance, you
+see a couple of very scrawny dogs looking for a handout. Walking north
+will take you further into town.
+~
+#EXIT
+Direction  North~
+ToRoom     5904
+Desc       You see the road leading into town.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5902
+Desc       The road turns here.
+~
+#ENDEXIT
+Reset M    5903 2 5903 -1 -1 -1 100
+  Reset E  5941 5 16 100
+  Reset E  5900 8 8 40
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to Deadwood ----- TURN BACK IF YOU VALUE YOUR LIFE!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5904
+Name       Main Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking down the main street of Deadwood. To the west you 
+see the Sheriff's office, and to the east you see the General Store.
+~
+#EXIT
+Direction  North~
+ToRoom     5910
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5909
+Desc       You see the General Store.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5903
+Desc       You see a wooden sign to the south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5905
+Key        5924
+Desc       You see the Sheriff's Office.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5904 10 5904 -1 -1 -1 100
+Reset M    5904 10 5904 -1 -1 -1 100
+Reset D    5904 1 1 100 -2
+Reset D    5904 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5905
+Name       The Sheriff's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The Sheriff is here sitting behind the desk with his feet propped up
+and his hat pulled low over his eyes, apparently snoozing. The smell 
+of cigar smoke hangs heavy in the air. In the corner you see a
+scratched and battered gun cabinet filled with a variety of weapons.
+There are two jail cells towards the back of the office.
+~
+#EXIT
+Direction  North~
+ToRoom     5992
+Desc       You can see a door leading to the gallows.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5904
+Key        5924
+Desc       You see the door leading to the main street.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5906
+Desc       You see a small hallway to the cells.
+~
+#ENDEXIT
+Reset M    5907 1 5905 -1 -1 -1 85
+  Reset E  5901 8 5 20
+  Reset G  5924 3 100
+  Reset G  5925 3 100
+Reset M    5908 2 5905 -1 -1 -1 100
+  Reset E  5902 15 1 25
+Reset D    5905 1 2 100 -2
+#EXDESC
+ExDescKey  desk~
+ExDesc     You see nothing special about the desk.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5906
+Name       The Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are in a small hallway separating the jail cells, with one
+cell to the north and another to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     5908
+Key        5925
+Desc          The light here is dim and the cell is permeated with the order of 
+stale whiskey. This cell faces the cell to the south.  As you look
+through the bars of the jail cell, you see a cot to one side with a 
+rough, gray blanket on top. There is a square opening on the back wall
+the size of a small window covered with bars to prevent escape.
+~
+Keywords   cell door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5905
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5907
+Key        5925
+Desc          The light here is dim and the cell has a sweaty odor. This cell
+faces the cell to the north.  As you look through the bars of the jail
+cell, you see a cot to one side with a rough, gray blanket on the top. 
+There is a square opening on the back wall the size of a small window
+covered with bars to prevent escape. You see a prisoner in the cell.
+~
+Keywords   cell door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    5906 0 2 100 -2
+Reset D    5906 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5907
+Name       Cell~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The cell doesn't look much different than it did from outside the 
+bars, but the smell of whiskey is now almost overpowering.
+~
+#EXIT
+Direction  North~
+ToRoom     5906
+Key        5925
+Keywords   cell door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5909 1 5907 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5908
+Name       Cell~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The cell doesn't look much different than it did from outside the 
+bars.  The prisoner here doesn't seem too happy about you disturbing 
+him.
+~
+#EXIT
+Direction  North~
+ToRoom     5908
+Desc       This window provides an EXCELLENT view of the gallows to the north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5906
+Key        5925
+Keywords   cell door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5910 1 5908 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5909
+Name       General Store~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          As you open the door, a bell attached to it rings, alerting the 
+owner of your presence. The sun streams through the windows giving 
+light as well as cheer to the place. There are many items here, all
+arranged neatly on shelves and cabinets.
+~
+#EXIT
+Direction  West~
+ToRoom     5904
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5911 1 5909 -1 -1 -1 100
+  Reset G  5938 99 100
+  Reset G  5940 99 100
+  Reset G  5942 99 100
+  Reset G  5943 99 100
+  Reset G  5944 99 100
+#ENDROOM
+
+#ROOM
+Vnum        5910
+Name       Main Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is the main street of the town. Along the sides of the street,
+you can see many buildings. You can faintly hear music and laughter 
+from somewhere ahead of you. To the east you see a Leather Works and to
+the west is the Deadwood Bank.
+~
+#EXIT
+Direction  North~
+ToRoom     5916
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5915
+Desc       The Leather Works.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5904
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5911
+Key        5926
+Desc       The Bank.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5905 10 5910 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5905 10 5910 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5910 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5910 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset D    5910 1 1 100 -2
+Reset D    5910 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5911
+Name       Deadwood Bank~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The bank is made of brick and looks very sturdy. Light comes from 
+several kerosene lamps attached to the walls around the room. In front
+of you are three teller cages, each with a person in it with a stern 
+expression on their face. A customer stands at the middle cage making
+a money transaction. Through the teller cages you see a massive metal
+door standing slightly ajar that you assume is a vault. There are two
+uniformed security guards, each with a holstered .45 on their hip,
+standing by the vault. By the way they look, you know only authorized
+personnel are allowed in. There is a waist-high swinging door to the
+west that leads to the teller cages.
+~
+#EXIT
+Direction  East~
+ToRoom     5910
+Key        5926
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5912
+Key        5927
+Desc       The Teller Cages.
+~
+Keywords   swinging door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    5911 1 1 100 -2
+Reset D    5911 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5912
+Name       Teller Cage~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There are three sectioned-off areas where the tellers stand waiting 
+to conduct business with a customer. Jail-like bars make up the front
+of the cage to protect the tellers from dissatisfied customers. Each 
+teller has in front of them a cash box filled with money for the day's 
+business. Arranged in rows along the back wall are file cabinets filled
+with papers. To the north there is a door leading to another room with 
+a  sign on it that says "President". You see the vault in the back and 
+can't help wondering how much money is kept in there.
+~
+#EXIT
+Direction  North~
+ToRoom     5913
+Desc       The President's Office.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5911
+Key        5927
+Keywords   swinging door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5914
+Key        5926
+Desc       The Vault
+~
+Keywords   vault~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5912 3 5912 -1 -1 -1 100
+  Reset G  5927 3 100
+Reset M    5912 3 5912 -1 -1 -1 100
+  Reset G  5927 3 100
+Reset D    5912 0 1 100 -2
+Reset D    5912 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5913
+Name       President's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As you enter the room, you see a large desk made of cherrywood that 
+has been waxed to a high shine. A sign on the desk indicates that this 
+is the president's desk. An apple with one bite taken out sits on the 
+left side of the desk. There is a comfortable leather chair behind the
+desk and two wooden chairs in front of it. The room is brightly lit and
+as you glance out the north window, you can see a stable full of 
+horses.
+~
+#EXIT
+Direction  South~
+ToRoom     5912
+Desc       Teller cages.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5913 1 5913 -1 -1 -1 95
+  Reset E  5903 8 5 20
+  Reset E  5905 8 23 20
+  Reset G  5926 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5914
+Name       Bank Vault~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A massive steel, granite-colored door guards the entrance to the 
+vault. It stands slightly open to allow access to the money by the 
+tellers. There are no windows in this large room and the only 
+available light is made by two lanterns. You see row upon row of neatly
+stacked paper money all around you. There are also several boxes lining
+part of one wall holding rolled up coins. The file cabinets contain 
+papers that you assume are gold and silver certificates.
+~
+#EXIT
+Direction  East~
+ToRoom     5912
+Key        5926
+Desc       Teller cages.
+~
+Keywords   vault~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5914 4 5914 -1 -1 -1 100
+  Reset G  5920 4 100
+  Reset G  5921 50 100
+Reset M    5914 4 5914 -1 -1 -1 100
+  Reset G  5920 4 100
+  Reset G  5921 50 100
+Reset M    5914 4 5914 -1 -1 -1 100
+  Reset G  5920 4 100
+  Reset G  5921 50 100
+Reset M    5914 4 5914 -1 -1 -1 100
+  Reset G  5920 4 100
+  Reset G  5921 50 100
+Reset O    5904 1 5914 -1 -1 -1 50
+#ENDROOM
+
+#ROOM
+Vnum        5915
+Name       Leather Works~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The smell of leather permeates your nose, and there is a also the 
+slight smell of blood in the air. Since you can hear the sounds of 
+cattle in the background, you assume that the Leather Works doubles as 
+a slaughterhouse. There are tools for tanning the hides to one side and
+tools for making the tanned hide into what a customer wants. Pieces of
+leather lay around in various stages of completion. You are astounded 
+by the excellent workmanship of the leather items. On cabinets to one
+side are finished leather chaps, leather wallets, leather shoes, 
+leather vests, saddles, etc., waiting to be bought.
+~
+#EXIT
+Direction  West~
+ToRoom     5910
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5905 10 5915 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5915 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5915 1 5915 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5916
+Name       Main Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The street continues north and south with exits leading to an alley 
+east and west. You see a dog scrounging for food to the east, with 
+another following close behind.
+~
+#EXIT
+Direction  North~
+ToRoom     5932
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5926
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5910
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5917
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5917
+Name       Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the beginning of a narrow, garbage-strewn alley. There is
+a three-legged dog here that looks as if he hasn't eaten in days, with 
+another close behind that snarls at you when you enter the alley.
+~
+#EXIT
+Direction  East~
+ToRoom     5916
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5918
+#ENDEXIT
+Reset M    5904 10 5917 -1 -1 -1 100
+Reset M    5904 10 5917 -1 -1 -1 100
+Reset M    5957 1 5917 -1 -1 -1 100
+  Reset G  5908 8 40
+#ENDROOM
+
+#ROOM
+Vnum        5918
+Name       Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have reached the end of the alley. Looking south you see the 
+Smithy, and to your north are some stables. You feel something cross
+your shoe and, when you look down, you see a rat the size of a 
+housecat. He must have been feeding on all the garbage in here.
+~
+#EXIT
+Direction  North~
+ToRoom     5920
+Desc       The Stables.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5917
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5919
+Desc       The Smithy.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5916 10 5918 -1 -1 -1 100
+Reset D    5918 0 1 100 -2
+Reset D    5918 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5919
+Name       Smithy~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You have entered a barn-like structure that contains an anvil and a 
+very hot fire. There are horseshoes lying around the dirt floor and on 
+the walls. One horseshoe on the wall is turned with the open side
+facing up, for good luck. You see the Smithy at the anvil banging on a
+piece of hot metal.
+~
+#EXIT
+Direction  North~
+ToRoom     5918
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5917 1 5919 -1 -1 -1 100
+  Reset G  5911 8 30
+#ENDROOM
+
+#ROOM
+Vnum        5920
+Name       Deadwood Stables~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This looks like any other stable you've seen. The dirt floor is
+littered with remnants of hay, and there are several hay bales to one 
+side. There is a pitchfork jammed into one of the bales, and a shovel 
+lies on the floor next to the entrance.
+~
+#EXIT
+Direction  North~
+ToRoom     5923
+Desc       More Stables.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5922
+Desc       Stall.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5918
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5921
+Desc       Stall.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5921
+Name       Stall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This horse is HUGE, one of the biggest you've ever seen. The stall
+is almost too small for it. Watch your step - there's a few BIG piles 
+of dark material on the floor.
+~
+#EXIT
+Direction  East~
+ToRoom     5920
+#ENDEXIT
+Reset M    5918 1 5921 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5922
+Name       Stall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The horse rears up at you as you enter. He's not very friendly, it 
+seems. There is a food trough to one side filled with a mixture of 
+oats, corn, barley, and hay.
+~
+#EXIT
+Direction  West~
+ToRoom     5920
+#ENDEXIT
+Reset M    5919 1 5922 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5923
+Name       More of the Stable~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A wheelbarrow, with one of the handles broken half off, rests on 
+its side near the north wall. East and west lead to more horse stalls.
+~
+#EXIT
+Direction  East~
+ToRoom     5925
+Desc       Stall.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5920
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5924
+Desc       Stall.
+~
+#ENDEXIT
+Reset O    5918 1 5923 -1 -1 -1 100
+Reset O    5919 1 5923 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5924
+Name       Stall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This stall contains a very-pregnant mare who is about to give birth.
+She whinnies at you as you enter. The veterinarian is here waiting to 
+assist the mare.
+~
+#EXIT
+Direction  East~
+ToRoom     5923
+#ENDEXIT
+Reset M    5920 1 5924 -1 -1 -1 100
+Reset M    5921 1 5924 -1 -1 -1 100
+  Reset E  5922 8 9 25
+#ENDROOM
+
+#ROOM
+Vnum        5925
+Name       Stall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There is a long-eared horse in this stall. Upon closer examination, 
+you notice that it is a mule! I wonder if he will talk to you.
+~
+#EXIT
+Direction  West~
+ToRoom     5923
+#ENDEXIT
+Reset M    5922 1 5925 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5926
+Name       Entering the Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the beginning of a narrow alley. Exits lead east and
+west.
+~
+#EXIT
+Direction  East~
+ToRoom     5927
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5916
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5927
+Name       Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The alley continues here. Looking north, you see the preacher's 
+house and to the east more alley.
+~
+#EXIT
+Direction  North~
+ToRoom     5928
+Desc       A house.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5929
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5926
+#ENDEXIT
+Reset M    5904 10 5927 -1 -1 -1 100
+Reset M    5904 10 5927 -1 -1 -1 100
+Reset D    5927 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5928
+Name       Preacher's House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You enter the small, but cheerful, home of the town preacher. There 
+is a black, cast-iron, wood-burning stove in one corner used for 
+cooking and heating. A wooden table with four sturdy chairs stands near
+the stove, and a vase of fresh red and yellow roses adorns the center 
+of it. You see a mouse hole in the west wall.
+~
+#EXIT
+Direction  South~
+ToRoom     5927
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5924 1 5928 -1 -1 -1 100
+  Reset E  5906 15 3 20
+Reset O    5931 1 5928 -1 -1 -1 100
+  Reset P  0 5923 1 5931 100
+#ENDROOM
+
+#ROOM
+Vnum        5929
+Name       The end of the Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have reached the end of the alley. To the north is the church 
+and to the south you see a small open field.
+~
+#EXIT
+Direction  North~
+ToRoom     5930
+Desc       A Church.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5931
+Desc       You see what looks like a hitching post to the south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5927
+#ENDEXIT
+Reset D    5929 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5930
+Name       Church of Deadwood~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The interior of the church has been kept very clean. It smells very 
+much like a forest of fir trees, and many stained-glass windows provide
+an excellent light source for the congregation. There are several rows 
+of pews on either side of an aisle leading to the pulpit. The walls are
+devoid of any decoration.
+~
+#EXIT
+Direction  South~
+ToRoom     5929
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5924 1 5930 -1 -1 -1 85
+  Reset E  5906 15 3 20
+Reset M    5925 4 5930 -1 -1 -1 100
+Reset M    5926 4 5930 -1 -1 -1 100
+  Reset G  5915 4 100
+Reset M    5927 2 5930 -1 -1 -1 100
+Reset M    5928 2 5930 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5931
+Name       Hitching Post~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This field is an area for the congregation to tether their horses
+and park their buggies while attending church.
+~
+#EXIT
+Direction  North~
+ToRoom     5929
+#ENDEXIT
+Reset M    5925 4 5931 -1 -1 -1 100
+Reset M    5926 4 5931 -1 -1 -1 100
+  Reset G  5915 4 100
+Reset M    5929 4 5931 -1 -1 -1 100
+Reset M    5930 2 5931 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5932
+Name       Center of Town~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have reached the center of the town. You see a public drinking 
+well with a rope and bucket attached to it. You wonder how deep it is. 
+There is a sign to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     5951
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5942
+Desc       Fanny's.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5916
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5933
+Desc       The Saloon.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5979
+Desc       It's dark down there.
+~
+#ENDEXIT
+Reset M    5905 10 5932 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5905 10 5932 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5932 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5932 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5923 6 5932 -1 -1 -1 100
+Reset D    5932 1 1 100 -2
+Reset D    5932 3 1 100 -2
+#EXDESC
+ExDescKey  sign~
+ExDesc     WELCOME TO FANNY'S.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5933
+Name       The Bad Penny Saloon~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The air is filled with smoke that hovers in blue clouds around the 
+tables. There is boisterous laughter and the general din of
+conversation all around you. In the corner near a door leading west
+is a man playing a well-worn, black piano. Several of the tables are
+filled with stern-faced cowboys playing cards - their expressions not 
+betraying their hand. Close to a few of the tables are large metal 
+vase-type containers, which you guess can only be spittoons - *YUK*!!
+   Many of the dancehall girls linger around the tables cheering the 
+players. You see Miss Sassy, the owner of this lively place, overseeing
+the saloon. A sign in red bold letters on the wall catches your 
+attention. You notice some stairs here also. Behind the bar, you see 
+rows of bottles framed by a long mirror on the wall. As you swagger up 
+to the long counter, the bartender asks, "What'll it be partner?".
+~
+#EXIT
+Direction  East~
+ToRoom     5932
+Desc       center of town.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5934
+Key        5929
+Desc       office.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5935
+Desc       The Balcony.
+~
+#ENDEXIT
+Reset M    5931 1 5933 -1 -1 -1 100
+  Reset E  5910 8 19 20
+  Reset G  5929 3 100
+Reset M    5932 3 5933 -1 -1 -1 100
+Reset M    5933 1 5933 -1 -1 -1 100
+  Reset E  5941 5 16 100
+Reset M    5934 1 5933 -1 -1 -1 100
+  Reset E  5941 5 16 100
+  Reset G  5912 1 100
+Reset M    5958 1 5933 -1 -1 -1 100
+  Reset E  5941 5 16 100
+Reset M    5935 1 5933 -1 -1 -1 100
+  Reset G  5932 99 100
+  Reset G  5933 99 100
+  Reset G  5935 99 100
+  Reset G  5936 99 100
+  Reset G  5937 99 100
+Reset D    5933 3 2 100 -2
+#EXDESC
+ExDescKey  sign~
+ExDesc     CASH ONLY! PAY or DIE!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5934
+Name       Miss Sassy's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There is a large window to the north, framed with  dark blue velvet 
+curtains. A large, mahogany desk sits beneath it. There is a small grey
+safe in the corner that holds the day's receipts. You notice movement
+out of the corner of your eye.
+~
+#EXIT
+Direction  East~
+ToRoom     5933
+Key        5929
+Desc       The Saloon.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5936 1 5934 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5935
+Name       Long Balcony~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Looking over the wrought-iron rail, you can see the saloon below 
+you. The light from below gives you dim passage and all along the 
+balcony, doors lead west. There is a set of stairs here.
+~
+#EXIT
+Direction  North~
+ToRoom     5937
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5936
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5933
+Desc       The Saloon.
+~
+#ENDEXIT
+Reset D    5935 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5936
+Name       Sleeping Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In this room is a bed, a couple of nails to hang your clothes on, 
+and a small nightstand on which stands a used, dirty towel, a wash bowl
+and a pitcher of water. You see one of the patrons of the bar sprawled
+across the bed sleeping soundly.
+~
+#EXIT
+Direction  East~
+ToRoom     5935
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5937 1 5936 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5937
+Name       Long Balcony~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Looking over the wrought-iron rail, you can see the saloon below
+you. The light from below gives you a dim passage and all along t he 
+balcony, doors lead west.
+~
+#EXIT
+Direction  North~
+ToRoom     5939
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5935
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5938
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5905 10 5937 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5937 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset D    5937 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5938
+Name       Sleeping Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          In this room is a bed, a couple of nails to hang your clothes on and
+a small nightstand on which stands a clean towel, a wash bowl and a 
+pitcher of water. A mouse skitters across the floor.
+~
+#EXIT
+Direction  East~
+ToRoom     5937
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5939
+Name       Long Balcony~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Looking over the wrought-iron rail, you can see the saloon below 
+you. The light from below give you dim passage. The only exits are west
+and south.
+~
+#EXIT
+Direction  South~
+ToRoom     5937
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5940
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    5939 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5940
+Name       Bath~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the bath used by the occupants of the rooms. There is a
+lantern here providing light and a wood stove in the corner for heating
+the water used for bathing. A deep porcelain tub, chipped with use, 
+sits in the middle of the room. When was the last time you had a bath?
+~
+#EXIT
+Direction  North~
+ToRoom     5941
+Desc       The bathtub.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5939
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5941
+Name       TUB!~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As you submerge yourself in the filthy water, you can't help 
+wondering when it was changed last. You skin starts burning. Maybe you 
+should get out.
+~
+#EXIT
+Direction  South~
+ToRoom     5940
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5942
+Name       Entry Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          If you're looking for that 'different' kind of entertainment, you've
+come to the right place. You stand upon a dark blue marble floor with 
+light blue walls. The dainty lamp gives a soft dim glow to the entry
+hall. There is a coatrack holding an assortment of overcoats, holstered 
+guns, and hats in the corner by the door. To the east you see
+Fanny beckoning you forward.
+~
+#EXIT
+Direction  East~
+ToRoom     5943
+Desc       The Parlor.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5932
+Desc       Center Of Town.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5943
+Name       Parlor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room is quite a bit larger than the entry hall and the lighting
+is low. It is decorated in rose patterns which you see on the roomy, 
+comfortable couch in large reds and yellows, and on the wall paper in
+small muted pinks. The paintings on the wall help set the mood of 
+the room. All the women smile as you enter. You see several patrons 
+talking to some of them in whispered tones, with some couples 
+discreetly wandering into other rooms. You see a door to your east and 
+exits in all directions. The Madame steps forward and asks, "See 
+anything you like?".
+~
+#EXIT
+Direction  North~
+ToRoom     5944
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5946
+Key        5928
+Desc       office.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5945
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5942
+Desc       Entry Hall.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     5947
+#ENDEXIT
+Reset M    5938 1 5943 -1 -1 -1 100
+  Reset E  5930 8 8 20
+  Reset G  5928 3 100
+Reset M    5939 4 5943 -1 -1 -1 100
+Reset M    5939 4 5943 -1 -1 -1 100
+Reset M    5939 4 5943 -1 -1 -1 100
+Reset M    5941 2 5943 -1 -1 -1 100
+Reset M    5941 2 5943 -1 -1 -1 100
+Reset D    5943 0 1 100 -2
+Reset D    5943 1 2 100 -2
+Reset D    5943 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5944
+Name       The Leopard Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room is decorated in a leopard-skin motiff, from the bedspread 
+on the bed to the lampshade. A large black candle softly lights the 
+room, and a mural of a leopard in a tree decorates one of the walls. 
+There is a bowl and a pitcher of water on the nightstand.
+~
+#EXIT
+Direction  South~
+ToRoom     5943
+Desc       Parlor.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5945
+Name       The Sombrero Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The decor in here reminds you of a room in Mexico. The walls have a
+combination of sombreros and blankets hanging on them, and a painting 
+hanging on the wall depicts a scene from a peaceful Mexican village. 
+The bedspread shows a huge yellow sun shining over a desert. There are
+two people in here obviously disturbed by your presence.
+~
+#EXIT
+Direction  North~
+ToRoom     5943
+Desc       Parlor.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5940 1 5945 -1 -1 -1 100
+Reset M    5942 1 5945 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5946
+Name       Fanny's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is where Fanny comes periodically to safeguard her cash and 
+conduct business. The light in here is bright, and an ornate desk and 
+chair dominate the room on one side. Paintings from some of the great 
+artists line the walls, and a luxurious thick rug covers the floor.
+~
+#EXIT
+Direction  West~
+ToRoom     5943
+Key        5928
+Desc       Parlor.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5947
+Name       Upstairs Landing~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Lamps light your way down the small hall to doors going north, 
+south, and east.
+~
+#EXIT
+Direction  North~
+ToRoom     5948
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5949
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5950
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5943
+#ENDEXIT
+Reset D    5947 0 1 100 -2
+Reset D    5947 1 1 100 -2
+Reset D    5947 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5948
+Name       The Caveman Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The walls are painted gray to resemble a cave. Torches attached to 
+the cave walls flicker, putting the room in shadows. Straw covers the 
+floor and a water pitcher and bowl made to resemble crude pottery rests
+beside a fake firepit. The bed is low to the floor and is covered with 
+an imitation bearskin bedspread.
+~
+#EXIT
+Direction  South~
+ToRoom     5947
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5949
+Name       The Red Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          When you enter this room, you are struck by ALL the hearts you see, 
+from the wallpaper to the rugs. There is a large heart on the bedspread
+and even the bed is in the shape of a heart. You hope YOUR heart can 
+stand this.
+~
+#EXIT
+Direction  West~
+ToRoom     5947
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5950
+Name       The Discount Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This room is bare compared to the others. In the middle of the room 
+is a sagging mattress with a thread-bare, worn bedspread. A lantern
+hangs from a nail on the wall, and a cracked bowl filled with water 
+lies next to a used towel on the rickety nightstand.
+~
+#EXIT
+Direction  North~
+ToRoom     5947
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5905 10 5950 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset M    5906 10 5950 -1 -1 -1 100
+  Reset E  5921 50 16 100
+Reset O    5934 1 5950 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5951
+Name       Main Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You continue down the street. There are exits in all directions.
+~
+#EXIT
+Direction  North~
+ToRoom     5954
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5953
+Desc       Stagecoach Office.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5932
+Desc       Center of Town.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5952
+Desc       Telegraph Office.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5923 6 5951 -1 -1 -1 100
+Reset D    5951 1 1 100 -2
+Reset D    5951 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5952
+Name       Telegraph Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You enter a room that is furnished with two desks, each with a 
+telegraph machine on it and a clerk acting very busy. You hear the
+tap-tap-tapping of the telegraph machines as messages are relayed or 
+received. There is a large picture of Thomas Edison on one wall. The 
+only exit is the way you came in.
+~
+#EXIT
+Direction  East~
+ToRoom     5951
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5943 1 5952 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5953
+Name       Stagecoach Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Fare-paying passengers are lined up in front of the clerk's window
+trying to pay for seats on the stagecoach leaving town. Pictures of 
+stagecoach scenes adorn the walls. Some customers lie sleeping on the 
+wooden benches while they wait, their luggage surrounding them like 
+protective shields.
+~
+#EXIT
+Direction  West~
+ToRoom     5951
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5944 1 5953 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5954
+Name       Main Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You can see the end of the street to your north before it starts
+heading out of town. There is an alley that crosses this street and
+exits lie in all directions.
+~
+#EXIT
+Direction  North~
+ToRoom     5973
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5963
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5951
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5955
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5955
+Name       Another Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the beginning of an alley leading west. Looking north you
+see and elegant mansion obviously owned by someone of great wealth.
+~
+#EXIT
+Direction  North~
+ToRoom     5956
+Desc       You see an elegant mansion.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5954
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5960
+#ENDEXIT
+Reset D    5955 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5956
+Name       Mansion~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The hardwood floors are so shiny you can see your reflection in 
+them. Tapestries from different parts of the world cover some of the
+walls and a huge grandfather clock chimes the time every fifteen 
+minutes. The furniture shows no worn spots or tears, and, in fact, 
+looks like it isn't even used. There are exits in all directions.
+~
+#EXIT
+Direction  North~
+ToRoom     5957
+Desc       The Den.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5958
+Desc       The Master Bedroom.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5955
+Desc       The Alley.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5959
+Desc       The Parlor.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    5956 0 1 100 -2
+Reset D    5956 1 1 100 -2
+Reset D    5956 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5957
+Name       Den~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You can tell this room is used mainly for business by the massive 
+oak desk with a matching chair in the center of the room. There is a 
+Remington sculpture of a man on a horse on the corner of the desk. The 
+curtained windows allow ample light to flow through the room. Pictures 
+of historical battles adorn the walls, as well as pictures of past 
+presidents.
+~
+#EXIT
+Direction  South~
+ToRoom     5956
+Desc       The Living Room.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5945 1 5957 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5958
+Name       Master Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The four-poster canopied bed dominates this room. A wardrobe filled 
+with clothes is on one wall and two dressers are by another. There is a
+brick fireplace for warmth. Here again you see pictures of historical 
+battles on the walls. It is definitely a masculine room.
+~
+#EXIT
+Direction  West~
+ToRoom     5956
+Desc       The Living Room.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5959
+Name       Parlor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is where the owner and/or his guests retire after meals to talk
+and smoke. There are comfortable easy chairs for relaxing in and large
+ashtrays in strategic places for the smokers' ashes. The fireplace 
+makes the room warm and cozy on those cold winter days.
+~
+#EXIT
+Direction  East~
+ToRoom     5956
+Desc       The Living Room.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5960
+Name       Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The alley continues west to a deadend here. To the north you see a
+large section of fenced-in land with some type of animals grazing.
+~
+#EXIT
+Direction  North~
+ToRoom     5961
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5955
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5962
+#ENDEXIT
+Reset M    5904 10 5960 -1 -1 -1 100
+Reset M    5904 10 5960 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5961
+Name       Pasture~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Ostriches! Everywhere you look are ostriches! You have never seen so
+many ostriches in your life. Maybe, if you're cautious, you can steal 
+one of the feathers!
+~
+#EXIT
+Direction  South~
+ToRoom     5960
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5946 4 5961 -1 -1 -1 100
+Reset M    5946 4 5961 -1 -1 -1 100
+  Reset E  5907 8 10 20
+#ENDROOM
+
+#ROOM
+Vnum        5962
+Name       The End of the Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have reached a deadend and the only exit is the way you came.
+~
+#EXIT
+Direction  East~
+ToRoom     5960
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5963
+Name       Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This road looks cleaner than the other you've travelled on. To the 
+north you see a house belonging to the bank president, and  the alley 
+continues east.
+~
+#EXIT
+Direction  North~
+ToRoom     5964
+Desc       A house.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5966
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5954
+Desc       Main Street.
+~
+#ENDEXIT
+Reset D    5963 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5964
+Name       Bank President's House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Not as large as the last house you saw, nonetheless, this house is
+furnshed elegantly, too. There are brightly-colored rugs on the floor 
+and curtains to match over the windows. The furniture consists of a 
+large sofa and a couple of matching easy chairs, and a coffee table
+inlaid with intricate designs separates them.
+~
+#EXIT
+Direction  North~
+ToRoom     5965
+Desc       Bedroom.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5963
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5913 1 5964 -1 -1 -1 50
+  Reset E  5903 8 5 20
+  Reset E  5905 8 23 20
+  Reset G  5926 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5965
+Name       Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A large, comfortable bed is near one wall and a fireplace on the
+north wall provides warmth. There are delicate lamps attached to the
+walls that provide light.
+~
+#EXIT
+Direction  South~
+ToRoom     5964
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5913 1 5965 -1 -1 -1 100
+  Reset E  5903 8 5 20
+  Reset E  5905 8 23 20
+  Reset G  5926 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5966
+Name       Continuing Down the Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The noise of the main street seems quieter here. You see another
+house to your north and more of the alley to your east.
+~
+#EXIT
+Direction  North~
+ToRoom     5967
+Desc       house.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5968
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5963
+#ENDEXIT
+Reset D    5966 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5967
+Name       Schoolmarm's House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is a simple one-room house meant to house the teacher of the 
+town's only school. There is a woodstove here for cooking and warmth, 
+and a wooden table with chairs set close to it. A small bed stands in 
+the corner with a homemade quilt on it.
+~
+#EXIT
+Direction  South~
+ToRoom     5966
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5947 1 5967 -1 -1 -1 100
+  Reset G  5914 8 25
+#ENDROOM
+
+#ROOM
+Vnum        5968
+Name       Continuing down the Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          From here you see a playground to the north and a school to the east.
+A small trail meanders off to the southeast.
+~
+#EXIT
+Direction  North~
+ToRoom     5969
+Desc       Playground.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5972
+Desc       School.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5966
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     5970
+Desc       Dirt trail.
+~
+#ENDEXIT
+Reset D    5968 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5969
+Name       Playground~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a wide expanse of land next to the school for the children
+to play on. There is a handmade teeter-totter here and a rough , weed- 
+choked, baseball diamond. You can see the school bully pulling the 
+braids of a little girl.
+~
+#EXIT
+Direction  South~
+ToRoom     5968
+#ENDEXIT
+#EXIT
+Direction  Northeast~
+ToRoom     1000
+Desc       A small overgrown path lies in this direction.
+~
+#ENDEXIT
+Reset M    5949 2 5969 -1 -1 -1 100
+Reset M    5950 1 5969 -1 -1 -1 100
+  Reset G  5917 8 25
+Reset M    5951 1 5969 -1 -1 -1 100
+  Reset E  5916 8 23 25
+#ENDROOM
+
+#ROOM
+Vnum        5970
+Name       Dirt Trail~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are walking upon a narrow, well-worn dirt path.
+~
+#EXIT
+Direction  Southeast~
+ToRoom     5971
+Desc       A pond.
+~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     5968
+#ENDEXIT
+Reset M    5953 2 5970 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5971
+Name       Fishing Pond~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The trail ends at the water's edge of a fairly large pond. Large 
+shade trees surrounding the pond help to keep it cool during the hot 
+days. Remnants of homemade fishing poles lie upon the ground, and you 
+see decomposing fishheads and guts as well. Someone has left their
+lunchpail here.
+~
+#EXIT
+Direction  Northwest~
+ToRoom     5970
+#ENDEXIT
+Reset M    5952 2 5971 -1 -1 -1 100
+Reset M    5953 2 5971 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5972
+Name       The Little Schoolhouse~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Several rows of benches on either side of an aisle face the 
+teacher's desk. You see a thin sapling used as a disciplinary tool on 
+one side of the desk and an apple on the other. Alphabet letter
+pictures decorate the walls and on a shelf near the desk are McGuffy 
+readers - books that teach the children to read. It's very quiet in 
+here and you guess the teacher maintains strict control over her 
+pupils.
+~
+#EXIT
+Direction  West~
+ToRoom     5968
+Desc       the alley.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5947 1 5972 -1 -1 -1 85
+  Reset G  5914 8 25
+Reset M    5948 4 5972 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        5973
+Name       End of Main Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have reached the end of town. You see a door to the west, 
+another alley the east and northwest, Boot Hill.
+~
+#EXIT
+Direction  East~
+ToRoom     5982
+Desc       alley.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5954
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5980
+Desc       The Undertaker.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     5974
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5923 6 5973 -1 -1 -1 100
+Reset D    5973 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5974
+Name       Entrance to Boot Hill~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in front of a rusted gate that no longer closes. 
+Many neglected and crumbling tombstones can be seen, each with faded 
+carvings on them. Exits lead north or back the way you came.
+~
+#EXIT
+Direction  North~
+ToRoom     5975
+Desc       Tombstones.
+~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     5973
+Desc       Gate
+~
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5904 10 5974 -1 -1 -1 100
+Reset M    5904 10 5974 -1 -1 -1 100
+Reset D    5974 8 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5975
+Name       Wooden Tombstone~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          There is a grave here with the name of the person etched into the 
+wooden grave marker.
+~
+#EXIT
+Direction  North~
+ToRoom     5977
+Desc       tombstone.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5976
+Desc       tombstone.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5974
+#ENDEXIT
+Reset M    5955 8 5975 -1 -1 -1 100
+#EXDESC
+ExDescKey  tombstone~
+ExDesc     Here lies Jack Eldritch. He should have zigged instead of zagged.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5976
+Name       Wooden Tombstone~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          There is a grave here with the name of the person etched into the 
+wooden grave marker. To the north you see what looks like an open grave
+ready for the next unfortunate VICTIM!
+~
+#EXIT
+Direction  North~
+ToRoom     5978
+Desc       An open grave. People are just DYING to get in.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5975
+Desc       Tombstone.
+~
+#ENDEXIT
+Reset M    5955 8 5976 -1 -1 -1 100
+#EXDESC
+ExDescKey  tombstone~
+ExDesc     Here lies buried Pappy Mason. He liked his women - his women didn't 
+like him!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5977
+Name       Wooden Tombstone~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          There is a grave here with the name of the person etched into the
+wooden grave marker. To the east you see what looks like an open grave 
+ready for the NEXT UNFORTUNATE VICTIM!
+~
+#EXIT
+Direction  North~
+ToRoom     5990
+Desc       Tombstone.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5978
+Desc       An open grave. People are just DYING to get in.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5975
+Desc       tombstone.
+~
+#ENDEXIT
+Reset M    5955 8 5977 -1 -1 -1 100
+#EXDESC
+ExDescKey  tombstone~
+ExDesc     Here lies Frank Cross. He took a bullet in the back. ACK!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5978
+Name       Open Grave~
+Sector     field~
+Flags      death nomob indoors~
+Stats      0 0 0 0 0
+Desc          AHHHHHHHHHHHH!!!! You've fallen and can't get up. I guess you should
+have looked before you leaped!
+~
+#EXIT
+Direction  North~
+ToRoom     5989
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5976
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5977
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5979
+Name       Bottom of the Well~
+Sector     swamp~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          Well, what did you expect? It's filled with water and there is no 
+way out.
+~
+#ENDROOM
+
+#ROOM
+Vnum        5980
+Name       Undertaker~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is one place you hope you don't have to 'visit' soon. The light
+is dim here, and there are many coffins about the room, some with 
+corpses, and others empty. Being the only mortician in town, it's 
+always busy here. You see bloodstains on the floor in many places. You
+see a door leading to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     5973
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5981
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5954 1 5980 -1 -1 -1 85
+  Reset E  5921 50 16 100
+  Reset E  5913 8 23 20
+#ENDROOM
+
+#ROOM
+Vnum        5981
+Name       Work Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The undertaker makes the coffins here. There are many types of wood 
+here waiting to be used. But, by far, the most popular wood is pine - 
+easy to work with and cheap to get. Wood chips and dust cover the floor
+and lanterns provide the light. You see many finished coffins atop each
+other, and others can be seen in various stages of completion.
+~
+#EXIT
+Direction  East~
+ToRoom     5980
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    5954 1 5981 -1 -1 -1 100
+  Reset E  5921 50 16 100
+  Reset E  5913 8 23 10
+#ENDROOM
+
+#ROOM
+Vnum        5982
+Name       Another side street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The street continues to the east. You can see a house to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5983
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5984
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5973
+#ENDEXIT
+Reset D    5982 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5983
+Name       Abandoned House~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          Nobody has lived in this house for a long time. A table with only 
+three legs rests on it side, and the chairs were used for firewood a 
+long time ago. What used to be the furniture is now pieces of kindling.
+The glass from one window lies broken in pieces on the floor next to a
+rock.
+~
+#EXIT
+Direction  South~
+ToRoom     5982
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5984
+Name       Side street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The side street continues east and west here. You see another house
+to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5985
+Key        5924
+Desc       a house
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     5991
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5982
+#ENDEXIT
+Reset D    5984 0 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5985
+Name       Sheriff's House~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Much like the schoolmarm's house, the decorations are simple and 
+the light is ample. Dishes with bits of food clinging to them sit on 
+the wooden table beside the stove. You can tell the sheriff is not a 
+very tidy man. There is a large wooden rack here filled with many types
+of revolvers and rifles. A bedroom can be seen to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5986
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5984
+Key        5924
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    5907 1 5985 -1 -1 -1 100
+  Reset E  5901 8 5 20
+  Reset G  5924 3 100
+  Reset G  5925 3 100
+#ENDROOM
+
+#ROOM
+Vnum        5986
+Name       Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The sheriff's clothes hang on nails, and there is a small, unkempt 
+bed with more clothes strewn upon it. A faded photograph of a woman and
+young child is tacked on the wall near the bed. A view of the outhouse 
+can be seen from the only window.
+~
+#EXIT
+Direction  South~
+ToRoom     5985
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5987
+Name       Outhouse~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          The smell in here is so disgusting, you wonder how the sheriff can 
+stand it. The halfmoon cut in the door gives the only available light. 
+On one side, you see pages from a worn catalog lying on the floor, and 
+in the center you see a raised open hole cut there. As you start to 
+leave, you notice two shiny, round objects down the hole.
+~
+#EXIT
+Direction  South~
+ToRoom     5991
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     5988
+Desc       You don't really want to go down there, do you?
+~
+#ENDEXIT
+Reset D    5987 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5988
+Name       Why Did You Come Down Here?~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          You thought it smelled bad up there - it's GROSS here. It's hard to 
+move around in all this CRAP!
+~
+Reset M    5956 1 5988 -1 -1 -1 100
+  Reset E  5909 8 17 8
+#ENDROOM
+
+#ROOM
+Vnum        5989
+Name       Wooden Tombstone~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          There is a grave here with the name of the person etched into the 
+wooden grave marker. To the south you see what looks like an open grave
+ready for the next UNFORTUNATE victim.
+~
+#EXIT
+Direction  South~
+ToRoom     5978
+Desc       an open grave. People are just DYING to get in.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5990
+Desc       tombstone.
+~
+#ENDEXIT
+Reset M    5955 8 5989 -1 -1 -1 100
+#EXDESC
+ExDescKey  tombstone~
+ExDesc     He stole her heart away, but she wasn't dead. His was stopped with a 
+ball of lead.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5990
+Name       Wooden Tombstone~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc          There is a freshly buried grave here with someone's name etched on 
+the marker.
+~
+#EXIT
+Direction  East~
+ToRoom     5989
+Desc       tombstone.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     5977
+Desc       tombstone.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  tombstone~
+ExDesc     She was the town whore, but got the pox. Though loved by many, she's in
+this box.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        5991
+Name       End of Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The street ends here. You can see an outhouse to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     5987
+Desc       It looks like your typical outhouse.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     5984
+#ENDEXIT
+Reset D    5991 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        5992
+Name       Gallows alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is the final march to YOUR execution.
+~
+#EXIT
+Direction  South~
+ToRoom     5905
+Desc       Sheriff's office.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Northwest~
+ToRoom     5993
+Desc       The gallows.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5993
+Name       The gallows~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Many people have met their DEATH here. If you're not CAREFUL you will 
+too. You see a noose tied to a beam, and a trapdoor directly underneath. 
+Today is a good day to DIE.
+~
+#EXIT
+Direction  Up~
+ToRoom     5994
+Desc       DANGER!....DANGER! PROCEED WITH CAUTION.
+~
+#ENDEXIT
+#EXIT
+Direction  Southeast~
+ToRoom     5992
+Desc       Gallows alley.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        5994
+Name       STICKING YOUR HEAD IN THE NOOSE~
+Sector     city~
+Flags      death nomob indoors~
+Stats      0 0 0 0 0
+Desc          Well.... that was pretty stupid. As you stick your head in the noose, 
+the rope tightens up around your neck and the trapdoor falls out from under
+your feet.
+~
+#EXIT
+Direction  Down~
+ToRoom     5993
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

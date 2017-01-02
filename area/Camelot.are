@@ -1,0 +1,5905 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Camelot~
+Author          Unknown~
+Vnums           27000 28930
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        You hear a russle of new horses arrival~
+ResetFreq       35
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        27030
+Keywords   robed skeleton m027~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A Robed Skeleton~
+Long       A Robed Skeleton is here ready to make you a member
+~
+Desc       All you see is a robed creature with red eyes staring at you from within
+the hood. You know they're skeletel because of their hands.
+The reach out to grab you.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     23 11 2 500 2 8 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27130
+Keywords   grump m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Grump~
+Long       A grump is here climbing the cave walls and is ready to jump on you
+~
+Desc       Tiny little green creatures with HUGE noses. They have sharp claws to
+climb cave walls.
+~
+Nattacks   1.000000
+Stats1     -250 0 60 100 150 250
+Stats2     6 15 9 54 1 10 1
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27200
+Keywords   accolon m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Accolon~
+Long       Sir Accolon is here looking for something of his
+~
+Desc       Sir Accolon is a very proud man and very confident when he goes into battle.
+~
+Nattacks   2.000000
+Stats1     1000 3300 60 100 150 250
+Stats2     16 5 5 154 2 5 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27220
+Keywords   Geist Ghost Malogeist Malo m027~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A Malogeist~
+Long       A Malogeist is here to defend Sir Mordred
+~
+Desc       A Malogeist are visible because of their black hearts and red eyes. You can
+make out the rest of their form.
+~
+Nattacks   1.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     8 13 8 74 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27250
+Keywords   galahad m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Galahad~
+Long       Sir Galahad is here ready to fight
+~
+Desc       Sir Galahad, son to Sir Lancelot, is the greatest knight in the land.
+He sits at the Perlious Seat at the round table, to the right of King 
+Arthur's
+He has proves his worth in many quests, particularly the battles he has
+been involved in the search for the Holy Grail.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     61 0 -1 2550 3 9 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27270
+Keywords   dirt dwarf m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      Dirt Dwarf~
+Long       A dirt dwarf is here trying to bite your leg
+~
+Desc       He's sure is short.
+~
+Nattacks   1.000000
+Stats1     -250 0 60 100 150 250
+Stats2     8 13 8 79 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27290
+Keywords   mordred m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Mordred~
+Long       Mordred is here wanting the Sword of Excalibur
+~
+Desc       Son to King Arthur, he is looking for revenge to kill his father and take
+his sword.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     46 0 2 2750 3 9 4
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27380
+Keywords   spirit depression m027~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Spirit of Depression~
+Long       The Spirit of Depression is floating around and affecting you emotionally
+~
+Desc       You see a semi-transparent ghost floating in the air and staring at
+you with its sad eyes and frowning face.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     12 9 7 129 2 9 1
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27510
+Keywords   ellewall elle wall m027~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      An Ellewall~
+Long       An Ellewall is here looking for something to eat
+~
+Desc       An Ellewall is a fairy type creature. They are big for being a fairy and can
+move very quickly. They're always hungry and will eat anything they see.
+~
+Nattacks   2.000000
+Stats1     -500 0 60 100 150 250
+Stats2     21 0 3 317 3 4 4
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27540
+Keywords   delroon oracle turtle m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     sleeping~
+Short      Delroon~
+Long       Delroon the Oracle is sitting here hoping you don't have any questions.
+~
+Desc       You see a thirty foot turtle! He claims he's an oracle, but probably
+won't answer your questions anyway.
+Delroon tries to go back to sleep.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     62 0 -5 5450 4 9 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27560
+Keywords   dryad tree m027~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Dryad~
+Long       A Dryad is getting ready to take a swing at you with his branches
+~
+Desc       You see a tall and thick tree with a face in the trunk. She has many
+branches to use as his arms. Just be thankful she doesn't have fruit to
+throw at you.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 1 4 204 3 5 4
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27680
+Keywords   water norker m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Water Norker~
+Long       A Water Norker is here, trying to drown you in the pond
+~
+Desc       You see a hideous looking creature. Looks like he's been spending too much
+time in the scummy pond.
+~
+Nattacks   1.000000
+Stats1     -250 0 60 100 150 250
+Stats2     8 13 8 99 2 5 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27730
+Keywords   water fairy m027~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A Water Fairy~
+Long       A Water Fairy is here and she doesn't appreciate you being here
+~
+Desc       Just like the stories you've heard, Water Fairies are small but look mean.
+They are blue and almost blended in with the surrounding water.
+~
+Nattacks   1.000000
+Stats1     250 0 60 100 150 250
+Stats2     8 13 8 94 2 7 1
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27750
+Keywords   green giant knight m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Green Knight~
+Long       The Green Knight is here holding his head in is hand.
+~
+Desc       The Green Knight stands in the corner, holding his head by hair! He has
+a green axe and when he's done, hopes to have your head.
+~
+Nattacks   2.000000
+Stats1     -1000 0 60 100 150 250
+Stats2     23 0 2 375 3 7 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27770
+Keywords   cave bat m027~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A Cave Bat~
+Long       A bat is here rushing for your face.
+~
+Desc       These bats are the largest you have ever seen. One could take down a horse.
+Don't think that their blind handicap is going to help you!
+~
+Nattacks   1.000000
+Stats1     -750 0 60 100 150 250
+Stats2     8 13 8 91 250 8 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27790
+Keywords   mystic dragon m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Mystic Dragon~
+Long       The Mystic Dragon is here ready to breath on you.
+~
+Desc       Well what you can make out in the mist, you see a massive beast.
+His scales are completely white, as the room is. He eyes have buring red
+pupils, enough to chill your soul.
+~
+Nattacks   4.000000
+Stats1     0 0 60 100 150 250
+Stats2     65 -4 -9 6000 5 5 45
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   invisible detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27870
+Keywords   arm m027~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Arm~
+Long       The Arm is here ready to grab you
+~
+Desc       You know where you've seen this arm, this is the arm that once wielded
+Excalibur the greatest sword of the Sixth Century. Hope you don't have it
+now, this arm will take it from you anyway it pleases.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     16 5 5 194 2 7 2
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        27990
+Keywords   dryad mage m027~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Dryad Mage~
+Long       The Dryad Mage is standing here mixing potions.
+~
+Desc       You see a tall tree in a white long coat and some form of glass eyepieces
+resting on his nose. Have these creatures advanced about 1300 years?
+~
+Nattacks   1.000000
+Stats1     -250 0 60 100 150 250
+Stats2     0 201 0 550 3 4 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28150
+Keywords   sir marhaus knight m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Marhaus the Knight~
+Long       Sir Marhaus is here ready to be challenged.
+~
+Desc       Sir Marhaus is really a tiny man, but apparently doesn't show it in combat
+from what you saw on the tree out there. He has no expression on his face
+and is ready to kill you now.
+~
+Nattacks   2.000000
+Stats1     500 0 60 100 150 250
+Stats2     11 10 7 131 2 7 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28240
+Keywords   jaculi m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Jaculi~
+Long       A Jaculi is here wanting to feed on you.
+~
+Desc       Oooo Scary!
+~
+Nattacks   2.000000
+Stats1     -250 0 60 100 150 250
+Stats2     11 10 7 116 2 7 1
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28270
+Keywords   white knight m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A White Knight~
+Long       A White Knight is here ready to take you on in combat.
+~
+Desc       You look at the white knight and see a young man dressed in white.
+How appropriate
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     12 9 7 144 2 7 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28280
+Keywords   red knight m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Red Knight~
+Long       A Red Knight is here ready to take you on in combat.
+~
+Desc       You look at the red knight and see a young man dressed in red.
+How appropriate
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 0 4 317 3 7 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28290
+Keywords   blue knight m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Blue Knight~
+Long       A Blue Knight is here ready to take you on in combat.
+~
+Desc       You look at the blue knight and see a young man dressed in blue.
+How appropriate
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     26 0 -1 295 3 7 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28300
+Keywords   black knight m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Black Knight~
+Long       A Black Knight is here ready to take you on in combat.
+~
+Desc       You look at the black knight and see a young man dressed in black.
+How appropriate
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     60 0 -4 2565 4 5 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28330
+Keywords   white mage m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A White Mage~
+Long       A White Mage is here ready to take you on in combat.
+~
+Desc       You look at the white mage and see a young man dressed in white.
+How appropriate
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     12 9 7 144 2 8 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28340
+Keywords   red mage m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Red Mage~
+Long       A Red Mage is here ready to take you on in combat.
+~
+Desc       You look at the red mage and see a young man dressed in red.
+How appropriate
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 7 4 169 2 8 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28350
+Keywords   blue mage m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Blue Mage~
+Long       A Blue Mage is here ready to take you on in combat.
+~
+Desc       You look at the blue mage and see a young man dressed in blue.
+How appropriate
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     26 0 -1 365 3 7 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28360
+Keywords   black mage m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Black Mage~
+Long       A Black Mage is here ready to take you on in combat
+~
+Desc       You look at the black mage and see a young man dressed in black.
+How appropriate
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     30 0 -4 515 4 4 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28380
+Keywords   knight invis invisible m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The Invisible Knight~
+Long       The Invisible Knight is here ready to ride up on you and slash you.
+~
+Desc       The Invisible Knight is pretty tricky. He doesn't talk much, just rides
+around and kills other knights without honour.
+~
+Nattacks   2.000000
+Stats1     -750 0 60 100 150 250
+Stats2     17 4 5 206 3 7 2
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Affected   invisible detect_invis hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28410
+Keywords   chamber guard m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A Chamber Guard~
+Long       A Chamber Guard is here guarding the Chamber door.
+~
+Desc       He stands there in front of the door not moving at all. No blinking, no
+twitching, no smiling.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     16 5 5 194 2 10 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28430
+Keywords   cook m027~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the Cook~
+Long       The Cook is here preparing a fine meal.
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     15 1 6 250 2 8 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28440
+Keywords   evelake m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      King Evelake~
+Long       King Evelake is sitting here demanding but doesn't notice your arrival.
+~
+Desc       The King is not aware of your presence because of his blindness
+He is old and fragile but looks like he still could use a sword
+~
+Nattacks   3.000000
+Stats1     0 0 60 100 150 250
+Stats2     55 0 0 1515 4 4 4
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Affected   venomshield~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28500
+Keywords   kay m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Kay~
+Long       Sir Kay is here trying to think about what to do with the Castle money.
+~
+Desc       Sir Kay is a sturdy looking man. His father adopted and raised King Arthur,
+making them very close brothers.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     41 5 5 1840 2 10 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28520
+Keywords   castle guard m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Castle Guard~
+Long       A Castle Guard is here guarding the the gate to Camelot Castle.
+~
+Desc       He stands there in front of the door not moving at all. No blinking, no
+twitching, no smiling.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     16 5 5 194 2 9 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28610
+Keywords   gawain m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Gawain~
+Long       Sir Gawain is here waiting for any challenge.
+~
+Desc       Sir Gawain is a very well built man. Son to one of Arthur's enemies, 
+King Lot, he is very loyal to the King and Camelot.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     31 8 6 1160 2 9 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28620
+Keywords   king arthur m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sitting~
+DefPos     sitting~
+Short      King Arthur~
+Long       King Arthur is here trying to rule over Camelot.
+~
+Desc       A very powerful looking man. He's tall and muscular and looks very powerful.
+The way he sits, you can tell he's very intelligent also.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     64 0 -8 675 3 9 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28640
+Keywords   queen guinevere m027~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Queen Guinevere~
+Long       Queen Guinevere is here looking for Sir Lancelot.
+~
+Desc       You look at the queen and see she posesses quite a bit of beauty.
+Her flowing red hair and green eyes are the most attractive thing about
+her.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     40 5 5 154 2 11 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28650
+Keywords   tristram m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Tristram~
+Long       Sir Tristram is standing here.
+~
+Desc       Sir Tristram has had a hard life, thus his name. Latin for Sadness.
+He has proved his worth by many quests.
+~
+Nattacks   2.000000
+Stats1     1000 0 60 100 150 250
+Stats2     40 5 5 154 2 10 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28660
+Keywords   lancelot m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sir Lancelot~
+Long       Sir Lancelot is here looking for Queen Guinevere.
+~
+Desc       The Great White Knight you see standing before you. Raised with the
+Lady of the Lake, he is quite powerful. One of the best knights of the
+Round Table.
+~
+Nattacks   4.000000
+Stats1     1000 0 60 100 150 250
+Stats2     65 1 -9 6500 7 5 30
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28670
+Keywords   morgan lefay witch m027~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Morgan LeFay~
+Long       Morgan LeFay is here ready to cast spells on you.
+~
+Desc       Morgan LeFay is not a stereotypical witch. She seems pretty evil though.
+Despite she is King Arthur's half sister.
+~
+Nattacks   2.000000
+Stats1     -750 0 60 100 150 250
+Stats2     40 9 7 144 2 12 1
+Speaks     common~
+Speaking   common~
+Actflags   npc~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        28800
+Keywords   master merlin mage wizard m027~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Merlin~
+Long       Merlin is here raising his eyebrow at your entrance.
+~
+Desc       Merlin is a very old looking person. Characteristics of his long grey beard
+and hair are dominant. He looks fragile but very strong through the eyes.
+You feel the magic radiating from his body. Merlin is quite a holy person.
+Just don't mess with him.
+~
+Nattacks   3.000000
+Stats1     1000 0 60 100 150 250
+Stats2     60 0 -4 5875 4 6 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel wimpy~
+Affected   invisible detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        27000
+Keywords   Excalibur sword o027~
+Type       weapon~
+Short      Excalibur~
+Long       The Excalibur sword is stuck in a stone here.~
+Flags      magic antievil antineutral~
+WFlags     take wield~
+Values     6 6 4 1 0 0 0 0 0 0 0
+Stats      20 11000 0 10 0 None None None
+AffData    damroll 2 -1 -1 0
+AffData    Strength 2 -1 -1 0
+#EXDESC
+ExDescKey  excalibur sword~
+ExDesc     You look upon the magificant sword of King Arthur of Camelot.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        27010
+Keywords   club Green o027~
+Type       weapon~
+Short      a green club~
+Long       A Green Club is lying in the dirt here.~
+WFlags     take wield~
+Values     2 2 5 3 0 0 0 0 0 0 0
+Stats      2 540 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27020
+Keywords   cape invis o027~
+Type       staff~
+Short      Cape of Invisibility~
+Long       The Cape of Invisibility lies here, unseen to the naked eye.~
+Flags      invis magic~
+WFlags     take about hold~
+Values     14 20 20  0 0 0 0 0 0 0
+Stats      2 6250 0 9999 0 None None None
+#EXDESC
+ExDescKey  cape invisible invis~
+ExDesc     It's very difficult to see the cape, but it looks very magical.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        27030
+Keywords   leggings bone o027~
+Type       armor~
+Short      a pair of bone leggings~
+Long       You see a pile of bones lying here.~
+Flags      magic~
+WFlags     take legs~
+Values     28 28 0 0 0 0 0 0 0 0 0
+Stats      3 1900 0 10 0 None None None
+AffData    move 20 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27040
+Keywords   shield Galahad o027~
+Type       armor~
+Short      the Shield of Galahad~
+Long       The Shield of Galahad is here shining through the dirt.~
+Flags      glow magic antievil~
+WFlags     take shield~
+Values     21 21 0 0 0 0 0 0 0 0 0
+Stats      4 2700 0 10 0 None None None
+AffData    hit 20 -1 -1 0
+AffData    hitroll -3 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  shield galahad~
+ExDesc     The shield is completely white except for the red cross across the surface.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        27050
+Keywords   staff merlin mage o027~
+Type       weapon~
+Short      Merlin's Mage Staff~
+Long       A powerful staff lies here.~
+Flags      magic antievil~
+WFlags     take wield~
+Values     0 5 4 4 0 0 0 0 0 0 0
+Stats      16 800 0 10 0 None None None
+AffData    Strength -1 -1 -1 0
+AffData    Intelligence 2 -1 -1 0
+AffData    mana 10 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27060
+Keywords   ring Pearl o027~
+Type       light~
+Short      a pearl ring~
+Long       A pearl ring lies here on the ground.~
+Flags      glow magic~
+WFlags     take finger hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 375 0 9999 0 None None None
+AffData    mana 5 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27070
+Keywords   coins money o027~
+Type       money~
+Short      some money~
+Long       There is some money on the ground here.~
+WFlags     take~
+Values     25000 0 0 0 0 0 0 0 0 0 0
+Stats      20 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27080
+Keywords   dagger triple bladed o027~
+Type       weapon~
+Short      a triple bladed dagger~
+Long       A dagger with three blades lies here on the ground.~
+Flags      antigood~
+WFlags     take wield~
+Values     0 2 6 6 0 0 0 0 0 0 0
+Stats      2 1800 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27090
+Keywords   fireblade fire blade o027~
+Type       weapon~
+Short      a Fireblade~
+Long       A Fireblade lies here on the ground.~
+Flags      glow magic antigood~
+WFlags     take wield~
+Values     0 3 4 1 0 0 0 0 0 0 0
+Stats      10 1800 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27100
+Keywords   sword steel longsword o027~
+Type       weapon~
+Short      a steel longsword~
+Long       A steel longsword lies here on the ground.~
+WFlags     take wield~
+Values     0 3 4 1 0 0 0 0 0 0 0
+Stats      14 1800 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27110
+Keywords   staff black o027~
+Type       staff~
+Short      a black staff~
+Long       A black staff lies on the ground here.~
+Flags      magic nodrop~
+WFlags     take hold~
+Values     40 4 4  0 0 0 0 0 0 0
+Stats      3 1500 0 9999 0 None None None
+AffData    hitroll -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27120
+Keywords   shield giant head green o027~
+Type       armor~
+Short      a giant head shield~
+Long       A giant's head is lying here on the ground.~
+WFlags     take shield~
+Values     20 20 0 0 0 0 0 0 0 0 0
+Stats      33 10 0 9999 0 None None None
+#EXDESC
+ExDescKey  green shield head giant~
+ExDesc     You see the head of a Green Giant. Oh well, makes a passable shield.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        27130
+Keywords   box treasure o027~
+Type       container~
+Short      a treasure box~
+Long       There is a treasure box sitting on the ground here.~
+Flags      invis~
+Values     100 5 -1 10 0 -1 0 0 0 0 0
+Stats      50 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27140
+Keywords   apple Green o027~
+Type       food~
+Short      a green apple~
+Long       A green apple is on the ground.~
+WFlags     take hold~
+Values     5 0 0 0 0 0 0 0 0 0 0
+Stats      1 10 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27150
+Keywords   key Wood Wooden k027~
+Type       key~
+Short      a wooden key~
+Long       You see a wooden key lying on the ground.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      3 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27160
+Keywords   mask Gold golden o027~
+Type       armor~
+Short      a golden mask~
+Long       You see something gold, lying on the ground.~
+Flags      magic antigood~
+WFlags     take face~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      2 140 0 9999 0 None None None
+AffData    Intelligence -1 -1 -1 0
+AffData    save_all -5 -1 -1 0
+AffData    hit 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27170
+Keywords   key Silver k027~
+Type       key~
+Short      a silver key~
+Long       You see a silver key lying on the ground.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      3 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27180
+Keywords   bracers Merlin Mage o027~
+Type       armor~
+Short      Merlin's Mage Bracers~
+Long       You see magical bracers lying on the ground.~
+Flags      glow magic antievil~
+WFlags     take wrist~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      16 7500 0 10 0 None None None
+AffData    mana 30 -1 -1 0
+AffData    hit -10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27190
+Keywords   key Gate k027~
+Type       key~
+Short      the gate key~
+Long       You see a key lying in the dirt here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 1 0 0 0 0 0
+Stats      3 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27200
+Keywords   crown Divine Divinity o027~
+Type       armor~
+Short      the Crown of Divinity~
+Long       You see a glowing crown on the ground.~
+Flags      glow hum~
+WFlags     take head~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      15 500 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27210
+Keywords   scabbard Exaclibur o027~
+Type       armor~
+Short      the Scabbard of Excalibur~
+Long       You see a scabbard lying on the ground.~
+Flags      magic antievil antineutral~
+WFlags     take waist~
+Values     25 25 0 0 0 0 0 0 0 0 0
+Stats      3 1900 0 10 0 None None None
+AffData    hit 20 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27220
+Keywords   breath dragon dragonbreath o027~
+Type       armor~
+Short      the breath of the Mystic Dragon~
+Long       A thick fog hangs in the air.~
+Flags      glow~
+WFlags     take about~
+Values     22 22 0 0 0 0 0 0 0 0 0
+Stats      16 10000 0 10 0 None None None
+AffData    Wisdom -1 -1 -1 0
+AffData    damroll 3 -1 -1 0
+AffData    hit 15 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27240
+Keywords   cross gold Golden o027~
+Type       wand~
+Short      the Golden Cross~
+Long       You see a gold cross lying on the ground.~
+Flags      glow hum magic~
+WFlags     take hold~
+Values     15 3 3  0 0 0 0 0 0 0
+Stats      10 187 0 9999 0 None None None
+AffData    hitroll -3 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27260
+Keywords   boots Blue o027~
+Type       armor~
+Short      a pair of blue boots~
+Long       You see a pair of blue boots lying in the dirt.~
+WFlags     take feet~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      3 700 0 9999 0 None None None
+AffData    move 20 -1 -1 0
+AffData    mana -10 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27270
+Keywords   helm Black o027~
+Type       armor~
+Short      a black helm~
+Long       A black helm has been left here.~
+WFlags     take head~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      5 2500 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27280
+Keywords   gloves White o027~
+Type       armor~
+Short      a pair of white gloves~
+Long       You see a pair of white gloves lying on the ground here.~
+WFlags     take hands~
+Values     -2 -2 0 0 0 0 0 0 0 0 0
+Stats      4 500 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27300
+Keywords   Red Belt o027~
+Type       armor~
+Short      Red belt~
+Long       You see a red belt lying in the dirt here.~
+WFlags     take waist~
+Values     5 5 0 0 0 0 0 0 0 0 0
+Stats      3 100 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27320
+Keywords   stone Emerald o027~
+Type       trash~
+Short      Emerald Stone~
+Long       You see an emerald stone lying on the ground.~
+Flags      magic~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      10 5000 0 9999 0 None None None
+AffData    hit 25 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27340
+Keywords   grail Holy o027~
+Type       drinkcon~
+Short      Holy Grail~
+Long       You see the Cup of Christ sitting up on the ground.~
+Flags      glow hum antievil antineutral~
+WFlags     take hold~
+Values     100000 100000 0 0 0 0 0 0 0 0 0
+Stats      1 0 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        27350
+Keywords   fireball o027~
+Type       light~
+Short      Fireball~
+Long       You see a Fireball on the ground.~
+Flags      glow~
+WFlags     take hold~
+Values     0 0 -1 0 0 0 0 0 0 0 0
+Stats      1 1000 0 9999 0 None None None
+AffData    hitroll 4 -1 -1 0
+AffData    damroll -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        27360
+Keywords   spear David o027~
+Type       staff~
+Short      Spear of David~
+Long       You see a grey spear lying on the ground.~
+Flags      glow hum magic~
+WFlags     take wield hold~
+Values     7 7 7  0 0 0 0 0 0 0
+Stats      4 0 0 9999 0 None None None
+AffData    hitroll -5 -1 -1 0
+#EXDESC
+ExDescKey  Spear David~
+ExDesc     You look at the spear and know it's meant to be used for healing, not for 
+fighting.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        27490
+Keywords   key Magic Magical k027~
+Type       key~
+Short      Magical Key~
+Long       You see Merlin's Magical Key lying on the ground. Look at it.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      3 0 0 9999 0 None None None
+AffData    hitroll -1 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#EXDESC
+ExDescKey  Magic Key Merlin~
+ExDesc     You see a magical key. If you return it to Merlin, he will give you a reward.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        27540
+Keywords   shell turtle armor o027~
+Type       armor~
+Short      turtle shell armor~
+Long       A chunk of turtle shell has been left here.~
+Flags      magic~
+WFlags     take body~
+Values     28 28 0 0 0 0 0 0 0 0 0
+Stats      15 25000 0 20 0 None None None
+AffData    Wisdom 2 -1 -1 0
+AffData    save_all 5 -1 -1 0
+AffData    damroll 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        28660
+Keywords   girth battle mithril o027~
+Type       armor~
+Short      a Mithril Battle Girth~
+Long       A silvery object catches your attention.~
+Flags      magic antievil~
+WFlags     take waist~
+Values     37 37 0 0 0 0 0 0 0 0 0
+Stats      10 25000 0 10 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    Strength 1 -1 -1 0
+AffData    Intelligence -1 -1 -1 0
+AffData affected  'detect_evil' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        28750
+Keywords   key mirrorkey k027~
+Type       key~
+Short      a mirror key~
+Long       A reflective key has been left here.~
+WFlags     take hold~
+Values     0 0 0 0 -1 2 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        27000
+Name       Inside the Boulder~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You step inside the large rock. You really can't see much. What did you
+expect to see inside a rock.
+There is a note here.
+~
+#EXIT
+Direction  North~
+ToRoom     27450
+Keywords   boulder rock door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27010
+#ENDEXIT
+Reset D    27000 0 1 100 -2
+#EXDESC
+ExDescKey  note~
+ExDesc     Congratulations Sir Knight for finding the invisible rock.
+Make sure the rock is closed so no one can follow.
+ 
+You must descend into the darkness and fight three skeletal figures.
+I have tried so many times and was unsuccessful. Due to my greed for the
+treasure, I refused to tell anyone about this place to help me.
+If you have enough help, you can do it.
+ 
+One thing I remembered about the pit, every time I went down, I loss more and
+more confidence in myself and I thought I would be unable to get the treasure.
+Don't let this happen to you.
+ 
+Good luck Sir Knight
+                                          -Sir Accolon of Gaul
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27010
+Name       Pit of Despair~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You arrive in the Pit of Despair to find out that almost all your faith is
+as escaped you. You feel insecure and you're not sure whether or not you
+can go through with this.
+The exit is to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     27020
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27000
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27020
+Name       Pit of Despair~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You arrive into the deepest, darkest room you have ever been in.
+Something wants you to leave right away, but you hear the voice of
+Sir Accolon telling you, "Sir Knight, you must stay and finish my dream.
+May God help you to be bold, brave warrior."
+The path leads to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     27010
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27030
+Desc       You see a very thick wooden door.
+~
+Keywords   wood wooden thick door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27030
+Name       Deep in the Pit of Despair~
+Sector     city~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You travel into an absolute dark room. Your light is shining brightly as
+ever.
+~
+#EXIT
+Direction  West~
+ToRoom     27020
+Desc       You see a doorway leading out of this evil underground.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    27030 3 27030 -1 -1 -1 100
+Reset M    27030 3 27030 -1 -1 -1 100
+  Reset E  27030 1 7 100
+Reset M    27030 3 27030 -1 -1 -1 100
+Reset O    27130 1 27030 -1 -1 -1 100
+  Reset P  0 27070 1 27130 100
+#ENDROOM
+
+#ROOM
+Vnum        27100
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs north and south.
+~
+#EXIT
+Direction  South~
+ToRoom     27120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27110
+Name       Grassy Flat~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You are standing on very thick grass. It plays with your eyes seeing that
+you haven't seen green for awhile.
+There is a cave to the west and a rough looking sign hanging outside
+of it.
+~
+#EXIT
+Direction  East~
+ToRoom     27980
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27130
+Desc       Well...it's dark in there.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  sign rough~
+ExDesc     ifyu dair entri n2 thi  caiv den der wll b serrten deth
+                                               -da gwrene jiant
+ 
+Looks like someone came up and wrote a translation on the back of this.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  back translation~
+ExDesc     If you dare enter into this cave then it means certain death.
+                                              -The Green Giant
+ 
+(Scribbles out to the side say, 'Go back to school you big green flunky!)
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27120
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     27100
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27140
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27130
+Name       Inside the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You enter into the damp cave, and you hear growling noises coming
+from the west.
+There is a map here.
+~
+#EXIT
+Direction  North~
+ToRoom     27170
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27110
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27150
+#ENDEXIT
+#EXDESC
+ExDescKey  map~
+ExDesc     You hold your light up to the map.
+ 
+                     X   X   X   X   X
+ 
+            GG - - - X - - - $$$     X <---U R HEAR
+ 
+                     X   X   X   X   X
+ 
+Gest thawt i wuld giv u cowherds a hent 2 wear i am
+hint - my naim is gwreen gyaent    HA HA HA HA HA
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27140
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  North~
+ToRoom     27120
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27160
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27150
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  North~
+ToRoom     27130
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27190
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27160
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  East~
+ToRoom     27140
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27180
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27170
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  South~
+ToRoom     27130
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27350
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27180
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  East~
+ToRoom     27160
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27200
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27190
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27150
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27210
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27200
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  North~
+ToRoom     27220
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27180
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27210
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27190
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27230
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27220
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  South~
+ToRoom     27200
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27240
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27230
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27210
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27250
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27240
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  North~
+ToRoom     27260
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27220
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27250
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  North~
+ToRoom     27270
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27230
+#ENDEXIT
+Reset M    27130 10 27250 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27260
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  South~
+ToRoom     27240
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27280
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27270
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  North~
+ToRoom     27290
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27750
+Desc       You barely can make out a door out of the cave wall.
+~
+Keywords   rock cave door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27250
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27370
+#ENDEXIT
+Reset M    27130 10 27270 -1 -1 -1 100
+Reset M    27130 10 27270 -1 -1 -1 100
+Reset D    27270 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        27280
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+Lots of windy bends.
+~
+#EXIT
+Direction  East~
+ToRoom     27260
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27300
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27290
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27310
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27270
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27300
+Name       Devahn River~
+Sector     water_noswim~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the mystic river. It runs in different directions.
+You come to the base of a short mountain. Looking up, you decide it wouldn't
+be too difficult to climb. To the south, the river continues.
+~
+#EXIT
+Direction  East~
+ToRoom     27280
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28810
+Desc       Looks like some rapids.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27320
+#ENDEXIT
+#EXDESC
+ExDescKey  pebbles west rocks stones~
+ExDesc     You the pebbles building up to cover a hole. You don't think you can
+get back in.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27310
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27330
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27290
+#ENDEXIT
+Reset M    27130 10 27310 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27320
+Name       Dirt Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You are standing at the beginning of a dirt path. Somehow you know that
+this trail leads on to many adventures.
+There is a You Are Here sign.
+~
+#EXIT
+Direction  North~
+ToRoom     27340
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27300
+#ENDEXIT
+#EXDESC
+ExDescKey  sign you here board~
+ExDesc     The sign has a huge red arrow pointing to the spot in which you stand.
+This dirt road looks very long and very branched out.
+There is a message.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  message~
+ExDesc     "Please keep the grounds litter free. Give a hoot, thou shall not pollute.
+And remember only you can prevent thy forest fire.
+Be ready for all the encounters you will...uh....encounter.
+Thank You."
+                                                  -Management
+                                                   March 15, 587 A.D.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27330
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27350
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27310
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27340
+Name       Dirt Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+~
+#EXIT
+Direction  North~
+ToRoom     27360
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27320
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        2735
+Name       In the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You walk along in the chilling cave.
+The dripping water starts to irritate you.
+~
+#EXIT
+Direction  East~
+ToRoom     27170
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27330
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27360
+Name       Dirt Road~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+There is a wooden sign post pointing to where the road leads.
+~
+#EXIT
+Direction  North~
+ToRoom     27960
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27380
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27340
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27560
+#ENDEXIT
+#EXDESC
+ExDescKey  sign post wooden~
+ExDesc     To the east lies the Swamp of Sadness.
+To the west lies (the wood has rotted out the letters here)
+To the south is the mountain leading to Devahn River.
+To the north...oh you don't want to go north!
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27370
+Name       Back of the Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Hmmm according to the Giant's map, he should be right here.
+You notice the gold dust on the ground...this must be where he keeps the
+money.
+He can't even draw a map right!
+~
+#EXIT
+Direction  East~
+ToRoom     27270
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27490
+Key        27490
+Desc       You see a stone door with a ring handle, shut tightly...at least you THINK
+you do. You feel a spell cast over you...a forgetful spell...or was it
+something else? All you remember is to look down.
+~
+Keywords   majik~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    27370 5 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        27380
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  North~
+ToRoom     27400
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27400
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27400
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27360
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27390
+Name       Merlin's Private Chamber~
+Sector     indoors~
+Flags      nomob indoors nomagic private~
+Stats      0 0 0 0 0
+Desc       You are in the most elegant room you will ever see. Everything is carved
+in full splendor; the shelves, the columns, the chairs.
+You feel very safe here in front of the fireplace, sitting in a huge cushion
+which surrounds your body as you sit into it.
+There is a very attractive painting taking up the west wall.
+~
+#EXIT
+Direction  North~
+ToRoom     27490
+Desc       You see the illusionary fireplace
+~
+Keywords   fire illusionary fireplace~
+Flags      isdoor~
+#ENDEXIT
+Reset O    27050 1 27390 -1 -1 -1 100
+Reset D    27390 0 1 100 -2
+#EXDESC
+ExDescKey  fireplace fire~
+ExDesc     You are hypnotized by the dancing flames in the fireplace.
+You can't keep from smiling.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  painting picture wall~
+ExDesc     You stare into the picture and immediately, the most pleasant thoughts
+are placed into your head.
+Pictures of being on top of the highest mountain, swimming through
+crystal blue-green waters up to waterfall that is cascading down upon you,
+bathing you in its cool, soothing water.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27400
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  East~
+ToRoom     27420
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27380
+#ENDEXIT
+Reset M    27380 5 27400 -1 -1 -1 100
+  Reset E  27350 1 1 100
+#ENDROOM
+
+#ROOM
+Vnum        27410
+Name       Dirt Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+~
+#EXIT
+Direction  North~
+ToRoom     27430
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27980
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27420
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+There is a corpse of a large beast sticking up out of the thick mud.
+~
+#EXIT
+Direction  North~
+ToRoom     27440
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27460
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27380
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27460
+#ENDEXIT
+Reset M    27380 5 27420 -1 -1 -1 100
+#EXDESC
+ExDescKey  corpse beast large horse~
+ExDesc     You look at the bony structure, and its the shape of a horse.
+Since the swamp is so thick you can just barely make out the head and neck.
+There is something written in the bridle, what's left of it.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  bridal~
+ExDesc     It simply says,
+                 "Atreyau"
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27430
+Name       Dirt Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+The road is stopped here by a river to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     28020
+Key        27490
+Desc       You see the creek run east and beyond that is where the dirt path continues.
+But the creek looks to wide and too deep to cross over.
+~
+Keywords   river creek~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27450
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27410
+#ENDEXIT
+#EXDESC
+ExDescKey  creek river~
+ExDesc     You see that the creek is too deep to cross.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27440
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  East~
+ToRoom     27480
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27400
+#ENDEXIT
+Reset M    27380 5 27440 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27450
+Name       Top of the Hill~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand before a towering tree. There is a sign nailed to the trunk.
+~
+#EXIT
+Direction  East~
+ToRoom     27470
+Key        27150
+Desc       You see a large tree.
+~
+Keywords   tree trunk~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27000
+Keywords   boulder rock stone~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27430
+#ENDEXIT
+Reset D    27450 1 2 100 -2
+Reset D    27450 2 1 100 -2
+#EXDESC
+ExDescKey  sign trunk~
+ExDesc     Don't come in here! This tree doesn't have a secret passageway. Don't EVEN
+try to open up the tree and go east.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  boulder rock~
+ExDesc     You see a rock. You didn't see it when you first came in, but now you see
+it.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27460
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  East~
+ToRoom     27380
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27470
+Name       Inside the tree~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You climb into the trunk of the tree. A passageway leads down into the
+darkness.
+~
+#EXIT
+Direction  West~
+ToRoom     27450
+Key        27150
+Desc       You see the tree door.
+~
+Keywords   tree trunk~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27510
+#ENDEXIT
+Reset D    27470 3 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        27480
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  East~
+ToRoom     27440
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27500
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27460
+#ENDEXIT
+Reset M    27380 5 27480 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27490
+Name       Merlin's Hangout~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       The cave walls are nicely carved, smooth and round. The floor is built out
+of wood and a warm fire is blazing in the fireplace.
+Magic spell books and potions are stacked everywhere.
+A picture sits on the fireplace.
+You see an odd looking chair sitting in the corner.
+~
+#EXIT
+Direction  South~
+ToRoom     27390
+Desc       Wow! The fireplace has real fire, but it's illusionary.
+You can feel the heat, but you can feel the lack of something solid there.
+~
+Keywords   fire illusionary fireplace~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27370
+Key        27490
+Desc       You see the trap door you came into. It leads back into the cave.
+~
+Keywords   majik~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     28800
+Key        27490
+Desc       You see Merlin's Laboratory.
+~
+Keywords   lab~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    27490 4 2 100 -2
+Reset D    27490 2 1 100 -2
+Reset D    27490 5 2 100 -2
+#EXDESC
+ExDescKey  chair lazyboy~
+ExDesc     The chair is like one you've never seen.
+It looks like it is covered in fine fur, but of an odd color for an animal.
+It has a wooden handle on the side. A small tag is attached in the back of
+the chair.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tag~
+ExDesc     It says, 'Lazy Boy Recliner. Made in West Virginia.'
+Hmmm I think Merlin's been dabbling in a little future seeing here...by about,
+oh thirteen hundred years!
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  fireplace fire~
+ExDesc     You get a weird feeling.
+You can feel the heat cast by the flames, but you sense something
+else there.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  picture~
+ExDesc     It's a picture of a beautiful woman, with long flowing red hair and
+green eyes. It's a magnificent picture of her. You know Merlin fell
+in love with the Lady of the Lake, this must be her.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27500
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  North~
+ToRoom     27440
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27520
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27420
+#ENDEXIT
+Reset M    27380 5 27500 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27510
+Name       Underworld Entrance~
+Sector     city~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       Well the place lives up to its name, roots and dirt for the ceiling.
+There is a sign here, what hasn't been eaten away.
+~
+#EXIT
+Direction  South~
+ToRoom     27530
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27470
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to Hades
+It's everywhere you wanted to be.
+There isn't much water skiing and we don't take American Express.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27520
+Name       Swamp of Sadness~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You enter the Swamp of Sadness and already you feel your heart sink and your
+eyes swell a little.
+You become so emotional you don't pay attention to where you're going.
+~
+#EXIT
+Direction  East~
+ToRoom     27540
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27500
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27530
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  North~
+ToRoom     27510
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27550
+#ENDEXIT
+Reset M    27270 6 27530 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27540
+Name       On a bank~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You stand on a bank. There is solid ground in this deep mud after all.
+~
+#EXIT
+Direction  West~
+ToRoom     27520
+#ENDEXIT
+Reset M    27540 1 27540 -1 -1 -1 100
+  Reset E  27540 1 5 100
+#ENDROOM
+
+#ROOM
+Vnum        27550
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  North~
+ToRoom     27590
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27570
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27530
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27560
+Name       Dirt Road~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+It's beginning to get dark. The trees are more dense and blocking out the
+outside light. You feel a sharp chill rush through you quickly.
+~
+#EXIT
+Direction  East~
+ToRoom     27360
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27580
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27570
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  South~
+ToRoom     27630
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27550
+#ENDEXIT
+Reset M    27270 6 27570 -1 -1 -1 100
+Reset M    27270 6 27570 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27580
+Name       In the Forest~
+Sector     field~
+Flags      dark nomob~
+Stats      0 0 0 0 0
+Desc       You enter into very dark forests. You can hear the sounds of many creatures...
+and some you don't recognize.
+~
+#EXIT
+Direction  North~
+ToRoom     27600
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27560
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27620
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27590
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  East~
+ToRoom     27610
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27550
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27600
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  North~
+ToRoom     27640
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27580
+#ENDEXIT
+Reset M    27560 7 27600 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27610
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  North~
+ToRoom     27710
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27590
+#ENDEXIT
+Reset M    27270 6 27610 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27620
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  North~
+ToRoom     27680
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27580
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27700
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27630
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  North~
+ToRoom     27570
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27690
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27640
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  South~
+ToRoom     27600
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27660
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27650
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  North~
+ToRoom     27670
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27690
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27660
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  East~
+ToRoom     27640
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27680
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27820
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27670
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  South~
+ToRoom     27650
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27710
+#ENDEXIT
+Reset M    27270 6 27670 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27680
+Name       Dark Pool~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You come up to the edge of a black pool of water? There is no grass here and
+the ground is torn up with claw marks.
+~
+#EXIT
+Direction  North~
+ToRoom     27660
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27730
+Desc       You can't see a THING! You're not sure if you want to get into that
+stuff or not.
+~
+#ENDEXIT
+Reset M    27680 5 27680 -1 -1 -1 100
+Reset M    27680 5 27680 -1 -1 -1 100
+Reset M    27680 5 27680 -1 -1 -1 100
+Reset M    27680 5 27680 -1 -1 -1 100
+Reset M    27680 5 27680 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27690
+Name       The Underworld~
+Sector     indoors~
+Flags      dark nomob indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+In the east wall, you see a good size hole.
+~
+#EXIT
+Direction  North~
+ToRoom     27650
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27730
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27630
+#ENDEXIT
+#EXDESC
+ExDescKey  hole~
+ExDesc     The hole is big enough for people to fit in easily.
+But beyond...you can't believe your eyes. You see a lake!
+And there is no barrier between you and the lake. It's just holding.
+You see fish swimming around and the plant life.
+You think you see an arm floating around also!
+There is a sign posted here.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  sign~
+ExDesc     Beware Mortals!
+This lake is a place for fairies only.
+They do not appreciate you being in their lake, so if you value
+your life stay away.
+                                                        -L.O.T.L.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27700
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  North~
+ToRoom     27840
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27620
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27720
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27740
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27710
+Name       The Underworld~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk along under the ground, brushing your way through low hanging roots.
+~
+#EXIT
+Direction  East~
+ToRoom     27670
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27610
+#ENDEXIT
+Reset M    27270 6 27710 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27720
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+There are some odd looking trees to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     27700
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27780
+Desc       You know the trees in this forest are packed pretty close together, but
+ten trees are stacked here side by side. Hmmmm
+~
+Keywords   tree trees door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27730
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  East~
+ToRoom     27810
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27690
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27680
+Desc       You see the sun shining through the clear waters.
+You also think you see a tree staring down at you.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27740
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  East~
+ToRoom     27700
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27750
+Name       Cave of Green Giant~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Just as you figured. He can't draw maps right.
+Everything here is green. The walls are green, the ground, the door, even
+the puddle of water.
+Something grabs your foot as you try to move.
+~
+#EXIT
+Direction  West~
+ToRoom     27270
+Keywords   door cave rock~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27770
+Key        27490
+Desc       You see a green ring connected to a small green trap door. The ring had caught
+your foot.
+~
+Keywords   ring trap green~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    27750 1 27750 -1 -1 -1 100
+  Reset E  27120 3 11 100
+  Reset E  27010 50 16 100
+Reset D    27750 5 2 100 -2
+#EXDESC
+ExDescKey  ring green trap~
+ExDesc     You see a green trap door. It looks like it could be opened with ease.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27760
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+There are some odd looking trees to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     27740
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27780
+Desc       You realize that these trees are packed pretty close together, but there
+are ten of them here, stacked side by side. Hmmmmm
+~
+Keywords   trees tree door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27770
+Name       Bat Cave~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       As you rush into the room, a flock of bats rush by you.
+Tunnel continues down.
+~
+#EXIT
+Direction  Up~
+ToRoom     27750
+Desc       You see the trap door entrance.
+~
+Keywords   ring trap green door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     27790
+Keywords   ring trap green~
+#ENDEXIT
+Reset M    27770 6 27770 -1 -1 -1 100
+Reset M    27770 6 27770 -1 -1 -1 100
+Reset M    27770 6 27770 -1 -1 -1 100
+Reset M    27770 6 27770 -1 -1 -1 100
+Reset M    27770 6 27770 -1 -1 -1 100
+Reset M    27770 6 27770 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27780
+Name       Living Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk out of the dead forest into a fully furnished living room.
+There are chairs and a radio and a table and even a picture sitting on
+the table with the soft touch lamp.
+There is a bookshelf sitting on the west wall.
+~
+#EXIT
+Direction  North~
+ToRoom     27720
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27800
+Keywords   book bookshelf~
+Flags      isdoor~
+#ENDEXIT
+#EXDESC
+ExDescKey  picture~
+ExDesc     You see a Papa Dryad and a Mama Dryad and two little dryad kids smiling real
+big.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  bookshelf book~
+ExDesc     You look at the bookshelf and you can tell that it's hiding something.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27790
+Name       Mystic Dragon Lair~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk into an intense, bright room. You're not sure if you can feel
+anything solid either. You sense a life form here in the room but see nothing.
+Everything is so misty!
+You stumble over something to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     27300
+Desc       You can barely make out a pile of pebbles which are blocking some doorway.
+~
+Keywords   rock pebbles stones~
+Flags      isdoor~
+#ENDEXIT
+Reset M    27790 1 27790 -1 -1 -1 100
+  Reset E  27220 1 12 10
+Reset D    27790 1 1 100 -2
+#EXDESC
+ExDescKey  pebbles rocks stones~
+ExDesc     You see the stones piled up to block a doorway.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27800
+Name       In the Basement~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You stumble down into a dark, musty, basement.
+There is a small hole in the west wall.
+~
+#EXIT
+Direction  West~
+ToRoom     27990
+Desc       You see a hole.~
+Keywords   hole~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27780
+#ENDEXIT
+#EXDESC
+ExDescKey  hole~
+ExDesc     You see the hole is large enough for anyone to crawl through.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        27810
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  North~
+ToRoom     27850
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27870
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27830
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27730
+#ENDEXIT
+Reset M    27510 7 27810 -1 -1 -1 100
+Reset M    27730 5 27810 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27820
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  East~
+ToRoom     27660
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27840
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27940
+#ENDEXIT
+Reset M    27560 7 27820 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27830
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  North~
+ToRoom     27810
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27910
+#ENDEXIT
+Reset M    27510 7 27830 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27840
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  North~
+ToRoom     27820
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27700
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27860
+#ENDEXIT
+Reset M    27560 7 27840 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27850
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  East~
+ToRoom     27890
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27810
+#ENDEXIT
+Reset M    27510 7 27850 -1 -1 -1 100
+Reset M    27730 5 27850 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27860
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  East~
+ToRoom     27840
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27900
+#ENDEXIT
+Reset M    27560 7 27860 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27870
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  North~
+ToRoom     27890
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27930
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27910
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27810
+#ENDEXIT
+Reset M    27510 7 27870 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27890
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  East~
+ToRoom     27950
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27870
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27850
+#ENDEXIT
+Reset M    27730 5 27890 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27900
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems lie
+it's indoors.
+~
+#EXIT
+Direction  North~
+ToRoom     27920
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27860
+#ENDEXIT
+Reset M    27560 7 27900 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27910
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  North~
+ToRoom     27870
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     27970
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27830
+#ENDEXIT
+Reset M    27510 7 27910 -1 -1 -1 100
+Reset M    27730 5 27910 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27920
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  East~
+ToRoom     27940
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27900
+#ENDEXIT
+Reset M    27560 7 27920 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27930
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  North~
+ToRoom     27950
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28000
+Desc       You the bubbles floating to the surface.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27970
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27870
+#ENDEXIT
+Reset M    27510 7 27930 -1 -1 -1 100
+Reset M    27730 5 27930 -1 -1 -1 100
+Reset M    27870 1 27930 -1 -1 -1 100
+  Reset E  27060 5 1 100
+#ENDROOM
+
+#ROOM
+Vnum        27940
+Name       Deep in the Forest~
+Sector     field~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       Suddenly you feel closed in by the surrounding trees. This forest seems like
+it's indoors.
+~
+#EXIT
+Direction  East~
+ToRoom     27820
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27920
+#ENDEXIT
+Reset M    27560 7 27940 -1 -1 -1 100
+  Reset G  27140 50 100
+#ENDROOM
+
+#ROOM
+Vnum        27950
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  South~
+ToRoom     27930
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27890
+#ENDEXIT
+Reset M    27510 7 27950 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        27960
+Name       Dirt Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+~
+#EXIT
+Direction  North~
+ToRoom     27980
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27360
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27970
+Name       In the Lake~
+Sector     swamp~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a warm waters and you don't worry about breathing either.
+You feel very comfortable here.
+The sun shines through from above.
+~
+#EXIT
+Direction  North~
+ToRoom     27930
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27910
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     9100
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27980
+Name       Dirt Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirt path...keeping your eyes peeled for anything!
+~
+#EXIT
+Direction  North~
+ToRoom     27410
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27960
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     27110
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        27990
+Name       Mage Lab~
+Sector     city~
+Flags      dark~
+Stats      0 0 0 0 0
+Desc       You squeeze through the hole only to find potions and spell books and scrolls
+everywhere.
+~
+#EXIT
+Direction  East~
+ToRoom     27800
+#ENDEXIT
+Reset M    27990 1 27990 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28000
+Name       In a Bubble~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       You swim into a bubble, but due to your weight it quickly falls back
+to the ground.
+The lake is to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     27930
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     28020
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28020
+Name       At the edge of the Lake~
+Sector     city~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You walk onto the banks of the shore.
+You are surrounded by trees, but this forest is much better than the
+dryad forest.
+There is a signpost here.
+Exits to the north, east, west and down.
+~
+#EXIT
+Direction  North~
+ToRoom     28030
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28050
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     27430
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28040
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     28000
+#ENDEXIT
+#EXDESC
+ExDescKey  sign post signpost~
+ExDesc      
+  N
+  |                              / \
+--|--                            |C|
+  |                              |A|
+               /-----------------|M|
+             < CARTELOISE CASTLE |E|---------------\
+               \-----------------|L| CALIDONE FOREST >
+                                 |O|---------------/
+                                 |T|
+                                 | |
+                                 | |
+                             -------------
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28030
+Name       Road to the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirty path...you can start to see Camelot's Castle rise
+to the northwest. Just a couple of more steps.
+~
+#EXIT
+Direction  North~
+ToRoom     28450
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28020
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28040
+Name       Road to Carteloise Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the path feeling that you are about to begin a most
+interesting adventure.
+~
+#EXIT
+Direction  East~
+ToRoom     28020
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28390
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28050
+Name       Entrance to Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step into the forest and get a feeling of anxiety. Not only do these
+woods look fearful, they feel fearful.
+~
+#EXIT
+Direction  East~
+ToRoom     28060
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28020
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28060
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28070
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28080
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28050
+#ENDEXIT
+Reset M    28240 6 28060 -1 -1 -1 100
+  Reset E  27320 3 1 100
+#ENDROOM
+
+#ROOM
+Vnum        28070
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28090
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28060
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28080
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  South~
+ToRoom     28220
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28060
+#ENDEXIT
+Reset M    28240 6 28080 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28090
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  East~
+ToRoom     28100
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28070
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28100
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  South~
+ToRoom     28110
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28090
+#ENDEXIT
+Reset M    28240 6 28100 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28110
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28100
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28120
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28120
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  East~
+ToRoom     28130
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28110
+#ENDEXIT
+Reset M    28240 6 28120 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28130
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28140
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28380
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28120
+#ENDEXIT
+Reset M    28240 6 28130 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28140
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+There is a huge tree here with a lot of shields hanging from it.
+~
+#EXIT
+Direction  East~
+ToRoom     28160
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28130
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28150
+#ENDEXIT
+#EXDESC
+ExDescKey  tree~
+ExDesc     You see the many shields hanging from the trees.
+This must be where Sir Marhaus is staying.
+You remember hearing about a knight challenging any knight in the realm
+to come to him and fight him.
+Looks like he has done well.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  shield shields~
+ExDesc     You see the many shields of the many knights Sir Marhaus has slain.
+You see the shield of Sir Cheldric, Sir Hoel, Sir Armorican, Sir Celidon and
+Sir Colgrin...all good knights.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28150
+Name       Sir Marhaus' Tent~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step right up to Sir Marhaus' tent.
+~
+#EXIT
+Direction  East~
+ToRoom     28140
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28320
+Key        27170
+Desc       You see the tent. It looks like Sir Marhaus has locked it up somehow.
+~
+Keywords   tent door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    28150 1 28150 -1 -1 -1 100
+  Reset G  27150 99 100
+Reset D    28150 3 2 100 -2
+#EXDESC
+ExDescKey  tent~
+ExDesc     You see a tent made out of strung brances and big leaves. Looks very
+sturdy. This is where Sir Marhaus has been staying for the past week.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28160
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28170
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28140
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28170                                                                                                                                                                                                                                                                       
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  East~
+ToRoom     28180
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28160
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28180
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28330
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28190
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28170
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28190
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28180
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28200
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28200
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28190
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28210
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28210
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  East~
+ToRoom     28200
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28310
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28220
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28080
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28230
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28230
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28240
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28220
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28240
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  East~
+ToRoom     28250
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28230
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28250
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  East~
+ToRoom     28310
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28260
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28240
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28260
+Name       Entrance to Combat Field~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You step onto a field and observe all the jousting and combat going on.
+A sign is here.
+~
+#EXIT
+Direction  North~
+ToRoom     28250
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28270
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to the Combat Field.
+If you wish to combat, come east my friend. Many eager knights await to slay
+you.
+If you kill the first knight, and you continue moving east, you will have
+a difficult time killing the next knight. The further you move east, the
+more experience these knights are.
+ 
+If you do not wish to fight by blade, we have many powerful mages in the
+northeast part of this forest. No magic will be tolerated here.
+ 
+Good luck Sir Knight and remember...never yield your honor.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28270
+Name       White Knight Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the White Knights.
+~
+#EXIT
+Direction  East~
+ToRoom     28280
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28260
+#ENDEXIT
+Reset M    28270 5 28270 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28270 5 28270 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28270 5 28270 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28270 5 28270 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28270 5 28270 -1 -1 -1 100
+  Reset E  27280 10 9 100
+#ENDROOM
+
+#ROOM
+Vnum        28280
+Name       Red Knight Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the Red Knights.
+~
+#EXIT
+Direction  East~
+ToRoom     28290
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28270
+#ENDEXIT
+Reset M    28280 4 28280 -1 -1 -1 100
+  Reset E  27300 8 13 100
+Reset M    28280 4 28280 -1 -1 -1 100
+  Reset E  27300 8 13 100
+Reset M    28280 4 28280 -1 -1 -1 100
+  Reset E  27300 8 13 100
+Reset M    28280 4 28280 -1 -1 -1 100
+  Reset E  27300 8 13 100
+#ENDROOM
+
+#ROOM
+Vnum        28290
+Name       Blue Knight Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the Blue Knights.
+~
+#EXIT
+Direction  East~
+ToRoom     28300
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28280
+#ENDEXIT
+Reset M    28290 3 28290 -1 -1 -1 100
+  Reset E  27260 6 8 100
+Reset M    28290 3 28290 -1 -1 -1 100
+  Reset E  27260 6 8 100
+Reset M    28290 3 28290 -1 -1 -1 100
+  Reset E  27260 6 8 100
+#ENDROOM
+
+#ROOM
+Vnum        28300
+Name       Black Knight Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the Black Knights.
+~
+#EXIT
+Direction  West~
+ToRoom     28290
+#ENDEXIT
+Reset M    28300 1 28300 -1 -1 -1 100
+  Reset E  27270 2 6 100
+#ENDROOM
+
+#ROOM
+Vnum        28310
+Name       Calidone Forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along in the woods looking for any adventure that will come your
+way.
+~
+#EXIT
+Direction  North~
+ToRoom     28210
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28250
+#ENDEXIT
+Reset M    28240 6 28310 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28320
+Name       Inside Marhaus' Tent~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You squeeze inside the small tent where Sir Marhaus' has been staying for
+the last week.  The only exit is through a locked door to the east.
+There is a note lying here.
+~
+#EXIT
+Direction  East~
+ToRoom     28150
+Key        28500
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset D    28320 1 2 100 -2
+#EXDESC
+ExDescKey  paper note letter~
+ExDesc     Sir Marhaus must have found this on one of the knights he killed.
+ 
+ 
+  To whoever finds this.
+  There is a lost treasure I have devoted my life to seeking out.
+  It probably is likely that if you are reading this, I have died and I
+  wish to pass the secrets onto you.
+  Somewhere within Camelot, I can't really describe how to find it, there
+  is a huge bouling on top of a small hill. It is invisible and
+  can only be seen if you know what you are looking for. Open up the boulder
+  and I have left further instructions how to proceed prior to my death.
+  Good luck Sir Knight...and may God be with you.
+ 
+                                                  -Sir Accolon of Gaul
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28330
+Name       Entrance to Magical Combat Field~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc       You step onto a field and observe all the jousting and combat going on using
+magic and blade.
+A sign is here.
+~
+#EXIT
+Direction  East~
+ToRoom     28340
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28180
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to the Magical Combat Field.
+If you wish to combat, come east my friend. Many eager mages await to slay
+you.
+If you kill the first mage, and you continue moving east, you will have
+a difficult time killing the next mage. The further you move east, the
+more experience these mage are. The white mage has the least experience and
+easy to kill while the black mage is the hardest and most experience.
+ 
+If you do not wish to fight with magic, blade fighting is permitted, but
+we strongly suggest you go to the combat field at the southern part of
+this forest.
+ 
+Good luck Mage and Cleric and remember...never yield your honor.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28340
+Name       White Mage Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the White Mages.
+~
+#EXIT
+Direction  East~
+ToRoom     28350
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28330
+#ENDEXIT
+Reset M    28330 5 28340 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28330 5 28340 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28330 5 28340 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28330 5 28340 -1 -1 -1 100
+  Reset E  27280 10 9 100
+Reset M    28330 5 28340 -1 -1 -1 100
+  Reset E  27280 10 9 100
+#ENDROOM
+
+#ROOM
+Vnum        28350
+Name       Red Mage Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the Red Mages.
+~
+#EXIT
+Direction  East~
+ToRoom     28360
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28340
+#ENDEXIT
+Reset M    28340 4 28350 -1 -1 -1 100
+  Reset E  27300 8 13 100
+Reset M    28340 4 28350 -1 -1 -1 100
+  Reset E  27300 8 13 100
+Reset M    28340 4 28350 -1 -1 -1 100
+  Reset E  27300 8 13 100
+Reset M    28340 4 28350 -1 -1 -1 100
+  Reset E  27300 8 13 100
+#ENDROOM
+
+#ROOM
+Vnum        28360
+Name       Blue Mage Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the Blue Mages.
+~
+#EXIT
+Direction  East~
+ToRoom     28370
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28350
+#ENDEXIT
+Reset M    28350 3 28360 -1 -1 -1 100
+  Reset E  27260 6 8 100
+Reset M    28350 3 28360 -1 -1 -1 100
+  Reset E  27260 6 8 100
+Reset M    28350 3 28360 -1 -1 -1 100
+  Reset E  27260 6 8 100
+#ENDROOM
+
+#ROOM
+Vnum        28370
+Name       Black Mage Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the combat field of the Black Mages.
+~
+#EXIT
+Direction  West~
+ToRoom     28360
+#ENDEXIT
+Reset M    28360 1 28370 -1 -1 -1 100
+  Reset E  27270 2 6 100
+#ENDROOM
+
+#ROOM
+Vnum        28380
+Name       Open Field~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You walk into an open field hoping to find adventure. There's nothing
+here you can see except for a note nailed to a tree.
+~
+#EXIT
+Direction  West~
+ToRoom     28130
+#ENDEXIT
+Reset M    28380 1 28380 -1 -1 -1 100
+  Reset E  27020 3 12 100
+#EXDESC
+ExDescKey  note~
+ExDesc     There is feared an dishonorable knight. He is the Knight Invisible.
+He approaches up to anyone and slashes at them without warning.
+He must be stopped. He has stolen much armour and much gold.
+It is estimated that his armour brings him powerful armour class and he has
+looted as much 35K in gold. That will be the reward for killing him.
+If you successfully have killed the evil knight, shout it so all can hear
+and live in peace.
+Good luck Sir Knight...and may God bring speed to you.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28390
+Name       Road to Carteloise Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You step onto the path feeling that you are about to begin a most
+interesting adventure.
+~
+#EXIT
+Direction  North~
+ToRoom     28400
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28040
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28400
+Name       In front of Carteloise Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You quickly arrive to the front of Carteloise Castle.
+The castle is not very large and not very elegant. It looks very old and
+very fragile.
+There is a sign here.
+~
+#EXIT
+Direction  North~
+ToRoom     28410
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28390
+#ENDEXIT
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to Carteloise Castle.
+King Evelake, leader of this castle is a direct descendant of King David
+of Israel.
+ 
+He possesses the holy Grail, one which Christ drank of at his Last 
+Supper; And the Spear of Tears, one which was used by a Roman Soldier 
+to pierce the side of Christ at his crucifixion.
+ 
+The Grail has eternal wine and the Spear is only used for healing...if 
+it is used as an act of violence, the beholder will die.
+ 
+King Evelake is a hospitable man and is also without sight.
+If you wish for food or board, for a small fee you can come in and we 
+will suit you right away.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28410
+Name       Main Entrance Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a meek looking castle. Nothing too fancy or royal like.
+A room for you to rest in is to the north.  The kitchen is to the west and
+the room to the east is forbidden.
+~
+#EXIT
+Direction  North~
+ToRoom     28420
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28440
+Key        28510
+Desc       You see what looks like a Private Chamber~
+Keywords   door private chamber~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28400
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28430
+#ENDEXIT
+Reset M    28410 2 28410 -1 -1 -1 100
+  Reset G  27170 1 100
+  Reset G  27100 1 100
+Reset M    28410 2 28410 -1 -1 -1 100
+  Reset G  27100 1 100
+#ENDROOM
+
+#ROOM
+Vnum        28420
+Name       Bedroom~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc       You enter in the bedroom and in the corner sits a very comfortable bed.
+You are safe here to rest.
+~
+#EXIT
+Direction  South~
+ToRoom     28410
+#ENDEXIT
+#EXDESC
+ExDescKey  bed~
+ExDesc     The bed looks very comfortable for you to sleep on.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28430
+Name       Kitchen~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You can smell the food coming from the entrance hall.
+~
+#EXIT
+Direction  East~
+ToRoom     28410
+#ENDEXIT
+Reset M    28430 1 28430 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28440
+Name       Private Chamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk into the King's chamber. There are books and books stacked to the
+ceiling and a throne which looks more like a small chair is here.  The only exit
+is to the west.
+~
+#EXIT
+Direction  West~
+ToRoom     28410
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    28440 1 28440 -1 -1 -1 100
+  Reset E  27100 5 16 100
+  Reset G  27360 1 100
+  Reset G  27340 1 100
+#ENDROOM
+
+#ROOM
+Vnum        28450
+Name       Road to the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirty path...you can start to see Camelot's Castle rise
+to the northwest. Just a couple of more steps.
+~
+#EXIT
+Direction  North~
+ToRoom     28460
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28030
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28460
+Name       Road to the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirty path...you can start to see Camelot's Castle rise
+to the northwest. Just a couple of more steps.
+~
+#EXIT
+Direction  South~
+ToRoom     28450
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28470
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28470
+Name       Road to the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirty path...you can start to see Camelot's Castle rise
+to the northwest. Just a couple of more steps.
+~
+#EXIT
+Direction  East~
+ToRoom     28460
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28480
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28480
+Name       Road to the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirty path...you can start to see Camelot's Castle rise
+to the northwest. Just a couple of more steps.
+~
+#EXIT
+Direction  North~
+ToRoom     28490
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28470
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28490
+Name       Road to the Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You travel along the dirty path...you can start to see Camelot's Castle rise
+to the northwest. Just a couple of more steps.
+~
+#EXIT
+Direction  North~
+ToRoom     28500
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28480
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28500
+Name       Entrance to Camelot's Castle~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       You walk up to the front of gate of the castle. You look up and see that
+the castle is huge, extending far into the sky with many towers.
+There is a sign here.
+~
+#EXIT
+Direction  North~
+ToRoom     28510
+Key        28520
+Keywords   castle gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28490
+#ENDEXIT
+Reset M    28520 2 28500 -1 -1 -1 100
+  Reset E  27100 50 16 100
+Reset M    28520 2 28500 -1 -1 -1 100
+  Reset G  27190 1 100
+  Reset E  27100 50 16 100
+Reset D    28500 0 0 100 -2
+#EXDESC
+ExDescKey  sign~
+ExDesc     Welcome to the Castle of Camelot.
+Within these doors resides the great ruler of Logres, King  his
+beautiful wife, Guinevere.
+Many tales are told here, being the home to the Knights of the Round Table.
+Come on in and make yourself at castle.
+Enjoy, celebrate and be merry.
+                                                      -Sir Kay
+                                                 (Senechal of Logres)
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28510
+Name       Grand Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a great chamber hall. Fully decorated with ancient and
+modern items, this is the greatest castle you've ever been in.
+~
+#EXIT
+Direction  North~
+ToRoom     28600
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28520
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28500
+Key        28510
+Desc       You see the front gate to the Castle.
+~
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28590
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     28630
+#ENDEXIT
+Reset M    27200 1 28510 -1 -1 -1 100
+  Reset E  27100 50 16 100
+#ENDROOM
+
+#ROOM
+Vnum        28520
+Name       Castle Kitchen~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a great room. Pots and pans everywhere. Master chefs
+running back and forth. Steam rising out of the ovens. Pretty hot in here.
+There is a dumbwaiter in the south wall.
+~
+#EXIT
+Direction  North~
+ToRoom     28680
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28530
+Desc       You see a dumbwaiter in the south wall
+~
+Keywords   gate~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28510
+#ENDEXIT
+Reset M    28500 1 28520 -1 -1 -1 100
+  Reset E  27100 50 16 100
+#ENDROOM
+
+#ROOM
+Vnum        28530
+Name       In the Dumbwaiter~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       30  28540 0 0 100000
+Desc       You manipulate the strings in the dumbwaiter to move it around.
+~
+#EXIT
+Direction  North~
+ToRoom     28520
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28540
+Name       In the Dumbwaiter~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       30  28530 0 0 100000
+Desc       You manipulate the strings in the dumbwaiter to move it around.
+~
+#EXIT
+Direction  East~
+ToRoom     28570
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28550
+Name       Northern Cell~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a small cell. Not big enough for anyone to live in.
+~
+#EXIT
+Direction  South~
+ToRoom     28570
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28560
+Name       Southern Cell~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a small cell. Not big enough for anyone to live in.
+~
+#EXIT
+Direction  North~
+ToRoom     28570
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28570
+Name       In the Dungeons~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a dark hallway. The walls are damp and with your light you
+can see two cells to the north and south.
+The hallway runs east.
+~
+#EXIT
+Direction  North~
+ToRoom     28550
+Key        28530
+Keywords   north door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28580
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28560
+Key        28530
+Keywords   south door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28540
+Desc       You see the dumbwaiter
+~
+#ENDEXIT
+Reset M    28660 1 28570 -1 -1 -1 50
+  Reset E  28660 1 13 20
+  Reset G  24296 5 20
+Reset M    28660 1 28570 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        28580
+Name       In the Dungeons~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc       You walk into a dark hallway. The walls are damp and with your light you
+can see a hook here. The hall runs west.
+~
+#EXIT
+Direction  West~
+ToRoom     28570
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28590
+Name       Banquet Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A room with a large table to sit a hundred people. There are paintings
+of great knights and kings resting on the walls.
+~
+#EXIT
+Direction  East~
+ToRoom     28510
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28600
+Name       Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk down the long hallway, checking out this wondrous castle.
+~
+#EXIT
+Direction  North~
+ToRoom     28610
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28510
+Keywords   gate~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28610
+Name       Round Table Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk right into the grand room where all the knights under King Arthur's
+command come to meet.
+You stand right in front of the Round Table.
+~
+#EXIT
+Direction  East~
+ToRoom     28620
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28600
+Keywords   gate~
+#ENDEXIT
+#EXDESC
+ExDescKey  round table~
+ExDesc     You look at the famous table and see it sits over a hundred knights.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28620
+Name       Throne Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You walk right into King Arthur's Throne room. The room is decorated with
+lances, suits of armour, trophies, and pictures of everything King Arthur
+has done in his lifetime.
+~
+#EXIT
+Direction  West~
+ToRoom     28610
+#ENDEXIT
+Reset M    27250 1 28620 -1 -1 -1 100
+  Reset E  27040 1 11 50
+Reset M    28610 1 28620 -1 -1 -1 100
+  Reset E  27100 5 16 100
+Reset M    28620 1 28620 -1 -1 -1 100
+  Reset E  27200 100 6 100
+  Reset E  27000 1 16 50
+  Reset E  27210 1 13 75
+Reset M    28650 1 28620 -1 -1 -1 100
+  Reset E  27100 5 16 100
+#ENDROOM
+
+#ROOM
+Vnum        28630
+Name       Upper Part of Grand Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You look down at the grand entrance hall to the castle.
+You notice the stained-glass windows on most of the walls in the
+place.
+~
+#EXIT
+Direction  North~
+ToRoom     28650
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28670
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28760
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28640
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     28510
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28640
+Name       Main Bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Walking into King Arthur's bedroom, you see a professionally designed bed
+and antique cabinets. A balcony to south is over looking the kingdom of
+Camelot.
+~
+#EXIT
+Direction  East~
+ToRoom     28630
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28660
+#ENDEXIT
+Reset M    28640 1 28640 -1 -1 -1 100
+  Reset E  27240 3 17 100
+#ENDROOM
+
+#ROOM
+Vnum        28650
+Name       Recreation Room~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This must be where the King holds his parties. The place is huge.
+Large enough to hold battles in. The room is decorated with suits of
+armour, maces, and swords.
+~
+#EXIT
+Direction  South~
+ToRoom     28630
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28660
+Name       Balcony~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       Stepping on to the balcony, you take in the fresh air of Camelot.
+You can see everything. The forests, the lake, the cave, the swamp.
+What a sight to behold.
+~
+#EXIT
+Direction  North~
+ToRoom     28640
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28670
+Name       Morgan's bedroom~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       What a spooky room. The whole room is dark. There are crystal balls and
+witch spell books. A mirror on the south wall. King Arthur is probably not too
+proud to know his sister, Morgan LeFay is a witch.
+A message is laying on the vanity.
+~
+#EXIT
+Direction  South~
+ToRoom     28750
+Key        28750
+Desc       You see an odd looking mirror.
+~
+Keywords   mirror~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28630
+#ENDEXIT
+Reset D    28670 2 2 100 -2
+#EXDESC
+ExDescKey  message note paper~
+ExDesc     My dear son Modred,
+  I will soon have it for you. When he is asleep, I will switch the two
+and you shall have it soon. Patience dear Modred.
+                                               -Morga
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  mirror~
+ExDesc     You see an odd looking mirror. You can almost see through it.
+It's for more than just vanity.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28680
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  East~
+ToRoom     28690
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28520
+Keywords   gate~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28690
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  North~
+ToRoom     28700
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28720
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28680
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28700
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  North~
+ToRoom     28710
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28710
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28690
+Keywords   gate~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28710
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  North~
+ToRoom     28690
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28700
+Keywords   gate~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28720
+#ENDEXIT
+Reset M    28670 1 28710 -1 -1 -1 100
+  Reset G  28750 99 100
+  Reset G  27110 1 100
+  Reset E  27080 100 16 100
+#ENDROOM
+
+#ROOM
+Vnum        28720
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  North~
+ToRoom     28730
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28710
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28730
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28730
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  East~
+ToRoom     28700
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28720
+Keywords   gate~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28740
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28740
+Name       Castle Garden~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc       The hedges must be fifteen feet tall. You venture on in this maze
+of plant life.
+~
+#EXIT
+Direction  North~
+ToRoom     28680
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     28730
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28500
+Keywords   gate~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28750
+Name       Mordred's Chamber~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       This room is almost a replicate of Morgan's. A very dark room, no
+open windows, the stench of dead air is dominant.
+~
+#EXIT
+Direction  North~
+ToRoom     28670
+#ENDEXIT
+Reset M    27220 6 28750 -1 -1 -1 100
+  Reset E  3020 100 16 100
+Reset M    27220 6 28750 -1 -1 -1 100
+  Reset E  3020 100 16 100
+Reset M    27220 6 28750 -1 -1 -1 100
+  Reset E  3020 100 16 100
+Reset M    27220 6 28750 -1 -1 -1 100
+  Reset E  3020 100 16 100
+Reset M    27220 6 28750 -1 -1 -1 100
+  Reset E  3020 100 16 100
+Reset M    27220 6 28750 -1 -1 -1 100
+  Reset E  3020 100 16 100
+Reset M    27290 1 28750 -1 -1 -1 100
+  Reset E  27090 1 16 100
+  Reset E  27160 1 6 100
+#ENDROOM
+
+#ROOM
+Vnum        28760
+Name       Castle Library~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       A huge room with nothing but books. It seems the Knights of the Round Table
+are quite literate.
+The bookshelves are stacked high the ceiling. There must be ten thousand
+volumes in here.
+~
+#EXIT
+Direction  North~
+ToRoom     28630
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     28770
+Keywords   bookshelf~
+Flags      isdoor~
+#ENDEXIT
+Reset D    28760 5 1 100 -2
+#EXDESC
+ExDescKey  books bookshelf~
+ExDesc     Nothing but books everywhere.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        28770
+Name       Secret Passage~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stumble into the darkness. The passage way is completely composed of
+stone. You hear nothing but the dead silence and you feel like whistling
+or something to keep you from going insane.
+~
+#EXIT
+Direction  West~
+ToRoom     28780
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     28760
+Keywords   bookshelf door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28780
+Name       Secret Passage~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stumble into the darkness. The passage way is completely composed of
+stone. You hear nothing but the dead silence and you feel like whistling
+or something to keep you from going insane.
+~
+#EXIT
+Direction  East~
+ToRoom     28770
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28790
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28790
+Name       Secret Passage~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You stumble into the darkness. The passage way is completely composed of
+stone. You hear nothing but the dead silence and you feel like whistling
+or something to keep you from going insane.
+~
+#EXIT
+Direction  East~
+ToRoom     28780
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28800
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28800
+Name       Merlin's Laboratory~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc       You step into laboratory...Merlin's laboratory. He's got potions and
+spellbooks laid all across the room. You can hear the walls hum and see
+the room glow. A magnificent room.
+~
+#EXIT
+Direction  East~
+ToRoom     28790
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     27490
+Key        27490
+Keywords   lab~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    28800 1 28800 -1 -1 -1 100
+  Reset G  27490 99 100
+  Reset E  27180 1 15 20
+#ENDROOM
+
+#ROOM
+Vnum        28810
+Name       Rapids~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       30  28820 0 0 100000
+Desc         You are shooting the rapids! Yippeeeeeeee! At this point you think you might
+be able to turn your boat around, but the current gets swifter to the south...
+~
+#EXIT
+Direction  North~
+ToRoom     27300
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28820
+Name       Rapids~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       15  28830 0 0 100000
+Desc         You are shooting the rapids! Yippeeeeeeee! You are really moving now! No way
+to get back against this current. Look like you might be able to make
+it to the east shore though...
+~
+#EXIT
+Direction  East~
+ToRoom     28830
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28840
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28830
+Name       Rapids~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       15  28840 0 0 100000
+Desc         A massive current rips the paddle from your hands! Uh-Oh...looks like some
+mean looking rocks up ahead!
+~
+#ENDROOM
+
+#ROOM
+Vnum        28840
+Name       Rapids~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       15  28850 0 0 100000
+Desc         Look out! Lucky for you the current is swift, a few more seconds and you
+would have been splintered at that corner!
+~
+#EXIT
+Direction  East~
+ToRoom     10000
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28850
+Name       Mild Rapids~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       30  28860 0 0 100000
+Desc         Looks like you are starting to slow down. In the distance there looks to
+be some sort of canyon.
+~
+#ENDROOM
+
+#ROOM
+Vnum        28860
+Name       Canyon River~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       30  28870 0 0 100000
+Desc         You are lazily moving through a magnificent canyon. What a beautiful sight!
+It is getting noticeably hotter here. Lucky for you all this water.
+~
+#ENDROOM
+
+#ROOM
+Vnum        28870
+Name       Canyon River~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       30  28880 0 0 100000
+Desc         In the distance the river appears to go underground. Beyond that and to the
+east is a small landing.
+~
+#EXIT
+Direction  East~
+ToRoom     28900
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28880
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28880
+Name       Whirlpool!~
+Sector     indoors~
+Flags      indoors teleport teleshowdesc~
+Stats       15  28890 0 0 100000
+Desc         You try to circumnavigate the whirlpool, but to no avail. You are sucked
+down....down....down....
+ 
+You start to panic. ....No....Air....can't....breathe....
+ 
+~
+#ENDROOM
+
+#ROOM
+Vnum        28890
+Name       SPLASH!~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         You land in a puddle of slimy water. A spectacular view is above you as the
+water comes cascading down into a large pool. The turns into a small
+river leading to the west. It is pretty dark down here... To the north a
+very neonish blue field is suspended in mid-air. Throughout your vast amount
+of experiences with "very neonish blue fields", you could guess that this is
+either a portal to somewhere, or a particle field that would kill you. You can
+faintly hear the din of adventurers.
+~
+#EXIT
+Direction  North~
+ToRoom     1001
+Desc       Portal or Deathtrap?
+~
+Keywords   portal field~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28900
+Name       The Landing~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         To the south you can make out a trail leading through a marsh-type area.
+Back to the west, there is a giant whirlpool sucking the entire river into
+a huge hole in the canyon floor.
+~
+#EXIT
+Direction  South~
+ToRoom     28910
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     28880
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28910
+Name       Canyon Marsh~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         This is definitely disgusting! Everything sticks to you (even the air) and
+it is noticeably darker...almost as if everything was suppressing any emotion
+except depression.
+~
+#EXIT
+Direction  North~
+ToRoom     28900
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28920
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28920
+Name       Canyon Marsh~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         After several miles of tramping you can see a dim gloomy light ahead of
+you. There is no way to tell the source of this through the trees and moss
+hanging down around you.
+ 
+~
+#EXIT
+Direction  North~
+ToRoom     28910
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     28930
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        28930
+Name       Canyon Marsh~
+Sector     field~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         As you approach the light it seems to turn into a blue flashing light. It
+is oscillating at totally random intervals (like lightning). The marsh is
+drying up. You see a structure off to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     28920
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     14628
+#ENDEXIT
+#ENDROOM
+
+#ENDAREA

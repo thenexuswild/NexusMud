@@ -1,0 +1,31 @@
+Version     1
+Name        Half-Elf~
+Race        8
+Classes     Warrior Mage Necromancer Cleric Rogue Bard~
+Str_Plus    -1
+Dex_Plus    1
+Wis_Plus    0
+Int_Plus    1
+Con_Plus    -1
+Cha_Plus    1
+Lck_Plus    0
+Hit         3
+Mana        3
+Affected    infrared~
+Language    elvish~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   102
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     72
+Weight     155
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'enrapture' 65 80
+Skill 'intuition' 35 85
+Skill 'swim' 5 90
+End

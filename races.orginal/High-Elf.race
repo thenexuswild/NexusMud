@@ -1,0 +1,32 @@
+Version     1
+Name        High-Elf~
+Race        1
+Classes     Mage Cleric Rogue Warrior Druid Ranger Bard~
+Str_Plus    -1
+Dex_Plus    2
+Wis_Plus    0
+Int_Plus    1
+Con_Plus    -1
+Cha_Plus    1
+Lck_Plus    0
+Hit         -2
+Mana        10
+Affected    infrared~
+Resist      sleep charm~
+Language    elvish~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   104
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     84
+Weight     160
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'bladesong' 50 85
+Skill 'elvensong' 25 90
+Skill 'reverie' 75 80
+End

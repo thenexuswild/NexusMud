@@ -1,0 +1,270 @@
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/23 00:44
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/24 18:39
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/24 18:42
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/24 18:48
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/24 19:00
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/24 22:54
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/25 16:21
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   boralis.iguanadons.net
+When   11/25 16:52
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   192.168.0.5
+When   10/28 19:50
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   192.168.0.5
+When   10/28 19:51
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   216.6.240.2
+When   11/01 13:48
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   216.6.240.2
+When   11/01 16:51
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   occhost243171.sunyocc.edu
+When   12/02 10:04
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   occhost243171.sunyocc.edu
+When   12/02 13:18
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   occhost243171.sunyocc.edu
+When   12/02 13:22
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   occhost243171.sunyocc.edu
+When   12/02 14:57
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   occhost241102.sunyocc.edu
+When   12/08 11:26
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   occhost241102.sunyocc.edu
+When   12/08 13:38
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   192.168.0.5
+When   12/11 14:41
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Admin
+Host   192.168.0.5
+When   12/11 14:43
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   12/11 14:44
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Lordken
+Host   107-203-12-112.lightspeed.milwwi.sbcglobal.net
+When   12/11 14:55
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Lordken
+Host   107-203-12-112.lightspeed.milwwi.sbcglobal.net
+When   12/11 14:58
+Level  1
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   12/11 15:07
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   12/11 15:12
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   12/11 15:33
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Creidi
+Host   216.6.240.2
+When   12/12 10:54
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Creidi
+Host   216.6.240.2
+When   12/12 11:32
+Level  2
+Type   0
+Invis  0
+End
+
+#CONN
+User   Creidi
+Host   occhost241102.sunyocc.edu
+When   12/23 09:18
+Level  2
+Type   0
+Invis  0
+End
+
+#CONN
+User   Creidi
+Host   occhost241102.sunyocc.edu
+When   12/23 09:50
+Level  2
+Type   2
+Invis  0
+End
+

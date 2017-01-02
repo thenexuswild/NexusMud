@@ -1,0 +1,31 @@
+Version     1
+Name        Minotaur~
+Race        10
+Classes     Warrior Cleric~
+Str_Plus    2
+Dex_Plus    0
+Wis_Plus    0
+Int_Plus    -3
+Con_Plus    2
+Cha_Plus    -3
+Lck_Plus    1
+Hit         7
+Mana        -10
+Affected    infrared~
+Language    minotaur~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   106
+Bodyparts  head arms legs heart brains guts hands ankles hooves fingers ear eye horns~
+Height     88
+Weight     200
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'bloodlust' 75 80
+Skill 'hunt' 35 85
+Skill 'impale' 7 90
+End

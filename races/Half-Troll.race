@@ -1,0 +1,33 @@
+Version     1
+Name        Half-Troll~
+Race        7
+Classes     Cleric Warrior~
+Str_Plus    2
+Dex_Plus    -2
+Wis_Plus    -2
+Int_Plus    -1
+Con_Plus    4
+Cha_Plus    -5
+Lck_Plus    0
+Hit         7
+Mana        -9
+Affected    infrared~
+Resist      poison~
+Suscept     fire~
+Language    trollese~
+Align       0
+Min_Align  -1000
+Max_Align	 1000
+AC_Plus    0
+Exp_Mult   108
+Bodyparts  head arms legs heart brains guts hands feet ankles fingers ear eye~
+Height     120
+Weight     315
+Hunger_Mod  0
+Thirst_mod  0
+Mana_Regen  0
+HP_Regen    0
+Skill 'regeneration' 20 90
+Skill 'rushing maul' 35 85
+Skill 'trollhide' 75 80
+End

@@ -1,0 +1,5992 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Cyberia~
+Author          Unknown~
+Vnums           8500 8662
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 115 0 115
+ResetMsg        Please place message here~
+ResetFreq       60
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        8500
+Keywords   cyborg registrar m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the city registrar~
+Long       The city registrar is handing out identification cards.
+~
+Desc       He's fairly large for an administrative worker, but then again he probably
+has to deal with some questionable characters.  The registrar has an efficient
+way about him.  He looks very organized and calm.
+
+~
+Nattacks   2.000000
+Stats1     0 0 60 100 150 250
+Stats2     20 1 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8501
+Keywords   cyborg shopkeeper clerk m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      The clerk~
+Long       The clerk looks bored behind the counter.
+~
+Desc       She looks like she'd rather be doing something else besides working in a food
+store.  You get the feeling that she could snap at any moment...
+
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     20 1 0 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+ShopData   8501 8502 8503 0 0 80 125 8 19
+#ENDMOBILE
+
+#MOBILE
+Vnum        8502
+Keywords   cyborg shopkeeper owner m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The shopkeeper~
+Long       The owner of the supply store wants to sell you something.
+~
+Desc       He grins when he looks at you.  It's a salesman's kind of grin.
+
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     20 1 0 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+ShopData   8504 8505 8506 0 0 80 125 8 19
+#ENDMOBILE
+
+#MOBILE
+Vnum        8503
+Keywords   cyborg guard m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cyborg gateguard~
+Long       A cyborg gateguard stands on guard.
+~
+Desc       The gateguard looks well trained and ready to spring to the attack.
+
+~
+Nattacks   2.000000
+Stats1     200 15 60 100 150 250
+Stats2     18 3 0 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8504
+Keywords   cyborg man m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cyborg man~
+Long       A cyborg man goes about his business.
+~
+Desc       He's an average citizen of the city.  A few cybernetic implants remind you of
+his origins, but beyond that he's just a man.
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     15 5 0 1 2 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8505
+Keywords   cyborg woman m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A cyborg woman~
+Long       A cyborg woman smiles at you as she passes by.
+~
+Desc       Looks like she's happy with her life in the city.
+
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     15 5 0 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8506
+Keywords   cyborg captain biltanus m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Biltanus~
+Long       Biltanus, Captain of the Guard, keeps the city under control.
+~
+Desc       Biltanus is huge.  His heavily muscled arms have cybernetic attachments that
+make him look like a tank.  A red eye gazes upon you, and you wonder what he's
+thinking.
+
+~
+Nattacks   4.000000
+Stats1     240 15 60 100 150 250
+Stats2     33 -7 -7 1 6 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8507
+Keywords   cyborg smith chig m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Chig~
+Long       Chig, the Blacksmith, welcomes you to his smithy.
+~
+Desc       Chig is a short, wide cyborg.  His chest is almost as wide as he is tall.  He
+is dirty and doesn't smell that great, but his congenial attitude appeals to 
+you.
+
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     20 1 0 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8508
+Keywords   cyborg apprentice m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      An apprentice smith~
+Long       An apprentice smith carefully mixes metals here.
+~
+Desc       This young cyborg is trying to learn the art of metal working.  
+
+~
+Nattacks   1.000000
+Stats1     100 15 60 100 150 250
+Stats2     8 13 3 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8509
+Keywords   cyborg crazy eddie m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Crazy Eddie~
+Long       Crazy Eddie is yelling about his latest sale.
+~
+Desc       This cyborg is loud and obnoxious.  But he is also very rich.  You wonder how
+it is that a man as despicable and loathsome as he can make a living as a sales
+man.
+
+~
+Nattacks   2.000000
+Stats1     -240 15 60 100 150 250
+Stats2     22 0 -1 1 3 0 40
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+ShopData   8527 8528 8529 8537 0 70 175 8 22
+#ENDMOBILE
+
+#MOBILE
+Vnum        8510
+Keywords   cyborg sancho m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Sancho~
+Long       Sancho adjusts his sombrero as he prepares to take your order.
+~
+Desc       Sancho has no shame.  He proudly exhibits his over-sized sombrero and 
+brightly colored vest.  His leather boots have spurs, and his moustache is long
+and curls at the ends.
+
+~
+Nattacks   2.000000
+Stats1     100 15 60 100 150 250
+Stats2     20 1 0 1 6 0 24
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+ShopData   8520 8521 8522 0 0 80 125 11 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        8511
+Keywords   cyborg man patron m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cyborg man~
+Long       A cyborg man is enjoying himself.
+~
+Desc       He's an average citizen of the city.  A few cybernetic implants remind you of
+his origins, but beyond that he's just a man.
+
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     15 5 0 1 3 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8512
+Keywords   cyborg woman patron m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A cyborg woman~
+Long       A cyborg woman is having a good time.
+~
+Desc       Looks like she's happy with her life in the city.
+
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     15 5 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8513
+Keywords   cyborg bartender mikel m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Mikel the bartender~
+Long       Mikel the bartender is mixing up some drinks.
+~
+Desc       Mikel is an older cyborg, who looks like he's seen a lot in his day.  He 
+winks and asks what your pleasure is.
+
+~
+Nattacks   2.000000
+Stats1     325 15 60 100 150 250
+Stats2     17 4 1 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+ShopData   8530 8531 8532 0 0 80 125 1 3
+#ENDMOBILE
+
+#MOBILE
+Vnum        8514
+Keywords   drunk cyborg man sick m085~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The drunk cyborg~
+Long       A drunk cyborg is praying to his porcelain god.
+~
+Desc       Uh oh.  Looks like this cyborg has had WAY too much to drink, if those 
+retching sounds are any indication.  He's pretty big, so it must have been some
+kind of liquor that did him in!
+
+~
+Nattacks   2.000000
+Stats1     0 15 60 100 150 250
+Stats2     11 10 2 1 2 0 5
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis poison~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8515
+Keywords   cyborg dancer mosher m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a crazed dancer~
+Long       A crazed dancer is moshing about.
+~
+Desc       At least he's on rhythm.
+
+~
+Nattacks   1.000000
+Stats1     50 15 60 100 150 250
+Stats2     8 13 3 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8516
+Keywords   cyborg dancer mosher m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a crazed dancer~
+Long       A crazed dancer slams into you.
+~
+Desc       She's wilder than any woman you've ever danced with!
+
+~
+Nattacks   1.000000
+Stats1     50 15 60 100 150 250
+Stats2     8 13 3 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8517
+Keywords   cyborg dancer slow m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a slow dancer~
+Long       This dancer could use some lessons.
+~
+Desc       He looks very tentative and unsure of himself.
+
+~
+Nattacks   1.000000
+Stats1     50 15 60 100 150 250
+Stats2     8 13 3 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8518
+Keywords   cyborg vandetta bartender m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      Vandetta~
+Long       Vandetta is mixing drinks and chatting with the customers.
+~
+Desc       She's awfully tall, and a little intimidating.  When you see her interact
+with her patrons, however, you notice that she's very warm and friendly.  Still,
+you feel like you shouldn't mess with her.
+
+~
+Nattacks   3.000000
+Stats1     650 15 60 100 150 250
+Stats2     30 -4 -5 1 5 0 50
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+ShopData   8530 8531 8532 0 0 80 125 1 3
+#ENDMOBILE
+
+#MOBILE
+Vnum        8519
+Keywords   cyborg pakkas shopkeeper m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Pakkas~
+Long       Pakkas is here fencing some watches.
+~
+Desc       This short, slim cyborg has beady little eyes and a big nose.  His eyes
+dart about nervously as he peddles his wares.  Perhaps he's looking for the
+person he obtained his goods from..?
+
+~
+Nattacks   2.000000
+Stats1     -240 15 60 100 150 250
+Stats2     15 6 1 1 2 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea wimpy~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+ShopData   8512 8513 8514 0 0 65 175 13 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        8520
+Keywords   cyborg foo shopkeeper m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Foo~
+Long       Foo wants you to try on a pair of his hand crafted shoes.
+~
+Desc       Foo is an older cyborg.  His hair is graying, and his cybernetic implants
+don't have the luster that those of the younger cyborgs do.  However, there is
+an unmistakeable fire in his eyes.  Foo's day has not passed yet.
+
+~
+Nattacks   2.000000
+Stats1     360 15 60 100 150 250
+Stats2     18 3 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+ShopData   8515 8516 0 0 0 65 155 13 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        8521
+Keywords   cyborg hirbek jeweler m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Hirbek~
+Long       Hirbek is showing his customers some finely crafted jewelry.
+~
+Desc       Hirbek is young and energetic.  The jewelry he is selling is marvelous.  You
+have never seen many of the gems that adorn the various items in his inventory.
+
+~
+Nattacks   2.000000
+Stats1     360 15 60 100 150 250
+Stats2     18 3 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+ShopData   8517 8518 0 0 0 65 155 13 23
+#ENDMOBILE
+
+#MOBILE
+Vnum        8522
+Keywords   cyborg story teller m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      An old storyteller~
+Long       An old story teller is captivating his audience.
+~
+Desc       The story teller is a grizzled old cyborg, but he has a certain charm about
+him.  Seems like his old and rusty cybernetic parts are a perfect complement
+to his story telling ability; they add sound effects and simple holographic
+pictures.
+
+~
+Nattacks   2.000000
+Stats1     240 15 60 100 150 250
+Stats2     15 5 2 1 8 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8523
+Keywords   cyborg child listener m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cyborg child~
+Long       A child is listening to stories.
+~
+Desc       This little cyborg is intent on the story being told.  His eyes are wide
+and he occasionally jumps or flinches as the story teller's voice changes.
+
+~
+Nattacks   1.000000
+Stats1     450 15 60 100 150 250
+Stats2     6 16 3 1 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8524
+Keywords   cyborg innkeeper m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The innkeeper~
+Long       The innkeeper sighs as you approach.
+~
+Desc       Balding and obese, the innkeeper looks like he'd rather be sleeping than
+sitting here behind this desk.  And he certainly doesn't look like he wants
+to help YOU!
+
+~
+Nattacks   3.000000
+Stats1     -200 15 60 100 150 250
+Stats2     28 -3 -4 1 4 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8525
+Keywords   cyborg student very young m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a very young student~
+Long       A very young student is trying to learn to add.
+~
+Desc       This small child is an enthusiatic learner.
+
+~
+Nattacks   1.000000
+Stats1     675 15 60 100 150 250
+Stats2     6 15 4 1 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8526
+Keywords   cyborg student very young m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a very young student~
+Long       A very young student is trying to learn to add.
+~
+Desc       This small child is an enthusiatic learner.
+
+~
+Nattacks   1.000000
+Stats1     675 15 60 100 150 250
+Stats2     6 15 4 1 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8527
+Keywords   cyborg teacher kindergarten m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the kindergarten teacher~
+Long       The kindergarten teacher is trying to keep her class under control.
+~
+Desc       She's young and beautiful (except for her cybernetic eye).  The kids adore
+her, although she's having a bit of trouble keeping them under control right
+now.
+
+~
+Nattacks   2.000000
+Stats1     550 15 60 100 150 250
+Stats2     18 3 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8528
+Keywords   cyborg student young m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a young grade-school student~
+Long       A young grade school student is doing long division.
+~
+Desc       Your stomach turns as you recall taking long division tests.  You feel sorry
+for this child.
+
+~
+Nattacks   1.000000
+Stats1     675 15 60 100 150 250
+Stats2     8 14 2 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8529
+Keywords   cyborg student young m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a young grade-school student~
+Long       A young grade school student is doing long division.
+~
+Desc       Your stomach turns as you recall taking long division tests.  You feel sorry
+for this child.
+
+~
+Nattacks   1.000000
+Stats1     675 15 60 100 150 250
+Stats2     8 14 2 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8530
+Keywords   cyborg teacher grade school m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the grade school teacher~
+Long       The grade school teacher is overseeing her students.
+~
+Desc       This teacher is making sure her students learn the old fashioned way - she's
+testing them!
+
+~
+Nattacks   2.000000
+Stats1     550 15 60 100 150 250
+Stats2     21 1 -1 1 3 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8531
+Keywords   cyborg student high school m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a high school student~
+Long       A high school student is experimenting on something.
+~
+Desc       Looks like he's trying to mix some chemicals.  You should stand back...
+
+~
+Nattacks   2.000000
+Stats1     675 15 60 100 150 250
+Stats2     11 11 2 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8532
+Keywords   cyborg student high school m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a high school student~
+Long       A high school student is experimenting on something.
+~
+Desc       She's trying to disect a dead animal, but her face is turning a pale green.
+
+~
+Nattacks   2.000000
+Stats1     675 15 60 100 150 250
+Stats2     11 11 2 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8533
+Keywords   cyborg patrol guard m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cyborg patrol guard~
+Long       A cyborg patrol guard looks you over.
+~
+Desc       The patroller looks eager for action.
+
+~
+Nattacks   2.000000
+Stats1     200 15 60 100 150 250
+Stats2     18 3 0 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8534
+Keywords   cyborg teacher high school m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the high school teacher~
+Long       A high school teacher has had enough of teenagers.
+~
+Desc       His hair is awry and his nerves are frazzled - yep he's a high school teacher.
+
+~
+Nattacks   2.000000
+Stats1     550 15 60 100 150 250
+Stats2     23 0 -2 1 4 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8535
+Keywords   cyborg student college m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a college student~
+Long       A college student just wants to party.
+~
+Desc       You can see the gleam in his eyes... he wants beer!
+~
+Nattacks   2.000000
+Stats1     675 15 60 100 150 250
+Stats2     15 8 0 1 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8536
+Keywords   cyborg student college m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a college student~
+Long       A college student just wants to party.
+~
+Desc       She's probably really wild at a party!
+
+~
+Nattacks   2.000000
+Stats1     675 15 60 100 150 250
+Stats2     15 8 0 1 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8537
+Keywords   cyborg professor college m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the college professor~
+Long       The college professor is giving a lecture.
+~
+Desc       This college professor drones on and on about the artistic qualities of
+poetry.  His students are doing an admirable job of staying awake throughout.
+
+~
+Nattacks   3.000000
+Stats1     550 15 60 100 150 250
+Stats2     25 -2 -3 1 5 0 35
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8538
+Keywords   cyborg child playing m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      A cyborg child~
+Long       A cyborg child is happily playing here.
+~
+Desc       This child seems very happy.  
+
+~
+Nattacks   1.000000
+Stats1     450 15 60 100 150 250
+Stats2     6 16 3 1 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8539
+Keywords   cyborg manager apartment m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The apartment manager~
+Long       The apartment manager is trying to decide if he should fix the plumbing.
+~
+Desc       This cyborg is graying with age.  His cybernetic parts look a little older
+than those on other cyborgs.  Curiously, one of his hands has been replaced
+with a weapon of some sort.  He must have seen combat in his day...
+
+~
+Nattacks   2.000000
+Stats1     -120 15 60 100 150 250
+Stats2     23 0 -1 1 3 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8540
+Keywords   cyborg janitor m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      The apartment janitor~
+Long       The apartment janitor is programming his work droids.
+~
+Desc       The apartment janitor is a small, old cyborg who looks like his days are
+nearing an end.  He is working on yet another maintenance droid to work around
+the apartment complex and the rest of the city.
+
+~
+Nattacks   2.000000
+Stats1     240 15 60 100 150 250
+Stats2     17 2 2 1 8 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8541
+Keywords   cyborg maintenance droid m085~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      a maintenance droid~
+Long       A maintenance droid inspects the area here.
+~
+Desc       This droid is designed to clean and repair certain areas.
+
+~
+Nattacks   1.000000
+Stats1     0 15 60 100 150 250
+Stats2     6 15 4 1 1 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea wimpy~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8542
+Keywords   cyborg statue founder m085~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the statue~
+Long       The statue of the founder of Cyberia watches over the city.
+~
+Desc       Legend has it that Cyberia was founded by one of the very first Cyborgs
+ever created.  He asked that his name not be put on the statue, because he
+didn't want the credit (or blame?) for the city's fortunes.  He passed away
+many years ago, but his legacy of freedom and acceptance continues here
+today.
+
+~
+Nattacks   4.000000
+Stats1     1000 15 60 100 150 250
+Stats2     36 -10 -10 1 10 0 65
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden sanctuary fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8543
+Keywords   cyborg off duty guard m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      an off duty cyborg guard~
+Long       An off duty cyborg guard is relaxing.
+~
+Desc       This guard is enjoying his off-duty time.
+~
+Nattacks   2.000000
+Stats1     200 15 60 100 150 250
+Stats2     15 5 2 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8544
+Keywords   cyborg sleeping guard m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   sleeping~
+DefPos     sleeping~
+Short      A cyborg patrol guard~
+Long       This cyborg guard is sleeping.
+~
+Desc       He must have been exhausted from hours of on-duty work.
+
+~
+Nattacks   2.000000
+Stats1     200 15 60 100 150 250
+Stats2     18 3 0 1 6 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8545
+Keywords   cyborg corporal andar m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Corporal Andar~
+Long       Corporal Andar is monitoring the city from here.
+~
+Desc       This young cyborg has an intense look of concentration on his face.  He
+obviously takes his job seriously.
+
+~
+Nattacks   2.000000
+Stats1     375 15 60 100 150 250
+Stats2     23 0 -1 1 3 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8546
+Keywords   cyborg reese m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Reese~
+Long       Reese is here smirking at his weapons collection.
+~
+Desc       Reese is running an illegal operation and he knows it.  He seems quite
+proud of that fact, as if he's challenging someone to stop him.  You believe
+that he is QUITE capable of taking care of himself.
+
+~
+Nattacks   3.000000
+Stats1     -750 15 60 100 150 250
+Stats2     29 -4 -1 1 4 0 45
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary infrared~
+Bodyparts  head arms legs heart~
+ShopData   8526 8533 8534 8535 0 80 125 8 22
+#ENDMOBILE
+
+#MOBILE
+Vnum        8547
+Keywords   cyborg kid little m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a little kid~
+Long       A little kid is in a trance as he plays Mortal Fighter (tm).
+~
+Desc       He's got the arcade craze all right.  His eyes are glazed over, and a little
+ball of drool is forming at the corner of his mouth.
+~
+Nattacks   1.000000
+Stats1     675 15 60 100 150 250
+Stats2     8 14 2 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8548
+Keywords   cyborg older man m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      an middle aged man~
+Long       A middle aged man is here playing a game called "pinball".
+~
+Desc       He must be trying to relive his youth, or perhaps he's a history buff.
+Instead of playing Mortal Fighter or Baltazaar's Revenge, he's playing an
+old fashioned pinball game.
+~
+Nattacks   2.000000
+Stats1     675 15 60 100 150 250
+Stats2     15 8 0 1 4 0 25
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8549
+Keywords   cyborg jilly m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Jilly~
+Long       Jilly smiles in satisfaction as people pour credits into his arcade games.
+~
+Desc       Jilly is an older man who has retained his youthful attitude.  He jokes
+around with some of his patrons, and has occasionally been known to give out
+free credits.  You aren't surprised at his good attitude; business here is
+booming.
+
+~
+Nattacks   2.000000
+Stats1     640 15 60 100 150 250
+Stats2     24 0 -1 1 8 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis sanctuary~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8550
+Keywords   cyborg richly dressed woman m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      a richly dressed woman~
+Long       A richly dressed woman is here, flirting with the winners.
+~
+Desc       She's wearing way too much makeup.
+
+~
+Nattacks   2.000000
+Stats1     550 15 60 100 150 250
+Stats2     18 1 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8551
+Keywords   cyborg man winning m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a cyborg man~
+Long       A cyborg man is winning money.
+~
+Desc       He's having a good time with the dice today.
+
+~
+Nattacks   2.000000
+Stats1     550 15 60 100 150 250
+Stats2     18 1 0 1 3 0 20
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8552
+Keywords   cyborg dealer m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the dealer~
+Long       The dealer is here running the table.
+~
+Desc       His hands are very quick and smooth as he deals the cards.
+
+~
+Nattacks   2.000000
+Stats1     550 15 60 100 150 250
+Stats2     24 -2 -1 1 4 0 30
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis detect_hidden infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8553
+Keywords   cyborg man m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     resting~
+Short      A cyborg man~
+Long       A cyborg man is relaxing in his apartment.
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     15 5 0 1 3 0 15
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8554
+Keywords   cyborg woman m085~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      A cyborg woman~
+Long       A cyborg woman is watching the vid screen.
+~
+Desc       Looks like she's happy with her life in the city.
+
+~
+Nattacks   2.000000
+Stats1     125 15 60 100 150 250
+Stats2     15 5 0 1 3 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        8555
+Keywords   cyborg kid little m085~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      a little kid~
+Long       This little kid has his eyes glued on the vid screen.
+~
+Desc       You can see the bits of human nature still present in cyborgs.  They're still
+hooked on television.
+
+~
+Nattacks   1.000000
+Stats1     675 15 60 100 150 250
+Stats2     8 14 2 1 2 0 10
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#OBJECT
+Vnum        8500
+Keywords   id cyborg id card k085~
+Type       key~
+Short      an ID card~
+Long       Looks like someone dropped their ID card.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 3000 0 9999 0 None None None
+#EXDESC
+ExDescKey  card~
+ExDesc     This card has your photo on it and a few codes that you don't understand.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8501
+Keywords   bar cyborg granola bar o085~
+Type       food~
+Short      a granola bar~
+Long       A granola bar is on the floor.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 180 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8502
+Keywords   bar cyborg power bar o085~
+Type       food~
+Short      a power bar~
+Long       Look, it's one of those power bars!~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 300 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8503
+Keywords   pill cyborg vitamin pill o085~
+Type       food~
+Short      a vitamin~
+Long       Darn, someone spilled a vitamin on the floor.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 500 0 9999 0 None None None
+AffData    Constitution 1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8504
+Keywords   shovel cyborg shovel o085~
+Type       weapon~
+Short      a small shovel~
+Long       A small shovel lies here.~
+WFlags     take wield hold~
+Values     0 3 5 4 0 0 0 0 0 0 0
+Stats      3 15000 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8505
+Keywords   hammer cyborg hammer o085~
+Type       weapon~
+Short      a ball peen hammer~
+Long       A brand new hammer is lying here.~
+WFlags     take wield hold~
+Values     0 1 5 4 0 0 0 0 0 0 0
+Stats      2 3750 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8506
+Keywords   helmet cyborg helmet o085~
+Type       armor~
+Short      a cyborg's helmet~
+Long       A futuristic helmet lies on the ground.~
+WFlags     take head~
+Values     3 3 0 0 0 0 0 0 0 0 0
+Stats      2 1500 0 9999 0 None None None
+AffData affected  'infrared' -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8507
+Keywords   sign cyborg sign o085~
+Type       paper~
+Short      a sign~
+Long       An important looking sign is here.~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      20 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  sign cyborg sign o085~
+ExDesc       Please unlock the door with your identification card.  ID cards can be 
+obtained from the Cyberia New Arrivals Processing Post.
+
+Thank you,
+  - Management
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8508
+Keywords   id cyborg id vandetta k085~
+Type       key~
+Short      Vandetta's ID card~
+Long       Vandetta dropped her ID card here.~
+WFlags     take~
+Values     0 0 0 0 -1 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  card cyborg ID~
+ExDesc        The picture on it is that of Vandetta, owner and operator of Vandetta's Pub
+and Vandetta's Club.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8509
+Keywords   desk cyborg mahogany o085~
+Type       container~
+Short      a mahogany desk~
+Long       A beautiful mahogany desk is here.~
+Values     8 5 -1 10 0 -1 0 0 0 0 0
+Stats      20 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8510
+Keywords   dagger cyborg vibro dagger o085~
+Type       weapon~
+Short      a vibro dagger~
+Long       A vibro dagger is on the floor.~
+Flags      glow antineutral~
+WFlags     take wield~
+Values     0 6 4 6 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+AffData    damroll 4 -1 -1 0
+AffData    hit 10 -1 -1 0
+AffData    Dexterity 2 -1 -1 0
+AffData    Wisdom -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8511
+Keywords   watch cyborg watch rilex o085~
+Type       treasure~
+Short      a Rilex (tm) watch~
+Long       Someone must be upset, because they dropped their Rilex (tm) watch.~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 1 -1 -1 0
+AffData    save_para 1 -1 -1 0
+#EXDESC
+ExDescKey  watch rilex cyborg~
+ExDesc     This is a nice looking Rilex (tm) watch.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8512
+Keywords   watch cyborg watch bolivia o085~
+Type       treasure~
+Short      a Bolivia (tm) watch~
+Long       Look, someone dropped their Boliva (tm) watch.~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  watch bolivia cyborg o085~
+ExDesc     This is a nice looking Rolodex (tm) watch.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8513
+Keywords   watch cyborg watch time piece o085~
+Type       treasure~
+Short      an old time piece~
+Long       A nice old fashioned time piece is lying here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Wisdom 1 -1 -1 0
+#EXDESC
+ExDescKey  watch cyborg time piece~
+ExDesc     This time piece looks like a family heirloom.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8514
+Keywords   watch cyborg watch digital o085~
+Type       treasure~
+Short      a digital watch~
+Long       The digital watch on the floor looks cool.~
+WFlags     take wrist~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+#EXDESC
+ExDescKey  watch digital cyborg~
+ExDesc     What a cool looking digital watch!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8515
+Keywords   boots cyborg heavy boots o085~
+Type       armor~
+Short      a pair of heavy boots~
+Long       A pair of heavy boots is here.~
+WFlags     take feet~
+Values     4 4 0 0 0 0 0 0 0 0 0
+Stats      6 1 0 9999 0 None None None
+AffData    armor -4 -1 -1 0
+#EXDESC
+ExDescKey  boots cyborg heavy boots~
+ExDesc     These boots look like they're used for working.  They have metal plating on
+the outside, and thick soles.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8516
+Keywords   heels cyborg heels high o085~
+Type       treasure~
+Short      a pair of high heels~
+Long       A pair of high heels is here.~
+WFlags     take feet~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    move -20 -1 -1 0
+AffData    Intelligence 2 -1 -1 0
+#EXDESC
+ExDescKey  cyborg high heels o085~
+ExDesc     How can people wear these things?  They look so uncomfortable.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8517
+Keywords   necklace cyborg diamond necklace o085~
+Type       treasure~
+Short      a diamond necklace~
+Long       A beautifully cut diamond necklace is lying on the ground.~
+WFlags     take neck~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Intelligence 2 -1 -1 0
+AffData    Wisdom -1 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8518
+Keywords   broach cyborg jade broach o085~
+Type       treasure~
+Short      a jade broach~
+Long       A jade broach is lying here.~
+WFlags     take neck face~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8519
+Keywords   gun cyborg laser arm o085~
+Type       weapon~
+Short      an arm mountable laser gun~
+Long       An arm mountable laser gun is lying here.~
+Flags      hum antigood~
+WFlags     take wield~
+Values     0 5 5 6 0 0 0 0 0 0 0
+Stats      6 1 0 9999 0 None None None
+AffData    hitroll 2 -1 -1 0
+AffData    Dexterity -1 -1 -1 0
+#EXDESC
+ExDescKey  gun laser cyborg~
+ExDesc     This laser gun has straps that allow it to be mounted on the arm.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8520
+Keywords   burrito cyborg big o085~
+Type       food~
+Short      a big burrito~
+Long       Someone's burrito is lying here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8521
+Keywords   taco soft shell cyborg o085~
+Type       food~
+Short      a soft shell taco~
+Long       Mmmm, a soft shell taco is here.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8522
+Keywords   enchilada cyborg o085~
+Type       food~
+Short      an enchilada~
+Long       Someone's enchilada lies here uneaten.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8523
+Keywords   eye cyborg cybernetic o085~
+Type       armor~
+Short      a cybernetic eye~
+Long       A cybernetic eye is lying here.~
+Flags      hum antievil antineutral~
+WFlags     take face~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    damroll 3 -1 -1 0
+AffData affected  'detect_invis' -1 -1 0
+#EXDESC
+ExDescKey  eye cyborg~
+ExDesc     This cybernetic eye was worn by the original founder of Cyberia!
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8524
+Keywords   gauntlets cyborg authority o085~
+Type       armor~
+Short      gauntlets of authority~
+Long       Some hi-tech gauntlets are here.~
+Flags      glow hum antievil antineutral~
+WFlags     take hands~
+Values     8 8 0 0 0 0 0 0 0 0 0
+Stats      9 1 0 9999 0 None None None
+AffData    Strength 2 -1 -1 0
+AffData    hitroll -2 -1 -1 0
+AffData    damroll 3 -1 -1 0
+#EXDESC
+ExDescKey  gauntlets cyborg~
+ExDesc     These gauntlets were designed and built by the founder of Cyberia himself.  He
+used them during the Human-Darvak War, and later as a rallying cry to unite
+Cyborgs and lead them to their new world.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8525
+Keywords   sign cyborg important o085~
+Type       paper~
+Short      an important sign~
+Long       An important looking sign is here.~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      20 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  sign cyborg important~
+ExDesc     +---------------------------------------------------------------------+
+|       Here stands the founder of Cyberia, the most powerful         |
+|       Cyborg that ever lived.  Legend states that his spirit        |
+|       watches over the city, and will animate the statue if         |
+|                      it is ever attacked.                           |
+|                                                                     |
+|       WARNING:  Do not taunt the founder of Cyberia.                |
+|                 He will kill you.                                   |
++---------------------------------------------------------------------+
+
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8526
+Keywords   pistol laser cyborg o085~
+Type       weapon~
+Short      a laser pistol~
+Long       A laser pistol is lying here unused.~
+WFlags     take wield~
+Values     0 6 2 6 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8527
+Keywords   data pad cyborg o085~
+Type       paper~
+Short      a data pad~
+Long       A data pad is sitting here.~
+WFlags     take~
+Values     1 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8528
+Keywords   hover cam cyborg o085~
+Type       trash~
+Short      a hover cam~
+Long       A hover cam is floating here, ready to film something.~
+WFlags     take~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8529
+Keywords   virtual reality goggles cyborg o085~
+Type       armor~
+Short      some virtual reality goggles~
+Long       Some virtual reality goggles are lying here.~
+WFlags     take face~
+Values     1 1 0 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+AffData    Intelligence 1 -1 -1 0
+#EXDESC
+ExDescKey  virtual reality goggles cyborg~
+ExDesc     The logo on the goggles reads "Oaklee".
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8530
+Keywords   motor oil mixer cyborg o085~
+Type       drinkcon~
+Short      a motor oil mixer~
+Long       A container full of motor oil is sitting here.~
+WFlags     take~
+Values     2 2 8 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8531
+Keywords   energy juicer cyborg o085~
+Type       drinkcon~
+Short      an energy juicer~
+Long       A glass of Cyberian energy juicer is sitting here.~
+WFlags     take~
+Values     1 1 15 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8532
+Keywords   bottle cyberian bliss cyborg o085~
+Type       drinkcon~
+Short      a bottle of Cyberian bliss~
+Long       A bottle full of a dangerous looking liquid is sitting here.~
+WFlags     take~
+Values     4 4 4 0 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#ENDOBJECT
+
+#OBJECT
+Vnum        8533
+Keywords   rifle concussion cyborg o085~
+Type       weapon~
+Short      a concussion rifle~
+Long       A concussion rifle is leaning against the wall.~
+WFlags     take wield~
+Values     0 7 2 4 0 0 0 0 0 0 0
+Stats      8 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  rifle concussion cyborg~
+ExDesc     This rifle looks like it could deliver quite a punch.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8534
+Keywords   blaster darvak cyborg o085~
+Type       weapon~
+Short      a Darvak blaster~
+Long       A blaster is lying on the floor here.~
+WFlags     take wield~
+Values     0 5 2 4 0 0 0 0 0 0 0
+Stats      2 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  blaster darvak cyborg~
+ExDesc     +------------------------------------+
+|                                    |
+|  Darvak Blaster (tm) Version 4.23  |
+|                                    |
+|    Killing Darvaks was never       |
+|            this fun!               |
+|                                    |
++------------------------------------+
+
+This weapon is a relic of the Human-Darvak War.
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8535
+Keywords   dagger slim cyborg o085~
+Type       weapon~
+Short      a slim dagger~
+Long       A slim dagger is lying on the floor.~
+WFlags     take wield~
+Values     0 3 4 6 0 0 0 0 0 0 0
+Stats      1 1 0 9999 0 None None None
+#EXDESC
+ExDescKey  dagger slim cyborg~
+ExDesc     An inscription on the handle reads:
+
+ "Made in Alduria."
+
+~
+#ENDEXDESC
+#ENDOBJECT
+
+#OBJECT
+Vnum        8536
+Keywords   stripes corporal cyborg o085~
+Type       armor~
+Short      Andar's corporal stripes~
+Long       Someone dropped their corporal stripes here.~
+Flags      antievil~
+WFlags     take arms~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 30000 0 9999 0 None None None
+AffData    hit 10 -1 -1 0
+AffData    hitroll 3 -1 -1 0
+AffData    mana -20 -1 -1 0
+#ENDOBJECT
+
+#OBJECT
+Vnum        8537
+Keywords   pen laser cyborg o085~
+Type       pen~
+Short      a laser pen~
+Long       A laser pen is discarded here.~
+WFlags     take hold~
+Values     0 0 0 0 0 0 0 0 0 0 0
+Stats      1 300 0 9999 0 None None None
+#ENDOBJECT
+
+#ROOM
+Vnum        8500
+Name       Colony Docking Platform~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You get off of the shuttle and get your first glimpse of a real Cyborg city.
+The level of industrial sophistication here is impressive.  From this vantage
+point, you can see most of the sprawling city.  A turbolift leads down to the
+street level.
+~
+#EXIT
+Direction  North~
+ToRoom     1000
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8501
+Desc       Steps lead down to the city street below.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8501
+Name       Docking Platform Entrance~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Above you is the entrance to the Docking Platform.  A city street runs to
+the north and south here, and a building looms over you to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     8503
+Desc       Zero Street North continues ahead.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8502
+Desc       To the east stands an ominous looking building.  The sign above the door reads,
+"New Arrivals Processing Post".
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8512
+Desc       To the south, Zero Street continues.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8500
+Desc       Above you lies the Docking Platform, and the shuttle you arrived on.
+~
+#ENDEXIT
+Reset M    8533 15 8501 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8502
+Name       New Arrivals Processing Post~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This building contains recent arrivals to the Cyborg city.  Men and women are
+lined up, waiting to receive registrations cards that will allow them easy
+access to the area.  In the back of the building, a cyborg is asking questions
+and recording the answers with machine-like precision.
+~
+#EXIT
+Direction  West~
+ToRoom     8501
+Desc       To the west lies Street Zero and the Docking Platform entrance.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8500 1 8502 -1 -1 -1 100
+  Reset G  8500 1 100
+Reset M    8504 1 8502 -1 -1 -1 100
+Reset M    8533 15 8502 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8503
+Name       Zero Street North~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on the centermost street of the cyborg colony.  To the
+east lies what appears to be a food store.  West is what looks like a supply
+shop.  Street Zero continues to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     8506
+Desc       Zero Street North continues ahead.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8504
+Desc       The sign on the door to the east reads, "Sustenance".
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8501
+Desc       To the south lies the entrance to the Docking Platform.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8505
+Desc       You see a sign that reads "Supplies" above the door.  Must be a supply shop!
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+Reset M    8504 30 8503 -1 -1 -1 100
+Reset M    8504 30 8503 -1 -1 -1 100
+Reset M    8505 30 8503 -1 -1 -1 100
+Reset M    8505 30 8503 -1 -1 -1 100
+Reset M    8533 15 8503 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8504
+Name       Sustenance~
+Sector     city~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This small store is rather drab.  For being a food store, there isn't much
+food around.  But then you notice that the shelves are stacked with a different
+kind of food; small bars (granola?), pills, vitamins... 
+~
+#EXIT
+Direction  West~
+ToRoom     8503
+Desc       To the west lies Zero Street North.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8501 1 8504 -1 -1 -1 100
+  Reset G  8501 99 100
+  Reset G  8502 99 100
+  Reset G  8503 99 100
+#ENDROOM
+
+#ROOM
+Vnum        8505
+Name       Supply Store~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          This looks more like the kind of place you'd expect to find in a colony.  The
+walls and shelves are stacked with all kinds of tools and supplies.  You 
+immediately notice that the supply store doesn't seem to have the same kind of
+drab, colorless feel that the neighboring shops do.  One look at the shopkeeper
+tells you that he isn't that kind of cyborg either.
+~
+#EXIT
+Direction  East~
+ToRoom     8503
+Desc       To the east lies Zero Street North.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8502 1 8505 -1 -1 -1 100
+  Reset G  8504 99 100
+  Reset G  8505 99 100
+  Reset G  8506 99 100
+Reset M    8504 30 8505 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8506
+Name       Intersection of Zero Street and Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Zero Street intersects with Gunthar Road here.  The buildings to the north
+appear to be residential, while the shops, stores and other industry continue
+along Gunthar Road.
+~
+#EXIT
+Direction  North~
+ToRoom     8507
+Desc       Street Zero continues into a residential area.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8556
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8503
+Desc       Zero Street heads south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8513
+Desc       Gunthar Street heads west.
+~
+#ENDEXIT
+Reset M    8505 30 8506 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8507
+Name       Zero Street North~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Here the industry starts to taper off and you enter a lower-class residential
+area.  Apartments are densely packed together, and often several stories high.
+~
+#EXIT
+Direction  North~
+ToRoom     8508
+Desc       Street Zero continues north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8506
+Desc       To the south, Zero Street intersects with Gunthar Road.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8508
+Name       Zero Street North~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          An inn with a sign reading "No Vacancy" on the door is directly east of you.
+To the north and south, Zero Street continues.
+~
+#EXIT
+Direction  North~
+ToRoom     8509
+Desc       Street Zero continues north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8623
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8507
+Desc       Street Zero continues south.
+~
+#ENDEXIT
+Reset M    8504 30 8508 -1 -1 -1 100
+Reset M    8533 15 8508 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8509
+Name       Zero Street North~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          To the west is the entrance to an apartment complex.  Through the gates you
+see a collection of squat buildings hunched together.  Small children play
+outside.  To the east is a building marked "The Unified School of Cyberia".
+~
+#EXIT
+Direction  North~
+ToRoom     8510
+Desc       Street Zero continues north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8625
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8508
+Desc       Street Zero continues south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8630
+Keywords   gates~
+Flags      isdoor secret~
+#ENDEXIT
+Reset M    8505 30 8509 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8510
+Name       Intersection of Zero Street and Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Zero Street intersects with Wall Road here.  To the north appears to be a
+checkpoint where people can enter and leave the colony.  It is heavily guarded.
+~
+#EXIT
+Direction  North~
+ToRoom     8511
+Desc       A colony checkpoint lies north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8573
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8509
+Desc       Street Zero continues south.
+~
+Keywords   0~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8574
+#ENDEXIT
+Reset M    8504 30 8510 -1 -1 -1 100
+Reset M    8505 30 8510 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8511
+Name       Northern Checkpoint~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a checkpoint for travellers entering and leaving the city.  A very
+large cyborg, who is obviously in charge, directs the other guards to check this
+and patrol that.  Cyborg guard barracks lie to the east.  To the south is the
+intersection of Zero Street and Wall Road.  North leads to the uncharted lands
+of this planet.
+~
+#EXIT
+Direction  East~
+ToRoom     8643
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8510
+Desc       South is the intersection of Zero Street and Wall Road.
+~
+#ENDEXIT
+Reset M    8503 10 8511 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8503 10 8511 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8503 10 8511 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8503 10 8511 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8503 10 8511 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8503 10 8511 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8504 30 8511 -1 -1 -1 100
+Reset M    8506 1 8511 -1 -1 -1 100
+Reset D    8511 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8512
+Name       Zero Street South~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          To the south is a market-like atmosphere.  Dozens of people are in the 
+streets, buying and selling various items.  This scene makes you think of home,
+but then again your neighbors don't have cybernetic limbs and wires running
+throughout their bodies.
+~
+#EXIT
+Direction  North~
+ToRoom     8501
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8614
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8513
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the 
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+   To the north is a squat building.  The sign reads "Chig's Smithy".
+~
+#EXIT
+Direction  North~
+ToRoom     8525
+Desc       To the north is a smithy.
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8506
+Desc       Gunthar Street intersects with Zero Street to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8514
+Desc       Gunthar Street continues west.
+~
+#ENDEXIT
+Reset M    8504 30 8513 -1 -1 -1 100
+Reset M    8505 30 8513 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8514
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.
+   A shop labelled "Crazy Eddie's" is to the south, while the smell of tacos
+comes from the north.
+~
+#EXIT
+Direction  North~
+ToRoom     8529
+Desc       The smell of tacos comes from the north.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8513
+Desc       Gunthar Street continues east.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8528
+Desc       South is Crazy Eddie's.
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8515
+Desc       Gunthar Street heads west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8515
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+   An alley heads south from this point, while the street continues east
+and west.
+~
+#EXIT
+Direction  East~
+ToRoom     8514
+Desc       Gunthar Street heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8530
+Desc       An alley goes south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8516
+Desc       Gunthar Street heads west.
+~
+#ENDEXIT
+Reset M    8533 15 8515 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8516
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+~
+#EXIT
+Direction  East~
+ToRoom     8515
+Desc       Gunthar Street heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8517
+Desc       A road intersects with Gunthar to the west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8517
+Name       Intersection of Gunthar Street and Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Electronic Avenue starts here and goes south.  Gunthar Street continues to
+the east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     8516
+Desc       Gunthar Street goes east.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8656
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8518
+Desc       Gunthar Street heads west.
+~
+#ENDEXIT
+Reset M    8533 15 8517 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8518
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+~
+#EXIT
+Direction  East~
+ToRoom     8517
+Desc       Gunthar Street intersects with Electronic Avenue to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8519
+Desc       Gunthar Street continues east.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8519
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+~
+#EXIT
+Direction  East~
+ToRoom     8518
+Desc       Gunthar Street heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8520
+Desc       A road intersects with Gunthar to the west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8520
+Name       Intersection of Gunthar Street and Bryant Way~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the intersection of Gunthar Street and Bryant Way, which runs 
+north and south from here.
+   It looks like some of the city's more prosperous residents live in the area
+to the west.
+~
+#EXIT
+Direction  East~
+ToRoom     8519
+Desc       Gunthar Street heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8521
+Desc       Gunthar Road continues west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8521
+Name       West Gunthar~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You note that the street signs now read West Gunthar, instead of Gunthar
+Street.  This seems to be a richer residential area, as compared to other parts
+of the city.
+~
+#EXIT
+Direction  East~
+ToRoom     8520
+Desc       Gunthar Street heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8522
+Desc       West Gunthar continues west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8522
+Name       West Gunthar~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The cyborgs in this wealthy part of town are on average larger and more
+dangerous looking than in other areas.  The cybernetic limbs and other devices
+appear to be more sophisticated.  There is curiously little enthusiasm of any
+kind here... almost no emotion is shown at all.
+~
+#EXIT
+Direction  East~
+ToRoom     8521
+Desc       West Gunthar heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8523
+Desc       West Gunthar heads west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8523
+Name       West Gunthar~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The cyborgs in this wealthy part of town are on average larger and more
+dangerous looking than in other areas.  The cybernetic limbs and other devices
+appear to be more sophisticated.  There is curiously little enthusiasm of any
+kind here... almost no emotion is shown at all.
+~
+#EXIT
+Direction  East~
+ToRoom     8522
+Desc       West Gunthar heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8524
+Desc       West Gunthar intersects with Wall Road to the west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8524
+Name       Intersection of West Gunthar and Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          West Gunthar ends at the junction with Wall Road, which continues north and
+south from here.  The residences located next to the city wall seem extremely
+sturdy and built with defense in mind.
+   The city wall keeps out intruders to the west.  You can occassionally see a
+Cyborg guard walking along the top of the wall, on constant watch for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8588
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8523
+Desc       West Gunthar heads east.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8589
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8525
+Name       Chig's Smithy~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          As you enter you feel a wave of heat wash over you.  This is where the city's
+blacksmith does his work.  Hung from the walls are the finest examples of his
+work; cybernetic limbs, weapons, tools, and other parts are delicately crafted
+by Chig.
+   A door behind the counter leads into the smithy itself.
+~
+#EXIT
+Direction  North~
+ToRoom     8526
+Desc       The heart of the smithy lies beyond the door.
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8513
+Desc       Gunthar Street is south.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8504 30 8525 -1 -1 -1 100
+Reset M    8507 1 8525 -1 -1 -1 100
+Reset D    8525 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8526
+Name       The Smelter~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is where Chig and his apprentices create their magnificent work.  There
+are several long tables with hammers, vise grips, and other tools used for 
+shaping metal.
+   Through a large hole in the floor you can see the main vat.  Liquid metal is
+funnelled through tubes which boggle your mind with their apparent strength.
+Getting any closer would be unwise, because you and your equipment will never
+survive a fall into something that hot.
+~
+#EXIT
+Direction  South~
+ToRoom     8525
+Desc       The front of Chig's store is south.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8527
+Desc       I wouldn't go down if I were you!
+~
+#ENDEXIT
+Reset M    8508 3 8526 -1 -1 -1 100
+Reset M    8508 3 8526 -1 -1 -1 100
+Reset M    8508 3 8526 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8527
+Name       Swimming in Liquid Metal (Death Trap!)~
+Sector     indoors~
+Flags      death indoors~
+Stats      0 0 0 0 0
+Desc          You got too close to the edge of the hole and you plunged into the smelter!
+As your skin burns and your body liquifies, you realize that all those times
+your mother told you not to get too close to the railroad tracks were actually
+damned good advice.
+   Two days later, what used to be your brain was molded into a spoon and used
+to feed a baby.  Go figure.
+~
+#EXIT
+Direction  Up~
+ToRoom     8526
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8528
+Name       Crazy Eddie's Discount Electronics~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Something about this store is both offensive and yet vaguely familiar.  All
+kinds of electronic devices line the walls and shelves.  Holographic projectors
+display sounds and images from the latest and greatest inventions, and video
+boxes show Eddie himself advertising his most recent sale.
+~
+#EXIT
+Direction  North~
+ToRoom     8514
+Desc       Gunthar Street lies north of here.
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+Reset M    8505 30 8528 -1 -1 -1 100
+Reset M    8509 1 8528 -1 -1 -1 100
+  Reset G  8527 99 100
+  Reset G  8528 99 100
+  Reset G  8529 99 100
+  Reset G  8537 99 100
+#ENDROOM
+
+#ROOM
+Vnum        8529
+Name       Sancho's Mexican Food~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Looks like a bit of human culture travelled with the Cyborgs to their new 
+home.  You find it odd enough that the smell of tacos is wafting through a room
+on a world light years from Earth, but to see Cyborgs wearing sombreros!  Have
+they no shame?
+~
+#EXIT
+Direction  South~
+ToRoom     8514
+Desc       To the south is Gunthar Street.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8504 30 8529 -1 -1 -1 100
+Reset M    8510 1 8529 -1 -1 -1 100
+  Reset G  8520 99 100
+  Reset G  8521 99 100
+  Reset G  8522 99 100
+Reset M    8543 10 8529 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8530
+Name       Gunthar Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The alley runs south from here.  Curiously, there seem to be some stores
+located here.  What kind of business would make its home in an alley?
+   You think you see the outline of a door to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     8515
+Desc       Gunthar Street is north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8655
+Keywords   secret~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8531
+Desc       Gunthar alley continues south.
+~
+#ENDEXIT
+Reset M    8541 10 8530 -1 -1 -1 100
+Reset D    8530 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8531
+Name       Gunthar Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The alley runs north and south from here.  Curiously, there seem to be some stores located here.  What kind of business would make its home in an alley?
+   To the west is a bar.
+~
+#EXIT
+Direction  North~
+ToRoom     8530
+Desc       The alley runs north.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8532
+Desc       Gunthar alley continues south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8533
+Desc       Vandetta's Pub lies west.
+~
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8532
+Name       Gunthar Alley~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The alley runs north from here.
+~
+#EXIT
+Direction  North~
+ToRoom     8531
+Desc       The alley heads north.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8533
+Name       Vandetta's Pub~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          It's pretty dark in here.  The pub is actually a very large room; the bar
+is located in the center, while tables and booths ring it on all sides.  In the
+distance you can see a hallway leading to another area.  A faint sound of music
+can be heard.
+   Steps lead down into the main bar area.
+~
+#EXIT
+Direction  East~
+ToRoom     8531
+Desc       The alley is to the east.
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8534
+Desc       The main pub area is down these steps.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8534
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you, people are sitting and eating, or watching something on the small
+viewers that are placed on each table.  Dim lights give the area a cozy feel.
+   Seating areas lie to the north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     8541
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8535
+Desc       More seats lie to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8533
+Desc       The entrance/exit is up the steps.
+~
+#ENDEXIT
+Reset M    8511 15 8534 -1 -1 -1 100
+Reset M    8512 15 8534 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8535
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you, people are sitting and eating, or watching something on the smallviewers that are placed on each table.  Dim lights give the seating area a cozy
+feel.  The main bar is to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     8542
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8536
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8534
+Desc       Seats lie west.
+~
+#ENDEXIT
+Reset M    8512 15 8535 -1 -1 -1 100
+Reset M    8512 15 8535 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8536
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you, people are sitting and eating, or watching something on the small
+viewers that are placed on each table.  Dim lights give the area a cozy feel.
+   To the north, a hallway branches off to another section of the pub.  Seats
+continue west.
+~
+#EXIT
+Direction  North~
+ToRoom     8537
+Desc       A hallway leading east is ahead.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8535
+#ENDEXIT
+Reset M    8511 15 8536 -1 -1 -1 100
+Reset M    8511 15 8536 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8537
+Name       Hallway Intersection~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc         A hallway leads east from here.  There seems to be some music coming from that
+direction as well.
+  To the west is the main bar area, while customer seating can be found to the
+north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     8538
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8543
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8536
+Desc       Seating can be found to the south.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8542
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8538
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you, people are sitting and eating, or watching something on the small
+viewers that are placed on each table.  Dim lights give the area a cozy feel.
+   To the west, seating continues, while a hallway leads to another section 
+south of here.
+~
+#EXIT
+Direction  South~
+ToRoom     8537
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8539
+#ENDEXIT
+Reset M    8512 15 8538 -1 -1 -1 100
+Reset M    8511 15 8538 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8539
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you, people are sitting and eating, or watching something on the small
+viewers that are placed on each table.  Dim lights give the area a cozy feel.
+   Seating continues east and west of here, while the main bar can be reached
+to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     8538
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8542
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8540
+#ENDEXIT
+Reset M    8511 15 8539 -1 -1 -1 100
+Reset M    8512 15 8539 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8540
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you, people are sitting and eating, or watching something on the small
+viewers that are placed on each table.  Dim lights give the area a cozy feel.
+   Seating continues east and west of here, while the main bar can be reached
+to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     8539
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8541
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8541
+Name       Near the Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Around you people are sitting and eating, or watching something on the small
+viewers that are placed on each table.  Dim lights give the area a cozy feel.
+   More seating can be found to the north and south, while the main bar is east.
+~
+#EXIT
+Direction  North~
+ToRoom     8540
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8542
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8534
+#ENDEXIT
+Reset M    8512 15 8541 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8542
+Name       The Main Bar~
+Sector     indoors~
+Flags      nomagic~
+Stats      0 0 0 0 0
+Desc          Behind the bar is a collection of odd colored drinks and even odder shaped
+glasses.  A good look at the patrons of this bar reminds you that you aren't
+dealing with your average people.  Indeed, some people seem to be pouring their
+drinks into artificial openings in other parts of their bodies.  But the raucous
+laughter and general party atmosphere makes you feel strangely comfortable.
+~
+#EXIT
+Direction  North~
+ToRoom     8539
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8537
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8535
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8541
+#ENDEXIT
+Reset M    8513 1 8542 -1 -1 -1 100
+  Reset G  8530 99 100
+  Reset G  8531 99 100
+  Reset G  8532 99 100
+Reset M    8511 15 8542 -1 -1 -1 100
+Reset M    8511 15 8542 -1 -1 -1 100
+Reset M    8512 15 8542 -1 -1 -1 100
+Reset M    8543 10 8542 -1 -1 -1 100
+Reset M    8511 30 8542 -1 -1 -1 100
+Reset M    8512 30 8542 -1 -1 -1 100
+Reset M    8512 30 8542 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8543
+Name       The Hallway~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This hallway leads to another part of the building.  The music is getting
+louder from the east.  To the north is a door with a sign reading "Men" on it.
+South is another door, and the sign reads "Women".
+~
+#EXIT
+Direction  North~
+ToRoom     8544
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8546
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8545
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8537
+#ENDEXIT
+Reset D    8543 0 1 100 -2
+Reset D    8543 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8544
+Name       The Men's Room~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Ick.  This bathroom is small and dirty.  Something sticky is covering the 
+floor, and you really aren't interested in knowing what it is.  Fortunately the
+toilet appears to be functional.  Good thing you don't need to use it though.
+The thought sickens you.
+~
+#EXIT
+Direction  South~
+ToRoom     8543
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8544 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8545
+Name       The Women's Room~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This small bathroom consists of a toilet, sink, and mirror.  It's pretty
+clean, as bar bathrooms go.
+~
+#EXIT
+Direction  North~
+ToRoom     8543
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8546
+Name       The Spiral Stairwell~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A spiral stairwell circles down into an underground area.  There are lots of
+lights and music coming from below.  It sounds like a dance club!
+~
+#EXIT
+Direction  West~
+ToRoom     8543
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     8547
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8547
+Name       The Lobby~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the lobby leading into the dance club.  Above the door is a sign that
+reads "Vandetta's Club".  The couch and chair are both new, and exotic plants
+hang from the ceiling.  The spiral stairway leads back up to the main level.
+~
+#EXIT
+Direction  South~
+ToRoom     8548
+Key        8500
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     8546
+#ENDEXIT
+Reset O    8507 1 8547 -1 -1 -1 100
+Reset D    8547 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8548
+Name       The Dance Floor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The lights are dim and the music is loud.  People are dancing around you, 
+some rather violently.  To the north is the door to the lobby.
+~
+#EXIT
+Direction  North~
+ToRoom     8547
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8549
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8549
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8550
+#ENDEXIT
+Reset M    8515 10 8548 -1 -1 -1 100
+Reset M    8516 10 8548 -1 -1 -1 100
+Reset D    8548 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8549
+Name       The Dance Floor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The lights are dim and the music is loud.  People are dancing around you,
+some rather violently.
+~
+#EXIT
+Direction  North~
+ToRoom     8549
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8549
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8549
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8548
+#ENDEXIT
+Reset M    8515 10 8549 -1 -1 -1 100
+Reset M    8516 10 8549 -1 -1 -1 100
+Reset M    8516 10 8549 -1 -1 -1 100
+Reset M    8516 10 8549 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8550
+Name       The Dance Floor~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The dancers here aren't quite as wild as they are on other parts of the
+floor.  To the south and west are some tables, and to the east is the main dance
+floor.
+~
+#EXIT
+Direction  East~
+ToRoom     8548
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8552
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8551
+#ENDEXIT
+Reset M    8517 6 8550 -1 -1 -1 100
+Reset M    8517 6 8550 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8551
+Name       Tables~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          There are some tables here on the fringes of the dance floor.  Some people
+are resting here, catching their breath after going through the mosh pits. 
+More tables lie to the south, while the dance floor is east.
+~
+#EXIT
+Direction  East~
+ToRoom     8550
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8553
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8552
+Name       Tables~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Some tables are loosely scattered around the area here.  Looks like the
+people sitting at them are taking a breather from their dancing.
+   East is the main dance floor; north is a little easier dancing and west are
+more tables.
+~
+#EXIT
+Direction  North~
+ToRoom     8550
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8549
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8553
+#ENDEXIT
+Reset M    8512 30 8552 -1 -1 -1 100
+Reset M    8511 30 8552 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8553
+Name       Tables~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          These tables are a little bigger.  Some people are eating food, and others
+are watching events on their table viewers.  To the south is a small bar with
+a curious looking cyborg woman behind it.  To the east are some more tables.
+~
+#EXIT
+Direction  North~
+ToRoom     8551
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8552
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8554
+#ENDEXIT
+Reset M    8512 30 8553 -1 -1 -1 100
+Reset M    8511 30 8553 -1 -1 -1 100
+Reset M    8512 30 8553 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8554
+Name       A Small Bar~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The bar here isn't as large as the one upstairs, but it's just as active.
+Many people are sitting here, enjoying their drinks.  Behind the bar is a door
+with an ID card slot on it.  Wonder what's behind it?
+~
+#EXIT
+Direction  North~
+ToRoom     8553
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8555
+Key        8508
+Desc       A door blocks the way.
+~
+Keywords   door~
+Flags      isdoor pickproof~
+#ENDEXIT
+Reset M    8518 1 8554 -1 -1 -1 100
+  Reset E  8508 1 17 100
+  Reset G  8530 99 100
+  Reset G  8531 99 100
+  Reset G  8532 99 100
+Reset M    8504 30 8554 -1 -1 -1 100
+Reset M    8511 30 8554 -1 -1 -1 100
+Reset M    8512 30 8554 -1 -1 -1 100
+Reset M    8511 30 8554 -1 -1 -1 100
+Reset M    8543 10 8554 -1 -1 -1 100
+Reset D    8554 2 2 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8555
+Name       Vandetta's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Vandetta obviously is doing well in her business.  This is a large office
+space.  Exotic plants hang from the ceiling.  On the back wall you see an 
+aquarium with some of the most spectacular fish in existance swimming about.
+~
+#EXIT
+Direction  North~
+ToRoom     8554
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset O    8509 1 8555 -1 -1 -1 100
+  Reset P  0 8510 1 8509 5
+#ENDROOM
+
+#ROOM
+Vnum        8556
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+~
+#EXIT
+Direction  East~
+ToRoom     8557
+Desc       Gunthar Street intersects with Zero Street to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8506
+Desc       Gunthar Street continues west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8557
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+~
+#EXIT
+Direction  East~
+ToRoom     8558
+Desc       Gunthar Street intersects with Zero Street to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8556
+Desc       Gunthar Street continues west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8558
+Name       Gunthar Street~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on Gunthar Street.  Around you is the bustle of industry and the
+hustle of commerce.  Cyborg humans surround you, busy with their trade.
+~
+#EXIT
+Direction  East~
+ToRoom     8559
+Desc       Gunthar Street intersects with Zero Street to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8557
+Desc       Gunthar Street continues west.
+~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8559
+Name       Intersection of Gunthar Street and Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Gunthar Street intersects with Wall Road here.  Wall Road continues north
+and south from here, while Gunthar Street continues back west.
+~
+#EXIT
+Direction  North~
+ToRoom     8560
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8564
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8558
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8560
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8561
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8559
+#ENDEXIT
+Reset M    8533 15 8560 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8561
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8562
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8560
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8562
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8563
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8561
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8563
+Name       Northeastern Wall Tower~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          A tower rises where the northern and eastern walls meet.  Wall Road 
+continues west and south from here.
+~
+#EXIT
+Direction  South~
+ToRoom     8562
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8570
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8564
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8559
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8565
+#ENDEXIT
+Reset M    8533 15 8564 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8565
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8564
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8566
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8566
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8565
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8567
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8567
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8566
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8568
+#ENDEXIT
+Reset M    8533 15 8567 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8568
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8567
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8569
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8569
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8568
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8513
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8570
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8563
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8571
+#ENDEXIT
+Reset M    8533 15 8570 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8533 15 8570 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8571
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8570
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8572
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8572
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8571
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8573
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8573
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8572
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8510
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8574
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8510
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8575
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8575
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8574
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8576
+#ENDEXIT
+Reset M    8541 10 8575 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8576
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8575
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8577
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8577
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8576
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8578
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8578
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8577
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8579
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8579
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8578
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8580
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8580
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8579
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8581
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8581
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8580
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8582
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8582
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8581
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8583
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8583
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8582
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8584
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8584
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8583
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8585
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8585
+Name       Northwestern Wall Tower~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          A tower rises here where the northern and western walls meet.  Wall road
+continues east and south from this point.
+~
+#EXIT
+Direction  East~
+ToRoom     8584
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8586
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8586
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8585
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8587
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8587
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8586
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8588
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8588
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8587
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8524
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8589
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8524
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8590
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8590
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8589
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8591
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8591
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8590
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8592
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8592
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8591
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8593
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8593
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8592
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8594
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8594
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  North~
+ToRoom     8593
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8595
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8595
+Name       Southeastern Wall Tower~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          A tower rises where the western and southern walls meet.  Wall Road heads
+north and east from here.
+~
+#EXIT
+Direction  North~
+ToRoom     8594
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8596
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8596
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8597
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8595
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8597
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8598
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8596
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8598
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8599
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8597
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8599
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8600
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8598
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8600
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8601
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8599
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8601
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8602
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8600
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8602
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8603
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8601
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8603
+Name       Intersection of Wall Road and Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall, scanning
+the horizon for trouble.
+   To the north is Electronic Avenue.
+~
+#EXIT
+Direction  North~
+ToRoom     8660
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8604
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8602
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8604
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8605
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8603
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8605
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8606
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8604
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8606
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8607
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8605
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8607
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8608
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8606
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8608
+Name       Intersection of Wall Road and Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Wall Road intersects with the Market here.  The Market heads north while
+Wall Road continues east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     8616
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8609
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8607
+#ENDEXIT
+Reset M    8533 15 8608 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8609
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8610
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8608
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8610
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8611
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8609
+#ENDEXIT
+Reset M    8533 15 8610 -1 -1 -1 100
+  Reset E  8526 30 16 100
+Reset M    8533 15 8610 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8611
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8612
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8610
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8612
+Name       Wall Road~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are travelling on Wall Road.  The wall protects the cyborg settlement
+from outside intruders and the other unknowns of this world.  Every so often
+you see a cyborg guard walking along the walkway on top of the wall scanning
+the horizon for trouble.
+~
+#EXIT
+Direction  East~
+ToRoom     8613
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8611
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8613
+Name       Southeastern Wall Tower~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          A tower rises where the eastern and southern walls meet.  Wall Road goes
+north and west from here.
+~
+#EXIT
+Direction  North~
+ToRoom     8569
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8612
+#ENDEXIT
+Reset M    8533 15 8613 -1 -1 -1 100
+  Reset E  8526 30 16 100
+#ENDROOM
+
+#ROOM
+Vnum        8614
+Name       Northern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  North~
+ToRoom     8501
+Desc       To the north is the entrance to the Docking Platform.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8620
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8615
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8621
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8615
+Name       Central Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          Here at the central market square is a huge statue.  The city people gaze
+at it fondly as they walk by.  As you ponder this, you see a sign in front
+of the statue that may provide more insight.
+~
+#EXIT
+Direction  North~
+ToRoom     8614
+Desc       To the north is the entrance to the Docking Platform.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8619
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8616
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8622
+#ENDEXIT
+Reset M    8533 15 8615 -1 -1 -1 100
+Reset M    8542 1 8615 -1 -1 -1 100
+  Reset E  8524 3 9 7
+  Reset E  8523 1 23 3
+Reset O    8525 1 8615 -1 -1 -1 100
+Reset M    8543 10 8615 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8616
+Name       Southern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is an open plaza where you can see vendors trying to sales their wares.
+The atmosphere here is energetic, as people buy, sell, and trade with vigor.
+~
+#EXIT
+Direction  North~
+ToRoom     8615
+Desc       To the north is the entrance to the Docking Platform.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8618
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8608
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8617
+#ENDEXIT
+Reset M    8504 30 8616 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8617
+Name       Southwestern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  North~
+ToRoom     8622
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8616
+#ENDEXIT
+Reset M    8521 1 8617 -1 -1 -1 100
+  Reset G  8517 99 100
+  Reset G  8518 99 100
+Reset M    8504 30 8617 -1 -1 -1 100
+Reset M    8504 30 8617 -1 -1 -1 100
+Reset M    8505 30 8617 -1 -1 -1 100
+Reset M    8504 30 8617 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8618
+Name       Southeastern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  North~
+ToRoom     8619
+Desc       To the north is the entrance to the Docking Platform.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8616
+#ENDEXIT
+Reset M    8520 1 8618 -1 -1 -1 100
+  Reset G  8515 99 100
+  Reset G  8516 99 100
+Reset M    8505 30 8618 -1 -1 -1 100
+Reset M    8543 10 8618 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8619
+Name       Eastern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  North~
+ToRoom     8620
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8618
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8615
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8620
+Name       Northeastern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  South~
+ToRoom     8619
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8614
+#ENDEXIT
+Reset M    8519 1 8620 -1 -1 -1 100
+  Reset G  8511 1 15
+  Reset G  8512 99 100
+  Reset G  8513 99 100
+  Reset G  8514 99 100
+Reset M    8504 30 8620 -1 -1 -1 100
+Reset M    8505 30 8620 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8621
+Name       Northwestern Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  East~
+ToRoom     8614
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8622
+#ENDEXIT
+Reset M    8505 30 8621 -1 -1 -1 100
+Reset M    8505 30 8621 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8622
+Name       Western Market~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is a large plaza containing a lot of different vendors selling their
+wares.  The atmosphere is very energetic here; people are buying, selling, and
+trading.
+~
+#EXIT
+Direction  North~
+ToRoom     8621
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8615
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8617
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8623
+Name       The Cyberian Inn Lobby~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A fireplace in the lobby is surrounded by people sitting in chairs.  As they
+bask in the warm glow of the fire, they trade stories.  Indeed, this place
+seems to be a bit of a throwback to older times.  It certainly doesn't have
+the look and feel of a high-tech cyborg establishment!
+~
+#EXIT
+Direction  East~
+ToRoom     8624
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8508
+#ENDEXIT
+Reset M    8522 1 8623 -1 -1 -1 100
+Reset M    8523 4 8623 -1 -1 -1 100
+Reset M    8523 4 8623 -1 -1 -1 100
+Reset M    8523 4 8623 -1 -1 -1 100
+Reset M    8523 4 8623 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8624
+Name       Front Desk~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the front desk of the inn.  A rotund man looks up at you as you 
+enter, seemingly disturbed that he must stop what he's doing to help you.
+~
+#EXIT
+Direction  West~
+ToRoom     8623
+#ENDEXIT
+Reset M    8524 1 8624 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8625
+Name       Unified School of Cyberia~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          While the city is bustling, it is still pretty small and so this is the only
+school for all of Cyberia.  Kids of different ages are branched off in 
+different parts of the building.  There is a teacher with each group.
+~
+#EXIT
+Direction  South~
+ToRoom     8626
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8509
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8626
+Name       Kindergarten~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          The youngest of cyborg children are gathered here for basic education.  You
+are impressed with what the kids are doing at such a young age.  Puzzles and
+more advanced toys are scattered around the room.  At least kids are the same
+everywhere - messy!
+~
+#EXIT
+Direction  North~
+ToRoom     8625
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8627
+#ENDEXIT
+Reset M    8527 1 8626 -1 -1 -1 100
+Reset M    8525 3 8626 -1 -1 -1 100
+Reset M    8525 3 8626 -1 -1 -1 100
+Reset M    8525 3 8626 -1 -1 -1 100
+Reset M    8526 3 8626 -1 -1 -1 100
+Reset M    8526 3 8626 -1 -1 -1 100
+Reset M    8526 3 8626 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8627
+Name       Grade School~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          The cyborg kids here look older, and seem to be doing more complex things.
+Math equations are written on the main video board, and the kids are working
+furiously on their data pads.  They must be taking a test.
+~
+#EXIT
+Direction  East~
+ToRoom     8628
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8626
+#ENDEXIT
+Reset M    8530 1 8627 -1 -1 -1 100
+Reset M    8529 3 8627 -1 -1 -1 100
+Reset M    8529 3 8627 -1 -1 -1 100
+Reset M    8529 3 8627 -1 -1 -1 100
+Reset M    8528 3 8627 -1 -1 -1 100
+Reset M    8528 3 8627 -1 -1 -1 100
+Reset M    8528 3 8627 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8628
+Name       High School~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          Young teenaged cyborgs are the primary students in this class.  Looks like
+they are heavily into studying the various sciences.  A lot of the experiments
+you see are impressive; unlike anything you've ever seen before.
+~
+#EXIT
+Direction  East~
+ToRoom     8629
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8627
+#ENDEXIT
+Reset M    8534 1 8628 -1 -1 -1 100
+Reset M    8531 3 8628 -1 -1 -1 100
+Reset M    8531 3 8628 -1 -1 -1 100
+Reset M    8531 3 8628 -1 -1 -1 100
+Reset M    8532 3 8628 -1 -1 -1 100
+Reset M    8532 3 8628 -1 -1 -1 100
+Reset M    8532 3 8628 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8629
+Name       College~
+Sector     indoors~
+Flags      nomob indoors~
+Stats      0 0 0 0 0
+Desc          The adults here are cyborgs who wish to continue their education past "high
+school".  You see a lot of video books and data pads on their desks.  There is
+a general feeling of art in this class.  Perhaps they are here to enrich 
+themselves?
+~
+#EXIT
+Direction  West~
+ToRoom     8628
+#ENDEXIT
+Reset M    8537 1 8629 -1 -1 -1 100
+Reset M    8535 3 8629 -1 -1 -1 100
+Reset M    8535 3 8629 -1 -1 -1 100
+Reset M    8535 3 8629 -1 -1 -1 100
+Reset M    8536 3 8629 -1 -1 -1 100
+Reset M    8536 3 8629 -1 -1 -1 100
+Reset M    8536 3 8629 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8630
+Name       North Cyberia Apartments~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the main building of the apartment complex.  A hallway continues
+west from here, while Zero Street is to the east.
+~
+#EXIT
+Direction  East~
+ToRoom     8509
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8631
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8631
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          To the west is a courtyard, and you can see doors to some of the apartments
+on either side of it.  In the center of a courtyard is a swimming pool.  To
+the north is a door with a sign reading "Manager" on it, and south a door reads
+"Janitor".  The hallway continues east.
+~
+#EXIT
+Direction  North~
+ToRoom     8632
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8630
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8633
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8634
+#ENDEXIT
+Reset D    8631 0 1 100 -2
+Reset D    8631 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8632
+Name       Manager's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the office of the apartment manager.  Several large plants as well
+as a scale model of the complex are the only notables in this room.  A newer
+model next to the apartment model indicates he is thinking of expanding...
+~
+#EXIT
+Direction  South~
+ToRoom     8631
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8539 1 8632 -1 -1 -1 100
+  Reset E  8519 1 16 20
+#ENDROOM
+
+#ROOM
+Vnum        8633
+Name       Janitor's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Here is where the janitor and other cleaning personnel keep their supplies.
+There are buckets, mops and various cleaning liquids scattered about.
+~
+#EXIT
+Direction  North~
+ToRoom     8631
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8540 1 8633 -1 -1 -1 100
+Reset M    8541 10 8633 -1 -1 -1 100
+Reset M    8541 10 8633 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8634
+Name       The Courtyard~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This is the central courtyard for the apartment complex.  Apartments are
+to the north and south.  The courtyard continues west, and the main office
+area lies through an arch to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     8635
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8631
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8636
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8637
+#ENDEXIT
+Reset D    8634 0 1 100 -2
+Reset D    8634 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8635
+Name       An Apartment~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This apartment is small but cozy.  There is an in-wall video screen, some
+automated lighting, and other electronic goodies.
+~
+#EXIT
+Direction  South~
+ToRoom     8634
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+Reset M    8553 3 8635 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8636
+Name       An Apartment~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This apartment is small but cozy.  There is an in-wall video screen, some
+automated lighting, and other electronic goodies.
+~
+#EXIT
+Direction  North~
+ToRoom     8634
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8554 3 8636 -1 -1 -1 100
+Reset M    8555 2 8636 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8637
+Name       The Courtyard Pool~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          There is an in-ground pool here.  Several kids splash about in the water.
+Their parents sit in the poolside seats to the west, watching protectively.
+Apartments can be found to the north and south, while the courtyard continues
+east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     8638
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8634
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8639
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8640
+#ENDEXIT
+Reset M    8541 10 8637 -1 -1 -1 100
+Reset D    8637 0 1 100 -2
+Reset D    8637 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8638
+Name       An Apartment~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This apartment is small but cozy.  There is an in-wall video screen, some
+automated lighting, and other electronic goodies.
+~
+#EXIT
+Direction  South~
+ToRoom     8637
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8553 3 8638 -1 -1 -1 100
+Reset M    8554 3 8638 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8639
+Name       An Apartment~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This apartment is small but cozy.  There is an in-wall video screen, some
+automated lighting, and other electronic goodies.
+~
+#EXIT
+Direction  North~
+ToRoom     8637
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8555 2 8639 -1 -1 -1 100
+Reset M    8553 3 8639 -1 -1 -1 100
+Reset M    8554 3 8639 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8640
+Name       Next to the Pool~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          There are seats by the edge of the pool here.  Some parents watch their
+children frolick about in the pool while chattering amongst themselves.
+There is a kind of community togetherness here.
+~
+#EXIT
+Direction  North~
+ToRoom     8641
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8637
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8642
+Keywords   door~
+Flags      isdoor secret~
+#ENDEXIT
+Reset D    8640 0 1 100 -2
+Reset D    8640 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8641
+Name       An Apartment~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This apartment is small but cozy.  There is an in-wall video screen, some
+automated lighting, and other electronic goodies.
+~
+#EXIT
+Direction  South~
+ToRoom     8640
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8642
+Name       An Apartment~
+Sector     indoors~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This apartment is small but cozy.  There is an in-wall video screen, some
+automated lighting, and other electronic goodies.
+~
+#EXIT
+Direction  North~
+ToRoom     8640
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8643
+Name       Cyberian Guard Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          These guard barracks are very Spartan in design.  The halls are narrow, the
+ceilings are low, and the doors are made of a very strong reinforced metal.
+~
+#EXIT
+Direction  East~
+ToRoom     8644
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8511
+Keywords   gate~
+Flags      isdoor~
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8644
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The hallway is dark and cramped.  These barracks must have been built a
+very long time ago, because they don't have the "new" feel that most buildings
+in Cyberia do.  A sign next to the door to the north reads "Corporal's Office."
+~
+#EXIT
+Direction  North~
+ToRoom     8645
+Desc       The sign next to the door reads 'Corporal's Office.'
+~
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8646
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8643
+#ENDEXIT
+Reset D    8644 0 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8645
+Name       Corporal Andar's Office~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          A small sign on the desk indicates that this is Corporal Andar's office.
+It's a fairly small room.  The numerous video screens and monitors on the
+walls show pictures of different parts of the city.  This must be the central
+guard dispatching post as well.
+~
+#EXIT
+Direction  South~
+ToRoom     8644
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8545 1 8645 -1 -1 -1 100
+  Reset E  8536 99 10 10
+#ENDROOM
+
+#ROOM
+Vnum        8646
+Name       A Turn in the Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          The hallway runs west and south from here.  To the east, a sign on the door
+reads 'Guard Quarters'.
+~
+#EXIT
+Direction  East~
+ToRoom     8649
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8647
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8644
+#ENDEXIT
+Reset D    8646 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8647
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This short hallway runs north and south from here.  Through an archway
+to the south you can see the main mess hall.  To the north the hallway turns
+west and a door leads east.
+~
+#EXIT
+Direction  North~
+ToRoom     8646
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8648
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        8648
+Name       The Mess Hall~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This is the main mess hall for the guards stationed here at the barracks.
+Many tables are sprawled across this huge room.  To the western side of the
+area is the food line.  Several cooks serve each passing guard with generous
+helping of food.
+~
+#EXIT
+Direction  North~
+ToRoom     8647
+#ENDEXIT
+Reset M    8543 10 8648 -1 -1 -1 100
+Reset M    8543 10 8648 -1 -1 -1 100
+Reset M    8543 10 8648 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8649
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This hallway runs east and west from here.  To the north and south are
+doors which lead into sleeping rooms for the Cyberian guards.
+~
+#EXIT
+Direction  North~
+ToRoom     8650
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8652
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8651
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8646
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset D    8649 0 1 100 -2
+Reset D    8649 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8650
+Name       Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Bunk beds line the walls here.  Large lockers next to them hold the guards'
+personal belongings.  This must be where the guards sleep.
+~
+#EXIT
+Direction  South~
+ToRoom     8649
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8544 12 8650 -1 -1 -1 100
+Reset M    8544 12 8650 -1 -1 -1 100
+Reset M    8544 12 8650 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8651
+Name       Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Bunk beds line the walls here.  Large lockers next to them hold the guards'
+personal belongings.  This must be where the guards sleep.
+~
+#EXIT
+Direction  North~
+ToRoom     8649
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8544 12 8651 -1 -1 -1 100
+Reset M    8544 12 8651 -1 -1 -1 100
+Reset M    8544 12 8651 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8652
+Name       A Hallway~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This hallway runs east and west from here.  To the north and south are
+doors which lead into sleeping rooms for the Cyberian guards.
+~
+#EXIT
+Direction  North~
+ToRoom     8653
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8654
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8649
+#ENDEXIT
+Reset D    8652 0 1 100 -2
+Reset D    8652 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8653
+Name       Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Bunk beds line the walls here.  Large lockers next to them hold the guards'
+personal belongings.  This must be where the guards sleep.
+~
+#EXIT
+Direction  South~
+ToRoom     8652
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8544 12 8653 -1 -1 -1 100
+Reset M    8544 12 8653 -1 -1 -1 100
+Reset M    8544 12 8653 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8654
+Name       Barracks~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Bunk beds line the walls here.  Large lockers next to them hold the guards'
+personal belongings.  This must be where the guards sleep.
+~
+#EXIT
+Direction  North~
+ToRoom     8652
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8544 12 8654 -1 -1 -1 100
+Reset M    8544 12 8654 -1 -1 -1 100
+Reset M    8544 12 8654 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8655
+Name       Reese's Pieces~
+Sector     indoors~
+Flags      indoors nomagic~
+Stats      0 0 0 0 0
+Desc          This looks like a weapons shop.  Exotic weapons hang from the walls.  Behind
+the main counter is a case full of other weapons and items.  You realize that
+most of this weaponry is probably illegal, which would explain why this place
+is hidden away in an alley.
+~
+#EXIT
+Direction  West~
+ToRoom     8530
+Keywords   secret~
+Flags      isdoor~
+#ENDEXIT
+Reset M    8546 1 8655 -1 -1 -1 100
+  Reset G  8526 30 100
+  Reset G  8533 30 100
+  Reset G  8534 30 100
+  Reset G  8535 30 100
+Reset D    8655 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        8656
+Name       Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This street is lined with all kinds of stores.  It reminds you of the old
+Earth legends about "Las Vegas".  Lights, sounds, and holograms try to draw
+you in to each store.
+   Sounds of music and laughter come from the building to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     8517
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     8662
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8657
+#ENDEXIT
+Reset M    8533 15 8656 -1 -1 -1 100
+Reset M    8504 30 8656 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8657
+Name       Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This street is lined with all kinds of stores.  It reminds you of the old
+Earth legends about "Las Vegas".  Lights, sounds, and holograms try to draw
+you in to each store.
+   A store marked "Jilly's Arcade" is open for business to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     8656
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8658
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     8661
+#ENDEXIT
+Reset M    8541 10 8657 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8658
+Name       Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This street is lined with all kinds of stores.  It reminds you of the old
+Earth legends about "Las Vegas".  Lights, sounds, and holograms try to draw
+you in to each store.
+~
+#EXIT
+Direction  North~
+ToRoom     8657
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8659
+#ENDEXIT
+Reset M    8533 15 8658 -1 -1 -1 100
+Reset M    8505 30 8658 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8659
+Name       Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This street is lined with all kinds of stores.  It reminds you of the old
+Earth legends about "Las Vegas".  Lights, sounds, and holograms try to draw
+you in to each store.
+~
+#EXIT
+Direction  North~
+ToRoom     8658
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8660
+#ENDEXIT
+Reset M    8504 30 8659 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8660
+Name       Electronic Avenue~
+Sector     city~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          This street is lined with all kinds of stores.  It reminds you of the old
+Earth legends about "Las Vegas".  Lights, sounds and holograms try to draw
+you in to each store.
+   South of here is the intersection with Wall Road.
+~
+#EXIT
+Direction  North~
+ToRoom     8659
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     8603
+#ENDEXIT
+Reset M    8504 30 8660 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8661
+Name       Jilly's Arcade~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          Rows of games and other forms of entertainment line the walls of this 
+giant room.  Vintage 20th century "Arcade Games" are here, and in good 
+condition.  More advanced virtual reality games are here as well.  You can't
+help but marvel at the awesome display of technology.
+~
+#EXIT
+Direction  East~
+ToRoom     8657
+#ENDEXIT
+Reset M    8549 1 8661 -1 -1 -1 100
+Reset M    8547 3 8661 -1 -1 -1 100
+Reset M    8547 3 8661 -1 -1 -1 100
+Reset M    8547 3 8661 -1 -1 -1 100
+Reset M    8548 2 8661 -1 -1 -1 100
+Reset M    8548 2 8661 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        8662
+Name       O'Malley's Casino~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          This lavish building is where the betting types of Cyberia go.  The walls
+are pure white, the floors are made of a strange marble, and the people are
+richly dressed.  Looks like the class of the city comes here.
+~
+#EXIT
+Direction  West~
+ToRoom     8656
+#ENDEXIT
+Reset M    8550 2 8662 -1 -1 -1 100
+Reset M    8550 2 8662 -1 -1 -1 100
+Reset M    8551 3 8662 -1 -1 -1 100
+Reset M    8551 3 8662 -1 -1 -1 100
+Reset M    8551 3 8662 -1 -1 -1 100
+Reset M    8543 15 8662 -1 -1 -1 100
+Reset M    8552 1 8662 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA
