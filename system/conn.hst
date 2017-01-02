@@ -1,24 +1,6 @@
 #CONN
 User   Creidi
 Host   192.168.0.5
-When   12/31 17:30
-Level  3
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   12/31 17:43
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Creidi
-Host   192.168.0.5
 When   12/31 17:50
 Level  3
 Type   0
@@ -265,6 +247,24 @@ Host   192.168.0.5
 When   01/01 20:37
 Level  99
 Type   2
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/01 23:01
+Level  115
+Type   1
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/02 08:52
+Level  115
+Type   0
 Invis  0
 End
 

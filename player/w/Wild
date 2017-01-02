@@ -13,17 +13,17 @@ FPrompt      &z[&W%h&whp &W%m&wm &W%v&wmv&z]  [&R%c&z] ~
 PCFlags      pager groupsplit nstart flags sector aname passdoor checkboards autoexits blank automap holylight roomvnum ansi msp autogold smartsac compass~
 Channels     chat Bugs Log auction quest music shout wartalk yell newbiechat think muse comm info auth warn build guildtalk Clantalk ilog~
 Speaks       common elvish dwarven pixie ogre orcish trollese rodent insectoid mammal reptile dragon spiritual magical goblin god ancient halfling clan gith minotaur centaur gnomish sahuagin beleigh darvack aldurian cyborg~
-Status       115 2051694 320993749 68 124 101 -10
+Status       115 2052994 320993749 68 124 101 -10
 Status2      2 451 -1000 0 0 0 2 0
 Configs      29 -1 -1 -1 -1 0 0 1000
 Motd         0 1080528906
-Age          1 21 10 770 1122679687
-HpManaMove   25771 30000 30836 30836 26557 30000
+Age          1 21 10 770 1122691488
+HpManaMove   28678 30000 30836 30836 28771 30000
 Regens       0 0 0
 Position     standing~
 Coordinates  -1 -1 -1
 SavingThrows 0 0 0 0 0
-RentData     573765 0 0 0 0
+RentData     573765 0 0 0 3
 RentRooms    1128
 KillInfo     0 0 3 0 0
 AttrPerm     20 18 18 19 19 18 18

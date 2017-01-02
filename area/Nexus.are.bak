@@ -6600,7 +6600,7 @@ ToRoom    1087
 Vnum      1155
 Name      Donation Room~
 Sector    indoors~
-Flags     nomob safe nocamp nosummon nomissile norecall noportal noastral donation nodropall noscry nobeacon noquit~
+Flags     nomob safe nocamp nosummon nomissile norecall noportal noastral donation nodropall proto noscry nobeacon noquit~
 Stats     0 0 0 0 100000
 Desc      Items player donation come to this room.  Please do not abuse donated
 items.

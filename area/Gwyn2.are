@@ -88,8 +88,13 @@ endif
 #MUDPROG
 Progtype  act_prog~
 Arglist   p from somewhere.~
-Comlist   say Welcome back $n. How was your trip to the city?
-say You may visit the village at any time.
+Comlist   if level($n) > 10
+say Welcome to the Gwyn al'Fer. How goes your journey?
+say You may meet with young adventurers in here and the adjacent porch.
+say However, you may not enter into the inner confines or the village.
+else
+say Welcome back $n. How was your trip to the city?
+say You may visit the village at any time between now and level 10.
 say You may also take the challenge anytime after level 5.
 endif
 ~

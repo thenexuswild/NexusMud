@@ -275,7 +275,7 @@ const int ROOM_VNUM_HELL = 11405;   /* Vnum for Hell - Samson */
 const int ROOM_VNUM_CHAT = 11406;   /* Parlour of the Immortals */
 const int ROOM_VNUM_TEMPLE = 1000; /* Primary continent recall */
 const int ROOM_VNUM_ALTAR = 1000;  /* Primary continent death */
-const int ROOM_VNUM_DONATION = 11410;  /* First donation room - Samson 2-6-98 */
+const int ROOM_VNUM_DONATION = 1155;  /* First donation room - Samson 2-6-98 */
 const int ROOM_VNUM_REDEEM = 11411; /* Sindhae prize redemption start room - Samson 6-2-00 */
 const int ROOM_VNUM_ENDREDEEM = 11412; /* Sindhae prize redemption ending room - Samson 6-2-00 */
 
