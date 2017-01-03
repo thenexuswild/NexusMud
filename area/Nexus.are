@@ -171,7 +171,7 @@ Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1030 1031 1032 1033 1034 305 300 0 28
-RepairData 5 9 0 100 1 0 28
+RepairData 4 3 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -199,7 +199,7 @@ Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1025 1026 1027 1028 1029 305 300 0 28
-RepairData 5 9 0 100 1 0 28
+RepairData 4 3 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -227,7 +227,7 @@ Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1020 1021 1022 1023 1024 305 300 0 28
-RepairData 5 9 0 100 1 0 28
+RepairData 4 3 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -2637,7 +2637,7 @@ level of OPs.
 Direction north~
 ToRoom    1019
 Keywords  door~
-Flags     isdoor closed~
+Flags     isdoor~
 #ENDEXIT
 
 #EXIT
@@ -4605,7 +4605,7 @@ ToRoom    1083
 Direction west~
 ToRoom    1084
 Keywords  door~
-Flags     isdoor~
+Flags     isdoor closed~
 #ENDEXIT
 
 Reset M 1033 1 1082 -1 -1 -1 50

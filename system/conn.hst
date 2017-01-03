@@ -1,13 +1,4 @@
 #CONN
-User   Wild
-Host   192.168.0.5
-When   01/01 17:41
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
 User   Testcleric
 Host   192.168.0.5
 When   01/01 18:32
@@ -237,7 +228,7 @@ User   Rangertest
 Host   192.168.0.5
 When   01/02 21:44
 Level  0
-Type   4
+Type   0
 Invis  0
 End
 
@@ -246,7 +237,7 @@ User   Rangertest
 Host   192.168.0.5
 When   01/02 23:39
 Level  5
-Type   1
+Type   0
 Invis  0
 End
 
@@ -255,7 +246,7 @@ User   Wild
 Host   192.168.0.5
 When   01/02 23:40
 Level  115
-Type   1
+Type   0
 Invis  0
 End
 
@@ -263,6 +254,15 @@ End
 User   Wild
 Host   occhost241102.sunyocc.edu
 When   01/03 08:17
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/03 18:05
 Level  115
 Type   0
 Invis  0
