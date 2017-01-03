@@ -112,10 +112,11 @@ Stats1    0 0 60 100 150 250
 Stats2    33 0 -7 30000 2 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1010 1011 1012 1013 1014 305 300 0 28
+RepairData 5 9 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -138,10 +139,11 @@ Stats1    0 0 60 100 150 250
 Stats2    33 0 -7 30000 2 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1035 1036 1037 1038 1039 305 300 0 28
+RepairData 5 9 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -165,10 +167,11 @@ Stats1    0 0 60 100 150 250
 Stats2    33 0 -7 30000 2 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1030 1031 1032 1033 1034 305 300 0 28
+RepairData 5 9 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -192,10 +195,11 @@ Stats1    0 0 60 100 150 250
 Stats2    33 2 -7 30000 2 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1025 1026 1027 1028 1029 305 300 0 28
+RepairData 5 9 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -219,10 +223,11 @@ Stats1    0 0 60 100 150 250
 Stats2    33 2 -7 30000 2 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   1020 1021 1022 1023 1024 305 300 0 28
+RepairData 5 9 0 100 1 0 28
 #ENDMOBILE
 
 #MOBILE
@@ -246,7 +251,7 @@ Stats1    0 0 60 100 150 250
 Stats2    33 0 -7 30000 100 0 100
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 ShopData   24297 0 0 0 0 305 300 0 28
@@ -273,7 +278,7 @@ Stats1    0 0 60 100 150 250
 Stats2    33 0 -7 30000 2 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 #ENDMOBILE
@@ -299,7 +304,7 @@ Stats1    0 0 60 100 150 250
 Stats2    33 0 -7 30000 1 0 18
 Speaks    common~
 Speaking  common~
-Actflags  npc sentinel~
+Actflags  npc sentinel immortal~
 Affected  detect_invis detect_hidden infrared~
 Bodyparts head arms legs heart~
 #ENDMOBILE
@@ -1706,7 +1711,7 @@ Long      A small analysis device has been left here.~
 WFlags    take hold~
 Values    10 5 5 -1 0 0 0 0 0 0 0
 Stats     1 2500 0 9999 0 None None None
-Spells       'reserved'
+Spells       'NONE'
 #ENDOBJECT
 
 #OBJECT
@@ -2632,7 +2637,7 @@ level of OPs.
 Direction north~
 ToRoom    1019
 Keywords  door~
-Flags     isdoor~
+Flags     isdoor closed~
 #ENDEXIT
 
 #EXIT
@@ -6600,7 +6605,7 @@ ToRoom    1087
 Vnum      1155
 Name      Donation Room~
 Sector    indoors~
-Flags     nomob safe nocamp nosummon nomissile norecall noportal noastral donation nodropall noscry nobeacon noquit~
+Flags     nomob safe nocamp nosummon nomissile norecall noportal noastral nodropall noscry nobeacon noquit~
 Stats     0 0 0 0 100000
 Desc      Items player donation come to this room.  Please do not abuse donated
 items.

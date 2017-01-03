@@ -5007,7 +5007,7 @@ Long      A small tattered book lies here.~
 Flags     organic magic donated~
 WFlags    take hold~
 Values    5 5 0 0 0 0 0 0 0 0 0
-Stats     1 10 -2 9999 0 None None None
+Stats     1 10 1 9999 0 None None None
 AffData intelligence 1 -1 -1 0
 AffData constitution 1 -1 -1 0
 AffData wisdom 1 -1 -1 0

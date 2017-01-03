@@ -1706,7 +1706,7 @@ Long      A small analysis device has been left here.~
 WFlags    take hold~
 Values    10 5 5 -1 0 0 0 0 0 0 0
 Stats     1 2500 0 9999 0 None None None
-Spells       'reserved'
+Spells       'NONE'
 #ENDOBJECT
 
 #OBJECT
@@ -6600,7 +6600,7 @@ ToRoom    1087
 Vnum      1155
 Name      Donation Room~
 Sector    indoors~
-Flags     nomob safe nocamp nosummon nomissile norecall noportal noastral donation nodropall proto noscry nobeacon noquit~
+Flags     nomob safe nocamp nosummon nomissile norecall noportal noastral nodropall noscry nobeacon noquit~
 Stats     0 0 0 0 100000
 Desc      Items player donation come to this room.  Please do not abuse donated
 items.

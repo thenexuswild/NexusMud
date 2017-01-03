@@ -11,8 +11,8 @@ Ranges          110 115 0 115
 ResetMsg        A loud voice booms: Cycle complete. Restarting sequence.~
 ResetFreq       180
 Flags           nocamp noastral noportal norecall nosummon noscry noteleport nobeacon~
-Climate         2 2 2
 Treasure        100 0 0 0 20 50 60 75
+Climate         2 2 2
 #ENDAREADATA
 
 #MOBILE
@@ -3663,7 +3663,7 @@ Vnum      11000
 Name      Quest Storage Room~
 Sector    indoors~
 Flags     nomob indoors safe nocamp noportal proto noteleport noscry nobeacon~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This room is used for quests. No one should be in here except quest mobs/objs.
 ~
 #ENDROOM
@@ -3673,7 +3673,7 @@ Vnum      11001
 Name      The Confiscation Chamber~
 Sector    indoors~
 Flags     nomob~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This is where stuff that mobs need to take from players will end up.
 ~
 #ENDROOM
@@ -3683,7 +3683,7 @@ Vnum      11002
 Name      The Mob Vanishing Room~
 Sector    indoors~
 Flags     indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This room is where mobs that need to "disappear" will end up so as
 not to give away that they've left the room they were in.
 ~
@@ -3694,12 +3694,11 @@ Vnum      11400
 Name      The Void~
 Sector    indoors~
 Flags     nomob indoors nosummon norecall noportal noastral~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      All around you the blackness of the ether closes in like an evil fog.
 Nothing is visible in any direction. Even the floor itself appears
 to be nonexistant..... you are floating in pure nothingness!
 ~
-Reset M 11000 1 11400 -1 -1 -1 100
 #MUDPROG
 Progtype  speech_prog~
 Arglist   test~
@@ -3732,6 +3731,7 @@ say his/hers/its of victim:	$S
 ~
 #ENDPROG
 
+Reset M 11000 1 11400 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
@@ -3739,7 +3739,7 @@ Vnum      11401
 Name      Limbo~
 Sector    city~
 Flags     nomob indoors nosummon norecall noportal noastral~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      You float in a formless void, detached from all sensation of physical
 matter, surrounded by swirling glowing light which fades into the
 relative darkness around you without any trace of edge or shadow.
@@ -3752,7 +3752,7 @@ Vnum      11402
 Name      Storage~
 Sector    city~
 Flags     nomob nosummon norecall noportal noastral~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This room is reserved for storage of polymorphed players.
 ~
 #ENDROOM
@@ -3762,7 +3762,7 @@ Vnum      11403
 Name      Creeping Doom Room~
 Sector    indoors~
 Flags     nomob indoors nosummon norecall noportal noastral~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This is where all the creeping dooms come to get purged.
 ~
 #MUDPROG
@@ -3779,7 +3779,7 @@ Vnum      11404
 Name      Failed Animate Dead Room~
 Sector    indoors~
 Flags     nomob indoors nosummon norecall noportal noastral noscry~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      Failed animate dead attempts get sent here. This room is not to be
 used for ANYTHING other than that.
 ~
@@ -3790,7 +3790,7 @@ Vnum      11405
 Name      Hell~
 Sector    desert~
 Flags     nomob indoors safe nosummon silence nosupplicate norecall noportal noastral~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      You are suddenly dropped off in a truly hellish place! Wait.... not
 just hellish.... this IS hell! The Gods must have been truly angry
 to have sent you to dwell in such a place. Needless to say, hell is
@@ -3826,7 +3826,7 @@ Vnum      11406
 Name      Parlor of the Immortals~
 Sector    indoors~
 Flags     indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      The parlor room where all immortals come to meet and plan their
 activities. Build to suit, etc.
 ~
@@ -3838,7 +3838,7 @@ Vnum      11407
 Name      Recall and Death Room - Primary Continent~
 Sector    indoors~
 Flags     indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This is where players get recalled to when recalling on the primary
 continent, and on other planes such as Astral. Also where they'll
 come when they die. You will want to change this to something more
@@ -3851,7 +3851,7 @@ Vnum      11410
 Name      Donations Room~
 Sector    indoors~
 Flags     indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This is where donated goods will come when the donate command is used.
 Build to suite your needs.
 ~
@@ -3862,7 +3862,7 @@ Vnum      11411
 Name      Beginning Redemption Room~
 Sector    indoors~
 Flags     indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This is the room players will need to be in to start a prize redemption
 using the automated system and the mpsindhae mudprog.
 ~
@@ -3873,7 +3873,7 @@ Vnum      11412
 Name      Ending Redemption Room~
 Sector    indoors~
 Flags     indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
 Desc      This is the room players will be transferred to after completing an
 automated prize redemption.
 ~
@@ -3884,7 +3884,27 @@ Vnum      11999
 Name      Standing in Pure Nothingness~
 Sector    indoors~
 Flags     nomob indoors~
-Stats     0 0 0 0
+Stats     0 0 0 0 100000
+#ENDROOM
+
+#ROOM
+Vnum      11420
+Name      Wild's Command Center~
+Sector    indoors~
+Flags     proto~
+Stats     0 0 0 0 100000
+Desc      You see a wall of monitors here.  A large desk with many keyboards and
+mice on it.  Also there has to be at least 30 remotes for the monitors.  The 
+trash can is ful of empty soda bottles and cans.  
+~
+#ENDROOM
+
+#ROOM
+Vnum      11430
+Name      Kord's Room~
+Sector    indoors~
+Flags     proto~
+Stats     0 0 0 0 100000
 #ENDROOM
 
 #ENDAREA
