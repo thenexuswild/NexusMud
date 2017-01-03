@@ -1,22 +1,4 @@
 #CONN
-User   Creidi
-Host   192.168.0.5
-When   12/31 17:50
-Level  3
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   12/31 17:51
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
 User   Testcleric
 Host   192.168.0.5
 When   12/31 18:28
@@ -219,7 +201,7 @@ User   Kord
 Host   ds.erionmud.net
 When   01/01 19:36
 Level  0
-Type   4
+Type   0
 Invis  0
 End
 
@@ -228,7 +210,7 @@ User   Testcleric
 Host   192.168.0.5
 When   01/01 19:57
 Level  99
-Type   2
+Type   0
 Invis  0
 End
 
@@ -246,7 +228,7 @@ User   Testcleric
 Host   192.168.0.5
 When   01/01 20:37
 Level  99
-Type   2
+Type   0
 Invis  0
 End
 
@@ -255,7 +237,7 @@ User   Wild
 Host   192.168.0.5
 When   01/01 23:01
 Level  115
-Type   1
+Type   0
 Invis  0
 End
 
@@ -263,6 +245,24 @@ End
 User   Wild
 Host   192.168.0.5
 When   01/02 08:52
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/02 12:41
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/02 12:42
 Level  115
 Type   0
 Invis  0
