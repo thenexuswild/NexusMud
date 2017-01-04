@@ -1,0 +1,35 @@
+FileVer     1
+Name        Mortal~
+Filename    Mortal~
+Desc        Mortal Board~
+ObjVnum     0
+Expire      180
+Flags       ~
+Readers     all~
+Posters     all~
+ReadLevel   10
+PostLevel   10
+RemoveLevel 101
+#END
+FileVer     1
+Name        Imm~
+Filename    Imm~
+Desc        Immortals use this Board~
+ObjVnum     0
+Expire      180
+Flags       ~
+ReadLevel   101
+PostLevel   101
+RemoveLevel 115
+#END
+FileVer     1
+Name        Bug~
+Filename    Bug~
+Desc        Use this for Bugs/Typos~
+ObjVnum     0
+Expire      180
+Flags       ~
+ReadLevel   101
+PostLevel   10
+RemoveLevel 101
+#END

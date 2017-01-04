@@ -1,33 +1,6 @@
 #CONN
 User   Testcleric
 Host   192.168.0.5
-When   01/01 18:32
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/01 18:32
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/01 18:34
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
 When   01/01 18:34
 Level  99
 Type   0
@@ -265,6 +238,33 @@ Host   192.168.0.5
 When   01/03 18:05
 Level  115
 Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/03 18:55
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/03 21:48
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/03 22:32
+Level  99
+Type   2
 Invis  0
 End
 
