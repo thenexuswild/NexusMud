@@ -1,103 +1,4 @@
 #CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/01 18:34
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/01 18:41
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/01 18:41
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/01 18:57
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/01 19:36
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/01 19:57
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/01 20:09
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/01 20:37
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/01 23:01
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 08:52
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 12:41
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
 User   Kord
 Host   ds.erionmud.net
 When   01/02 12:42
@@ -264,7 +165,106 @@ User   Testcleric
 Host   192.168.0.5
 When   01/03 22:32
 Level  99
-Type   2
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/03 23:50
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Steeg
+Host   50-26-236-173.abilcmtk01.res.dyn.suddenlink.net
+When   01/04 06:38
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   occhost241102.sunyocc.edu
+When   01/04 08:19
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Krug
+Host   193.198.26.245
+When   01/04 13:41
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Krug
+Host   193.198.26.245
+When   01/04 14:16
+Level  2
+Type   0
+Invis  0
+End
+
+#CONN
+User   Aleccia
+Host   96-41-248-102.dhcp.eucl.wi.charter.com
+When   01/04 15:39
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Aleccia
+Host   96-41-248-102.dhcp.eucl.wi.charter.com
+When   01/04 15:52
+Level  1
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/04 18:20
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/04 18:40
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/04 20:12
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/04 20:12
+Level  115
+Type   0
 Invis  0
 End
 

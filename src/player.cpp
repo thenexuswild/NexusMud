@@ -1993,7 +1993,11 @@ CMDF( do_score )
    }
 
    ch->printf( "%sPracs: %s%-15d %sFavor    : %s%d\r\n\r\n", s2, s3, ch->pcdata->practice, s2, s3, ch->pcdata->favor );
-
+   
+   //if ( capitalize( npc_race[ch->race] == "Monk")
+   if( ch->Class == CLASS_MONK )
+       ch->printf( "Barehand Damage: %d d %d \r\n", ch->barenumdie, ch->baresizedie);
+   
    ch->printf( "%sYou are %s.\r\n", s2, npc_position[ch->position] );
 
    if( ch->pcdata->condition[COND_DRUNK] > 10 )
