@@ -1,0 +1,1252 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Clan Asteroid~
+Author          Unknown~
+Vnums           21500 21599
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 0 0 0
+ResetMsg        Please place message here~
+ResetFreq       5
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        21500
+Keywords   18696 clanguard m215 oreo~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The OreO Guardian~
+Long       The guardian of clan OreO stands here.
+~
+Desc       You see the guardian of clan OreO.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21501
+Keywords   6645 it ego clanguard m215 chowder~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Garm's Ego~
+Long       Garm's Ego was admiring its medals until you rudely interupted it.
+~
+Desc       Boy, is it *immense*. You find yourself unable to clearly describe it
+further, because you are currently smashed between it and the wall just
+so you can stand here, thusly blocked from a decent view of it.
+Appalled by your insignificant presence, or possibly just as a side
+effect of its odd faculty of continuous expansion, his ego seems to
+be pushing you out of the room!
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21502
+Keywords   4322 clanguard m215 zero~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Zero~
+Long       Zero stands here.
+~
+Desc       Mail a description to Aramina.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21503
+Keywords   9566 clanguard m215 claneater unity~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The ClanEater~
+Long       The ClanEater stands here.
+~
+Desc       You see a very large clan member here.  I would advise that
+only UNITY clan members try to pass this guardian because we
+are not responsible for the damage we might do to you.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21504
+Keywords   94 clanguard m215 dragon~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Watchful Dragon~
+Long       A dragon keeps a close eye on the entrance.
+~
+Desc       As you approach the dragon, you are overcome with a sense of awe.  It is not
+a big dragon by any means, but the raw power that eminates from it is more
+than enough to keep any unwanted visitors away.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21505
+Keywords   4424 clanguard m215 webbie webber hehe~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      Webbie the platypus~
+Long       Webbie the platypus stands here surveying his brood of lunatics.
+~
+Desc       This friendly-looking creature peers at you inquisitively and waddles over.
+You have a brief impression of a short, stout body covered entirely in grey
+and blue hair, before a feeling of panic and foreboding comes over you.
+Despite your fear, you feel an almost uncontrollable urge to hug the platypus.
+How mind-boggling!  As the creature's arms close you, returning your hug,
+your last thought is that you've lost your last chance to escape.  HEHE.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21506
+Keywords   476 clanguard m215 inc itch statue~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The statue of Itch~
+Long       The statue of Itch stands here.
+~
+Desc       You see before you a ten foot tall statue of Itch, the patron of INC.
+The statue seems to waver, as if it wanted to slip into the shadows.  The
+grin on the statue's face makes you reach back to make sure your wallet is 
+still there...  HEY WHERE DID IT GO??!!
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21507
+Keywords   436 clanguard m215 enigma question~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      A Large Question Mark~
+Long       A large question mark stands here.
+~
+Desc       What really is the meaning of this statue?  How was the world created?
+Is there a solution to x^3+y^3 = z^3?  You better tell me before you enter
+this clan room!
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21508
+Keywords   9780 clanguard m215 anomaly meng vang~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Grand Master Meng "Chuck" Vang~
+Long       Grand Master Meng "Chuck" Vang stands here.
+~
+Desc       As you stare into the cold eyes of this grand master of the martial arts, you
+feel your soul being drained. You cringe in fear because inside the thin frame
+of the warrior lurks an untamed beast ready to strike at any given time. All
+those that have underestimated him would not be able to tell you about their
+experience because they are all dead.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21509
+Keywords   8426 clanguard m215 KOH knights~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      Knights of Holomud Guild Guard~
+Long       The Knights of Holomud Guild Guard stands here.
+~
+Desc       Before you stands the biggest man you've ever seen. He towers 
+over you grinning wickedly. He wears a suit of full silvery 
+plate mail and about him is a blue Surcoat with a golden 
+phoenix imprinted on the back. He stares at you waiting to see 
+if you are good enough to pass into the Knights of Holomud 
+Guild Room.
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21510
+Keywords   19104 clanguard m215 future~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Future Clan Guard~
+Long       The Future Clan Guard stands here.
+~
+Desc       Send description to Mina
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21511
+Keywords   5414 clanguard m215 endless~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Endless Clan Guard~
+Long       The Endless Clan Guard stands here.
+~
+Desc       Send description to Mina
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        21598
+Keywords   janitor clan~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      The Clan Asteroid Janitor~
+Long       The Clan Asteroid Janitor is here, cleaning up your mess.
+~
+Desc       Eh? so you want this little scap of gold paper huh? Well, what will
+you give me for it?
+~
+Nattacks   4.000000
+Stats1     0 15 60 100 150 250
+Stats2     36 1 -10 100 0 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis fireshield infrared~
+Bodyparts  head arms legs heart~
+ShopData   24298 0 0 0 0 10 900 0 28
+#ENDMOBILE
+
+#ROOM
+Vnum        21500
+Name       Inside the Shuttle Craft~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21501 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport to the Asteroid of Clans.
+Please fasten your seatbelt and keep your seat back and tray
+tables in a full upright and locked position.  Now sit back,
+relax, and enjoy the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        21501
+Name       Backing Away from the Station~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21502 0 0 100000
+Desc       With a sudden jerk, the shuttle leaves the station and begins to rotate
+to face into the blackness of space.  The roar of the engines is steady
+as you begin your journey to the hyperspace jump point.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21502
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21503 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace.  Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21503
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21504 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you.  You have no idea
+just how much time has passed since you left the station. You just want
+to drift off to sleeeeeeepppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21504
+Name       Flying through the Asteroid Belt~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21505 0 0 100000
+Desc       Just as you drift off to sleep you find yourself on a roller coaster ride
+through an asteroid belt.  Your shuttle pilot expertly guides you through
+the maze of rock and you think you see an opening in one of the central
+asteroids.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21505
+Name       Asteroid Dock~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       Your craft lands with a resounding THUD and the door opens out into a 
+small room.  From what you can see through the window, this asteroid is 
+definitely nothing to write home about.  All that you can see is one 
+single corridor with some indentations off of it.  Welcome to the 
+home of the clans.
+~
+#EXIT
+Direction  North~
+ToRoom     21506
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21506
+Name       Airlock~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       The low hum of a pump can be heard as the doors to the airlock close behind
+you.  Two buttons can be seen on the side wall of the chamber.  The
+green one is marked 'Corridor', and the red one is marked 'Ship'.
+~
+#EXIT
+Direction  North~
+ToRoom     21507
+Keywords   green~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21508
+Keywords   red~
+Flags      isdoor~
+#ENDEXIT
+Reset D    21506 0 1 100 -2
+Reset D    21506 2 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        21507
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk along a long stone corridor carved out from the inside of an
+asteroid. To the south is the airlock leading back to the shuttle.
+To the north lies more corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     21513
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21506
+Desc       You see a button on the wall that says push to open
+~
+Keywords   button~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21598
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     21599
+#ENDEXIT
+Reset D    21507 2 1 100 -2
+Reset D    21507 3 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        21508
+Name       Inside the Shuttle Craft~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21509 0 0 100000
+Desc       Welcome to SDO's Shuttle Transport back to SDO from the Asteroid of Clans.
+Please fasten your seatbelt and keep your seat back and tray
+tables in a full upright and locked position.  Now sit back,
+relax, and enjoy the flight!
+~
+#ENDROOM
+
+#ROOM
+Vnum        21509
+Name       Flying through the Asteroid Belt~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21510 0 0 100000
+Desc       Your shuttle pilot expertly guides you through the maze of rock and you think 
+you see an opening out into space.  Once again, you find yourself on a 
+roller coaster ride through an asteroid belt.  
+~
+#ENDROOM
+
+#ROOM
+Vnum        21510
+Name       Jumping into Hyperspace~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21511 0 0 100000
+Desc       You feel every molecule in your body disconnect as you suddenly jump
+to hyperspace.  Colors swirl and speech slurs until with another jerk,
+you return to normal space.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21511
+Name       Zipping through Space~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  21512 0 0 100000
+Desc       Everything is so peaceful as the stars drift by you.  You have no idea
+just how much time has passed since you left the station. You just want
+to drift off to sleeeeeeepppppppp.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21512
+Name       Returning to the Station~
+Sector     indoors~
+Flags      indoors safe teleport teleshowdesc~
+Stats       60  1062 0 0 100000
+Desc       With a sudden jerk, the shuttle docks at the station.  The engine roar
+quiets and an announcement comes over the speak system telling you that
+you can now unfasten your seatbelt.  Thank you for riding the SDO
+Shuttle.
+~
+#ENDROOM
+
+#ROOM
+Vnum        21513
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk along a long stone corridor carved out from the inside of an
+asteroid.  To the east and the west are entrances into clan homes. To
+the north and the south are more corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     21514
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     21517
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21507
+Keywords    ~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21519
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21514
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk along a long stone corridor carved out from the inside of an
+asteroid.  To the east and the west are entrances into clan homes. To
+the north and the south are more corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     21515
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     21521
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21513
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21523
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21515
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk along a long stone corridor carved out from the inside of an
+asteroid.  To the east and the west are entrances into clan homes. To
+the north and the south are more corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     21516
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     21525
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21514
+Keywords    ~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21527
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21516
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk along a long stone corridor carved out from the inside of an
+asteroid.  To the east and the west are entrances into clan homes. To
+the north and the south are more corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     21535
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     21529
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21515
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21531
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21517
+Name       The Entrance to INC~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of the INC clan house.  You must be a
+member to pass this point.
+~
+#EXIT
+Direction  South~
+ToRoom     21518
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21513
+#ENDEXIT
+Reset M    21506 1 21517 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21518
+Name       INC Clan House~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       You stand in the main room of the INC clan house.  There are people all
+around you talking and mingling with each other.  The lights are low and a
+warm fire crackles in a large fireplace.  You hear the sound of music
+mixing with the voices.  To the back of the room you see a massage parlor.
+Over the fireplace hangs a large portrait of Itch, patron god of INC.  He
+has a sly look on his face...
+~
+#EXIT
+Direction  North~
+ToRoom     21517
+#ENDEXIT
+Reset O    1101 12 21518 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21519
+Name       The Entrance to UNITY~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc        Welcome to the entrance hall of the UNITY clan house. 
+You must be a member to pass this point.
+~
+#EXIT
+Direction  East~
+ToRoom     21513
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21520
+#ENDEXIT
+Reset M    21503 1 21519 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21520
+Name       UNITY Clan House~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       Welcome all UNITY members.  This is a place to hang out or chat.
+This house is our home, feel free to put your feet up and relax.
+~
+#EXIT
+Direction  North~
+ToRoom     21519
+#ENDEXIT
+Reset O    1101 12 21520 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21521
+Name       The Entrance to HEHE~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of the HEHE clan house.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  South~
+ToRoom     21522
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21514
+#ENDEXIT
+Reset M    21505 1 21521 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21522
+Name       HEHE~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       As you walk into this house, you hear sounds of giggling, shrieking, and
+laughter coming from all directions.  ACK!  What morons and lunatics live
+here, you wonder?  The sounds are about to drive you insane when you
+detect one low reverberating voice continuously going "HEHE" through all
+the other chatter.  You decide to explore, and off in a lone corner you
+see this strange brown and blue "thing" waddling around.  What a complete
+boggler!  Summoning up your courage, you move closer to the "thing" and
+see that it has greyish-brown hair, blue webbed feet and a blue beak that
+opens repeatedly to say "HEHE."  It's...it's...a platypus!!  Time to
+flee...but PANIC! you can't escape and it seems the HEHEing platypus has
+spotted you!  The little thing waddles over to you, makes a magical gesture
+with its arm and suddenly, every time you open your mouth all you can say is
+"HEHE."  You are now one of the morons/lunatics too...enjoy your stay in
+the house of "HEHE."
+~
+#EXIT
+Direction  North~
+ToRoom     21521
+#ENDEXIT
+Reset O    1101 12 21522 -1 -1 -1 100
+#EXDESC
+ExDescKey  plaque~
+ExDesc     Clan HEHE is dedicated to the care and preservation of platypi, and
+to the annihilation of BLAH and INC in clanwars. Death to all those
+who stand in its way.  HEHE.  :)
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        21523
+Name       Entrance Hall to Clan Chowder~
+Sector     indoors~
+Flags      indoors nomagic safe teleport teleshowdesc~
+Stats       60  21514 0 0 100000
+Desc       You are standing in the entrance hall to Clan Chowder.
+Only Chowder members may enter.
+~
+#EXIT
+Direction  East~
+ToRoom     21514
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21524
+#ENDEXIT
+Reset M    21501 1 21523 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21524
+Name       In the Tank~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       Well protected by Garm's, ahem, "healthy" Ego, you hop into this small
+3' x 5' aquarium among the few clams that populate it. What, you 
+expected there to be a lot of room left with *that* thing over there?
+~
+#EXIT
+Direction  North~
+ToRoom     21523
+#ENDEXIT
+Reset O    1101 12 21524 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21525
+Name       The Entrance to Zero Tolerance~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of the Zero Tolerance clan house.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  South~
+ToRoom     21526
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21515
+#ENDEXIT
+Reset M    21502 1 21525 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21526
+Name       The Zero Tolerance Room~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       ~
+#EXIT
+Direction  North~
+ToRoom     21525
+#ENDEXIT
+Reset O    1101 12 21526 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21527
+Name       Entrance Hall to Clan Dragon~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       You are standing in the entrance hall to Clan Dragon.
+Only Dragon members may enter.
+~
+#EXIT
+Direction  East~
+ToRoom     21515
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21528
+#ENDEXIT
+Reset M    21504 1 21527 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21528
+Name       The Dragon's Lair~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       As you enter the home of the Dragon clan, you immediately are overwhelmed
+by the grandiose dimensions of the place.  Your eyes first notice the
+fireplace on the north wall - a fire cheerfully burns, providing warmth
+and light.  Mounted above the fireplace is a stuffed (what else?) head of
+a dragon.  The east wall is adorned with various paintings, including one
+of the members of the clan.  Underneath the painting rests a very plush
+couch, and just to the right of it is a baby grand piano.  The west wall
+is where the clan storage locker is.  
+  Scattered around the room are chairs - any of which looks very inviting
+to plop down on and rest up from your adventures.  To the north lies the exit
+back out when you tire of resting and yearn to pick up your sword again.
+
+~
+#EXIT
+Direction  North~
+ToRoom     21527
+#ENDEXIT
+Reset O    1101 12 21528 -1 -1 -1 100
+#EXDESC
+ExDescKey  fireplace~
+ExDesc     A fire crackles in the fireplace.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  painting paintings~
+ExDesc     Besides the painting of the clan (Just what ARE Pug and Furrie doing in
+that one?), there are paintings of various animals (cats seem to be the
+most common) and various nature paintings.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        21529
+Name       The Entrance to OreO~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of the OreO clan house.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  South~
+ToRoom     21530
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21516
+#ENDEXIT
+Reset M    21500 1 21529 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21530
+Name       OreO~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       	The room here is a complete mess.  The walls are mostly bare, though
+at the far end there is a wide variety of paint and paneling on the wall.
+You nearly trip over some small holes in the floor, which look like they were 
+created by the explosion of some unstable object.  Strange monsters wander 
+around the room, picking up objects that you have never seen before.  You 
+wonder briefly why this room is not nearly as well decorated as the rest of 
+the clan rooms, but then you realize that the OreOs are the builders of the 
+mud, and to them the entire mud is their room.  This is just where they go 
+for a little chaos.
+	Behind a curtain is a beautifully lifelike painting of Infoteq, the
+patron god of Builders.  He seems to be watching everything that happens in
+this room...almost as if he was testing the objects and monsters...
+
+~
+#EXIT
+Direction  North~
+ToRoom     21529
+#ENDEXIT
+Reset O    1101 12 21530 -1 -1 -1 100
+Reset O    3084 3 21530 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21531
+Name       The Entrance to Enigma~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of Enigma.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  East~
+ToRoom     21516
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21532
+#ENDEXIT
+Reset M    21507 1 21531 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21532
+Name       Enigma~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       You really don't understand the meaning of this room.
+~
+#EXIT
+Direction  North~
+ToRoom     21531
+#ENDEXIT
+Reset O    1101 12 21532 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21533
+Name       The Entrance to Anomaly~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of Anomaly.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  East~
+ToRoom     21535
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21534
+#ENDEXIT
+Reset M    21508 1 21533 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21534
+Name       Anomaly's Awesome Alcove~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       As you walk in this incredible room, you can't help but notice a futon up
+against the wall. As you look to one side of the room you see a powerful 13
+inch TV. On one side of the TV you see Solonor's Sega CD and on the other is
+Ordeith' SNES. Back in the corner you see Ordeith's Monsterous Bass Amp and hi
+s
+bass guitar. On the other side of the room you see Solonor's immense stereo
+system with two colossal speakers. You recognise the faint smell of weed comin
+g
+from Mo's and Mookie's room next door. Suddenly you get a throbbing headache
+from the loud thumping of rap music coming from Stace-o The Mighty Land Lord's
+room. You think to yourself "What a hole!" but then you say, "Ahh, but it's
+home."
+~
+#EXIT
+Direction  North~
+ToRoom     21533
+#ENDEXIT
+Reset O    1101 12 21534 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21535
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You walk along a long stone corridor carved out from the inside of an
+asteroid.  To the east and the west are entrances into clan homes. To
+the north and the south are more corridor.
+~
+#EXIT
+Direction  North~
+ToRoom     21540
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     21536
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21516
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21533
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21536
+Name       The Entrance to Knights of Holomud~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of Knights of Holomud.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  West~
+ToRoom     21535
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21537
+#ENDEXIT
+Reset M    21509 1 21536 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21537
+Name       Knights of Holomud Guild Room~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc            The Guild room of the Knights of Holomud is a large room about twenty
+foot by twenty foot.  A numerous amount of large weapons hang on the wall andfull suits of armor on racks lie about the room.  A large KOH rule sign is onthe west wall, and on the south wall is a large blazing fireplace and above it
+is a portrait of Torak the leader of KOH.
+~
+#EXIT
+Direction  North~
+ToRoom     21536
+#ENDEXIT
+Reset O    1101 12 21537 -1 -1 -1 100
+#EXDESC
+ExDescKey  KOH rule sign~
+ExDesc     Behave, help everyone, and have fun, short, sweet, and to the point :)
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        21538
+Name       The Entrance to Future~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of Future.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  East~
+ToRoom     21540
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21539
+#ENDEXIT
+Reset M    21510 1 21538 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21539
+Name       Future~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       Send description to Aramina
+~
+#EXIT
+Direction  North~
+ToRoom     21538
+#ENDEXIT
+Reset O    1101 12 21539 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21540
+Name       Walking the Corridor~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You have reached the current end to the corridor. When more clans are
+added, the rock eaters will create more corridor.  There is an entrance
+to the east and the west.
+~
+#EXIT
+Direction  East~
+ToRoom     21541
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21535
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     21538
+#ENDEXIT
+#ENDROOM
+
+#ROOM
+Vnum        21541
+Name       Endless~
+Sector     indoors~
+Flags      indoors nomagic safe~
+Stats      0 0 0 0 0
+Desc       Welcome to the entrance hall of clan ENDLESS.
+You must be a member to pass this point.
+~
+#EXIT
+Direction  West~
+ToRoom     21540
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     21542
+#ENDEXIT
+Reset M    21511 1 21541 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21542
+Name       Clan ENDLESS's room~
+Sector     indoors~
+Flags      indoors isolated safe~
+Stats      0 0 0 0 0
+Desc       Nothing is here.
+~
+#EXIT
+Direction  North~
+ToRoom     21541
+#ENDEXIT
+Reset O    1101 12 21542 -1 -1 -1 100
+#ENDROOM
+
+#ROOM
+Vnum        21598
+Name       Janitor's Closet~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       You see all kinds of cleaning equipment stored in this closet.
+~
+#EXIT
+Direction  East~
+ToRoom     21507
+Keywords   door~
+Flags      isdoor~
+#ENDEXIT
+Reset M    21598 1 21598 -1 -1 -1 100
+  Reset G  24298 1 100
+Reset D    21598 1 1 100 -2
+#ENDROOM
+
+#ROOM
+Vnum        21599
+Name       Asteroid Cryogenicist~
+Sector     indoors~
+Flags      indoors safe~
+Stats      0 0 0 0 0
+Desc       Rent out here. Only wimps use rent, real mudders use Cryo!
+~
+#EXIT
+Direction  Down~
+ToRoom     21507
+#ENDEXIT
+Reset M    1001 2 21599 -1 -1 -1 100
+#ENDROOM
+
+#ENDAREA

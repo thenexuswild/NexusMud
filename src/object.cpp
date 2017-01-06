@@ -1797,8 +1797,8 @@ void obj_identify_output( char_data * ch, obj_data * obj )
          break;
 
       case ITEM_ARMOR:
-         ch->printf( "Current AC value: %d\r\n", obj->value[1] );
-         ch->printf( "Current condition: %s\r\n", condtxt( obj->value[1], obj->value[0] ).c_str(  ) );
+         ch->printf( "Current AC value: %d\r\n", obj->value[0] );
+         ch->printf( "Current condition: %s\r\n", condtxt( obj->value[0], obj->value[1] ).c_str(  ) );
          if( obj->value[2] > 0 )
             ch->printf( "Available sockets: %d\r\n", obj->value[2] );
          if( obj->socket[0] && str_cmp( obj->socket[0], "None" ) )

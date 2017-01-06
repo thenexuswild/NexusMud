@@ -1,0 +1,3134 @@
+#AFKAREA
+#AREADATA
+Version         1
+Name            Haon-Dor (Light)~
+Author          Unknown~
+Vnums           6000 6092
+Continent       One~
+Coordinates     0 0
+Dates           0 0
+Ranges          0 0 0 0
+ResetMsg        Please place message here~
+ResetFreq       13
+Flags           noscry~
+Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
+#ENDAREADATA
+
+#MOBILE
+Vnum        6000
+Keywords   john lumberjack~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      John the Lumberjack~
+Long       John the Lumberjack is here, looking for some trees to chop down.
+~
+Desc       He is six feet tall and looks quite strong, muscles bulging under his heavy,
+chequered shirt.  His features are worn with hard work and his expression is
+one of a peaceful man leading a simple life.
+~
+Nattacks   1.000000
+Stats1     370 100 60 100 150 250
+Stats2     5 15 6 60 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc scavenger stayarea~
+Affected   detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6001
+Keywords   rabbit~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the rabbit~
+Long       A small rabbit is foraging in the bushes here.
+~
+Desc       It is a small, furry creature with long ears and big feet.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     0 20 6 1 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6002
+Keywords   bear~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   sleeping~
+DefPos     standing~
+Short      the brown bear~
+Long       A big, brown, angry-looking bear is here.
+~
+Desc       The bear is a big, brown, furry animal with very large claws and very sharp
+teeth.  It doesn't resemble those cute little dolls from toy shops at all.
+~
+Nattacks   1.000000
+Stats1     -50 0 60 100 150 250
+Stats2     8 13 3 98 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6003
+Keywords   rabbit~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   sleeping~
+DefPos     standing~
+Short      the ferocious rabbit~
+Long       A ferocious rabbit is here, glaring hungrily at you.
+~
+Desc       This small, furry creature with long ears and big feet has been attacked by
+the dreaded rabbit rabies, a horrible disease that turns helpless and innocent
+rabbits into ferocious and bloodthirsty monsters.
+~
+Nattacks   1.000000
+Stats1     -150 0 60 100 150 250
+Stats2     3 17 6 26 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc aggressive stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6004
+Keywords   deer~
+Race       humanoid~
+Class      warrior~
+Gender     female~
+Position   standing~
+DefPos     standing~
+Short      the fallow deer~
+Long       A fallow deer is grazing peacefully here.
+~
+Desc       She is a graceful creature on long, slender legs, and with large, brown eyes
+looking back at you with an air of watchful interest.
+~
+Nattacks   1.000000
+Stats1     350 0 60 100 150 250
+Stats2     2 19 5 8 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6005
+Keywords   fox~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the brown fox~
+Long       A brown fox is stalking rabbits through the underbrush here.
+~
+Desc       It is a large fox with beautiful, red-brown fur and a long, thick bushy tail.
+~
+Nattacks   1.000000
+Stats1     -50 0 60 100 150 250
+Stats2     2 18 6 18 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6006
+Keywords   bird large~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the bird~
+Long       A large bird with a broken wing has been cornered here.
+~
+Desc       The bird isn't going to live much longer, by the looks of it.
+~
+Nattacks   1.000000
+Stats1     0 0 60 100 150 250
+Stats2     0 17 10 1 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6007
+Keywords   bobcat cat~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the bobcat~
+Long       A medium sized bobcat is stalking a bird here.
+~
+Desc       The bobcat has sharp claws and teeth, and will probably eat you instead of the
+bird if you give it the chance.
+~
+Nattacks   1.000000
+Stats1     -150 0 60 100 150 250
+Stats2     5 15 5 60 2 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel aggressive~
+Affected   detect_hidden~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6008
+Keywords   sparrow~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the sparrow~
+Long       A sparrow is flapping around by the ground.
+~
+Desc       The sparrow looks like it is enjoying life.
+~
+Nattacks   1.000000
+Stats1     200 0 60 100 150 250
+Stats2     0 20 9 1 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6009
+Keywords   robin~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the robin~
+Long       A robin is hopping around looking for bugs to eat.
+~
+Desc       The robin looks quite intent on finding a bug or worm to eat.
+~
+Nattacks   1.000000
+Stats1     200 0 60 100 150 250
+Stats2     0 20 9 1 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6010
+Keywords   squirrel~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the squirrel~
+Long       A squirrel is here seeking refuge in it's nest.
+~
+Desc       It peers out of it's next at you anxiously, seeming to plead silently with you
+to leave it alone.
+~
+Nattacks   1.000000
+Stats1     200 0 60 100 150 250
+Stats2     1 20 8 9 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6011
+Keywords   badger~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the sleepy badger~
+Long       A furry brown badger is curled up under a log here.
+~
+Desc       The badger is slowly awakening and peering up at you from it's burrow. You know
+that it won't be moving this slow for long.  It's sharp claws and teeth catch
+your attention when you consider killing it.
+~
+Nattacks   1.000000
+Stats1     50 0 60 100 150 250
+Stats2     4 17 5 48 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6012
+Keywords   grey squirrel~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the grey squirrel~
+Long       A grey squirrel with a bushy tail is foraging for nuts here.
+~
+Desc       This happy creature seems to pay you no heed as it goes about it's search for
+nuts among the leaves and twigs on the ground here.
+~
+Nattacks   1.000000
+Stats1     150 0 60 100 150 250
+Stats2     2 19 8 22 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6013
+Keywords   chipmunk~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the small chipmunk~
+Long       A small brown-red chipmunk dashes from tree to tree here.
+~
+Desc       The absolute zenith of hyperactivity, this small rodent seems to never tire of
+running up, down, and around the trees in this area.  If you could ever catch
+it, you imagine it would make an easy meal.
+~
+Nattacks   1.000000
+Stats1     170 0 60 100 150 250
+Stats2     0 20 5 3 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc stayarea~
+Affected   hide~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6014
+Keywords   crow black bird~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the large black crow~
+Long       A large black crow flits about here, picking at bits of carrion.
+~
+Desc       The bird eyes you warily, but continues with it's meal.
+~
+Nattacks   1.000000
+Stats1     -20 3 60 100 150 250
+Stats2     2 19 8 22 1 0 1
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6015
+Keywords   grotesque vulture~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the grotesque vulture~
+Long       A grotesque vulture covered in blood and gore is here feeding madly.
+~
+Desc       It sickens you to even look at this foul bird.  Bits of dried gore stick to
+it's beak, and unidentifiable organs hang from it's talons and feathers.  
+It sees you and attacks, protecting it's horrible feast!
+~
+Nattacks   1.000000
+Stats1     -700 14 60 100 150 250
+Stats2     6 15 4 68 2 0 2
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel scavenger aggressive~
+Affected   detect_hidden sleep~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6016
+Keywords   buck deer~
+Race       humanoid~
+Class      warrior~
+Gender     male~
+Position   standing~
+DefPos     standing~
+Short      the young buck~
+Long       A young 5-point buck is drinking from the lake here.
+~
+Desc       This young male deer is drinking from the edge of the lake and watching you
+warily.  His antlers are not full size yet, and will no doubt be quite 
+impressive in a few years.
+~
+Nattacks   1.000000
+Stats1     350 0 60 100 150 250
+Stats2     4 17 4 48 1 0 3
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel stayarea~
+Affected   detect_invis~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#MOBILE
+Vnum        6017
+Keywords   fish~
+Race       humanoid~
+Class      warrior~
+Gender     Neuter~
+Position   standing~
+DefPos     standing~
+Short      the fish~
+Long       ~
+Desc       The fish looks about the right size for a meal.
+~
+Nattacks   1.000000
+Stats1     100 0 60 100 150 250
+Stats2     0 20 10 0 1 0 0
+Speaks     common~
+Speaking   common~
+Actflags   npc sentinel~
+Bodyparts  head arms legs heart~
+#ENDMOBILE
+
+#ROOM
+Vnum        6000
+Name       The Edge of the Forest~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing at the end of a dusty road, near the eastern edge of the
+large forest of Haon-Dor. To the east you see the road heading back to the
+walled city, Midgaard, and to the west is a narrow trail leading through the
+forest.
+~
+#EXIT
+Direction  East~
+ToRoom     6090
+Desc       To the east a dusty road takes you back to the walls of Midgaard, and its large
+west gate.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6001
+Desc       You see a narrow forest trail winding westward in between the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  trail~
+ExDesc     The forest trail winds westwards through the trees.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are quite tall considering most of them appear to be quite young.
+On one of the trees, crude letters forming the word "Haon-Dor" have been
+carved into the bark.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6001
+Name       A trail through the light forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a trail leading through the forest. There seems to be a small
+path leading north into the shadows. To the east is the forest edge and to the
+west the trail leads further into the forest.
+~
+#EXIT
+Direction  North~
+ToRoom     6060
+Desc       You see evidence of a small path leading through a break in the trees to the
+north.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6000
+Desc       The trail continues eastwards out of the forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6002
+Desc       You see the narrow forest trail winding westwards in between the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  trail~
+ExDesc     The forest trail winds east-west through the trees.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees here are quite young and fresh.  They seem to accommodate many kinds
+of birds, insects and other small animals.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  birds insects animals~
+ExDesc     Very cute little creatures, they seem to enjoy life.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6002
+Name       A trail through the light forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a narrow trail winding east and west through the forest.  To the
+west, the forest gradually becomes more dense. A small forest path leads off
+to the south.
+~
+#EXIT
+Direction  East~
+ToRoom     6001
+Desc       The trail continues eastwards through the young trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6011
+Desc       The small path leads south through the young trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6003
+Desc       You see the narrow forest trail winding westwards into the dense forest.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trail~
+ExDesc     The forest trail winds east-west through the trees.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The young, slender trees look beautiful, their fresh, green leaves moving
+lightly in the wind.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6003
+Name       A trail through the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a trail winding east and west through the dense forest.  To the
+east, the forest gradually seems to become lighter.
+~
+#EXIT
+Direction  East~
+ToRoom     6002
+Desc       The trail continues eastwards to the younger part of the forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6004
+Desc       You see the narrow trail winding westwards through the dense forest.
+~
+#ENDEXIT
+Reset M    6012 7 6003 -1 -1 -1 100
+#EXDESC
+ExDescKey  trail~
+ExDesc     The forest trail seems almost fragile compared to the massive trunks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The dense crowns of the mature trees leave only a fraction of the sky to be
+seen through the leaves.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6004
+Name       A trail through the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a trail winding east and west through the dense forest.  To the
+west, the trees are so huge and their crowns so dense that forest remains in
+total darkness.  A small path leads south through the trees.
+~
+#EXIT
+Direction  East~
+ToRoom     6003
+Desc       The trail continues eastwards through the dense forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6005
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6100
+Desc       The narrow trail almost seems to disappear between the enormous trunks.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trail~
+ExDesc     The forest trail seems almost fragile compared to the massive trunks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The crowns of the old trees almost cut out all light.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6005
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6004
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6006
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+Reset M    6008 4 6005 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6006
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     6005
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6007
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6007
+Name       An intersection in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The forest
+gradually lightens to the east.  Paths lead east, west and south.
+~
+#EXIT
+Direction  East~
+ToRoom     6008
+Desc       You can barely make out a clearing to the east.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6012
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6006
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+Reset M    6012 7 6007 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6008
+Name       The forest clearing~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in a clearing in the forest.  Lots of fresh stumps of varying sizes
+protrude from the ground and heavy logs are stacked neatly in a big pile
+supported by stakes set into the ground.  Paths lead north, east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6011
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6009
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6007
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  log logs~
+ExDesc     Even though the logs have been chopped to shorter pieces, they are quite heavy
+as they are fresh and still filled with sap.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  stake stakes~
+ExDesc     The stakes keep the logs from rolling down.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  stump stumps~
+ExDesc     There are more stumps than logs and some of the stumps are partly covered in
+moss.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6009
+Name       Outside a small cabin in the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are outside a small cabin built entirely from heavy logs.  There is a
+wooden door to the north and small paths lead west and south through the trees.
+~
+#EXIT
+Direction  North~
+ToRoom     6010
+Desc       The wooden door is quite sturdy but does not appear to be equipped with a lock.
+~
+Keywords   door wooden~
+Flags      isdoor~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6014
+Desc       The small path leads south through the dense forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6008
+Desc       The small path leads west through the light forest.
+~
+#ENDEXIT
+Reset M    6000 1 6009 -1 -1 -1 100
+Reset D    6009 0 1 100 -2
+#EXDESC
+ExDescKey  cabin logs log~
+ExDesc     It looks simple but comfortable and the slender trees make the whole place seem
+pretty idyllic.  It's a cabin built from wooden logs.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is probably used by the cabin's inhabitants.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are fairly young, not much more than a hundred years or so.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6010
+Name       Inside the Cabin~
+Sector     indoors~
+Flags      indoors~
+Stats      0 0 0 0 0
+Desc          You are inside a small one-room cabin made entirely from heavy logs.  It is
+very sparsely furnished, containing only the most basic housekeeping
+equipment, such as a bed, a chair and a table.
+~
+#EXIT
+Direction  South~
+ToRoom     6009
+Desc       The wooden door leads south.
+~
+Keywords   door wooden~
+Flags      isdoor~
+#ENDEXIT
+#EXDESC
+ExDescKey  bed~
+ExDesc     It is definitely not the most comfortable bed you have seen in your life.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  chair~
+ExDesc     It is made from oak and looks strong and sturdy.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  table~
+ExDesc     A heavy table that doesn't even appear to rock. It seems to have something
+carved on it.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  carving carvings carved~
+ExDesc     On the table is carved :
+                                                  /) /)
+          Danny and Mari, Oct 31, 1991           ( o o )
+                                                  = x =
+                                                 m     m
+                                              ***(========-
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6011
+Name       A small path through the light forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the forest.  The trees are tall and
+slender.  Paths lead north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6002
+Desc       The path leads north through the young trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6008
+Desc       The path leads south through the young trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are fairly young, not much more than a hundred years or so.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6012
+Name       An intersection in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of the
+old trees leave the forest floor in an unreal twilight illumination.  Paths
+lead north, east and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6007
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6013
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6021
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+Reset M    6001 6 6012 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6013
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues east and west.
+~
+#EXIT
+Direction  East~
+ToRoom     6014
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6012
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+Reset M    6008 4 6013 -1 -1 -1 100
+Reset M    6009 4 6013 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6014
+Name       An intersection in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The forest
+gradually lightens to the north.  Paths lead north, east and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6009
+Desc       The path leads north to a lighter part of the forest.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6015
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6013
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+Reset M    6005 4 6014 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6015
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues south and west.
+~
+#EXIT
+Direction  South~
+ToRoom     6016
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6014
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+Reset M    6001 6 6015 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6016
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north, south and east.
+~
+#EXIT
+Direction  North~
+ToRoom     6015
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6028
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6017
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+Reset M    6009 4 6016 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6017
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at a turn on a small path leading through the dense forest.  The
+forest seems to become lighter to the west.  The path continues north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6016
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6018
+Desc       The small path leads west through the trees to a lighter part of the forest.
+~
+#ENDEXIT
+Reset M    6001 6 6017 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The crowns of the old trees leave the forest in an unreal twilight
+illumination.  A large branch looms above you, over the path.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  up branches branch large~
+ExDesc     The branch of a large oak stretches out above the path from the east.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6018
+Name       An intersection in the light forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the forest.  A path leads north to
+a small field and other paths lead east and west into the dense forest.
+~
+#EXIT
+Direction  North~
+ToRoom     6023
+Desc       The path leads north to a small, grassy field.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6017
+Desc       The path leads east to a dense part of the forest.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6019
+Desc       The path leads west to a dense part of the forest.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The tall trees are young and slender, not much more than a hundred years or so.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6019
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The forest seems
+to become lighter to the east.  The path continues north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     6020
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6018
+Desc       The small path leads east through the trees to a lighter part of the forest.
+~
+#ENDEXIT
+Reset M    6001 6 6019 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6020
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues south and west.
+~
+#EXIT
+Direction  South~
+ToRoom     6019
+Desc       The small path leads south through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6021
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6021
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  To the west
+you see a dark cave entrance, leading into a small hillside.  The path
+continues north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     6012
+Desc       The small path leads north through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6020
+Desc       The small path leads east through the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6022
+Desc       The cave is very dark.
+~
+#ENDEXIT
+Reset M    6013 4 6021 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The crowns of the old trees leave the forest in an unreal twilight
+illumination.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  cave entrance~
+ExDesc     The irregular opening is eight feet wide and six feet tall.  An acrid smell
+emanates from within.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6022
+Name       Inside the cave~
+Sector     indoors~
+Flags      dark indoors~
+Stats      0 0 0 0 0
+Desc          You are in a natural cave.  Various sorts of debris cover the stone floor,
+emitting a rather unpleasant smell that makes the air thick and hard to
+breathe.  The only obvious exit is east.
+~
+#EXIT
+Direction  East~
+ToRoom     6021
+Desc       The cave opening is to the east.
+~
+#ENDEXIT
+Reset M    6002 1 6022 -1 -1 -1 100
+#EXDESC
+ExDescKey  debris~
+ExDesc     It consists mostly of gnawed bones mixed with small pieces of torn fur.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  cave walls floor stone~
+ExDesc     Quite uninteresting.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  air smell~
+ExDesc     Kind of transparent, but quite noticeable nevertheless.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6023
+Name       A Grassy Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in a grass covered field somewhere in the forest.  The tall grass
+nearly reaches your waist, and the surrounding oaks and beeches form an almost
+wall-like thicket on the east side of the field. To the northeast you can see
+a small lake.  A small path leads south through the trees, and the field opens
+up to the north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6026
+Desc       Wind blowing in from the north carries with it the smell of a newly killed
+animal, as well as the noise of many birds, which you can see circling there.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6024
+Desc       The ground slopes gently downward to the eastern tree line.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6018
+Desc       The small path leads south in between the trees.
+~
+#ENDEXIT
+Reset M    6004 1 6023 -1 -1 -1 100
+#EXDESC
+ExDescKey  grass~
+ExDesc     The tall grass makes a nice hiding place for animals.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  path~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees thicket~
+ExDesc     The trees form a close thicket, blocking any exit to the west.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  birds bird circling~
+ExDesc     Many carrion birds are circling to the north, you presume they are waiting for
+their turn to feast on a corpse.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6024
+Name       Lower Part of the Grassy Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in a lower part of the grassy field, south of a small lake. The
+grass here has been trampled by the many animals coming here for water, leaving
+the ground covered in tracks of different types. To the west you see a break
+in the wall of trees surrounding the field, and to the north is a small lake.
+~
+#EXIT
+Direction  North~
+ToRoom     6025
+Desc       The animal tracks lead off to the north, and around the lake there.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6023
+Desc       To the south-west you see a break in the tree line, leading back to the
+forest path.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  grass~
+ExDesc     The tall grass makes a nice hiding place for animals.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  path trampled~
+ExDesc     The trampled grass path leads to the lake north of here.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees thicket~
+ExDesc     The trees form a close thicket, blocking any exit to the south and east.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6025
+Name       Beside the Lake on a Grassy Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The grass stops shortly before the lake, replaced by mud covered in tracks
+from the local animals. When you come close many animals scatter into the tall
+grass and some even into the forest. To the west you see birds circling in the
+high in the air, and to the north you see a small lake, surrounded by tall
+reeds. The field continues to the south, and the forest blocks passage to the
+east.
+~
+#EXIT
+Direction  North~
+ToRoom     6027
+Desc       The lake looks inviting, and you can see some sort of water fowl floating
+around among the reeds.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6024
+Desc       To the south an animal trail leads of towards a the other side of the lower
+field.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6026
+Desc       The smell of carrion drifts down to you from higher on the field to the west.
+~
+#ENDEXIT
+Reset M    6016 1 6025 -1 -1 -1 100
+#EXDESC
+ExDescKey  grass~
+ExDesc     The tall grass makes a nice hiding place for animals.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  lake~
+ExDesc     Animals from all around come here to drink. The lake itself is not very big,
+but it stretches off to the north from here.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees thicket~
+ExDesc     The trees form a close thicket, blocking any exit to the north or east.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  birds bird circling~
+ExDesc     Many carrion birds are circling to the west, you presume they are waiting for
+their turn to feast on a corpse.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  track tracks mud~
+ExDesc     You see tracks of both hooved and other sorts of animals. Evidence of all
+sizes of animals is here in the mud, showing just how lively the forest is.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6026
+Name       The Northern Section of a Grassy Field~
+Sector     field~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          As you come close, scavenging animals and birds of all sorts scatter,
+leaving only the boldest and stupidest encircling the corpse of a large boar.
+Carrion birds circle overhead, and smaller animals stare out of the tall grass
+at you. The grass here has been trampled, and a large area around the corpse
+is stained by blood.  A trail leads down the sloping field to a lake, and to
+the south you see the path back to the forest.
+~
+#EXIT
+Direction  East~
+ToRoom     6025
+Desc       A small lake lies down the sloping field to the east. Some of the animals
+that fled from here have gone there, and are watching, waiting for you to
+leave so they can resume their feasting.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6023
+Desc       The field continues to the south, and you can see the path back to the forest
+there.
+~
+#ENDEXIT
+Reset M    6014 4 6026 -1 -1 -1 100
+Reset M    6014 4 6026 -1 -1 -1 100
+Reset M    6014 4 6026 -1 -1 -1 100
+Reset M    6015 1 6026 -1 -1 -1 100
+#EXDESC
+ExDescKey  grass~
+ExDesc     The tall grass makes a nice hiding place for animals. You see some of the
+animals you frightened away peeking furtively out at you.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  path~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees thicket~
+ExDesc     The trees form a close thicket, blocking any exit to the north and west.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  birds circling~
+ExDesc     Many birds of varying size circle overhead, waiting for you to leave. You hope
+they don't decide that you could be a corpse with just a little effort.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  animal animals small~
+ExDesc     Several pairs of eyes peer out at you, urging you to leave.  The just might
+decide that en masse they could kill you, so you probably don't want to tarry
+here.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6027
+Name       On the Lake~
+Sector     water_noswim~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in the middle of a small lake, fed from a small stream coming
+through the forest from the northwest. The water is not that clear, but you
+can see fish swimming around below you. The bank is clear to the south,
+providing a safe place to get back to the field.
+~
+#EXIT
+Direction  South~
+ToRoom     6025
+Desc       Some animals have gathered on the bank to watch you, curious about what you
+are doing.
+~
+#ENDEXIT
+Reset M    6014 4 6027 -1 -1 -1 100
+Reset M    6017 3 6027 -1 -1 -1 100
+Reset M    6017 3 6027 -1 -1 -1 100
+Reset M    6017 3 6027 -1 -1 -1 100
+Reset M    3124 4 6027 -1 -1 -1 100
+Reset M    3124 4 6027 -1 -1 -1 100
+Reset M    3124 3 6027 -1 -1 -1 100
+Reset M    3124 3 6027 -1 -1 -1 100
+#EXDESC
+ExDescKey  fish~
+ExDesc     Trout and perhaps a catfish or two swim about below your boat, totally
+ignoring your presence.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  lake~
+ExDesc     Animals from all around come here to drink. The lake itself is not very big,
+but it stretches off to the north from here.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees thicket~
+ExDesc     Trees cover the bank on most sides, preventing you from docking there.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  reed reeds~
+ExDesc     Reeds grow up around the edges of the lake, providing cover for the small
+water fowl that live here.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6028
+Name       A small path in the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small path leading through the dense forest.  The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues to the west and south.
+~
+#EXIT
+Direction  South~
+ToRoom     6029
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6016
+Desc       The small path leads west through the trees.
+~
+#ENDEXIT
+Reset M    6012 7 6028 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6029
+Name       Near a Large Tree in the Dense Forest~
+Sector     forest~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are at the end of a small path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+This rough clearing is dominated by a very large oak tree, probably the
+largest in this part of the forest. The path leads back to the north.
+~
+#EXIT
+Direction  North~
+ToRoom     6028
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6030
+Desc       You see the lower branches of the towering oak.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trees~
+ExDesc     The trees are mostly old beeches and oaks, with one large oak off to your
+right.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  large oak tree~
+ExDesc     It has some lower branches that you think you could reach if you stretched.
+You might even be able to climb all the top, though from here it looks like
+something else had that idea before you. There is a faint animal shape pacing
+on one of the highest branches.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  animal shape~
+ExDesc     From here it looks vaguely feline, though you could get a much better view
+from in the tree.  You are not sure if it has seen you yet.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  limb limbs~
+ExDesc     They look quite sturdy, certainly capable of holding your weight should you
+decide to climb up the tree using them.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  top highest high~
+ExDesc     You could probably see most of the forest,and perhaps even the city from the
+top of the tree...of course, you'd have to deal with whatever that shape is
+pacing on one of the upper limbs.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6030
+Name       In the Lower Branches of a Large Oak~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in a huge oak, about one third of the way to the top.  The branches
+above you block out much of the light, but enough filters through for you to
+see.  Small animals and birds scatter at your approach, rustling the leaves
+all about you. You could easily climb back down to the ground, or continue up
+the tree.  One large branch juts outward to the west, possibly providing a
+third choice of exit.
+~
+#EXIT
+Direction  West~
+ToRoom     6031
+Desc       This limb looks large and strong enough for you to walk most of the way along
+its length to the west.
+~
+#ENDEXIT
+#EXIT
+Direction  Up~
+ToRoom     6032
+Desc       More large branches spread out from the tree above you.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6029
+Desc       The rough clearing is just a quick climb and jump below you.
+~
+#ENDEXIT
+Reset M    6010 2 6030 -1 -1 -1 100
+Reset M    6010 2 6030 -1 -1 -1 100
+Reset M    6012 7 6030 -1 -1 -1 100
+Reset M    6013 4 6030 -1 -1 -1 100
+#EXDESC
+ExDescKey  nest nests~
+ExDesc     After a short period of looking, you notice a bird's nest on a limb not far
+above you, and a large squirrel's nest in the crook of a large limb that
+stretches out towards the west.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  animals bird birds~
+ExDesc     A variety of squirrels, chipmunks, and birds make their homes in this and the
+surrounding trees.  If you look closely you may be able to see some of their
+rapidly emptying nests.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  feline~
+ExDesc     The shape above you moves with definite grace and confidence. You think that
+it must be a Bobcat, stalking smaller tree-dwelling animals.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  pacing pace animal shape~
+ExDesc     From here it looks feline.  You still don't think it has noticed you, despite
+the noise you made while climbing up here.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  limb limbs~
+ExDesc     They look quite sturdy, certainly capable of holding your weight should you
+decide to climb around in the tree using them.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  top highest high~
+ExDesc     You could probably see most of the forest, and perhaps even the city from the
+top of the tree...of course, you would have to deal with whatever that shape is
+that you see pacing on one of the upper limbs.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6031
+Name       Out on a Limb in a Large Oak~
+Sector     forest~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          This sturdy branch hangs far out over a path to the west, which you might
+be able to jump down to.  Several squirrels scamper into hiding as you
+approach, leaving you alone and swaying slightly with the wind. To your north
+you can see a small log cabin through the trees, and to the southeast there
+seems to be some sort of clearing, with many birds circling above it.
+~
+#EXIT
+Direction  East~
+ToRoom     6030
+Desc       Back to the east you see the tree trunk.  It is much less precarious there
+compared to here...perhaps you should go back.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6016
+Desc       Below you is a small path, probably used by the forest animals.  You think
+that you could jump down with a little effort.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  nest nests~
+ExDesc     You notice that several of the squirrels sought refuge in a large nest that is
+well within your reach.  Looking into the nest, you see two pairs of eyes
+staring back at you.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  animals bird birds~
+ExDesc     A variety of squirrels, chipmunks, and birds make their homes in this and the
+surrounding trees.  If you look closely you may be able to see some of their
+rapidly emptying nests.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  feline~
+ExDesc     The shape above you moves with definite grace and confidence. You think that
+it must be a Bobcat, stalking smaller tree-dwelling animals.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  pacing pace animal shape~
+ExDesc     From here it looks feline.  You still don't think it has noticed you, despite
+the noise you made while climbing up here.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  limb limbs~
+ExDesc     The limbs look quite sturdy, certainly capable of holding your weight should
+you decide to climb around in the tree using them.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  top highest high~
+ExDesc     You could probably see most of the forest, and perhaps even the city from the
+top of the tree...of course, you would have to deal with whatever that shape is
+that you see pacing on one of the upper limbs.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6032
+Name       Midway to the Top of the Large Oak~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are in a huge oak, about midway to the top.  The branches above you
+block out much of the light, but enough filters through for you to see. A few
+birds have remained to watch you from the fringe branches, well out of your
+reach. Scratches mar the tree here, and torn bark is scattered near you on the
+branch. It would seem some large forest cat lives nearby, so you had better be
+careful! You can continue a bit farther up the tree, or descend to limbs that
+don't sway so much.
+~
+#EXIT
+Direction  Up~
+ToRoom     6033
+Desc       Above you the tree narrows farther, but it still looks like you could climb up
+there. A feline shape is pacing about above you, trying to get to a large
+wounded bird. Perhaps you should try to see what sort of cat this is before
+you interrupt it's hunt...it might eat you instead of the bird.
+~
+#ENDEXIT
+#EXIT
+Direction  Down~
+ToRoom     6030
+#ENDEXIT
+Reset M    6009 3 6032 -1 -1 -1 100
+Reset M    6012 7 6032 -1 -1 -1 100
+#EXDESC
+ExDescKey  nest nests~
+ExDesc     A medium sized bird's nest is close to you here, and it looks like it has some
+nice looking eggs in it too!
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  animal animals bird birds~
+ExDesc     A variety of squirrels, chipmunks, and birds make their homes in this and the
+surrounding trees.  If you look closely you may be able to see some of their
+rapidly emptying nests.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  feline cat pacing pace shape~
+ExDesc     It looks like a Bobcat, and it seems quite intent on getting to a large bird
+that it has wounded.  It has not seen you yet, or perhaps just thinks you are
+too easy a meal.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  limb limbs~
+ExDesc     They look quite sturdy, certainly capable of holding your weight should you
+decide to climb around in the tree using them.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  top highest high~
+ExDesc     You could probably see most of the forest, and perhaps even the city from the
+top of the tree...of course, you would have to deal with whatever that shape is
+that you see pacing on one of the upper limbs.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6033
+Name       High in the Large Oak~
+Sector     mountain~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          The tree top gently sways in the wind, and you think you are as high as you
+can safely go in the tree. The limbs here show evidence of a small battle, with
+ripped bark and loose feathers scattered everywhere. Looking around, you can
+see the forest stretching out below you in all directions. To the east you see
+Midgaard, and to the south the river runs through a deep chasm. North and west 
+of here you can see another small village, and on the western horizon you see a
+large mountain.
+~
+#EXIT
+Direction  Down~
+ToRoom     6032
+Desc       Below you many of the animals you frightened earlier have returned to their
+various nests and homes.  You can see a small hint of the path far below you
+through the branches.
+~
+#ENDEXIT
+Reset M    6006 1 6033 -1 -1 -1 100
+Reset M    6007 1 6033 -1 -1 -1 100
+#EXDESC
+ExDescKey  around trees everywhere woods forest~
+ExDesc     Off to the southwest you can see a grass covered field, and a small lake;
+nortwest of you is a small cabin and a large pile of wood. Far to west the
+treetops form a tight canopy, blocking out almost all sunlight and your view.
+It is said that large wolves live there. You've also heard rumors of horrible
+spiders and drow living there. You'd be best off leaving that area to more
+experienced adventurers. 
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  mountain range northeast~
+ExDesc     A long mountain range stretchs across the horizon to the north and northeast.
+You have heard rumors of many different sorts of creatures living there,
+varying from Dwarves and Humans to Ogres and various humanoid creatures. Some
+say that evil Dark Elves dwell in the underworld deep below the lands of the
+Dwarves.  The caves of Moria also are found there, peopled by all sorts of
+evil creatures.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  river chasm~
+ExDesc     To the south you see a river flowing roughly from the northeast to the west.
+It emerges from a dark opening in the side of a mountain and flows through
+Midgaard, and on into the forest. It has eroded a deep chasm in the soft stone
+under the forest floor, and is not visible for long after it enters the forest
+proper.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6060
+Name       A shaded path through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path leading through the trees.  The forest
+gradually lightens to the east. The path continues to the north, and to the
+south you see the main trail.
+~
+#EXIT
+Direction  North~
+ToRoom     6065
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6001
+Desc       Through a break in the tree line you see the main trail that heads back towards
+Midgaard.
+~
+#ENDEXIT
+Reset M    6001 11 6060 -1 -1 -1 100
+Reset M    6005 8 6060 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     They are mostly young oaks and tall beeches.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6061
+Name       A shaded path through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at a turn on a small shadowed path leading through the forest. The
+forest seems to become lighter to the west.  The path continues north and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6066
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6062
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6013 4 6061 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded shadowed~
+ExDesc     The shadowy path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The crowns of the old trees leave the forest in an unreal twilight
+illumination.  A large branch looms above you, over the path.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6062
+Name       A shaded path through the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path leading through the dense forest.  The
+crowns of the old trees leave the forest floor in an unreal twililght
+illumination.  To the north you see a small clearing.  Paths lead east and
+west.
+~
+#EXIT
+Direction  North~
+ToRoom     6067
+Desc       Through the underbrush you see a small clearing.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6061
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6063
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6008 4 6062 -1 -1 -1 100
+Reset M    6001 11 6062 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded shadowy~
+ExDesc     The shaded path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6063
+Name       A shaded path through the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path through the dense forest. The crowns of
+the old trees leave the forest in an unreal twilight illumination.  The path
+continues north and east.
+~
+#EXIT
+Direction  North~
+ToRoom     6068
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6062
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6064
+Name       A shadowy path through the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shadowy path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+The path continues north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6069
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6100
+Desc       The path winds its way into darkness.
+~
+#ENDEXIT
+Reset M    6012 7 6064 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shadowy~
+ExDesc     The shadowy path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6065
+Name       A shaded path through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at a turn on a small shaded path winding through the trees.  The
+forest gradually becomes more dense to the west. The path continues west and
+south from here.
+~
+#EXIT
+Direction  South~
+ToRoom     6060
+Desc       Through the trees to the south you can almost see the main trail leading back
+to Midgaard.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6066
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shadowed path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly young oaks and tall beeches.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6066
+Name       A fork in the shaded path through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at a fork in the small shaded path winding through the trees. The
+forest gradually becomes more dense to the west. The path branches to the north
+and south here, and also continues to the east.
+~
+#EXIT
+Direction  North~
+ToRoom     6071
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6065
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6061
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6009 4 6066 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6067
+Name       At the fallen tree~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are standing in a small clearing, beside a large fallen tree. A large
+amount of the tree has already decomposed, but some pieces remain, scattered
+about the clearing.  Paths border the clearing to the north and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6072
+Desc       A shaded path winds its way northeast between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6062
+Desc       A shaded path winds its way east between the trees.
+~
+#ENDEXIT
+Reset M    6011 1 6067 -1 -1 -1 100
+Reset M    6013 4 6067 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The shaded paths are probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  fallen rotten decomposed tree~
+ExDesc     The tree has mostly rotted away, providing nourishment to many small plants
+growing here in the clearing.  The few pieces that remain are not all that
+large, but one log in particular catches your eye and seems to remind you of
+something. Under one of these logs would be a great place for an animal to
+make it's den...
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  clearing clear~
+ExDesc     When the large tree fell it must have brought a few of the smaller trees down
+with it in order to make a clearing like this.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  under animal den~
+ExDesc     Under a log you think you see some sort of hole, or animal's den. Looking
+closer, you can make out the form of what you believe to be a Badger resting
+inside of the den.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6068
+Name       An intersection on the shaded path~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+The path continues north, south, and west.
+~
+#EXIT
+Direction  North~
+ToRoom     6073
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6063
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6069
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6001 11 6068 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6069
+Name       A shadowy path through the dense forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shadowy path leading through the dense forest.  The
+crowns of the old trees leave the forest in an unreal twilight illumination.
+The path continues south and east.
+~
+#EXIT
+Direction  East~
+ToRoom     6068
+Desc       The path winds its way between the old trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6064
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6005 8 6069 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded shadowy~
+ExDesc     The shadowy path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6070
+Name       Off of the path in the shaded forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are wandering amongst the trees in the light forest, without the aid of
+a path or trail.  More sunlight trickles through the treetops here, making
+your travel a bit easier.  Small animals scurry away as you approach.  You are
+no longer on a path, so you may go whichever way you please.
+~
+#EXIT
+Direction  North~
+ToRoom     6078
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6070
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6061
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6072
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+Reset M    6001 11 6070 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is long behind you now...you aren't sure which direction it lies in
+anymore.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are younger here than to those to the west.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6071
+Name       A shaded path through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path leading in between the trees.  The forest
+gradually lightens to the east.  Paths lead west and south, and you think you
+see a small path leading eastward.
+~
+#EXIT
+Direction  East~
+ToRoom     6070
+Desc       It looks like a small path begins between two trees to the east, but you
+aren't quite certain.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6066
+Desc       The path winds its way through the trees to an split in the path.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6072
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6001 11 6071 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shadowy shadowed~
+ExDesc     The shadowy path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6072
+Name       A shaded path though the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path leading between the trees.  The forest
+gradually becomes more dense to the west.  Paths lead north and east, and you
+see a small clearing to the south.
+~
+#EXIT
+Direction  North~
+ToRoom     6075
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6071
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6067
+Desc       A lightly traveled path heads southward to a small clearing.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the small animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6073
+Name       A shadowy path through the dense forest~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shadowy path leading through the dense forest. To the
+north the terrain becomes quite hilly and rough.  The crowns of the old trees
+leave the forest in an unreal twilight illumination.  The path continues north
+and south.
+~
+#EXIT
+Direction  North~
+ToRoom     6076
+Desc       The path winds its way into the hills and denser forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6068
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths shadowy~
+ExDesc     The shadowy path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hill hills terrain~
+ExDesc     To the northwest you see hills covered by dense forest.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6074
+Name       A small trail through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You have just left the shaded path, and you are now standing at the head of
+a very short trail.  It looks like someone begin clearing away the underbrush
+here, but didn't get finished.  You may leave in any direction, but the path
+is to the west.
+~
+#EXIT
+Direction  North~
+ToRoom     6074
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6070
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6070
+Desc       The trees seem to part, exposing a trail into the shade.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6075
+Desc       Through the underbrush you see a small path winding its way northward.
+~
+#ENDEXIT
+Reset M    6005 8 6074 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The narrow path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6075
+Name       A shaded path through the forest~
+Sector     forest~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are on a small shaded path leading between the trees.  The forest
+gradually becomes more dense to the west, and to the northwest the terrain
+is quite hilly.  The path continues north and south.  To the east you see a
+trail winding through the younger section of the forest.
+~
+#EXIT
+Direction  North~
+ToRoom     6078
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6074
+Desc       You think you see the beginnings of a small trail through the younger part of
+the forest.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6072
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+Reset M    6012 7 6075 -1 -1 -1 100
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill terrain~
+ExDesc     To the northwest the ground becomes more hilly. You have heard that a halfling
+village is somewhere in the hills.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  trail~
+ExDesc     You think you see the beginnings of a small trail to the east, winding through
+the younger part of the forest.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6076
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc          You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+~
+#EXIT
+Direction  North~
+ToRoom     6081
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6077
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6076
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6073
+Desc       All you see are trees and a shadowy path.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is probably around here somewhere...if only you had paid more
+attention.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     Hills rise up all around you, blocking your view of the terrain.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6077
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc          You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+~
+#EXIT
+Direction  North~
+ToRoom     6081
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6076
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6079
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6077
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is probably around here somewhere...if only you had paid more
+attention.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     Hills rise up all around you, blocking your view of the terrain.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6078
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      ~
+Stats      0 0 0 0 0
+Desc          You are at the end of a small shaded path leading between the trees. The
+forest is quite thick here, and the ground is very rough and hilly, halting
+your progress.  The path lies to the south.
+~
+#EXIT
+Direction  South~
+ToRoom     6075
+Desc       The path winds its way between the trees.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths shaded~
+ExDesc     The shaded path is probably used by the animals living in the forest.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     The terrian is very hilly and rough to the north and west.  You have heard
+that there is a halfling village somewhere in the hills.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6079
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc          You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+~
+#EXIT
+Direction  North~
+ToRoom     6081
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6078
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6073
+Desc       All you see are trees and a shadowy path.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6080
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is probably around here somewhere...if only you had paid more
+attention.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     Hills rise up all around you, blocking your view of the terrain.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6080
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc          You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+~
+#EXIT
+Direction  North~
+ToRoom     6081
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6082
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6076
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6081
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is probably around here somewhere...if only you had paid more
+attention.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     Hills rise up all around you, blocking your view of the terrain.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6081
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc          You are standing among tightly packed trees between several hills.  You
+lost track of the path long ago, and now must rely on your instincts to guide
+you.  The ground is very rough and rocky here, and only the most hardy plants
+survive.  The crowns of the old trees leave the hills in an unreal twilight
+illumination.
+~
+#EXIT
+Direction  North~
+ToRoom     6078
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6077
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6076
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6073
+Desc       All you see are trees and a shadowy path.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  path paths~
+ExDesc     The path is probably around here somewhere...if only you had paid more
+attention.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     Hills rise up all around you, blocking your view of the terrain.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6082
+Name       In the dense forest between the hills~
+Sector     hills~
+Flags      nomob private~
+Stats      0 0 0 0 0
+Desc          You are standing among tightly packed trees on a medium sized hill. The
+dense forest spreads out all around you, and the crowns of the old trees leave
+the hills in an unreal twilight illumination.  To the west you can make out a
+small path leading northward.
+~
+#EXIT
+Direction  North~
+ToRoom     6081
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  East~
+ToRoom     6079
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  South~
+ToRoom     6076
+Desc       All you see are trees and hillsides.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6082
+Desc       All you see are trees and a <to be announced> to the north.
+Unfortunately, the area that is going to be north of here isn't fully
+debugged yet! Sorry for the inconvenience, it should be in soon :)
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     The trees are mostly old beeches and oaks.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  hills hill~
+ExDesc     Hills rise up all around you, blocking your view of the terrain.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6090
+Name       A Road Through the Plains~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are on a dust covered east-west road through the western plains. An
+occasional hunter or adventurer can be seen, heading to or from the forest. To
+the east is the walled city, Midgaard, and to the west the road ends at the 
+head of a narrow trail into a large forest.
+~
+#EXIT
+Direction  East~
+ToRoom     6091
+Desc       Far to the east you see the large walls guarding Midgaard.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6000
+Desc       To the west the dusty trail ends, and becomes a narrow trail into the cool
+shadows of the forest.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  trail~
+ExDesc     The forest trail winds westwards through the trees.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees forest~
+ExDesc     The trees are quite tall considering most of them appear to be quite young.
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  road dust dusty~
+ExDesc     The road is well used, and quite dusty.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6091
+Name       A Road Through the Plains~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are on a dust covered east-west road through the western plains. An
+occasional hunter or adventurer can be seen, heading to or from the forest. To
+the east is the walled city, Midgaard, and to the west the road continues 
+towards a large forest.
+~
+#EXIT
+Direction  East~
+ToRoom     6092
+Desc       Far to the east you see the walls and western gate of Midgaard.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6090
+Desc       You see the large forest, Haon-Dor, stretching out far to the west, and to the
+northwest you the forest gives way to hills.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  forest haondor haon-dor haon dor~
+ExDesc     The large forest of Haon-Dor spreads out to the west. Small and large game
+is plentiful there...as is adventure, and of course, danger!
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  tree trees~
+ExDesc     Some small trees grow amongst the underbrush of the plains. These slowly gain
+in height as you travel farther westward towards Haon-Dor
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  road dust dusty~
+ExDesc     The road is well used, and quite dusty.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ROOM
+Vnum        6092
+Name       A Road Through the Plains~
+Sector     field~
+Flags      nomob~
+Stats      0 0 0 0 0
+Desc          You are on a dust covered east-west road crossing the grassy plains between
+Midgaard the forest of Haon-Dor. An occasional hunter or adventurer can be 
+seen, heading to or from the forest. To the east is the walled city, Midgaard, 
+and to the west the road continues towards a large forest.
+~
+#EXIT
+Direction  East~
+ToRoom     3052
+Desc       To the east you see the walls and West Gate of Midgaard.
+~
+#ENDEXIT
+#EXIT
+Direction  West~
+ToRoom     6091
+Desc       To the west the road continues towards the forest.
+~
+#ENDEXIT
+#EXDESC
+ExDescKey  forest~
+ExDesc     The large forest of Haon-dor spreads out to the west.  Small and large game
+is plentiful there...as is adventure, and of course, danger!
+~
+#ENDEXDESC
+#EXDESC
+ExDescKey  road dust dusty~
+ExDesc     The road is well used, and quite dusty.
+~
+#ENDEXDESC
+#ENDROOM
+
+#ENDAREA

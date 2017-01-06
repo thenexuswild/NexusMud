@@ -1,211 +1,4 @@
 #CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/02 12:42
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Bain
-Host   c-75-74-198-146.hsd1.fl.comcast.net
-When   01/02 17:47
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
-User   Bain
-Host   c-75-74-198-146.hsd1.fl.comcast.net
-When   01/02 18:07
-Level  2
-Type   0
-Invis  0
-End
-
-#CONN
-User   Notus
-Host   82.215.156.3
-When   01/02 18:28
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
-User   Notus
-Host   82.215.156.3
-When   01/02 18:34
-Level  1
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 20:12
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 20:20
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 20:42
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/02 20:49
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/02 21:05
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 21:05
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Rangertest
-Host   192.168.0.5
-When   01/02 21:44
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
-User   Rangertest
-Host   192.168.0.5
-When   01/02 23:39
-Level  5
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/02 23:40
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   occhost241102.sunyocc.edu
-When   01/03 08:17
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/03 18:05
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/03 18:55
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/03 21:48
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/03 22:32
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/03 23:50
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Steeg
-Host   50-26-236-173.abilcmtk01.res.dyn.suddenlink.net
-When   01/04 06:38
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   occhost241102.sunyocc.edu
-When   01/04 08:19
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Krug
-Host   193.198.26.245
-When   01/04 13:41
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
 User   Krug
 Host   193.198.26.245
 When   01/04 14:16
@@ -263,6 +56,213 @@ End
 User   Kord
 Host   ds.erionmud.net
 When   01/04 20:12
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/04 20:55
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/04 20:55
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/04 20:56
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/04 21:26
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/04 21:27
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/04 21:27
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/04 21:51
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/04 21:51
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/04 21:52
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Testcleric
+Host   192.168.0.5
+When   01/04 22:12
+Level  99
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/04 22:28
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   occhost241102.sunyocc.edu
+When   01/05 08:23
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Koradan
+Host   24-158-187-143.dhcp.jcsn.tn.charter.com
+When   01/05 08:58
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/05 21:01
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 15:06
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 15:58
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/06 16:28
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 16:35
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/06 16:41
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 17:13
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/06 17:23
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 17:39
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/06 17:46
 Level  115
 Type   0
 Invis  0

@@ -4,1246 +4,1248 @@ Version         1
 Name            Northern Midgaard Main City~
 Author          Unknown~
 Vnums           3000 3099
-Continent       One~
+Continent       one~
 Coordinates     0 0
 Dates           0 0
 Ranges          0 115 0 115
 ResetMsg        Please place message here~
 ResetFreq       15
 Flags           noscry~
-Climate         2 2 2
 Treasure        20 74 85 93 20 50 60 75
+Climate         2 2 2
 #ENDAREADATA
 
 #MOBILE
-Vnum        3000
-Keywords   wizard~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Wizard~
-Long       A Wizard walks around behind the counter, talking to himself.
+Vnum      3000
+Keywords  wizard~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Wizard~
+Long      A Wizard walks around behind the counter, talking to himself.
 ~
-Desc       The wizard looks old and senile, and yet he looks like a very powerful
+Desc      The wizard looks old and senile, and yet he looks like a very powerful
 wizard. He is equipped with fine clothing, and is wearing many fine
 rings and bracelets.
 ~
-Nattacks   4.000000
-Stats1     900 30000 60 100 150 250
-Stats2     33 2 2 30000 2 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   3050 3051 3052 3053 3054 105 105 0 28
+Nattacks  4.000000
+Stats1    900 30000 60 100 150 250
+Stats2    33 2 2 30000 2 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   3050 3051 3052 3053 3054 110 105 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3001
-Keywords   baker~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Baker~
-Long       The Baker looks at you calmly, wiping flour from his face with one hand.
+Vnum      3001
+Keywords  baker~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Baker~
+Long      The Baker looks at you calmly, wiping flour from his face with one hand.
 ~
-Desc       A fat, nice looking baker. But you can see that he has many scars on his
+Desc      A fat, nice looking baker. But you can see that he has many scars on his
 body.
 ~
-Nattacks   4.000000
-Stats1     900 100 60 100 150 250
-Stats2     33 0 -10 30000 2 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 -1 3010 3011 100 110 0 28
+Nattacks  4.000000
+Stats1    900 100 60 100 150 250
+Stats2    33 0 -10 30000 2 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 -1 3010 3011 115 110 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3002
-Keywords   grocer~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Grocer~
-Long       A grocer stands at the counter, with a slightly impatient look on his face.
+Vnum      3002
+Keywords  grocer~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Grocer~
+Long      A grocer stands at the counter, with a slightly impatient look on his face.
 ~
-Desc       A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
+Desc      A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
 ~
-Nattacks   4.000000
-Stats1     900 30000 60 100 150 250
-Stats2     33 0 -10 30000 2 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   1205 1206 3030 3031 3032 40 150 0 28
+Nattacks  4.000000
+Stats1    900 30000 60 100 150 250
+Stats2    33 0 -10 30000 2 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   1205 1206 3030 3031 3032 155 150 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3003
-Keywords   weaponsmith~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Weaponsmith~
-Long       A weaponsmith is standing here, eager to sell you his latest implements of
+Vnum      3003
+Keywords  weaponsmith~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Weaponsmith~
+Long      A weaponsmith is standing here, eager to sell you his latest implements of
 carnage and destruction.
 ~
-Desc       He's a young weaponsmith, who still has lots to learn.
+Desc      He's a young weaponsmith, who still has lots to learn.
 ~
-Nattacks   4.000000
-Stats1     900 30000 60 100 150 250
-Stats2     33 0 -10 30000 2 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   3020 3021 3022 3023 3024 40 130 0 28
+Nattacks  4.000000
+Stats1    900 30000 60 100 150 250
+Stats2    33 0 -10 30000 2 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   3020 3021 3022 3023 3024 135 130 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3004
-Keywords   armorer~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Armorer~
-Long       An Armorer stands here displaying his shiny new (and previously owned) armors.
+Vnum      3004
+Keywords  armorer~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Armorer~
+Long      An Armorer stands here displaying his shiny new (and previously owned) armors.
 ~
-Desc       An old but very strong armorer.  He has made more armors in his life than you
+Desc      An old but very strong armorer.  He has made more armors in his life than you
 have ever seen.
 ~
-Nattacks   4.000000
-Stats1     900 28500 60 100 150 250
-Stats2     33 0 -10 30000 2 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   3040 3042 3044 3076 3081 50 100 0 28
+Nattacks  4.000000
+Stats1    900 28500 60 100 150 250
+Stats2    33 0 -10 30000 2 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   3040 3042 3044 3076 3081 105 100 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3005
-Keywords   receptionist~
-Race       humanoid~
-Class      warrior~
-Gender     female~
-Position   standing~
-DefPos     standing~
-Short      The Receptionist~
-Long       A receptionist is standing behind the counter here, smiling at you.
+Vnum      3005
+Keywords  receptionist~
+Race      humanoid~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     The Receptionist~
+Long      A receptionist is standing behind the counter here, smiling at you.
 ~
-Desc       You notice a tired look in her face.  She looks like she isn't paid well
+Desc      You notice a tired look in her face.  She looks like she isn't paid well
 enough to put up with any crap from mud players with attitudes.
 ~
-Nattacks   4.000000
-Stats1     900 0 60 100 150 250
-Stats2     33 0 -10 30000 2 0 32
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_hidden~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    900 0 60 100 150 250
+Stats2    33 0 -10 30000 2 0 32
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_hidden~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3006
-Keywords   captain~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Captain~
-Long       A retired Captain stands here, selling boats.
+Vnum      3006
+Keywords  captain~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Captain~
+Long      A retired Captain stands here, selling boats.
 ~
-Desc       This Captain has eaten more sharks than you have killed peas.
+Desc      This Captain has eaten more sharks than you have killed peas.
 ~
-Nattacks   4.000000
-Stats1     900 2000 60 100 150 250
-Stats2     33 2 2 30000 2 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   3060 3061 -1 -1 -1 90 120 0 28
+Nattacks  4.000000
+Stats1    900 2000 60 100 150 250
+Stats2    33 2 2 30000 2 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   3060 3061 -1 -1 -1 125 120 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3007
-Keywords   sailor~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Sailor~
-Long       A Sailor stands here, waiting to help you.
+Vnum      3007
+Keywords  sailor~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Sailor~
+Long      A Sailor stands here, waiting to help you.
 ~
-Desc       He looks like a strong, fit sailor.
+Desc      He looks like a strong, fit sailor.
 ~
-Nattacks   4.000000
-Stats1     900 2000 60 100 150 250
-Stats2     33 0 -10 30000 2 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    900 2000 60 100 150 250
+Stats2    33 0 -10 30000 2 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3008
-Keywords   uncle juan~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      Uncle Juan~
-Long       Uncle Juan is here ready to take your order.
+Vnum      3008
+Keywords  uncle juan~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Uncle Juan~
+Long      Uncle Juan is here ready to take your order.
 ~
-Desc       He looks like he may or may not have a green card.
+Desc      He looks like he may or may not have a green card.
 ~
-Nattacks   4.000000
-Stats1     900 2000 60 100 150 250
-Stats2     33 0 -10 30000 2 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 3012 3013 3014 100 100 0 28
+Nattacks  4.000000
+Stats1    900 2000 60 100 150 250
+Stats2    33 0 -10 30000 2 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 3012 3013 3014 105 100 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3009
-Keywords   wally watermaster~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      Wally the Watermaster~
-Long       Wally the Watermaster is standing behind the counter, proudly displaying his
+Vnum      3009
+Keywords  wally watermaster~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Wally the Watermaster~
+Long      Wally the Watermaster is standing behind the counter, proudly displaying his
 fine collection of contemporary waters.
 ~
-Desc       Wally is a bit pudgy but looks very strong.  He has a glass of Midgaard
+Desc      Wally is a bit pudgy but looks very strong.  He has a glass of Midgaard
 Natural Spring Water in his hand.
 ~
-Nattacks   4.000000
-Stats1     800 1000 60 100 150 250
-Stats2     33 0 -10 30000 1 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 3102 3103 3104 100 100 0 28
+Nattacks  4.000000
+Stats1    800 1000 60 100 150 250
+Stats2    33 0 -10 30000 1 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 3102 3103 3104 105 100 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3010
-Keywords   postmaster post master~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      The Postmaster~
-Long       The head Postmaster is standing here, waiting to help you with your mail.
+Vnum      3010
+Keywords  postmaster post master~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     The Postmaster~
+Long      The head Postmaster is standing here, waiting to help you with your mail.
 ~
-Desc       The Postmaster seems like a happy old man, though a bit sluggish.  He worries
+Desc      The Postmaster seems like a happy old man, though a bit sluggish.  He worries
 about the reputation of the MMS (Midgaard Mail Service), as many people seem to
 think that it's slow.  Perhaps if he were to brush the cobwebs from his uniform
 it'd help to make a better impression.
 ~
-Nattacks   4.000000
-Stats1     1000 2000 60 100 150 250
-Stats2     33 0 -10 30000 1 0 18
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    1000 2000 60 100 150 250
+Stats2    33 0 -10 30000 1 0 18
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3020
-Keywords   guildmaster master~
-Race       humanoid~
-Class      warrior~
-Gender     female~
-Position   standing~
-DefPos     standing~
-Short      the Guildmaster~
-Long       Your guildmaster is standing here.
+Vnum      3020
+Keywords  guildmaster master~
+Race      humanoid~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     the Guildmaster~
+Long      Your guildmaster is standing here.
 ~
-Desc       Even though your guildmaster looks old and tired, you can clearly see the
+Desc      Even though your guildmaster looks old and tired, you can clearly see the
 vast amount of knowledge she possesses.  She is wearing fine magic clothing,
 and you notice that she is surrounded by a blue shimmering aura.
 ~
-Nattacks   4.000000
-Stats1     1000 18794 60 100 150 250
-Stats2     34 0 -10 640 1 0 24
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis sanctuary~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    1000 18794 60 100 150 250
+Stats2    34 0 -10 640 1 0 24
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis sanctuary~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3021
-Keywords   guildmaster master~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Guildmaster~
-Long       Your guildmaster is standing here.
+Vnum      3021
+Keywords  guildmaster master~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Guildmaster~
+Long      Your guildmaster is standing here.
 ~
-Desc       You are in no doubt that this guildmaster is truly close to your god; he has
+Desc      You are in no doubt that this guildmaster is truly close to your god; he has
 a peaceful, loving look.  You notice that he is surrounded by a white aura.
 ~
-Nattacks   4.000000
-Stats1     1000 18794 60 100 150 250
-Stats2     34 0 -10 640 1 0 24
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis sanctuary~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    1000 18794 60 100 150 250
+Stats2    34 0 -10 640 1 0 24
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis sanctuary~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3022
-Keywords   guildmaster master~
-Race       humanoid~
-Class      warrior~
-Gender     female~
-Position   standing~
-DefPos     standing~
-Short      the Guildmaster~
-Long       Your guildmaster is standing here.
+Vnum      3022
+Keywords  guildmaster master~
+Race      humanoid~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     the Guildmaster~
+Long      Your guildmaster is standing here.
 ~
-Desc       You realize that whenever your guildmaster moves, you fail to notice it -
+Desc      You realize that whenever your guildmaster moves, you fail to notice it -
 the way of the true thief.  She is to be dressed in poor clothing, having
 the appearance of a beggar.
 ~
-Nattacks   4.000000
-Stats1     1000 18794 60 100 150 250
-Stats2     34 0 -10 640 1 0 34
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis sanctuary~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    1000 18794 60 100 150 250
+Stats2    34 0 -10 640 1 0 34
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis sanctuary~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3023
-Keywords   guildmaster master~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Guildmaster~
-Long       Your guildmaster is standing here.
+Vnum      3023
+Keywords  guildmaster master~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Guildmaster~
+Long      Your guildmaster is standing here.
 ~
-Desc       This is your master. Big and strong with bulging muscles. Several scars
+Desc      This is your master. Big and strong with bulging muscles. Several scars
 across his body proves that he was using arms before you were born. He
 has a calm look on his face.
 ~
-Nattacks   4.000000
-Stats1     1000 18794 60 100 150 250
-Stats2     34 0 -10 740 1 0 34
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    1000 18794 60 100 150 250
+Stats2    34 0 -10 740 1 0 34
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3024
-Keywords   sorcerer guildg~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Sorcerer~
-Long       A sorcerer is guarding the entrance.
+Vnum      3024
+Keywords  sorcerer guildg~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Sorcerer~
+Long      A sorcerer is guarding the entrance.
 ~
-Desc       He is an experienced mage who has specialized in the field of Combat Magic.
+Desc      He is an experienced mage who has specialized in the field of Combat Magic.
 He is here to guard the Mage's Guild and his superior knowledge of offensive as
 well as defensive spells make him a deadly opponent.
 ~
-Nattacks   4.000000
-Stats1     900 2000 60 100 150 250
-Stats2     33 0 -5 990 1 0 22
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis sanctuary~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    900 2000 60 100 150 250
+Stats2    33 0 -5 990 1 0 22
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis sanctuary~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3025
-Keywords   knight templar guildg~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Knight Templar~
-Long       A knight templar is guarding the entrance.
+Vnum      3025
+Keywords  knight templar guildg~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Knight Templar~
+Long      A knight templar is guarding the entrance.
 ~
-Desc       He is a specially trained warrior belonging to the military order of the Faith.
+Desc      He is a specially trained warrior belonging to the military order of the Faith.
 His duty is to protect the faithful from persecution and infidel attacks and
 his religious devotion combined with his superior skill makes him a deadly
 opponent.
 ~
-Nattacks   4.000000
-Stats1     1000 2000 60 100 150 250
-Stats2     33 0 -5 990 1 0 22
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis sanctuary~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    1000 2000 60 100 150 250
+Stats2    33 0 -5 990 1 0 22
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis sanctuary~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3026
-Keywords   assassin guildg~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Assassin~
-Long       An assassin is guarding the entrance.
+Vnum      3026
+Keywords  assassin guildg~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Assassin~
+Long      An assassin is guarding the entrance.
 ~
-Desc       He is a thief who has specialized in killing others as effectively as possible,
+Desc      He is a thief who has specialized in killing others as effectively as possible,
 using all sorts of weapons.  His superior knowledge of how and where to use
 them combined with his extraordinary stealth makes him a deadly opponent.
 ~
-Nattacks   4.000000
-Stats1     400 2000 60 100 150 250
-Stats2     33 0 -10 990 1 0 25
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   invisible detect_invis sanctuary hide~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    400 2000 60 100 150 250
+Stats2    33 0 -10 990 1 0 25
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  invisible detect_invis sanctuary hide~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3027
-Keywords   knight guildg~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Knight~
-Long       A knight is guarding the entrance.
+Vnum      3027
+Keywords  knight guildg~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Knight~
+Long      A knight is guarding the entrance.
 ~
-Desc       He is an expert warrior who has attained knighthood through countless
+Desc      He is an expert warrior who has attained knighthood through countless
 chivalrous deeds.  His duty is to protect the Guild of Swordsmen and his
 extreme skill combined with his experience in warfare makes him a deadly
 opponent.
 ~
-Nattacks   4.000000
-Stats1     800 2000 60 100 150 250
-Stats2     33 0 -8 990 1 0 40
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    800 2000 60 100 150 250
+Stats2    33 0 -8 990 1 0 40
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3040
-Keywords   bartender~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Bartender~
-Long       A Bartender watches you calmly, while he skillfully mixes a drink.
+Vnum      3040
+Keywords  bartender~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Bartender~
+Long      A Bartender watches you calmly, while he skillfully mixes a drink.
 ~
-Desc       A tired looking Bartender who hates trouble in his bar.
+Desc      A tired looking Bartender who hates trouble in his bar.
 ~
-Nattacks   2.000000
-Stats1     900 2000 60 100 150 250
-Stats2     23 2 2 390 1 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 -1 3000 3001 100 110 0 28
+Nattacks  2.000000
+Stats1    900 2000 60 100 150 250
+Stats2    23 2 2 390 1 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 -1 3000 3001 115 110 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3041
-Keywords   waiter~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Waiter~
-Long       A waiter is going around from one place to another.
+Vnum      3041
+Keywords  waiter~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Waiter~
+Long      A waiter is going around from one place to another.
 ~
-Desc       A tired looking waiter.
+Desc      A tired looking waiter.
 ~
-Nattacks   2.000000
-Stats1     900 2000 60 100 150 250
-Stats2     23 2 2 390 1 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
+Nattacks  2.000000
+Stats1    900 2000 60 100 150 250
+Stats2    23 2 2 390 1 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3042
-Keywords   waiter~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Waiter~
-Long       A man who in his young days was a famous sorcerer but now leads a quiet,
+Vnum      3042
+Keywords  waiter~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Waiter~
+Long      A man who in his young days was a famous sorcerer but now leads a quiet,
 peaceful life as a waiter.
 ~
-Nattacks   2.000000
-Stats1     600 2000 60 100 150 250
-Stats2     23 1 2 390 1 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 -1 3002 3003 100 100 0 28
+Nattacks  2.000000
+Stats1    600 2000 60 100 150 250
+Stats2    23 1 2 390 1 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 -1 3002 3003 105 100 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3043
-Keywords   waiter~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Waiter~
-Long       A waiter who seems to have reach contact with God.
+Vnum      3043
+Keywords  waiter~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Waiter~
+Long      A waiter who seems to have reach contact with God.
 ~
-Nattacks   2.000000
-Stats1     600 2000 60 100 150 250
-Stats2     23 1 2 390 1 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 -1 3002 3004 100 110 0 28
+Nattacks  2.000000
+Stats1    600 2000 60 100 150 250
+Stats2    23 1 2 390 1 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 -1 3002 3004 115 110 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3044
-Keywords   waiter~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Waiter~
-Long       A waiter who knows where all his costumers has their money.
+Vnum      3044
+Keywords  waiter~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Waiter~
+Long      A waiter who knows where all his costumers has their money.
 ~
-Nattacks   2.000000
-Stats1     600 2000 60 100 150 250
-Stats2     23 1 2 390 1 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 -1 3003 3004 100 170 0 28
+Nattacks  2.000000
+Stats1    600 2000 60 100 150 250
+Stats2    23 1 2 390 1 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 -1 3003 3004 175 170 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3045
-Keywords   waiter~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Waiter~
-Long       A waiter is here who looks like he could easily kill you while still carrying
+Vnum      3045
+Keywords  waiter~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Waiter~
+Long      A waiter is here who looks like he could easily kill you while still carrying
 quite a few firebreathers.
 ~
-Nattacks   2.000000
-Stats1     600 2000 60 100 150 250
-Stats2     23 1 2 390 1 0 12
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 3004 3003 3002 100 150 0 28
+Nattacks  2.000000
+Stats1    600 2000 60 100 150 250
+Stats2    23 1 2 390 1 0 12
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 3004 3003 3002 155 150 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3046
-Keywords   filthy~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      Filthy~
-Long       Filthy is standing here, eager to serve you a special drink.
+Vnum      3046
+Keywords  filthy~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     Filthy~
+Long      Filthy is standing here, eager to serve you a special drink.
 ~
-Desc       Filthy looks real, ehm, dirty.  He likes to keep his costumers happy,
+Desc      Filthy looks real, ehm, dirty.  He likes to keep his costumers happy,
 but do not mess with him or else he'll get upset.
 ~
-Nattacks   4.000000
-Stats1     600 2000 60 100 150 250
-Stats2     33 1 -10 30000 1 0 22
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
-ShopData   -1 -1 -1 3004 3003 100 100 0 28
+Nattacks  4.000000
+Stats1    600 2000 60 100 150 250
+Stats2    33 1 -10 30000 1 0 22
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
+ShopData   -1 -1 -1 3004 3003 105 100 0 28
 #ENDMOBILE
 
 #MOBILE
-Vnum        3059
-Keywords   keeper peacekeeper~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Peacekeeper~
-Long       A Peacekeeper is standing here, ready to jump in at the first sign of trouble.
+Vnum      3059
+Keywords  keeper peacekeeper~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Peacekeeper~
+Long      A Peacekeeper is standing here, ready to jump in at the first sign of trouble.
 ~
-Desc       He looks very strong and wise.  Looks like he doesn't answer to ANYONE.
+Desc      He looks very strong and wise.  Looks like he doesn't answer to ANYONE.
 ~
-Nattacks   2.000000
-Stats1     1000 2500 60 100 150 250
-Stats2     17 3 0 225 3 0 13
-Speaks     common~
-Speaking   common~
-Actflags   npc stayarea wimpy~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
+Nattacks  2.000000
+Stats1    1000 2500 60 100 150 250
+Stats2    17 3 0 225 3 0 13
+Speaks    common~
+Speaking  common~
+Actflags  npc stayarea wimpy~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3060
-Keywords   cityguard guard~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Cityguard~
-Long       A cityguard stands here.
+Vnum      3060
+Keywords  cityguard guard~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Cityguard~
+Long      A cityguard stands here.
 ~
-Desc       A big, strong, helpful, trustworthy guard.
+Desc      A big, strong, helpful, trustworthy guard.
 ~
-Nattacks   2.000000
-Stats1     1000 500 60 100 150 250
-Stats2     10 10 1 123 1 0 5
-Speaks     common~
-Speaking   common~
-Actflags   npc stayarea wimpy~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
+Nattacks  2.000000
+Stats1    1000 500 60 100 150 250
+Stats2    10 10 1 123 1 0 5
+Speaks    common~
+Speaking  common~
+Actflags  npc stayarea wimpy~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3061
-Keywords   janitor~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Janitor~
-Long       A janitor is walking around, cleaning up.
+Vnum      3061
+Keywords  janitor~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Janitor~
+Long      A janitor is walking around, cleaning up.
 ~
-Nattacks   1.000000
-Stats1     800 34 60 100 150 250
-Stats2     1 20 9 10 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    800 34 60 100 150 250
+Stats2    1 20 9 10 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3062
-Keywords   fido dog~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the beastly fido~
-Long       A beastly fido is mucking through the garbage looking for food here.
+Vnum      3062
+Keywords  fido dog~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the beastly fido~
+Long      A beastly fido is mucking through the garbage looking for food here.
 ~
-Desc       The fido is a small dog that has a foul smell and pieces of rotted meat hanging
+Desc      The fido is a small dog that has a foul smell and pieces of rotted meat hanging
 around his teeth.
 ~
-Nattacks   1.000000
-Stats1     -200 0 60 100 150 250
-Stats2     0 20 10 4 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc aggressive wimpy~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    -200 0 60 100 150 250
+Stats2    0 20 10 4 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc aggressive wimpy~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3063
-Keywords   mercenary merc~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the mercenary~
-Long       A mercenary is waiting for a job here.
+Vnum      3063
+Keywords  mercenary merc~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the mercenary~
+Long      A mercenary is waiting for a job here.
 ~
-Desc       He looks pretty mean, and you imagine he'd do anything for money.
+Desc      He looks pretty mean, and you imagine he'd do anything for money.
 ~
-Nattacks   1.000000
-Stats1     -330 87 60 100 150 250
-Stats2     5 15 5 60 1 0 1
-Speaks     common~
-Speaking   common~
-Actflags   npc scavenger~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    -330 87 60 100 150 250
+Stats2    5 15 5 60 1 0 1
+Speaks    common~
+Speaking  common~
+Actflags  npc scavenger~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3064
-Keywords   drunk~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the drunk~
-Long       A singing, happy Drunk.
+Vnum      3064
+Keywords  drunk~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the drunk~
+Long      A singing, happy Drunk.
 ~
-Desc       A drunk who seems to be too happy, and to carry too much money.
+Desc      A drunk who seems to be too happy, and to carry too much money.
 ~
-Nattacks   1.000000
-Stats1     400 53 60 100 150 250
-Stats2     2 19 8 22 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    400 53 60 100 150 250
+Stats2    2 19 8 22 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3065
-Keywords   beggar~
-Race       humanoid~
-Class      warrior~
-Gender     female~
-Position   standing~
-DefPos     standing~
-Short      the beggar~
-Long       A beggar is here, asking for a few coins.
+Vnum      3065
+Keywords  beggar~
+Race      humanoid~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     the beggar~
+Long      A beggar is here, asking for a few coins.
 ~
-Desc       The beggar looks like she is fed up with life.
+Desc      The beggar looks like she is fed up with life.
 ~
-Nattacks   1.000000
-Stats1     400 0 60 100 150 250
-Stats2     1 20 9 10 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    400 0 60 100 150 250
+Stats2    1 20 9 10 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3066
-Keywords   odif yltsaeb~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the odif yltsaeb~
-Long       An odif yltsaeb is here, walking backwards.
+Vnum      3066
+Keywords  odif yltsaeb~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the odif yltsaeb~
+Long      An odif yltsaeb is here, walking backwards.
 ~
-Desc       The odif is a small god that has been reversed by some dog.
+Desc      The odif is a small god that has been reversed by some dog.
 ~
-Nattacks   1.000000
-Stats1     -200 0 60 100 150 250
-Stats2     0 20 10 4 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc aggressive wimpy~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    -200 0 60 100 150 250
+Stats2    0 20 10 4 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc aggressive wimpy~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3067
-Keywords   cityguard guard~
-Race       humanoid~
-Class      warrior~
-Gender     male~
-Position   standing~
-DefPos     standing~
-Short      the Cityguard~
-Long       A Cityguard is here, guarding the gate.
+Vnum      3067
+Keywords  cityguard guard~
+Race      humanoid~
+Class     Warrior~
+Gender    male~
+Position  standing~
+DefPos    standing~
+Short     the Cityguard~
+Long      A Cityguard is here, guarding the gate.
 ~
-Desc       A big, strong, helpful, trustworthy guard.
+Desc      A big, strong, helpful, trustworthy guard.
 ~
-Nattacks   2.000000
-Stats1     1000 500 60 100 150 250
-Stats2     10 10 1 123 1 0 5
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel stayarea~
-Bodyparts  head arms legs heart~
+Nattacks  2.000000
+Stats1    1000 500 60 100 150 250
+Stats2    10 10 1 123 1 0 5
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel stayarea~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3068
-Keywords   green gelatinous blob~
-Race       humanoid~
-Class      warrior~
-Gender     Neuter~
-Position   standing~
-DefPos     standing~
-Short      the green gelatinous blob~
-Long       An oozing green gelatinous blob is here, sucking in bits of debris.
+Vnum      3068
+Keywords  green gelatinous blob~
+Race      humanoid~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     the green gelatinous blob~
+Long      An oozing green gelatinous blob is here, sucking in bits of debris.
 ~
-Desc       A horrid looking thing; it's huge, greenish, and looks like the blob.
+Desc      A horrid looking thing; it's huge, greenish, and looks like the blob.
 ~
-Nattacks   2.000000
-Stats1     0 1000 60 100 150 250
-Stats2     20 0 0 325 3 0 5
-Speaks     common~
-Speaking   common~
-Actflags   npc wimpy~
-Affected   detect_invis~
-Bodyparts  head arms legs heart~
+Nattacks  2.000000
+Stats1    0 1000 60 100 150 250
+Stats2    20 0 0 325 3 0 5
+Speaks    common~
+Speaking  common~
+Actflags  npc wimpy~
+Affected  detect_invis~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3090
-Keywords   kitten~
-Race       humanoid~
-Class      warrior~
-Gender     Neuter~
-Position   standing~
-DefPos     standing~
-Short      the kitten~
-Long       A small loyal kitten is here.
+Vnum      3090
+Keywords  kitten~
+Race      humanoid~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     the kitten~
+Long      A small loyal kitten is here.
 ~
-Desc       The kitten looks like a cute, little, fierce fighter.
+Desc      The kitten looks like a cute, little, fierce fighter.
 ~
-Nattacks   1.000000
-Stats1     200 0 60 100 150 250
-Stats2     1 20 9 11 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel scavenger~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    200 0 60 100 150 250
+Stats2    1 20 9 11 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel scavenger~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3091
-Keywords   puppy~
-Race       humanoid~
-Class      warrior~
-Gender     Neuter~
-Position   standing~
-DefPos     standing~
-Short      the puppy~
-Long       A small loyal puppy is here.
+Vnum      3091
+Keywords  puppy~
+Race      humanoid~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     the puppy~
+Long      A small loyal puppy is here.
 ~
-Desc       The puppy looks like a cute, little, fierce fighter.
+Desc      The puppy looks like a cute, little, fierce fighter.
 ~
-Nattacks   1.000000
-Stats1     100 0 60 100 150 250
-Stats2     1 20 9 11 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel scavenger~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    100 0 60 100 150 250
+Stats2    1 20 9 11 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel scavenger~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3092
-Keywords   beagle~
-Race       humanoid~
-Class      warrior~
-Gender     Neuter~
-Position   standing~
-DefPos     standing~
-Short      the beagle~
-Long       A small, quick, loyal beagle is here.
+Vnum      3092
+Keywords  beagle~
+Race      humanoid~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     the beagle~
+Long      A small, quick, loyal beagle is here.
 ~
-Desc       The beagle looks like a fierce fighter.
+Desc      The beagle looks like a fierce fighter.
 ~
-Nattacks   1.000000
-Stats1     50 0 60 100 150 250
-Stats2     2 19 8 22 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel scavenger~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    50 0 60 100 150 250
+Stats2    2 19 8 22 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel scavenger~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3093
-Keywords   rottweiler~
-Race       humanoid~
-Class      warrior~
-Gender     Neuter~
-Position   standing~
-DefPos     standing~
-Short      the rottweiler~
-Long       A large, loyal rottweiler is here.
+Vnum      3093
+Keywords  rottweiler~
+Race      humanoid~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     the rottweiler~
+Long      A large, loyal rottweiler is here.
 ~
-Desc       The rottweiler looks like a strong, fierce fighter.
+Desc      The rottweiler looks like a strong, fierce fighter.
 ~
-Nattacks   1.000000
-Stats1     -200 0 60 100 150 250
-Stats2     3 18 7 35 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel scavenger~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    -200 0 60 100 150 250
+Stats2    3 18 7 35 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel scavenger~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3094
-Keywords   wolf~
-Race       humanoid~
-Class      warrior~
-Gender     Neuter~
-Position   standing~
-DefPos     standing~
-Short      the wolf~
-Long       A large, trained wolf is here.
+Vnum      3094
+Keywords  wolf~
+Race      humanoid~
+Class     Warrior~
+Gender    neuter~
+Position  standing~
+DefPos    standing~
+Short     the wolf~
+Long      A large, trained wolf is here.
 ~
-Desc       The wolf looks like a strong, fearless fighter.
+Desc      The wolf looks like a strong, fearless fighter.
 ~
-Nattacks   1.000000
-Stats1     -200 0 60 100 150 250
-Stats2     4 17 6 47 1 0 0
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel scavenger~
-Bodyparts  head arms legs heart~
+Nattacks  1.000000
+Stats1    -200 0 60 100 150 250
+Stats2    4 17 6 47 1 0 0
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel scavenger~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #MOBILE
-Vnum        3095
-Keywords   cryogenicist cryo~
-Race       humanoid~
-Class      warrior~
-Gender     female~
-Position   standing~
-DefPos     standing~
-Short      The Cryogenicist~
-Long       The Cryogenicist is here, staring at you and playing with a canister of
+Vnum      3095
+Keywords  cryogenicist cryo~
+Race      humanoid~
+Class     Warrior~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Short     The Cryogenicist~
+Long      The Cryogenicist is here, staring at you and playing with a canister of
 liquid nitrogen.
 ~
-Desc       You notice a tired look in her face.  She looks like she isn't paid well
+Desc      You notice a tired look in her face.  She looks like she isn't paid well
 enough to put up with any crap from mud players with attitudes.
 ~
-Nattacks   4.000000
-Stats1     900 0 60 100 150 250
-Stats2     33 0 -10 30000 2 0 32
-Speaks     common~
-Speaking   common~
-Actflags   npc sentinel~
-Affected   detect_hidden~
-Bodyparts  head arms legs heart~
+Nattacks  4.000000
+Stats1    900 0 60 100 150 250
+Stats2    33 0 -10 30000 2 0 32
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel~
+Affected  detect_hidden~
+Bodyparts head arms legs heart~
 #ENDMOBILE
 
 #OBJECT
-Vnum        3000
-Keywords   beer barrel o030~
-Type       drinkcon~
-Short      a barrel~
-Long       A beer barrel has been left here.~
-WFlags     take~
-Values     50 50 1 0 0 0 0 0 0 0 0
-Stats      65 100 0 9999 0 None None None
+Vnum      3000
+Keywords  beer barrel o030~
+Type      drinkcon~
+Short     a barrel~
+Long      A beer barrel has been left here.~
+WFlags    take~
+Values    50 50 1 0 0 0 0 0 0 0 0
+Stats     65 100 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3001
-Keywords   beer bottle o030~
-Type       drinkcon~
-Short      a bottle~
-Long       A beer bottle has been left here.~
-WFlags     take~
-Values     8 8 1 0 0 0 0 0 0 0 0
-Stats      10 8 0 9999 0 None None None
+Vnum      3001
+Keywords  beer bottle o030~
+Type      drinkcon~
+Short     a bottle~
+Long      A beer bottle has been left here.~
+WFlags    take~
+Values    8 8 1 0 0 0 0 0 0 0 0
+Stats     10 8 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3004
-Keywords   local bottle o030~
-Type       drinkcon~
-Short      a bottle~
-Long       A dark bottle has been left here.~
-WFlags     take~
-Values     8 8 8 0 0 0 0 0 0 0 0
-Stats      10 7 0 9999 0 None None None
+Vnum      3004
+Keywords  local bottle o030~
+Type      drinkcon~
+Short     a bottle~
+Long      A dark bottle has been left here.~
+WFlags    take~
+Values    8 8 8 0 0 0 0 0 0 0 0
+Stats     10 7 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3010
-Keywords   bread o030~
-Type       food~
-Short      a bread~
-Long       A loaf of bread has been left here.~
-WFlags     take~
-Values     12 0 0 0 0 0 0 0 0 0 0
-Stats      1 10 0 9999 0 None None None
+Vnum      3010
+Keywords  bread o030~
+Type      food~
+Short     a bread~
+Long      A loaf of bread has been left here.~
+WFlags    take~
+Values    12 0 0 0 0 0 0 0 0 0 0
+Stats     1 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3011
-Keywords   danish pastry o030~
-Type       food~
-Short      a danish pastry~
-Long       A nice looking delicious danish pastry has been placed here.~
-WFlags     take~
-Values     5 0 0 0 0 0 0 0 0 0 0
-Stats      1 5 0 9999 0 None None None
+Vnum      3011
+Keywords  danish pastry o030~
+Type      food~
+Short     a danish pastry~
+Long      A nice looking delicious danish pastry has been placed here.~
+WFlags    take~
+Values    5 0 0 0 0 0 0 0 0 0 0
+Stats     1 5 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3020
-Keywords   dagger o030~
-Type       weapon~
-Short      a dagger~
-Long       A dagger with a long thin blade is here.~
-Action     pierce~
-WFlags     take wield~
-Values     0 1 4 6 0 0 0 0 0 0 0
-Stats      1 10 0 9999 0 None None None
+Vnum      3020
+Keywords  dagger o030~
+Type      weapon~
+Short     a dagger~
+Long      A dagger with a long thin blade is here.~
+Action    pierce~
+WFlags    take wield~
+Values    12 1 4 6 0 0 12 0 0 0 0
+Stats     1 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3021
-Keywords   sword small o030~
-Type       weapon~
-Short      a small sword~
-Long       A small sword lies here.~
-Action     slash~
-WFlags     take wield~
-Values     0 1 6 6 0 0 0 0 0 0 0
-Stats      3 10 0 9999 0 None None None
+Vnum      3021
+Keywords  sword small o030~
+Type      weapon~
+Short     a small sword~
+Long      A small sword lies here.~
+Action    slash~
+WFlags    take wield~
+Values    12 1 6 6 0 0 12 0 0 0 0
+Stats     3 10 0 9999 0 None None None
 #EXDESC
-ExDescKey  sword small inscription~
-ExDesc     The small sword seems to have an inscription of some sort inscription...
+ExDescKey    sword small inscription~
+ExDesc       The small sword seems to have an inscription of some sort inscription...
 It says: "May this sword be a good companion."
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3022
-Keywords   sword long newbie o030~
-Type       weapon~
-Short      a long sword~
-Long       A long sword has been left here.~
-Action     slash~
-WFlags     take wield~
-Values     0 1 8 1 0 0 0 0 0 0 0
-Stats      8 10 0 9999 0 None None None
+Vnum      3022
+Keywords  sword long newbie o030~
+Type      weapon~
+Short     a long sword~
+Long      A long sword has been left here.~
+Action    slash~
+WFlags    take wield~
+Values    12 1 8 1 0 0 12 0 0 0 0
+Stats     8 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3023
-Keywords   club wooden o030~
-Type       weapon~
-Short      a wooden club~
-Long       A simple looking wooden club is here.~
-Action     pound~
-WFlags     take wield~
-Values     0 1 3 4 0 0 0 0 0 0 0
-Stats      3 10 0 9999 0 None None None
+Vnum      3023
+Keywords  club wooden o030~
+Type      weapon~
+Short     a wooden club~
+Long      A simple looking wooden club is here.~
+Action    pound~
+WFlags    take wield~
+Values    12 1 3 4 0 0 12 0 0 0 0
+Stats     3 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3024
-Keywords   warhammer hammer o030~
-Type       weapon~
-Short      a warhammer~
-Long       A medium sized warhammer is here.~
-Action     pound~
-WFlags     take wield~
-Values     0 1 5 4 0 0 0 0 0 0 0
-Stats      6 10 0 9999 0 None None None
+Vnum      3024
+Keywords  warhammer hammer o030~
+Type      weapon~
+Short     a warhammer~
+Long      A medium sized warhammer is here.~
+Action    pound~
+WFlags    take wield~
+Values    12 1 5 4 0 0 12 0 0 0 0
+Stats     6 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3025
-Keywords   flail large o030~
-Type       weapon~
-Short      a flail~
-Long       A large flail is here.~
-Action     pound~
-WFlags     take wield~
-Values     0 2 4 4 0 0 0 0 0 0 0
-Stats      6 10 0 9999 0 None None None
+Vnum      3025
+Keywords  flail large o030~
+Type      weapon~
+Short     a flail~
+Long      A large flail is here.~
+Action    pound~
+WFlags    take wield~
+Values    12 2 4 4 0 0 12 0 0 0 0
+Stats     6 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3031
-Keywords   lantern newbie o030~
-Type       light~
-Short      a lantern~
-Long       A brass lantern is here.~
-WFlags     take~
-Values     0 0 96 0 0 0 0 0 0 0 0
-Stats      1 10 0 9999 0 None None None
+Vnum      3031
+Keywords  lantern newbie o030~
+Type      light~
+Short     a lantern~
+Long      A brass lantern is here.~
+WFlags    take~
+Values    0 0 96 0 0 0 0 0 0 0 0
+Stats     1 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3032
-Keywords   bag newbie o030~
-Type       container~
-Short      a bag~
-Long       A small bag is here.~
-WFlags     take hold~
-Values     50 0 0 10 0 0 0 0 0 0 0
-Stats      2 10 0 9999 0 None None None
+Vnum      3032
+Keywords  bag newbie o030~
+Type      container~
+Short     a bag~
+Long      A small bag is here.~
+WFlags    take hold~
+Values    50 0 0 10 0 0 0 0 0 0 0
+Stats     2 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3040
-Keywords   breast plate o030~
-Type       armor~
-Short      a breast plate~
-Long       A breast plate is lying on the ground.~
-WFlags     take body~
-Values     7 7 0 0 0 0 0 0 0 0 0
-Stats      100 150 0 9999 0 None None None
+Vnum      3040
+Keywords  breast plate o030~
+Type      armor~
+Short     a breast plate~
+Long      A breast plate is lying on the ground.~
+WFlags    take body~
+Values    7 7 0 0 0 0 0 0 0 0 0
+Stats     100 150 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3041
-Keywords   chain mail shirt o030~
-Type       armor~
-Short      a chain mail shirt~
-Long       A chain mail shirt is lying on the ground.~
-WFlags     take body~
-Values     5 5 0 0 0 0 0 0 0 0 0
-Stats      60 50 0 9999 0 None None None
+Vnum      3041
+Keywords  chain mail shirt o030~
+Type      armor~
+Short     a chain mail shirt~
+Long      A chain mail shirt is lying on the ground.~
+WFlags    take body~
+Values    5 5 0 0 0 0 0 0 0 0 0
+Stats     60 50 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3042
-Keywords   shield newbie o030~
-Type       armor~
-Short      a shield~
-Long       A small wooden shield is lying on the ground.~
-WFlags     take shield~
-Values     2 2 0 0 0 0 0 0 0 0 0
-Stats      3 10 0 9999 0 None None None
+Vnum      3042
+Keywords  shield newbie o030~
+Type      armor~
+Short     a shield~
+Long      A small wooden shield is lying on the ground.~
+WFlags    take shield~
+Values    2 2 0 0 0 0 0 0 0 0 0
+Stats     3 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3043
-Keywords   jacket soft newbie leather o030~
-Type       armor~
-Short      a leather jacket~
-Long       A soft leather jacket is lying on the ground.~
-WFlags     take body~
-Values     2 2 0 2 0 0 0 0 0 0 0
-Stats      10 10 0 9999 0 None None None
+Vnum      3043
+Keywords  jacket soft newbie leather o030~
+Type      armor~
+Short     a leather jacket~
+Long      A soft leather jacket is lying on the ground.~
+WFlags    take body~
+Values    2 2 0 2 0 0 0 0 0 0 0
+Stats     10 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3044
-Keywords   jacket studded o030~
-Type       armor~
-Short      a studded leather jacket~
-Long       A studded leather jacket is lying on the ground.~
-WFlags     take body~
-Values     3 3 0 0 0 0 0 0 0 0 0
-Stats      20 10 0 9999 0 None None None
+Vnum      3044
+Keywords  jacket studded o030~
+Type      armor~
+Short     a studded leather jacket~
+Long      A studded leather jacket is lying on the ground.~
+WFlags    take body~
+Values    3 3 0 0 0 0 0 0 0 0 0
+Stats     20 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3045
-Keywords   jacket scale mail o030~
-Type       armor~
-Short      a scale mail jacket~
-Long       A scale mail jacket is lying on the ground.~
-WFlags     take body~
-Values     4 4 0 0 0 0 0 0 0 0 0
-Stats      40 10 0 9999 0 None None None
+Vnum      3045
+Keywords  jacket scale mail o030~
+Type      armor~
+Short     a scale mail jacket~
+Long      A scale mail jacket is lying on the ground.~
+WFlags    take body~
+Values    4 4 0 0 0 0 0 0 0 0 0
+Stats     40 10 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3046
-Keywords   bronze breast plate o030~
-Type       armor~
-Short      a bronze breast plate~
-Long       A bronze breast plate is lying on the ground.~
-WFlags     take body~
-Values     6 6 0 0 0 0 0 0 0 0 0
-Stats      80 100 0 9999 0 None None None
+Vnum      3046
+Keywords  bronze breast plate o030~
+Type      armor~
+Short     a bronze breast plate~
+Long      A bronze breast plate is lying on the ground.~
+WFlags    take body~
+Values    6 6 0 0 0 0 0 0 0 0 0
+Stats     80 100 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3050
-Keywords   scroll identify o030~
-Type       scroll~
-Short      a scroll of identify~
-Long       A scroll has carelessly been left here.~
-Flags      magic~
-WFlags     take hold~
-Values     12 -1 -1 -1 0 0 0 0 0 0 0
-Stats      1 1000 0 9999 0 None None None
+Vnum      3050
+Keywords  scroll identify o030~
+Type      scroll~
+Short     a scroll of identify~
+Long      A scroll has carelessly been left here.~
+Flags     magic~
+WFlags    take hold~
+Values    12 -1 -1 -1 0 0 0 0 0 0 0
+Stats     1 1000 0 9999 0 None None None
+Spells       'NONE' 'NONE' 'NONE'
 #EXDESC
-ExDescKey  scroll identify~
-ExDesc     The scroll has a magic formula drawn upon it:
+ExDescKey    scroll identify~
+ExDesc       The scroll has a magic formula drawn upon it:
      ???
     ?   ?
        ?
@@ -1253,39 +1255,43 @@ ExDesc     The scroll has a magic formula drawn upon it:
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3051
-Keywords   potion yellow seeinvis o030~
-Type       potion~
-Short      a yellow potion of see invisible~
-Long       A small yellow potion has carelessly been left here.~
-Flags      magic~
-WFlags     take hold~
-Values     12 -1 -1 -1 0 0 0 0 0 0 0
-Stats      1 1000 0 9999 0 None None None
+Vnum      3051
+Keywords  potion yellow seeinvis o030~
+Type      potion~
+Short     a yellow potion of see invisible~
+Long      A small yellow potion has carelessly been left here.~
+Flags     magic~
+WFlags    take hold~
+Values    12 -1 -1 -1 0 0 0 0 0 0 0
+Stats     1 1000 0 9999 0 None None None
+Spells       'NONE' 'NONE' 'NONE'
 #EXDESC
-ExDescKey  potion yellow~
-ExDesc     The potion has a small label 'Detect The Invisible'.
+ExDescKey    potion yellow~
+ExDesc       The potion has a small label 'Detect The Invisible'.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3053
-Keywords   wand invis o030~
-Type       wand~
-Short      a wand of invisibility~
-Long       A wand has carelessly been left here.~
-Flags      magic~
-WFlags     take hold~
-Values     12 2 2  0 0 0 0 0 0 0
-Stats      2 1000 0 9999 0 None None None
+Vnum      3053
+Keywords  wand invis o030~
+Type      wand~
+Short     a wand of invisibility~
+Long      A wand has carelessly been left here.~
+Flags     magic~
+WFlags    take hold~
+Values    12 2 2 -1 0 0 0 0 0 0 0
+Stats     2 1000 0 9999 0 None None None
+Spells       'reserved'
 #EXDESC
-ExDescKey  wand~
-ExDesc     The wand is an old dark stick.  You notice a small symbol etched at the
+ExDescKey    wand~
+ExDesc       The wand is an old dark stick.  You notice a small symbol etched at the
 base of the wand.  It looks like this:
 
      \ /
@@ -1294,21 +1300,23 @@ base of the wand.  It looks like this:
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3054
-Keywords   staff sleep o030~
-Type       staff~
-Short      a staff of sleep~
-Long       A staff has carelessly been left here.~
-Flags      magic~
-WFlags     take hold~
-Values     12 1 1  0 0 0 0 0 0 0
-Stats      17 5000 0 9999 0 None None None
+Vnum      3054
+Keywords  staff sleep o030~
+Type      staff~
+Short     a staff of sleep~
+Long      A staff has carelessly been left here.~
+Flags     magic~
+WFlags    take hold~
+Values    12 1 1 -1 0 0 0 0 0 0 0
+Stats     17 5000 0 9999 0 None None None
+Spells       'reserved'
 #EXDESC
-ExDescKey  staff~
-ExDesc     The staff is made of old oak, and is around five feet long. It fits
+ExDescKey    staff~
+ExDesc       The staff is made of old oak, and is around five feet long. It fits
 perfectly into your hand. You notice a small symbol etched at the
 base of the staff, it looks like:
 
@@ -1320,229 +1328,239 @@ base of the staff, it looks like:
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3055
-Keywords   staff o030~
-Type       staff~
-Short      a staff of healing~
-Long       A staff has carelessly been left here.~
-Flags      magic~
-WFlags     take hold~
-Values     10 8 8  0 0 0 0 0 0 0
-Stats      7 3000 0 9999 0 None None None
+Vnum      3055
+Keywords  staff o030~
+Type      staff~
+Short     a staff of healing~
+Long      A staff has carelessly been left here.~
+Flags     magic~
+WFlags    take hold~
+Values    10 8 8 -1 0 0 0 0 0 0 0
+Stats     7 3000 0 9999 0 None None None
+Spells       'reserved'
 #EXDESC
-ExDescKey  staff~
-ExDesc     The staff is made of metals unknown to you.
+ExDescKey    staff~
+ExDesc       The staff is made of metals unknown to you.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3071
-Keywords   gloves leather newbie o030~
-Type       armor~
-Short      a pair of leather gloves~
-Long       A pair of leather gloves is lying on the ground.~
-WFlags     take hands~
-Values     3 3 0 2 0 0 0 0 0 0 0
-Stats      3 1000 0 9999 0 None None None
+Vnum      3071
+Keywords  gloves leather newbie o030~
+Type      armor~
+Short     a pair of leather gloves~
+Long      A pair of leather gloves is lying on the ground.~
+WFlags    take hands~
+Values    3 3 0 2 0 0 0 0 0 0 0
+Stats     3 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3075
-Keywords   helmet bronze o030~
-Type       armor~
-Short      a bronze helmet~
-Long       A bronze helmet is lying on the ground.~
-WFlags     take head~
-Values     6 6 0 0 0 0 0 0 0 0 0
-Stats      8 1000 0 9999 0 None None None
+Vnum      3075
+Keywords  helmet bronze o030~
+Type      armor~
+Short     a bronze helmet~
+Long      A bronze helmet is lying on the ground.~
+WFlags    take head~
+Values    6 6 0 0 0 0 0 0 0 0 0
+Stats     8 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3076
-Keywords   cap leather newbie o030~
-Type       armor~
-Short      a leather cap~
-Long       A leather cap is lying on the ground.~
-WFlags     take head~
-Values     3 3 0 2 0 0 0 0 0 0 0
-Stats      3 1000 0 9999 0 None None None
+Vnum      3076
+Keywords  cap leather newbie o030~
+Type      armor~
+Short     a leather cap~
+Long      A leather cap is lying on the ground.~
+WFlags    take head~
+Values    3 3 0 2 0 0 0 0 0 0 0
+Stats     3 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3078
-Keywords   board trade bulletin z030~
-Type       trash~
-Short      a trader's bulletin board~
-Long       A large bulletin board for posting trade offers is hanging here.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3078
+Keywords  board trade bulletin z030~
+Type      trash~
+Short     a trader's bulletin board~
+Long      A large bulletin board for posting trade offers is hanging here.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3080
-Keywords   leggings bronze o030~
-Type       armor~
-Short      a pair of bronze leggings~
-Long       A pair of bronze leggings is lying on the ground.~
-WFlags     take legs~
-Values     6 6 0 0 0 0 0 0 0 0 0
-Stats      8 1000 0 9999 0 None None None
+Vnum      3080
+Keywords  leggings bronze o030~
+Type      armor~
+Short     a pair of bronze leggings~
+Long      A pair of bronze leggings is lying on the ground.~
+WFlags    take legs~
+Values    6 6 0 0 0 0 0 0 0 0 0
+Stats     8 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3081
-Keywords   pants leather newbie o030~
-Type       armor~
-Short      a pair of leather pants~
-Long       A pair of leather pants is lying on the ground.~
-WFlags     take legs~
-Values     3 3 0 2 0 0 0 0 0 0 0
-Stats      8 1000 0 9999 0 None None None
+Vnum      3081
+Keywords  pants leather newbie o030~
+Type      armor~
+Short     a pair of leather pants~
+Long      A pair of leather pants is lying on the ground.~
+WFlags    take legs~
+Values    3 3 0 2 0 0 0 0 0 0 0
+Stats     8 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3083
-Keywords   info area group z030~
-Type       trash~
-Short      an info group bulletin board~
-Long       A bulletin board for the info group is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3083
+Keywords  info area group z030~
+Type      trash~
+Short     an info group bulletin board~
+Long      A bulletin board for the info group is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3084
-Keywords   board area group z030~
-Type       trash~
-Short      an area planning group bulletin board~
-Long       A bulletin board for the area planning group is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3084
+Keywords  board area group z030~
+Type      trash~
+Short     an area planning group bulletin board~
+Long      A bulletin board for the area planning group is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3085
-Keywords   sleeves bronze o030~
-Type       armor~
-Short      a pair of bronze sleeves~
-Long       A pair of bronze sleeves is lying on the ground.~
-WFlags     take arms~
-Values     6 6 0 0 0 0 0 0 0 0 0
-Stats      8 1000 0 9999 0 None None None
+Vnum      3085
+Keywords  sleeves bronze o030~
+Type      armor~
+Short     a pair of bronze sleeves~
+Long      A pair of bronze sleeves is lying on the ground.~
+WFlags    take arms~
+Values    6 6 0 0 0 0 0 0 0 0 0
+Stats     8 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3086
-Keywords   sleeves leather newbie o030~
-Type       armor~
-Short      a pair of leather sleeves~
-Long       A pair of leather sleeves is lying on the ground.~
-WFlags     take arms~
-Values     2 2 0 2 0 0 0 0 0 0 0
-Stats      4 1000 0 9999 0 None None None
+Vnum      3086
+Keywords  sleeves leather newbie o030~
+Type      armor~
+Short     a pair of leather sleeves~
+Long      A pair of leather sleeves is lying on the ground.~
+WFlags    take arms~
+Values    2 2 0 2 0 0 0 0 0 0 0
+Stats     4 1000 0 9999 0 None None None
 #ENDOBJECT
 
 #OBJECT
-Vnum        3087
-Keywords   board group quest z030~
-Type       trash~
-Short      an quest planning group bulletin board~
-Long       A bulletin board for the quest planning group is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3087
+Keywords  board group quest z030~
+Type      trash~
+Short     an quest planning group bulletin board~
+Long      A bulletin board for the quest planning group is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3088
-Keywords   board group bug typo z030~
-Type       trash~
-Short      an bug/typo group bulletin board~
-Long       A bulletin board for the bug/typo group is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3088
+Keywords  board group bug typo z030~
+Type      trash~
+Short     an bug/typo group bulletin board~
+Long      A bulletin board for the bug/typo group is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3089
-Keywords   board group idea z030~
-Type       trash~
-Short      an idea group bulletin board~
-Long       A bulletin board for the idea group is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3089
+Keywords  board group idea z030~
+Type      trash~
+Short     an idea group bulletin board~
+Long      A bulletin board for the idea group is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3090
-Keywords   holobooth z030~
-Type       trash~
-Short      a holobooth~
-Long       a holobooth, your gateway to virtual worlds sits here.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      100000 1 0 9999 0 None None None
+Vnum      3090
+Keywords  holobooth z030~
+Type      trash~
+Short     a holobooth~
+Long      a holobooth, your gateway to virtual worlds sits here.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 1 0 9999 0 None None None
 #EXDESC
-ExDescKey  holobooth~
-ExDesc     Here you see a holobooth, your gateway to virtual worlds.  To use the
+ExDescKey    holobooth~
+ExDesc       Here you see a holobooth, your gateway to virtual worlds.  To use the
 holobooth, type "list" to see what areas the holobooth can take you to.
 Then type "run <areaname>" to enter the simulation.  For example,
 type "run old thalos" to go to the city of old thalos.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3091
-Keywords   vote voting booth z030~
-Type       trash~
-Short      a voting booth~
-Long       there is a voting booth here in the corner of the room.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      1 1 0 9999 0 None None None
+Vnum      3091
+Keywords  vote voting booth z030~
+Type      trash~
+Short     a voting booth~
+Long      there is a voting booth here in the corner of the room.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 1 0 9999 0 None None None
 #EXDESC
-ExDescKey  vote voting booth~
-ExDesc     This is a voting booth, your tool to shaping the future of Holomud.
+ExDescKey    vote voting booth~
+ExDesc       This is a voting booth, your tool to shaping the future of Holomud.
 To use the booth, type "vote" and the current issue on voting will
 be displayed.  It will also give you additional help on how to
 cast your vote.  To be fair, we collect votes from players who have
@@ -1551,162 +1569,172 @@ been on holomud for a period of time -- you have to be at least
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3092
-Keywords   board imp z030~
-Type       trash~
-Short      an implementors bulletin board~
-Long       A bulletin board for implementors is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3092
+Keywords  board imp z030~
+Type      trash~
+Short     an implementors bulletin board~
+Long      A bulletin board for implementors is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3093
-Keywords   board typo z030~
-Type       trash~
-Short      a typo bulletin board~
-Long       A bulletin board for typos is mounted on a wall here!~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3093
+Keywords  board typo z030~
+Type      trash~
+Short     a typo bulletin board~
+Long      A bulletin board for typos is mounted on a wall here!~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3094
-Keywords   board idea z030~
-Type       trash~
-Short      an idea bulletin board~
-Long       A board full of ideas is mounted on a wall here.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3094
+Keywords  board idea z030~
+Type      trash~
+Short     an idea bulletin board~
+Long      A board full of ideas is mounted on a wall here.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3095
-Keywords   board bug z030~
-Type       trash~
-Short      a bug bulletin board~
-Long       A board full of features (not bugs!) is mounted on a wall here.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3095
+Keywords  board bug z030~
+Type      trash~
+Short     a bug bulletin board~
+Long      A board full of features (not bugs!) is mounted on a wall here.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3096
-Keywords   board quest bulletin z030~
-Type       trash~
-Short      a quest bulletin board~
-Long       A large, Quest bulletin board is mounted on a wall here.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3096
+Keywords  board quest bulletin z030~
+Type      trash~
+Short     a quest bulletin board~
+Long      A large, Quest bulletin board is mounted on a wall here.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3097
-Keywords   board frozen bulletin z030~
-Type       trash~
-Short      a frozen bulletin board~
-Long       A large bulletin board is here, carved from a block of ice.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3097
+Keywords  board frozen bulletin z030~
+Type      trash~
+Short     a frozen bulletin board~
+Long      A large bulletin board is here, carved from a block of ice.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3098
-Keywords   board holy bulletin z030~
-Type       trash~
-Short      a holy bulletin board~
-Long       A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3098
+Keywords  board holy bulletin z030~
+Type      trash~
+Short     a holy bulletin board~
+Long      A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #OBJECT
-Vnum        3099
-Keywords   board bulletin z030~
-Type       trash~
-Short      a mortal bulletin board~
-Long       A large bulletin board is mounted on a wall here.~
-Values     0 0 0 0 0 0 0 0 0 0 0
-Stats      0 0 0 9999 0 None None None
+Vnum      3099
+Keywords  board bulletin z030~
+Type      trash~
+Short     a mortal bulletin board~
+Long      A large bulletin board is mounted on a wall here.~
+Values    0 0 0 0 0 0 0 0 0 0 0
+Stats     1 0 0 9999 0 None None None
 #EXDESC
-ExDescKey  board~
-ExDesc     If you can read this, the board is not working.
+ExDescKey    board~
+ExDesc       If you can read this, the board is not working.
 
 ~
 #ENDEXDESC
+
 #ENDOBJECT
 
 #ROOM
-Vnum        3000
-Name       The Reading Room~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          You are in a small, simple room which is mostly empty, save a few
+Vnum      3000
+Name      The Reading Room~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      You are in a small, simple room which is mostly empty, save a few
 wooden desks and benches.  To the east you hear the bustle of the Temple
 of Midgaard, a sharp contrast to the relative quiet of this peaceful
 room.
 ~
 #EXIT
-Direction  East~
-ToRoom     3001
-Desc       You see the Temple of Midgaard.
+Direction east~
+ToRoom    3001
+Desc      You see the Temple of Midgaard.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3001
-Name       The Temple Of Midgaard~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          You are in the southern end of the temple hall in the Temple of Midgaard.
+Vnum      3001
+Name      The Temple Of Midgaard~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      You are in the southern end of the temple hall in the Temple of Midgaard.
 The temple has been constructed from giant marble blocks, eternal in
 appearance, and most of the walls are covered by ancient wall paintings
 picturing Gods, Giants and peasants.
@@ -1716,92 +1744,98 @@ To the west, you see the Reading Room.  The donation room is in a small
 alcove to your east.
 ~
 #EXIT
-Direction  North~
-ToRoom     3054
-Desc       At the northern end of the temple hall is a statue and a huge altar.
+Direction north~
+ToRoom    3054
+Desc      At the northern end of the temple hall is a statue and a huge altar.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3063
-Desc       In the east, you see a small alcove with a rickety wooden sign which
+Direction east~
+ToRoom    3063
+Desc      In the east, you see a small alcove with a rickety wooden sign which
 reads "Midgaard Donation Room."
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3005
-Desc       You look down the huge stone steps at the temple square below.
+Direction south~
+ToRoom    3005
+Desc      You look down the huge stone steps at the temple square below.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3000
-Desc       You see the Reading Room.
+Direction west~
+ToRoom    3000
+Desc      You see the Reading Room.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     3005
-Desc       You see the temple square.
+Direction down~
+ToRoom    3005
+Desc      You see the temple square.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3002
-Name       Cleric's Inner Sanctum~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          This is the inner sanctum.  A picture of the mighty Thor, is hanging on
+Vnum      3002
+Name      Cleric's Inner Sanctum~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      This is the inner sanctum.  A picture of the mighty Thor, is hanging on
 the wall, just above the altar which is set against the western wall.  A well
 in the middle of the floor leads down into darkness.  Vile smells waft from
 the depths.
 ~
 #EXIT
-Direction  East~
-ToRoom     3003
-Desc       You see your favorite place, the bar of divination.
+Direction east~
+ToRoom    3003
+Desc      You see your favorite place, the bar of divination.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     7026
-Desc       You can't see what is down there, it is too dark.  Looks like it would be
+Direction down~
+ToRoom    7026
+Desc      You can't see what is down there, it is too dark.  Looks like it would be
 impossible to climb back up.
 ~
 #ENDEXIT
-Reset M    3021 1 3002 -1 -1 -1 100
+
+Reset M 3021 1 3002 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3003
-Name       Cleric's Bar~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          The bar is one of the finest in the land, lucky it is members only.  Fine
+Vnum      3003
+Name      Cleric's Bar~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      The bar is one of the finest in the land, lucky it is members only.  Fine
 furniture is set all around the room.  A small sign is hanging on the wall.
 ~
 #EXIT
-Direction  South~
-ToRoom     3004
-Desc       You see the entrance.
+Direction south~
+ToRoom    3004
+Desc      You see the entrance.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3002
-Desc       You see the inner sanctum.
+Direction west~
+ToRoom    3002
+Desc      You see the inner sanctum.
 ~
 #ENDEXIT
-Reset M    3043 1 3003 -1 -1 -1 100
-  Reset G  3004 100 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  sign~
-ExDesc     The sign reads:
+ExDescKey    sign~
+ExDesc       The sign reads:
 Free instructions provided by the waiter:
 
    Buy  - Buy something (drinkable) from the waiter.
@@ -1809,138 +1843,148 @@ Free instructions provided by the waiter:
           specialties, and tell the price of each.
 ~
 #ENDEXDESC
+
+Reset M 3043 1 3003 -1 -1 -1 100
+  Reset G 3004 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3004
-Name       Entrance to Cleric's Guild~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          The entrance hall is a small modest room, reflecting the true nature of
+Vnum      3004
+Name      Entrance to Cleric's Guild~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The entrance hall is a small modest room, reflecting the true nature of
 the Clerics.  The exit leads east to the temple square.  A small entrance to
 the bar is in the northern wall.
 ~
 #EXIT
-Direction  North~
-ToRoom     3003
-Desc       You see the bar, richly decorated with really stylish furniture.
+Direction north~
+ToRoom    3003
+Desc      You see the bar, richly decorated with really stylish furniture.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3005
-Desc       You see the Temple Square.
+Direction east~
+ToRoom    3005
+Desc      You see the Temple Square.
 ~
 #ENDEXIT
-Reset M    3025 1 3004 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3060 10 3004 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3059 8 3004 -1 -1 -1 100
+
+Reset M 3025 1 3004 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3060 10 3004 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3059 8 3004 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3005
-Name       The Temple Square~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are standing on the temple square.  Huge marble steps lead up to the
+Vnum      3005
+Name      The Temple Square~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on the temple square.  Huge marble steps lead up to the
 temple gate.  The entrance to the Clerics Guild is to the west, and the old
 Grunting Boar Inn, is to the east.  Just south of here you see the market
 square, the center of Midgaard.
 ~
 #EXIT
-Direction  North~
-ToRoom     3001
-Desc       You see the temple.
+Direction north~
+ToRoom    3001
+Desc      You see the temple.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3006
-Desc       You see the good old Grunting Boar Inn.
+Direction east~
+ToRoom    3006
+Desc      You see the good old Grunting Boar Inn.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3014
-Desc       You see the Market Square.
+Direction south~
+ToRoom    3014
+Desc      You see the Market Square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3004
-Desc       You see the entrance to the Clerics Guild.
+Direction west~
+ToRoom    3004
+Desc      You see the entrance to the Clerics Guild.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3006
-Name       Entrance Hall of the Grunting Boar Inn~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are standing in the entrance hall of the Grunting Boar Inn.  The hall
+Vnum      3006
+Name      Entrance Hall of the Grunting Boar Inn~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are standing in the entrance hall of the Grunting Boar Inn.  The hall
 has been wisely decorated with simple, functional furniture.  The heavy smell
 of dust and aging paper drifts in from the Post Office to the north.  A small
 staircase leads up to the reception and the bar is to the east.
 ~
 #EXIT
-Direction  North~
-ToRoom     3062
-Desc       You see the Midgaard Post Office.
+Direction north~
+ToRoom    3062
+Desc      You see the Midgaard Post Office.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3007
-Desc       Surprise!  You see the bar.
+Direction east~
+ToRoom    3007
+Desc      Surprise!  You see the bar.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3005
-Desc       You see the temple square.
+Direction west~
+ToRoom    3005
+Desc      You see the temple square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Up~
-ToRoom     3008
-Desc       You see the reception.
+Direction up~
+ToRoom    3008
+Desc      You see the reception.
 ~
 #ENDEXIT
-Reset M    3061 5 3006 -1 -1 -1 100
+
+Reset M 3061 5 3006 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3007
-Name       The Grunting Boar~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are standing in the bar.  The bar is set against the northern wall, old
+Vnum      3007
+Name      The Grunting Boar~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are standing in the bar.  The bar is set against the northern wall, old
 archaic writing, carvings and symbols cover its top.  A fireplace is built into
 the western wall, and through the southeastern windows you can see the temple
 square.  This place makes you feel like home.
 A small sign with big letters is fastened to the bar.
 ~
 #EXIT
-Direction  West~
-ToRoom     3006
-Desc       You see the exit to the entrance hall.
+Direction west~
+ToRoom    3006
+Desc      You see the exit to the entrance hall.
 ~
 #ENDEXIT
-Reset M    3040 1 3007 -1 -1 -1 100
-  Reset G  3000 100 100
-  Reset G  3001 100 100
-  Reset E  3022 100 16 100
-Reset M    3064 3 3007 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  sign~
-ExDesc     The sign reads:
+ExDescKey    sign~
+ExDesc       The sign reads:
 Free instructions provided by the Grunting Boar Inn.
 
    Buy  - Buy something (drinkable) from the bartender.
@@ -1948,42 +1992,48 @@ Free instructions provided by the Grunting Boar Inn.
           specialties, and tell the price of each.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  writing carving carvings symbols symbol~
-ExDesc     Although it is very hard to understand, you think it looks a lot like beer,
+ExDescKey    writing carving carvings symbols symbol~
+ExDesc       Although it is very hard to understand, you think it looks a lot like beer,
 poems about beer, and small beer-mugs.
 ~
 #ENDEXDESC
+
+Reset M 3040 1 3007 -1 -1 -1 100
+  Reset G 3000 100 100
+  Reset G 3001 100 100
+  Reset E 3022 100 16 100
+Reset M 3064 3 3007 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3008
-Name       The Reception~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are standing in the reception.  The staircase leads down to the
+Vnum      3008
+Name      The Reception~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are standing in the reception.  The staircase leads down to the
 entrance hall.  An exit to the north leads to the Cryogenic Center.
 There is a small sign on the counter.
 ~
 #EXIT
-Direction  North~
-ToRoom     3064
-Desc       You see the Cryogenic Center.
+Direction north~
+ToRoom    3064
+Desc      You see the Cryogenic Center.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     3006
-Desc       You see the entrance hall.
+Direction down~
+ToRoom    3006
+Desc      You see the entrance hall.
 ~
 #ENDEXIT
-Reset M    3005 1 3008 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3068 4 3008 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  sign~
-ExDesc     Rooms are expensive but good!  You may:
+ExDescKey    sign~
+ExDesc       Rooms are expensive but good!  You may:
 
    Offer - get an offer on a room - Time is in real life days.
    Rent  - Rent a room (saves your stuff, and quits the game),
@@ -1995,32 +2045,33 @@ ExDesc     Rooms are expensive but good!  You may:
                 WE WON'T THINK TWICE BEFORE KICKING YOU OUT.
 ~
 #ENDEXDESC
+
+Reset M 3005 1 3008 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3068 4 3008 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3009
-Name       The Bakery~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are standing inside the small bakery.  A sweet scent of Danish and
+Vnum      3009
+Name      The Bakery~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are standing inside the small bakery.  A sweet scent of Danish and
 fine bread fills the room.  The bread and Danish are arranged in fine order
 on the shelves, and seem to be of the finest quality.
 A small sign is on the counter.
 ~
 #EXIT
-Direction  South~
-ToRoom     3013
-Desc       You see the main street.
+Direction south~
+ToRoom    3013
+Desc      You see the main street.
 ~
 #ENDEXIT
-Reset M    3001 1 3009 -1 -1 -1 100
-  Reset G  3010 100 100
-  Reset G  3011 100 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  danish pastry~
-ExDesc     You see that this is truly delicious pastry.  Must be made by a Dane from
+ExDescKey    danish pastry~
+ExDesc       You see that this is truly delicious pastry.  Must be made by a Dane from
 Denmark (which surely is not the capital of Sweden!).  Former ruler of
 Scandinavia, England, Northern Germany, Northern France, Russia, Greenland,
 Iceland, Estonia etc.  etc.
@@ -2029,40 +2080,43 @@ and your soul sing.
 
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  sign~
-ExDesc     Free instructions provided by the store:
+ExDescKey    sign~
+ExDesc       Free instructions provided by the store:
 
    Buy  - Will buy you some bread or pastry.
    List - The baker will kindly tell you the price and sort of the bread in
           his bakery.
 ~
 #ENDEXDESC
+
+Reset M 3001 1 3009 -1 -1 -1 100
+  Reset G 3010 100 100
+  Reset G 3011 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3010
-Name       The General Store~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are inside the general store.  All sorts of items are stacked on shelves
+Vnum      3010
+Name      The General Store~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are inside the general store.  All sorts of items are stacked on shelves
 behind the counter, safely out of your reach.
 A small note hangs on the wall.
 ~
 #EXIT
-Direction  South~
-ToRoom     3015
-Desc       You see the main street.
+Direction south~
+ToRoom    3015
+Desc      You see the main street.
 ~
 #ENDEXIT
-Reset M    3002 1 3010 -1 -1 -1 100
-  Reset G  3031 100 100
-  Reset G  3032 100 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  note~
-ExDesc     The note reads:
+ExDescKey    note~
+ExDesc       The note reads:
 
   List  - Show which various items are in the store.
   Buy   - Buy an item.
@@ -2071,33 +2125,31 @@ ExDesc     The note reads:
   Sell  - Sell an item.
 ~
 #ENDEXDESC
+
+Reset M 3002 1 3010 -1 -1 -1 100
+  Reset G 3031 100 100
+  Reset G 3032 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3011
-Name       The Weapon Shop~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are inside the weapon shop.  There is a small note on the counter.
+Vnum      3011
+Name      The Weapon Shop~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are inside the weapon shop.  There is a small note on the counter.
 ~
 #EXIT
-Direction  South~
-ToRoom     3016
-Desc       You see the main street.
+Direction south~
+ToRoom    3016
+Desc      You see the main street.
 ~
 #ENDEXIT
-Reset M    3003 1 3011 -1 -1 -1 100
-  Reset G  3020 100 100
-  Reset G  3021 100 100
-  Reset G  3022 100 100
-  Reset G  3023 100 100
-  Reset G  3024 100 100
-  Reset G  3025 100 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  note~
-ExDesc     The note reads:
+ExDescKey    note~
+ExDesc       The note reads:
 
   List  - Show which various items are in the store.
   Buy   - Buy an item.
@@ -2106,260 +2158,294 @@ ExDesc     The note reads:
   Sell  - Sell an item.
 ~
 #ENDEXDESC
+
+Reset M 3003 1 3011 -1 -1 -1 100
+  Reset G 3020 100 100
+  Reset G 3021 100 100
+  Reset G 3022 100 100
+  Reset G 3023 100 100
+  Reset G 3024 100 100
+  Reset G 3025 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3012
-Name       Main Street~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are at the end of the main street of Midgaard.  South of here is the
+Vnum      3012
+Name      Main Street~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are at the end of the main street of Midgaard.  South of here is the
 entrance to the Guild of Magic Users.  The street continues east towards the
 market square.  The magic shop is to the north and to the west is the city
 gate.
 ~
 #EXIT
-Direction  North~
-ToRoom     3033
-Desc       You see the magic shop.
+Direction north~
+ToRoom    3033
+Desc      You see the magic shop.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3013
-Desc       You see the main street.
+Direction east~
+ToRoom    3013
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3017
-Desc       You see the entrance to the Guild of Magic Users.
+Direction south~
+ToRoom    3017
+Desc      You see the entrance to the Guild of Magic Users.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3040
-Desc       You see the city gate.
+Direction west~
+ToRoom    3040
+Desc      You see the city gate.
 ~
 #ENDEXIT
-Reset M    3062 15 3012 -1 -1 -1 100
+
+Reset M 3062 15 3012 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3013
-Name       Main Street~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are on the main street passing through the City of Midgaard.  South of
+Vnum      3013
+Name      Main Street~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the main street passing through the City of Midgaard.  South of
 here is the entrance to the Armory, and the bakery is to the north.  East of
 here is the market square.
 ~
 #EXIT
-Direction  North~
-ToRoom     3009
-Desc       You see the bakery.
+Direction north~
+ToRoom    3009
+Desc      You see the bakery.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3014
-Desc       You see the market square.
+Direction east~
+ToRoom    3014
+Desc      You see the market square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3020
-Desc       You see the armory.
+Direction south~
+ToRoom    3020
+Desc      You see the armory.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3012
-Desc       You see the main street.
+Direction west~
+ToRoom    3012
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3014
-Name       Market Square~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are standing on the market square, the famous Square of Midgaard.
+Vnum      3014
+Name      Market Square~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on the market square, the famous Square of Midgaard.
 A large, peculiar looking statue is standing in the middle of the square.
 Roads lead in every direction, north to the temple square, south to the
 common square, east and westbound is the main street.
 ~
 #EXIT
-Direction  North~
-ToRoom     3005
-Desc       You see the temple square.
+Direction north~
+ToRoom    3005
+Desc      You see the temple square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3015
-Desc       You see the main street.
+Direction east~
+ToRoom    3015
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3025
-Desc       You see the common square.
+Direction south~
+ToRoom    3025
+Desc      You see the common square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3013
-Desc       You see the main street.
+Direction west~
+ToRoom    3013
+Desc      You see the main street.
 ~
 #ENDEXIT
-Reset M    3060 10 3014 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3059 4 3014 -1 -1 -1 100
-Reset M    3068 4 3014 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  statue~
-ExDesc     What you see is the Midgaard Worm, stretching around the Palace of Midgaard.
+ExDescKey    statue~
+ExDesc       What you see is the Midgaard Worm, stretching around the Palace of Midgaard.
 ~
 #ENDEXDESC
+
+Reset M 3060 10 3014 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3059 4 3014 -1 -1 -1 100
+Reset M 3068 4 3014 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3015
-Name       The Main Street~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are on the main street crossing through town.  To the north is the
+Vnum      3015
+Name      The Main Street~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on the main street crossing through town.  To the north is the
 general store, and the main street continues east.  To the west you see and
 hear the market place, to the south a small door leads into the Pet Shop.
 ~
 #EXIT
-Direction  North~
-ToRoom     3010
-Desc       You see the general store.
+Direction north~
+ToRoom    3010
+Desc      You see the general store.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3016
-Desc       You see the main street.
+Direction east~
+ToRoom    3016
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3031
-Desc       You see the Pet Shop.
+Direction south~
+ToRoom    3031
+Desc      You see the Pet Shop.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3014
-Desc       You see the market square.
+Direction west~
+ToRoom    3014
+Desc      You see the market square.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3016
-Name       The Main Street~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          The main street, to the north is the weapon shop and to the south is the
+Vnum      3016
+Name      The Main Street~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      The main street, to the north is the weapon shop and to the south is the
 Guild of Swordsmen.  To the east you leave town and to the west the street
 leads to the market square.
 ~
 #EXIT
-Direction  North~
-ToRoom     3011
-Desc       You see the weapon shop.
+Direction north~
+ToRoom    3011
+Desc      You see the weapon shop.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3041
-Desc       You see the city gate.
+Direction east~
+ToRoom    3041
+Desc      You see the city gate.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3021
-Desc       You see the swordsmen's guild.
+Direction south~
+ToRoom    3021
+Desc      You see the swordsmen's guild.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3015
-Desc       You see the main street leading to the market square.
+Direction west~
+ToRoom    3015
+Desc      You see the main street leading to the market square.
 ~
 #ENDEXIT
-Reset M    3062 15 3016 -1 -1 -1 100
+
+Reset M 3062 15 3016 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3017
-Name       Entrance to Mage's Guild~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          The entrance hall is a small, poor lighted room.
+Vnum      3017
+Name      Entrance to Mage's Guild~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The entrance hall is a small, poor lighted room.
 ~
 #EXIT
-Direction  North~
-ToRoom     3012
-Desc       You see the main street.
+Direction north~
+ToRoom    3012
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3018
-Desc       You see your favorite place, the Mage's Bar.
+Direction south~
+ToRoom    3018
+Desc      You see your favorite place, the Mage's Bar.
 ~
 #ENDEXIT
-Reset M    3024 1 3017 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3060 10 3017 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3059 4 3017 -1 -1 -1 100
+
+Reset M 3024 1 3017 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3060 10 3017 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3059 4 3017 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3018
-Name       Mage's Bar~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          The bar is one of the weirdest in the land.  Mystical images float around
+Vnum      3018
+Name      Mage's Bar~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      The bar is one of the weirdest in the land.  Mystical images float around
 the air.  Illusions of fine furniture appear all around the room.
 ~
 #EXIT
-Direction  North~
-ToRoom     3017
-Desc       You see the lobby.
+Direction north~
+ToRoom    3017
+Desc      You see the lobby.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3019
-Desc       You see the laboratory.
+Direction east~
+ToRoom    3019
+Desc      You see the laboratory.
 ~
 #ENDEXIT
-Reset M    3042 1 3018 -1 -1 -1 100
-  Reset E  3022 100 16 100
+
+Reset M 3042 1 3018 -1 -1 -1 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3019
-Name       Mage's Laboratory~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          This is the Magical Experiments Laboratory.  Dark smoke-stained stones
+Vnum      3019
+Name      Mage's Laboratory~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      This is the Magical Experiments Laboratory.  Dark smoke-stained stones
 arch over numerous huge oaken tables, most of these cluttered with strange-
 looking pipes and flasks.  The floor is covered with half-erased pentagrams
 and even weirder symbols, and a blackboard in a dark corner has only been
@@ -2368,54 +2454,42 @@ the middle of the floor leads down into darkness.  Vile smells waft from the
 depths.
 ~
 #EXIT
-Direction  West~
-ToRoom     3018
-Desc       You see the bar.
+Direction west~
+ToRoom    3018
+Desc      You see the bar.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     7017
-Desc       You can't see what is down there, it is too dark.  Looks like it would be
+Direction down~
+ToRoom    7017
+Desc      You can't see what is down there, it is too dark.  Looks like it would be
 impossible to climb back up.
 ~
 #ENDEXIT
-Reset M    3020 1 3019 -1 -1 -1 100
+
+Reset M 3020 1 3019 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3020
-Name       The Armory~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          The armory with all kinds of armors on the walls and in the window.  You
+Vnum      3020
+Name      The Armory~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The armory with all kinds of armors on the walls and in the window.  You
 see helmets, shields and chain mails.  To the north is the main street.
 On the wall is a small note.
 ~
 #EXIT
-Direction  North~
-ToRoom     3013
-Desc       You see the main street.
+Direction north~
+ToRoom    3013
+Desc      You see the main street.
 ~
 #ENDEXIT
-Reset M    3004 1 3020 -1 -1 -1 100
-  Reset G  3040 100 100
-  Reset G  3042 100 100
-  Reset G  3044 100 100
-  Reset G  3076 100 100
-  Reset G  3081 100 100
-  Reset G  3071 100 100
-  Reset G  3075 100 100
-  Reset G  3080 100 100
-  Reset G  3085 100 100
-  Reset G  3086 100 100
-  Reset G  3041 100 100
-  Reset G  3043 100 100
-  Reset G  3046 100 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  note~
+ExDescKey    note~
 ExDesc       You can use these commands for trading:
 
   value <item>     To get the price of an item in your possession.
@@ -2427,338 +2501,383 @@ ExDesc       You can use these commands for trading:
                              NO HAGGLING
 ~
 #ENDEXDESC
+
+Reset M 3004 1 3020 -1 -1 -1 100
+  Reset G 3040 100 100
+  Reset G 3042 100 100
+  Reset G 3044 100 100
+  Reset G 3076 100 100
+  Reset G 3081 100 100
+  Reset G 3071 100 100
+  Reset G 3075 100 100
+  Reset G 3080 100 100
+  Reset G 3085 100 100
+  Reset G 3086 100 100
+  Reset G 3041 100 100
+  Reset G 3043 100 100
+  Reset G 3046 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3021
-Name       Entrance Hall to the Guild of Swordsmen~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          The entrance hall to the Guild of Swordsmen.  A place where one has to be
+Vnum      3021
+Name      Entrance Hall to the Guild of Swordsmen~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The entrance hall to the Guild of Swordsmen.  A place where one has to be
 careful not to say something wrong (or right).  To the east is the bar and to
 the north is the main street.
 ~
 #EXIT
-Direction  North~
-ToRoom     3016
-Desc       You see the main street.
+Direction north~
+ToRoom    3016
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3022
-Desc       You see the swordsmen's bar, many noises comes from there.
+Direction east~
+ToRoom    3022
+Desc      You see the swordsmen's bar, many noises comes from there.
 ~
 #ENDEXIT
-Reset M    3027 1 3021 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3060 10 3021 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3059 4 3021 -1 -1 -1 100
+
+Reset M 3027 1 3021 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3060 10 3021 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3059 4 3021 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3022
-Name       The Bar of Swordsmen~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          The bar of swordsmen, once upon a time beautifully furnished.  But now the
+Vnum      3022
+Name      The Bar of Swordsmen~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      The bar of swordsmen, once upon a time beautifully furnished.  But now the
 furniture is all around you in small pieces.  To the south is the yard, and
 to the west is the entrance hall.
 ~
 #EXIT
-Direction  South~
-ToRoom     3023
-Desc       You see the practice yard.
+Direction south~
+ToRoom    3023
+Desc      You see the practice yard.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3021
-Desc       You see the entrance hall to the thieves guild.
+Direction west~
+ToRoom    3021
+Desc      You see the entrance hall to the thieves guild.
 ~
 #ENDEXIT
-Reset M    3045 1 3022 -1 -1 -1 100
-  Reset G  3004 100 100
-  Reset E  3022 100 16 100
+
+Reset M 3045 1 3022 -1 -1 -1 100
+  Reset G 3004 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3023
-Name       The Tournament and Practice Yard~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          The practice yard of the fighters.  To the north is the bar.  A well leads
+Vnum      3023
+Name      The Tournament and Practice Yard~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      The practice yard of the fighters.  To the north is the bar.  A well leads
 down into darkness.
 ~
 #EXIT
-Direction  North~
-ToRoom     3022
-Desc       You see the bar.
+Direction north~
+ToRoom    3022
+Desc      You see the bar.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     7048
-Desc       You can't see what is down there, it is too dark.  Looks like it would be
+Direction down~
+ToRoom    7048
+Desc      You can't see what is down there, it is too dark.  Looks like it would be
 impossible to climb back up.
 ~
 #ENDEXIT
-Reset M    3023 1 3023 -1 -1 -1 100
+
+Reset M 3023 1 3023 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3024
-Name       Eastern End of Poor Alley~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are at the poor alley.  South of here is the Grubby Inn and to the
+Vnum      3024
+Name      Eastern End of Poor Alley~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are at the poor alley.  South of here is the Grubby Inn and to the
 east you see common square.  The alley continues further west.
 ~
 #EXIT
-Direction  East~
-ToRoom     3025
-Desc       You see the common square.
+Direction east~
+ToRoom    3025
+Desc      You see the common square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3048
-Desc       You see the Inn.
+Direction south~
+ToRoom    3048
+Desc      You see the Inn.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3044
-Desc       You see the poor alley.
+Direction west~
+ToRoom    3044
+Desc      You see the poor alley.
 ~
 #ENDEXIT
-Reset M    3062 15 3024 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  circle gate~
-ExDesc     The sparkling circle seems to be some sort of rift. Trough it you see a 
+ExDescKey    circle gate~
+ExDesc       The sparkling circle seems to be some sort of rift. Trough it you see a 
 swirling haze, occasionally parting to reveal a strange and alien landscape 
 under a hostile grey sky.  The loud crackling noise that the circle's spark
 cause convinces you that trying to squeeze through it could be perilous.
 ~
 #ENDEXDESC
+
+Reset M 3062 15 3024 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3025
-Name       The Common Square~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          The common square, people pass you, talking to each other.  To the west is
+Vnum      3025
+Name      The Common Square~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      The common square, people pass you, talking to each other.  To the west is
 the poor alley and to the east is the dark alley.  To the north, this square
 is connected to the market square.  From the south you notice a nasty smell.
 ~
 #EXIT
-Direction  North~
-ToRoom     3014
-Desc       You see the market square.
+Direction north~
+ToRoom    3014
+Desc      You see the market square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3026
-Desc       You see the dark alley.
+Direction east~
+ToRoom    3026
+Desc      You see the dark alley.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3030
-Desc       You see the city dump.
+Direction south~
+ToRoom    3030
+Desc      You see the city dump.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3024
-Desc       You see the poor alley.
+Direction west~
+ToRoom    3024
+Desc      You see the poor alley.
 ~
 #ENDEXIT
-Reset M    3062 15 3025 -1 -1 -1 100
+
+Reset M 3062 15 3025 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3026
-Name       The Dark Alley~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          The dark alley, to the west is the common square and to the south is the
+Vnum      3026
+Name      The Dark Alley~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      The dark alley, to the west is the common square and to the south is the
 Guild of Thieves.  The alley continues east.
 ~
 #EXIT
-Direction  East~
-ToRoom     3045
-Desc       The alley continues east.
+Direction east~
+ToRoom    3045
+Desc      The alley continues east.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3027
-Desc       You see the entrance to the thieves guild.
+Direction south~
+ToRoom    3027
+Desc      You see the entrance to the thieves guild.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3025
-Desc       You see the common square.
+Direction west~
+ToRoom    3025
+Desc      You see the common square.
 ~
 #ENDEXIT
-Reset M    3063 5 3026 -1 -1 -1 100
-  Reset E  3021 100 16 100
-Reset M    3066 1 3026 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  guild~
-ExDesc     It is the thieves guild, don't enter if you care about your health or money.
+ExDescKey    guild~
+ExDesc       It is the thieves guild, don't enter if you care about your health or money.
 ~
 #ENDEXDESC
+
+Reset M 3063 5 3026 -1 -1 -1 100
+  Reset E 3021 100 16 100
+Reset M 3066 1 3026 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3027
-Name       Entrance Hall to the Guild of Thieves~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          The entrance hall to the thieves' and assassins' guild.  A place where you
+Vnum      3027
+Name      Entrance Hall to the Guild of Thieves~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The entrance hall to the thieves' and assassins' guild.  A place where you
 can lose both your life and your money, if you are not careful.  To the north
 is the dark alley and to the east is the thieves' bar.
 ~
 #EXIT
-Direction  North~
-ToRoom     3026
-Desc       You see the alley.
+Direction north~
+ToRoom    3026
+Desc      You see the alley.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3028
-Desc       You see the thieves bar, where everything disappears.
+Direction east~
+ToRoom    3028
+Desc      You see the thieves bar, where everything disappears.
 ~
 #ENDEXIT
-Reset M    3026 1 3027 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3060 10 3027 -1 -1 -1 100
-  Reset E  3022 100 16 100
-Reset M    3059 4 3027 -1 -1 -1 100
+
+Reset M 3026 1 3027 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3060 10 3027 -1 -1 -1 100
+  Reset E 3022 100 16 100
+Reset M 3059 4 3027 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3028
-Name       The Thieves Bar~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          The bar of the thieves.  Once upon a time this place was beautifully
+Vnum      3028
+Name      The Thieves Bar~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      The bar of the thieves.  Once upon a time this place was beautifully
 furnished, but now it seems almost empty.  To the south is the yard, and to
 the west is the entrance hall.
    (Maybe the furniture has been stolen?!)
 ~
 #EXIT
-Direction  South~
-ToRoom     3029
-Desc       You see the secret yard.
+Direction south~
+ToRoom    3029
+Desc      You see the secret yard.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3027
-Desc       You see the entrance hall to the thieves guild.
+Direction west~
+ToRoom    3027
+Desc      You see the entrance hall to the thieves guild.
 ~
 #ENDEXIT
-Reset M    3044 1 3028 -1 -1 -1 100
-  Reset G  3004 100 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  furniture~
-ExDesc     As you look at the furniture, the chair you sit on disappears.
+ExDescKey    furniture~
+ExDesc       As you look at the furniture, the chair you sit on disappears.
 ~
 #ENDEXDESC
+
+Reset M 3044 1 3028 -1 -1 -1 100
+  Reset G 3004 100 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3029
-Name       The Secret Yard~
-Sector     indoors~
-Flags      nomob indoors~
-Stats      0 0 0 0 0
-Desc          The secret practice yard of thieves and assassins.  To the north is the
+Vnum      3029
+Name      The Secret Yard~
+Sector    indoors~
+Flags     nomob indoors~
+Stats     0 0 0 0 0
+Desc      The secret practice yard of thieves and assassins.  To the north is the
 bar.  A well leads down into darkness.
 ~
 #EXIT
-Direction  North~
-ToRoom     3028
-Desc       You see the bar.
+Direction north~
+ToRoom    3028
+Desc      You see the bar.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     7043
-Desc       You can't see what is down there, it is too dark.  Looks like it would be
+Direction down~
+ToRoom    7043
+Desc      You can't see what is down there, it is too dark.  Looks like it would be
 impossible to climb back up.
 ~
 #ENDEXIT
-Reset M    3022 1 3029 -1 -1 -1 100
+
+Reset M 3022 1 3029 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3030
-Name       The Dump~
-Sector     field~
-Flags      nomob~
-Stats      0 0 0 0 0
-Desc          The dump, where the people from the city drop their garbage.  Through the
+Vnum      3030
+Name      The Dump~
+Sector    field~
+Flags     nomob~
+Stats     0 0 0 0 0
+Desc      The dump, where the people from the city drop their garbage.  Through the
 garbage you can see a large junction of pipes, looks like the entrance to the
 sewer system.  South of here you see a small, rickety bridge across the river
 and to the north is the common square.
 ~
 #EXIT
-Direction  North~
-ToRoom     3025
-Desc       You see the common square.
+Direction north~
+ToRoom    3025
+Desc      You see the common square.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3504
-Desc       You see the river slowly flowing west.  There is a small, rickety bridge across
+Direction south~
+ToRoom    3504
+Desc      You see the river slowly flowing west.  There is a small, rickety bridge across
 the river.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  Down~
-ToRoom     7030
-Desc       You see the sewers.
+Direction down~
+ToRoom    7030
+Desc      You see the sewers.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3031
-Name       The Pet Shop~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          The Pet Shop is a small crowded store, full of cages and animals of
+Vnum      3031
+Name      The Pet Shop~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      The Pet Shop is a small crowded store, full of cages and animals of
 various sizes.  There is a sign on the wall.
 ~
 #EXIT
-Direction  North~
-ToRoom     3015
-Desc       You see the main street.
+Direction north~
+ToRoom    3015
+Desc      You see the main street.
 ~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  sign~
-ExDesc     The sign reads:
+ExDescKey    sign~
+ExDesc       The sign reads:
 
   Use 'List' to see the available pets.
   Use 'Buy <pet>' to buy yourself a pet.
@@ -2776,676 +2895,745 @@ ExDesc     The sign reads:
  The Shopkeeper
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3032
-Name       Pet Shop Store~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          This  is the small dark room in which the Pet shop keeps his pets.
+Vnum      3032
+Name      Pet Shop Store~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This  is the small dark room in which the Pet shop keeps his pets.
 It is vital that this room's virtual number is exactly one larger
 than the Pet Shop number.
 ~
-Reset M    3090 1 3032 -1 -1 -1 100
-Reset M    3091 1 3032 -1 -1 -1 100
-Reset M    3092 1 3032 -1 -1 -1 100
-Reset M    3093 1 3032 -1 -1 -1 100
-Reset M    3094 1 3032 -1 -1 -1 100
+Reset M 3090 1 3032 -1 -1 -1 100
+Reset M 3091 1 3032 -1 -1 -1 100
+Reset M 3092 1 3032 -1 -1 -1 100
+Reset M 3093 1 3032 -1 -1 -1 100
+Reset M 3094 1 3032 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3033
-Name       The Magic Shop~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          Behind the counter you see various items, neatly placed in racks,
+Vnum      3033
+Name      The Magic Shop~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      Behind the counter you see various items, neatly placed in racks,
 presumably most of them are magic.
 ~
 #EXIT
-Direction  South~
-ToRoom     3012
-Desc       You see the main street.
+Direction south~
+ToRoom    3012
+Desc      You see the main street.
 ~
 #ENDEXIT
-Reset M    3000 1 3033 -1 -1 -1 100
-  Reset G  3050 500 100
-  Reset G  3051 500 100
-  Reset G  3053 500 100
-  Reset G  3054 500 100
+
+Reset M 3000 1 3033 -1 -1 -1 100
+  Reset G 3050 500 100
+  Reset G 3051 500 100
+  Reset G 3053 500 100
+  Reset G 3054 500 100
 #ENDROOM
 
 #ROOM
-Vnum        3040
-Name       Inside the West Gate of Midgaard~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are by two small towers that have been built into the city wall and
+Vnum      3040
+Name      Inside the West Gate of Midgaard~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  Main Street leads
 east and Wall Road leads south from here.
 ~
 #EXIT
-Direction  East~
-ToRoom     3012
-Desc       You see Main Street.
+Direction east~
+ToRoom    3012
+Desc      You see Main Street.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3042
-Desc       You see the road running along the inner side of the city wall.  You notice
+Direction south~
+ToRoom    3042
+Desc      You see the road running along the inner side of the city wall.  You notice
 that it is called Wall Road.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3052
-Key        3133
-Desc       The city gate is to the west.
+Direction west~
+ToRoom    3052
+Key       3133
+Desc      The city gate is to the west.
 ~
-Keywords   gate~
-Flags      isdoor~
+Keywords  gate~
+Flags     isdoor~
 #ENDEXIT
-Reset M    3067 10 3040 -1 -1 -1 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  bridge footbridge~
-ExDesc     It is too high up to reach but it looks as if one easily could walk across it
+ExDescKey    bridge footbridge~
+ExDesc       It is too high up to reach but it looks as if one easily could walk across it
 from one tower to the other.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  gate~
-ExDesc     It is a set of very big double doors made from hard wood.  They have been
+ExDescKey    gate~
+ExDesc       It is a set of very big double doors made from hard wood.  They have been
 reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  tower towers~
-ExDesc     Both of the towers are built from large grey rocks that have been fastened to
+ExDescKey    tower towers~
+ExDesc       Both of the towers are built from large grey rocks that have been fastened to
 each other with some kind of mortar, just like the city wall.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
+Reset M 3067 10 3040 -1 -1 -1 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3041
-Name       Inside the East Gate of Midgaard~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are by two small towers that have been built into the city wall and
+Vnum      3041
+Name      Inside the East Gate of Midgaard~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  Main Street leads
 west from here.  To the south you see the Water Shop.
 ~
 #EXIT
-Direction  East~
-ToRoom     3053
-Key        3133
-Desc       You see the city gate.
+Direction east~
+ToRoom    3053
+Key       3133
+Desc      You see the city gate.
 ~
-Keywords   gate~
-Flags      isdoor~
+Keywords  gate~
+Flags     isdoor~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3058
-Desc       You see the water shop.
+Direction south~
+ToRoom    3058
+Desc      You see the water shop.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3016
-Desc       You see Main Street.~
+Direction west~
+ToRoom    3016
+Desc      You see Main Street.~
 #ENDEXIT
-Reset M    3067 10 3041 -1 -1 -1 100
-  Reset E  3022 100 16 100
+
 #EXDESC
-ExDescKey  bridge footbridge~
-ExDesc     It is too high up to reach but it looks as if one easily could walk across it
+ExDescKey    bridge footbridge~
+ExDesc       It is too high up to reach but it looks as if one easily could walk across it
 from one tower to the other.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  gate~
-ExDesc     It is a set of very big double doors made from hard wood.  They have been
+ExDescKey    gate~
+ExDesc       It is a set of very big double doors made from hard wood.  They have been
 reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  tower towers~
-ExDesc     Both of the towers are built from large grey rocks that have been fastened to
+ExDescKey    tower towers~
+ExDesc       Both of the towers are built from large grey rocks that have been fastened to
 each other with some kind of mortar, just like the city wall.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
+Reset M 3067 10 3041 -1 -1 -1 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ROOM
-Vnum        3042
-Name       Wall Road~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are walking next to the western city wall.  The road continues further
+Vnum      3042
+Name      Wall Road~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking next to the western city wall.  The road continues further
 south and the city gate is just north of here.
 ~
 #EXIT
-Direction  North~
-ToRoom     3040
-Desc       You see the city gate.
+Direction north~
+ToRoom    3040
+Desc      You see the city gate.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3043
-Desc       The road continues further south.
+Direction south~
+ToRoom    3043
+Desc      The road continues further south.
 ~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3043
-Name       Wall Road~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are walking next to the western city wall.  Wall Road continues further
+Vnum      3043
+Name      Wall Road~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking next to the western city wall.  Wall Road continues further
 north and south.  A small, poor alley leads east.
 Some letters have been written on the wall here.
 ~
 #EXIT
-Direction  North~
-ToRoom     3042
-Desc       The road continues further north.
+Direction north~
+ToRoom    3042
+Desc      The road continues further north.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  East~
-ToRoom     3044
-Desc       The alley leads east.
+Direction east~
+ToRoom    3044
+Desc      The alley leads east.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3047
-Desc       The road continues further south.
+Direction south~
+ToRoom    3047
+Desc      The road continues further south.
 ~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  wall writing letters~
-ExDesc     It says 'Who watches the watchmen?'
+ExDescKey    wall writing letters~
+ExDesc       It says 'Who watches the watchmen?'
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3044
-Name       Poor Alley~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are in the poor alley, which continues further east.  You see the
+Vnum      3044
+Name      Poor Alley~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are in the poor alley, which continues further east.  You see the
 city wall to the west.
 ~
 #EXIT
-Direction  East~
-ToRoom     3024
-Desc       The alley leads east.
+Direction east~
+ToRoom    3024
+Desc      The alley leads east.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3043
-Desc       The alley leads west.
+Direction west~
+ToRoom    3043
+Desc      The alley leads west.
 ~
 #ENDEXIT
-Reset M    3065 2 3044 -1 -1 -1 100
+
+Reset M 3065 2 3044 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3045
-Name       Alley at Levee~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are standing in the alley which continues east and west.  South of
+Vnum      3045
+Name      Alley at Levee~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in the alley which continues east and west.  South of
 here you see the levee.
 ~
 #EXIT
-Direction  East~
-ToRoom     3046
-Desc       The alley leads east.
+Direction east~
+ToRoom    3046
+Desc      The alley leads east.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3049
-Desc       You see the levee.
+Direction south~
+ToRoom    3049
+Desc      You see the levee.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3026
-Desc       The alley leads west.
+Direction west~
+ToRoom    3026
+Desc      The alley leads west.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3046
-Name       Eastern end of Alley~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are standing at the eastern end of the alley, the city wall is just
+Vnum      3046
+Name      Eastern end of Alley~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing at the eastern end of the alley, the city wall is just
 east, blocking any further movement.  A small warehouse is directly south of
 here and a mexican food stand has been set up north of here.
 ~
 #EXIT
-Direction  North~
-ToRoom     3056
-Desc       You see the taco stand.
+Direction north~
+ToRoom    3056
+Desc      You see the taco stand.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3050
-Desc       You see the warehouse.
+Direction south~
+ToRoom    3050
+Desc      You see the warehouse.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3045
-Desc       You see the alley.
+Direction west~
+ToRoom    3045
+Desc      You see the alley.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3047
-Name       Wall Road~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are standing on the road next to the western city wall, which
+Vnum      3047
+Name      Wall Road~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on the road next to the western city wall, which
 continues north.  South of here is a bridge across the river.
 ~
 #EXIT
-Direction  North~
-ToRoom     3043
-Desc       You see the road.
+Direction north~
+ToRoom    3043
+Desc      You see the road.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3051
-Desc       You see the bridge.
+Direction south~
+ToRoom    3051
+Desc      You see the bridge.
 ~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3048
-Name       Grubby Inn~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are inside the old Grubby Inn.  This place has not been cleaned for
+Vnum      3048
+Name      Grubby Inn~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are inside the old Grubby Inn.  This place has not been cleaned for
 several decades; vile smells make you dizzy.
 ~
 #EXIT
-Direction  North~
-ToRoom     3024
-Desc       You see the alley.
+Direction north~
+ToRoom    3024
+Desc      You see the alley.
 ~
 #ENDEXIT
-Reset M    3046 1 3048 -1 -1 -1 100
-  Reset G  3004 100 100
-  Reset E  3022 100 16 100
-Reset M    3065 2 3048 -1 -1 -1 100
+
+Reset M 3046 1 3048 -1 -1 -1 100
+  Reset G 3004 100 100
+  Reset E 3022 100 16 100
+Reset M 3065 2 3048 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3049
-Name       Levee~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc         You are at the levee.  South of here you see the river gently flowing west.
+Vnum      3049
+Name      Levee~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are at the levee.  South of here you see the river gently flowing west.
 The river bank is very low making it possible to enter the river.
 ~
 #EXIT
-Direction  North~
-ToRoom     3045
-Desc       You see the Alley.
+Direction north~
+ToRoom    3045
+Desc      You see the Alley.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3203
-Desc       You see the river flowing west.
+Direction south~
+ToRoom    3203
+Desc      You see the river flowing west.
 ~
 #ENDEXIT
-Reset M    3006 1 3049 -1 -1 -1 100
+
+Reset M 3006 1 3049 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3050
-Name       Warehouse~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are inside the warehouse.  The room is decorated with various old
+Vnum      3050
+Name      Warehouse~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are inside the warehouse.  The room is decorated with various old
 items from ships.
 ~
 #EXIT
-Direction  North~
-ToRoom     3046
-Desc       You see the Alley.
+Direction north~
+ToRoom    3046
+Desc      You see the Alley.
 ~
 #ENDEXIT
-Reset M    3007 1 3050 -1 -1 -1 100
+
+Reset M 3007 1 3050 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3051
-Name       On the Bridge~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are standing on the stone bridge crosses the river.  The bridge is
+Vnum      3051
+Name      On the Bridge~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing on the stone bridge crosses the river.  The bridge is
 built out from the western city wall and the river flows west through an
 opening in the wall ten feet below the bridge.
 ~
 #EXIT
-Direction  North~
-ToRoom     3047
-Desc       You see the road.
+Direction north~
+ToRoom    3047
+Desc      You see the road.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3100
-Desc       You see the Concourse.
+Direction south~
+ToRoom    3100
+Desc      You see the Concourse.
 ~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  bridge~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    bridge~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar, just like the wall.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  opening~
-ExDesc     You cannot really see it from here as it is somewhere beneath your feet.
+ExDescKey    opening~
+ExDesc       You cannot really see it from here as it is somewhere beneath your feet.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3052
-Name       Outside the West Gate of Midgaard~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are by two small towers that have been built into the city wall and
+Vnum      3052
+Name      Outside the West Gate of Midgaard~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  To the west you
 can see the edge of a big forest.
 ~
 #EXIT
-Direction  East~
-ToRoom     3040
-Key        3133
-Desc       The city gate is to the east.
+Direction east~
+ToRoom    3040
+Key       3133
+Desc      The city gate is to the east.
 ~
-Keywords   gate~
-Flags      isdoor~
+Keywords  gate~
+Flags     isdoor~
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    6092
+#ENDEXIT
+
 #EXDESC
-ExDescKey  bridge footbridge~
-ExDesc     It is too high up to reach but it looks as if one easily could walk across it
+ExDescKey    bridge footbridge~
+ExDesc       It is too high up to reach but it looks as if one easily could walk across it
 from one tower to the other.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  gate~
-ExDesc     It is a set of very big double doors made from hard wood.  They have been
+ExDescKey    gate~
+ExDesc       It is a set of very big double doors made from hard wood.  They have been
 reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  tower towers~
-ExDesc     Both of the towers are built from large grey rocks that have been fastened to
+ExDescKey    tower towers~
+ExDesc       Both of the towers are built from large grey rocks that have been fastened to
 each other with some kind of mortar, just like the city wall.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3053
-Name       Outside the East Gate of Midgaard~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are by two small towers that have been built into the city wall and
+Vnum      3053
+Name      Outside the East Gate of Midgaard~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are by two small towers that have been built into the city wall and
 connected with a footbridge across the heavy wooden gate.  To the east the
 plains stretch out in the distance.
 ~
 #EXIT
-Direction  East~
-ToRoom     3503
-Desc       You see the plains.~
+Direction east~
+ToRoom    3503
+Desc      You see the plains.~
 #ENDEXIT
+
 #EXIT
-Direction  West~
-ToRoom     3041
-Key        3133
-Desc       You see the city gate.
+Direction west~
+ToRoom    3041
+Key       3133
+Desc      You see the city gate.
 ~
-Keywords   gate~
-Flags      isdoor~
+Keywords  gate~
+Flags     isdoor~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  bridge footbridge~
-ExDesc     It is too high up to reach but it looks as if one easily could walk across it
+ExDescKey    bridge footbridge~
+ExDesc       It is too high up to reach but it looks as if one easily could walk across it
 from one tower to the other.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  gate~
-ExDesc     It is a set of very big double doors made from hard wood.  They have been
+ExDescKey    gate~
+ExDesc       It is a set of very big double doors made from hard wood.  They have been
 reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  tower towers~
-ExDesc     Both of the towers are built from large grey rocks that have been fastened to
+ExDescKey    tower towers~
+ExDesc       Both of the towers are built from large grey rocks that have been fastened to
 each other with some kind of mortar, just like the city wall.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  wall~
-ExDesc     It is built from large grey rocks that have been fastened to each other with
+ExDescKey    wall~
+ExDesc       It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3054
-Name       By the Temple Altar~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are by the temple altar in the northern end of the Temple of Midgaard.
+Vnum      3054
+Name      By the Temple Altar~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are by the temple altar in the northern end of the Temple of Midgaard.
 A huge altar made from white polished marble is standing in front of you and
 behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 To the north, steps lead out the back of the temple towards the countryside.
 ~
 #EXIT
-Direction  North~
-ToRoom     3059
-Desc       You see the vast Midgaard countryside.
+Direction north~
+ToRoom    3059
+Desc      You see the vast Midgaard countryside.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3001
-Desc       You see the southern end of the temple.
+Direction south~
+ToRoom    3001
+Desc      You see the southern end of the temple.
 ~
 #ENDEXIT
+
 #EXDESC
-ExDescKey  altar~
-ExDesc     Even though the altar is more than ten feet long it appears to be made from a
+ExDescKey    altar~
+ExDesc       Even though the altar is more than ten feet long it appears to be made from a
 single block of white virgin marble.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  statue odin king god~
-ExDesc     The statue represents the one-eyed Odin sitting on a his throne.  He has
+ExDescKey    statue odin king god~
+ExDesc       The statue represents the one-eyed Odin sitting on a his throne.  He has
 long, grey hair and beard and a strict look on his face.  On top of the
 throne, just above his shoulders, his two ravens Hugin and Munin are sitting
 and at his feet are his wolves Gere and Freke.
 ~
 #ENDEXDESC
+
 #ENDROOM
 
 #ROOM
-Vnum        3055
-Name       Odin's Store~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          This is the small dark room in which Odin keeps the player items that he
+Vnum      3055
+Name      Odin's Store~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This is the small dark room in which Odin keeps the player items that he
 takes care of.  It is vital that this room's virtual number is exactly one
 larger than the room by the temple altar.
 ~
 #ENDROOM
 
 #ROOM
-Vnum        3056
-Name       Uncle Juan's Eatery~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          This place makes your nose run just from the smell of the spicy food they
+Vnum      3056
+Name      Uncle Juan's Eatery~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      This place makes your nose run just from the smell of the spicy food they
 sell.  Spicy as it may be it still looks very tasty.  A box of taco shells
 is set on the counter.
    There is a large, friendly sign hanging on the wall here.
 ~
 #EXIT
-Direction  South~
-ToRoom     3046
-Desc       You see the eastern end of alley.
+Direction south~
+ToRoom    3046
+Desc      You see the eastern end of alley.
 ~
 #ENDEXIT
-Reset M    3008 1 3056 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  sign~
-ExDesc        It is a hand-written sign with large, friendly letters which say "If it
+ExDescKey    sign~
+ExDesc       It is a hand-written sign with large, friendly letters which say "If it
 ain't Uncle Juan's, it ain't any good!"
 ~
 #ENDEXDESC
+
+Reset M 3008 1 3056 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3058
-Name       Ye Olde Water Shoppe~
-Sector     indoors~
-Flags      indoors~
-Stats      0 0 0 0 0
-Desc          You are in Wally's World O' Water, whose proprietor, Wally, is sure to
+Vnum      3058
+Name      Ye Olde Water Shoppe~
+Sector    indoors~
+Flags     indoors~
+Stats     0 0 0 0 0
+Desc      You are in Wally's World O' Water, whose proprietor, Wally, is sure to
 have something to meet all of your water needs.
 ~
 #EXIT
-Direction  North~
-ToRoom     3041
-Desc       You see the East Gate.
+Direction north~
+ToRoom    3041
+Desc      You see the East Gate.
 ~
 #ENDEXIT
-Reset M    3009 1 3058 -1 -1 -1 100
+
+Reset M 3009 1 3058 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3059
-Name       Behind the Temple Altar~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are on a dirt path leading away from the Temple Altar which is south
+Vnum      3059
+Name      Behind the Temple Altar~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are on a dirt path leading away from the Temple Altar which is south
 of here.  To the north, the path continues through the lush contryside of
 Midgaard.
 ~
 #EXIT
-Direction  North~
-ToRoom     3060
-Desc       You see the lush, green countryside of Midgaard.
+Direction north~
+ToRoom    3060
+Desc      You see the lush, green countryside of Midgaard.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3054
-Desc       You see the Temple Altar.
+Direction south~
+ToRoom    3054
+Desc      You see the Temple Altar.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3060
-Name       The Great Field of Midgaard~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are walking on a wide dirt path through the lush, green, fresh
+Vnum      3060
+Name      The Great Field of Midgaard~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking on a wide dirt path through the lush, green, fresh
 Midgaard countryside.  You can see to the horizon to the north, east, and
 west; to busy city of Midgaard lies to the south.  All around you is healthy
 green grass and an occasional large oak tree.  The sun feels wonderful on
@@ -3457,26 +3645,28 @@ surrounded by powerful beauty in all directions.
 back to Midgaard.
 ~
 #EXIT
-Direction  North~
-ToRoom     3061
-Desc       You see more of the path through the Great Field.
+Direction north~
+ToRoom    3061
+Desc      You see more of the path through the Great Field.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3059
-Desc       You see the path which goes back to Midgaard.
+Direction south~
+ToRoom    3059
+Desc      You see the path which goes back to Midgaard.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3061
-Name       The Great Field of Midgaard~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are walking on a wide dirt path through the lush, green, fresh
+Vnum      3061
+Name      The Great Field of Midgaard~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are walking on a wide dirt path through the lush, green, fresh
 Midgaard countryside.  You can see to the horizon to the north, east, and
 west; to busy city of Midgaard lies to the south.  All around you is healthy
 green grass and an occasional large oak tree.  The sun feels wonderful on
@@ -3488,40 +3678,42 @@ surrounded by powerful beauty in all directions.
 through the Field.
 ~
 #EXIT
-Direction  North~
-ToRoom     12066
-Desc       You see a small clay path.
+Direction north~
+ToRoom    12066
+Desc      You see a small clay path.
 ~
 #ENDEXIT
+
 #EXIT
-Direction  South~
-ToRoom     3060
-Desc       You see more of the Field.
+Direction south~
+ToRoom    3060
+Desc      You see more of the Field.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3062
-Name       The Post Office~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are in the central post office for Midgaard.  Piles of assorted mail lay
+Vnum      3062
+Name      The Post Office~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are in the central post office for Midgaard.  Piles of assorted mail lay
 untouched in the corners, collecting cobwebs.  Several large crates have been
 pried open by curious customs agents, and are now stacked along the west wall,
 hiding plenty of 'WANTED' posters.
    There is a sign posted on the wall here.
 ~
 #EXIT
-Direction  South~
-ToRoom     3006
-Desc       You see the entrance to the Grunting Boar Inn and Tavern.~
+Direction south~
+ToRoom    3006
+Desc      You see the entrance to the Grunting Boar Inn and Tavern.~
 #ENDEXIT
-Reset M    3010 1 3062 -1 -1 -1 100
+
 #EXDESC
-ExDescKey  sign~
-ExDesc     **********************************************************
+ExDescKey    sign~
+ExDesc       **********************************************************
 *     							 *
 *    Mail Instructions :                                 *
 *							 *
@@ -3539,71 +3731,79 @@ ExDesc     **********************************************************
 **********************************************************
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  mail assorted~
-ExDesc     Envelopes of all sizes are heaped into hugh piles around the room.  As you look
+ExDescKey    mail assorted~
+ExDesc       Envelopes of all sizes are heaped into hugh piles around the room.  As you look
 closer, you see a letter that you had posted a full week ago, laying unnoticed
 and slightly rat-chewed towards the bottom of the pile.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  cobwebs~
-ExDesc     They seem to cover everything here, even the Postmaster himself.
+ExDescKey    cobwebs~
+ExDesc       They seem to cover everything here, even the Postmaster himself.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  crates opened large~
-ExDesc     As you know, it is illegal to send contraband items through the Midgaard mail.
+ExDescKey    crates opened large~
+ExDesc       As you know, it is illegal to send contraband items through the Midgaard mail.
 The custom's agents use this as a great excuse to seize liquor, rare spices,
 and just about anything they might find useful or profitable.
 ~
 #ENDEXDESC
+
 #EXDESC
-ExDescKey  WANTED posters poster wall~
-ExDesc     Faces of various known Killers and Thieves can barely be seen behind the crates
+ExDescKey    WANTED posters poster wall~
+ExDesc       Faces of various known Killers and Thieves can barely be seen behind the crates
 on the west wall.  Some of them look quite familar, sorta like that guy who you
 saw in the Reception a minute ago...but then again, they are rather hard to see
 past the crates.
 ~
 #ENDEXDESC
+
+Reset M 3010 1 3062 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum        3063
-Name       Midgaard Donation Room~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc          You are in a small, undecorated room just off of the main temple.  There
+Vnum      3063
+Name      Midgaard Donation Room~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are in a small, undecorated room just off of the main temple.  There
 are a couple of small wooden benches here where people occasionally sit
 while they wait for items to appear.  The temple is to the west.
 ~
 #EXIT
-Direction  West~
-ToRoom     3001
-Desc       The busy temple is back west.
+Direction west~
+ToRoom    3001
+Desc      The busy temple is back west.
 ~
 #ENDEXIT
+
 #ENDROOM
 
 #ROOM
-Vnum        3064
-Name       The Cryogenic Center~
-Sector     city~
-Flags      ~
-Stats      0 0 0 0 0
-Desc           You are standing in an impossible white sterile room with cylindrical
+Vnum      3064
+Name      The Cryogenic Center~
+Sector    city~
+Flags     ~
+Stats     0 0 0 0 0
+Desc      You are standing in an impossible white sterile room with cylindrical
 body-length canisters lined up against the walls.  The Reception is to the
 south.
 ~
 #EXIT
-Direction  South~
-ToRoom     3008
-Desc       The Reception is to the south.
+Direction south~
+ToRoom    3008
+Desc      The Reception is to the south.
 ~
 #ENDEXIT
-Reset M    3095 1 3064 -1 -1 -1 100
-  Reset E  3022 100 16 100
+
+Reset M 3095 1 3064 -1 -1 -1 100
+  Reset E 3022 100 16 100
 #ENDROOM
 
 #ENDAREA

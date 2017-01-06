@@ -46,3 +46,15 @@ Name 96-41-248-102.dhcp.eucl.wi.charter.com
 Time 1483562356
 End
 
+#CACHE
+IP   24.158.187.143
+Name 24-158-187-143.dhcp.jcsn.tn.charter.com
+Time 1483624711
+End
+
+#CACHE
+IP   107.107.61.61
+Name mobile-107-107-61-61.mycingular.net
+Time 1483658300
+End
+

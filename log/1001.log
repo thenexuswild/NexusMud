@@ -1,0 +1,1322 @@
+Fri Jan 6, 2017 4:35:20 PM EST :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Fri Jan 6, 2017 4:35:20 PM EST :: Database bootup starting.
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading sysdata configuration...
+Fri Jan 6, 2017 4:35:20 PM EST :: Initializing libdl support...
+Fri Jan 6, 2017 4:35:20 PM EST :: Verifying existence of login greeting...
+Fri Jan 6, 2017 4:35:20 PM EST :: Login greeting located.
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading commands...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading spec_funs...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading helps...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading channels...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading overland maps...
+Fri Jan 6, 2017 4:35:20 PM EST :: Initializing map grid array....
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading continent of One.....
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading overland map exits....
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading overland landmarks....
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading landing sites....
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading socials...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading skill table...
+Fri Jan 6, 2017 4:35:20 PM EST :: Sorting skill table...
+Fri Jan 6, 2017 4:35:20 PM EST :: Remapping slots to sns...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading classes
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading races
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading Connection History
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading liquid table
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading mixture table
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading herb table
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading tongues
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading quest bit tables
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: load_abits: Cannot open abit file.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: load_qbits: Cannot open qbit file.
+Fri Jan 6, 2017 4:35:20 PM EST :: Initializing random number generator
+Fri Jan 6, 2017 4:35:20 PM EST :: Setting Astral Walk target room
+Fri Jan 6, 2017 4:35:20 PM EST :: Setting time and weather
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading holiday chart...
+Fri Jan 6, 2017 4:35:20 PM EST :: Assigning gsn's
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading DNS cache...
+Fri Jan 6, 2017 4:35:20 PM EST :: Loading slay table...
+Fri Jan 6, 2017 4:35:20 PM EST :: Reading in area files...
+Fri Jan 6, 2017 4:35:20 PM EST :: void.are            : Version 1   Vnums: 11000 - 11999
+Fri Jan 6, 2017 4:35:20 PM EST :: entry.are           : Version 1   Vnums:   100 - 199  
+Fri Jan 6, 2017 4:35:20 PM EST :: astral.are          : Version 1   Vnums:  4350 - 4449 
+Fri Jan 6, 2017 4:35:20 PM EST :: MuseumoftheGods.are : Version 1   Vnums: 24200 - 24370
+Fri Jan 6, 2017 4:35:20 PM EST :: Nexus.are           : Version 1   Vnums:  1000 - 1199 
+Fri Jan 6, 2017 4:35:20 PM EST :: Cyberia.are         : Version 1   Vnums:  8500 - 8662 
+Fri Jan 6, 2017 4:35:20 PM EST :: NewbieSchool.are    : Version 1   Vnums:   600 - 618  
+Fri Jan 6, 2017 4:35:20 PM EST :: Sewer.are           : Version 1   Vnums:  7000 - 7099 
+Fri Jan 6, 2017 4:35:20 PM EST :: MudSchool.are       : Version 1   Vnums:  1500 - 1560 
+Fri Jan 6, 2017 4:35:20 PM EST :: ShireVillage.are    : Version 1   Vnums:  1600 - 1656 
+Fri Jan 6, 2017 4:35:20 PM EST :: CrystalCaves.are    : Version 1   Vnums: 18000 - 18400
+Fri Jan 6, 2017 4:35:20 PM EST :: BloomCounty.are     : Version 1   Vnums:  1700 - 1739 
+Fri Jan 6, 2017 4:35:20 PM EST :: MidenNir.are        : Version 1   Vnums:  3500 - 3522 
+Fri Jan 6, 2017 4:35:20 PM EST :: CastleMistamere.are : Version 1   Vnums:  2000 - 2053 
+Fri Jan 6, 2017 4:35:20 PM EST :: Aerie.are           : Version 1   Vnums:  6100 - 6155 
+Fri Jan 6, 2017 4:35:20 PM EST :: Midgaard.are        : Version 1   Vnums:  3000 - 3099 
+Fri Jan 6, 2017 4:35:20 PM EST :: SouthMidgaard.are   : Version 1   Vnums:  3100 - 3301 
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6012.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 461
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6012 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 706
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6014.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 707
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6014 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6014.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 748
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6014 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6014.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 790
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6014 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6000.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 850
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'E': object 6000 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6001.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 851
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'E': object 6001 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6002.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 852
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'E': object 6002 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6003.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 890
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6003 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6006.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 891
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6006 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6003.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 891
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6003 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6004.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 892
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6004 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6005.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 893
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6005 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6007.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 894
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6007 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6005.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 894
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6005 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6013.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 895
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6013 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 986
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1021
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6014.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1022
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6014 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6014.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1065
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6014 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1102
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1143
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1179
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1259
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1260
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6024.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1422
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6024 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6010.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1423
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6010 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6015.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1521
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6015 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6024.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1523
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6024 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6017.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1582
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6017 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6018.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1583
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6018 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6017.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1583
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6017 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6019.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1584
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6019 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6017.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1584
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6017 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6015.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1638
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6015 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6021.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1937
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6021 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6022.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1938
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6022 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6021.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1938
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6021 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6022.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1939
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6022 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6021.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1939
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6021 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6022.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1940
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': object 6022 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6021.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 1940
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'P': destination object 6021 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6016.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2000
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6016 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2058
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2136
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2139
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2244
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6020.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2320
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6020 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2381
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2416
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2466
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6023.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2510
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'G': object 6023 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BUG: get_obj_index: bad vnum 6011.
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] FILE: Haon-Dor.are LINE: 2830
+Fri Jan 6, 2017 4:35:20 PM EST :: [*****] BOOT: load_reset: Haon-Dor.are (1) 'O': object 6011 doesn't exist.
+Fri Jan 6, 2017 4:35:20 PM EST :: Haon-Dor.are        : Version 1   Vnums:  6000 - 6092 
+Fri Jan 6, 2017 4:35:20 PM EST :: 100acre.are         : Version 1   Vnums:  1800 - 1999 
+Fri Jan 6, 2017 4:35:20 PM EST :: Gwyn2.are           : Version 1   Vnums:  2850 - 2955 
+Fri Jan 6, 2017 4:35:20 PM EST :: chessboard67.are    : Version 1   Vnums:  6700 - 6769 
+Fri Jan 6, 2017 4:35:20 PM EST :: Arachnos.are        : Version 1   Vnums:  6300 - 6399 
+Fri Jan 6, 2017 4:35:20 PM EST :: rtower.are          : Version 1   Vnums:  7700 - 7799 
+Fri Jan 6, 2017 4:35:20 PM EST :: MythicTarot.are     : Version 1   Vnums: 42000 - 43990
+Fri Jan 6, 2017 4:35:20 PM EST :: one.are             : Version 1   Vnums: 50000 - 50499
+Fri Jan 6, 2017 4:35:20 PM EST :: immtrain.are        : Version 1   Vnums: 21100 - 21299
+Fri Jan 6, 2017 4:35:20 PM EST :: CircesTower.are     : Version 1   Vnums:  9100 - 9344 
+Fri Jan 6, 2017 4:35:20 PM EST :: ArabianNights.are   : Version 1   Vnums:  5000 - 5199 
+Fri Jan 6, 2017 4:35:20 PM EST :: DeathQuest.are      : Version 1   Vnums:  8000 - 8093 
+Fri Jan 6, 2017 4:35:20 PM EST :: EmeraldWaterfall.are: Version 1   Vnums: 10000 - 10099
+Fri Jan 6, 2017 4:35:20 PM EST :: CelestialKingdom.are: Version 1   Vnums: 10700 - 10798
+Fri Jan 6, 2017 4:35:20 PM EST :: BambooForestandIshikawaRiver.are: Version 1   Vnums: 10800 - 10890
+Fri Jan 6, 2017 4:35:20 PM EST :: NakaminatoVillage.are: Version 1   Vnums: 10900 - 10999
+Fri Jan 6, 2017 4:35:20 PM EST :: ThreeMusketeers.are : Version 1   Vnums: 12500 - 12675
+Fri Jan 6, 2017 4:35:20 PM EST :: VampireQuest.are    : Version 1   Vnums: 16000 - 16063
+Fri Jan 6, 2017 4:35:20 PM EST :: FatherTimesTimeline.are: Version 1   Vnums: 20000 - 20199
+Fri Jan 6, 2017 4:35:20 PM EST :: DwarvenKingdom.are  : Version 1   Vnums:  6500 - 6553 
+Fri Jan 6, 2017 4:35:20 PM EST :: galaxy.are          : Version 1   Vnums:  5701 - 5771 
+Fri Jan 6, 2017 4:35:20 PM EST :: mahntor.are         : Version 1   Vnums:  2300 - 2399 
+Fri Jan 6, 2017 4:35:20 PM EST :: BardicColleges.are  : Version 1   Vnums:   700 - 944  
+Fri Jan 6, 2017 4:35:20 PM EST :: seaelf.are          : Version 1   Vnums:  8100 - 8206 
+Fri Jan 6, 2017 4:35:20 PM EST :: Rome.are            : Version 1   Vnums: 12000 - 12106
+Fri Jan 6, 2017 4:35:20 PM EST :: Outpost2.are        : Version 1   Vnums: 44000 - 46410
+Fri Jan 6, 2017 4:35:20 PM EST :: DrowCity.are        : Version 1   Vnums: 51000 - 51500
+Fri Jan 6, 2017 4:35:20 PM EST :: japan.are           : Version 1   Vnums: 10300 - 10399
+Fri Jan 6, 2017 4:35:20 PM EST :: fuedal.are          : Version 1   Vnums: 10400 - 10757
+Fri Jan 6, 2017 4:35:20 PM EST :: SDoShuttles.are     : Version 1   Vnums: 25100 - 25125
+Fri Jan 6, 2017 4:35:20 PM EST :: NexusColisevm.are   : Version 1   Vnums: 23900 - 23999
+Fri Jan 6, 2017 4:35:20 PM EST :: TriTeqFactoryOutlet.are: Version 1   Vnums: 65000 - 65058
+Fri Jan 6, 2017 4:35:20 PM EST :: TriTeqIndustries.are: Version 1   Vnums: 26000 - 26190
+Fri Jan 6, 2017 4:35:20 PM EST :: Arena.are           : Version 1   Vnums: 23800 - 23899
+Fri Jan 6, 2017 4:35:20 PM EST :: Camelot.are         : Version 1   Vnums: 27000 - 28930
+Fri Jan 6, 2017 4:35:21 PM EST :: Hightower.are       : Version 1   Vnums:  1300 - 1499 
+Fri Jan 6, 2017 4:35:21 PM EST :: SeigedCastle.are    : Version 1   Vnums: 14600 - 14698
+Fri Jan 6, 2017 4:35:21 PM EST :: Deadwood.are        : Version 1   Vnums:  5900 - 5994 
+Fri Jan 6, 2017 4:35:21 PM EST :: Abyss.are           : Version 1   Vnums:  5800 - 5898 
+Fri Jan 6, 2017 4:35:21 PM EST :: Cemetary.are        : Version 1   Vnums:  3400 - 3489 
+Fri Jan 6, 2017 4:35:21 PM EST :: Clan_Asteroid.are   : Version 1   Vnums: 21500 - 21599
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading ships...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading runes...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading runewords...
+Fri Jan 6, 2017 4:35:21 PM EST :: Fixing exits...
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 6082, exit west leads to bad vnum (-1)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 6082
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 27052.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 9125, exit north leads to bad vnum (27052)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 9125
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 10938, exit west leads to bad vnum (-1)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 10938
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 12035, exit south leads to bad vnum (-1)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting south exit in room 12035
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 3550.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 18000, exit east leads to bad vnum (3550)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 18000
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20081, exit north leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 20081
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20091, exit west leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 20091
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20095, exit east leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 20095
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20098, exit south leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting south exit in room 20098
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20103, exit west leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 20103
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20112, exit east leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 20112
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20137, exit west leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 20137
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 20138, exit east leads to bad vnum (0)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 20138
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 24900.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 26000, exit up leads to bad vnum (24900)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting up exit in room 26000
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 301.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 26101, exit north leads to bad vnum (301)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 26101
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 27350.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 27170, exit west leads to bad vnum (27350)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 27170
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 27350.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 27330, exit east leads to bad vnum (27350)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 27330
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 43130, exit north leads to bad vnum (69)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 43130
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 43130, exit east leads to bad vnum (69)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 43130
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 43130, exit south leads to bad vnum (69)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting south exit in room 43130
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 43130, exit west leads to bad vnum (69)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 43130
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 4480.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 44810, exit north leads to bad vnum (4480)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 44810
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 46400, exit down leads to bad vnum (69)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting down exit in room 46400
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 4559.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 65020, exit north leads to bad vnum (4559)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 65020
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 24900.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 65035, exit north leads to bad vnum (24900)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 65035
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 2500.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 65042, exit north leads to bad vnum (2500)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 65042
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 7000.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 65045, exit west leads to bad vnum (7000)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 65045
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: get_room_index: bad vnum 4000.
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BOOT: fix_exits: room 65055, exit up leads to bad vnum (4000)
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: fix_exits: Deleting up exit in room 65055
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading prototype area files...
+Fri Jan 6, 2017 4:35:21 PM EST :: Fixing prototype zone exits...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading clans...
+Fri Jan 6, 2017 4:35:21 PM EST :: ../clans/test
+Fri Jan 6, 2017 4:35:21 PM EST :: Storeroom not found
+Fri Jan 6, 2017 4:35:21 PM EST :: $
+Fri Jan 6, 2017 4:35:21 PM EST :: Cleaning up clan data...
+Fri Jan 6, 2017 4:35:21 PM EST :: Checking data for Test.....
+Fri Jan 6, 2017 4:35:21 PM EST :: Done clans
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading realms...
+Fri Jan 6, 2017 4:35:21 PM EST :: $
+Fri Jan 6, 2017 4:35:21 PM EST :: Cleaning up realm data...
+Fri Jan 6, 2017 4:35:21 PM EST :: Done realms
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading deities...
+Fri Jan 6, 2017 4:35:21 PM EST :: Done deities
+Fri Jan 6, 2017 4:35:21 PM EST :: Counting pfiles.....
+Fri Jan 6, 2017 4:35:21 PM EST :: Pfile count completed.
+Fri Jan 6, 2017 4:35:21 PM EST :: Total pfiles scanned: 12
+Fri Jan 6, 2017 4:35:21 PM EST :: Total exempted pfiles: 0
+Fri Jan 6, 2017 4:35:21 PM EST :: Updating rare item counts.....
+Fri Jan 6, 2017 4:35:21 PM EST :: Checking player files....
+Fri Jan 6, 2017 4:35:21 PM EST :: Checking corpses....
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading corpses...
+Fri Jan 6, 2017 4:35:21 PM EST :: Making wizlist
+Fri Jan 6, 2017 4:35:21 PM EST :: Building wizinfo
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading MSSP Data...
+Fri Jan 6, 2017 4:35:21 PM EST :: Initializing area reset events...
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6012.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6000.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6001.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6002.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6003.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6004.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6005.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6013.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6024.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6010.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6015.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6024.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6017.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6015.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6021.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6016.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6020.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'E' or 'G': bad obj vnum 6023.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading auction sales list...
+Fri Jan 6, 2017 4:35:21 PM EST :: No sales file found.
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading auction houses...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading clan/guild shops...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading boards...
+Fri Jan 6, 2017 4:35:21 PM EST :: ../boards/Mortal.board
+Fri Jan 6, 2017 4:35:21 PM EST :: ../boards/Imm.board
+Fri Jan 6, 2017 4:35:21 PM EST :: ../boards/Bug.board
+Fri Jan 6, 2017 4:35:21 PM EST :: Starting board pruning...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading bans...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading auth namelist...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading Immortal Hosts...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading Projects...
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading login messages...
+Fri Jan 6, 2017 4:35:21 PM EST :: [*****] BUG: load_loginmsg: # not found. 
+Fri Jan 6, 2017 4:35:21 PM EST :: Obtained 7 stack frames.
+Fri Jan 6, 2017 4:35:21 PM EST :: load_loginmsg()
+Fri Jan 6, 2017 4:35:21 PM EST :: boot_db(bool)
+Fri Jan 6, 2017 4:35:21 PM EST :: init_mud(bool, int, int, int)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud(main+0x16b)
+Fri Jan 6, 2017 4:35:21 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:35:21 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading Morphs...
+Fri Jan 6, 2017 4:35:21 PM EST :: Done.
+Fri Jan 6, 2017 4:35:21 PM EST :: Loading weather vector data...
+Fri Jan 6, 2017 4:35:21 PM EST :: Initializing area weather data...
+Fri Jan 6, 2017 4:35:21 PM EST :: Area weather data initialized.
+Fri Jan 6, 2017 4:35:21 PM EST :: Registering chess packet handler...
+Fri Jan 6, 2017 4:35:21 PM EST :: Database bootup completed.
+Fri Jan 6, 2017 4:35:21 PM EST :: Initializing main socket
+Fri Jan 6, 2017 4:35:21 PM EST :: Main socket initialized
+Fri Jan 6, 2017 4:35:21 PM EST :: Nexus ready on port 9500.
+Fri Jan 6, 2017 4:35:21 PM EST :: IMC: Loading IMC2 command table...
+Fri Jan 6, 2017 4:35:21 PM EST :: IMC: Loading IMC2 network data...
+Fri Jan 6, 2017 4:35:21 PM EST :: IMC: Loading IMC2 help file...
+Fri Jan 6, 2017 4:35:21 PM EST :: IMC: Loading IMC2 color table...
+Fri Jan 6, 2017 4:35:21 PM EST :: IMC: IMC2 network data loaded. Autoconnect not set. IMC2 will need to be connected manually.
+Fri Jan 6, 2017 4:35:21 PM EST :: No people online yet. Suspending autonomous update handlers.
+Fri Jan 6, 2017 4:35:25 PM EST :: Waking up autonomous update handlers.
+Fri Jan 6, 2017 4:35:27 PM EST :: Incoming connection: 192.168.0.5, port 52301.
+Fri Jan 6, 2017 4:35:27 PM EST :: Preloading player data for: Wild
+Fri Jan 6, 2017 4:35:30 PM EST :: Loading player data for Wild (18K)
+Fri Jan 6, 2017 4:35:30 PM EST :: Wild [192.168.0.5] has connected.
+Fri Jan 6, 2017 4:35:31 PM EST :: Cmud client detected for Wild.
+Fri Jan 6, 2017 4:35:31 PM EST :: MCCP support detected for Wild.
+Fri Jan 6, 2017 4:35:31 PM EST :: MSP support detected for Wild.
+Fri Jan 6, 2017 4:35:31 PM EST :: Wild returns from beyond the void.
+Fri Jan 6, 2017 4:41:28 PM EST :: Incoming connection: ds.erionmud.net, port 42175.
+Fri Jan 6, 2017 4:41:28 PM EST :: Preloading player data for: Kord
+Fri Jan 6, 2017 4:41:31 PM EST :: Loading player data for Kord (14K)
+Fri Jan 6, 2017 4:41:31 PM EST :: Kord [ds.erionmud.net] has connected.
+Fri Jan 6, 2017 4:41:32 PM EST :: Tinyfugue client detected for Kord.
+Fri Jan 6, 2017 4:41:32 PM EST :: MCCP support detected for Kord.
+Fri Jan 6, 2017 4:41:32 PM EST :: Kord returns from beyond the void.
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6012.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6003.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6004.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6005.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6013.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6010.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6015.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6017.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6015.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6021.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6016.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6020.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:46:36 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:46:36 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:46:36 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:46:36 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:46:36 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:46:36 PM EST :: game_loop()
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:46:36 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:46:36 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6012.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6003.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6004.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6005.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6013.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6014.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6010.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6015.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6017.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6015.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6021.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6016.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6020.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 4:54:17 PM EST :: [*****] BUG: reset: Haon-Dor.are: 'O': bad obj vnum 6011.
+Fri Jan 6, 2017 4:54:17 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 4:54:17 PM EST :: room_index::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: area_data::reset()
+Fri Jan 6, 2017 4:54:17 PM EST :: ev_area_reset(void*)
+Fri Jan 6, 2017 4:54:17 PM EST :: run_events(long)
+Fri Jan 6, 2017 4:54:17 PM EST :: game_loop()
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 4:54:17 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 4:54:17 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 5:13:15 PM EST :: Log Wild: shutdown mud now
+Fri Jan 6, 2017 5:13:15 PM EST :: Saving players....
+Fri Jan 6, 2017 5:13:15 PM EST :: Wild saved.
+Fri Jan 6, 2017 5:13:15 PM EST :: Kord saved.
+Fri Jan 6, 2017 5:13:15 PM EST :: Saving game world time....
+Fri Jan 6, 2017 5:13:15 PM EST :: Normal termination of game.
+Fri Jan 6, 2017 5:13:15 PM EST :: Cleaning up Memory.&d
+Fri Jan 6, 2017 5:13:16 PM EST :: No more people online. Autonomous actions suspended.
+IMC2 Data.
+Quote List.
+Random Environment Data.
+Auction Sale Data.
+Project Data.
+Ban Data.
+Auth List.
+Morph Data.
+Rune Data.
+Immortal Hosts Data.
+Connection History Data.
+Slay Table.
+Holidays.
+Specfun List.
+Wizinfo Data.
+Skyship landings.
+Ships.
+Overland Landmarks.
+Overland Exits.
+Mixtures and Liquids.
+DNS Cache data.
+Local Channels.
+Helps.
+Commands.
+Socials.
+Languages.
+Boards.
+Events.
+Ending chess games.
+Whacking supermob.
+Characters.
+Objects.
+Descriptors.
+Deities.
+Clans.
+Realms.
+Races.
+Classes.
+Teleport Data.
+Area Data Tables.
+Auction.
+Title table.
+Skills and Herbs.
+Mudprog act lists.
+Abit/Qbit Data.
+Checking string hash for leftovers.
+System data.
+Memory cleanup complete, exiting.

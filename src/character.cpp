@@ -3603,7 +3603,7 @@ void char_data::extract( bool fPull )
 
       if( obj->ego >= sysdata->minego && this->in_room->flags.test( ROOM_DEATH ) )
          obj->pIndexData->count += obj->count;
-
+/*
       if( !fPull && obj->extra_flags.test( ITEM_PERMANENT ) )
       {
          if( obj->wear_loc != WEAR_NONE )
@@ -3611,6 +3611,16 @@ void char_data::extract( bool fPull )
       }
       else
          obj->extract(  );
+*/
+      if( !fPull ) {
+	switch(obj->item_type) {
+	  case ITEM_WEAPON: obj->value[6] = 1; break;
+	  case ITEM_MISSILE_WEAPON: obj->value[6] = 1; break;
+	  case ITEM_PROJECTILE: obj->value[5] = 1; break;
+	  case ITEM_ARMOR:  obj->value[0] = 1; break;
+	  default: break;
+        }
+      }
    }
 
    room_index *dieroom = this->in_room;   /* Added for checking where to send you at death - Samson */

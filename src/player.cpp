@@ -1996,7 +1996,7 @@ CMDF( do_score )
    
    //if ( capitalize( npc_race[ch->race] == "Monk")
    if( ch->Class == CLASS_MONK )
-       ch->printf( "Barehand Damage: %d d %d \r\n", ch->barenumdie, ch->baresizedie);
+       ch->printf( "%sBarehand Damage: %d d %d \r\n", s2, ch->barenumdie, ch->baresizedie);
    
    ch->printf( "%sYou are %s.\r\n", s2, npc_position[ch->position] );
 
