@@ -1,22 +1,4 @@
 #CONN
-User   Krug
-Host   193.198.26.245
-When   01/04 14:16
-Level  2
-Type   0
-Invis  0
-End
-
-#CONN
-User   Aleccia
-Host   96-41-248-102.dhcp.eucl.wi.charter.com
-When   01/04 15:39
-Level  0
-Type   0
-Invis  0
-End
-
-#CONN
 User   Aleccia
 Host   96-41-248-102.dhcp.eucl.wi.charter.com
 When   01/04 15:52
@@ -263,6 +245,24 @@ End
 User   Kord
 Host   ds.erionmud.net
 When   01/06 17:46
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 22:33
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Kord
+Host   ds.erionmud.net
+When   01/06 22:35
 Level  115
 Type   0
 Invis  0

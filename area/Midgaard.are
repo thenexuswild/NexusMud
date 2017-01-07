@@ -1288,7 +1288,7 @@ Flags     magic~
 WFlags    take hold~
 Values    12 2 2 -1 0 0 0 0 0 0 0
 Stats     2 1000 0 9999 0 None None None
-Spells       'reserved'
+Spells       'NONE'
 #EXDESC
 ExDescKey    wand~
 ExDesc       The wand is an old dark stick.  You notice a small symbol etched at the
@@ -1313,7 +1313,7 @@ Flags     magic~
 WFlags    take hold~
 Values    12 1 1 -1 0 0 0 0 0 0 0
 Stats     17 5000 0 9999 0 None None None
-Spells       'reserved'
+Spells       'NONE'
 #EXDESC
 ExDescKey    staff~
 ExDesc       The staff is made of old oak, and is around five feet long. It fits
@@ -1341,7 +1341,7 @@ Flags     magic~
 WFlags    take hold~
 Values    10 8 8 -1 0 0 0 0 0 0 0
 Stats     7 3000 0 9999 0 None None None
-Spells       'reserved'
+Spells       'NONE'
 #EXDESC
 ExDescKey    staff~
 ExDesc       The staff is made of metals unknown to you.
@@ -2288,6 +2288,11 @@ Direction west~
 ToRoom    3013
 Desc      You see the main street.
 ~
+#ENDEXIT
+
+#EXIT
+Direction up~
+ToRoom    1000
 #ENDEXIT
 
 #EXDESC

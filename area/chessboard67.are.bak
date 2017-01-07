@@ -10,8 +10,8 @@ Dates           754272000 1417996800
 Ranges          0 115 0 115
 ResetMsg        The pieces on the chessboard line up and prepare for another round.~
 ResetFreq       20
-Treasure        20 74 85 93 20 50 60 75
 Climate         2 2 2
+Treasure        20 74 85 93 20 50 60 75
 #ENDAREADATA
 
 #MOBILE
@@ -32,8 +32,7 @@ Stats1    -700 0 0 0 150 100
 Stats2    5 15 5 15 2 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
-Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
+Actflags  npc nowander stayarea~
 #ENDMOBILE
 
 #MOBILE
@@ -54,7 +53,7 @@ Stats1    -500 0 0 0 150 100
 Stats2    3 17 7 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -76,7 +75,7 @@ Stats1    -500 0 0 0 150 100
 Stats2    3 18 5 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -98,7 +97,7 @@ Stats1    -1000 500 0 0 150 100
 Stats2    8 10 1 24 3 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Affected  detect_invis~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
@@ -122,7 +121,7 @@ Stats1    -1000 1000 0 0 150 100
 Stats2    12 6 2 48 2 7 1
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Affected  detect_invis~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
@@ -146,7 +145,7 @@ Stats1    -400 0 0 0 150 100
 Stats2    1 20 9 1 1 5 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea wimpy nowander~
+Actflags  npc nowander stayarea wimpy~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -276,7 +275,6 @@ Speaks    common~
 Speaking  common~
 Actflags  npc scavenger stayarea~
 Affected  detect_invis~
-Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
@@ -298,14 +296,13 @@ Stats2    1 20 9 6 1 3 0
 Speaks    common~
 Speaking  common~
 Actflags  npc stayarea~
-Bodyparts head heart brains guts eye wings~
+Bodyparts guts head heart brains eye wings~
 #MUDPROG
 Progtype  rand_prog~
 Arglist   4~
 Comlist   mutter
 ~
 #ENDPROG
-
 #ENDMOBILE
 
 #MOBILE
@@ -350,7 +347,7 @@ Stats1    300 0 0 0 150 100
 Stats2    1 20 9 1 1 5 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea wimpy nowander~
+Actflags  npc nowander stayarea wimpy~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -373,9 +370,8 @@ Stats1    700 0 0 0 150 100
 Stats2    5 15 5 15 2 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Affected  detect_invis~
-Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
@@ -396,7 +392,7 @@ Stats1    600 0 0 0 150 100
 Stats2    3 17 7 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Affected  truesight~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
@@ -419,7 +415,7 @@ Stats1    500 0 0 0 150 100
 Stats2    3 18 5 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -441,7 +437,7 @@ Stats1    1000 500 0 0 150 100
 Stats2    8 10 1 24 3 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -464,7 +460,7 @@ Stats1    1000 1000 0 0 150 100
 Stats2    12 6 2 48 2 7 1
 Speaks    common~
 Speaking  common~
-Actflags  npc stayarea nowander~
+Actflags  npc nowander stayarea~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
@@ -510,7 +506,7 @@ Stats1    1000 0 0 0 150 100
 Stats2    7 14 4 14 2 4 2
 Speaks    common~
 Speaking  common~
-Actflags  npc wimpy immortal~
+Actflags  npc immortal wimpy~
 Affected  detect_invis detect_hidden sanctuary truesight~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
@@ -690,7 +686,7 @@ Stats2    1 20 9 1 1 4 0
 Speaks    common~
 Speaking  common~
 Actflags  npc stayarea wimpy~
-Bodyparts head legs heart brains guts feet eye wings feathers~
+Bodyparts guts wings head legs heart brains feet eye feathers~
 #ENDMOBILE
 
 #MOBILE
@@ -898,11 +894,6 @@ Direction south~
 ToRoom    6708
 Desc      The plaza continues onward.
 ~
-#ENDEXIT
-
-#EXIT
-Direction down~
-ToRoom    3500
 #ENDEXIT
 
 Reset M 6700 1 6700 -1 -1 -1 100
@@ -1189,6 +1180,7 @@ Desc      You see a wall sized mirror.
 ~
 #ENDEXIT
 
+Reset M 6708 1 6708 -1 -1 -1 100
 #EXDESC
 ExDescKey    mirror wall~
 ExDesc       You see your reflection, but superimposed on that is what looks like
@@ -1196,7 +1188,6 @@ a distant horizon.  Maybe you can enter this mirror?
 ~
 #ENDEXDESC
 
-Reset M 6708 1 6708 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
@@ -2093,14 +2084,14 @@ Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
+Reset M 6722 1 6730 -1 -1 -1 100
+Reset M 6722 1 6730 -1 -1 -1 100
 #EXDESC
 ExDescKey    statue unicorn~
 ExDesc       The statue says "Come to Unicorn Mount!"
 ~
 #ENDEXDESC
 
-Reset M 6722 1 6730 -1 -1 -1 100
-Reset M 6722 1 6730 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
@@ -3435,14 +3426,14 @@ Desc      You see the plaza.
 ~
 #ENDEXIT
 
+Reset M 6742 1 6765 -1 -1 -1 100
+  Reset G 6705 1 100
 #EXDESC
 ExDescKey    statues niches~
 ExDesc       The craftsmanship is almost beyond that of mortals.
 ~
 #ENDEXDESC
 
-Reset M 6742 1 6765 -1 -1 -1 100
-  Reset G 6705 1 100
 #ENDROOM
 
 #ROOM
@@ -3534,6 +3525,7 @@ Desc      Round and round she goes, where she stops....
 ~
 #ENDEXIT
 
+Reset D 6768 1 1 100 -2
 #EXDESC
 ExDescKey    writing wall~
 ExDesc       Adapted from the original SillyMUD area by Dwip, 12/2014.  In
@@ -3547,7 +3539,6 @@ come a long way since 1996.  We hope you will too.
 ~
 #ENDEXDESC
 
-Reset D 6768 1 1 100 -2
 #ENDROOM
 
 #ROOM

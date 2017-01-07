@@ -8,7 +8,7 @@ Continent       one~
 Coordinates     0 0
 Dates           0 0
 Ranges          0 0 0 0
-ResetMsg        You hear some animals in the woods.~
+ResetMsg        Please place message here~
 ResetFreq       13
 Flags           noscry~
 Treasure        20 74 85 93 20 50 60 75

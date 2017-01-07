@@ -376,11 +376,6 @@ Direction east~
 ToRoom    1701
 #ENDEXIT
 
-#EXIT
-Direction south~
-ToRoom    6090
-#ENDEXIT
-
 #ENDROOM
 
 #ROOM

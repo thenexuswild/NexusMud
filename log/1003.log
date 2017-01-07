@@ -262,3 +262,95 @@ Fri Jan 6, 2017 5:46:43 PM EST :: Kord [ds.erionmud.net] has connected.
 Fri Jan 6, 2017 5:46:44 PM EST :: Tinyfugue client detected for Kord.
 Fri Jan 6, 2017 5:46:44 PM EST :: MCCP support detected for Kord.
 Fri Jan 6, 2017 5:46:44 PM EST :: Kord returns from beyond the void.
+Fri Jan 6, 2017 5:49:55 PM EST :: Counting pfiles.....
+Fri Jan 6, 2017 5:49:55 PM EST :: Pfile count completed.
+Fri Jan 6, 2017 5:49:55 PM EST :: Total pfiles scanned: 12
+Fri Jan 6, 2017 5:49:55 PM EST :: Total exempted pfiles: 0
+Fri Jan 6, 2017 5:49:55 PM EST :: Checking daily rare items for players....
+Fri Jan 6, 2017 5:49:55 PM EST :: Daily rare item updates completed.
+Fri Jan 6, 2017 9:00:41 PM EST :: Log Wild: foldarea BloomCounty.are
+Fri Jan 6, 2017 9:00:41 PM EST :: Saving BloomCounty.are...
+Fri Jan 6, 2017 9:02:27 PM EST :: Log Wild: foldarea 100acre.are
+Fri Jan 6, 2017 9:02:27 PM EST :: Saving 100acre.are...
+Fri Jan 6, 2017 9:06:07 PM EST :: Log Wild: foldarea BloomCounty.are
+Fri Jan 6, 2017 9:06:07 PM EST :: Saving BloomCounty.are...
+Fri Jan 6, 2017 9:06:42 PM EST :: Log Wild: foldarea Haon-Dor.are
+Fri Jan 6, 2017 9:06:42 PM EST :: Saving Haon-Dor.are...
+Fri Jan 6, 2017 9:11:04 PM EST :: Log Wild: aset
+Fri Jan 6, 2017 9:11:25 PM EST :: Log Wild: aset on
+Fri Jan 6, 2017 9:14:58 PM EST :: Log Wild: aset Haon-Dor.are resetmsg You hear some animals in the woods.
+Fri Jan 6, 2017 9:16:20 PM EST :: Log Wild: foldarea Haon-Dor.are
+Fri Jan 6, 2017 9:16:20 PM EST :: Saving Haon-Dor.are...
+Fri Jan 6, 2017 9:46:21 PM EST :: Log Wild: foldarea MidenNir.are
+Fri Jan 6, 2017 9:46:21 PM EST :: Saving MidenNir.are...
+Fri Jan 6, 2017 9:46:48 PM EST :: Log Wild: foldarea chessboard67.are
+Fri Jan 6, 2017 9:46:48 PM EST :: Saving chessboard67.are...
+Fri Jan 6, 2017 10:07:39 PM EST :: Log Wild: foldarea Midgaard.are
+Fri Jan 6, 2017 10:07:39 PM EST :: Saving Midgaard.are...
+Fri Jan 6, 2017 10:08:17 PM EST :: Log Wild: foldarea MidenNir.are
+Fri Jan 6, 2017 10:08:17 PM EST :: Saving MidenNir.are...
+Fri Jan 6, 2017 10:17:11 PM EST :: Log Wild: rpedit
+Fri Jan 6, 2017 10:18:31 PM EST :: Log Wild: rpedit
+Fri Jan 6, 2017 10:18:53 PM EST :: Log Wild: rpedit edit 27
+Fri Jan 6, 2017 10:20:19 PM EST :: Log Wild: rpedit edit 27
+Fri Jan 6, 2017 10:21:21 PM EST :: Log Wild: rpedit edit 27
+Fri Jan 6, 2017 10:22:32 PM EST :: Log Wild: foldarea Nexus.are
+Fri Jan 6, 2017 10:22:32 PM EST :: Saving Nexus.are...
+Fri Jan 6, 2017 10:24:11 PM EST :: Log Wild: rpedit
+Fri Jan 6, 2017 10:24:47 PM EST :: Log Wild: rpedit delete 7
+Fri Jan 6, 2017 10:32:54 PM EST :: Log Wild: reboot mud now
+Fri Jan 6, 2017 10:32:54 PM EST :: Saving players....
+Fri Jan 6, 2017 10:32:54 PM EST :: Wild saved.
+Fri Jan 6, 2017 10:32:54 PM EST :: Kord saved.
+Fri Jan 6, 2017 10:32:54 PM EST :: Saving game world time....
+Fri Jan 6, 2017 10:32:54 PM EST :: Normal termination of game.
+Fri Jan 6, 2017 10:32:54 PM EST :: Cleaning up Memory.&d
+Fri Jan 6, 2017 10:32:54 PM EST :: No more people online. Autonomous actions suspended.
+IMC2 Data.
+Quote List.
+Random Environment Data.
+Auction Sale Data.
+Project Data.
+Ban Data.
+Auth List.
+Morph Data.
+Rune Data.
+Immortal Hosts Data.
+Connection History Data.
+Slay Table.
+Holidays.
+Specfun List.
+Wizinfo Data.
+Skyship landings.
+Ships.
+Overland Landmarks.
+Overland Exits.
+Mixtures and Liquids.
+DNS Cache data.
+Local Channels.
+Helps.
+Commands.
+Socials.
+Languages.
+Boards.
+Events.
+Ending chess games.
+Whacking supermob.
+Characters.
+Objects.
+Descriptors.
+Deities.
+Clans.
+Realms.
+Races.
+Classes.
+Teleport Data.
+Area Data Tables.
+Auction.
+Title table.
+Skills and Herbs.
+Mudprog act lists.
+Abit/Qbit Data.
+Checking string hash for leftovers.
+System data.
+Memory cleanup complete, exiting.

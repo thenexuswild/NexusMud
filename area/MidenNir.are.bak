@@ -122,6 +122,13 @@ ToRoom    3501
 #ENDEXIT
 
 #EXIT
+Direction east~
+ToRoom    1000
+Desc      You see a path and a large castle in the distance.
+~
+#ENDEXIT
+
+#EXIT
 Direction west~
 ToRoom    3503
 #ENDEXIT
