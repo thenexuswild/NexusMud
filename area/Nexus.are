@@ -6690,7 +6690,7 @@ and hps faster here.
 Direction west~
 ToRoom    1128
 #ENDEXIT
-Reset M 1047 2 1057 -1 -1 -1 100
+Reset M 1047 2 1157 -1 -1 -1 100
 
 #ENDROOM
 

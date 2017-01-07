@@ -1,0 +1,260 @@
+Sat Jan 7, 2017 3:29:11 PM EST :: Booting Database
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Sat Jan 7, 2017 3:29:11 PM EST :: [*****] BOOT: ---------------------[ Boot Log ]--------------------
+Sat Jan 7, 2017 3:29:11 PM EST :: Database bootup starting.
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading sysdata configuration...
+Sat Jan 7, 2017 3:29:11 PM EST :: Initializing libdl support...
+Sat Jan 7, 2017 3:29:11 PM EST :: Verifying existence of login greeting...
+Sat Jan 7, 2017 3:29:11 PM EST :: Login greeting located.
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading commands...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading spec_funs...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading helps...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading channels...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading overland maps...
+Sat Jan 7, 2017 3:29:11 PM EST :: Initializing map grid array....
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading continent of One.....
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading overland map exits....
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading overland landmarks....
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading landing sites....
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading socials...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading skill table...
+Sat Jan 7, 2017 3:29:11 PM EST :: Sorting skill table...
+Sat Jan 7, 2017 3:29:11 PM EST :: Remapping slots to sns...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading classes
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading races
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading Connection History
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading liquid table
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading mixture table
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading herb table
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading tongues
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading quest bit tables
+Sat Jan 7, 2017 3:29:11 PM EST :: [*****] BUG: load_abits: Cannot open abit file.
+Sat Jan 7, 2017 3:29:11 PM EST :: [*****] BUG: load_qbits: Cannot open qbit file.
+Sat Jan 7, 2017 3:29:11 PM EST :: Initializing random number generator
+Sat Jan 7, 2017 3:29:11 PM EST :: Setting Astral Walk target room
+Sat Jan 7, 2017 3:29:11 PM EST :: Setting time and weather
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading holiday chart...
+Sat Jan 7, 2017 3:29:11 PM EST :: Assigning gsn's
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading DNS cache...
+Sat Jan 7, 2017 3:29:11 PM EST :: Loading slay table...
+Sat Jan 7, 2017 3:29:11 PM EST :: Reading in area files...
+Sat Jan 7, 2017 3:29:11 PM EST :: void.are            : Version 1   Vnums: 11000 - 11999
+Sat Jan 7, 2017 3:29:11 PM EST :: entry.are           : Version 1   Vnums:   100 - 199  
+Sat Jan 7, 2017 3:29:11 PM EST :: astral.are          : Version 1   Vnums:  4350 - 4449 
+Sat Jan 7, 2017 3:29:11 PM EST :: MuseumoftheGods.are : Version 1   Vnums: 24200 - 24370
+Sat Jan 7, 2017 3:29:11 PM EST :: Nexus.are           : Version 1   Vnums:  1000 - 1199 
+Sat Jan 7, 2017 3:29:11 PM EST :: Cyberia.are         : Version 1   Vnums:  8500 - 8662 
+Sat Jan 7, 2017 3:29:11 PM EST :: NewbieSchool.are    : Version 1   Vnums:   600 - 618  
+Sat Jan 7, 2017 3:29:11 PM EST :: Sewer.are           : Version 1   Vnums:  7000 - 7099 
+Sat Jan 7, 2017 3:29:11 PM EST :: MudSchool.are       : Version 1   Vnums:  1500 - 1560 
+Sat Jan 7, 2017 3:29:11 PM EST :: ShireVillage.are    : Version 1   Vnums:  1600 - 1656 
+Sat Jan 7, 2017 3:29:11 PM EST :: CrystalCaves.are    : Version 1   Vnums: 18000 - 18400
+Sat Jan 7, 2017 3:29:11 PM EST :: BloomCounty.are     : Version 1   Vnums:  1700 - 1739 
+Sat Jan 7, 2017 3:29:11 PM EST :: MidenNir.are        : Version 1   Vnums:  3500 - 3522 
+Sat Jan 7, 2017 3:29:11 PM EST :: CastleMistamere.are : Version 1   Vnums:  2000 - 2053 
+Sat Jan 7, 2017 3:29:11 PM EST :: Aerie.are           : Version 1   Vnums:  6100 - 6155 
+Sat Jan 7, 2017 3:29:11 PM EST :: Midgaard.are        : Version 1   Vnums:  3000 - 3099 
+Sat Jan 7, 2017 3:29:11 PM EST :: SouthMidgaard.are   : Version 1   Vnums:  3100 - 3301 
+Sat Jan 7, 2017 3:29:11 PM EST :: Haon-Dor.are        : Version 1   Vnums:  6000 - 6092 
+Sat Jan 7, 2017 3:29:11 PM EST :: 100acre.are         : Version 1   Vnums:  1800 - 1999 
+Sat Jan 7, 2017 3:29:11 PM EST :: Gwyn2.are           : Version 1   Vnums:  2850 - 2955 
+Sat Jan 7, 2017 3:29:11 PM EST :: chessboard.are      : Version 1   Vnums:  6700 - 6769 
+Sat Jan 7, 2017 3:29:11 PM EST :: Arachnos.are        : Version 1   Vnums:  6300 - 6399 
+Sat Jan 7, 2017 3:29:11 PM EST :: rtower.are          : Version 1   Vnums:  7700 - 7799 
+Sat Jan 7, 2017 3:29:11 PM EST :: MythicTarot.are     : Version 1   Vnums: 42000 - 43990
+Sat Jan 7, 2017 3:29:11 PM EST :: one.are             : Version 1   Vnums: 50000 - 50499
+Sat Jan 7, 2017 3:29:11 PM EST :: immtrain.are        : Version 1   Vnums: 21100 - 21299
+Sat Jan 7, 2017 3:29:11 PM EST :: CircesTower.are     : Version 1   Vnums:  9100 - 9344 
+Sat Jan 7, 2017 3:29:11 PM EST :: ArabianNights.are   : Version 1   Vnums:  5000 - 5199 
+Sat Jan 7, 2017 3:29:11 PM EST :: DeathQuest.are      : Version 1   Vnums:  8000 - 8093 
+Sat Jan 7, 2017 3:29:11 PM EST :: EmeraldWaterfall.are: Version 1   Vnums: 10000 - 10099
+Sat Jan 7, 2017 3:29:11 PM EST :: CelestialKingdom.are: Version 1   Vnums: 10700 - 10798
+Sat Jan 7, 2017 3:29:11 PM EST :: BambooForestandIshikawaRiver.are: Version 1   Vnums: 10800 - 10890
+Sat Jan 7, 2017 3:29:11 PM EST :: NakaminatoVillage.are: Version 1   Vnums: 10900 - 10999
+Sat Jan 7, 2017 3:29:11 PM EST :: ThreeMusketeers.are : Version 1   Vnums: 12500 - 12675
+Sat Jan 7, 2017 3:29:11 PM EST :: VampireQuest.are    : Version 1   Vnums: 16000 - 16063
+Sat Jan 7, 2017 3:29:11 PM EST :: FatherTimesTimeline.are: Version 1   Vnums: 20000 - 20199
+Sat Jan 7, 2017 3:29:11 PM EST :: DwarvenKingdom.are  : Version 1   Vnums:  6500 - 6553 
+Sat Jan 7, 2017 3:29:11 PM EST :: galaxy.are          : Version 1   Vnums:  5701 - 5771 
+Sat Jan 7, 2017 3:29:11 PM EST :: mahntor.are         : Version 1   Vnums:  2300 - 2399 
+Sat Jan 7, 2017 3:29:11 PM EST :: BardicColleges.are  : Version 1   Vnums:   700 - 944  
+Sat Jan 7, 2017 3:29:11 PM EST :: seaelf.are          : Version 1   Vnums:  8100 - 8206 
+Sat Jan 7, 2017 3:29:11 PM EST :: Rome.are            : Version 1   Vnums: 12000 - 12106
+Sat Jan 7, 2017 3:29:11 PM EST :: Outpost2.are        : Version 1   Vnums: 44000 - 46410
+Sat Jan 7, 2017 3:29:11 PM EST :: DrowCity.are        : Version 1   Vnums: 51000 - 51500
+Sat Jan 7, 2017 3:29:11 PM EST :: japan.are           : Version 1   Vnums: 10300 - 10399
+Sat Jan 7, 2017 3:29:11 PM EST :: fuedal.are          : Version 1   Vnums: 10400 - 10757
+Sat Jan 7, 2017 3:29:11 PM EST :: SDoShuttles.are     : Version 1   Vnums: 25100 - 25125
+Sat Jan 7, 2017 3:29:11 PM EST :: NexusColisevm.are   : Version 1   Vnums: 23900 - 23999
+Sat Jan 7, 2017 3:29:11 PM EST :: TriTeqFactoryOutlet.are: Version 1   Vnums: 65000 - 65058
+Sat Jan 7, 2017 3:29:11 PM EST :: TriTeqIndustries.are: Version 1   Vnums: 26000 - 26190
+Sat Jan 7, 2017 3:29:11 PM EST :: Arena.are           : Version 1   Vnums: 23800 - 23899
+Sat Jan 7, 2017 3:29:11 PM EST :: Camelot.are         : Version 1   Vnums: 27000 - 28930
+Sat Jan 7, 2017 3:29:11 PM EST :: Hightower.are       : Version 1   Vnums:  1300 - 1499 
+Sat Jan 7, 2017 3:29:11 PM EST :: SeigedCastle.are    : Version 1   Vnums: 14600 - 14698
+Sat Jan 7, 2017 3:29:11 PM EST :: Deadwood.are        : Version 1   Vnums:  5900 - 5994 
+Sat Jan 7, 2017 3:29:12 PM EST :: Abyss.are           : Version 1   Vnums:  5800 - 5898 
+Sat Jan 7, 2017 3:29:12 PM EST :: Cemetary.are        : Version 1   Vnums:  3400 - 3489 
+Sat Jan 7, 2017 3:29:12 PM EST :: Clan_Asteroid.are   : Version 1   Vnums: 21500 - 21599
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading ships...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading runes...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading runewords...
+Sat Jan 7, 2017 3:29:12 PM EST :: Fixing exits...
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 27052.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 9125, exit north leads to bad vnum (27052)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 9125
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 10938, exit west leads to bad vnum (-1)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 10938
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 12035, exit south leads to bad vnum (-1)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting south exit in room 12035
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 3550.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 18000, exit east leads to bad vnum (3550)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 18000
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20081, exit north leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 20081
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20091, exit west leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 20091
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20095, exit east leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 20095
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20098, exit south leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting south exit in room 20098
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20103, exit west leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 20103
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20112, exit east leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 20112
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20137, exit west leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 20137
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 20138, exit east leads to bad vnum (0)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 20138
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 24900.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 26000, exit up leads to bad vnum (24900)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting up exit in room 26000
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 301.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 26101, exit north leads to bad vnum (301)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 26101
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 27350.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 27170, exit west leads to bad vnum (27350)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 27170
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 27350.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 27330, exit east leads to bad vnum (27350)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 27330
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 43130, exit north leads to bad vnum (69)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 43130
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 43130, exit east leads to bad vnum (69)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting east exit in room 43130
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 43130, exit south leads to bad vnum (69)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting south exit in room 43130
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 43130, exit west leads to bad vnum (69)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 43130
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 4480.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 44810, exit north leads to bad vnum (4480)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 44810
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 69.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 46400, exit down leads to bad vnum (69)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting down exit in room 46400
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 4559.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 65020, exit north leads to bad vnum (4559)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 65020
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 24900.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 65035, exit north leads to bad vnum (24900)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 65035
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 2500.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 65042, exit north leads to bad vnum (2500)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting north exit in room 65042
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 7000.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 65045, exit west leads to bad vnum (7000)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting west exit in room 65045
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: get_room_index: bad vnum 4000.
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BOOT: fix_exits: room 65055, exit up leads to bad vnum (4000)
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fix_exits: Deleting up exit in room 65055
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading prototype area files...
+Sat Jan 7, 2017 3:29:12 PM EST :: Fixing prototype zone exits...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading clans...
+Sat Jan 7, 2017 3:29:12 PM EST :: ../clans/test
+Sat Jan 7, 2017 3:29:12 PM EST :: Storeroom not found
+Sat Jan 7, 2017 3:29:12 PM EST :: $
+Sat Jan 7, 2017 3:29:12 PM EST :: Cleaning up clan data...
+Sat Jan 7, 2017 3:29:12 PM EST :: Checking data for Test.....
+Sat Jan 7, 2017 3:29:12 PM EST :: Done clans
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading realms...
+Sat Jan 7, 2017 3:29:12 PM EST :: $
+Sat Jan 7, 2017 3:29:12 PM EST :: Cleaning up realm data...
+Sat Jan 7, 2017 3:29:12 PM EST :: Done realms
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading deities...
+Sat Jan 7, 2017 3:29:12 PM EST :: Done deities
+Sat Jan 7, 2017 3:29:12 PM EST :: Counting pfiles.....
+Sat Jan 7, 2017 3:29:12 PM EST :: Pfile count completed.
+Sat Jan 7, 2017 3:29:12 PM EST :: Total pfiles scanned: 14
+Sat Jan 7, 2017 3:29:12 PM EST :: Total exempted pfiles: 0
+Sat Jan 7, 2017 3:29:12 PM EST :: Updating rare item counts.....
+Sat Jan 7, 2017 3:29:12 PM EST :: Checking player files....
+Sat Jan 7, 2017 3:29:12 PM EST :: Checking corpses....
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading corpses...
+Corpse -> ../corpses/Nani
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: fread_obj: Corpse without room
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] FILE: ../corpses/Nani LINE: 12
+Sat Jan 7, 2017 3:29:12 PM EST :: Making wizlist
+Sat Jan 7, 2017 3:29:12 PM EST :: Building wizinfo
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading MSSP Data...
+Sat Jan 7, 2017 3:29:12 PM EST :: Initializing area reset events...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading auction sales list...
+Sat Jan 7, 2017 3:29:12 PM EST :: No sales file found.
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading auction houses...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading clan/guild shops...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading boards...
+Sat Jan 7, 2017 3:29:12 PM EST :: ../boards/Mortal.board
+Sat Jan 7, 2017 3:29:12 PM EST :: ../boards/Imm.board
+Sat Jan 7, 2017 3:29:12 PM EST :: ../boards/Bug.board
+Sat Jan 7, 2017 3:29:12 PM EST :: Starting board pruning...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading bans...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading auth namelist...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading Immortal Hosts...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading Projects...
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading login messages...
+Sat Jan 7, 2017 3:29:12 PM EST :: [*****] BUG: load_loginmsg: # not found. 
+Sat Jan 7, 2017 3:29:12 PM EST :: Obtained 7 stack frames.
+Sat Jan 7, 2017 3:29:12 PM EST :: load_loginmsg()
+Sat Jan 7, 2017 3:29:12 PM EST :: boot_db(bool)
+Sat Jan 7, 2017 3:29:12 PM EST :: init_mud(bool, int, int, int)
+Sat Jan 7, 2017 3:29:12 PM EST :: ../src/afkmud(main+0x16b)
+Sat Jan 7, 2017 3:29:12 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Sat Jan 7, 2017 3:29:12 PM EST :: ../src/afkmud()
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading Morphs...
+Sat Jan 7, 2017 3:29:12 PM EST :: Done.
+Sat Jan 7, 2017 3:29:12 PM EST :: Loading weather vector data...
+Sat Jan 7, 2017 3:29:12 PM EST :: Initializing area weather data...
+Sat Jan 7, 2017 3:29:12 PM EST :: Area weather data initialized.
+Sat Jan 7, 2017 3:29:12 PM EST :: Registering chess packet handler...
+Sat Jan 7, 2017 3:29:12 PM EST :: Database bootup completed.
+Sat Jan 7, 2017 3:29:12 PM EST :: Initializing main socket
+Sat Jan 7, 2017 3:29:12 PM EST :: Main socket initialized
+Sat Jan 7, 2017 3:29:12 PM EST :: Nexus ready on port 9500.
+Sat Jan 7, 2017 3:29:12 PM EST :: IMC: Loading IMC2 command table...
+Sat Jan 7, 2017 3:29:12 PM EST :: IMC: Loading IMC2 network data...
+Sat Jan 7, 2017 3:29:12 PM EST :: IMC: Loading IMC2 help file...
+Sat Jan 7, 2017 3:29:12 PM EST :: IMC: Loading IMC2 color table...
+Sat Jan 7, 2017 3:29:12 PM EST :: IMC: IMC2 network data loaded. Autoconnect not set. IMC2 will need to be connected manually.
+Sat Jan 7, 2017 3:29:12 PM EST :: No people online yet. Suspending autonomous update handlers.
+Sat Jan 7, 2017 3:29:12 PM EST :: Waking up autonomous update handlers.
+Sat Jan 7, 2017 3:29:14 PM EST :: Incoming connection: 192.168.0.5, port 51614.
+Sat Jan 7, 2017 3:29:14 PM EST :: Preloading player data for: Wild
+Sat Jan 7, 2017 3:29:15 PM EST :: Loading player data for Wild (18K)
+Sat Jan 7, 2017 3:29:15 PM EST :: Wild [192.168.0.5] has connected.
+Sat Jan 7, 2017 3:29:17 PM EST :: Cmud client detected for Wild.
+Sat Jan 7, 2017 3:29:17 PM EST :: MCCP support detected for Wild.
+Sat Jan 7, 2017 3:29:17 PM EST :: MSP support detected for Wild.
+Sat Jan 7, 2017 3:29:17 PM EST :: Wild returns from beyond the void.
+Sat Jan 7, 2017 3:29:41 PM EST :: Incoming connection: 192.168.0.5, port 51624.
+Sat Jan 7, 2017 3:29:50 PM EST :: Incoming connection: 192.168.0.5, port 51624.
+Sat Jan 7, 2017 3:29:50 PM EST :: Preloading player data for: Testcleric
+Sat Jan 7, 2017 3:29:53 PM EST :: Loading player data for Testcleric (4K)
+Sat Jan 7, 2017 3:29:53 PM EST :: Testcleric [192.168.0.5] has connected.
+Sat Jan 7, 2017 3:29:54 PM EST :: Cmud client detected for Testcleric.
+Sat Jan 7, 2017 3:29:54 PM EST :: MCCP support detected for Testcleric.
+Sat Jan 7, 2017 3:29:54 PM EST :: MSP support detected for Testcleric.
+Sat Jan 7, 2017 3:29:54 PM EST :: Testcleric checks out of the inn.
+Sat Jan 7, 2017 3:33:30 PM EST :: Testcleric hit a DEATH TRAP in room 8104!
