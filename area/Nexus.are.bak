@@ -1741,13 +1741,19 @@ Then say "run <areaname>" to enter the world you would like to visit.  For examp
 say "run upper" to go to the Upper Bardic college.
 
 Avialable areas are:
-abyss, arabian, Upper bardic(upper), lower bardic(lower), camelot, emerald, 3m, japan,
-cemetary, cyberia, town of Deadwood(town), galaxy, high-tower, mahn-tor, mythic-tarot, 
-rhyoden-outpost, seaelf, sieged-castle, fathertime, vampire, midgaard, wax museum(wax),
+
+abyss, arabian, Upper bardic(upper), lower bardic(lower), 
+
+camelot, emerald, 3m, japan, cemetary, cyberia, town of Deadwood(town),
+
+galaxy, high-tower, mahn-tor, mythic-tarot, rhyoden-outpost, seaelf, 
+
+sieged-castle, fathertime, vampire, wax museum(wax),
+
 100acres, circes, rome, drowcity.
 
 Newbie areas:
-gwyn, newbie-realms, midguaard, chessboard
+gwyn, midgaard, chessboard
 
 ~
 #ENDEXDESC
@@ -1764,15 +1770,24 @@ Values    0 0 0 0 0 0 0 0 0 0 0
 Stats     1 1 0 9999 0 None None None
 #EXDESC
 ExDescKey    gateway~
-ExDesc       HHere you see your gateway to other worlds.  To use the
+ExDesc       Here you see your gateway to other worlds.  To use the
 gateway, type "list" to see what areas the gateway can take you to.
 Then say "run <areaname>" to enter the world you would like to visit.  For example,
 say "run upper" to go to the Upper Bardic college.
+
 Avialable areas are:
-abyss, arabian, animal cell, Upper bardic(upper), lower bardic(lower), camelot, emerald, nostalgia,
-cemetary, cyberia, town of Deadwood(town), galaxy, high-tower, mahn-tor, mythic-tarot, 
-rhyoden-outpost, seaelf, sieged-castle, newbie-realms, space-raiders, vampire,
-midgaard, wax museum(wax).
+abyss, arabian, Upper bardic(upper), lower bardic(lower), 
+
+camelot, emerald, 3m, japan, cemetary, cyberia, town of Deadwood(town),
+
+galaxy, high-tower, mahn-tor, mythic-tarot, rhyoden-outpost, seaelf, 
+
+sieged-castle, fathertime, vampire, midgaard, wax museum(wax),
+
+100acres, circes, rome, drowcity.
+
+Newbie areas:
+gwyn, midguaard, chessboard
 
 ~
 #ENDEXDESC
@@ -1979,7 +1994,7 @@ endif
 
 #MUDPROG
 Progtype  speech_prog~
-Arglist   p run midguaard~
+Arglist   p run mid~
 Comlist   if level($n) >= 1
 mptrlook 0.$n 3014
 endif
@@ -2078,15 +2093,6 @@ endif
 
 #MUDPROG
 Progtype  speech_prog~
-Arglist   p run newbie-realms~
-Comlist   if level($n) >= 1
-mptrlook 0.$n 1600
-endif
-~
-#ENDPROG
-
-#MUDPROG
-Progtype  speech_prog~
 Arglist   p run vampire~
 Comlist   if level($n) >= 1
 mptrlook 0.$n 16000
@@ -2161,7 +2167,7 @@ endif
 Progtype  speech_prog~
 Arglist   p run chessboard~
 Comlist   if level($n) >= 1
-mptrlook 0.$n 6000
+mptrlook 0.$n 6700
 endif
 ~
 #ENDPROG
@@ -4605,7 +4611,7 @@ ToRoom    1083
 Direction west~
 ToRoom    1084
 Keywords  door~
-Flags     isdoor closed~
+Flags     isdoor~
 #ENDEXIT
 
 Reset M 1033 1 1082 -1 -1 -1 50
@@ -5923,6 +5929,11 @@ safely store your equipment for the time period, then gladly "freeze"
 you in stasis until you decide you wish to be thawed.
 ~
 #EXIT
+Direction east~
+ToRoom    1157
+#ENDEXIT
+
+#EXIT
 Direction west~
 ToRoom    1001
 #ENDEXIT
@@ -6613,6 +6624,43 @@ items.
 #EXIT
 Direction east~
 ToRoom    1001
+#ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1156
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      1156
+Name      The Morgue~
+Sector    indoors~
+Flags     nomob safe nodrop proto noquit~
+Stats     0 0 0 0 100000
+Desc          This room smells like embalming fluid.  You can see many corpses on the 
+ground here.  Please do not touch any corpse but your own.
+~
+#EXIT
+Direction east~
+ToRoom    1155
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      1157
+Name      Healing Sanctum~
+Sector    indoors~
+Flags     proto~
+Stats     0 0 0 0 100000
+Desc        You feel like your spirts are raised.  almost feels like your regaining mana
+and hps faster here.
+~
+#EXIT
+Direction west~
+ToRoom    1128
 #ENDEXIT
 
 #ENDROOM

@@ -7,8 +7,8 @@ Vnums           21500 21599
 Continent       One~
 Coordinates     0 0
 Dates           0 0
-Ranges          0 0 0 0
-ResetMsg        Please place message here~
+Ranges          0 115 0 115
+ResetMsg        ~
 ResetFreq       5
 Flags           noscry~
 Climate         2 2 2

@@ -1,7 +1,7 @@
 Version     1
 Name        Pixie~
 Race        4
-Classes     Mage Cleric Rogue Druid Ranger~
+Classes     Mage Cleric Rogue Warrior Necromancer Druid Ranger Monk Antipaladin Paladin Bard~
 Str_Plus    -4
 Dex_Plus    3
 Wis_Plus    0

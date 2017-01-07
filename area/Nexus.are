@@ -1117,6 +1117,34 @@ Affected  detect_invis detect_hidden sanctuary infrared fireshield~
 Bodyparts head arms legs heart~
 #ENDMOBILE
 
+#MOBILE
+Vnum      1047
+Keywords  Kyla healer ~
+Race      human~
+Class     Cleric~
+Gender    female~
+Position  standing~
+DefPos    standing~
+Specfun   spec_cast_adept~
+Short     Kyla Annwn~
+Long      Kyla Annwn turns and smiles at you, preparing to cast her healing spells.
+~
+Desc      Kyla Annwn is closely related to the healing faeries, but having had
+a human ancestor, she is not a true Annwn, though she has adopted their
+name. However, the lady is blessed with their ravishing looks and gift
+for the healing arts, using the latter for the good of all.
+~
+Nattacks  0.000000
+Stats1    0 0 0 0 150 100
+Stats2    100 21 0 5000 10 10 1000
+Speaks    common~
+Speaking  common~
+Actflags  npc sentinel immortal pacifist~
+Affected  detect_invis detect_hidden sanctuary truesight~
+Bodyparts head heart~
+#ENDMOBILE
+
+
 #OBJECT
 Vnum      1000
 Keywords  drink kylar o010~
@@ -1741,18 +1769,19 @@ Then say "run <areaname>" to enter the world you would like to visit.  For examp
 say "run upper" to go to the Upper Bardic college.
 
 Avialable areas are:
+
 abyss, arabian, Upper bardic(upper), lower bardic(lower), 
 
 camelot, emerald, 3m, japan, cemetary, cyberia, town of Deadwood(town),
 
 galaxy, high-tower, mahn-tor, mythic-tarot, rhyoden-outpost, seaelf, 
 
-sieged-castle, fathertime, vampire, midgaard, wax museum(wax),
+sieged-castle, fathertime, vampire, wax museum(wax),
 
 100acres, circes, rome, drowcity.
 
 Newbie areas:
-gwyn, midguaard, chessboard
+gwyn, midgaard, chessboard
 
 ~
 #ENDEXDESC
@@ -4610,7 +4639,7 @@ ToRoom    1083
 Direction west~
 ToRoom    1084
 Keywords  door~
-Flags     isdoor closed~
+Flags     isdoor~
 #ENDEXIT
 
 Reset M 1033 1 1082 -1 -1 -1 50
@@ -5928,6 +5957,11 @@ safely store your equipment for the time period, then gladly "freeze"
 you in stasis until you decide you wish to be thawed.
 ~
 #EXIT
+Direction east~
+ToRoom    1157
+#ENDEXIT
+
+#EXIT
 Direction west~
 ToRoom    1001
 #ENDEXIT
@@ -6619,6 +6653,44 @@ items.
 Direction east~
 ToRoom    1001
 #ENDEXIT
+
+#EXIT
+Direction west~
+ToRoom    1156
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      1156
+Name      The Morgue~
+Sector    indoors~
+Flags     nomob safe nodrop noquit~
+Stats     0 0 0 0 100000
+Desc          This room smells like embalming fluid.  You can see many corpses on the 
+ground here.  Please do not touch any corpse but your own.
+~
+#EXIT
+Direction east~
+ToRoom    1155
+#ENDEXIT
+
+#ENDROOM
+
+#ROOM
+Vnum      1157
+Name      Healing Sanctum~
+Sector    indoors~
+Flags     nomob safe~
+Stats     0 0 0 0 100000
+Desc        You feel like your spirts are raised.  almost feels like your regaining mana
+and hps faster here.
+~
+#EXIT
+Direction west~
+ToRoom    1128
+#ENDEXIT
+Reset M 1047 2 1057 -1 -1 -1 100
 
 #ENDROOM
 

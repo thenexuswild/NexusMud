@@ -1,103 +1,4 @@
 #CONN
-User   Aleccia
-Host   96-41-248-102.dhcp.eucl.wi.charter.com
-When   01/04 15:52
-Level  1
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/04 18:20
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/04 18:40
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/04 20:12
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/04 20:12
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/04 20:55
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/04 20:55
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/04 20:56
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
-User   Kord
-Host   ds.erionmud.net
-When   01/04 21:26
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Wild
-Host   192.168.0.5
-When   01/04 21:27
-Level  115
-Type   0
-Invis  0
-End
-
-#CONN
-User   Testcleric
-Host   192.168.0.5
-When   01/04 21:27
-Level  99
-Type   0
-Invis  0
-End
-
-#CONN
 User   Wild
 Host   192.168.0.5
 When   01/04 21:51
@@ -265,6 +166,105 @@ Host   ds.erionmud.net
 When   01/06 22:35
 Level  115
 Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/06 23:18
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/07 00:05
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/07 09:55
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Tont
+Host   192.168.0.5
+When   01/07 10:02
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Nani
+Host   192.168.0.5
+When   01/07 10:28
+Level  0
+Type   0
+Invis  0
+End
+
+#CONN
+User   Wild
+Host   192.168.0.5
+When   01/07 10:37
+Level  115
+Type   0
+Invis  0
+End
+
+#CONN
+User   Tont
+Host   192.168.0.5
+When   01/07 10:38
+Level  2
+Type   0
+Invis  0
+End
+
+#CONN
+User   Nani
+Host   192.168.0.5
+When   01/07 10:38
+Level  1
+Type   0
+Invis  0
+End
+
+#CONN
+User   Tont
+Host   192.168.0.5
+When   01/07 12:37
+Level  3
+Type   1
+Invis  0
+End
+
+#CONN
+User   Tont
+Host   192.168.0.5
+When   01/07 12:42
+Level  3
+Type   0
+Invis  0
+End
+
+#CONN
+User   Tont
+Host   192.168.0.5
+When   01/07 14:01
+Level  6
+Type   2
 Invis  0
 End
 

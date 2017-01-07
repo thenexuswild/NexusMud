@@ -404,8 +404,8 @@ say For more information, type HELP SPAM.
 #MUDPROG
 Progtype  speech_prog~
 Arglist   multiplaying~
-Comlist   say Multiplaying is not allowed here.
-say It is defined as having 2 or more characters on at the same time.
+Comlist   say Multiplaying is limited here.
+say You are allowed to have only 2 characters on at the same time.
 ~
 #ENDPROG
 

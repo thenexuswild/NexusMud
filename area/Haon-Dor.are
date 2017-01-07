@@ -7,7 +7,7 @@ Vnums           6000 6092
 Continent       one~
 Coordinates     0 0
 Dates           0 0
-Ranges          0 0 0 0
+Ranges          0 115 0 115
 ResetMsg        You hear some animals in the woods.~
 ResetFreq       13
 Flags           noscry~

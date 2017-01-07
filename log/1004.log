@@ -252,3 +252,94 @@ Fri Jan 6, 2017 10:35:20 PM EST :: Kord [ds.erionmud.net] has connected.
 Fri Jan 6, 2017 10:35:22 PM EST :: Tinyfugue client detected for Kord.
 Fri Jan 6, 2017 10:35:22 PM EST :: MCCP support detected for Kord.
 Fri Jan 6, 2017 10:35:22 PM EST :: Kord returns from beyond the void.
+Fri Jan 6, 2017 10:42:58 PM EST :: Log Wild: oset gateway on
+Fri Jan 6, 2017 10:42:59 PM EST :: Log Wild: (oset)  
+Fri Jan 6, 2017 10:43:28 PM EST :: Log Wild: (oset) desc
+Fri Jan 6, 2017 10:43:31 PM EST :: Log Wild: (oset)  
+Fri Jan 6, 2017 10:43:35 PM EST :: Log Wild: (oset) oset
+Fri Jan 6, 2017 10:43:35 PM EST :: Log Wild: oset
+Fri Jan 6, 2017 10:43:52 PM EST :: Log Wild: (oset) ed
+Fri Jan 6, 2017 10:51:32 PM EST :: Log Wild: (oset) long
+Fri Jan 6, 2017 10:56:37 PM EST :: Log Wild: oset gateway on
+Fri Jan 6, 2017 10:56:37 PM EST :: [*****] BUG: RelCreate: duplicated relation
+Fri Jan 6, 2017 10:56:37 PM EST :: Obtained 8 stack frames.
+Fri Jan 6, 2017 10:56:37 PM EST :: ../src/afkmud(do_oset+0xc5e)
+Fri Jan 6, 2017 10:56:37 PM EST :: interpret(char_data*, std::string)
+Fri Jan 6, 2017 10:56:37 PM EST :: process_input()
+Fri Jan 6, 2017 10:56:37 PM EST :: game_loop()
+Fri Jan 6, 2017 10:56:37 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 10:56:37 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 10:56:37 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 10:56:42 PM EST :: Log Wild: (oset)  
+Fri Jan 6, 2017 10:57:14 PM EST :: Log Wild: (oset) think get that if you try and do a second oset item on 
+Fri Jan 6, 2017 10:57:38 PM EST :: Log Wild: (oset) short
+Fri Jan 6, 2017 10:57:38 PM EST :: [*****] BUG: do_oset: build.cpp@3036 trying to allocate an empty/null string
+Fri Jan 6, 2017 10:57:38 PM EST :: Obtained 9 stack frames.
+Fri Jan 6, 2017 10:57:38 PM EST :: str_alloc(char const*, char const*, char const*, int)
+Fri Jan 6, 2017 10:57:38 PM EST :: ../src/afkmud(do_oset+0x114a)
+Fri Jan 6, 2017 10:57:38 PM EST :: interpret(char_data*, std::string)
+Fri Jan 6, 2017 10:57:38 PM EST :: process_input()
+Fri Jan 6, 2017 10:57:38 PM EST :: game_loop()
+Fri Jan 6, 2017 10:57:38 PM EST :: ../src/afkmud(main+0x1ff)
+Fri Jan 6, 2017 10:57:38 PM EST :: /lib64/libc.so.6(__libc_start_main+0xf5)
+Fri Jan 6, 2017 10:57:38 PM EST :: ../src/afkmud()
+Fri Jan 6, 2017 10:57:45 PM EST :: Log Wild: (oset)  
+Fri Jan 6, 2017 10:58:32 PM EST :: Log Wild: (oset) oset
+Fri Jan 6, 2017 10:58:32 PM EST :: Log Wild: oset
+Fri Jan 6, 2017 11:02:09 PM EST :: Log Wild: (oset) done
+Fri Jan 6, 2017 11:17:53 PM EST :: Log Wild: reboot mud now
+Fri Jan 6, 2017 11:17:53 PM EST :: Saving players....
+Fri Jan 6, 2017 11:17:53 PM EST :: Wild saved.
+Fri Jan 6, 2017 11:17:53 PM EST :: Kord saved.
+Fri Jan 6, 2017 11:17:53 PM EST :: Saving game world time....
+Fri Jan 6, 2017 11:17:53 PM EST :: Normal termination of game.
+Fri Jan 6, 2017 11:17:53 PM EST :: Cleaning up Memory.&d
+Fri Jan 6, 2017 11:17:53 PM EST :: No more people online. Autonomous actions suspended.
+IMC2 Data.
+Quote List.
+Random Environment Data.
+Auction Sale Data.
+Project Data.
+Ban Data.
+Auth List.
+Morph Data.
+Rune Data.
+Immortal Hosts Data.
+Connection History Data.
+Slay Table.
+Holidays.
+Specfun List.
+Wizinfo Data.
+Skyship landings.
+Ships.
+Overland Landmarks.
+Overland Exits.
+Mixtures and Liquids.
+DNS Cache data.
+Local Channels.
+Helps.
+Commands.
+Socials.
+Languages.
+Boards.
+Events.
+Ending chess games.
+Whacking supermob.
+Characters.
+Objects.
+Descriptors.
+Deities.
+Clans.
+Realms.
+Races.
+Classes.
+Teleport Data.
+Area Data Tables.
+Auction.
+Title table.
+Skills and Herbs.
+Mudprog act lists.
+Abit/Qbit Data.
+Checking string hash for leftovers.
+System data.
+Memory cleanup complete, exiting.

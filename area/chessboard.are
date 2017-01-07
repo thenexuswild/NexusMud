@@ -3,19 +3,19 @@
 Version         1
 Name            Chessboard~
 Author          SillyMUD/Dwip~
-Vnums           6000 6069
+Vnums           6700 6769
 Continent       one~
 Coordinates     0 0
 Dates           754272000 1417996800
 Ranges          0 115 0 115
 ResetMsg        The pieces on the chessboard line up and prepare for another round.~
 ResetFreq       20
-Climate         2 2 2
 Treasure        20 74 85 93 20 50 60 75
+Climate         2 2 2
 #ENDAREADATA
 
 #MOBILE
-Vnum      6000
+Vnum      6700
 Keywords  rook black chess chessboard~
 Race      golem~
 Class     Warrior~
@@ -32,11 +32,12 @@ Stats1    -700 0 0 0 150 100
 Stats2    5 15 5 15 2 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
+Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6001
+Vnum      6701
 Keywords  knight black chess chessboard~
 Race      human~
 Class     Warrior~
@@ -53,12 +54,12 @@ Stats1    -500 0 0 0 150 100
 Stats2    3 17 7 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6002
+Vnum      6702
 Keywords  bishop black chess chessboard~
 Race      human~
 Class     Warrior~
@@ -75,12 +76,12 @@ Stats1    -500 0 0 0 150 100
 Stats2    3 18 5 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6003
+Vnum      6703
 Keywords  queen black chess chessboard~
 Race      human~
 Class     Warrior~
@@ -97,13 +98,13 @@ Stats1    -1000 500 0 0 150 100
 Stats2    8 10 1 24 3 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Affected  detect_invis~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6004
+Vnum      6704
 Keywords  king black chess chessboard~
 Race      human~
 Class     Warrior~
@@ -121,13 +122,13 @@ Stats1    -1000 1000 0 0 150 100
 Stats2    12 6 2 48 2 7 1
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Affected  detect_invis~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6008
+Vnum      6708
 Keywords  pawn black chess chessboard~
 Race      human~
 Class     Warrior~
@@ -145,12 +146,12 @@ Stats1    -400 0 0 0 150 100
 Stats2    1 20 9 1 1 5 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea wimpy~
+Actflags  npc stayarea wimpy nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6016
+Vnum      6716
 Keywords  mini flayer mindflayer minimindflayer chessboard~
 Race      Mindflayer~
 Class     Warrior~
@@ -174,7 +175,7 @@ Bodyparts head arms legs heart brains guts hands feet fingers ear eye tentacles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6017
+Vnum      6717
 Keywords  curser chessboard~
 Race      human~
 Class     Warrior~
@@ -204,7 +205,7 @@ Comlist   curse
 #ENDMOBILE
 
 #MOBILE
-Vnum      6018
+Vnum      6718
 Keywords  cow chessboard~
 Race      bovine~
 Class     Warrior~
@@ -230,7 +231,7 @@ Bodyparts guts~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6020
+Vnum      6720
 Keywords  sapling young chessboard~
 Race      Tree~
 Class     Warrior~
@@ -251,7 +252,7 @@ Actflags  npc sentinel~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6021
+Vnum      6721
 Keywords  juggler jugglernaut chessboard~
 Race      golem~
 Class     Warrior~
@@ -275,10 +276,11 @@ Speaks    common~
 Speaking  common~
 Actflags  npc scavenger stayarea~
 Affected  detect_invis~
+Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6022
+Vnum      6722
 Keywords  mutterfly butterfly fly chessboard~
 Race      avis~
 Class     Warrior~
@@ -296,17 +298,18 @@ Stats2    1 20 9 6 1 3 0
 Speaks    common~
 Speaking  common~
 Actflags  npc stayarea~
-Bodyparts guts head heart brains eye wings~
+Bodyparts head heart brains guts eye wings~
 #MUDPROG
 Progtype  rand_prog~
 Arglist   4~
 Comlist   mutter
 ~
 #ENDPROG
+
 #ENDMOBILE
 
 #MOBILE
-Vnum      6023
+Vnum      6723
 Keywords  peel banana chessboard~
 Race      Tree~
 Class     Warrior~
@@ -329,7 +332,7 @@ Affected  detect_invis detect_hidden sneak~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6024
+Vnum      6724
 Keywords  pawn white chess chessboard~
 Race      human~
 Class     Warrior~
@@ -347,12 +350,12 @@ Stats1    300 0 0 0 150 100
 Stats2    1 20 9 1 1 5 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea wimpy~
+Actflags  npc stayarea wimpy nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6032
+Vnum      6732
 Keywords  rook white chess chessboard~
 Race      golem~
 Class     Warrior~
@@ -370,12 +373,13 @@ Stats1    700 0 0 0 150 100
 Stats2    5 15 5 15 2 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Affected  detect_invis~
+Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6033
+Vnum      6733
 Keywords  knight white chess chessboard~
 Race      human~
 Class     Warrior~
@@ -392,13 +396,13 @@ Stats1    600 0 0 0 150 100
 Stats2    3 17 7 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Affected  truesight~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6034
+Vnum      6734
 Keywords  bishop white chess chessboard~
 Race      human~
 Class     Warrior~
@@ -415,12 +419,12 @@ Stats1    500 0 0 0 150 100
 Stats2    3 18 5 9 1 7 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6035
+Vnum      6735
 Keywords  queen white chess chessboard~
 Race      human~
 Class     Warrior~
@@ -437,12 +441,12 @@ Stats1    1000 500 0 0 150 100
 Stats2    8 10 1 24 3 4 0
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6036
+Vnum      6736
 Keywords  king white chess chessboard~
 Race      human~
 Class     Warrior~
@@ -460,12 +464,12 @@ Stats1    1000 1000 0 0 150 100
 Stats2    12 6 2 48 2 7 1
 Speaks    common~
 Speaking  common~
-Actflags  npc nowander stayarea~
+Actflags  npc stayarea nowander~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6040
+Vnum      6740
 Keywords  jabberwocky chessboard~
 Race      Enfan~
 Class     Warrior~
@@ -488,7 +492,7 @@ Bodyparts head arms legs heart brains guts hands feet fingers ear eye~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6041
+Vnum      6741
 Keywords  elf cleric chessboard~
 Race      high-elf~
 Class     Cleric~
@@ -506,13 +510,13 @@ Stats1    1000 0 0 0 150 100
 Stats2    7 14 4 14 2 4 2
 Speaks    common~
 Speaking  common~
-Actflags  npc immortal wimpy~
+Actflags  npc wimpy immortal~
 Affected  detect_invis detect_hidden sanctuary truesight~
 Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6042
+Vnum      6742
 Keywords  flame chessboard~
 Race      Elemental~
 Class     Warrior~
@@ -536,7 +540,7 @@ Suscept   fire~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6043
+Vnum      6743
 Keywords  oil beast chessboard~
 Race      slime~
 Class     Warrior~
@@ -559,7 +563,7 @@ Bodyparts guts~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6044
+Vnum      6744
 Keywords  oil beast chessboard~
 Race      slime~
 Class     Warrior~
@@ -582,7 +586,7 @@ Bodyparts guts~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6045
+Vnum      6745
 Keywords  elf chessboard~
 Race      high-elf~
 Class     Warrior~
@@ -614,7 +618,7 @@ Comlist   if ispc ($n)
    say Thank you, $n, I've been looking all over for this!
    say Here, take this for your efforts.
    , sprinkles some flour in a vial of liquid.
-   mpoload 6004
+   mpoload 6704
    give potion 0.$n
    wave 0.$n
 endif
@@ -624,7 +628,7 @@ endif
 #ENDMOBILE
 
 #MOBILE
-Vnum      6046
+Vnum      6746
 Keywords  elf chessboard~
 Race      high-elf~
 Class     Warrior~
@@ -644,7 +648,7 @@ Bodyparts head arms legs heart brains guts hands feet fingers ear eye ankles~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6047
+Vnum      6747
 Keywords  cat cheshire chessboard~
 Race      cat~
 Class     Warrior~
@@ -668,7 +672,7 @@ Bodyparts guts~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6048
+Vnum      6748
 Keywords  pigeon chessboard~
 Race      avis~
 Class     Warrior~
@@ -686,11 +690,11 @@ Stats2    1 20 9 1 1 4 0
 Speaks    common~
 Speaking  common~
 Actflags  npc stayarea wimpy~
-Bodyparts guts wings head legs heart brains feet eye feathers~
+Bodyparts head legs heart brains guts feet eye wings feathers~
 #ENDMOBILE
 
 #MOBILE
-Vnum      6049
+Vnum      6749
 Keywords  fordwyn chessboard~
 Race      high-elf~
 Class     Mage~
@@ -722,7 +726,7 @@ cackle
 #ENDMOBILE
 
 #OBJECT
-Vnum      6000
+Vnum      6700
 Keywords  sack flour chessboard~
 Type      trash~
 Short     A Sack of Flour~
@@ -741,7 +745,7 @@ stamped on it.
 #ENDOBJECT
 
 #OBJECT
-Vnum      6001
+Vnum      6701
 Keywords  ivory scroll chessboard~
 Type      scroll~
 Short     An Ivory Scroll~
@@ -754,7 +758,7 @@ Spells       'fly' 'NONE' 'NONE'
 #ENDOBJECT
 
 #OBJECT
-Vnum      6002
+Vnum      6702
 Keywords  slime mold chessboard~
 Type      food~
 Short     A green slime mold~
@@ -772,7 +776,7 @@ ExDesc       It wasn't meant to be food, - Certainly not for humans.
 #ENDOBJECT
 
 #OBJECT
-Vnum      6003
+Vnum      6703
 Keywords  cow bell chessboard~
 Type      armor~
 Short     A Cow Bell~
@@ -792,7 +796,7 @@ ExDesc       It has a strap attached to it.
 #ENDOBJECT
 
 #OBJECT
-Vnum      6004
+Vnum      6704
 Keywords  potion flour chessboard~
 Type      potion~
 Short     A Flour Potion~
@@ -805,7 +809,7 @@ Spells       'armor' 'NONE' 'NONE'
 #ENDOBJECT
 
 #OBJECT
-Vnum      6005
+Vnum      6705
 Keywords  bronze leggings phoenix chessboard~
 Type      armor~
 Short     The Leggings of the Phoenix~
@@ -818,7 +822,7 @@ AffData constitution 1 -1 -1 0
 #ENDOBJECT
 
 #OBJECT
-Vnum      6006
+Vnum      6706
 Keywords  vorpal blade chessboard~
 Type      weapon~
 Short     The Vorpal Blade~
@@ -832,7 +836,7 @@ AffData damroll 3 -1 -1 0
 #ENDOBJECT
 
 #OBJECT
-Vnum      6007
+Vnum      6707
 Keywords  sword phoenix chessboard~
 Type      weapon~
 Short     Sword of the Phoenix~
@@ -846,7 +850,7 @@ AffData damroll 1 -1 -1 0
 #ENDOBJECT
 
 #OBJECT
-Vnum      6008
+Vnum      6708
 Keywords  clay oven chessboard~
 Type      container~
 Short     The oven~
@@ -861,7 +865,7 @@ ExDesc       Well, it radiates a lot of heat, and it appears to be full of half-
 #ENDOBJECT
 
 #OBJECT
-Vnum      6009
+Vnum      6709
 Keywords  bread elven chessboard~
 Type      food~
 Short     An Elven Bread~
@@ -873,7 +877,7 @@ Stats     1 10 0 9999 0 None None None
 #ENDOBJECT
 
 #ROOM
-Vnum      6000
+Vnum      6700
 Name      A White Square~
 Sector    field~
 Flags     ~
@@ -884,23 +888,28 @@ lot of dust on the floor here.
 ~
 #EXIT
 Direction east~
-ToRoom    6001
+ToRoom    6701
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6008
+ToRoom    6708
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6000 1 6000 -1 -1 -1 100
+#EXIT
+Direction down~
+ToRoom    3500
+#ENDEXIT
+
+Reset M 6700 1 6700 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6001
+Vnum      6701
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -911,30 +920,30 @@ lot of dust on the floor.
 ~
 #EXIT
 Direction east~
-ToRoom    6002
+ToRoom    6702
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6009
+ToRoom    6709
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6000
+ToRoom    6700
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6001 1 6001 -1 -1 -1 100
+Reset M 6701 1 6701 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6002
+Vnum      6702
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -945,30 +954,30 @@ a lot of garbage here.
 ~
 #EXIT
 Direction east~
-ToRoom    6003
+ToRoom    6703
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6010
+ToRoom    6710
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6001
+ToRoom    6701
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6002 1 6002 -1 -1 -1 100
+Reset M 6702 1 6702 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6003
+Vnum      6703
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -979,30 +988,30 @@ seem like the janitor comes here often.
 ~
 #EXIT
 Direction east~
-ToRoom    6004
+ToRoom    6704
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6011
+ToRoom    6711
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6002
+ToRoom    6702
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6003 1 6003 -1 -1 -1 100
+Reset M 6703 1 6703 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6004
+Vnum      6704
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1013,38 +1022,38 @@ like beer was spilled here.
 ~
 #EXIT
 Direction east~
-ToRoom    6005
+ToRoom    6705
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6012
+ToRoom    6712
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6003
+ToRoom    6703
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction down~
-ToRoom    6064
+ToRoom    6764
 Desc      As you peer into the darkness you can only imagine what kind of beast lies
 in wait for you.
 ~
 #ENDEXIT
 
-Reset M 6004 1 6004 -1 -1 -1 100
+Reset M 6704 1 6704 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6005
+Vnum      6705
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1055,30 +1064,30 @@ like beer here.
 ~
 #EXIT
 Direction east~
-ToRoom    6006
+ToRoom    6706
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6013
+ToRoom    6713
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6004
+ToRoom    6704
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6002 1 6005 -1 -1 -1 100
+Reset M 6702 1 6705 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6006
+Vnum      6706
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1090,31 +1099,31 @@ strewn about.
 ~
 #EXIT
 Direction east~
-ToRoom    6007
+ToRoom    6707
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6014
+ToRoom    6714
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6005
+ToRoom    6705
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6001 1 6006 -1 -1 -1 100
-Reset M 6044 1 6006 -1 -1 -1 100
+Reset M 6701 1 6706 -1 -1 -1 100
+Reset M 6744 1 6706 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6007
+Vnum      6707
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1126,24 +1135,24 @@ Beast tosses some rotting corpses and poisonous mushrooms into the vat.
 ~
 #EXIT
 Direction south~
-ToRoom    6015
+ToRoom    6715
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6006
+ToRoom    6706
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6000 1 6007 -1 -1 -1 100
-Reset M 6044 1 6007 -1 -1 -1 100
+Reset M 6700 1 6707 -1 -1 -1 100
+Reset M 6744 1 6707 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6008
+Vnum      6708
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1154,33 +1163,32 @@ quite dusty here.  To the west is a large wall-sized mirror.
 ~
 #EXIT
 Direction north~
-ToRoom    6000
+ToRoom    6700
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6009
+ToRoom    6709
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6016
+ToRoom    6716
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6066
+ToRoom    6766
 Desc      You see a wall sized mirror.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6008 -1 -1 -1 100
 #EXDESC
 ExDescKey    mirror wall~
 ExDesc       You see your reflection, but superimposed on that is what looks like
@@ -1188,10 +1196,11 @@ a distant horizon.  Maybe you can enter this mirror?
 ~
 #ENDEXDESC
 
+Reset M 6708 1 6708 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6009
+Vnum      6709
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1202,37 +1211,37 @@ dust around here!
 ~
 #EXIT
 Direction north~
-ToRoom    6001
+ToRoom    6701
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6010
+ToRoom    6710
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6017
+ToRoom    6717
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6008
+ToRoom    6708
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6009 -1 -1 -1 100
+Reset M 6708 1 6709 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6010
+Vnum      6710
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1243,37 +1252,37 @@ is scuffed up and needs polishing.
 ~
 #EXIT
 Direction north~
-ToRoom    6002
+ToRoom    6702
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6011
+ToRoom    6711
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6018
+ToRoom    6718
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6009
+ToRoom    6709
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6010 -1 -1 -1 100
+Reset M 6708 1 6710 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6011
+Vnum      6711
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1284,37 +1293,37 @@ filthy here!
 ~
 #EXIT
 Direction north~
-ToRoom    6003
+ToRoom    6703
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6012
+ToRoom    6712
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6019
+ToRoom    6719
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6010
+ToRoom    6710
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6011 -1 -1 -1 100
+Reset M 6708 1 6711 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6012
+Vnum      6712
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1325,37 +1334,37 @@ like beer around here.
 ~
 #EXIT
 Direction north~
-ToRoom    6004
+ToRoom    6704
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6013
+ToRoom    6713
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6020
+ToRoom    6720
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6011
+ToRoom    6711
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6012 -1 -1 -1 100
+Reset M 6708 1 6712 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6013
+Vnum      6713
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1366,37 +1375,37 @@ a puddle of spilled beer here.
 ~
 #EXIT
 Direction north~
-ToRoom    6005
+ToRoom    6705
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6014
+ToRoom    6714
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6021
+ToRoom    6721
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6012
+ToRoom    6712
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6013 -1 -1 -1 100
+Reset M 6708 1 6713 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6014
+Vnum      6714
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1407,42 +1416,42 @@ here ready for shipment.  You involuntarily hold your breath.
 ~
 #EXIT
 Direction north~
-ToRoom    6006
+ToRoom    6706
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6015
+ToRoom    6715
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6022
+ToRoom    6722
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6013
+ToRoom    6713
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6014 -1 -1 -1 100
-Reset M 6044 1 6014 -1 -1 -1 100
-Reset M 6043 1 6014 -1 -1 -1 100
-  Reset G 6002 1 100
-Reset M 6045 1 6014 -1 -1 -1 100
-  Reset G 6009 1 100
+Reset M 6708 1 6714 -1 -1 -1 100
+Reset M 6744 1 6714 -1 -1 -1 100
+Reset M 6743 1 6714 -1 -1 -1 100
+  Reset G 6702 1 100
+Reset M 6745 1 6714 -1 -1 -1 100
+  Reset G 6709 1 100
 #ENDROOM
 
 #ROOM
-Vnum      6015
+Vnum      6715
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1454,31 +1463,31 @@ trails of ooze behind them.
 ~
 #EXIT
 Direction north~
-ToRoom    6007
+ToRoom    6707
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6023
+ToRoom    6723
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6014
+ToRoom    6714
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6008 1 6015 -1 -1 -1 100
-Reset M 6044 1 6015 -1 -1 -1 100
+Reset M 6708 1 6715 -1 -1 -1 100
+Reset M 6744 1 6715 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6016
+Vnum      6716
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1490,21 +1499,21 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6008
+ToRoom    6708
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6017
+ToRoom    6717
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6024
+ToRoom    6724
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -1512,7 +1521,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6017
+Vnum      6717
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1524,37 +1533,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6009
+ToRoom    6709
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6018
+ToRoom    6718
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6025
+ToRoom    6725
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6016
+ToRoom    6716
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6016 1 6017 -1 -1 -1 100
+Reset M 6716 1 6717 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6018
+Vnum      6718
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1566,37 +1575,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6010
+ToRoom    6710
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6019
+ToRoom    6719
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6026
+ToRoom    6726
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6017
+ToRoom    6717
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6017 1 6018 -1 -1 -1 100
+Reset M 6717 1 6718 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6019
+Vnum      6719
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1608,40 +1617,40 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6011
+ToRoom    6711
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6020
+ToRoom    6720
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6027
+ToRoom    6727
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6018
+ToRoom    6718
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6018 1 6019 -1 -1 -1 100
-Reset M 6018 1 6019 -1 -1 -1 100
-Reset M 6018 1 6019 -1 -1 -1 100
-  Reset E 6003 1 3 100
+Reset M 6718 1 6719 -1 -1 -1 100
+Reset M 6718 1 6719 -1 -1 -1 100
+Reset M 6718 1 6719 -1 -1 -1 100
+  Reset E 6703 1 3 100
 #ENDROOM
 
 #ROOM
-Vnum      6020
+Vnum      6720
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1653,28 +1662,28 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6012
+ToRoom    6712
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6021
+ToRoom    6721
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6028
+ToRoom    6728
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6019
+ToRoom    6719
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -1682,7 +1691,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6021
+Vnum      6721
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1694,37 +1703,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6013
+ToRoom    6713
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6022
+ToRoom    6722
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6029
+ToRoom    6729
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6020
+ToRoom    6720
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6020 1 6021 -1 -1 -1 100
+Reset M 6720 1 6721 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6022
+Vnum      6722
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1736,28 +1745,28 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6014
+ToRoom    6714
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6023
+ToRoom    6723
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6030
+ToRoom    6730
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6021
+ToRoom    6721
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -1765,7 +1774,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6023
+Vnum      6723
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1777,31 +1786,31 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6015
+ToRoom    6715
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6031
+ToRoom    6731
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6022
+ToRoom    6722
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6047 1 6023 -1 -1 -1 100
+Reset M 6747 1 6723 -1 -1 -1 100
   Reset G 2860 1 100
 #ENDROOM
 
 #ROOM
-Vnum      6024
+Vnum      6724
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1812,21 +1821,21 @@ crickets chirping.
 ~
 #EXIT
 Direction north~
-ToRoom    6016
+ToRoom    6716
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6025
+ToRoom    6725
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6032
+ToRoom    6732
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -1834,7 +1843,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6025
+Vnum      6725
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1845,37 +1854,37 @@ birds chirping in the distance.
 ~
 #EXIT
 Direction north~
-ToRoom    6017
+ToRoom    6717
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6026
+ToRoom    6726
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6033
+ToRoom    6733
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6024
+ToRoom    6724
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6023 1 6025 -1 -1 -1 100
+Reset M 6723 1 6725 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6026
+Vnum      6726
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1887,37 +1896,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6018
+ToRoom    6718
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6027
+ToRoom    6727
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6034
+ToRoom    6734
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6025
+ToRoom    6725
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6048 1 6026 -1 -1 -1 100
+Reset M 6748 1 6726 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6027
+Vnum      6727
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -1928,28 +1937,28 @@ southeast are some stairs.
 ~
 #EXIT
 Direction north~
-ToRoom    6019
+ToRoom    6719
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6028
+ToRoom    6728
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6035
+ToRoom    6735
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6026
+ToRoom    6726
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -1957,7 +1966,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6028
+Vnum      6728
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -1969,33 +1978,33 @@ cries of death.  You see some stairs to the south.
 ~
 #EXIT
 Direction north~
-ToRoom    6020
+ToRoom    6720
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6029
+ToRoom    6729
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6036
+ToRoom    6736
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6027
+ToRoom    6727
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6021 1 6028 -1 -1 -1 100
+Reset M 6721 1 6728 -1 -1 -1 100
   Reset G 2852 1 100
   Reset G 2852 1 100
   Reset G 2852 1 100
@@ -2006,7 +2015,7 @@ Reset M 6021 1 6028 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6029
+Vnum      6729
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2017,37 +2026,37 @@ southwest are some stairs.
 ~
 #EXIT
 Direction north~
-ToRoom    6021
+ToRoom    6721
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6030
+ToRoom    6730
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6037
+ToRoom    6737
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6028
+ToRoom    6728
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6048 1 6029 -1 -1 -1 100
+Reset M 6748 1 6729 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6030
+Vnum      6730
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2058,44 +2067,44 @@ a statue of a unicorn here.
 ~
 #EXIT
 Direction north~
-ToRoom    6022
+ToRoom    6722
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6031
+ToRoom    6731
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6038
+ToRoom    6738
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6029
+ToRoom    6729
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6022 1 6030 -1 -1 -1 100
-Reset M 6022 1 6030 -1 -1 -1 100
 #EXDESC
 ExDescKey    statue unicorn~
 ExDesc       The statue says "Come to Unicorn Mount!"
 ~
 #ENDEXDESC
 
+Reset M 6722 1 6730 -1 -1 -1 100
+Reset M 6722 1 6730 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6031
+Vnum      6731
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2106,21 +2115,21 @@ a statue of John the Lumberjack here.
 ~
 #EXIT
 Direction north~
-ToRoom    6023
+ToRoom    6723
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6039
+ToRoom    6739
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6030
+ToRoom    6730
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -2134,7 +2143,7 @@ ExDesc       The statue says "Been to the forest recently?"
 #ENDROOM
 
 #ROOM
-Vnum      6032
+Vnum      6732
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2145,30 +2154,30 @@ nothing here.
 ~
 #EXIT
 Direction north~
-ToRoom    6024
+ToRoom    6724
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6033
+ToRoom    6733
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6040
+ToRoom    6740
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6041 1 6032 -1 -1 -1 100
+Reset M 6741 1 6732 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6033
+Vnum      6733
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2179,38 +2188,38 @@ footsteps nearby.
 ~
 #EXIT
 Direction north~
-ToRoom    6025
+ToRoom    6725
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6034
+ToRoom    6734
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6041
+ToRoom    6741
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6032
+ToRoom    6732
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6022 1 6033 -1 -1 -1 100
-Reset M 6022 1 6033 -1 -1 -1 100
+Reset M 6722 1 6733 -1 -1 -1 100
+Reset M 6722 1 6733 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6034
+Vnum      6734
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2222,28 +2231,28 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6026
+ToRoom    6726
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6035
+ToRoom    6735
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6042
+ToRoom    6742
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6033
+ToRoom    6733
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -2251,7 +2260,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6035
+Vnum      6735
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2263,28 +2272,28 @@ cries of death.  You see some stairs to east.
 ~
 #EXIT
 Direction north~
-ToRoom    6027
+ToRoom    6727
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6036
+ToRoom    6736
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6043
+ToRoom    6743
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6034
+ToRoom    6734
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -2292,7 +2301,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6036
+Vnum      6736
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2305,35 +2314,35 @@ cries of death.  A staircase leads down from here.
 ~
 #EXIT
 Direction north~
-ToRoom    6028
+ToRoom    6728
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6037
+ToRoom    6737
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6044
+ToRoom    6744
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6035
+ToRoom    6735
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction down~
-ToRoom    6068
+ToRoom    6768
 Desc      The stairs spiral downwards toward familiar ground.
 ~
 #ENDEXIT
@@ -2341,7 +2350,7 @@ Desc      The stairs spiral downwards toward familiar ground.
 #ENDROOM
 
 #ROOM
-Vnum      6037
+Vnum      6737
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2353,37 +2362,37 @@ cries of death.  You see some stairs to west.
 ~
 #EXIT
 Direction north~
-ToRoom    6029
+ToRoom    6729
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6038
+ToRoom    6738
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6045
+ToRoom    6745
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6036
+ToRoom    6736
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6023 1 6037 -1 -1 -1 100
+Reset M 6723 1 6737 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6038
+Vnum      6738
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2394,28 +2403,28 @@ a statue of a spider here.
 ~
 #EXIT
 Direction north~
-ToRoom    6030
+ToRoom    6730
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6039
+ToRoom    6739
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6046
+ToRoom    6746
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6037
+ToRoom    6737
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -2429,7 +2438,7 @@ ExDesc       The statue says "I like Arachnos."
 #ENDROOM
 
 #ROOM
-Vnum      6039
+Vnum      6739
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2440,21 +2449,21 @@ a statue of a butterfly here.
 ~
 #EXIT
 Direction north~
-ToRoom    6031
+ToRoom    6731
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6047
+ToRoom    6747
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6038
+ToRoom    6738
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -2468,7 +2477,7 @@ ExDesc       The statue weeps "Augh, where's my Matrix?"
 #ENDROOM
 
 #ROOM
-Vnum      6040
+Vnum      6740
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2480,31 +2489,31 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6032
+ToRoom    6732
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6041
+ToRoom    6741
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6048
+ToRoom    6748
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6020 1 6040 -1 -1 -1 100
-  Reset E 6001 100 17 100
+Reset M 6720 1 6740 -1 -1 -1 100
+  Reset E 6701 100 17 100
 #ENDROOM
 
 #ROOM
-Vnum      6041
+Vnum      6741
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2516,37 +2525,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6033
+ToRoom    6733
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6042
+ToRoom    6742
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6049
+ToRoom    6749
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6040
+ToRoom    6740
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6020 1 6041 -1 -1 -1 100
+Reset M 6720 1 6741 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6042
+Vnum      6742
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2558,37 +2567,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6034
+ToRoom    6734
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6043
+ToRoom    6743
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6050
+ToRoom    6750
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6041
+ToRoom    6741
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6048 1 6042 -1 -1 -1 100
+Reset M 6748 1 6742 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6043
+Vnum      6743
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2599,37 +2608,37 @@ northeast are some stairs.
 ~
 #EXIT
 Direction north~
-ToRoom    6035
+ToRoom    6735
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6044
+ToRoom    6744
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6051
+ToRoom    6751
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6042
+ToRoom    6742
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6017 1 6043 -1 -1 -1 100
+Reset M 6717 1 6743 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6044
+Vnum      6744
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2641,33 +2650,33 @@ cries of death.  You see some stairs to the north.
 ~
 #EXIT
 Direction north~
-ToRoom    6036
+ToRoom    6736
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6045
+ToRoom    6745
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6052
+ToRoom    6752
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6043
+ToRoom    6743
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6021 1 6044 -1 -1 -1 100
+Reset M 6721 1 6744 -1 -1 -1 100
   Reset G 2852 1 100
   Reset G 2852 1 100
   Reset G 2852 1 100
@@ -2678,7 +2687,7 @@ Reset M 6021 1 6044 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6045
+Vnum      6745
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2689,37 +2698,37 @@ northwest are some stairs.
 ~
 #EXIT
 Direction north~
-ToRoom    6037
+ToRoom    6737
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6046
+ToRoom    6746
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6053
+ToRoom    6753
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6044
+ToRoom    6744
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6048 1 6045 -1 -1 -1 100
+Reset M 6748 1 6745 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6046
+Vnum      6746
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2731,37 +2740,37 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6038
+ToRoom    6738
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6047
+ToRoom    6747
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6054
+ToRoom    6754
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6045
+ToRoom    6745
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6016 1 6046 -1 -1 -1 100
+Reset M 6716 1 6746 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6047
+Vnum      6747
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2773,21 +2782,21 @@ cries of death.
 ~
 #EXIT
 Direction north~
-ToRoom    6039
+ToRoom    6739
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6055
+ToRoom    6755
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6046
+ToRoom    6746
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
@@ -2795,7 +2804,7 @@ Desc      The plaza continues onward.
 #ENDROOM
 
 #ROOM
-Vnum      6048
+Vnum      6748
 Name      A White Square~
 Sector    city~
 Flags     nomob~
@@ -2806,32 +2815,32 @@ and removing supplies.  You feel the warmth of an oven nearby.
 ~
 #EXIT
 Direction north~
-ToRoom    6040
+ToRoom    6740
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6049
+ToRoom    6749
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6056
+ToRoom    6756
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6048 -1 -1 -1 100
-Reset M 6046 1 6048 -1 -1 -1 100
-Reset O 6000 1 6048 -1 -1 -1 100
+Reset M 6724 1 6748 -1 -1 -1 100
+Reset M 6746 1 6748 -1 -1 -1 100
+Reset O 6700 1 6748 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6049
+Vnum      6749
 Name      A Black Square~
 Sector    city~
 Flags     nomob~
@@ -2842,40 +2851,40 @@ here, awaiting delivery.
 ~
 #EXIT
 Direction north~
-ToRoom    6041
+ToRoom    6741
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6050
+ToRoom    6750
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6057
+ToRoom    6757
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6048
+ToRoom    6748
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6049 -1 -1 -1 100
-Reset M 6046 1 6049 -1 -1 -1 100
-  Reset E 6004 100 17 100
-Reset O 6009 5 6049 -1 -1 -1 100
+Reset M 6724 1 6749 -1 -1 -1 100
+Reset M 6746 1 6749 -1 -1 -1 100
+  Reset E 6704 100 17 100
+Reset O 6709 5 6749 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6050
+Vnum      6750
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2886,37 +2895,37 @@ some pastry crumbs on the floor.
 ~
 #EXIT
 Direction north~
-ToRoom    6042
+ToRoom    6742
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6051
+ToRoom    6751
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6058
+ToRoom    6758
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6049
+ToRoom    6749
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6050 -1 -1 -1 100
+Reset M 6724 1 6750 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6051
+Vnum      6751
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -2927,37 +2936,37 @@ as though someone was eating here recently.
 ~
 #EXIT
 Direction north~
-ToRoom    6043
+ToRoom    6743
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6052
+ToRoom    6752
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6059
+ToRoom    6759
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6050
+ToRoom    6750
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6051 -1 -1 -1 100
+Reset M 6724 1 6751 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6052
+Vnum      6752
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -2968,37 +2977,37 @@ has a large white gladiola painted on it.
 ~
 #EXIT
 Direction north~
-ToRoom    6044
+ToRoom    6744
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6053
+ToRoom    6753
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6060
+ToRoom    6760
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6051
+ToRoom    6751
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6052 -1 -1 -1 100
+Reset M 6724 1 6752 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6053
+Vnum      6753
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -3009,37 +3018,37 @@ a purple tulip painted on the floor.
 ~
 #EXIT
 Direction north~
-ToRoom    6045
+ToRoom    6745
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6054
+ToRoom    6754
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6061
+ToRoom    6761
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6052
+ToRoom    6752
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6053 -1 -1 -1 100
+Reset M 6724 1 6753 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6054
+Vnum      6754
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -3050,37 +3059,37 @@ a lot puddles here.
 ~
 #EXIT
 Direction north~
-ToRoom    6046
+ToRoom    6746
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6055
+ToRoom    6755
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6062
+ToRoom    6762
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6053
+ToRoom    6753
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6054 -1 -1 -1 100
+Reset M 6724 1 6754 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6055
+Vnum      6755
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -3091,30 +3100,30 @@ is wet, and you can see your reflection in the floor.
 ~
 #EXIT
 Direction north~
-ToRoom    6047
+ToRoom    6747
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6063
+ToRoom    6763
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6054
+ToRoom    6754
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6024 1 6055 -1 -1 -1 100
+Reset M 6724 1 6755 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6056
+Vnum      6756
 Name      A Black Square~
 Sector    city~
 Flags     nomob~
@@ -3125,26 +3134,26 @@ carefully by frantic elves.  The smell of bread is overpowering.
 ~
 #EXIT
 Direction north~
-ToRoom    6048
+ToRoom    6748
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6057
+ToRoom    6757
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6032 1 6056 -1 -1 -1 100
-Reset M 6046 1 6056 -1 -1 -1 100
-Reset O 6009 1 6056 -1 -1 -1 100
-  Reset P 0 6008 3 6009 100
+Reset M 6732 1 6756 -1 -1 -1 100
+Reset M 6746 1 6756 -1 -1 -1 100
+Reset O 6709 1 6756 -1 -1 -1 100
+  Reset P 0 6708 3 6709 100
 #ENDROOM
 
 #ROOM
-Vnum      6057
+Vnum      6757
 Name      A White Square~
 Sector    city~
 Flags     nomob~
@@ -3155,31 +3164,31 @@ here, and on some racks you see tidy arrays of dough.
 ~
 #EXIT
 Direction north~
-ToRoom    6049
+ToRoom    6749
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6058
+ToRoom    6758
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6056
+ToRoom    6756
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6033 1 6057 -1 -1 -1 100
-Reset M 6046 1 6057 -1 -1 -1 100
+Reset M 6733 1 6757 -1 -1 -1 100
+Reset M 6746 1 6757 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6058
+Vnum      6758
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -3190,30 +3199,30 @@ bits of bread are scattered about.
 ~
 #EXIT
 Direction north~
-ToRoom    6050
+ToRoom    6750
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6059
+ToRoom    6759
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6057
+ToRoom    6757
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6034 1 6058 -1 -1 -1 100
+Reset M 6734 1 6758 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6059
+Vnum      6759
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -3224,30 +3233,30 @@ bread crumbs strewn everywhere.
 ~
 #EXIT
 Direction north~
-ToRoom    6051
+ToRoom    6751
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6060
+ToRoom    6760
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6058
+ToRoom    6758
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6035 1 6059 -1 -1 -1 100
+Reset M 6735 1 6759 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6060
+Vnum      6760
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -3260,37 +3269,37 @@ columns.
 ~
 #EXIT
 Direction north~
-ToRoom    6052
+ToRoom    6752
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6061
+ToRoom    6761
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction south~
-ToRoom    6065
+ToRoom    6765
 Desc      It looks nice and quiet in there.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6059
+ToRoom    6759
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6036 1 6060 -1 -1 -1 100
+Reset M 6736 1 6760 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6061
+Vnum      6761
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -3301,30 +3310,30 @@ a white daisy painted on the floor here.
 ~
 #EXIT
 Direction north~
-ToRoom    6053
+ToRoom    6753
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6062
+ToRoom    6762
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6060
+ToRoom    6760
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6034 1 6061 -1 -1 -1 100
+Reset M 6734 1 6761 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6062
+Vnum      6762
 Name      A Black Square~
 Sector    city~
 Flags     ~
@@ -3336,30 +3345,30 @@ walk along, your feet splash in puddles of water.
 ~
 #EXIT
 Direction north~
-ToRoom    6054
+ToRoom    6754
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction east~
-ToRoom    6063
+ToRoom    6763
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6061
+ToRoom    6761
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6033 1 6062 -1 -1 -1 100
+Reset M 6733 1 6762 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6063
+Vnum      6763
 Name      A White Square~
 Sector    city~
 Flags     ~
@@ -3370,23 +3379,23 @@ as though it rained here recently.
 ~
 #EXIT
 Direction north~
-ToRoom    6055
+ToRoom    6755
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
 #EXIT
 Direction west~
-ToRoom    6062
+ToRoom    6762
 Desc      The plaza continues onward.
 ~
 #ENDEXIT
 
-Reset M 6032 1 6063 -1 -1 -1 100
+Reset M 6732 1 6763 -1 -1 -1 100
 #ENDROOM
 
 #ROOM
-Vnum      6064
+Vnum      6764
 Name      Lair of the Jabberwocky~
 Sector    field~
 Flags     dark nomob~
@@ -3399,17 +3408,17 @@ upwards to the surface.
 ~
 #EXIT
 Direction up~
-ToRoom    6004
+ToRoom    6704
 Desc      You see an opening in the plaza floor above you.
 ~
 #ENDEXIT
 
-Reset M 6040 1 6064 -1 -1 -1 100
-  Reset G 6006 1 100
+Reset M 6740 1 6764 -1 -1 -1 100
+  Reset G 6706 1 100
 #ENDROOM
 
 #ROOM
-Vnum      6065
+Vnum      6765
 Name      Tempietto~
 Sector    city~
 Flags     nomob indoors~
@@ -3421,23 +3430,23 @@ by small statues of ancient saints.  The plaza is to the north.
 ~
 #EXIT
 Direction north~
-ToRoom    6060
+ToRoom    6760
 Desc      You see the plaza.
 ~
 #ENDEXIT
 
-Reset M 6042 1 6065 -1 -1 -1 100
-  Reset G 6005 1 100
 #EXDESC
 ExDescKey    statues niches~
 ExDesc       The craftsmanship is almost beyond that of mortals.
 ~
 #ENDEXDESC
 
+Reset M 6742 1 6765 -1 -1 -1 100
+  Reset G 6705 1 100
 #ENDROOM
 
 #ROOM
-Vnum      6066
+Vnum      6766
 Name      Fordwyn's Retreat~
 Sector    city~
 Flags     nomob indoors~
@@ -3457,7 +3466,7 @@ in silent majesty.
 ~
 #EXIT
 Direction east~
-ToRoom    6008
+ToRoom    6708
 Desc      You see a giant mirror frame.
 ~
 #ENDEXIT
@@ -3484,7 +3493,7 @@ ExDesc       It's breathtaking.  You're glad that this sun doesn't move.
 #ENDROOM
 
 #ROOM
-Vnum      6067
+Vnum      6767
 Name      Fordwyn's Game Room~
 Sector    city~
 Flags     indoors~
@@ -3498,7 +3507,7 @@ just the fog playing tricks on your imagination?
 #ENDROOM
 
 #ROOM
-Vnum      6068
+Vnum      6768
 Name      The Ivory Tower~
 Sector    city~
 Flags     nomob~
@@ -3511,7 +3520,7 @@ is some writing on the wall.
 ~
 #EXIT
 Direction east~
-ToRoom    6069
+ToRoom    6769
 Desc      You see the gateway.
 ~
 Keywords  gate~
@@ -3520,12 +3529,11 @@ Flags     isdoor closed~
 
 #EXIT
 Direction up~
-ToRoom    6036
+ToRoom    6736
 Desc      Round and round she goes, where she stops....
 ~
 #ENDEXIT
 
-Reset D 6068 1 1 100 -2
 #EXDESC
 ExDescKey    writing wall~
 ExDesc       Adapted from the original SillyMUD area by Dwip, 12/2014.  In
@@ -3539,10 +3547,11 @@ come a long way since 1996.  We hope you will too.
 ~
 #ENDEXDESC
 
+Reset D 6768 1 1 100 -2
 #ENDROOM
 
 #ROOM
-Vnum      6069
+Vnum      6769
 Name      Gateway to the Ivory Tower~
 Sector    city~
 Flags     nomob~
@@ -3553,16 +3562,16 @@ the tower disappears as it ascends above the island.
 ~
 #EXIT
 Direction west~
-ToRoom    6068
+ToRoom    6768
 Desc      You see the gated entrance to the tower.
 ~
 Keywords  gate~
 Flags     isdoor closed~
 #ENDEXIT
 
-Reset D 6069 3 1 100 -2
-Reset M 6049 1 6069 -1 -1 -1 100
-  Reset E 6007 1 16 100
+Reset D 6769 3 1 100 -2
+Reset M 6749 1 6769 -1 -1 -1 100
+  Reset E 6707 1 16 100
 #ENDROOM
 
 #ENDAREA
