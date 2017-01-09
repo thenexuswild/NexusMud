@@ -1,1 +1,8 @@
-/player/*
+src/o/*
+corpses/*
+area/boot.txt
+log/*
+src/afkmud
+system/conn.hst
+system/time.dat
+player/*
