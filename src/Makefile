@@ -129,8 +129,9 @@ endif
 	@$(CC) -MM $(C_FLAGS) $(C_FILES) > dependencies.d
 	@perl -pi -e 's.^([a-z]).o/$$1.g' dependencies.d
 	@echo "Done building AFKMud.";
-	@chmod g+w $(AFKMUD)
-	@chmod a+x $(AFKMUD)
+#	@chmod g+w $(AFKMUD)
+#	@chmod a+x $(AFKMUD)
+#	@chmod a+wx $(AFKMUD)
 	@chmod g+w $(O_FILES)
 
 indent:

@@ -3749,15 +3749,21 @@ CMDF( do_restore )
       ch->save(  );
       ch->print( "Ok.\r\n" );
       list < char_data * >::iterator ich;
-      for( ich = pclist.begin(  ); ich != pclist.end(  ); )
+      for( ich = pclist.begin(  ); ich != pclist.end(  ); ++ich)
       {
          char_data *vch = *ich;
-         ++ich;
+         //++ich;
+
+	 ch->printf("Examining %s\r\n", vch->name);
 
          if( !vch->is_immortal(  ) && !vch->CAN_PKILL(  ) && !in_arena( vch ) )
          {
-            if( deity && vch->pcdata->deity != deity )
+            if( deity && vch->pcdata->deity != deity ) {
+	       ch->print("Player worships the wrong deity.");
                continue;
+	    }
+
+            ch->printf("Restoring %s\r\n", capitalize(vch->name)); 
 
             vch->hit = vch->max_hit;
             vch->mana = vch->max_mana;

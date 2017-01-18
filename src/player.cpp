@@ -1746,9 +1746,9 @@ CMDF( do_group )
          {
             ch->
                printf
-               ( "&[score3]%-50s&[score] HP:&[score2]%2.0f&[score]%% %4s:&[score2]%2.0f&[score]%% MV:&[score2]%2.0f&[score]%%\r\n",
-                 capitalize( gch->name ), ( ( float )gch->hit / gch->max_hit ) * 100 + 0.5, "MANA",
-                 ( ( float )gch->mana / gch->max_mana ) * 100 + 0.5, ( ( float )gch->move / gch->max_move ) * 100 + 0.5 );
+               ( "&[score3]%-50s&[score] HP:&[score2]%d/%d&[score] %4s:&[score2]%d/%d&[score] MV:&[score2]%d/%d&[score]\r\n",
+                 capitalize( gch->name ), gch->hit, gch->max_hit, "MANA",
+                 gch->mana, gch->max_mana, gch->move, gch->max_move);
          }
       }
       return;
