@@ -279,7 +279,7 @@ Type       weapon~
 Short      Tsukiyomo's Pike~
 Long       Tsukiyomo has left his pike here.~
 WFlags     take wield~
-Values     0 8 3 6 0 0 0 0 0 0 0
+Values     10 8 3 6 10 0 0 0 0 0 0
 Stats      30 50000 0 9999 0 None None None
 AffData    damroll 3 -1 -1 0
 #EXDESC
@@ -301,7 +301,7 @@ WFlags     take~
 Values     0 0 -1 0 0 0 0 0 0 0 0
 Stats      1 50000 0 9999 0 None None None
 AffData    damroll 3 -1 -1 0
-AffData    mana 10 -1 -1 0
+AffData    mana 20 -1 -1 0
 #EXDESC
 ExDescKey  mirror ameratasu~
 ExDesc     This beatiful mirror is octagonal and perfect in every detail.
@@ -385,7 +385,7 @@ Type       weapon~
 Short      silvery wakizashi~
 Long       A wakizashi made of a strange silvery material lies here.~
 WFlags     take wield hold~
-Values     0 4 4 5 0 0 0 0 0 0 0
+Values     5 4 4 1 1 0 0 0 0 0 0
 Stats      12 2500 0 9999 0 None None None
 AffData    damroll 3 -1 -1 0
 #EXDESC
@@ -422,7 +422,7 @@ Short      the Whirlwind Blade~
 Long       A blade which radiates tremendous power floats in the air here.~
 Flags      antievil antineutral~
 WFlags     take wield~
-Values     0 6 5 1 0 0 0 0 0 0 0
+Values     10 6 5 1 1 0 0 0 0 0 0
 Stats      14 0 0 9999 0 None None None
 AffData    damroll 3 -1 -1 0
 AffData affected  'haste' -1 -1 0
