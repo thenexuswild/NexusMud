@@ -790,7 +790,7 @@ Short      a comet's tail~
 Long       A long, slender whip lies here.~
 Flags      glow hum~
 WFlags     take wield~
-Values     0 3 6 5 0 0 0 0 0 0 0
+Values     5 3 6 5 3 0 0 0 0 0 0
 Stats      9 2000 0 9999 0 None None None
 #ENDOBJECT
 
@@ -1025,7 +1025,7 @@ Short      the Sting of Scorpio~
 Long       Sting of the Zodiac lies here.~
 Flags      glow magic antievil~
 WFlags     take wield~
-Values     0 4 5 6 0 0 0 0 0 0 0
+Values     5 4 5 6 2 0 0 0 0 0 0
 Stats      7 6000 0 10 0 None None None
 AffData    hitroll 2 -1 -1 0
 AffData    damroll 1 -1 -1 0
@@ -1063,7 +1063,7 @@ Short      the Titanic Bow of Sagittarius~
 Long       The bow of the zodiac lies here.~
 Flags      glow magic antievil~
 WFlags     take wield~
-Values     0 2 9 6 0 0 0 0 0 0 0
+Values     5 2 9 6 0 0 0 0 0 0 0
 Stats      20 3500 0 10 0 None None None
 AffData    Strength -2 -1 -1 0
 AffData    Intelligence 1 -1 -1 0
@@ -1203,7 +1203,7 @@ Short      the Great Dipper of the Skies~
 Long       A dazzling white object lies on the ground.~
 Flags      glow hum invis magic~
 WFlags     take wield~
-Values     0 3 7 4 0 0 0 0 0 0 0
+Values     5 5 7 4 3 0 0 0 0 0 0
 Stats      20 5000 0 10 0 None None None
 AffData    hitroll 2 -1 -1 0
 AffData    damroll 2 -1 -1 0
