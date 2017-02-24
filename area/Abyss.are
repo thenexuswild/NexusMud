@@ -508,7 +508,7 @@ Short      a Blood-Red Broadsword~
 Long       A deep red broadsword rests on the ground here.~
 Flags      glow magic antigood antineutral~
 WFlags     take wield~
-Values     0 2 5 1 0 0 0 0 0 0 0
+Values     5 2 5 1 1 0 0 0 0 0 0
 Stats      18 600 0 9999 0 None None None
 AffData    hitroll 1 -1 -1 0
 AffData    Strength -1 -1 -1 0
@@ -538,7 +538,7 @@ Flags      antigood~
 WFlags     take body~
 Values     3 3 0 3 0 0 0 0 0 0 0
 Stats      5 250 0 9999 0 None None None
-AffData    Dexterity 1 -1 -1 0
+AffData    Dexterity 2 -1 -1 0
 #ENDOBJECT
 
 #OBJECT
@@ -562,7 +562,7 @@ Short      a black trident~
 Long       A large, black trident rests on the ground.~
 Flags      glow hum nodrop antigood~
 WFlags     take wield~
-Values     0 3 4 6 0 0 0 0 0 0 0
+Values     5 3 4 6 2 0 0 0 0 0 0
 Stats      20 2400 0 9999 0 None None None
 AffData    Dexterity 2 -1 -1 0
 AffData    Strength -2 -1 -1 0
@@ -703,7 +703,7 @@ Short      a flaming sword made of white onyx~
 Long       A long, white sword, encased in bright flames, lies here on the ground.~
 Flags      glow magic antigood~
 WFlags     take wield~
-Values     0 2 6 1 0 0 0 0 0 0 0
+Values     5 2 6 1 1 0 0 0 0 0 0
 Stats      10 4000 0 9999 0 None None None
 AffData    hitroll 1 -1 -1 0
 AffData    mana 35 -1 -1 0
@@ -716,7 +716,7 @@ Type       weapon~
 Short      a huge battle axe~
 Long       A large, heavy-looking battle axe rests on the shelf.~
 WFlags     take wield~
-Values     0 2 10 1 0 0 0 0 0 0 0
+Values     5 2 10 1 9 0 0 0 0 0 0
 Stats      30 10000 0 9999 0 None None None
 AffData    hitroll -2 -1 -1 0
 AffData    damroll 2 -1 -1 0
