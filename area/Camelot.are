@@ -5048,7 +5048,7 @@ Reset M    28500 1 28520 -1 -1 -1 100
 Vnum        28530
 Name       In the Dumbwaiter~
 Sector     indoors~
-Flags      indoors teleport teleshowdesc~
+Flags      indoors teleport teleshowdesc nomob~
 Stats       30  28540 0 0 100000
 Desc       You manipulate the strings in the dumbwaiter to move it around.
 ~
@@ -5062,7 +5062,7 @@ ToRoom     28520
 Vnum        28540
 Name       In the Dumbwaiter~
 Sector     indoors~
-Flags      indoors teleport teleshowdesc~
+Flags      indoors teleport teleshowdesc nomob~
 Stats       30  28530 0 0 100000
 Desc       You manipulate the strings in the dumbwaiter to move it around.
 ~

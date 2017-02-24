@@ -1144,7 +1144,7 @@ Type       container~
 Short      a girdle of many pouches~
 Long       A girdle lies here.~
 WFlags     take waist~
-Values     15 500 0 0 0 0 0 0 0 0 0
+Values     1500 1 0 0 0 0 0 0 0 0 0
 Stats      5 1500 0 9999 0 None None None
 #EXDESC
 ExDescKey  girdle pouches many~
@@ -1245,7 +1245,7 @@ Flags      magic~
 WFlags     take wrist~
 Values     9 4 0 0 0 0 0 0 0 0 0
 Stats      8 3000 0 9999 0 None None None
-AffData    Constitution 1 -1 -1 0
+AffData    Constitution 2 -1 -1 0
 #ENDOBJECT
 
 #OBJECT
@@ -1391,7 +1391,7 @@ Short      a small leather pack~
 Long       A small leather pack rests here.~
 Flags      magic~
 WFlags     take waist~
-Values     15 200 0 0 0 0 0 0 0 0 0
+Values     100 1 0 0 0 0 0 0 0 0 0
 Stats      9 250 0 9999 0 None None None
 #EXDESC
 ExDescKey  pack leather small~
@@ -1473,10 +1473,7 @@ WFlags     take waist hold~
 Values     9 43 0 0 0 0 0 0 0 0 0
 Stats      1 25000 0 9999 0 None None None
 AffData    save_spell -7 -1 -1 0
-AffData    armor -30 -1 -1 0
-AffData    armor -30 -1 -1 0
-AffData    armor -30 -1 -1 0
-AffData    armor -30 -1 -1 0
+AffData    armor -120 -1 -1 0
 #EXDESC
 ExDescKey  globe major~
 ExDesc     Shimmering colors move inside the globe.
@@ -1522,7 +1519,7 @@ WFlags     take finger~
 Values     9 5 0 0 0 0 0 0 0 0 0
 Stats      1 1000 0 9999 0 None None None
 AffData    damroll 1 -1 -1 0
-AffData    mana 10 -1 -1 0
+AffData    mana 15 -1 -1 0
 #ENDOBJECT
 
 #OBJECT
@@ -1544,7 +1541,7 @@ Short      Mahn-Tor's Great Axe~
 Long       An extremely huge axe is resting here.~
 Flags      hum magic~
 WFlags     take wield hold~
-Values     5 0 5 5 3 0 0 0 0 0 0
+Values     3 5 5 9 3 0 0 0 0 0 0
 Stats      26 25000 0 9999 0 None None None
 AffData    hitroll 3 -1 -1 0
 AffData    damroll 3 -1 -1 0
@@ -2063,7 +2060,7 @@ Type       container~
 Short      a belt pouch~
 Long       A belt pouch lies here.~
 WFlags     take waist~
-Values     15 75 0 0 0 0 0 0 0 0 0
+Values     150 1 0 0 0 0 0 0 0 0 0
 Stats      5 850 0 9999 0 None None None
 AffData    damroll 1 -1 -1 0
 #ENDOBJECT

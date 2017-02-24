@@ -1144,7 +1144,6 @@ Affected  detect_invis detect_hidden sanctuary truesight~
 Bodyparts head heart~
 #ENDMOBILE
 
-
 #OBJECT
 Vnum      1000
 Keywords  drink kylar o010~
@@ -1988,7 +1987,7 @@ endif
 Progtype  speech_prog~
 Arglist   p run camelot~
 Comlist   if level($n) >= 1
-mptrlook 0.$n 2710
+mptrlook 0.$n 27100
 endif
 ~
 #ENDPROG
@@ -6667,7 +6666,7 @@ Name      The Morgue~
 Sector    indoors~
 Flags     nomob safe nodrop noquit~
 Stats     0 0 0 0 100000
-Desc          This room smells like embalming fluid.  You can see many corpses on the 
+Desc      This room smells like embalming fluid.  You can see many corpses on the 
 ground here.  Please do not touch any corpse but your own.
 ~
 #EXIT
@@ -6683,15 +6682,15 @@ Name      Healing Sanctum~
 Sector    indoors~
 Flags     nomob safe~
 Stats     0 0 0 0 100000
-Desc        You feel like your spirts are raised.  almost feels like your regaining mana
+Desc      You feel like your spirts are raised.  almost feels like your regaining mana
 and hps faster here.
 ~
 #EXIT
 Direction west~
 ToRoom    1128
 #ENDEXIT
-Reset M 1047 2 1157 -1 -1 -1 100
 
+Reset M 1047 2 1157 -1 -1 -1 100
 #ENDROOM
 
 #ENDAREA
