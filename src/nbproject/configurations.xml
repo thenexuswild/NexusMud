@@ -107,7 +107,6 @@
       </toolsSet>
       <flagsDictionary>
         <element flagsID="0" commonFlags="-mtune=generic -march=x86-64 -Os -std=c++11"/>
-        <element flagsID="1" commonFlags="-std=c++0x -Os"/>
       </flagsDictionary>
       <codeAssistance>
       </codeAssistance>
@@ -117,6 +116,11 @@
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
           <executablePath>afkmud</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+          </ccTool>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
@@ -124,584 +128,335 @@
         </preBuild>
       </makefileType>
       <item path="act_comm.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="act_info.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="act_move.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="act_obj.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="act_wiz.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="archery.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="area.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="area_fussconvert.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="area_oldafk.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="areaconvert.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="auction.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="ban.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="bits.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="boards.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="build.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="calendar.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="channels.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="character.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="chess.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="clans.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="color.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="comm.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="commands.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="comments.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="connhist.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="const.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="db.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="deity.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="descriptor.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="editor.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="environment.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="event.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="event_handler.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="features.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="fight.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="finger.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="handler.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="hashstr.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="help.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="hotboot.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="imc.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="imm_host.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="liquids.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="magic.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mapout.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mapper.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="misc.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mobindex.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="modules.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mspecial.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mssp.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mud_comm.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mud_prog.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="mudcfg.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="new_auth.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="object.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="objindex.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="olcmob.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="olcobj.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="olcroom.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="overland.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="pfiles.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="player.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="polymorph.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="rare.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="realms.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="renumber.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="reset.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="resolver.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="0">
-          <incDir>
-            <pElem>.</pElem>
-          </incDir>
         </ccTool>
       </item>
       <item path="roomindex.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="save.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="sha256.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="ships.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="shops.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="skills.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="skyship.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="slay.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="tables.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="track.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="treasure.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="update.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="variables.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
       <item path="web.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="1">
-          <preprocessorList>
-            <Elem>IMC</Elem>
-          </preprocessorList>
+        <ccTool flags="0">
         </ccTool>
       </item>
     </conf>

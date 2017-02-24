@@ -283,45 +283,45 @@ int align_compute( char_data * ch, char_data * victim )
    Code provided by Sten */
 void class_monitor( char_data * ch )
 {
-   if( ch->Class == CLASS_RANGER && ch->alignment < -350 )
-   {
-      ch->print( "You are no longer worthy of your powers as a ranger.....\r\n" );
-      ch->print( "A strange feeling comes over you as you become a mere warrior!\r\n" );
-      ch->Class = CLASS_WARRIOR;
-   }
+//   if( ch->Class == CLASS_RANGER && ch->alignment < -350 )
+//   {
+//      ch->print( "You are no longer worthy of your powers as a ranger.....\r\n" );
+//      ch->print( "A strange feeling comes over you as you become a mere warrior!\r\n" );
+//      ch->Class = CLASS_WARRIOR;
+//   }
 
-   if( ch->Class == CLASS_ANTIPALADIN && ch->alignment > -350 )
-   {
-      ch->print( "You are no longer worthy of your powers as an antipaladin.....\r\n" );
-      ch->print( "A strange feeling comes over you as you become a mere warrior!\r\n" );
-      ch->Class = CLASS_WARRIOR;
-   }
+//   if( ch->Class == CLASS_ANTIPALADIN && ch->alignment > -350 )
+//   {
+//      ch->print( "You are no longer worthy of your powers as an antipaladin.....\r\n" );
+//      ch->print( "A strange feeling comes over you as you become a mere warrior!\r\n" );
+//      ch->Class = CLASS_WARRIOR;
+//   }
 
-   if( ch->Class == CLASS_PALADIN && ch->alignment < 350 )
-   {
-      ch->print( "You are no longer worthy of your powers as a paladin.....\r\n" );
-      ch->print( "A strange feeling comes over you as you become a mere warrior!\r\n" );
-      ch->Class = CLASS_WARRIOR;
-   }
+//   if( ch->Class == CLASS_PALADIN && ch->alignment < 350 )
+//   {
+//      ch->print( "You are no longer worthy of your powers as a paladin.....\r\n" );
+//      ch->print( "A strange feeling comes over you as you become a mere warrior!\r\n" );
+//      ch->Class = CLASS_WARRIOR;
+//   }
 
-   if( ch->Class == CLASS_DRUID && ( ch->alignment < -349 || ch->alignment > 349 ) )
-   {
-      ch->print( "You are no longer worthy of your powers as a druid.....\r\n" );
-      ch->print( "A strange feeling comes over you as you become a mere cleric!\r\n" );
-      ch->Class = CLASS_CLERIC;
-   }
+//   if( ch->Class == CLASS_DRUID && ( ch->alignment < -349 || ch->alignment > 349 ) )
+//   {
+//      ch->print( "You are no longer worthy of your powers as a druid.....\r\n" );
+//      ch->print( "A strange feeling comes over you as you become a mere cleric!\r\n" );
+//      ch->Class = CLASS_CLERIC;
+//   }
 
-   if( ch->Class == CLASS_RANGER && ( ch->alignment < -249 && ch->alignment >= -350 ) )
-      ch->printf( "You are straying from your cause against evil %s!", ch->name );
-
-   if( ch->Class == CLASS_ANTIPALADIN && ( ch->alignment > -449 && ch->alignment <= -351 ) )
-      ch->printf( "You are straying from your evil ways %s!", ch->name );
-
-   if( ch->Class == CLASS_PALADIN && ( ch->alignment < 449 && ch->alignment >= 350 ) )
-      ch->printf( "You are straying from your rightious ways %s!", ch->name );
-
-   if( ch->Class == CLASS_DRUID && ( ch->alignment < -249 || ch->alignment > 249 ) )
-      ch->printf( "You are straying from the balanced path %s!", ch->name );
+//   if( ch->Class == CLASS_RANGER && ( ch->alignment < -249 && ch->alignment >= -350 ) )
+//      ch->printf( "You are straying from your cause against evil %s!", ch->name );
+//
+//   if( ch->Class == CLASS_ANTIPALADIN && ( ch->alignment > -449 && ch->alignment <= -351 ) )
+//      ch->printf( "You are straying from your evil ways %s!", ch->name );
+//
+//   if( ch->Class == CLASS_PALADIN && ( ch->alignment < 449 && ch->alignment >= 350 ) )
+//      ch->printf( "You are straying from your rightious ways %s!", ch->name );
+//
+//   if( ch->Class == CLASS_DRUID && ( ch->alignment < -249 || ch->alignment > 249 ) )
+//      ch->printf( "You are straying from the balanced path %s!", ch->name );
 }
 
 char_data *char_data::who_fighting(  )
