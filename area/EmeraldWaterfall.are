@@ -536,7 +536,7 @@ Short      Emerald Sea Serpent Fangs~
 Long       A pair of long sharp emerald sea serpent fangs lie here.~
 Flags      glow hum magic antineutral~
 WFlags     take wield hold~
-Values     0 8 3 6 0 0 0 0 0 0 0
+Values     10 8 3 6 2 0 0 0 0 0 0
 Stats      10 0 0 9999 0 None None None
 AffData    damroll 2 -1 -1 0
 AffData    mana -5 -1 -1 0
@@ -675,7 +675,7 @@ Short      Emerald Scorpion Stinger~
 Long       A stinger from an emerald scorpion is on the ground dripping poison.~
 Flags      glow antineutral~
 WFlags     take wield hold~
-Values     0 4 4 6 0 0 0 0 0 0 0
+Values     5 4 4 6 2 0 0 0 0 0 0
 Stats      5 0 0 9999 0 None None None
 AffData    damroll 1 -1 -1 0
 #ENDOBJECT

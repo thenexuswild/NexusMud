@@ -4098,7 +4098,7 @@ Type       weapon~
 Short      ornate wakizashi~
 Long       A wakisashi of exceptional quality has been left here.~
 WFlags     take wield hold~
-Values     0 3 5 1 0 0 0 0 0 0 0
+Values     5 3 5 1 2 0 0 0 0 0 0
 Stats      2 1000 0 9999 0 None None None
 AffData    damroll 2 -1 -1 0
 #EXDESC
@@ -4841,7 +4841,7 @@ Type       weapon~
 Short      ornate pair of chopsticks.~
 Long       An ornate pair of chopsticks are lying here, ready to be laquered.~
 WFlags     take wield~
-Values     0 5 1 6 0 0 0 0 0 0 0
+Values     5 5 1 6 2 0 0 0 0 0 0
 Stats      1 600 0 9999 0 None None None
 #EXDESC
 ExDescKey  chopsticks laquered~
@@ -4859,7 +4859,7 @@ Type       weapon~
 Short      katana~
 Long       A fine, slightly curved blade lies here.~
 WFlags     take wield~
-Values     0 3 4 1 0 0 0 0 0 0 0
+Values     5 3 4 1 1 0 0 0 0 0 0
 Stats      12 800 0 9999 0 None None None
 #EXDESC
 ExDescKey  katana blade fine curved~
@@ -4876,7 +4876,7 @@ Type       weapon~
 Short      wakizashi~
 Long       A short, slightly curved blade, suitable for sepuku has been left unused here.~
 WFlags     take wield hold~
-Values     0 3 3 1 0 0 0 0 0 0 0
+Values     5 3 3 1 1 0 0 0 0 0 0
 Stats      8 600 0 9999 0 None None None
 #EXDESC
 ExDescKey  wakizashi short curved blade~
@@ -4894,7 +4894,7 @@ Type       staff~
 Short      tanto~
 Long       A small, curved blade, suitable for slashing one's own neck, lies unused here.~
 WFlags     take wield~
-Values     0 3 2  0 0 0 0 0 0 0
+Values     5 3 2 1 1 0 0 0 0 0 0
 Stats      6 250 0 9999 0 None None None
 #EXDESC
 ExDescKey  tanto curved blade small~
@@ -4912,7 +4912,7 @@ Type       weapon~
 Short      bisento~
 Long       A japanese-style halberd has been left here.~
 WFlags     take wield~
-Values     0 2 7 5 0 0 0 0 0 0 0
+Values     5 2 7 5 5 0 0 0 0 0 0
 Stats      16 1200 0 9999 0 None None None
 #EXDESC
 ExDescKey  bisento halberd~
@@ -4929,7 +4929,7 @@ Type       weapon~
 Short      masakari~
 Long       A vicious-looking axe has been left here.~
 WFlags     take wield~
-Values     0 1 10 5 0 0 0 0 0 0 0
+Values     5 1 10 1 9 0 0 0 0 0 0
 Stats      10 400 0 9999 0 None None None
 #EXDESC
 ExDescKey  masakari battle axe~
@@ -4946,7 +4946,7 @@ Type       weapon~
 Short      no-dachi~
 Long       You see a large, two handed sword lying in the dirt here.~
 WFlags     take wield~
-Values     0 2 7 5 0 0 0 0 0 0 0
+Values     5 2 7 1 1 0 0 0 0 0 0
 Stats      20 1800 0 9999 0 None None None
 #EXDESC
 ExDescKey  no dachi two handed sword~
@@ -4963,7 +4963,7 @@ Type       weapon~
 Short      long sword~
 Long       A long sword has been left here.~
 WFlags     take wield~
-Values     0 1 8 1 0 0 0 0 0 0 0
+Values     5 1 8 1 1 0 0 0 0 0 0
 Stats      8 120 0 9999 0 None None None
 #ENDOBJECT
 
@@ -4974,7 +4974,7 @@ Type       weapon~
 Short      small sword~
 Long       A trusty small sword has been left out to rust here.~
 WFlags     take wield~
-Values     0 1 6 6 0 0 0 0 0 0 0
+Values     5 1 6 1 1 0 0 0 0 0 0
 Stats      3 50 0 9999 0 None None None
 #ENDOBJECT
 
@@ -4985,7 +4985,7 @@ Type       weapon~
 Short      yari~
 Long       A long, sturdy spear lies here.~
 WFlags     take wield~
-Values     0 2 5 6 0 0 0 0 0 0 0
+Values     5 2 5 6 10 0 0 0 0 0 0
 Stats      10 980 0 9999 0 None None None
 #EXDESC
 ExDescKey  yari spear~
@@ -5003,7 +5003,7 @@ Short      black-laquered katana~
 Long       An ornate, black laquered katana lies here.~
 Flags      antigood~
 WFlags     take wield~
-Values     0 5 5 1 0 0 0 0 0 0 0
+Values     5 5 5 1 1 0 0 0 0 0 0
 Stats      12 10000 0 9999 0 None None None
 AffData    damroll 2 -1 -1 0
 AffData    Dexterity 2 -1 -1 0
@@ -5041,7 +5041,7 @@ Type       weapon~
 Short      sai~
 Long       A blunt, dagger-shaped weapon has been abandoned here.~
 WFlags     take wield hold~
-Values     0 2 4 4 0 0 0 0 0 0 0
+Values     5 2 4 2 0 0 0 0 0 0 0
 Stats      6 200 0 9999 0 None None None
 AffData    hitroll 1 -1 -1 0
 #EXDESC
@@ -5060,7 +5060,7 @@ Type       weapon~
 Short      tonfa~
 Long       A peasant has left his millet grinding stick, called a tonfa, here.~
 WFlags     take wield hold~
-Values     0 3 3 4 0 0 0 0 0 0 0
+Values     5 3 3 4 0 0 0 0 0 0 0
 Stats      6 200 0 9999 0 None None None
 AffData    hitroll 1 -1 -1 0
 #EXDESC
@@ -5078,7 +5078,7 @@ Type       weapon~
 Short      pike~
 Long       A very long spear has been left here.~
 WFlags     take wield~
-Values     0 3 4 6 0 0 0 0 0 0 0
+Values     5 3 4 6 10 0 0 0 0 0 0
 Stats      12 300 0 9999 0 None None None
 #EXDESC
 ExDescKey  pike long spear~
@@ -5095,7 +5095,7 @@ Type       weapon~
 Short      pellet bow~
 Long       A bow which fires stones has been left leaning up against a wall here.~
 WFlags     take wield~
-Values     0 2 5 6 0 0 0 0 0 0 0
+Values     5 2 5 6 6 1 0 0 0 0 0
 Stats      8 300 0 9999 0 None None None
 #EXDESC
 ExDescKey  bow pellet~
@@ -5113,7 +5113,7 @@ Type       weapon~
 Short      hankyu~
 Long       A short bow has been left to rot here.~
 WFlags     take wield~
-Values     0 2 6 6 0 0 0 0 0 0 0
+Values     5 2 6 6 6 1 0 0 0 0 0
 Stats      4 500 0 9999 0 None None None
 #ENDOBJECT
 
@@ -5124,7 +5124,7 @@ Type       weapon~
 Short      crossbow~
 Long       A crossbow is hanging on the wall here.~
 WFlags     take wield~
-Values     0 4 2 6 0 0 0 0 0 0 0
+Values     5 4 2 6 6 0 0 0 0 0 0
 Stats      8 500 0 9999 0 None None None
 #ENDOBJECT
 
@@ -5135,7 +5135,7 @@ Type       weapon~
 Short      chukonu~
 Long       A strange-looking crossbow lies on the ground here.~
 WFlags     take wield~
-Values     0 4 3 6 0 0 0 0 0 0 0
+Values     5 4 3 6 6 0 0 0 0 0 0
 Stats      8 1000 0 9999 0 None None None
 #EXDESC
 ExDescKey  chukonu crossbow strange~
@@ -5421,7 +5421,7 @@ Short      nekode~
 Long       A ninja has left his climbing claws here.~
 Flags      antigood~
 WFlags     take hands wield~
-Values     0 4 2 1 0 0 0 0 0 0 0
+Values     5 4 2 1 0 0 0 0 0 0 0
 Stats      10 1200 0 9999 0 None None None
 #EXDESC
 ExDescKey  claws climbing nekode~
@@ -5535,7 +5535,7 @@ Type       weapon~
 Short      musket~
 Long       A flintlock musket, loaded and ready, lies here.~
 WFlags     take wield~
-Values     0 2 13 4 0 0 0 0 0 0 0
+Values     5 2 13 6 0 0 0 0 0 0 0
 Stats      12 20000 0 9999 0 None None None
 AffData    hitroll -5 -1 -1 0
 AffData    damroll 4 -1 -1 0
@@ -5555,7 +5555,7 @@ Type       weapon~
 Short      flintlock pistol~
 Long       A flintlock pistol has been left behind here.~
 WFlags     take wield~
-Values     0 2 12 4 0 0 0 0 0 0 0
+Values     5 2 12 6 0 0 0 0 0 0 0
 Stats      8 20000 0 9999 0 None None None
 AffData    hitroll -3 -1 -1 0
 AffData    damroll 4 -1 -1 0
@@ -5650,7 +5650,7 @@ Short      a bronze dragonscale dagger~
 Long       A dragon horn floats in mid-air here.~
 Flags      magic antineutral~
 WFlags     take wield~
-Values     0 8 3 6 0 0 0 0 0 0 0
+Values     5 8 3 6 2 0 0 0 0 0 0
 Stats      8 30000 0 9999 0 None None None
 AffData    hitroll -2 -1 -1 0
 AffData    hit 15 -1 -1 0
@@ -5663,7 +5663,7 @@ Type       weapon~
 Short      tetsubo~
 Long       A heavy, studded rod, called a testubo, has been left here.~
 WFlags     take wield~
-Values     0 2 6 4 0 0 0 0 0 0 0
+Values     5 2 6 4 0 0 0 0 0 0 0
 Stats      12 1000 0 9999 0 None None None
 #EXDESC
 ExDescKey  testubo~
@@ -5700,7 +5700,7 @@ Type       weapon~
 Short      a Jet Black Mace~
 Long       A jet black mace lies in the dirt here.~
 WFlags     take wield~
-Values     0 3 4 4 0 0 0 0 0 0 0
+Values     5 3 4 4 5 0 0 0 0 0 0
 Stats      12 10000 0 9999 0 None None None
 AffData    hitroll 2 -1 -1 0
 AffData    damroll 2 -1 -1 0
@@ -5719,7 +5719,7 @@ Type       weapon~
 Short      jet black bow~
 Long       A bow used by the priests of Raiden has been left here.~
 WFlags     take wield~
-Values     0 5 3 4 0 0 0 0 0 0 0
+Values     5 5 3 6 1 0 0 0 0 0 0
 Stats      10 12000 0 9999 0 None None None
 AffData    hitroll 2 -1 -1 0
 AffData    damroll 1 -1 -1 0
@@ -5739,7 +5739,7 @@ Short      Staff of the Sun~
 Long       A beautiful ivory staff has been left here.~
 Flags      antievil~
 WFlags     take wield~
-Values     0 5 4 4 0 0 0 0 0 0 0
+Values     5 5 4 4 11 0 0 0 0 0 0
 Stats      16 16000 0 9999 0 None None None
 AffData    hitroll 2 -1 -1 0
 AffData    damroll 2 -1 -1 0
@@ -5823,7 +5823,7 @@ Type       armor~
 Short      carved quarterstaff~
 Long       A beautifully carved quarterstaff rests up against the wall here.~
 WFlags     take wield~
-Values     0 0 0 0 0 0 0 0 0 0 0
+Values     5 3 4 4 11 0 0 0 0 0 0
 Stats      2 67 0 9999 0 None None None
 #ENDOBJECT
 
@@ -6090,7 +6090,7 @@ Type       container~
 Short      a bag~
 Long       A small bag sits in a corner here.~
 WFlags     take hold~
-Values     30 0 -1 10 0 -1 0 0 0 0 0
+Values     30 1 0 10 0 0 0 0 0 0 0
 Stats      1 20 0 9999 0 None None None
 #ENDOBJECT
 
@@ -6259,7 +6259,7 @@ Type       wand~
 Short      jet black wand~
 Long       A fine, jet black wand has been left here.~
 WFlags     take hold~
-Values     6 3 3  0 0 0 0 0 0 0
+Values     6 3 3 0 0 0 0 0 0 0 0
 Stats      1 5000 0 9999 0 None None None
 #ENDOBJECT
 
@@ -6560,7 +6560,7 @@ Type       weapon~
 Short      the Masamura Blade~
 Long       A beautiful Masamura Blade is on display here, in a magically locked case.~
 WFlags     wield~
-Values     0 6 6 1 0 0 0 0 0 0 0
+Values     5 6 6 1 1 0 0 0 0 0 0
 Stats      12 100000 0 9999 0 None None None
 AffData    Dexterity 3 -1 -1 0
 AffData    damroll 3 -1 -1 0
