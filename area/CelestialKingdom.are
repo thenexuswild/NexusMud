@@ -993,12 +993,11 @@ ToRoom     10797
 Desc       it is a looooong way down, not very inviting, huh?
 ~
 #ENDEXIT
-Reset M    10703 1 10796 -1 -1 -1 10
+Reset M    10703 1 10796 -1 -1 -1 100
   Reset E  10791 1 0 1
   Reset E  10790 1 17 10
-Reset M    10703 1 10796 -1 -1 -1 100
   Reset E  10783 2 0 50
-  Reset E  10790 10 17 1
+  
 #ENDROOM
 
 #ROOM
